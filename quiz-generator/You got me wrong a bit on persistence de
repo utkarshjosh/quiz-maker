@@ -1,0 +1,30 @@
+You got me wrong a bit on persistence delgation
+
+
+any db persistence should not be handle by @/quiz-generator 
+
+because this service will eventually be used by @/api-gateway  which will a user intergration backend of the system, this will call the service on behalf of a user
+and will know who called it , which user Id, 
+so after it receives response from quiz-generator (which btw still remain stateless after redis ttl kind of )
+
+but this api-gateway can provide very old thread persistance from db, giving old expried context
+and saving the thread context , just after invocation is successful on the basis of user id 
+
+the entire management and schema and delegation call will be under the control of node api-gateway service , because its his user afterall 
+
+remove the db delegation you did just now , @writeBackManager.js  not needed, 
+
+Now , our next point of work will be building this user integration service
+Doing a broad discussion--- and architecture + design
+1. user signup, login  , authentication
+2.  A user can either host quiz-- using the agent , chat with quiz , modify it , and finally save the quiz and then host it ,-----  some deterministic flow states here all saved in db
+
+3. Hosting will make a link , use log in and participate in the quiz
+4. Somehost go client will serve the purpose of socket , and finally save result in database 
+
+Make a plan on how to keep building it on top and we can keep testing 
+Keeping it simple first then going complex
+Building a good ground structure, which is modular and scallable
+
+
+
