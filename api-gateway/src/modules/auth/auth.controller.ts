@@ -1,4 +1,4 @@
-import { type NextFunction, type Request, type Response } from 'express';
+import { type NextFunction, type Request } from 'express';
 import { HttpStatusCode } from 'axios';
 import AuthService from './auth.service';
 import { type CustomResponse } from '@/types/common.type';
@@ -16,7 +16,12 @@ export default class AuthController extends Api {
     try {
       const { email, username, password } = req.body;
       const result = await this.authService.register(email, username, password);
-      this.send(res, result, HttpStatusCode.Created, 'User registered successfully');
+      this.send(
+        res,
+        result,
+        HttpStatusCode.Created,
+        'User registered successfully'
+      );
     } catch (e) {
       next(e);
     }
@@ -58,11 +63,21 @@ export default class AuthController extends Api {
     try {
       const sessionId = req.session?.id;
       if (!sessionId) {
-        return this.send(res, { message: 'No active session' }, HttpStatusCode.BadRequest, 'No active session');
+        return this.send(
+          res,
+          { message: 'No active session' },
+          HttpStatusCode.BadRequest,
+          'No active session'
+        );
       }
-      
+
       await this.authService.logout(sessionId);
-      this.send(res, { message: 'Logged out successfully' }, HttpStatusCode.Ok, 'Logout successful');
+      this.send(
+        res,
+        { message: 'Logged out successfully' },
+        HttpStatusCode.Ok,
+        'Logout successful'
+      );
     } catch (e) {
       next(e);
     }
@@ -76,13 +91,23 @@ export default class AuthController extends Api {
     try {
       const userId = req.user?.id;
       if (!userId) {
-        return this.send(res, { message: 'User not authenticated' }, HttpStatusCode.Unauthorized, 'User not authenticated');
+        return this.send(
+          res,
+          { message: 'User not authenticated' },
+          HttpStatusCode.Unauthorized,
+          'User not authenticated'
+        );
       }
-      
+
       const profile = await this.authService.getProfile(userId);
-      this.send(res, profile, HttpStatusCode.Ok, 'Profile retrieved successfully');
+      this.send(
+        res,
+        profile,
+        HttpStatusCode.Ok,
+        'Profile retrieved successfully'
+      );
     } catch (e) {
       next(e);
     }
   };
-} 
+}

@@ -1,4 +1,10 @@
-import { IsEmail, IsString, MinLength, IsOptional, IsBoolean } from 'class-validator';
+import {
+  IsEmail,
+  IsString,
+  MinLength,
+  IsOptional,
+  IsBoolean,
+} from 'class-validator';
 
 export class LoginDto {
   @IsEmail({}, { message: 'Invalid email format' })
@@ -43,4 +49,4 @@ export class ChangePasswordDto {
   @IsString({ message: 'New password must be a string' })
   @MinLength(8, { message: 'New password must be at least 8 characters long' })
   newPassword: string;
-} 
+}

@@ -1,5 +1,5 @@
 import { type NextFunction, type Request, type Response } from 'express';
-import jwt from 'jsonwebtoken';
+import jwt, { type Secret } from 'jsonwebtoken';
 import { HttpUnAuthorizedError } from '@/lib/errors';
 import prisma from '@/lib/prisma';
 import logger from '@/lib/logger';
@@ -38,33 +38,40 @@ interface JwtPayload {
  */
 const extractToken = (authHeader?: string): string | null => {
   if (!authHeader) return null;
-  
+
   const parts = authHeader.split(' ');
   if (parts.length !== 2 || parts[0] !== 'Bearer') {
     return null;
   }
-  
+
   return parts[1];
 };
 
 /**
  * Verify JWT token
  */
-const verifyToken = (token: string, type: 'access' | 'refresh' = 'access'): JwtPayload | null => {
+const verifyToken = (
+  token: string,
+  type: 'access' | 'refresh' = 'access'
+): JwtPayload | null => {
   try {
-    const secret = type === 'access' 
-      ? process.env.JWT_SECRET 
-      : process.env.JWT_REFRESH_SECRET;
-    
+    const secret =
+      type === 'access'
+        ? process.env.JWT_SECRET
+        : process.env.JWT_REFRESH_SECRET;
+
     if (!secret) {
       logger.error('JWT secret not configured');
       return null;
     }
 
     const payload = jwt.verify(token, secret) as JwtPayload;
-    
+
     if (payload.type !== type) {
-      logger.warn('Token type mismatch', { expected: type, actual: payload.type });
+      logger.warn('Token type mismatch', {
+        expected: type,
+        actual: payload.type,
+      });
       return null;
     }
 
@@ -86,13 +93,13 @@ export const verifyAuthToken = async (
 ): Promise<void> => {
   try {
     const token = extractToken(req.headers.authorization);
-    
+
     if (!token) {
       throw new HttpUnAuthorizedError('No token provided');
     }
 
     const payload = verifyToken(token, 'access');
-    
+
     if (!payload) {
       throw new HttpUnAuthorizedError('Invalid or expired token');
     }
@@ -108,10 +115,10 @@ export const verifyAuthToken = async (
         createdAt: true,
         updatedAt: true,
         lastLogin: true,
-        profileData: true
-      }
+        profileData: true,
+      },
     });
-    
+
     if (!user) {
       throw new HttpUnAuthorizedError('User not found');
     }
@@ -122,10 +129,10 @@ export const verifyAuthToken = async (
       select: {
         id: true,
         userId: true,
-        expiresAt: true
-      }
+        expiresAt: true,
+      },
     });
-    
+
     if (!session || session.expiresAt < new Date()) {
       throw new HttpUnAuthorizedError('Session expired');
     }
@@ -156,14 +163,14 @@ export const optionalAuth = async (
 ): Promise<void> => {
   try {
     const token = extractToken(req.headers.authorization);
-    
+
     if (!token) {
       next();
       return;
     }
 
     const payload = verifyToken(token, 'access');
-    
+
     if (!payload) {
       next();
       return;
@@ -180,10 +187,10 @@ export const optionalAuth = async (
         createdAt: true,
         updatedAt: true,
         lastLogin: true,
-        profileData: true
-      }
+        profileData: true,
+      },
     });
-    
+
     if (user) {
       req.user = user;
     }
@@ -214,23 +221,28 @@ export const requireRole = (role: string) => {
  * Generate JWT tokens
  */
 export const generateTokens = (userId: string, sessionId: string) => {
-  const accessTokenSecret = process.env.JWT_SECRET;
-  const refreshTokenSecret = process.env.JWT_REFRESH_SECRET;
-  
+  const accessTokenSecret: Secret = process.env.JWT_SECRET as Secret;
+  const refreshTokenSecret: Secret = process.env.JWT_REFRESH_SECRET as Secret;
+
   if (!accessTokenSecret || !refreshTokenSecret) {
     throw new Error('JWT secrets not configured');
   }
-
+  const jwtOptions = {
+    expiresIn: parseInt(process.env.JWT_EXPIRES_IN ?? '900'), // 15 minutes in seconds
+  };
   const accessToken = jwt.sign(
     { userId, sessionId, type: 'access' },
     accessTokenSecret,
-    { expiresIn: process.env.JWT_EXPIRES_IN || '15m' }
+    jwtOptions
   );
 
+  const refreshOptions = {
+    expiresIn: parseInt(process.env.JWT_REFRESH_EXPIRES_IN ?? '604800'), // 7 days in seconds
+  };
   const refreshToken = jwt.sign(
     { userId, sessionId, type: 'refresh' },
     refreshTokenSecret,
-    { expiresIn: process.env.JWT_REFRESH_EXPIRES_IN || '7d' }
+    refreshOptions
   );
 
   return { accessToken, refreshToken };

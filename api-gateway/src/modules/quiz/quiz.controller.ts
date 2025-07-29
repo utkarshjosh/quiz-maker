@@ -1,4 +1,4 @@
-import { type NextFunction, type Request, type Response } from 'express';
+import { type NextFunction, type Request } from 'express';
 import { HttpStatusCode } from 'axios';
 import QuizService from './quiz.service';
 import { type CustomResponse } from '@/types/common.type';
@@ -16,11 +16,21 @@ export default class QuizController extends Api {
     try {
       const userId = req.user?.id;
       if (!userId) {
-        return this.send(res, { message: 'User not authenticated' }, HttpStatusCode.Unauthorized, 'User not authenticated');
+        return this.send(
+          res,
+          { message: 'User not authenticated' },
+          HttpStatusCode.Unauthorized,
+          'User not authenticated'
+        );
       }
 
       const quiz = await this.quizService.generateQuiz(userId, req.body);
-      this.send(res, quiz, HttpStatusCode.Created, 'Quiz generated successfully');
+      this.send(
+        res,
+        quiz,
+        HttpStatusCode.Created,
+        'Quiz generated successfully'
+      );
     } catch (e) {
       next(e);
     }
@@ -34,7 +44,7 @@ export default class QuizController extends Api {
     try {
       const { quizId } = req.params;
       const userId = req.user?.id;
-      
+
       const quiz = await this.quizService.getQuizById(quizId, userId);
       this.send(res, quiz, HttpStatusCode.Ok, 'Quiz retrieved successfully');
     } catch (e) {
@@ -50,14 +60,24 @@ export default class QuizController extends Api {
     try {
       const userId = req.user?.id;
       if (!userId) {
-        return this.send(res, { message: 'User not authenticated' }, HttpStatusCode.Unauthorized, 'User not authenticated');
+        return this.send(
+          res,
+          { message: 'User not authenticated' },
+          HttpStatusCode.Unauthorized,
+          'User not authenticated'
+        );
       }
 
       const page = parseInt(req.query.page as string) || 1;
       const limit = parseInt(req.query.limit as string) || 10;
-      
+
       const result = await this.quizService.getUserQuizzes(userId, page, limit);
-      this.send(res, result, HttpStatusCode.Ok, 'Quizzes retrieved successfully');
+      this.send(
+        res,
+        result,
+        HttpStatusCode.Ok,
+        'Quizzes retrieved successfully'
+      );
     } catch (e) {
       next(e);
     }
@@ -71,9 +91,14 @@ export default class QuizController extends Api {
     try {
       const { quizId } = req.params;
       const userId = req.user?.id;
-      
+
       if (!userId) {
-        return this.send(res, { message: 'User not authenticated' }, HttpStatusCode.Unauthorized, 'User not authenticated');
+        return this.send(
+          res,
+          { message: 'User not authenticated' },
+          HttpStatusCode.Unauthorized,
+          'User not authenticated'
+        );
       }
 
       const quiz = await this.quizService.updateQuiz(quizId, userId, req.body);
@@ -91,13 +116,23 @@ export default class QuizController extends Api {
     try {
       const { quizId } = req.params;
       const userId = req.user?.id;
-      
+
       if (!userId) {
-        return this.send(res, { message: 'User not authenticated' }, HttpStatusCode.Unauthorized, 'User not authenticated');
+        return this.send(
+          res,
+          { message: 'User not authenticated' },
+          HttpStatusCode.Unauthorized,
+          'User not authenticated'
+        );
       }
 
       await this.quizService.deleteQuiz(quizId, userId);
-      this.send(res, { message: 'Quiz deleted successfully' }, HttpStatusCode.Ok, 'Quiz deleted successfully');
+      this.send(
+        res,
+        { message: 'Quiz deleted successfully' },
+        HttpStatusCode.Ok,
+        'Quiz deleted successfully'
+      );
     } catch (e) {
       next(e);
     }
@@ -111,13 +146,28 @@ export default class QuizController extends Api {
     try {
       const userId = req.user?.id;
       if (!userId) {
-        return this.send(res, { message: 'User not authenticated' }, HttpStatusCode.Unauthorized, 'User not authenticated');
+        return this.send(
+          res,
+          { message: 'User not authenticated' },
+          HttpStatusCode.Unauthorized,
+          'User not authenticated'
+        );
       }
 
       const { quizId, maxPlayers, title } = req.body;
-      
-      const room = await this.quizService.createQuizRoom(quizId, userId, maxPlayers, title);
-      this.send(res, room, HttpStatusCode.Created, 'Quiz room created successfully');
+
+      const room = await this.quizService.createQuizRoom(
+        quizId,
+        userId,
+        maxPlayers,
+        title
+      );
+      this.send(
+        res,
+        room,
+        HttpStatusCode.Created,
+        'Quiz room created successfully'
+      );
     } catch (e) {
       next(e);
     }
@@ -131,15 +181,144 @@ export default class QuizController extends Api {
     try {
       const { quizId } = req.params;
       const userId = req.user?.id;
-      
+
       if (!userId) {
-        return this.send(res, { message: 'User not authenticated' }, HttpStatusCode.Unauthorized, 'User not authenticated');
+        return this.send(
+          res,
+          { message: 'User not authenticated' },
+          HttpStatusCode.Unauthorized,
+          'User not authenticated'
+        );
       }
 
       const results = await this.quizService.getQuizResults(quizId, userId);
-      this.send(res, results, HttpStatusCode.Ok, 'Quiz results retrieved successfully');
+      this.send(
+        res,
+        results,
+        HttpStatusCode.Ok,
+        'Quiz results retrieved successfully'
+      );
     } catch (e) {
       next(e);
     }
   };
-} 
+
+  public getTags = async (
+    req: Request,
+    res: CustomResponse<any>,
+    next: NextFunction
+  ) => {
+    try {
+      const { limit = 10 } = req.query;
+      const tags = await this.quizService.getTags(parseInt(limit as string));
+      this.send(
+        res,
+        tags,
+        HttpStatusCode.Ok,
+        'Primary tags retrieved successfully'
+      );
+    } catch (e) {
+      next(e);
+    }
+  };
+
+  public getSecondaryTags = async (
+    req: Request,
+    res: CustomResponse<any>,
+    next: NextFunction
+  ) => {
+    try {
+      const { primaryTagId } = req.params;
+      if (!primaryTagId) {
+        return this.send(
+          res,
+          { message: 'Primary tag ID is required' },
+          HttpStatusCode.BadRequest,
+          'Primary tag ID is required'
+        );
+      }
+
+      const tags = await this.quizService.getSecondaryTags(primaryTagId);
+      this.send(
+        res,
+        tags,
+        HttpStatusCode.Ok,
+        'Secondary tags retrieved successfully'
+      );
+    } catch (e) {
+      next(e);
+    }
+  };
+
+  public getQuizzesByCategory = async (
+    req: Request,
+    res: CustomResponse<any>,
+    next: NextFunction
+  ) => {
+    try {
+      const { primaryTagId } = req.params;
+      const { secondaryTagId } = req.query;
+      const page = parseInt(req.query.page as string) || 1;
+      const limit = parseInt(req.query.limit as string) || 10;
+
+      if (!primaryTagId) {
+        return this.send(
+          res,
+          { message: 'Primary tag ID is required' },
+          HttpStatusCode.BadRequest,
+          'Primary tag ID is required'
+        );
+      }
+
+      const quizzes = await this.quizService.getQuizzesByCategory(
+        primaryTagId,
+        secondaryTagId as string | undefined,
+        page,
+        limit
+      );
+
+      this.send(
+        res,
+        quizzes,
+        HttpStatusCode.Ok,
+        'Quizzes retrieved successfully'
+      );
+    } catch (e) {
+      next(e);
+    }
+  };
+
+  public getQuizzesByTags = async (
+    req: Request,
+    res: CustomResponse<any>,
+    next: NextFunction
+  ) => {
+    try {
+      const { primaryTagId, secondaryTagIds } = req.query;
+      const page = parseInt(req.query.page as string) || 1;
+      const limit = parseInt(req.query.limit as string) || 10;
+
+      const parsedSecondaryTagIds = secondaryTagIds
+        ? Array.isArray(secondaryTagIds)
+          ? secondaryTagIds
+          : [secondaryTagIds]
+        : undefined;
+
+      const quizzes = await this.quizService.getQuizzesByTags(
+        primaryTagId as string | undefined,
+        parsedSecondaryTagIds as string[] | undefined,
+        page,
+        limit
+      );
+
+      this.send(
+        res,
+        quizzes,
+        HttpStatusCode.Ok,
+        'Quizzes retrieved successfully'
+      );
+    } catch (e) {
+      next(e);
+    }
+  };
+}

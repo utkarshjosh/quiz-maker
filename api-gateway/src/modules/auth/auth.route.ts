@@ -72,11 +72,7 @@ auth.post(
  * @return {AuthResponse} 200 - Login successful
  * @return {object} 401 - Invalid credentials
  */
-auth.post(
-  '/login',
-  RequestValidator.validate(LoginDto),
-  controller.login
-);
+auth.post('/login', RequestValidator.validate(LoginDto), controller.login);
 
 /**
  * POST /auth/refresh
@@ -100,11 +96,7 @@ auth.post(
  * @return {object} 200 - Logout successful
  * @return {object} 401 - Unauthorized
  */
-auth.post(
-  '/logout',
-  verifyAuthToken,
-  controller.logout
-);
+auth.post('/logout', verifyAuthToken, controller.logout);
 
 /**
  * GET /auth/profile
@@ -114,10 +106,6 @@ auth.post(
  * @return {ProfileResponse} 200 - Profile retrieved successfully
  * @return {object} 401 - Unauthorized
  */
-auth.get(
-  '/profile',
-  verifyAuthToken,
-  controller.getProfile
-);
+auth.get('/profile', verifyAuthToken, controller.getProfile);
 
-export default auth; 
+export default auth;

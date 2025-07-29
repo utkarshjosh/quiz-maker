@@ -26,7 +26,7 @@ export default class HealthService {
       status: 'healthy',
       timestamp: new Date().toISOString(),
       service: 'api-gateway',
-      version: process.env.npm_package_version || '1.0.0',
+      version: process.env.npm_package_version ?? '1.0.0',
       environment: environment.env,
       uptime: process.uptime(),
     };
@@ -34,20 +34,20 @@ export default class HealthService {
 
   public async getDetailedHealth(): Promise<HealthStatus> {
     const startTime = Date.now();
-    
+
     try {
       // Check database connection
       const dbHealthy = await this.checkDatabaseHealth();
-      
+
       // TODO: Add Redis health check
       // const redisHealthy = await this.checkRedisHealth();
-      
+
       // TODO: Add external service health checks
       // const quizGeneratorHealthy = await this.checkServiceHealth(process.env.QUIZ_GENERATOR_URL);
       // const realtimeServiceHealthy = await this.checkServiceHealth(process.env.REALTIME_SERVICE_URL);
 
       const dependencies = {
-        database: dbHealthy ? 'healthy' as const : 'unhealthy' as const,
+        database: dbHealthy ? ('healthy' as const) : ('unhealthy' as const),
         redis: 'unknown' as const, // TODO: Implement Redis health check
         quizGenerator: 'unknown' as const, // TODO: Implement service health check
         realtimeService: 'unknown' as const, // TODO: Implement service health check
@@ -60,7 +60,7 @@ export default class HealthService {
         status: overallHealthy ? 'healthy' : 'unhealthy',
         timestamp: new Date().toISOString(),
         service: 'api-gateway',
-        version: process.env.npm_package_version || '1.0.0',
+        version: process.env.npm_package_version ?? '1.0.0',
         environment: environment.env,
         uptime: process.uptime(),
         responseTime: `${responseTime}ms`,
@@ -70,12 +70,12 @@ export default class HealthService {
       };
     } catch (error) {
       logger.error('Health check failed:', error);
-      
+
       return {
         status: 'unhealthy',
         timestamp: new Date().toISOString(),
         service: 'api-gateway',
-        version: process.env.npm_package_version || '1.0.0',
+        version: process.env.npm_package_version ?? '1.0.0',
         environment: environment.env,
         uptime: process.uptime(),
         responseTime: `${Date.now() - startTime}ms`,
@@ -115,4 +115,4 @@ export default class HealthService {
   //     return false;
   //   }
   // }
-} 
+}

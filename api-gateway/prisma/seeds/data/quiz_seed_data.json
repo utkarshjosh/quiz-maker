@@ -1,0 +1,4342 @@
+{
+  "tags": [
+    {
+      "name": "Science",
+      "slug": "science",
+      "isPrimary": true,
+      "icon": "TestTube",
+      "color": "text-green-500",
+      "description": "Scientific concepts and knowledge"
+    },
+    {
+      "name": "Technology",
+      "slug": "technology",
+      "isPrimary": true,
+      "icon": "Laptop",
+      "color": "text-blue-500",
+      "description": "Technology and computer science"
+    },
+    {
+      "name": "Mathematics",
+      "slug": "mathematics",
+      "isPrimary": true,
+      "icon": "Calculator",
+      "color": "text-purple-500",
+      "description": "Mathematical concepts and problems"
+    },
+    {
+      "name": "History",
+      "slug": "history",
+      "isPrimary": true,
+      "icon": "Clock",
+      "color": "text-amber-700",
+      "description": "Historical events and figures"
+    },
+    {
+      "name": "Arts",
+      "slug": "arts",
+      "isPrimary": true,
+      "icon": "Palette",
+      "color": "text-pink-500",
+      "description": "Arts and creative fields"
+    },
+    {
+      "name": "Social Sciences",
+      "slug": "social-sciences",
+      "isPrimary": true,
+      "icon": "Users",
+      "color": "text-orange-500",
+      "description": "Study of human society"
+    },
+    {
+      "name": "Professional",
+      "slug": "professional",
+      "isPrimary": true,
+      "icon": "Briefcase",
+      "color": "text-gray-700",
+      "description": "Professional and career fields"
+    },
+    {
+      "name": "General Knowledge",
+      "slug": "general-knowledge",
+      "isPrimary": true,
+      "icon": "Globe",
+      "color": "text-indigo-500",
+      "description": "General knowledge and trivia"
+    },
+    {
+      "name": "Beginner",
+      "slug": "beginner",
+      "isPrimary": false,
+      "icon": "Star",
+      "color": "text-green-400",
+      "description": "Entry-level questions"
+    },
+    {
+      "name": "Intermediate",
+      "slug": "intermediate",
+      "isPrimary": false,
+      "icon": "StarHalf",
+      "color": "text-yellow-500",
+      "description": "Medium difficulty questions"
+    },
+    {
+      "name": "Advanced",
+      "slug": "advanced",
+      "isPrimary": false,
+      "icon": "Stars",
+      "color": "text-red-500",
+      "description": "Challenging questions"
+    },
+    {
+      "name": "Multiple Choice",
+      "slug": "multiple-choice",
+      "isPrimary": false,
+      "icon": "ListChecks",
+      "color": "text-blue-400",
+      "description": "Questions with multiple choices"
+    },
+    {
+      "name": "Quick Quiz",
+      "slug": "quick-quiz",
+      "isPrimary": false,
+      "icon": "Timer",
+      "color": "text-purple-400",
+      "description": "Short quizzes under 5 minutes"
+    },
+    {
+      "name": "Comprehensive",
+      "slug": "comprehensive",
+      "isPrimary": false,
+      "icon": "BookOpen",
+      "color": "text-emerald-500",
+      "description": "In-depth quizzes with detailed explanations"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "00b30e46-a2bb-40e7-baa7-e99506ef6085",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Stem Quiz",
+      "description": "Test your knowledge of Stem",
+      "difficulty": "medium",
+      "timeLimit": 900,
+      "totalQuestions": 15,
+      "quizData": {
+        "questions": [
+          {
+            "id": "93ef9b1c-fc39-4d22-8f25-c6c05a9c4beb",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Find the sum of the primes between 100 and 200, inclusive, that are 1 or 2 more than a perfect square.",
+            "explanation": "The correct answer is: 298",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "102"
+              },
+              {
+                "id": "1",
+                "text": "298"
+              },
+              {
+                "id": "2",
+                "text": "256"
+              },
+              {
+                "id": "3",
+                "text": "300"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "a3bc9e01-4372-4de9-996a-cfcde8da8a46",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Statement 1 | The unity of a subring must be the same as the unity of the ring. Statement 2 | Every field is an integral domain.",
+            "explanation": "The correct answer is: False, True",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "True, True"
+              },
+              {
+                "id": "1",
+                "text": "False, False"
+              },
+              {
+                "id": "2",
+                "text": "True, False"
+              },
+              {
+                "id": "3",
+                "text": "False, True"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "1bc429a8-4e2b-4e2e-a62d-585f9aa8fba4",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Statement 1| Every group of order p^2 where p is prime is Abelian. Statement 2 | For a fixed prime p a Sylow p-subgroup of a group G is a normal subgroup of G if and only if it is the only Sylow p-subgroup of G.",
+            "explanation": "The correct answer is: True, True",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "True, True"
+              },
+              {
+                "id": "1",
+                "text": "False, False"
+              },
+              {
+                "id": "2",
+                "text": "True, False"
+              },
+              {
+                "id": "3",
+                "text": "False, True"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "722e0d00-20d4-4cd7-88f7-8c1c16ae0ebd",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+            "explanation": "The correct answer is: 4",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "0"
+              },
+              {
+                "id": "1",
+                "text": "4"
+              },
+              {
+                "id": "2",
+                "text": "2"
+              },
+              {
+                "id": "3",
+                "text": "6"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "02009dd7-7f97-491e-8f50-26bd4767bdaf",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Statement 1 | If H and K are subgroups of G and one of H or K is normal subgroup of G, then HK is a subgroup of G. Statement 2 | All groups of order p^2 where p is prime are Abelian.",
+            "explanation": "The correct answer is: True, True",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "True, True"
+              },
+              {
+                "id": "1",
+                "text": "False, False"
+              },
+              {
+                "id": "2",
+                "text": "True, False"
+              },
+              {
+                "id": "3",
+                "text": "False, True"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "77ab1205-f88e-4672-bfa2-dcf9132f973c",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Rita is moving a pile of 120 rocks by hand to build a rock wall. If h represents the number of rocks that she can carry in one load, which expression represents the total number of loads needed to move the entire pile of rocks?",
+            "explanation": "The correct answer is: 120/h",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "120 +h"
+              },
+              {
+                "id": "1",
+                "text": "120h"
+              },
+              {
+                "id": "2",
+                "text": "120 \u2212h"
+              },
+              {
+                "id": "3",
+                "text": "120/h"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "4c6fad47-fc2d-43c9-9fad-e3c28927bb19",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A box contains 4 white balls and 4 black balls. I draw them out of the box, one at a time. What is the probability that all of my draws alternate colors?",
+            "explanation": "The correct answer is: \\frac{1}{35}",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "\\frac{1}{8}"
+              },
+              {
+                "id": "1",
+                "text": "\\frac{1}{7}"
+              },
+              {
+                "id": "2",
+                "text": "\\frac{1}{40}"
+              },
+              {
+                "id": "3",
+                "text": "\\frac{1}{35}"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "60608ca2-757f-44dc-8adb-ba52b146cc32",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Low frequency supply is necessary for direct core type induction furnaces because",
+            "explanation": "The correct answer is: Both A and B.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "With normal frequeny supply the electromagnetic forces causes severe stirring action in the molten metal."
+              },
+              {
+                "id": "1",
+                "text": "Magnetic coupling between the primary and secondary circuit is poor."
+              },
+              {
+                "id": "2",
+                "text": "Both A and B."
+              },
+              {
+                "id": "3",
+                "text": "None of the above."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "d86e2181-0dbc-4256-890d-09ad1a44f0b2",
+            "type": "MULTIPLE_CHOICE",
+            "question": "By definition, the electric displacement current through a surface S is proportional to the",
+            "explanation": "The correct answer is: rate of change of the electric flux through S",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "rate of change of the electric flux through S"
+              },
+              {
+                "id": "1",
+                "text": "electric flux through S"
+              },
+              {
+                "id": "2",
+                "text": "time integral of the magnetic flux through S"
+              },
+              {
+                "id": "3",
+                "text": "rate of change of the magnetic flux through S"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "55a81870-b2c1-476f-b828-0f8d3ca60619",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Two alternatives for interconnecting a set of processors with bidirectional links are (1) the fully interconnected network, in which each processor is directly connected to every other processor, and (2) the ring network, in which each processor is connected to two other processors. The worst-case path length for a network is the maximum, over all pairs of nodes in the network, of the minimum length paths (measured in number of links) between the nodes. For each type of interconnection of n processors, a figure of merit can be formed as the product of the number of links required for the network times the worst-case path length connecting any two processors. The ratio of this figure of merit for the fully interconnected network compared to that of the ring network, for even n > 2, is",
+            "explanation": "The correct answer is: (n-1)/n",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "1/(n^2)"
+              },
+              {
+                "id": "1",
+                "text": "1/(n(n-1))"
+              },
+              {
+                "id": "2",
+                "text": "1/n"
+              },
+              {
+                "id": "3",
+                "text": "(n-1)/n"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "2a6cb5eb-d5dc-44e3-bffa-33c359104b6f",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which system is also known as automatic control system?",
+            "explanation": "The correct answer is: Closed loop control system",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Open loop control system"
+              },
+              {
+                "id": "1",
+                "text": "Closed loop control system"
+              },
+              {
+                "id": "2",
+                "text": "Either A or B"
+              },
+              {
+                "id": "3",
+                "text": "Nether A nor B"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "45b9c4bb-78ce-41c6-9702-61bfbd1588f7",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The electric field between a pair of oppositely charged parallel plates",
+            "explanation": "The correct answer is: Neither of these",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "gets weaker with distance inside the plates"
+              },
+              {
+                "id": "1",
+                "text": "follows the inverse-square law"
+              },
+              {
+                "id": "2",
+                "text": "Both of these"
+              },
+              {
+                "id": "3",
+                "text": "Neither of these"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "cc5c23ed-e102-4947-a5dd-103f2587e264",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate?",
+            "explanation": "The correct answer is: Density-based clustering",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Decision Trees"
+              },
+              {
+                "id": "1",
+                "text": "Density-based clustering"
+              },
+              {
+                "id": "2",
+                "text": "Model-based clustering"
+              },
+              {
+                "id": "3",
+                "text": "K-means clustering"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "dbe85a92-6a06-4b47-b7b0-e2c4f70993ac",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Find all cosets of the subgroup 4Z of 2Z.",
+            "explanation": "The correct answer is: 4Z, 2 + 4Z",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "4Z"
+              },
+              {
+                "id": "1",
+                "text": "4Z, 2 + 4Z"
+              },
+              {
+                "id": "2",
+                "text": "2Z"
+              },
+              {
+                "id": "3",
+                "text": "Z"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "2efd792f-4df6-470d-853c-955561af07fb",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which among the following would result in the narrowest confidence interval?",
+            "explanation": "The correct answer is: Large sample size and 95% confidence",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Small sample size and 95% confidence"
+              },
+              {
+                "id": "1",
+                "text": "Small sample size and 99% confidence"
+              },
+              {
+                "id": "2",
+                "text": "Large sample size and 95% confidence"
+              },
+              {
+                "id": "3",
+                "text": "Large sample size and 99% confidence"
+              }
+            ],
+            "correctAnswer": "2"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 150,
+          "estimatedDuration": 15,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 15,
+            "hard": 0
+          },
+          "tags": [
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.455492+00:00",
+      "updatedAt": "2025-07-28T18:03:50.455516+00:00",
+      "publishedAt": "2025-07-28T18:03:50.455521+00:00",
+      "version": 1
+    },
+    {
+      "id": "9c6f80ad-442a-4bfb-bbdd-7e6603486aa1",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Geography Quiz",
+      "description": "Test your knowledge of Geography",
+      "difficulty": "medium",
+      "timeLimit": 1020,
+      "totalQuestions": 17,
+      "quizData": {
+        "questions": [
+          {
+            "id": "92c8e6ef-db0b-47f1-beb1-b83a6b291682",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following countries is situated in the region of tectonic activity known as the Pacific Ring of Fire?",
+            "explanation": "The correct answer is: Chile",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Brazil"
+              },
+              {
+                "id": "1",
+                "text": "Australia"
+              },
+              {
+                "id": "2",
+                "text": "Chile"
+              },
+              {
+                "id": "3",
+                "text": "India"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "c8f7f0c3-3d20-41e5-a766-d22a799f38e3",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The latitude and longitude coordinates of a place are an example of",
+            "explanation": "The correct answer is: an absolute location.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "a formal region."
+              },
+              {
+                "id": "1",
+                "text": "a functional region."
+              },
+              {
+                "id": "2",
+                "text": "an absolute location."
+              },
+              {
+                "id": "3",
+                "text": "a relative location."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "8738bfd7-9e00-4357-8b7b-c22f53f59152",
+            "type": "MULTIPLE_CHOICE",
+            "question": "An earlier boundary formed before meticulous geographic knowledge and mapping was available is known as",
+            "explanation": "The correct answer is: an antecedent boundary.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "an antecedent boundary."
+              },
+              {
+                "id": "1",
+                "text": "a geometric boundary."
+              },
+              {
+                "id": "2",
+                "text": "a relict boundary."
+              },
+              {
+                "id": "3",
+                "text": "a subsequent boundary."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "16873ffb-aad0-4169-8dfc-3345fea1bf9c",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The theory that cities grow outward from a core utilizing several nodes of growth was proposed by",
+            "explanation": "The correct answer is: Harris and Ullmann.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Rostow."
+              },
+              {
+                "id": "1",
+                "text": "Ravenstein."
+              },
+              {
+                "id": "2",
+                "text": "von Th\u00fcnen."
+              },
+              {
+                "id": "3",
+                "text": "Harris and Ullmann."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "7111698f-d8cc-4be1-96dc-6d479964112a",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Olives, grapes, and chickpeas are staple crops of which type of farming?",
+            "explanation": "The correct answer is: Mediterranean",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Pastoral nomadism"
+              },
+              {
+                "id": "1",
+                "text": "Subsistence"
+              },
+              {
+                "id": "2",
+                "text": "Plantation"
+              },
+              {
+                "id": "3",
+                "text": "Mediterranean"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "bb88b03a-2c12-46cc-a667-7ab30990020c",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The language with the largest number of \"speakers\" is",
+            "explanation": "The correct answer is: Mandarin Chinese.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "English."
+              },
+              {
+                "id": "1",
+                "text": "Russian."
+              },
+              {
+                "id": "2",
+                "text": "Spanish."
+              },
+              {
+                "id": "3",
+                "text": "Mandarin Chinese."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "924acef6-f223-42bb-bc0c-81c17c3e304e",
+            "type": "MULTIPLE_CHOICE",
+            "question": "New stores opening around a large shopping mall reflect which concept?",
+            "explanation": "The correct answer is: Movement bias",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Gravity concept"
+              },
+              {
+                "id": "1",
+                "text": "Distance decay"
+              },
+              {
+                "id": "2",
+                "text": "Complementarity"
+              },
+              {
+                "id": "3",
+                "text": "Movement bias"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "d72a71ec-111f-4d63-8d11-a93b1775b1e1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Early settlements and high population density along coastlines and rivers are best attributed to which of the following?",
+            "explanation": "The correct answer is: Access to trade routes",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Mediterranean climate"
+              },
+              {
+                "id": "1",
+                "text": "Limited forest cover"
+              },
+              {
+                "id": "2",
+                "text": "Growth of manufacturing"
+              },
+              {
+                "id": "3",
+                "text": "Access to trade routes"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "3907060b-d004-41e0-bbfd-2050943f1af4",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following is a major concern in countries with a large and rapidly aging population?",
+            "explanation": "The correct answer is: Health care",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Immunization"
+              },
+              {
+                "id": "1",
+                "text": "Adequate schools"
+              },
+              {
+                "id": "2",
+                "text": "Daycare facilities"
+              },
+              {
+                "id": "3",
+                "text": "Health care"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "b3e9aa0d-a4d6-4d74-8662-3713593318cd",
+            "type": "MULTIPLE_CHOICE",
+            "question": "All of the following are non-basic jobs in the city EXCEPT",
+            "explanation": "The correct answer is: garment factory worker.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "city firefighter."
+              },
+              {
+                "id": "1",
+                "text": "social worker."
+              },
+              {
+                "id": "2",
+                "text": "dry cleaner."
+              },
+              {
+                "id": "3",
+                "text": "garment factory worker."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "37af5c1f-c3d5-40fa-9067-f33fd4063827",
+            "type": "MULTIPLE_CHOICE",
+            "question": "When we talk about diffusion of a cultural trait, what do we mean by \"hearth\"?",
+            "explanation": "The correct answer is: Origin point",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Destination"
+              },
+              {
+                "id": "1",
+                "text": "Origin point"
+              },
+              {
+                "id": "2",
+                "text": "All locations along the diffusion path"
+              },
+              {
+                "id": "3",
+                "text": "Axis point"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "56c9bf3f-91a7-44db-ae58-fc6e44116da6",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which country faces a serious trade disadvantage due to its location?",
+            "explanation": "The correct answer is: Mongolia",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Singapore"
+              },
+              {
+                "id": "1",
+                "text": "Italy"
+              },
+              {
+                "id": "2",
+                "text": "Spain"
+              },
+              {
+                "id": "3",
+                "text": "Mongolia"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "53ff9dff-f0e5-4b10-8ff3-3d3c59e451c3",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following factors does NOT play a role in gender relationships in a culture or society?",
+            "explanation": "The correct answer is: Biology",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Biology"
+              },
+              {
+                "id": "1",
+                "text": "Advancements in technological development"
+              },
+              {
+                "id": "2",
+                "text": "Religion"
+              },
+              {
+                "id": "3",
+                "text": "Custom"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "078c825d-52c0-4265-8db3-1a59520a120e",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which description best describes the urban hierarchy model in which the population of a city is inversely proportional to its rank in the hierarchy?",
+            "explanation": "The correct answer is: Rank-size rule",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Multiplier effect"
+              },
+              {
+                "id": "1",
+                "text": "Rank-size rule"
+              },
+              {
+                "id": "2",
+                "text": "Central place theory"
+              },
+              {
+                "id": "3",
+                "text": "Burgess's sector model"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "a797b73e-4499-48aa-a1cc-34f03a20295f",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following factors has little or no impact on mortality rates in the developing countries?",
+            "explanation": "The correct answer is: Improved birth control methods",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "New medicines"
+              },
+              {
+                "id": "1",
+                "text": "Improved birth control methods"
+              },
+              {
+                "id": "2",
+                "text": "Pesticides"
+              },
+              {
+                "id": "3",
+                "text": "Famine relief"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "495dc8b5-d53e-4663-84a2-e6ab2eb70c6d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which one of the following is NOT an advantage of urban agriculture?",
+            "explanation": "The correct answer is: Renewed or purified water supplies",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Helping to solve the problem of solid waste disposal"
+              },
+              {
+                "id": "1",
+                "text": "Fresh produce for sale to others"
+              },
+              {
+                "id": "2",
+                "text": "Beautification of a dingy urban area"
+              },
+              {
+                "id": "3",
+                "text": "Renewed or purified water supplies"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "2805dab1-88dc-4ca3-b559-84914a6f0fe4",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following best illustrates the definition of a functional region?",
+            "explanation": "The correct answer is: A map showing Atlanta as a hub for Delta Airlines",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "A map showing Atlanta as a hub for Delta Airlines"
+              },
+              {
+                "id": "1",
+                "text": "An article describing the region referred to as the South"
+              },
+              {
+                "id": "2",
+                "text": "A map showing North Carolina's one hundred counties"
+              },
+              {
+                "id": "3",
+                "text": "An essay explaining the region known as the Bible Belt"
+              }
+            ],
+            "correctAnswer": "0"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 170,
+          "estimatedDuration": 17,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 17,
+            "hard": 0
+          },
+          "tags": [
+            "General Knowledge",
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.461657+00:00",
+      "updatedAt": "2025-07-28T18:03:50.461673+00:00",
+      "publishedAt": "2025-07-28T18:03:50.461676+00:00",
+      "version": 1
+    },
+    {
+      "id": "14211d1e-c28d-4929-86ff-9f6648ac5822",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Chemistry Quiz",
+      "description": "Test your knowledge of Chemistry",
+      "difficulty": "medium",
+      "timeLimit": 900,
+      "totalQuestions": 15,
+      "quizData": {
+        "questions": [
+          {
+            "id": "c0dd6439-5121-4c29-8a2e-dd44960df70b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following is the most common naturally-occurring form in which silicon is found?",
+            "explanation": "The correct answer is: Oxide",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Metallic element"
+              },
+              {
+                "id": "1",
+                "text": "Sulfide"
+              },
+              {
+                "id": "2",
+                "text": "Fluoride"
+              },
+              {
+                "id": "3",
+                "text": "Oxide"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "fd668eb0-0bc0-40ef-ad9f-0460c10566ec",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following has an octet of electrons around the central atom?",
+            "explanation": "The correct answer is: NH4+",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "BF3"
+              },
+              {
+                "id": "1",
+                "text": "NH4+"
+              },
+              {
+                "id": "2",
+                "text": "PF5"
+              },
+              {
+                "id": "3",
+                "text": "SF6"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "307552cf-aef1-405d-8870-faa905db0cab",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A 25 g sample of a liquid was heated to 100 \u00b0C and then quickly transferred to an insulated container holding 100 g of water at 22 \u00b0C. The temperature of the mixture rose to reach a final temperature of 35 \u00b0C. Which of the following can be concluded?",
+            "explanation": "The correct answer is: The sample temperature changed more than the water temperature did, but the sample lost the same amount of heat energy as the water gained.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "The sample temperature changed more than the water temperature did; therefore the sample lost more heat energy than the water gained."
+              },
+              {
+                "id": "1",
+                "text": "The sample temperature changed more than the water temperature did, but the sample lost the same amount of heat energy as the water gained."
+              },
+              {
+                "id": "2",
+                "text": "The sample temperature changed more than the water temperature did; therefore the CP of the sample must be greater than the CP of the water."
+              },
+              {
+                "id": "3",
+                "text": "The final temperature is less than the average starting temperature of the sample and the water; therefore the total energy of the sample and water decreased."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "c2b6a04c-01e6-4be7-b67f-b6ab2684be58",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The first ionization energy for a neutral atom of chlorine is 1.25 MJ/mol and the first ionization energy for a neutral atom of argon is 1.52 MJ/mol. How would the first ionization energy value for a neutral atom of potassum compare to those values?",
+            "explanation": "The correct answer is: It would be less than both because a valence electron of potassium is farther from the nucleus than one of either chlorine or argon.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "It would be greater than both because potassium carries a greater nuclear charge then either chlorine or argon."
+              },
+              {
+                "id": "1",
+                "text": "It would be greater than both because the size of a potassium atom is smaller than an atom of either chlorine or argon."
+              },
+              {
+                "id": "2",
+                "text": "It would be less than both because there are more electrons in potassium, meaning they repel each other more effectively and less energy is needed to remove one."
+              },
+              {
+                "id": "3",
+                "text": "It would be less than both because a valence electron of potassium is farther from the nucleus than one of either chlorine or argon."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "dc42a5b4-1388-427e-9184-c244b83f8a33",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What is the work involved if a gas in a 2.0-liter container at 2.4 atmospheres pressure is allowed to expand against a pressure of 0.80 atmosphere?",
+            "explanation": "The correct answer is: -3.2 L atm",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "-3.2 L atm"
+              },
+              {
+                "id": "1",
+                "text": "-9.62 L atm"
+              },
+              {
+                "id": "2",
+                "text": "-4.8 L atm"
+              },
+              {
+                "id": "3",
+                "text": "+14.4 L atm"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "f364f067-9c9b-4bfc-bb20-d8d2eb78666a",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which nuclide has an NMR frequency of 115.5 MHz in a 20.0 T magnetic field?",
+            "explanation": "The correct answer is: 17O",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "17O"
+              },
+              {
+                "id": "1",
+                "text": "19F"
+              },
+              {
+                "id": "2",
+                "text": "29Si"
+              },
+              {
+                "id": "3",
+                "text": "31P"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "b8c3b687-8dbb-4a50-897b-3471780c0aab",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Examining data obtained from mass spectrometry supports which of the following?",
+            "explanation": "The correct answer is: The existence of isotopes",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "The common oxidation states of elements"
+              },
+              {
+                "id": "1",
+                "text": "Atomic size trends within the periodic table"
+              },
+              {
+                "id": "2",
+                "text": "Ionization energy trends within the periodic table"
+              },
+              {
+                "id": "3",
+                "text": "The existence of isotopes"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "b35e9297-7570-423b-bac7-4d52f104cae1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A metal is reacted with HCl to produce hydrogen gas. If 0.0623 gram of metal produces 28.3 mL of hydrogen at STP, the mass of the metal that reacts with one mole of hydrochloric acid is",
+            "explanation": "The correct answer is: 24.7 g",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "98.6 g"
+              },
+              {
+                "id": "1",
+                "text": "493 g"
+              },
+              {
+                "id": "2",
+                "text": "24.7 g"
+              },
+              {
+                "id": "3",
+                "text": "49.3 g"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "5d2f2ae1-75fe-4373-af88-3cc01d679bee",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The Pauli exclusion principle states that",
+            "explanation": "The correct answer is: no two electrons can have the same four quantum numbers",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "no two electrons can have the same four quantum numbers"
+              },
+              {
+                "id": "1",
+                "text": "no two electrons with the same spin can occupy an orbital"
+              },
+              {
+                "id": "2",
+                "text": "no two electrons can occupy separate orbitals"
+              },
+              {
+                "id": "3",
+                "text": "no two electrons can pair up if there is an empty orbital available"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "d067bdfe-e514-40ae-9ed5-ab0dc1c1a046",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Calculate spin density on the central carbon atom of malonic acid radical (\u2022CH(COOH)2) if the hyperfine value for the \u03b1-hydrogen atom is 21.9 G.",
+            "explanation": "The correct answer is: 0.15",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "0.95"
+              },
+              {
+                "id": "1",
+                "text": "0.85"
+              },
+              {
+                "id": "2",
+                "text": "0.15"
+              },
+              {
+                "id": "3",
+                "text": "0.65"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "b6329e0b-076e-44c3-9d4b-049c31f65c22",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What is the orbital angular momentum quantum number, l, of the electron that is most easily removed when ground-state aluminum is ionized?",
+            "explanation": "The correct answer is: 1",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "3"
+              },
+              {
+                "id": "1",
+                "text": "2"
+              },
+              {
+                "id": "2",
+                "text": "1"
+              },
+              {
+                "id": "3",
+                "text": "0"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "f06f9354-f882-4194-825e-016b0c4b7318",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Less than 1/1000 of the mass of any atom is contributed by",
+            "explanation": "The correct answer is: the electrons",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "the electrons"
+              },
+              {
+                "id": "1",
+                "text": "the electrons and neutrons"
+              },
+              {
+                "id": "2",
+                "text": "the electrons and protons"
+              },
+              {
+                "id": "3",
+                "text": "the protons and neutrons"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "18527e8c-1c95-4603-b4ef-c271d7d486d2",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The equilibrium populations of the 1H energy levels of a molecule are n\u03b1 = n\u03b1eq and n\u03b2 = n\u03b2eq. What are the populations after a 5.0 \u03bcs pulse when B1 = 4.697 mT?",
+            "explanation": "The correct answer is: n\u03b1 = n\u03b2eq and n\u03b2 = n\u03b1eq",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "n\u03b1 = n\u03b2eq and n\u03b2 = n\u03b1eq"
+              },
+              {
+                "id": "1",
+                "text": "n\u03b1 = n\u03b1eq and n\u03b2 = n\u03b2eq"
+              },
+              {
+                "id": "2",
+                "text": "n\u03b1 = \u00bd(n\u03b1eq + n\u03b2eq) and n\u03b2 = \u00bd(n\u03b1eq + n\u03b2eq)"
+              },
+              {
+                "id": "3",
+                "text": "n\u03b1 = n\u03b1eq + n\u03b2eq and n\u03b2 = n\u03b1eq + n\u03b2eq"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "58baff11-06c6-45c7-87bf-f7aaa534e2f0",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The molecule with a tetrahedral shape is",
+            "explanation": "The correct answer is: CBr4",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "PCl4F"
+              },
+              {
+                "id": "1",
+                "text": "BF3"
+              },
+              {
+                "id": "2",
+                "text": "CO2"
+              },
+              {
+                "id": "3",
+                "text": "CBr4"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "79305f8d-6554-4d31-8198-aaf76f6c0cc6",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Starting with a stock solution of 18.0 M H2SO4, what is the proper procedure to create a 1.00 L sample of a 3.0 M solution of H2SO4 in a volumetric flask?",
+            "explanation": "The correct answer is: Fill the flask partway with water, then add 167 mL of the stock solution, swirling to mix it. Last, fill the flask the rest of the way with distilled water.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Add 167 mL of the stock solution to the flask, then fill the flask the rest of the way with distilled water while swirling the solution."
+              },
+              {
+                "id": "1",
+                "text": "Add 600 mL of the stock solution to the flask, then fill the flask the rest of the way with distilled water while swirling the solution."
+              },
+              {
+                "id": "2",
+                "text": "Fill the flask partway with water, then add 167 mL of the stock solution, swirling to mix it. Last, fill the flask the rest of the way with distilled water."
+              },
+              {
+                "id": "3",
+                "text": "Fill the flask partway with water, then add 600 mL of the stock solution, swirling to mix it. Last, fill the flask the rest of the way with distilled water."
+              }
+            ],
+            "correctAnswer": "2"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 150,
+          "estimatedDuration": 15,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 15,
+            "hard": 0
+          },
+          "tags": [
+            "Science",
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.466937+00:00",
+      "updatedAt": "2025-07-28T18:03:50.466948+00:00",
+      "publishedAt": "2025-07-28T18:03:50.466950+00:00",
+      "version": 1
+    },
+    {
+      "id": "339c2349-ccbd-4354-9caa-32a224e8704a",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Philosophy Quiz",
+      "description": "Test your knowledge of Philosophy",
+      "difficulty": "medium",
+      "timeLimit": 780,
+      "totalQuestions": 13,
+      "quizData": {
+        "questions": [
+          {
+            "id": "a35e6c7c-ec89-4435-88bf-fbf78a1c6693",
+            "type": "MULTIPLE_CHOICE",
+            "question": "If it were known that a policy would wipe out several animal species without negatively affecting human beings, Baxter would most likely say that",
+            "explanation": "The correct answer is: this policy is morally unproblematic.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "this policy is morally problematic because it harms the environment."
+              },
+              {
+                "id": "1",
+                "text": "this policy is morally problematic because it damages the integrity of the ecosystem."
+              },
+              {
+                "id": "2",
+                "text": "this policy is morally obligatory because the environment ought not to exist."
+              },
+              {
+                "id": "3",
+                "text": "this policy is morally unproblematic."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "9d6889f7-93d4-475d-b2d3-807f2b1c3550",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which fallacy happens when someone argues in favor of a two part proposition, only supports one part of the proposition, then asserts that the entire proposition has been supported.",
+            "explanation": "The correct answer is: Complex proposition",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "a priori"
+              },
+              {
+                "id": "1",
+                "text": "Complex proposition"
+              },
+              {
+                "id": "2",
+                "text": "Extension"
+              },
+              {
+                "id": "3",
+                "text": "Appeal to ignorance"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "50bdcbcc-cdde-49b2-9b60-f8c79eaa585d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I feed my cat one small bowl of food each month. Scenario 2 | I let my children try to catch frogs.",
+            "explanation": "The correct answer is: Wrong, Not wrong",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Wrong, Wrong"
+              },
+              {
+                "id": "1",
+                "text": "Wrong, Not wrong"
+              },
+              {
+                "id": "2",
+                "text": "Not wrong, Wrong"
+              },
+              {
+                "id": "3",
+                "text": "Not wrong, Not wrong"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "0ec18ff5-33f5-4547-a576-e3bca2a6718d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Construct a complete truth table for the following pairs of propositions. Then, using the truth tables, determine whether the statements are logically equivalent or contradictory. If neither, determine whether they are consistent or inconsistent. Justify your answers.\n~O \u2283 P and O \u2228 P",
+            "explanation": "The correct answer is: Logically equivalent",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Logically equivalent"
+              },
+              {
+                "id": "1",
+                "text": "Contradictory"
+              },
+              {
+                "id": "2",
+                "text": "Neither logically equivalent nor contradictory, but consistent"
+              },
+              {
+                "id": "3",
+                "text": "Inconsistent"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "74752339-74a7-40a9-a316-e5db741a3a38",
+            "type": "MULTIPLE_CHOICE",
+            "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | As my parents laid in bed, I went through their prescriptions. Scenario 2 | I used cut out coupons for the food even though I make plenty of money.",
+            "explanation": "The correct answer is: Wrong, Not wrong",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Wrong, Wrong"
+              },
+              {
+                "id": "1",
+                "text": "Wrong, Not wrong"
+              },
+              {
+                "id": "2",
+                "text": "Not wrong, Wrong"
+              },
+              {
+                "id": "3",
+                "text": "Not wrong, Not wrong"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "c48b6b9c-1e2d-4bb5-b44c-6c9eb3ce9bc5",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A prima facie duty is a characteristic of an act in virtue of which the act:",
+            "explanation": "The correct answer is: tends to be right, although this might be outweighed by other considerations.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "seems to be right, although this might be illusory."
+              },
+              {
+                "id": "1",
+                "text": "tends to be right, although this might be outweighed by other considerations."
+              },
+              {
+                "id": "2",
+                "text": "is right."
+              },
+              {
+                "id": "3",
+                "text": "is the first thing that an agent ought to do, above all else."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "312b17c3-f3ba-4f47-abd6-85d7b3c62ae3",
+            "type": "MULTIPLE_CHOICE",
+            "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I slid down the slide with a toddler on it. Scenario 2 | I put my wife's cellphone into the garbage disposal.",
+            "explanation": "The correct answer is: Wrong, Wrong",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Wrong, Wrong"
+              },
+              {
+                "id": "1",
+                "text": "Wrong, Not wrong"
+              },
+              {
+                "id": "2",
+                "text": "Not wrong, Wrong"
+              },
+              {
+                "id": "3",
+                "text": "Not wrong, Not wrong"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "7fb0bb43-90cb-4967-954a-452bf29a59b8",
+            "type": "MULTIPLE_CHOICE",
+            "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I found an endangered species in the forest, and since I did not want it to go hungry and possibly die, I took it home to give it food then made it into taxidermy. Scenario 2 | My life was horrible so I started to go to therapy",
+            "explanation": "The correct answer is: Wrong, Not wrong",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Wrong, Wrong"
+              },
+              {
+                "id": "1",
+                "text": "Wrong, Not wrong"
+              },
+              {
+                "id": "2",
+                "text": "Not wrong, Wrong"
+              },
+              {
+                "id": "3",
+                "text": "Not wrong, Not wrong"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "ca04c668-5805-4e52-9698-7f0c3c6cdff7",
+            "type": "MULTIPLE_CHOICE",
+            "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | While my parents were fast asleep, I cooked coke. Scenario 2 | I invited my student to the lighthouse for a romantic evening.",
+            "explanation": "The correct answer is: Wrong, Wrong",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Wrong, Wrong"
+              },
+              {
+                "id": "1",
+                "text": "Wrong, Not wrong"
+              },
+              {
+                "id": "2",
+                "text": "Not wrong, Wrong"
+              },
+              {
+                "id": "3",
+                "text": "Not wrong, Not wrong"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "5f2facaf-2c4d-4c88-aff4-5fe8d24c5a05",
+            "type": "MULTIPLE_CHOICE",
+            "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I let my dog hump all the dogs in the dog park. Scenario 2 | I put my son's dishes in the dishwasher and started it.",
+            "explanation": "The correct answer is: Wrong, Not wrong",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Wrong, Wrong"
+              },
+              {
+                "id": "1",
+                "text": "Wrong, Not wrong"
+              },
+              {
+                "id": "2",
+                "text": "Not wrong, Wrong"
+              },
+              {
+                "id": "3",
+                "text": "Not wrong, Not wrong"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "ce8ee03f-2ac2-4846-84e6-2bc009128e50",
+            "type": "MULTIPLE_CHOICE",
+            "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I brought a knife with me when I went camping. Scenario 2 | I had sex at work.",
+            "explanation": "The correct answer is: Not wrong, Wrong",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Wrong, Wrong"
+              },
+              {
+                "id": "1",
+                "text": "Wrong, Not wrong"
+              },
+              {
+                "id": "2",
+                "text": "Not wrong, Wrong"
+              },
+              {
+                "id": "3",
+                "text": "Not wrong, Not wrong"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "5b087d7c-abdb-4ab0-a27a-54d67e4b1836",
+            "type": "MULTIPLE_CHOICE",
+            "question": "After the Bar Kochba revolt, where were the two main centres for Jewish development?",
+            "explanation": "The correct answer is: Palestine and Babylonia",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Palestine and Babylonia"
+              },
+              {
+                "id": "1",
+                "text": "Babylonia and Europe"
+              },
+              {
+                "id": "2",
+                "text": "Palestine and Spain"
+              },
+              {
+                "id": "3",
+                "text": "Spain and France"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "10904b34-0841-4335-9b9b-88e25ead3d4b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "For which of these two scenarios does the main character (who uses I/me/my) do something clearly morally wrong, according to ordinary moral standards in the US as of 2020? Scenario 1 | I always gave extra credit on exams to those who had blue eyes. Scenario 2 | I sat outside to spy on the neighbors that came out at night.",
+            "explanation": "The correct answer is: Wrong, Wrong",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Wrong, Wrong"
+              },
+              {
+                "id": "1",
+                "text": "Wrong, Not wrong"
+              },
+              {
+                "id": "2",
+                "text": "Not wrong, Wrong"
+              },
+              {
+                "id": "3",
+                "text": "Not wrong, Not wrong"
+              }
+            ],
+            "correctAnswer": "0"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 130,
+          "estimatedDuration": 13,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 13,
+            "hard": 0
+          },
+          "tags": [
+            "Arts",
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.471818+00:00",
+      "updatedAt": "2025-07-28T18:03:50.471825+00:00",
+      "publishedAt": "2025-07-28T18:03:50.471828+00:00",
+      "version": 1
+    },
+    {
+      "id": "cc09c23c-7e8f-4b3c-b61a-6de7ea6f2ea6",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Health Quiz",
+      "description": "Test your knowledge of Health",
+      "difficulty": "medium",
+      "timeLimit": 1020,
+      "totalQuestions": 17,
+      "quizData": {
+        "questions": [
+          {
+            "id": "4b0b53a2-f91a-42cc-8a4d-6dae81e57c2e",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following best states why the study of twins is significant to the field of behavioral genetics?",
+            "explanation": "The correct answer is: If a psychological attribute is genetically influenced, then identical twins are more likely to share this attribute than are fraternal twins and other siblings.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "If a psychological attribute is genetically influenced, then fraternal twins are more likely to share this attribute than are identical twins or other siblings."
+              },
+              {
+                "id": "1",
+                "text": "If a psychological attribute is genetically influenced, then siblings reared together are more likely to share it than are identical or fraternal twins who are reared apart."
+              },
+              {
+                "id": "2",
+                "text": "The degree of relatedness in MZ twins can be determined through studying the behavioral genetics of related DZ twins."
+              },
+              {
+                "id": "3",
+                "text": "If a psychological attribute is genetically influenced, then identical twins are more likely to share this attribute than are fraternal twins and other siblings."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "0b189a3f-38a9-4de7-a143-64b96a7b7e47",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Transcription-affecting DNA region that may be located thousands of basepairs away from the promoter.",
+            "explanation": "The correct answer is: Enhancer",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Enhancer"
+              },
+              {
+                "id": "1",
+                "text": "Repressor"
+              },
+              {
+                "id": "2",
+                "text": "Operator"
+              },
+              {
+                "id": "3",
+                "text": "Promoter"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "68b1c037-becf-4ec6-b8c5-7ae5afc83598",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Self-verification theory predicts that a husband who has low self-esteem and is overweight and chronically depressed will prefer his wife to:",
+            "explanation": "The correct answer is: con\ufb01rm his negative self-evaluations.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "not comment on his abilities, weight, and mood."
+              },
+              {
+                "id": "1",
+                "text": "make neutral comments about his abilities, weight, and mood."
+              },
+              {
+                "id": "2",
+                "text": "con\ufb01rm his negative self-evaluations."
+              },
+              {
+                "id": "3",
+                "text": "contradict his negative self-evaluations."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "870e2c5f-227d-4bd6-81a1-f15c1aef580a",
+            "type": "MULTIPLE_CHOICE",
+            "question": "After studying for an examination, retention of the learned material is best facilitated by",
+            "explanation": "The correct answer is: sleeping",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "sleeping"
+              },
+              {
+                "id": "1",
+                "text": "studying a related subject"
+              },
+              {
+                "id": "2",
+                "text": "exercising"
+              },
+              {
+                "id": "3",
+                "text": "studying an unrelated subject"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "865e30dc-af77-47b9-8112-265b6977026f",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What has so far prevented polio being eradicated from the world?",
+            "explanation": "The correct answer is: Inability to vaccinate in some countries",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Inability to vaccinate in some countries"
+              },
+              {
+                "id": "1",
+                "text": "Poor quality (unsafe) vaccines"
+              },
+              {
+                "id": "2",
+                "text": "Genetic variation"
+              },
+              {
+                "id": "3",
+                "text": "Expense"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "d821b376-7ec7-4228-b8aa-b840612c17f7",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following is an example of an implicit memory?",
+            "explanation": "The correct answer is: remembering how to tie a tie",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "describing the taste of the cake at your last birthday party"
+              },
+              {
+                "id": "1",
+                "text": "remembering how to tie a tie"
+              },
+              {
+                "id": "2",
+                "text": "recalling the name of your junior high school shop teacher"
+              },
+              {
+                "id": "3",
+                "text": "recognizing a celebrity"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "d5a23a42-6354-4001-a439-1dfafa53007c",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Alpha waves are most closely associated with",
+            "explanation": "The correct answer is: the hypnagogic state",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "the hypnagogic state"
+              },
+              {
+                "id": "1",
+                "text": "Stage 2 sleep"
+              },
+              {
+                "id": "2",
+                "text": "Stage 3 sleep"
+              },
+              {
+                "id": "3",
+                "text": "Stage 4 sleep"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "58a65705-d5a0-4383-9eb1-964798efe0b3",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following pairs of scientists pioneered the ecological discipline known as island biogeography?",
+            "explanation": "The correct answer is: Robert MacArthur and E. O. Wilson",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Robert MacArthur and E. O. Wilson"
+              },
+              {
+                "id": "1",
+                "text": "James Watson and Francis Crick"
+              },
+              {
+                "id": "2",
+                "text": "Matthias Schleiden and Theodor Schwann"
+              },
+              {
+                "id": "3",
+                "text": "Alfred Hershey and Martha Chase"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "2174ea06-57e2-40ef-8b48-8580998949aa",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following statements most accurately explains what EcoR1 is?",
+            "explanation": "The correct answer is: It is a restriction enzyme extracted from E. coli.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "It is a bacterium that lives in the human large intestine."
+              },
+              {
+                "id": "1",
+                "text": "It is the best-studied bacteriophage, a virus that attacks E. coli."
+              },
+              {
+                "id": "2",
+                "text": "It is a restriction enzyme extracted from E. coli."
+              },
+              {
+                "id": "3",
+                "text": "It is a type of DNA used extensively in research."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "ba7013f1-da31-46d6-b6ec-8ee1bafa2b41",
+            "type": "MULTIPLE_CHOICE",
+            "question": "According to Piaget, children are ___________.",
+            "explanation": "The correct answer is: \u201cLittle scientists\u201d",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "\u201cBlank slates\u201d"
+              },
+              {
+                "id": "1",
+                "text": "Less intelligent than adults"
+              },
+              {
+                "id": "2",
+                "text": "\u201cLittle scientists\u201d"
+              },
+              {
+                "id": "3",
+                "text": "Shaped by culture"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "39687f32-503a-48f7-80c6-2b7eb6b70fe3",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A 60-year-old man had a total thyroidectomy and excision of enlarged left jugular lymph nodes for follicular carcinoma. The operation was uncomplicated. He is receiving intravenous 5% dextrose and 0.45% saline with potassium. Twelve hours after the operation he develops circumoral numbness and paresthesias in his fingertips, and he becomes very anxious. Vital signs are temperature 37.6\u00b0C (99.7\u00b0F), pulse 90/min, respirations 16/min, and blood pressure 140/90 mm Hg. Physical examination discloses a dry neck dressing and no stridor. Extremities are warm, with brisk capillary refill time. Additional physical examination is most likely to show which of the following?",
+            "explanation": "The correct answer is: Chvostek sign",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Babinski sign present bilaterally"
+              },
+              {
+                "id": "1",
+                "text": "Chvostek sign"
+              },
+              {
+                "id": "2",
+                "text": "Deviation of the tongue to the left side"
+              },
+              {
+                "id": "3",
+                "text": "A drooping left shoulder"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "dee9ad9b-2889-49f2-96b9-eaa6a1732b72",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following statements is NOT correct about apoptosis?",
+            "explanation": "The correct answer is: Apoptosis, a special type of cell division, requires multiple cell signaling.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Apoptosis, a special type of cell division, requires multiple cell signaling."
+              },
+              {
+                "id": "1",
+                "text": "The fact that apoptosis is widespread across several kingdoms is evidence that it evolved early in the evolution of eukaryotes."
+              },
+              {
+                "id": "2",
+                "text": "Apoptosis plays a crucial role in the development of fingers in embryonic development."
+              },
+              {
+                "id": "3",
+                "text": "Apoptosis prevents an aging and dying cell from damaging neighboring cells."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "a82e35da-83c8-44d3-86ae-f4d099831071",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The influence of genetics on longevity is estimated to be about",
+            "explanation": "The correct answer is: 33%",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "20%"
+              },
+              {
+                "id": "1",
+                "text": "33%"
+              },
+              {
+                "id": "2",
+                "text": "50%"
+              },
+              {
+                "id": "3",
+                "text": "75%"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "15636019-6364-47dc-8b03-435bc5a249b8",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following statements about glucose metabolism is correct?",
+            "explanation": "The correct answer is: Red blood cells can only metabolise glucose by anaerobic glycolysis and the pentose phosphate pathway.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "All of the reactions of glycolysis are freely reversible for gluconeogenesis."
+              },
+              {
+                "id": "1",
+                "text": "Fructose cannot be used for gluconeogenesis in the liver."
+              },
+              {
+                "id": "2",
+                "text": "Red blood cells can catalyse aerobic glycolysis because they contain oxygen bound to haemoglobin."
+              },
+              {
+                "id": "3",
+                "text": "Red blood cells can only metabolise glucose by anaerobic glycolysis and the pentose phosphate pathway."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "18e3ab6a-375f-4816-8e53-603ace2da73b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A 27-year-old nurse comes to the emergency department because of nervousness, dizziness, palpitations, and excess perspiration for the past 3 hours. She has had similar episodes over the past 6 months. The symptoms improve following ingestion of orange juice or soft drinks. She says that she has had a great deal of stress. She has been drinking two alcoholic beverages daily for the past month; before this time, she seldom drank alcohol. Examination shows no abnormalities. Her serum glucose concentration is 30 mg/dL. Intravenous glucose is administered, and the patient's symptoms improve. Which of the following is the most appropriate next step in diagnosis?",
+            "explanation": "The correct answer is: Measurement of serum insulin and C-peptide concentrations",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Measurement of serum proinsulin and insulin antibodies"
+              },
+              {
+                "id": "1",
+                "text": "Measurement of serum cortisol and ACTH concentrations"
+              },
+              {
+                "id": "2",
+                "text": "Measurement of serum growth hormone and plasma somatomedin-C concentrations"
+              },
+              {
+                "id": "3",
+                "text": "Measurement of serum insulin and C-peptide concentrations"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "36e5309c-adc4-48a2-8ca8-8e0732f851a8",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following can act as an intracellular buffer to limit pH changes when the rate of glycolysis is high?",
+            "explanation": "The correct answer is: Carnosine",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Glutamine"
+              },
+              {
+                "id": "1",
+                "text": "Glucose"
+              },
+              {
+                "id": "2",
+                "text": "Carnosine"
+              },
+              {
+                "id": "3",
+                "text": "Amylase"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "d1ad2011-fd1b-41d8-9264-9ce18010728d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "To prevent desiccation and injury, the embryos of terrestrial vertebrates are encased within a fluid secreted by the",
+            "explanation": "The correct answer is: amnion",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "amnion"
+              },
+              {
+                "id": "1",
+                "text": "chorion"
+              },
+              {
+                "id": "2",
+                "text": "allantois"
+              },
+              {
+                "id": "3",
+                "text": "yolk sac"
+              }
+            ],
+            "correctAnswer": "0"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 170,
+          "estimatedDuration": 17,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 17,
+            "hard": 0
+          },
+          "tags": [
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.477047+00:00",
+      "updatedAt": "2025-07-28T18:03:50.477059+00:00",
+      "publishedAt": "2025-07-28T18:03:50.477061+00:00",
+      "version": 1
+    },
+    {
+      "id": "b9e77112-bc00-4f3b-b608-807afb6bb8ba",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Culture Quiz",
+      "description": "Test your knowledge of Culture",
+      "difficulty": "medium",
+      "timeLimit": 720,
+      "totalQuestions": 12,
+      "quizData": {
+        "questions": [
+          {
+            "id": "d3251381-31a0-4f9b-bbaa-b3e7f3c249e7",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Sociobiologists assume that the central function of sex is:",
+            "explanation": "The correct answer is: reproduction",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "pleasure"
+              },
+              {
+                "id": "1",
+                "text": "reproduction"
+              },
+              {
+                "id": "2",
+                "text": "to maintain the double standard"
+              },
+              {
+                "id": "3",
+                "text": "to relieve tension"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "7217e8d9-fd26-4918-9ef8-b1feeb52f4c8",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Ethnic identity refers to:",
+            "explanation": "The correct answer is: a felt sense of group membership on the basis of religion, language, or history",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "the objective categories of ethnicity used in the census"
+              },
+              {
+                "id": "1",
+                "text": "a felt sense of group membership on the basis of religion, language, or history"
+              },
+              {
+                "id": "2",
+                "text": "the imposition of a racial label on a minority by a powerful majority"
+              },
+              {
+                "id": "3",
+                "text": "the fragmented and pluralistic nature of ethnicity"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "27cead86-c9af-4ba8-9706-5c4eb6f7d71d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Sociologists like Bordo (1993) have attributed the 'epidemic' of anorexia in Western cultures to:",
+            "explanation": "The correct answer is: the new ideal of independent, self-assured femininity, combined with cultural values of achievement and control",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "a generally ascetic, frugal lifestyle that can be taken to extremes"
+              },
+              {
+                "id": "1",
+                "text": "traditional images of women as emotional, domesticated, and unassertive"
+              },
+              {
+                "id": "2",
+                "text": "the social construction of mental illness, through which 'normal' patterns of behaviour are pathologized"
+              },
+              {
+                "id": "3",
+                "text": "the new ideal of independent, self-assured femininity, combined with cultural values of achievement and control"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "8fd954dd-72d8-46e3-837b-72c15e5c7be2",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Howard's idea of the garden city consisted of:",
+            "explanation": "The correct answer is: six small towns surrounded by green belts and linked to a larger central city",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "six small towns surrounded by green belts and linked to a larger central city"
+              },
+              {
+                "id": "1",
+                "text": "planning cities to have plenty of trees, flowers and public gardens"
+              },
+              {
+                "id": "2",
+                "text": "each privately owned house to have its own front and back garden"
+              },
+              {
+                "id": "3",
+                "text": "tower blocks to displace the population vertically and leave most of the land available as green open spaces"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "e07a6f1b-0bec-46d5-904f-a67485ca8254",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Judith Butler (1999) suggested that:",
+            "explanation": "The correct answer is: gender is performed through bodily gestures and styles to create 'sex'",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "sexual characteristics are the biological determinants of gender"
+              },
+              {
+                "id": "1",
+                "text": "heterosexuality and homosexuality are essential, opposing identities"
+              },
+              {
+                "id": "2",
+                "text": "the 'two-sex' model replaced the 'one-sex' model in the eighteenth century"
+              },
+              {
+                "id": "3",
+                "text": "gender is performed through bodily gestures and styles to create 'sex'"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "61a537e0-ceb2-4fc3-b739-db91a620df59",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The egg can be fertilized until about _______ after ovulation.",
+            "explanation": "The correct answer is: 24 hours",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "6 hours"
+              },
+              {
+                "id": "1",
+                "text": "24 hours"
+              },
+              {
+                "id": "2",
+                "text": "72 hours"
+              },
+              {
+                "id": "3",
+                "text": "1 week"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "1c3cb170-7e51-44ce-a05e-5bef16a9461e",
+            "type": "MULTIPLE_CHOICE",
+            "question": "In Marx's theory, the 'mode of production' means:",
+            "explanation": "The correct answer is: the organization of a society's technical and human resources",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "the way in which products are made in a factory"
+              },
+              {
+                "id": "1",
+                "text": "the average measure of productivity under capitalism"
+              },
+              {
+                "id": "2",
+                "text": "the organization of a society's technical and human resources"
+              },
+              {
+                "id": "3",
+                "text": "an integral part of the superstructure of a society"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "988ca422-80aa-4c62-8ed8-f5eabc1e7a10",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The media-themes model of media influence claims that:",
+            "explanation": "The correct answer is: social interaction reinforces the ideas and images that audiences select",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "audiences selectively interpret what they want to hear"
+              },
+              {
+                "id": "1",
+                "text": "content analysis is the best way to identify the themes covered by the media"
+              },
+              {
+                "id": "2",
+                "text": "audiences passively absorb whatever messages they are given"
+              },
+              {
+                "id": "3",
+                "text": "social interaction reinforces the ideas and images that audiences select"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "93b43c47-f98b-40c7-b0da-b806b961052b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Telework is a form of employment that involves:",
+            "explanation": "The correct answer is: working at home for an outside employer, using information technology",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "running one's own business through telephone helplines or hotlines"
+              },
+              {
+                "id": "1",
+                "text": "working at home for an outside employer, using information technology"
+              },
+              {
+                "id": "2",
+                "text": "babysitting and other jobs within a local network, through the informal economy"
+              },
+              {
+                "id": "3",
+                "text": "combining non-manual work with the leisure activity of watching television"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "576becd9-bd06-43c3-b552-4ea35e4fa476",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Traditional working class identity was based around:",
+            "explanation": "The correct answer is: local communities, extended kinship networks and shared leisure pursuits",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "shared working conditions in the manufacturing industry"
+              },
+              {
+                "id": "1",
+                "text": "the class consciousness of members of the proletariat"
+              },
+              {
+                "id": "2",
+                "text": "local communities, extended kinship networks and shared leisure pursuits"
+              },
+              {
+                "id": "3",
+                "text": "collective aspirations to move into the middle class"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "51d2d434-d4a5-41d4-9b5b-73c847f1197b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "How is endometriosis generally treated?",
+            "explanation": "The correct answer is: hormones",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "antiprosaglandin drugs"
+              },
+              {
+                "id": "1",
+                "text": "prostaglandin drugs"
+              },
+              {
+                "id": "2",
+                "text": "hormones"
+              },
+              {
+                "id": "3",
+                "text": "aspirin"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "f0f8e65d-9aea-494d-b587-5f41b0804867",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A major car accident occurs. One man stops his car and starts helping people. After seeing him stop, others also stop and start helping. Which of the following theories best explains the scenario?",
+            "explanation": "The correct answer is: Emergent-norm",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Convergence"
+              },
+              {
+                "id": "1",
+                "text": "Emergent-norm"
+              },
+              {
+                "id": "2",
+                "text": "Contagion"
+              },
+              {
+                "id": "3",
+                "text": "Value-added"
+              }
+            ],
+            "correctAnswer": "1"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 120,
+          "estimatedDuration": 12,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 12,
+            "hard": 0
+          },
+          "tags": [
+            "General Knowledge",
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.482395+00:00",
+      "updatedAt": "2025-07-28T18:03:50.482408+00:00",
+      "publishedAt": "2025-07-28T18:03:50.482411+00:00",
+      "version": 1
+    },
+    {
+      "id": "f690ba77-7e99-4016-81dc-cec9cad0e523",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Social Sciences Quiz",
+      "description": "Test your knowledge of Social Sciences",
+      "difficulty": "medium",
+      "timeLimit": 660,
+      "totalQuestions": 11,
+      "quizData": {
+        "questions": [
+          {
+            "id": "31c33938-0dde-458a-bfad-c671ba15749d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of these phrases refers specifically to a crisis, rather than an issue?",
+            "explanation": "The correct answer is: It happens suddenly.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "A gap between corporate and stakeholder expectations."
+              },
+              {
+                "id": "1",
+                "text": "When an organization's trading is interrupted."
+              },
+              {
+                "id": "2",
+                "text": "Can be avoided with constant monitoring and relationship building."
+              },
+              {
+                "id": "3",
+                "text": "It happens suddenly."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "a2ff91e1-43e0-4ccb-9f97-11c87ca3c4d1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Why is coercive diplomacy hard? What are the inherent difficulties?",
+            "explanation": "The correct answer is: The success ultimately rests on perceptual, psychological and emotional factors, giving rise to the risk that misperception or miscalculation will defeat even a well-executed strategy that otherwise meets all the requirements for success.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Perpetual, psychological and emotional factors are precluded from the adversary's calculations. In no-win situations therefore the adversary might calculate that temporary compliance is the best strategic option to buy time."
+              },
+              {
+                "id": "1",
+                "text": "Coercive diplomacy leaves too much room for compromise. Actors engaging in such behaviour are unlikely to perceive their vital interests as threatened and regard issues as zero-sum because they are aware that force will be used. As a consequence coercive diplomacy can lead to lengthy resolution discussions."
+              },
+              {
+                "id": "2",
+                "text": "The success ultimately rests on perceptual, psychological and emotional factors, giving rise to the risk that misperception or miscalculation will defeat even a well-executed strategy that otherwise meets all the requirements for success."
+              },
+              {
+                "id": "3",
+                "text": "The political scope for offering inducements can become unlimited. The problem becomes particularly underlined when the risk of terrorism, WMD or equal military capability comes into play. Inducements can appear to look like concessionary politics and blur the line of what constitutes a success defined as the fear of inescapable escalation."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "aed7ec99-66b4-4f5e-bb09-e5229d35c541",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What was the significance of the Truman Doctrine?",
+            "explanation": "The correct answer is: It indicated that the US would now view all local revolts through a geopolitical lens",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "It indicated the special place of Greece and Turkey in American interests"
+              },
+              {
+                "id": "1",
+                "text": "It was Truman's first statement on European affairs"
+              },
+              {
+                "id": "2",
+                "text": "It indicated US reluctance to get involved in incidents outside of its immediate sphere of influence"
+              },
+              {
+                "id": "3",
+                "text": "It indicated that the US would now view all local revolts through a geopolitical lens"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "5fcbdf16-95f8-4f1e-9ac3-97534a97e342",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A member of the House of Representatives wishing to influence tax policy would most likely try to serve on which of the following committees?",
+            "explanation": "The correct answer is: Ways and Means",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Commerce"
+              },
+              {
+                "id": "1",
+                "text": "Ways and Means"
+              },
+              {
+                "id": "2",
+                "text": "Education and the Workforce"
+              },
+              {
+                "id": "3",
+                "text": "Resources"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "05a1727b-666a-4654-8b3c-abec2d5865e7",
+            "type": "MULTIPLE_CHOICE",
+            "question": "D\u00e9tente, or the relaxing of tensions coupled with firm guarantees of mutual security, represented a shift in American foreign policy toward the communist world ushered in by",
+            "explanation": "The correct answer is: Richard Nixon.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Richard Nixon."
+              },
+              {
+                "id": "1",
+                "text": "Eugene McCarthy"
+              },
+              {
+                "id": "2",
+                "text": "Lyndon Johnson."
+              },
+              {
+                "id": "3",
+                "text": "Robert Kennedy."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "47678e99-b241-4484-9ffa-0725912b2303",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following entities cannot sue for libel?",
+            "explanation": "The correct answer is: A government institution",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "A politician"
+              },
+              {
+                "id": "1",
+                "text": "A house of worship"
+              },
+              {
+                "id": "2",
+                "text": "A government institution"
+              },
+              {
+                "id": "3",
+                "text": "A publicly-traded company"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "096fb94f-aaac-4ffa-960b-caef4f8d676d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The majority of Supreme Court justices",
+            "explanation": "The correct answer is: are appointed by presidents of the same political party",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "are appointed by presidents of the same political party"
+              },
+              {
+                "id": "1",
+                "text": "have no prior judicial experience"
+              },
+              {
+                "id": "2",
+                "text": "switch party affiliation during their term"
+              },
+              {
+                "id": "3",
+                "text": "stay on the court for only a decade"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "70c43874-0ce9-4886-9cc8-de50d73585a1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Incumbent members of the House of Representatives win reelection more often than incumbent senators for all of the following reasons EXCEPT",
+            "explanation": "The correct answer is: representatives may use federal funds to publicize their achievements via direct mail to constituents",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "representatives' constituents more often belong largely to the representative's party"
+              },
+              {
+                "id": "1",
+                "text": "senators have more political power than representatives, and Senate races are accordingly contested more aggressively"
+              },
+              {
+                "id": "2",
+                "text": "representatives may use federal funds to publicize their achievements via direct mail to constituents"
+              },
+              {
+                "id": "3",
+                "text": "representatives more often run uncontested"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "e5c4f04a-a8f5-4d62-8b10-cbec42da7eb1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following ways is NOT a defining feature that distinguishes postcolonialism from other perspectives on security?",
+            "explanation": "The correct answer is: Postcolonialism uniquely considers the nation or community group as a valid referent object in security studies.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Postcolonialism uniquely considers the nation or community group as a valid referent object in security studies."
+              },
+              {
+                "id": "1",
+                "text": "Postcolonialism takes account not only of major war, but also of so-called 'small wars' and asymmetric conflicts."
+              },
+              {
+                "id": "2",
+                "text": "Postcolonialism employs a distinctive focus on the role of violence in world politics."
+              },
+              {
+                "id": "3",
+                "text": "Postcolonialism is not a predominantly or exclusively European form of knowledge."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "a5b4bb0b-bc5e-44a5-9de8-987cfa3e505a",
+            "type": "MULTIPLE_CHOICE",
+            "question": "In which year was the seminal Human Development Report published?",
+            "explanation": "The correct answer is: 1994",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "1987"
+              },
+              {
+                "id": "1",
+                "text": "1997"
+              },
+              {
+                "id": "2",
+                "text": "1994"
+              },
+              {
+                "id": "3",
+                "text": "2004"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "ba332f29-f09d-41e0-822b-cd8c406b986b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "In terms of cyber-security, what is meant by 'resilience' and why is it important?",
+            "explanation": "The correct answer is: Resilience refers to the ability of IT systems to recover from attack.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Resilience refers to the ability of an IT system to identify and defend against a cyber-security threat."
+              },
+              {
+                "id": "1",
+                "text": "The only way to build a truly resilient IT system is to ensure that it can repel all types of threat and remain and avoid attack."
+              },
+              {
+                "id": "2",
+                "text": "Resilience in an IT system refers to its ability to function when there are no threats to its security."
+              },
+              {
+                "id": "3",
+                "text": "Resilience refers to the ability of IT systems to recover from attack."
+              }
+            ],
+            "correctAnswer": "3"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 110,
+          "estimatedDuration": 11,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 11,
+            "hard": 0
+          },
+          "tags": [
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.487347+00:00",
+      "updatedAt": "2025-07-28T18:03:50.487358+00:00",
+      "publishedAt": "2025-07-28T18:03:50.487360+00:00",
+      "version": 1
+    },
+    {
+      "id": "b621375f-78c9-474f-88d7-6ae7d8967a2b",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "History Quiz",
+      "description": "Test your knowledge of History",
+      "difficulty": "medium",
+      "timeLimit": 780,
+      "totalQuestions": 13,
+      "quizData": {
+        "questions": [
+          {
+            "id": "b24146fb-5281-45c9-a6c6-f5728d0cfc63",
+            "type": "MULTIPLE_CHOICE",
+            "question": "The commoners of the rural Aztec villages of Capilco and Cuexcomate:",
+            "explanation": "The correct answer is: were mostly left alone and did fairly well for themselves.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "were ruled by an iron fist by the king, who had armies stationed there."
+              },
+              {
+                "id": "1",
+                "text": "were forced to send half of all maize they grew to the king as tribute and lived in absolute poverty."
+              },
+              {
+                "id": "2",
+                "text": "were mostly left alone and did fairly well for themselves."
+              },
+              {
+                "id": "3",
+                "text": "had no protection from city states that invaded from the north."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "bfa9b3fa-3060-4b41-abd1-264aa6ebf59a",
+            "type": "MULTIPLE_CHOICE",
+            "question": "This question refers to the following information.\nI come not to urge personal claims, nor to seek individual benefits; I appear as the advocate of those who cannot plead their own cause; I come as the friend of those who are deserted, oppressed, and desolate. In the Providence of God, I am the voice of the maniac whose piercing cries from the dreary dungeons of your jails penetrate not your Halls of Legislation. I am the Hope of the poor crazed beings who pine in the cells, and stalls, and cages, and waste rooms of your poor-houses. I am the Revelation of hundreds of wailing, suffering creatures, hidden in your private dwellings, and in pens and cabins\u2014shut out, cut off from all healing influences, from all mind-restoring cares.\u2026 Could their melancholy histories be spread before you as revealed to my grieved spirit during the last three months, how promptly, how earnestly would you search out the most approved means of relief; how trifling, how insignificant, by comparison, would appear the sacrifices you are asked to make; how would a few dimes and dollars, gathered from each citizen, diminish in value as a possession, compared with the certain benefits and vast good to be secured for the suffering insane...by the consecration and application of a sufficient fund to the construction of a suitable hospital.\u2026\n\u2014Dorothea Dix, Memorial Soliciting a State Hospital for the Protection and Cure of the Insane,\nSubmitted to the General Assembly of North Carolina, November 1848\nWhich of the following best reflects the perspective of Dorothea Dix in the passage above?",
+            "explanation": "The correct answer is: The care of the mentally ill is a state concern.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "The care of the mentally ill is a state concern."
+              },
+              {
+                "id": "1",
+                "text": "The mentally ill are best left to the care of their families."
+              },
+              {
+                "id": "2",
+                "text": "The federal government should regulate the treatment of the mentally ill."
+              },
+              {
+                "id": "3",
+                "text": "More democracy will help the mentally ill."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "2ef9615d-8703-4d79-8adb-19e3c20df88b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "This question refers to the following information.\nNow, we have organized a society, and we call it \"Share Our Wealth Society,\" a society with the motto \"Every Man a King.\"\u2026\nWe propose to limit the wealth of big men in the country. There is an average of $15,000 in wealth to every family in America. That is right here today.\nWe do not propose to divide it up equally. We do not propose a division of wealth, but we do propose to limit poverty that we will allow to be inflicted on any man's family. We will not say we are going to try to guarantee any equality \u2026 but we do say that one third of the average is low enough for any one family to hold, that there should be a guarantee of a family wealth of around $5,000; enough for a home, an automobile, a radio, and the ordinary conveniences, and the opportunity to educate their children.\u2026\nWe will have to limit fortunes. Our present plan is that we will allow no man to own more than $50,000,000. We think that with that limit we will be able to carry out the balance of the program.\n\u2014Senator Huey P. Long of Louisiana, Radio Address, February 23, 1934\nSenator Long ran a political machine that made him the virtual dictator of Louisiana. As a political boss, he can best be compared to whom?",
+            "explanation": "The correct answer is: William M. Tweed",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "George Washington"
+              },
+              {
+                "id": "1",
+                "text": "Theodore Roosevelt"
+              },
+              {
+                "id": "2",
+                "text": "William M. Tweed"
+              },
+              {
+                "id": "3",
+                "text": "Barack Obama"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "4a405a77-21e2-4c2d-a698-42c3a79eb8e6",
+            "type": "MULTIPLE_CHOICE",
+            "question": "This question refers to the following information.\nThe assumption by a government of the office of Reliever-general to the poor is necessarily forbidden by the principle that a government cannot rightly do anything more than protect. In demanding from a citizen contributions for the mitigation of distress \u2026 the state is \u2026 reversing its function. \u2026 To enforce the fundamental law\u2014to take care that every man has freedom to do all that he wills, provided he infringes not the equal freedom of any other man. \u2026 [But that] is quite a separate thing from insuring him satisfaction. \u2026\nThe poverty of the incapable, the distresses that come upon the imprudent, the starvation of the idle, and those shoulderings aside of the weak by the strong \u2026 are the decrees of a large, farseeing benevolence. \u2026 When regarded not separately, but in connection with the interests of universal humanity, these harsh fatalities are seen to be full of the highest beneficence.\nHerbert Spencer, Social Statistics: Survival of the Fittest Applied to Humankind, 1851\nFrom the passage, one may infer that Spencer",
+            "explanation": "The correct answer is: opposed the use of tax money to provide aid to the poor",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "opposed the use of tax money to provide aid to the poor"
+              },
+              {
+                "id": "1",
+                "text": "challenged the government's right to tax the people"
+              },
+              {
+                "id": "2",
+                "text": "believed that the government should do more than merely protect its people"
+              },
+              {
+                "id": "3",
+                "text": "believed that working people should unite for a common cause"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "dff14638-f026-4f60-bdf6-0b65a7554c07",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following are techniques of trace element analysis?",
+            "explanation": "The correct answer is: neutron activation analysis and X- ray fluorescence",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "proton magnetometer and electrical resistivity"
+              },
+              {
+                "id": "1",
+                "text": "accelerator mass spectrometry and photosynthesis pathways"
+              },
+              {
+                "id": "2",
+                "text": "carbon isotope analysis and experimental replication"
+              },
+              {
+                "id": "3",
+                "text": "neutron activation analysis and X- ray fluorescence"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "997a0b10-4f29-4c6b-80e6-827548a17380",
+            "type": "MULTIPLE_CHOICE",
+            "question": "This question refers to the following information.\nIn Russia there was nothing going on well, and [Souvarine] was in despair over the news he had received. His old companions were all turning to the politicians; the famous Nihilists who made Europe tremble-sons of village priests, of the lower middle class, of tradesmen-could not rise above the idea of national liberation, and seemed to believe that the world would be delivered-when they had killed their despot&\u2026\n\"Foolery! They'll never get out of it with their foolery.\"\nThen, lowering his voice still more, in a few bitter words he described his old dream of fraternity. He had renounced his rank and his fortune; he had gone among workmen, only in the hope of seeing at last the foundation of a new society of labour in common. All the sous in his pockets had long gone to the urchins of the settlement; he had been as tender as a brother with the colliers, smiling at their suspicion, winning them over by his quiet workmanlike ways and his dislike of chattering. But decidedly the fusion had not taken place.\nHis voice changed, his eyes grew bright, he fixed them on \u00e9tienne, directly addressing him:\n\"Now, do you understand that? These hatworkers at Marseilles who have won the great lottery prize of a hundred thousand francs have gone off at once and invested it, declaring that they are going to live without doing anything! Yes, that is your idea, all of you French workmen; you want to unearth a treasure in order to devour it alone afterwards in some lazy, selfish corner. You may cry out as much as you like against the rich, you haven't got courage enough to give back to the poor the money that luck brings you. You will never be worthy of happiness as long as you own anything, and your hatred of the bourgeois proceeds solely from an angry desire to be bourgeois yourselves in their place.\"\n\u00e9mile Zola, French writer, Germinal, 1885\nThe radical movement known as anarchism, alluded to in the first paragraph, had been related to all of the following EXCEPT",
+            "explanation": "The correct answer is: the Congress of Vienna",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "the International Workingman's Association"
+              },
+              {
+                "id": "1",
+                "text": "Pierre-Joseph Proudhon"
+              },
+              {
+                "id": "2",
+                "text": "the Congress of Vienna"
+              },
+              {
+                "id": "3",
+                "text": "the Paris Commune"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "afae296e-0529-4bd4-927a-5c1ef27c13eb",
+            "type": "MULTIPLE_CHOICE",
+            "question": "This question refers to the following information.\n\"We found that not only was it a civil war, an effort by a people who had for years been seeking their liberation from any colonial influence whatsoever, but also we found that the Vietnamese whom we had enthusiastically molded after our own image were hard put to take up the fight against the threat we were supposedly saving them from.\n\"We found most people didn't even know the difference between communism and democracy. They only wanted to work in rice paddies without helicopters strafing them and bombs with napalm burning their villages and tearing their country apart. They wanted everything to do with the war, particularly with this foreign presence of the United States of America, to leave them alone in peace, and they practiced the art of survival by siding with whichever military force was present at a particular time, be it Viet Cong, North Vietnamese or American.\"\nJohn Kerry, 1971\nWhich of the following pairs of words best characterizes the differences between the approaches of Presidents Lyndon Johnson (1963\u20131969) and Richard Nixon (1969\u20131974) to the Vietnam conflict?",
+            "explanation": "The correct answer is: Insurgence vs. retreat",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Aggression vs. pacifism"
+              },
+              {
+                "id": "1",
+                "text": "Competency vs. failure"
+              },
+              {
+                "id": "2",
+                "text": "Insurgence vs. retreat"
+              },
+              {
+                "id": "3",
+                "text": "Appeasement vs. provocation"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "b8b75126-5071-4074-933c-9b11f03ee178",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which culture was centered in the Ohio River valley around 2,800 years ago?",
+            "explanation": "The correct answer is: the Adena",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "the Adena"
+              },
+              {
+                "id": "1",
+                "text": "the Mogollon"
+              },
+              {
+                "id": "2",
+                "text": "the Kwakiutl"
+              },
+              {
+                "id": "3",
+                "text": "the Sinagua"
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "3955511b-1e3e-41ee-a0cd-90a88c07f7d5",
+            "type": "MULTIPLE_CHOICE",
+            "question": "This question refers to the following information.\nTonight, the daughter of a woman whose highest goal was a future for her children talks to our nation's oldest political party about a future for us all. Tonight, the daughter of working Americans tells all Americans that the future is within our reach, if we're willing to reach for it. Tonight, the daughter of an immigrant from Italy has been chosen to run for (vice) president in the new land my father came to love.\u2026 Americans want to live by the same set of rules. But under this administration, the rules are rigged against too many of our people. It isn't right that every year the share of taxes paid by individual citizens is going up, while the share paid by large corporations is getting smaller and smaller.\u2026 It isn't right that young couples question whether to bring children into a world of 50,000 nuclear warheads. That isn't the vision for which Americans have struggled for more than two centuries.\u2026 Tonight, we reclaim our dream. We're going to make the rules of American life work for all Americans again.\u2026 The issue is not what America can do for women, but what women can do for America.\n\u2014Geraldine Ferraro, Vice Presidential Nomination Acceptance Address, July 19, 1984\nGeraldine Ferraro can be most directly compared to which of the following women?",
+            "explanation": "The correct answer is: Sandra Day O'Connor",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Abigail Adams"
+              },
+              {
+                "id": "1",
+                "text": "Sandra Day O'Connor"
+              },
+              {
+                "id": "2",
+                "text": "Jane Addams"
+              },
+              {
+                "id": "3",
+                "text": "Rosa Parks"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "4db59cd9-7c5d-4fee-9ac0-1fc787a8e8d6",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What is the date of the first evidence of the use of metals in South America?",
+            "explanation": "The correct answer is: 3100 B.P.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "1200 B.P."
+              },
+              {
+                "id": "1",
+                "text": "3100 B.P."
+              },
+              {
+                "id": "2",
+                "text": "5100 B.P."
+              },
+              {
+                "id": "3",
+                "text": "6200 B.P."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "6ba67335-ca2c-4b70-a4f9-fa34e231a43a",
+            "type": "MULTIPLE_CHOICE",
+            "question": "This question refers to the following information.\nHere is the case of a woman employed in the manufacturing department of a Broadway house. It stands for a hundred like her own. She averages three dollars a week. Pay is $1.50 for her room; for breakfast she has a cup of coffee; lunch she cannot afford. One meal a day is her allowance. This woman is young, she is pretty. She has \"the world before her.\" Is it anything less than a miracle if she is guilty of nothing less than the \"early and improvident marriage,\" against which moralists exclaim as one of the prolific causes of the distresses of the poor? Almost any door might seem to offer a welcome escape from such slavery as this. \"I feel so much healthier since I got three square meals a day,\" said a lodger in one of the Girls' Homes. Two young sewing-girls came in seeking domestic service, so that they might get enough to eat. They had been only half-fed for some time, and starvation had driven them to the one door at which the pride of the American-born girl will not permit her to knock, though poverty be the price of her independence.\n\u2014Jacob Riis, How the Other Half Lives, 1890\nThe situation faced by the young women in the passage above is most directly comparable to which of the following?",
+            "explanation": "The correct answer is: Detroit autoworkers in the 1930s",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "American revolutionaries in the 1770s"
+              },
+              {
+                "id": "1",
+                "text": "Slaves in the antebellum South"
+              },
+              {
+                "id": "2",
+                "text": "Populist farmers in the 1890s"
+              },
+              {
+                "id": "3",
+                "text": "Detroit autoworkers in the 1930s"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "211c6ef1-63ad-4925-bd82-e2cb4e0fd4e0",
+            "type": "MULTIPLE_CHOICE",
+            "question": "After 400,000 years ago, hominid evolution is characterized by:",
+            "explanation": "The correct answer is: a rapid increase in brain size.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "bipedalism and relatively stable brain size."
+              },
+              {
+                "id": "1",
+                "text": "a slight decrease in average brain size."
+              },
+              {
+                "id": "2",
+                "text": "a rapid increase in brain size."
+              },
+              {
+                "id": "3",
+                "text": "slowly increased brain size and the first stone tools."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "192ae3c7-6885-4dd3-9ec7-771314cd99bc",
+            "type": "MULTIPLE_CHOICE",
+            "question": "When did the Inca begin their military expansion across South America?",
+            "explanation": "The correct answer is: 1450 A.D.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "200 A.D."
+              },
+              {
+                "id": "1",
+                "text": "900 A.D."
+              },
+              {
+                "id": "2",
+                "text": "1450 A.D."
+              },
+              {
+                "id": "3",
+                "text": "1650 A.D."
+              }
+            ],
+            "correctAnswer": "2"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 130,
+          "estimatedDuration": 13,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 13,
+            "hard": 0
+          },
+          "tags": [
+            "History",
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.492134+00:00",
+      "updatedAt": "2025-07-28T18:03:50.492140+00:00",
+      "publishedAt": "2025-07-28T18:03:50.492143+00:00",
+      "version": 1
+    },
+    {
+      "id": "db196922-25c8-4bc2-90fc-f199e4c020d9",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Business Quiz",
+      "description": "Test your knowledge of Business",
+      "difficulty": "medium",
+      "timeLimit": 1080,
+      "totalQuestions": 18,
+      "quizData": {
+        "questions": [
+          {
+            "id": "42eccb83-3601-459c-ae8c-286ead8723c5",
+            "type": "MULTIPLE_CHOICE",
+            "question": "______ are the obligations of workers towards their employer, based on individual contracts and wider employment laws.",
+            "explanation": "The correct answer is: Employee duties",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Employee rights"
+              },
+              {
+                "id": "1",
+                "text": "Employee rights"
+              },
+              {
+                "id": "2",
+                "text": "Employer duties"
+              },
+              {
+                "id": "3",
+                "text": "Employee duties"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "c2633d18-abf9-4371-918d-3eee77cec78d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Providing free samples of perfumes (scent) in magazines is an example of which of the following?",
+            "explanation": "The correct answer is: Classical conditioning.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Classical conditioning."
+              },
+              {
+                "id": "1",
+                "text": "Operant conditioning."
+              },
+              {
+                "id": "2",
+                "text": "Social learning."
+              },
+              {
+                "id": "3",
+                "text": "Behavioural learning."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "04d72dd2-0113-4965-83a3-e244b57884db",
+            "type": "MULTIPLE_CHOICE",
+            "question": "______ is the corporate role in governing citizenship rights for the individual",
+            "explanation": "The correct answer is: Corporate Citizenship",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Political Corporate Social Responsibility"
+              },
+              {
+                "id": "1",
+                "text": "Triple Bottom Line"
+              },
+              {
+                "id": "2",
+                "text": "Sustainability"
+              },
+              {
+                "id": "3",
+                "text": "Corporate Citizenship"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "b6fade33-cd57-4214-a423-88ce27b45c5b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "In B2B contexts, ___________ occurs in large organizations where considerable internal dealing between different company divisions occurs, often across national boundaries.",
+            "explanation": "The correct answer is: Transfer pricing.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Price gouging."
+              },
+              {
+                "id": "1",
+                "text": "Transfer pricing."
+              },
+              {
+                "id": "2",
+                "text": "Pay what you want pricing."
+              },
+              {
+                "id": "3",
+                "text": "EVC pricing."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "42dd8203-e2f7-425f-ad6e-16135a56c27f",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following is a type of consumer product bought relatively infrequently and which requires consumers to update their knowledge prior to purchase?",
+            "explanation": "The correct answer is: Shopping product.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Luxury product."
+              },
+              {
+                "id": "1",
+                "text": "Shopping product."
+              },
+              {
+                "id": "2",
+                "text": "Generic products."
+              },
+              {
+                "id": "3",
+                "text": "Branded products."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "a3ad2968-515d-4d9d-ba02-471ef2a50841",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following is not a useful base for segmenting organizational characteristics?",
+            "explanation": "The correct answer is: By turnover.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "By turnover."
+              },
+              {
+                "id": "1",
+                "text": "By geographical location."
+              },
+              {
+                "id": "2",
+                "text": "By organizational size."
+              },
+              {
+                "id": "3",
+                "text": "By industry type."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "2ff8f2b0-95bf-41af-a135-d124ad0a9801",
+            "type": "MULTIPLE_CHOICE",
+            "question": "_______________ is concerned with the development of knowledge that is specific to the parties involved and is referred to as 'learning together'.",
+            "explanation": "The correct answer is: Dialogue.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Dialogue."
+              },
+              {
+                "id": "1",
+                "text": "Personal influencer."
+              },
+              {
+                "id": "2",
+                "text": "Feedback."
+              },
+              {
+                "id": "3",
+                "text": "Message."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "b2746a96-6b98-4f31-a6ee-ae45790defa2",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following is a stage in the new product development process, undertaken when a new product is tested with a sample of customers, or is launched in a specified geographical area, to judge customers' reactions prior to a national launch?",
+            "explanation": "The correct answer is: Test marketing.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Test marketing."
+              },
+              {
+                "id": "1",
+                "text": "Focused marketing."
+              },
+              {
+                "id": "2",
+                "text": "Live marketing."
+              },
+              {
+                "id": "3",
+                "text": "Generic marketing."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "4e22d37f-7c2a-4380-be30-837efdb04fe6",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following is not one of the categories of research design?",
+            "explanation": "The correct answer is: Desk research.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Exploratory research."
+              },
+              {
+                "id": "1",
+                "text": "Descriptive research."
+              },
+              {
+                "id": "2",
+                "text": "Causal research."
+              },
+              {
+                "id": "3",
+                "text": "Desk research."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "6b456559-df10-4b50-aafb-3ef48f5a39df",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Toyota's Prius and Honda's hybrid Civic are examples of technological products inspired by:",
+            "explanation": "The correct answer is: Social pressure to develop more fuel-efficient vehicles with fewer dangerous emissions.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Style considerations in the Japanese automobile industry."
+              },
+              {
+                "id": "1",
+                "text": "Social pressure to develop more fuel-efficient vehicles with fewer dangerous emissions."
+              },
+              {
+                "id": "2",
+                "text": "The desire of many engineers to simply make interesting products."
+              },
+              {
+                "id": "3",
+                "text": "The realization that Japanese people didn't need large, high-speed cars."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "9df5ea2f-728a-4219-b2b3-0de5c08872f5",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which is not a recognised form of business continuity planning?",
+            "explanation": "The correct answer is: Building planning",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Contingency planning"
+              },
+              {
+                "id": "1",
+                "text": "Scenario planning"
+              },
+              {
+                "id": "2",
+                "text": "Financial planning"
+              },
+              {
+                "id": "3",
+                "text": "Building planning"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "17c51536-d435-4450-9d4a-081a7a88d73e",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following processes is not fundamental in explaining how consumers think and learn about products and brands?",
+            "explanation": "The correct answer is: Personality.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Cognition."
+              },
+              {
+                "id": "1",
+                "text": "Perception."
+              },
+              {
+                "id": "2",
+                "text": "Learning."
+              },
+              {
+                "id": "3",
+                "text": "Personality."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "a26c348d-d65c-4fb0-b7ab-bc036e68facb",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What is characteristic for the location of a virtual team?",
+            "explanation": "The correct answer is: remotely",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "In the same building"
+              },
+              {
+                "id": "1",
+                "text": "In the same industry"
+              },
+              {
+                "id": "2",
+                "text": "In the same country"
+              },
+              {
+                "id": "3",
+                "text": "remotely"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "9492c4ea-ef9f-406f-bac8-3d4471bb0595",
+            "type": "MULTIPLE_CHOICE",
+            "question": "_______ theory can be described as a code of conduct to which all rational beings should adhere. This contrasts with ________ morality which is the code of conduct adopted by a particular group or society.",
+            "explanation": "The correct answer is: Normative, Descriptive",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Descriptive, Normative"
+              },
+              {
+                "id": "1",
+                "text": "Normative, Instrumental"
+              },
+              {
+                "id": "2",
+                "text": "Normative, Descriptive"
+              },
+              {
+                "id": "3",
+                "text": "Ethical, Descriptive"
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "3155879d-9ab1-41ac-b84b-1e9056668fb1",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which of the following refers to unsolicited electronic messages?",
+            "explanation": "The correct answer is: Spam.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Opt-in email."
+              },
+              {
+                "id": "1",
+                "text": "Consent marketing."
+              },
+              {
+                "id": "2",
+                "text": "Spam."
+              },
+              {
+                "id": "3",
+                "text": "Opt-out email."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "c97b05db-78b7-4d1a-aa07-bba60802163a",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A method of marketing by electronic mail wherein the recipient of the message has consented to receive it is called:",
+            "explanation": "The correct answer is: Permission-based email marketing.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Search marketing."
+              },
+              {
+                "id": "1",
+                "text": "Internet advertising."
+              },
+              {
+                "id": "2",
+                "text": "Permission-based email marketing."
+              },
+              {
+                "id": "3",
+                "text": "Social web marketing."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "53ccf4d9-f461-4295-a442-3bdff656f69d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Which writer is most associated with bureaucratic structures?",
+            "explanation": "The correct answer is: Max Weber",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Henry Fayol"
+              },
+              {
+                "id": "1",
+                "text": "Max Weber"
+              },
+              {
+                "id": "2",
+                "text": "Adam Smith"
+              },
+              {
+                "id": "3",
+                "text": "Mary Parker Follett"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "b239647b-c991-4e58-a05e-47a63a40deed",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A corporation is ________ from its managers, employees, investors and customers. It therefore has _______ succession and also ________.",
+            "explanation": "The correct answer is: Independent, Perpetual, Owns its own assets",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Indistinguishable, Perpetual, Does not own its own assets"
+              },
+              {
+                "id": "1",
+                "text": "Independent, Limited, Owns its own assets"
+              },
+              {
+                "id": "2",
+                "text": "Independent, Perpetual, Owns its own assets"
+              },
+              {
+                "id": "3",
+                "text": "Indistinguishable, Perpetual, Owns its own assets"
+              }
+            ],
+            "correctAnswer": "2"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 180,
+          "estimatedDuration": 18,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 18,
+            "hard": 0
+          },
+          "tags": [
+            "Professional",
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.497422+00:00",
+      "updatedAt": "2025-07-28T18:03:50.497459+00:00",
+      "publishedAt": "2025-07-28T18:03:50.497481+00:00",
+      "version": 1
+    },
+    {
+      "id": "9b0a6266-9eae-43db-a739-628e429a5513",
+      "userId": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343",
+      "title": "Law Quiz",
+      "description": "Test your knowledge of Law",
+      "difficulty": "medium",
+      "timeLimit": 900,
+      "totalQuestions": 15,
+      "quizData": {
+        "questions": [
+          {
+            "id": "2d4ea10b-3f9e-406f-be78-db7ea3411fed",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A man was charged with tax fraud. He wished to offer evidence, on his behalf, of his honesty while running for mayor. During his political campaign, he refused to lie about a psychiatric problem in his past, and his honesty cost him the election. The man was quoted as saying, \"If I lied, I'd be mayor today, but that's no way to win an election. \"The BEST argument of the objector to such evidence in the tax fraud case would be which of the following?",
+            "explanation": "The correct answer is: This is an impermissible way to prove character.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Character evidence is not admissible in such cases."
+              },
+              {
+                "id": "1",
+                "text": "One incident doesn't prove character."
+              },
+              {
+                "id": "2",
+                "text": "This is an impermissible way to prove character."
+              },
+              {
+                "id": "3",
+                "text": "The evidence is irrelevant."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "a69286e5-1e10-458e-be4f-907e35fb4f02",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A federal statute authorizes a federal agency to issue rules requiring that state legislatures adopt laws of limited duration to reduce water pollution from gasoline-powered boat motors. The purpose of these rules is to assist the agency in attaining the clean water standards required by the statute. After the agency issued such rules, several states filed an action challenging the rules on the sole ground that they are unconstitutional. Should the court uphold the constitutionality of the agency's rules?",
+            "explanation": "The correct answer is: Yes, because the rules serve an important purpose, and the requirements they impose on the states are only temporary and do not excessively interfere with the functioning of the state governments.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "No, because the federal government may not compel a state legislature to enact into state law a federally mandated regulatory program."
+              },
+              {
+                "id": "1",
+                "text": "No, because the Tenth Amendment grants states immunity from all direct federal states immunity from all direct federal regulation."
+              },
+              {
+                "id": "2",
+                "text": "Yes, because the rules serve an important purpose, and the requirements they impose on the states are only temporary and do not excessively interfere with the functioning of the state governments."
+              },
+              {
+                "id": "3",
+                "text": "Yes, because the supremacy clause of Article VI requires states to enforce federal law."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "d01c0b31-54e0-49a6-8276-2fd7bbb8a53e",
+            "type": "MULTIPLE_CHOICE",
+            "question": "What is the meaning of international legal personality?",
+            "explanation": "The correct answer is: It means having rights and duties under international law and a capacity to enforce these by or against the relevant actor",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "It means that only States are considered subjects of international law"
+              },
+              {
+                "id": "1",
+                "text": "It means having rights and duties under international law and a capacity to enforce these by or against the relevant actor"
+              },
+              {
+                "id": "2",
+                "text": "It means that an entity may challenge the authority of States"
+              },
+              {
+                "id": "3",
+                "text": "It is a term that is meant to denote legal, as opposed, to physical persons under international law"
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "253cd6db-38f4-4b60-982e-62a6098e150f",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A victim and a defendant both worked as longshoremen at a shipyard. After the victim was shot to death, the defendant was tried for murder and acquitted. Following the acquittal, the victim's estate sued the defendant in a wrongful death action. During the civil trial, the victim's estate called a witness to testify. The witness, who worked with both men at the shipyard, testified that two weeks before the shooting, the victim came to work with a broken nose and said that the defendant had caused it. The attorney for the victim's estate then asked the witness the following question, \"Was the defendant present during your conversation with the victim, and if so, did he say anything about the victim's broken nose?\" The witness replied, \"Yes, the defendant was present, and after the victim told me that the defendant broke his nose, the defendant said, \u0080\u0098And that's only the beginning. \"Upon objection by the defendant's attorney, the witness's testimony is",
+            "explanation": "The correct answer is: admissible, because it reports the defendant's adoptive admission of the victim's assertion.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "admissible, because it reports a declaration against interest."
+              },
+              {
+                "id": "1",
+                "text": "admissible, because it reports the defendant's adoptive admission of the victim's assertion."
+              },
+              {
+                "id": "2",
+                "text": "inadmissible, because of the principle of collateral estoppel."
+              },
+              {
+                "id": "3",
+                "text": "inadmissible, because it is hearsay not within any recognized exception."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "b9d6c5a2-8640-4f43-879d-2ea35e4f912b",
+            "type": "MULTIPLE_CHOICE",
+            "question": "In June a computer retailer ordered 100 computers, with various configurations, from a manufacturer, to be delivered by August 1. The order form expressly limited acceptance to the terms of the offer. In July the manufacturer sent a confirmation agreeing to the terms and specifications, but stating that \"shipment will be made in two deliveries, half by August 10 and the other half by August 20.\" When shipment was not made by August 1, the retailer withdrew the order. Will the manufacturer prevail in enforcing a contract?",
+            "explanation": "The correct answer is: Yes, because the retailer assented to the terms by remaining silent until after August 1.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Yes, because there was only a minimal difference between the offer and acceptance."
+              },
+              {
+                "id": "1",
+                "text": "Yes, because the retailer assented to the terms by remaining silent until after August 1."
+              },
+              {
+                "id": "2",
+                "text": "No, because the offer expressly limited the acceptance to the terms of the offer."
+              },
+              {
+                "id": "3",
+                "text": "No, because the order was withdrawn before the machines were shipped."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "fbced956-2553-4487-b845-181b356e1c71",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A man, his brother and his friend all discuss murdering the man's neighbor because the neighbor took some shots at the man's dog but he missed. They agree on a plan. They decided on strychnine poisoning, which the friend told them how to get and they went and got it. When they asked the friend to go forward in poisoning the victim, he refused, saying, \"I'm was only here for planning and advice, but I never intended to commit murder.\" The man and his brother took the poison to a meeting with the neighbor, but he wouldn't drink. They were caught and arrested. The statute requires an overt act for criminal conspiracy. Which of the following most accurately states the criminal responsibility of each of the three men?",
+            "explanation": "The correct answer is: The man and his brother are guilty of conspiracy and attempted murder, and the friend is guilty of criminal conspiracy.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "The man and his brother have committed criminal conspiracy and attempted murder."
+              },
+              {
+                "id": "1",
+                "text": "The man and his brother are guilty of conspiracy but not attempted murder."
+              },
+              {
+                "id": "2",
+                "text": "The man and his brother are guilty of conspiracy and attempted murder, but the friend is guilty of nothing."
+              },
+              {
+                "id": "3",
+                "text": "The man and his brother are guilty of conspiracy and attempted murder, and the friend is guilty of criminal conspiracy."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "b69e70af-3b44-4b5e-a18d-0b5bb45062fc",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A defendant was employed by a railroad company as a watchman at its crossing, to give warning to the public of approaching trains. Late one evening, he fell asleep in his kiosk and failed to warn of the approach of an oncoming train. A man, who was driving his car, knew of the usual presence of the watchman. As he approached the crossing, he received no warning. Driving onto the track, the man's car was struck and crushed by the train. The man died instantly. A few minutes after the accident, a police officer arrived at the crossing and walked into the kiosk. As he entered, the defendant then awoke. The police officer asked him, \"What happened here?\" The defendant made incriminating statements. The defendant is subsequently charged with involuntary manslaughter. His motion to prevent the introduction of his incriminating statements into evidence will most likely be",
+            "explanation": "The correct answer is: denied, because the exchange took place in a non-custodial setting and the question was investigatory in nature.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "granted, because the police officer failed to give the defendant his Miranda warnings."
+              },
+              {
+                "id": "1",
+                "text": "granted, because the police officer's conduct in questioning the defendant immediately after he awoke was unfairly prejudicial to the defendant."
+              },
+              {
+                "id": "2",
+                "text": "denied, because the exchange took place in a non-custodial setting and the question was investigatory in nature."
+              },
+              {
+                "id": "3",
+                "text": "denied, because the defendant's incriminating statements were voluntary."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "bb4480ae-9268-4404-98e5-68b484902027",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Statutes are often called ________ law.",
+            "explanation": "The correct answer is: codified",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "quasi"
+              },
+              {
+                "id": "1",
+                "text": "qualified"
+              },
+              {
+                "id": "2",
+                "text": "collaborated"
+              },
+              {
+                "id": "3",
+                "text": "codified"
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "c820893d-449a-482b-91de-909305a48e11",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A man and a woman were partners in an automobile leasing agency. For some time, the man had been embezzling money from the agency. The woman became suspicious and told the man that she wanted to engage an accounting firm to audit the agency's books. In a panic to prevent the audit and avoid being discovered, the man decided to have the woman killed. He contacted a professional killer and hired him to kill the woman for $10,000. A short time later, the woman died in a car crash arranged by the killer. In addition to embezzlement, of what crime or crimes may the man properly be convicted?",
+            "explanation": "The correct answer is: Murder.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Conspiracy and murder."
+              },
+              {
+                "id": "1",
+                "text": "Murder."
+              },
+              {
+                "id": "2",
+                "text": "Solicitation and conspiracy."
+              },
+              {
+                "id": "3",
+                "text": "Solicitation, conspiracy, and murder."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "73425b29-df89-4e7b-a1d7-9975c2e0593d",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A woman was hit in the right eye by a shard of glass when her car was rear-ended by an industrial truck. She was hospitalized, lost her eye, and had several operations over several years. She could not return to work as an apprentice ballet dancer due to loss of coordination, constant headaches, and severe disfigurement. She is considered totally disabled. She had been training for the ballet for many years and, at the trial against the tortfeasor, she proved that she was considered a bright and uncoming student. The defendant claimed that this was still too speculative whether she would have been successful. The trial court disagreed and allowed evidence on the lost earning capacity of a ballet dancer. The jury awarded $3 million. Will the appellate court likely reverse the verdict due to the lost earning capacity issue?",
+            "explanation": "The correct answer is: No, because some imprecision in the evidence regarding loss of earning capacity is to be expected and is not grounds for excluding the evidence.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "No, the jury's award is discretionary and inviolate, and it may not be disturbed with respect to personal injury damages."
+              },
+              {
+                "id": "1",
+                "text": "No, because some imprecision in the evidence regarding loss of earning capacity is to be expected and is not grounds for excluding the evidence."
+              },
+              {
+                "id": "2",
+                "text": "Yes, the evidence did not guarantee or assure anyone that she really would have been a successful professional ballet dancer."
+              },
+              {
+                "id": "3",
+                "text": "Yes, she can only collect for lost work that she held prior to the accident; her future lost earning capacity could be based on an apprentice ballet dancer."
+              }
+            ],
+            "correctAnswer": "1"
+          },
+          {
+            "id": "0428e6ae-e400-42d2-ad6e-186727392e37",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A man with a long history of criminal violence who is a psychopathic personality, often enjoys the act of mercilessly brutalizing innocent elderly people by physical torture that is heinous and shocking. He decides to torture the victim's father for no good reason. After the beating, the father is hospitalized and in intensive care. The victim was not present but read about it in the newspaper and heard about it from the authorities. Victim suffered extreme emotional distress and required medical treatment. Can victim bring a successful action against perpetrator for intentional infliction of emotional distress? (IIED)",
+            "explanation": "The correct answer is: No, because victim was not present at the time that the outrageous behavior occurred.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "No, because victim was not present at the time that the outrageous behavior occurred."
+              },
+              {
+                "id": "1",
+                "text": "Yes, because the activity was outrageous and shocking."
+              },
+              {
+                "id": "2",
+                "text": "No, because perpetrator did not know that the father had immediate family members."
+              },
+              {
+                "id": "3",
+                "text": "Yes, because in torture cases there is strict liability imposed on the perpetrator."
+              }
+            ],
+            "correctAnswer": "0"
+          },
+          {
+            "id": "7b08876c-b609-4fb6-be43-43c1c0c93632",
+            "type": "MULTIPLE_CHOICE",
+            "question": "A state has enacted a statute imposing a tax on the extraction of all platinum in the state. The extraction of other minerals is not taxed by the state. This is true even though there is considerable mining of silver, turquoise, sulfur, and stone within the state. As a result, the largest platinum mining company in the state has filed suit challenging the constitutionality of the state's platinum tax statute. Which of the following best states the burden of persuasion if the mining company attacks the statute as violating the equal protection of the laws?",
+            "explanation": "The correct answer is: The mining company must convince the court that the classification in this statute is not rationally related to the advancement of a legitimate state interest.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "The state must convince the court that the classification in the statute is rationally related to the advancement of a legitimate state interest."
+              },
+              {
+                "id": "1",
+                "text": "The state must convince the court that the classification in this statute is the least restrictive means by which to advance a compelling state interest."
+              },
+              {
+                "id": "2",
+                "text": "The mining company must convince the court that the classification in this statute is not necessary to advance a compelling state interest."
+              },
+              {
+                "id": "3",
+                "text": "The mining company must convince the court that the classification in this statute is not rationally related to the advancement of a legitimate state interest."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "03142b35-8252-4b4a-9370-d3d10fae45cd",
+            "type": "MULTIPLE_CHOICE",
+            "question": "In 1995, an investor purchased a 100-acre tract located in a rural county. Shortly thereafter, the investor prepared a subdivision plan, which created 90 one-acre residential building lots on this tract with the remaining 10-acre lot proposed for a public school building. In the investor's sales brochure promoting the subdivision, he stated that \"in addition to the close proximity of the proposed school for subdivision residents, the county school district would not need to expend tax money to acquire this property for school construction. \" In 1996, the subdivision plan was recorded with the county recorder's office. During the next few years, the investor sold 50 residential lots to individual purchasers. In 2002, the investor conveyed the remaining 40 lots and the 10-acre tract to a builder by deed that included language identical to that contained in the first 50 deeds. By 2007, the builder had sold all of the 40 lots. Each of these deeds identified each lot as being a part of the subdivision. On January 9, 2008, the builder sold the 10-acre tract to a buyer. This deed made no mention of the subdivision. On January 15, 2008, the county school board voted to build a new school on the 10-acre tract. Two weeks later, the buyer began construction of a pizzeria on the 10-acre tract. In an action by the school board against the buyer to enjoin construction of the pizzeria on the 10-acre tract, the court would grant judgment for",
+            "explanation": "The correct answer is: the school district, because the 10-acre tract was designated for public use.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "the buyer, because his own deed made no mention of the subdivision."
+              },
+              {
+                "id": "1",
+                "text": "the buyer, because the dedication was not made to the public in general."
+              },
+              {
+                "id": "2",
+                "text": "the school district, because the 10-acre tract was designated for public use."
+              },
+              {
+                "id": "3",
+                "text": "the school district, because the 10-acre tract constituted an equitable servitude."
+              }
+            ],
+            "correctAnswer": "2"
+          },
+          {
+            "id": "891ea019-0d29-489a-883e-7f49f767e3fb",
+            "type": "MULTIPLE_CHOICE",
+            "question": "Congress has recently enacted a statute designed to prevent price gouging of gasoline by private retail sellers. To help administer the new statute Congress created a seven-member agency, four members of which were appointed by the President, two by the Senate, and one by the Speaker of the House. The agency was authorized to issue rules interpreting regulations prescribed under existing federal law. It was also authorized to issue \"cease and desist\" orders after hearings against private retail sellers of gasoline who \"intentionally engaged in price gouging. \" In this regard, violations of the cease and desist orders were made punishable by fine and/or imprisonment. Which of the following is the strongest constitutional argument against the authority of this agency?",
+            "explanation": "The correct answer is: Congress may not retain the power to appoint even a minority of members of such an agency.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "Congress may not delegate to the agency power to make interpretations of existing federal laws."
+              },
+              {
+                "id": "1",
+                "text": "Congress may not delegate to the agency power to make \"cease and desist\" orders, the violation of which is punishable by imprisonment."
+              },
+              {
+                "id": "2",
+                "text": "Congress may not delegate enforcement of a federal law in any governmental body other than the U. S. Attorney General or the courts."
+              },
+              {
+                "id": "3",
+                "text": "Congress may not retain the power to appoint even a minority of members of such an agency."
+              }
+            ],
+            "correctAnswer": "3"
+          },
+          {
+            "id": "15f93b5c-b11f-47b3-be00-3609bd163b7e",
+            "type": "MULTIPLE_CHOICE",
+            "question": "In an action for malpractice, a plaintiff sued a doctor, claiming that the latter failed to properly diagnose his emphysema condition. The plaintiff contends that he went to the doctor for a medical examination after experiencing chest pains and shortness of breath. However, the doctor found no evidence of the disease and advised him that he was probably suffering from indigestion. Thereafter, the plaintiff was examined by another doctor who discovered that the plaintiff in fact was suffering from a chronic case of emphysema. At trial, the plaintiff calls the other doctor as his first witness. The other doctor proposes to testify the x-rays of the plaintiff's lungs showed that his respiratory organs were marked by distension, which was characteristic of emphysema. Upon objection by the defendant's attorney, the testimony should be",
+            "explanation": "The correct answer is: excluded, because the x-rays are the best evidence to show the distension of the plaintiff's lungs.",
+            "points": 10,
+            "options": [
+              {
+                "id": "0",
+                "text": "admitted, because a doctor is properly qualified as an expert in medical matters."
+              },
+              {
+                "id": "1",
+                "text": "admitted, because the other doctor followed accepted medical practice in arriving at his opinion."
+              },
+              {
+                "id": "2",
+                "text": "excluded, because his opinion is based upon facts not in evidence."
+              },
+              {
+                "id": "3",
+                "text": "excluded, because the x-rays are the best evidence to show the distension of the plaintiff's lungs."
+              }
+            ],
+            "correctAnswer": "3"
+          }
+        ],
+        "settings": {
+          "randomizeQuestions": true,
+          "randomizeOptions": true,
+          "showExplanation": true,
+          "showCorrectAnswer": true,
+          "passingScore": 70,
+          "allowNavigation": true,
+          "showProgressBar": true,
+          "showTimeRemaining": true
+        },
+        "metadata": {
+          "totalPoints": 150,
+          "estimatedDuration": 15,
+          "difficultyDistribution": {
+            "easy": 0,
+            "medium": 15,
+            "hard": 0
+          },
+          "tags": [
+            "Professional",
+            "Intermediate",
+            "Quick Quiz",
+            "Multiple Choice"
+          ]
+        }
+      },
+      "status": "published",
+      "createdAt": "2025-07-28T18:03:50.502420+00:00",
+      "updatedAt": "2025-07-28T18:03:50.502428+00:00",
+      "publishedAt": "2025-07-28T18:03:50.502431+00:00",
+      "version": 1
+    }
+  ],
+  "default_user_id": "1ac7d213-c0ee-4461-8f52-6a42b8e2b343"
+}

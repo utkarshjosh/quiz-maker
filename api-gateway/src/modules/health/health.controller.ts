@@ -1,4 +1,4 @@
-import { type NextFunction, type Request, type Response } from 'express';
+import { type NextFunction, type Request } from 'express';
 import { HttpStatusCode } from 'axios';
 import HealthService from './health.service';
 import { type CustomResponse } from '@/types/common.type';
@@ -27,10 +27,13 @@ export default class HealthController extends Api {
   ) => {
     try {
       const health = await this.healthService.getDetailedHealth();
-      const statusCode = health.status === 'healthy' ? HttpStatusCode.Ok : HttpStatusCode.ServiceUnavailable;
+      const statusCode =
+        health.status === 'healthy'
+          ? HttpStatusCode.Ok
+          : HttpStatusCode.ServiceUnavailable;
       this.send(res, health, statusCode, 'Detailed health check completed');
     } catch (e) {
       next(e);
     }
   };
-} 
+}

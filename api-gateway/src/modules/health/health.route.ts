@@ -36,4 +36,4 @@ health.get('/', controller.getBasicHealth);
  */
 health.get('/detailed', controller.getDetailedHealth);
 
-export default health; 
+export default health;

@@ -47,6 +47,26 @@ model UserSession {
   @@map("user_sessions")
 }
 
+// Tag Management
+model Tag {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String   @db.VarChar(100)
+  slug        String   @db.VarChar(100)
+  isPrimary   Boolean  @default(false) @map("is_primary")
+  icon        String?  @db.VarChar(50)
+  color       String?  @db.VarChar(50)
+  description String?  @db.Text
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  quizzes QuizTag[]
+
+  @@unique([name, isPrimary])
+  @@unique([slug, isPrimary])
+  @@map("tags")
+}
+
 // Quiz Management Tables
 model Quiz {
   id               String      @id @default(uuid()) @db.Uuid
@@ -58,7 +78,6 @@ model Quiz {
   totalQuestions   Int         @map("total_questions")
   quizData         Json        @map("quiz_data") // Full quiz content
   status           String      @default("draft") @db.VarChar(50) // draft, published, archived
-  tags             String[]    @default([])
   createdAt        DateTime    @default(now()) @map("created_at")
   updatedAt        DateTime    @updatedAt @map("updated_at")
   publishedAt      DateTime?   @map("published_at")
@@ -69,8 +88,23 @@ model Quiz {
   versions        QuizVersion[]
   threads         Thread[]
   hostingSessions HostingSession[]
+  tags            QuizTag[]
 
   @@map("quizzes")
+}
+
+// Quiz-Tag relationship
+model QuizTag {
+  quizId    String   @map("quiz_id") @db.Uuid
+  tagId     String   @map("tag_id") @db.Uuid
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  quiz Quiz @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  tag  Tag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([quizId, tagId])
+  @@map("quiz_tags")
 }
 
 model QuizVersion {

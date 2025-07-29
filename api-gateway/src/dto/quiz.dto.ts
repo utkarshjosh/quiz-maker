@@ -1,4 +1,14 @@
-import { IsString, IsOptional, IsInt, IsIn, IsArray, MinLength, MaxLength, Min, Max } from 'class-validator';
+import {
+  IsString,
+  IsOptional,
+  IsInt,
+  IsIn,
+  IsArray,
+  MinLength,
+  MaxLength,
+  Min,
+  Max,
+} from 'class-validator';
 
 export class CreateQuizDto {
   @IsString({ message: 'Message must be a string' })
@@ -6,7 +16,9 @@ export class CreateQuizDto {
   message: string;
 
   @IsOptional()
-  @IsIn(['easy', 'medium', 'hard'], { message: 'Difficulty must be easy, medium, or hard' })
+  @IsIn(['easy', 'medium', 'hard'], {
+    message: 'Difficulty must be easy, medium, or hard',
+  })
   difficulty?: string;
 
   @IsOptional()
@@ -68,11 +80,13 @@ export class UpdateQuizDto {
   description?: string;
 
   @IsOptional()
-  @IsIn(['draft', 'published', 'archived'], { message: 'Status must be draft, published, or archived' })
+  @IsIn(['draft', 'published', 'archived'], {
+    message: 'Status must be draft, published, or archived',
+  })
   status?: string;
 
   @IsOptional()
   @IsArray({ message: 'Tags must be an array' })
   @IsString({ each: true, message: 'Each tag must be a string' })
   tags?: string[];
-} 
+}

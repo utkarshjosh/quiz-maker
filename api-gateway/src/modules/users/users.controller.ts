@@ -21,7 +21,11 @@ export default class UserController extends Api {
     }
   };
 
-  public getUser = async (req: AuthenticatedRequest, res: CustomResponse<any>, next: NextFunction) => {
+  public getUser = async (
+    req: AuthenticatedRequest,
+    res: CustomResponse<any>,
+    next: NextFunction
+  ) => {
     try {
       const user = req.user;
       this.send(res, user, HttpStatusCode.Ok, 'getUser');

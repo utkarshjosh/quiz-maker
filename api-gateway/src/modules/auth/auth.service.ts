@@ -1,5 +1,5 @@
-import bcrypt from 'bcryptjs';
 import crypto from 'crypto';
+import bcrypt from 'bcryptjs';
 import prisma from '@/lib/prisma';
 import { generateTokens } from '@/middlewares/auth';
 import { HttpUnAuthorizedError, HttpBadRequestError } from '@/lib/errors';
@@ -71,7 +71,10 @@ export default class AuthService {
     // Generate tokens
     const tokens = generateTokens(user.id, session.id);
 
-    logger.info('User logged in successfully', { userId: user.id, email: user.email });
+    logger.info('User logged in successfully', {
+      userId: user.id,
+      email: user.email,
+    });
 
     return {
       user: {
@@ -86,28 +89,33 @@ export default class AuthService {
     };
   }
 
-  public async register(email: string, username: string, password: string): Promise<AuthResponse> {
+  public async register(
+    email: string,
+    username: string,
+    password: string
+  ): Promise<AuthResponse> {
     // Check if user already exists
     const existingUser = await prisma.user.findFirst({
       where: {
-        OR: [
-          { email },
-          { username },
-        ],
+        OR: [{ email }, { username }],
       },
     });
 
     if (existingUser) {
       if (existingUser.email === email) {
-        throw new HttpBadRequestError('Email already registered', ['Email is already in use']);
+        throw new HttpBadRequestError('Email already registered', [
+          'Email is already in use',
+        ]);
       }
       if (existingUser.username === username) {
-        throw new HttpBadRequestError('Username already taken', ['Username is already in use']);
+        throw new HttpBadRequestError('Username already taken', [
+          'Username is already in use',
+        ]);
       }
     }
 
     // Hash password
-    const saltRounds = parseInt(process.env.BCRYPT_SALT_ROUNDS || '12');
+    const saltRounds = parseInt(process.env.BCRYPT_SALT_ROUNDS ?? '12');
     const passwordHash = await bcrypt.hash(password, saltRounds);
 
     // Create user
@@ -146,7 +154,10 @@ export default class AuthService {
     // Generate tokens
     const tokens = generateTokens(user.id, session.id);
 
-    logger.info('User registered successfully', { userId: user.id, email: user.email });
+    logger.info('User registered successfully', {
+      userId: user.id,
+      email: user.email,
+    });
 
     return {
       user,
@@ -217,4 +228,4 @@ export default class AuthService {
 
     return user;
   }
-} 
+}
