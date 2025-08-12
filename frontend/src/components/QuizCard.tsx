@@ -1,5 +1,6 @@
 import { Star, User } from "lucide-react";
 import { useState } from "react";
+import { Image, ImageKitProvider } from "@imagekit/react";
 
 interface QuizCardProps {
   id: string;
@@ -25,11 +26,25 @@ const QuizCard = ({
   const cardContent = (
     <>
       <div className={`relative ${layout === "horizontal" ? "w-48 h-32" : "aspect-video"}`}>
-        <img
+        <ImageKitProvider urlEndpoint="https://ik.imagekit.io/your_imagekit_id">
+        <Image
           src={thumbnail}
           alt={title}
           className="w-full h-full object-cover rounded-lg"
+          transformation={[
+            {
+              height: layout === "horizontal" ? "128" : "200",
+              width: layout === "horizontal" ? "192" : "300",
+              crop: "maintain_ratio",
+              cropMode: "pad_resize",
+              quality: 80,
+              format: "webp"
+            }
+          ]}
+          loading="lazy"
         />
+        </ImageKitProvider>
+
         <div className={`absolute inset-0 bg-black/40 rounded-lg flex items-center justify-center opacity-0 transition-opacity duration-200 ${isHovered ? 'opacity-100' : ''}`}>
           <span className="text-white font-medium">Start Quiz</span>
         </div>

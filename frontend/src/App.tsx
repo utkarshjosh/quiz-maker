@@ -4,10 +4,9 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
-import Index from "./pages/Index";
+import QuizPage from "./pages/QuizPage";
 import NotFound from "./pages/NotFound";
 import Profile from "./pages/Profile";
-import CategoryPage from "./pages/CategoryPage";
 
 const queryClient = new QueryClient();
 
@@ -16,13 +15,13 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+        <BrowserRouter>
         <Routes>
           <Route element={<Layout />}>
-            <Route path="/" element={<Index />} />
+            <Route path="/" element={<QuizPage />} />
             <Route path="/user/profile" element={<Profile />} />
-            <Route path="/:category" element={<CategoryPage />} />
-            <Route path="/:category/:subcategory" element={<CategoryPage />} />
+            <Route path="/:category" element={<QuizPage />} />
+            <Route path="/:category/:subcategory" element={<QuizPage />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

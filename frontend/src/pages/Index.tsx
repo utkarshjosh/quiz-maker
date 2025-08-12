@@ -8,7 +8,7 @@ import quizGames from "@/assets/quiz-games.jpg";
 import quizGeography from "@/assets/quiz-geography.jpg";
 import quizScience from "@/assets/quiz-science.jpg";
 import quizHistory from "@/assets/quiz-history.jpg";
-
+import { useGroupedQuizzes } from "@/hooks/useQuizzes"; 
 // Sample quiz data
 const recentlyPublished = [
   {
@@ -177,9 +177,21 @@ const defaultFilters = [
 ];
 
 const Index = () => {
+  const { data: groupedQuizzes } = useGroupedQuizzes();
+  console.log(groupedQuizzes);
   return (
     <>
-      <FilterBadges filters={defaultFilters} />  
+  {groupedQuizzes && 'groups' in groupedQuizzes && groupedQuizzes.groups?.map((group) => (
+    <div key={group.tag?.id} className="space-y-8">
+      <QuizSection 
+          title={group.tag?.name} 
+          quizzes={group.quizzes} 
+          totalQuizzes={group.totalQuizzes}
+          link={`/category/${group.tag?.name.toLowerCase()}`}
+        />
+    </div>
+  ))}
+      {/* FilterBadges removed from home page
       <div className="space-y-8">
         <QuizSection 
           title="Recently published" 
@@ -197,7 +209,7 @@ const Index = () => {
         />
       </div>
       
-      <div className="h-20"></div>
+      <div className="h-20"></div> */}
     </>
   );
 };

@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { Link, useParams, useLocation } from "react-router-dom";
+import { useSecondaryTags } from "@/hooks/useQuizzes";
 
 interface Filter {
   id: string;
   name: string;
-  count: number;
+  quizCount: number;
   active?: boolean;
 }
 
 interface FilterBadgesProps {
-  filters?: Filter[];
+  primaryTagId?: string;
 }
 
 const INITIAL_SHOW_COUNT = 8;
@@ -18,29 +19,48 @@ const defaultFilters = [
   { id: "all", name: "All", count: 0, active: true },
 ];
 
-const FilterBadges = ({ filters = defaultFilters }: FilterBadgesProps) => {
+const FilterBadges = ({  primaryTagId }: FilterBadgesProps) => {
+  console.log(primaryTagId);
   const [isExpanded, setIsExpanded] = useState(false);
+  const { data: secondaryTags } = useSecondaryTags(primaryTagId);
+  console.log(secondaryTags);
   const { category } = useParams<{ category: string }>();
   const location = useLocation();
+
   const currentSubcategory = location.pathname.split('/')[2];
 
-  const visibleFilters = isExpanded ? filters : filters.slice(0, INITIAL_SHOW_COUNT);
-  const remainingCount = filters.length - INITIAL_SHOW_COUNT;
+  // Add "All" category at the beginning
+  const allFilters = secondaryTags 
+    ? [
+        { 
+          id: "all", 
+          name: "All", 
+          quizCount: null, 
+          active: !currentSubcategory // active when no subcategory is selected
+        },
+        ...secondaryTags
+      ]
+    : [];
+
+  const visibleFilters = allFilters.length > 0
+    ? (isExpanded ? allFilters : allFilters.slice(0, INITIAL_SHOW_COUNT))
+    : [];
+  const remainingCount = Math.max(0, allFilters.length - INITIAL_SHOW_COUNT);
 
   const renderFilterBadge = (filter: Filter) => {
-    // For base filters (all, newest, popular, ai-generated), use query params
-    if (['all', 'newest', 'popular', 'ai-generated'].includes(filter.id)) {
+    // For "All" filter, link back to the main category
+    if (filter.id === 'all') {
       return (
         <Link
           key={filter.id}
-          to={`/${category}?sort=${filter.id}`}
+          to={`/${category}`}
           className={`inline-flex px-4 py-2 rounded-full text-sm font-medium cursor-pointer transition-all duration-200 hover:scale-105 ${
-            filter.active || location.search === `?sort=${filter.id}`
+            !currentSubcategory
               ? "bg-primary text-primary-foreground shadow-md"
               : "bg-white/80 text-gray-700 hover:bg-white hover:shadow-sm border border-gray-200"
           }`}
         >
-          {filter.name} ({filter.count})
+          {filter.name}
         </Link>
       );
     }
@@ -56,7 +76,7 @@ const FilterBadges = ({ filters = defaultFilters }: FilterBadgesProps) => {
             : "bg-white/80 text-gray-700 hover:bg-white hover:shadow-sm border border-gray-200"
         }`}
       >
-        {filter.name} ({filter.count})
+        {filter.name.charAt(0).toUpperCase() + filter.name.slice(1)} ({filter.quizCount})
       </Link>
     );
   };

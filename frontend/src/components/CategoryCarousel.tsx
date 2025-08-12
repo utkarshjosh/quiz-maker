@@ -1,44 +1,82 @@
 import { 
-  Rocket, 
-  Gamepad, 
-  Globe2, 
-  BookOpenCheck, 
-  Languages as LanguagesIcon, 
-  FlaskConical, 
-  Medal, 
-  Brain,
-  Home,
-  Palette
+  Rocket,
+  Drama,
+  Globe,
+  Landmark,
+  GraduationCap,
+  Library,
+  LeafyGreen,
+  Atom,
+  Trophy,
+  Home
 } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import { usePrefetchSecondaryTags } from "@/hooks/usePrefetch";
+import { useMainTags } from "@/hooks/useQuizzes";
 
-const categories = [
-  { id: "start", name: "Start", icon: Home, count: null, color: "text-blue-500", path: "/" },
-  { id: "art", name: "Art & Literature", icon: Palette, count: 1138, color: "text-pink-500", path: "/art" },
-  { id: "entertainment", name: "Entertainment", icon: Gamepad, count: 1138, color: "text-pink-500", path: "/entertainment" },
-  { id: "geography", name: "Geography", icon: Globe2, count: 892, color: "text-green-500", path: "/geography" },
-  { id: "history", name: "History", icon: BookOpenCheck, count: 654, color: "text-yellow-500", path: "/history" },
-  { id: "languages", name: "Languages", icon: LanguagesIcon, count: 423, color: "text-purple-500", path: "/languages" },
-  { id: "science", name: "Science & Nature", icon: FlaskConical, count: 587, color: "text-blue-500", path: "/science" },
-  { id: "sports", name: "Sports", icon: Medal, count: 298, color: "text-orange-500", path: "/sports" },
-  { id: "trivia", name: "Trivia", icon: Brain, count: 756, color: "text-red-500", path: "/trivia" },
+const COLORS = [
+  "text-blue-500",
+  "text-pink-500",
+  "text-green-500",
+  "text-yellow-500",
+  "text-purple-500",
+  "text-orange-500",
+  "text-red-500",
+  "text-indigo-500",
+  "text-teal-500",
 ];
+
+import type { LucideIcon } from 'lucide-react';
+
+const ICON_MAP: Record<string, LucideIcon> = {
+  Home,
+  Drama,
+  Globe,
+  Landmark,
+  GraduationCap,
+  Library,
+  LeafyGreen,
+  Atom,
+  Trophy,
+  default: Rocket,
+};
+
+const defaultCategory = { 
+  id: "start", 
+  name: "Start", 
+  icon: "Home", 
+  quizCount: "", 
+  color: COLORS[0], 
+  path: "/",
+  slug: "start" 
+};
 
 const CategoryCarousel = () => {
   const location = useLocation();
+  const prefetchSecondaryTags = usePrefetchSecondaryTags();
+  const { data: mainTags } = useMainTags();
+  const allCategories = mainTags 
+    ? [defaultCategory, ...mainTags.map((tag, index) => ({
+        ...tag,
+        color: COLORS[index % COLORS.length],
+        path: `/${tag.slug}`,
+        icon: tag.icon in ICON_MAP ? tag.icon : 'default'
+      }))]
+    : [defaultCategory];
 
   return (
     <div className="w-full px-4 py-6">
       <div className="max-w-7xl mx-auto">
         <div className="flex gap-2 overflow-x-auto quiz-carousel pb-2">
-          {categories.map((category) => {
-            const IconComponent = category.icon;
+          {allCategories.map((category) => {
+            const IconComponent = ICON_MAP[category.icon as keyof typeof ICON_MAP] || ICON_MAP.default;
             const isActive = location.pathname === category.path;
             
             return (
               <Link
                 key={category.id}
                 to={category.path}
+                onMouseEnter={() => prefetchSecondaryTags(category.slug)}
                 className={`flex-shrink-0 flex flex-col items-center gap-3 p-4 cursor-pointer min-w-[120px] hover:-translate-y-1 transition-transform duration-200 ${
                   isActive ? 'bg-primary/5 rounded-lg' : ''
                 }`}
@@ -55,9 +93,9 @@ const CategoryCarousel = () => {
                   }`}>
                     {category.name}
                   </div>
-                  {category.count && (
+                  {category.id !== "start" && category.quizCount !== null && (
                     <div className="text-sm text-gray-500 mt-1">
-                      {category.count} quizzes
+                      {category.quizCount} quizzes
                     </div>
                   )}
                 </div>
