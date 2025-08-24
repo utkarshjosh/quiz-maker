@@ -1,0 +1,2452 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: Words and Mafia",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, john, di. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Both Adolf Fischer and Douglas Fairbanks Sr. expressed this feeling before they died.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boredom"
+            },
+            {
+              "id": "1",
+              "text": "Gratitude"
+            },
+            {
+              "id": "2",
+              "text": "Fear"
+            },
+            {
+              "id": "3",
+              "text": "Happiness"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Happiness"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Wayne Gacy, the Killer Clown, buried over 30 victims in his garden.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This was the first mafioso to violate the Omerta (the vow to keep silence about the existence of the Mafia). He was part of the Genovese family.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Valachi"
+            },
+            {
+              "id": "1",
+              "text": "Joseph Barbara"
+            },
+            {
+              "id": "2",
+              "text": "Vito Genovese"
+            },
+            {
+              "id": "3",
+              "text": "Joseph Profaci"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Valachi"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Aniello Dellacroce was the underboss of Gambino and so he was the expected successor. Despite that, Gambino chose his brother-in-law for the next Mafia Boss and Dellacroce was given the control over all lucrative activities in Manhattan. What was the name of Gambinos brother-in-law?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank Costello"
+            },
+            {
+              "id": "1",
+              "text": "Al Capone"
+            },
+            {
+              "id": "2",
+              "text": "Paul Castellano"
+            },
+            {
+              "id": "3",
+              "text": "Carmine Galante"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Paul Castellano"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Friends applaud, the comedy is over. were the last words of this 18th century composer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johann Nepomuk Hummel"
+            },
+            {
+              "id": "1",
+              "text": "Ludwig van Beethoven"
+            },
+            {
+              "id": "2",
+              "text": "Franz Schubert"
+            },
+            {
+              "id": "3",
+              "text": "Anton Reicha"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ludwig van Beethoven"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These are Winston Churchills last words.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Now I shall go to sleep. Good night."
+            },
+            {
+              "id": "1",
+              "text": "My work is done, why wait?"
+            },
+            {
+              "id": "2",
+              "text": "I die."
+            },
+            {
+              "id": "3",
+              "text": "Everything is so boring."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Everything is so boring."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Gotti has never been imprisoned.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This serial killer who  believed that his neighbors dog was possessed by ancient demons, told police that the dog had barked orders for him to kill.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Haigh"
+            },
+            {
+              "id": "1",
+              "text": "David Berkowitz"
+            },
+            {
+              "id": "2",
+              "text": "Albert Fischer"
+            },
+            {
+              "id": "3",
+              "text": "Ted Bundy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: David Berkowitz"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is probably one of the most amazing Bosses of the American Mafia. He came to the USA illegally and became Capo di Tutti Capi (Boss of Bosses) after the assassination of Albert Anastasia in 1957. Mario Puzos Godfather is modeled after this mafioso.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carmine Galante"
+            },
+            {
+              "id": "1",
+              "text": "Carlo Gambino"
+            },
+            {
+              "id": "2",
+              "text": "Vito Genovese"
+            },
+            {
+              "id": "3",
+              "text": "Joe Bonanno"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Carlo Gambino"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the most bloodthirsty mobsters, Toto Riina, is member of the American Mafia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vito Genovese, Joe Adonis, Albert Anastasia and Bugsy Siegel were the four murderers of Joe Masseria. The assassination of this Mafia don put an end to the Castellammarese War.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He is certainly one of the mobsters that contributed most to the American Mafia. His protege, Al Capone, inherited his criminal empire in Chicago, but this is hardly enough to describe his impact on the Mafia. He suggested the idea of creating the National Crime Syndicate and was nicknamed The Brain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Torrio"
+            },
+            {
+              "id": "1",
+              "text": "Ralph Capone"
+            },
+            {
+              "id": "2",
+              "text": "Roy Cohn"
+            },
+            {
+              "id": "3",
+              "text": "Arnold Rothstein"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: John Torrio"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am still alive! are the last words of this Roman emperor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Augustus"
+            },
+            {
+              "id": "1",
+              "text": "Caligula"
+            },
+            {
+              "id": "2",
+              "text": "Claudius"
+            },
+            {
+              "id": "3",
+              "text": "Julius Caesar"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Caligula"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the most loyal friend of Al Capone. He was Capones treasurer and financial wizard. Because he was incapable of using a gun or killing a person, Al Capone protected him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ralph Capone"
+            },
+            {
+              "id": "1",
+              "text": "Meyer Lansky"
+            },
+            {
+              "id": "2",
+              "text": "Jimmy Hoffa"
+            },
+            {
+              "id": "3",
+              "text": "Jake Gizuk"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jake Gizuk"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What an irreparable loss! are the last words of Auguste Comte.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "john",
+          "di",
+          "people",
+          "underboss",
+          "auguste"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Man and Bodies",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, people, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On January 16, 1936 this man who was dubbed the original Hannibal Lecter, died in the electric chair.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Albert DeSalvo"
+            },
+            {
+              "id": "1",
+              "text": "Dennis Rader"
+            },
+            {
+              "id": "2",
+              "text": "Albert Fish"
+            },
+            {
+              "id": "3",
+              "text": "Gary Leon Ridgway"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Albert Fish"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This female serial killer has been dubbed the The Damsel of Death for violently killing men along Florida highways while working as a prostitute.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marybeth Tinning"
+            },
+            {
+              "id": "1",
+              "text": "Waltraud Wagner"
+            },
+            {
+              "id": "2",
+              "text": "Charlene Gallego"
+            },
+            {
+              "id": "3",
+              "text": "Aileen Wuornos"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Aileen Wuornos"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Part of this killers MO (modus operendi) was to send letters to newspapers which were written in code and always signed with the same alias and symbol. Some theorists believe that his cross circle symbol along with certain cryptic codes were indications as to where the next victims would be found.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Trailside Killer"
+            },
+            {
+              "id": "1",
+              "text": "The Unabomber"
+            },
+            {
+              "id": "2",
+              "text": "The Zodiac Killer"
+            },
+            {
+              "id": "3",
+              "text": "Jack the Ripper"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Zodiac Killer"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This TV actress seemed short beside her long-time screen partner David Duchovny.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Annabeth Gish"
+            },
+            {
+              "id": "1",
+              "text": "Minnie Driver"
+            },
+            {
+              "id": "2",
+              "text": "Gillian Anderson"
+            },
+            {
+              "id": "3",
+              "text": "Julianne Moore"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gillian Anderson"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This famous  American country singer, who is only 5 ft (1,52 m) tall, has a star on the Hollywood Walk of Fame for Recording and owns a theme park.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dolly Parton"
+            },
+            {
+              "id": "1",
+              "text": "Jessica Andrews"
+            },
+            {
+              "id": "2",
+              "text": "Brittany Wells"
+            },
+            {
+              "id": "3",
+              "text": "Suzy Bogguss"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dolly Parton"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In November of 1983 Angelo Buono Jr . was sentenced to life in prison. He was convicted of killing nine young women and dumping their bodies in the Los Angeles area. Based on the geographical locations  where the bodies were found, what was the nickname given to Buono?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Hillside Strangler"
+            },
+            {
+              "id": "1",
+              "text": "BTK"
+            },
+            {
+              "id": "2",
+              "text": "The Avenue Assassin"
+            },
+            {
+              "id": "3",
+              "text": "the Green river Killer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Hillside Strangler"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most likely one of the sickest serial killers of the 20th century, this killer kept his victims decaying bodies in acid vats in his apartment. There were severed heads in his refrigerator and other human body parts around his home.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Ramirez"
+            },
+            {
+              "id": "1",
+              "text": "Charles Manson"
+            },
+            {
+              "id": "2",
+              "text": "Ted Bundy"
+            },
+            {
+              "id": "3",
+              "text": "Jeffrey Dahmer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jeffrey Dahmer"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Due to inconsistencies in his confession and the wide variety of behavioral patterns regarding the murders of several women in Boston, Massachusetts, there still remains doubt that this man was The Boston Strangler.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Albert De Salvo"
+            },
+            {
+              "id": "1",
+              "text": "Charles Ng"
+            },
+            {
+              "id": "2",
+              "text": "Robert Hansen"
+            },
+            {
+              "id": "3",
+              "text": "David Carpenter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Albert De Salvo"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the most prominent painters of the 20th century, this Catalan surrealist who was 1.72 m (5 ft 7-3/4 in) tall, is perhaps best-known for his work  The Persistence of Memory.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Giorgio Chirico"
+            },
+            {
+              "id": "1",
+              "text": "Max Ernst"
+            },
+            {
+              "id": "2",
+              "text": "Pablo Picasso"
+            },
+            {
+              "id": "3",
+              "text": "Salvador Dal\u00ed"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Salvador Dal\u00ed"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Alfred Hitcocks classic thriller Psycho, the main character Norman Bates, was inspired by a real life serial killer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the shortest men in TV and cinema, this American actor, director, and producer, is probably best known as Louie De Palma from the popular sitcom Taxi.",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Davis"
+            },
+            {
+              "id": "1",
+              "text": "Tony Danza"
+            },
+            {
+              "id": "2",
+              "text": "Andy Kaufman"
+            },
+            {
+              "id": "3",
+              "text": "Danny DeVito"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Danny DeVito"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This musician, who was only 57 (1,7 m) tall, was lead singer, songwriter, and guitarist of Nirvana and author of songs such as Come as You Are, In Bloom, Lithium, Heart-Shaped Box.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eric Clapton"
+            },
+            {
+              "id": "1",
+              "text": "Dave Grohl"
+            },
+            {
+              "id": "2",
+              "text": "Krist Novoselic"
+            },
+            {
+              "id": "3",
+              "text": "Kurt Cobain"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kurt Cobain"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Being only 54 (1.62 m) tall has not prevented this man from becoming one of the leading US record producers and rappers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jermaine Dupri"
+            },
+            {
+              "id": "1",
+              "text": "50 Pence"
+            },
+            {
+              "id": "2",
+              "text": "Dr. Dre"
+            },
+            {
+              "id": "3",
+              "text": "50 Cent"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jermaine Dupri"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name given to the trio of killers who claimed to have had over 110 young male victims in California from the late 1970s to early 1980s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Moors Murderers"
+            },
+            {
+              "id": "1",
+              "text": "The Gay slayer"
+            },
+            {
+              "id": "2",
+              "text": "The Freeway Killer"
+            },
+            {
+              "id": "3",
+              "text": "Lonely Hearts Killer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Freeway Killer"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This historic person, who was 1.6 m high, had great military and politic achievements as Emperor of the French and King of Italy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Louis XIII"
+            },
+            {
+              "id": "1",
+              "text": "Napoleon I Bonaparte"
+            },
+            {
+              "id": "2",
+              "text": "Louis XII"
+            },
+            {
+              "id": "3",
+              "text": "Philip the Bold"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Napoleon I Bonaparte"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "people",
+          "country",
+          "death",
+          "tv",
+          "part"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: President and U.s. President",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, massachusetts, actor. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the last President before the Civil War, also the last president to advocate slavery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Knox Polk"
+            },
+            {
+              "id": "1",
+              "text": "James Buchanan"
+            },
+            {
+              "id": "2",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "3",
+              "text": "John Tyler"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: James Buchanan"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which US General became the Thirty-Fourth US President?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Calvin Coolidge"
+            },
+            {
+              "id": "1",
+              "text": "Douglas MacArthur"
+            },
+            {
+              "id": "2",
+              "text": "Dwight D. Eisenhower"
+            },
+            {
+              "id": "3",
+              "text": "George S. Patton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dwight D. Eisenhower"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Presidents campaign slogan was The Great Society?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Jefferson Clinton"
+            },
+            {
+              "id": "1",
+              "text": "George H.W. Bush"
+            },
+            {
+              "id": "2",
+              "text": "Lyndon Baines Johnson"
+            },
+            {
+              "id": "3",
+              "text": "Franklin Delano Roosevelt"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lyndon Baines Johnson"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What U.S. President served the shortest time in office ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William McKinley"
+            },
+            {
+              "id": "1",
+              "text": "William Henry Harrison"
+            },
+            {
+              "id": "2",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "3",
+              "text": "Gerald Rudolph Ford"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: William Henry Harrison"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What US general became the eighteenth President of the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andrew Johnson"
+            },
+            {
+              "id": "1",
+              "text": "William Henry Harrison"
+            },
+            {
+              "id": "2",
+              "text": "Dwight D. Eisenhower"
+            },
+            {
+              "id": "3",
+              "text": "Ulysses S. Grant"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ulysses S. Grant"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born in Brookline, Massachusetts. he was a  Roman Catholic President .",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lyndon Baines Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Richard Milhous Nixon"
+            },
+            {
+              "id": "2",
+              "text": "Harry Shippe Truman"
+            },
+            {
+              "id": "3",
+              "text": "John Fitzgerald  Kennedy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: John Fitzgerald  Kennedy"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This influential musician of the 80s and 90s, who is a little less than 1,6 m (5 ft 3 in) tall, is widely regarded as a music genius. Purple Rain is an album and a song by him, as well as a film he starred in.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Prince"
+            },
+            {
+              "id": "1",
+              "text": "Kid Rock"
+            },
+            {
+              "id": "2",
+              "text": "Def Leppard"
+            },
+            {
+              "id": "3",
+              "text": "Bon Jovi"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Prince"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What U.S. President was a commanding Union General in the Civil War ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Benjamin Harrison"
+            },
+            {
+              "id": "1",
+              "text": "Andrew Johnson"
+            },
+            {
+              "id": "2",
+              "text": "James Abram Garfield"
+            },
+            {
+              "id": "3",
+              "text": "Ulysses Simpson Grant"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ulysses Simpson Grant"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This U.S. President and founder of the Democratic Party drafted the Declaration of Independence in 1776.",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Monroe"
+            },
+            {
+              "id": "1",
+              "text": "James Madison"
+            },
+            {
+              "id": "2",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Jefferson"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What President has an animal named after him, after refusing to shoot one such animal during a hunting party?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dwight  David Eisenhower"
+            },
+            {
+              "id": "1",
+              "text": "Theodore Roosevelt"
+            },
+            {
+              "id": "2",
+              "text": "Zachary Taylor"
+            },
+            {
+              "id": "3",
+              "text": "Franklin Pierce"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Theodore Roosevelt"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The actor who played Uncle Bill on Family Affair shot himself at 23449 Malibu Colony Road, Malibu after battling emphysema and lung cancer for several months.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sebastian Cabot"
+            },
+            {
+              "id": "1",
+              "text": "William Holden"
+            },
+            {
+              "id": "2",
+              "text": "Tom Swift"
+            },
+            {
+              "id": "3",
+              "text": "Brian Keith"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Brian Keith"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What U.S. President led the nation in World War One?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Woodrow Wilson"
+            },
+            {
+              "id": "1",
+              "text": "Herbert Clark Hoover"
+            },
+            {
+              "id": "2",
+              "text": "John Calvin Coolidge"
+            },
+            {
+              "id": "3",
+              "text": "Theodore Roosevelt"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Woodrow Wilson"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American actress and singer, who starred in the I Know What You Did Last Summer films as Julie James, is 5 ft 2 in (1, 57 m) tall.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sarah Jessica Parker"
+            },
+            {
+              "id": "1",
+              "text": "Jennifer Love Hewitt"
+            },
+            {
+              "id": "2",
+              "text": "Sarah Michelle-Gellar"
+            },
+            {
+              "id": "3",
+              "text": "Anne Heche"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jennifer Love Hewitt"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which famous US general was shot by one of his own men at the Battle of Chancellors Ville on May 10, 1863?",
+          "options": [
+            {
+              "id": "0",
+              "text": "General George B. McClellan"
+            },
+            {
+              "id": "1",
+              "text": "General George G. Meade"
+            },
+            {
+              "id": "2",
+              "text": "Brig. General Barnard Elliott Bee, Jr."
+            },
+            {
+              "id": "3",
+              "text": "General Thomas \u201cStonewall\u201d Jackson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: General Thomas \u201cStonewall\u201d Jackson"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What U.S. President was first to use atomic weapons (1945) ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gerald Rudolph Ford"
+            },
+            {
+              "id": "1",
+              "text": "Harry Truman"
+            },
+            {
+              "id": "2",
+              "text": "James Earl  Carter"
+            },
+            {
+              "id": "3",
+              "text": "Ronald Wilson Reagan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Harry Truman"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "massachusetts",
+          "actor",
+          "people",
+          "world",
+          "president"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Guitarist and Slip",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, festival, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He got no respect.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rodney Dangerfield"
+            },
+            {
+              "id": "1",
+              "text": "Walter Mattheau"
+            },
+            {
+              "id": "2",
+              "text": "Tony Randall"
+            },
+            {
+              "id": "3",
+              "text": "Richard Pryor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rodney Dangerfield"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Whig President, a career soldier, was the second to die in office, in 1850?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zachary Taylor"
+            },
+            {
+              "id": "1",
+              "text": "William MacKinley"
+            },
+            {
+              "id": "2",
+              "text": "John Tyler"
+            },
+            {
+              "id": "3",
+              "text": "James Buchanan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Zachary Taylor"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Monterey Pop Festival was one of the first big breaks in the U.S. for this guitarist that is ranked # 1 on Rolling Stones 100 Greatest Guitarists. Name this guitarist who had hits such as The Star Spangled Banner  to Bob Dylans All Along the Watchtower.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Jimi Hendrix"
+            },
+            {
+              "id": "2",
+              "text": "Buddy Guy"
+            },
+            {
+              "id": "3",
+              "text": "Howlin Wolf"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jimi Hendrix"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pleasure in the job puts perfection in the work.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Henry David Thoreau"
+            },
+            {
+              "id": "1",
+              "text": "Howard Newton"
+            },
+            {
+              "id": "2",
+              "text": "Aristotle"
+            },
+            {
+              "id": "3",
+              "text": "Jean De La Fontaine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Aristotle"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A friend is one before whom I may think aloud.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Voltaire"
+            },
+            {
+              "id": "1",
+              "text": "Michel de Montaigne"
+            },
+            {
+              "id": "2",
+              "text": "Thomas de Quincey"
+            },
+            {
+              "id": "3",
+              "text": "Ralph Waldo Emerson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ralph Waldo Emerson"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Whig Presidents conciliatory politics helped postpone the Civil War?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "1",
+              "text": "James Monroe"
+            },
+            {
+              "id": "2",
+              "text": "Millard Fillmore"
+            },
+            {
+              "id": "3",
+              "text": "William Henry Harrison"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Millard Fillmore"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Always forgive your enemies; nothing annoys them so much.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Napoleon Bonaparte"
+            },
+            {
+              "id": "1",
+              "text": "Carl Jung"
+            },
+            {
+              "id": "2",
+              "text": "Oscar Wilde"
+            },
+            {
+              "id": "3",
+              "text": "Aesop"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oscar Wilde"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Its not enough that we do our best; sometimes we have to do whats required.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John F. Kennedy"
+            },
+            {
+              "id": "1",
+              "text": "Jane Austen"
+            },
+            {
+              "id": "2",
+              "text": "Sir Winston Churchill"
+            },
+            {
+              "id": "3",
+              "text": "Pearl Buck"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sir Winston Churchill"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I think we agree, the past is over.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harry S Truman"
+            },
+            {
+              "id": "1",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "2",
+              "text": "William Shakespeare"
+            },
+            {
+              "id": "3",
+              "text": "Emily Dickinson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George W. Bush"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Assume a virtue, if you have it not.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joseph Heller"
+            },
+            {
+              "id": "1",
+              "text": "Oscar Wilde"
+            },
+            {
+              "id": "2",
+              "text": "William Shakespeare"
+            },
+            {
+              "id": "3",
+              "text": "Charles Dickens"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: William Shakespeare"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "God is dead.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Friedrich Nietzsche"
+            },
+            {
+              "id": "1",
+              "text": "Blaise Pascal"
+            },
+            {
+              "id": "2",
+              "text": "Jean-Paul Sartre"
+            },
+            {
+              "id": "3",
+              "text": "Jos\u00e9 Ortega y Gasset"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Friedrich Nietzsche"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Les Harvey of Stone the Crows join Club 27?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was electrocuted on stage"
+            },
+            {
+              "id": "1",
+              "text": "After locking himself out of his apartment, he fell to his death trying to climb onto his 4th floor balcony."
+            },
+            {
+              "id": "2",
+              "text": "He overdosed on PCP."
+            },
+            {
+              "id": "3",
+              "text": "He died in a hang glider accident."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He was electrocuted on stage"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A slip of the foot you may soon recover, but a slip of the tongue you may never get over.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carl Jung"
+            },
+            {
+              "id": "1",
+              "text": "Albert Camus"
+            },
+            {
+              "id": "2",
+              "text": "Aristotle"
+            },
+            {
+              "id": "3",
+              "text": "Benjamin Franklin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Benjamin Franklin"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Clothes make the man. Naked people have little or no influence on society.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mark Twain"
+            },
+            {
+              "id": "1",
+              "text": "Aristotle"
+            },
+            {
+              "id": "2",
+              "text": "Sartre"
+            },
+            {
+              "id": "3",
+              "text": "Charles Dickens"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mark Twain"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As far as the laws of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Faraday"
+            },
+            {
+              "id": "1",
+              "text": "Albert Einstein"
+            },
+            {
+              "id": "2",
+              "text": "Aristotle"
+            },
+            {
+              "id": "3",
+              "text": "Galileo Galilei"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Albert Einstein"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "festival",
+          "people",
+          "presidents",
+          "pop",
+          "past"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Actor and Nickname",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, john. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I say Pistol, you say ______?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vince Carter"
+            },
+            {
+              "id": "1",
+              "text": "Jason Kidd"
+            },
+            {
+              "id": "2",
+              "text": "Kobe Bryant"
+            },
+            {
+              "id": "3",
+              "text": "Pete Maravich"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pete Maravich"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actress played Ann Darrow in the 1933 production of King Kong.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fay Wray"
+            },
+            {
+              "id": "1",
+              "text": "Teri Hatcher"
+            },
+            {
+              "id": "2",
+              "text": "Ann Channing"
+            },
+            {
+              "id": "3",
+              "text": "Joan Crawford"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fay Wray"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "William McKinley was referred to as one of these.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hangman of Buffalo"
+            },
+            {
+              "id": "1",
+              "text": "Old Eight to Seven"
+            },
+            {
+              "id": "2",
+              "text": "Stocking-footed Orator"
+            },
+            {
+              "id": "3",
+              "text": "Preacher President"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Stocking-footed Orator"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Theodore Roosevelt was known as the Cyclone Assemblyman, The Hero of San Juan Hill and Roosevelt I.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor, born Arthur Leonard Rosenberg in Tulsa, Oklahoma, was on TV for five years as Felix Unger in The Odd Couple.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tony Randall"
+            },
+            {
+              "id": "1",
+              "text": "Jack Lemmon"
+            },
+            {
+              "id": "2",
+              "text": "Walter Mattheau"
+            },
+            {
+              "id": "3",
+              "text": "Jack Klugman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tony Randall"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gerald Ford was famous for being him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mr. Nice Guy"
+            },
+            {
+              "id": "1",
+              "text": "Mr. Ugly"
+            },
+            {
+              "id": "2",
+              "text": "Mr. Smart Guy"
+            },
+            {
+              "id": "3",
+              "text": "Mr. Dull Guy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Nice Guy"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Andrew Jackson, John Quincy Adams and John F. Kennedy have nicknames in which they are referred to as these.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kings"
+            },
+            {
+              "id": "1",
+              "text": "Dukes"
+            },
+            {
+              "id": "2",
+              "text": "Barons"
+            },
+            {
+              "id": "3",
+              "text": "Counts"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kings"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She wrote Mastering the Art of French Cooking in 1961 and had a television program entitled the The French Chef.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ann Dalton"
+            },
+            {
+              "id": "1",
+              "text": "Evonne Chuker"
+            },
+            {
+              "id": "2",
+              "text": "Julia Childs"
+            },
+            {
+              "id": "3",
+              "text": "Betty Crocker"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Julia Childs"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I say The Rocket, you say ______?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Carlton"
+            },
+            {
+              "id": "1",
+              "text": "Roger Clemens"
+            },
+            {
+              "id": "2",
+              "text": "Nolan Ryan"
+            },
+            {
+              "id": "3",
+              "text": "Randy Johnson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Roger Clemens"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of these pairs (US President - his nickname) is wrong.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Franklin Pierce - Young Hickory of Granite Hills"
+            },
+            {
+              "id": "1",
+              "text": "John Tyler - His Accidency"
+            },
+            {
+              "id": "2",
+              "text": "James K. Polk - Napoleon of the Stump"
+            },
+            {
+              "id": "3",
+              "text": "James Buchanan - Fifty-cent Jimmy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James Buchanan - Fifty-cent Jimmy"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I say The Glide, you say _____?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kobe Bryant"
+            },
+            {
+              "id": "1",
+              "text": "Steve Smith"
+            },
+            {
+              "id": "2",
+              "text": "Clyde Drexler"
+            },
+            {
+              "id": "3",
+              "text": "James Worthy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Clyde Drexler"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Oscar-winning actor gave unforgettable performances in On the Waterfront and Streetcar Named Desire.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mickey Rooney"
+            },
+            {
+              "id": "1",
+              "text": "Marlon Brando"
+            },
+            {
+              "id": "2",
+              "text": "Robert Stack"
+            },
+            {
+              "id": "3",
+              "text": "Sir Alex Guiness"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Marlon Brando"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I say The Minister of Defense, you say ______?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dick Butkus"
+            },
+            {
+              "id": "1",
+              "text": "Joe Montana"
+            },
+            {
+              "id": "2",
+              "text": "Reggie White"
+            },
+            {
+              "id": "3",
+              "text": "Emmit Smith"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Reggie White"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Andrew Johnson was known as three of these alternative names. Which is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tennessee Tailor"
+            },
+            {
+              "id": "1",
+              "text": "Sir Veto"
+            },
+            {
+              "id": "2",
+              "text": "Gentleman Boss"
+            },
+            {
+              "id": "3",
+              "text": "Father of the Homestead Act"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gentleman Boss"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was born in Swiss Cottage, London, England. He won Oscars for supporting actor in Spartacus and Topkapi. His autobiography was entitled Dear Me.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tony Randall"
+            },
+            {
+              "id": "1",
+              "text": "Peter Ustinov"
+            },
+            {
+              "id": "2",
+              "text": "Orson Welles"
+            },
+            {
+              "id": "3",
+              "text": "Sir Alex Guiness"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Peter Ustinov"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "john",
+          "nickname",
+          "people",
+          "assemblyman"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "History Quiz: Woman and Presidents",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, people, professionals. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The most common hostage situation is when the hostage-taker is...?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rational and uses people to trade their lives for whatever goal she/he has."
+            },
+            {
+              "id": "1",
+              "text": "Emotionally and/or mentally disturbed."
+            },
+            {
+              "id": "2",
+              "text": "Rational and uses people to attract public attention."
+            },
+            {
+              "id": "3",
+              "text": "Rational and uses people as human shields so that she/he does not get shot by the police."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Emotionally and/or mentally disturbed."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these alternative names belong to US Presidents who have been even presidents (for instance, 12th President, 10th President). Which is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Honest Abe"
+            },
+            {
+              "id": "1",
+              "text": "Handsome Frank"
+            },
+            {
+              "id": "2",
+              "text": "Old Zach"
+            },
+            {
+              "id": "3",
+              "text": "Old Buck"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Old Buck"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Calvin Coolidge is known as this Cal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Silent Cal"
+            },
+            {
+              "id": "1",
+              "text": "Wise Cal"
+            },
+            {
+              "id": "2",
+              "text": "Mad Cal"
+            },
+            {
+              "id": "3",
+              "text": "Young Cal"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Silent Cal"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first woman to earn a medical degree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sally Ride"
+            },
+            {
+              "id": "1",
+              "text": "Belva Lockwood"
+            },
+            {
+              "id": "2",
+              "text": "Antoinette Blackwell"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth Blackwell"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Blackwell"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bible, Eve was the first woman on Earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Martha Washington was the first First Lady of the United States.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the scene of any hostage crisis, it is best if the negotiator and the police commander duties are performed by different people.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was first lady to win two Nobel Prizes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maria Mayer"
+            },
+            {
+              "id": "1",
+              "text": "Hillary Clinton"
+            },
+            {
+              "id": "2",
+              "text": "Madeleine Lengle"
+            },
+            {
+              "id": "3",
+              "text": "Marie Curie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Marie Curie"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first woman to found a major religion?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mary Eddy"
+            },
+            {
+              "id": "1",
+              "text": "Britney Spears"
+            },
+            {
+              "id": "2",
+              "text": "Sarah Goode"
+            },
+            {
+              "id": "3",
+              "text": "Annie Tatlor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mary Eddy"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Condoleezza Rice is the first woman to serve as U.S. Secretary of State.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bible, Eve was the first person on Earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first American woman to reach outer space?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beverly Dangelo"
+            },
+            {
+              "id": "1",
+              "text": "Katherine Patterson"
+            },
+            {
+              "id": "2",
+              "text": "Britney Spears"
+            },
+            {
+              "id": "3",
+              "text": "Sally Ride"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sally Ride"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the first woman in U.S. history to be Speaker of the House?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sydney Wittrock"
+            },
+            {
+              "id": "1",
+              "text": "Sandra Day O Connor"
+            },
+            {
+              "id": "2",
+              "text": "Nancy Pelosi"
+            },
+            {
+              "id": "3",
+              "text": "Hillary Clinton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nancy Pelosi"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the first woman to serve as Associate Justice of the U.S. Supreme Court?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jessica Simpson"
+            },
+            {
+              "id": "1",
+              "text": "Hillary Clinton"
+            },
+            {
+              "id": "2",
+              "text": "Sandra Day OConnor"
+            },
+            {
+              "id": "3",
+              "text": "Nancy Pelosi"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sandra Day OConnor"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Not always are the negotiators professionals. Sometimes they are bystanders who get involved. This happened in 1975, when the terrorist group Japanese Red Army attacked the US Consulate in Kuala Lampur. They made a phone call to notify the US authorities that they had hostages.  The man who answered the phone and became an accidental negotiator was...?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A janitor"
+            },
+            {
+              "id": "1",
+              "text": "A junior embassy officer"
+            },
+            {
+              "id": "2",
+              "text": "The consuls child, who was there at that time"
+            },
+            {
+              "id": "3",
+              "text": "A Japanese who was applying for a visa"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A junior embassy officer"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "people",
+          "professionals",
+          "presidents",
+          "cal",
+          "space"
+        ]
+      }
+    }
+  ]
+}

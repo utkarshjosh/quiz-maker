@@ -1,0 +1,2492 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Opera and Jazz",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, people, libiamo. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which Italian opera is the famous aria Casta Diva sung?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don Giovanni"
+            },
+            {
+              "id": "1",
+              "text": "The Magic Flute"
+            },
+            {
+              "id": "2",
+              "text": "Norma"
+            },
+            {
+              "id": "3",
+              "text": "Aida"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Norma"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One thing the Blues aint is funny. Which of these performers does this quote belong to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alvino Ray"
+            },
+            {
+              "id": "1",
+              "text": "Stephen Stills"
+            },
+            {
+              "id": "2",
+              "text": "Paul McCartney"
+            },
+            {
+              "id": "3",
+              "text": "Ray Charles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stephen Stills"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jazz is the music of the body. Who said this?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anais Nin"
+            },
+            {
+              "id": "1",
+              "text": "Anton Dvorak"
+            },
+            {
+              "id": "2",
+              "text": "August Strindberg"
+            },
+            {
+              "id": "3",
+              "text": "Al Green"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Anais Nin"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Libiamo nelieti calici (Drinking Song) is a famous duet with chorus from this popular opera by Verdi.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rigoletto"
+            },
+            {
+              "id": "1",
+              "text": "Nabucco"
+            },
+            {
+              "id": "2",
+              "text": "Aida"
+            },
+            {
+              "id": "3",
+              "text": "La traviata"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: La traviata"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the occupation of Floria Tosca in Giacomo Puccinis world-famous opera Tosca?",
+          "options": [
+            {
+              "id": "0",
+              "text": "singer"
+            },
+            {
+              "id": "1",
+              "text": "writer"
+            },
+            {
+              "id": "2",
+              "text": "dancer"
+            },
+            {
+              "id": "3",
+              "text": "painter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: singer"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This opera character is a Persian Princess. Any man who desires to wed her must first answer her three riddles. If he fails, he will be beheaded.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Turandot"
+            },
+            {
+              "id": "1",
+              "text": "Aida"
+            },
+            {
+              "id": "2",
+              "text": "Madame Butterfly"
+            },
+            {
+              "id": "3",
+              "text": "Tosca"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Turandot"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these writers does the following quote belong to: Music is only love looking for words.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Henry Wadsworth Longfellow"
+            },
+            {
+              "id": "1",
+              "text": "George Bernard Shaw"
+            },
+            {
+              "id": "2",
+              "text": "Lawrence Durrell"
+            },
+            {
+              "id": "3",
+              "text": "James Joyce"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lawrence Durrell"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these does the following quote belong to: Hell is full of musical amateurs.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sean OCasey"
+            },
+            {
+              "id": "1",
+              "text": "Bill Nye"
+            },
+            {
+              "id": "2",
+              "text": "George Bernard Shaw"
+            },
+            {
+              "id": "3",
+              "text": "James Joyce"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: George Bernard Shaw"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the Japanese name of Madame Butterfly in Puccinis self-titled opera?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Suzuki"
+            },
+            {
+              "id": "1",
+              "text": "Turandot"
+            },
+            {
+              "id": "2",
+              "text": "Cio-Cio San"
+            },
+            {
+              "id": "3",
+              "text": "Dolore"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cio-Cio San"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who said: I may not be a first-class composer but I am a first-class second rate composer.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ludwig Von Beethoven"
+            },
+            {
+              "id": "1",
+              "text": "Wolfgang A. Mozart"
+            },
+            {
+              "id": "2",
+              "text": "Johann Sebastian Bach"
+            },
+            {
+              "id": "3",
+              "text": "Richard Strauss"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Strauss"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ive always wanted the sound of Muddy Waters early recordings  - only louder. Who said this?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elton John"
+            },
+            {
+              "id": "1",
+              "text": "Leonard Bernstein"
+            },
+            {
+              "id": "2",
+              "text": "Jerry Seinfeld"
+            },
+            {
+              "id": "3",
+              "text": "Eric Clapton"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eric Clapton"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Italian opera follows the plight of the Jews as they are assaulted and subsequently exiled from their homeland by a Babylonian King?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Norma"
+            },
+            {
+              "id": "1",
+              "text": "Carmina Burana"
+            },
+            {
+              "id": "2",
+              "text": "Nabucco"
+            },
+            {
+              "id": "3",
+              "text": "Don Carlos"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nabucco"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jazz will endure just as long as people hear it through their feet  instead of through their brains. Which of these men does this quote belong to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leonard Bernstein"
+            },
+            {
+              "id": "1",
+              "text": "Anais Nin"
+            },
+            {
+              "id": "2",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "3",
+              "text": "J. P. Sousa"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: J. P. Sousa"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this opera by Giuseppe Verdi an Ethiopian princess, is captured and brought into slavery in Egypt.",
+          "options": [
+            {
+              "id": "0",
+              "text": "La traviata"
+            },
+            {
+              "id": "1",
+              "text": "Norma"
+            },
+            {
+              "id": "2",
+              "text": "Tosca"
+            },
+            {
+              "id": "3",
+              "text": "Aida"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Aida"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Pretty Woman, Edward takes Vivian to this opera, whose plot deals with a wealthy man falling in love with a courtesan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amica"
+            },
+            {
+              "id": "1",
+              "text": "La boh\u00e8me"
+            },
+            {
+              "id": "2",
+              "text": "La traviata"
+            },
+            {
+              "id": "3",
+              "text": "Nabucco"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: La traviata"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "people",
+          "libiamo",
+          "amateurs",
+          "blues",
+          "quote"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Celine Dion and Title",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, title, shows. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Would Jesus Wear A Rolex On His Television Show? and the medicinal song Jeremiah Peabodys Polyunsaturated Quick Dissolving Fast Acting Pleasant Tasting Green and Purple Pills were penned and sung by this artist whose highest rated songs in America and Canada were Everything is Beautiful and Streak. Who is this man born in 1939?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny Tillotson"
+            },
+            {
+              "id": "1",
+              "text": "David Allan Coe"
+            },
+            {
+              "id": "2",
+              "text": "Ray Stevens"
+            },
+            {
+              "id": "3",
+              "text": "Billy Crash Craddock"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ray Stevens"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of the first by Celine Dion which she composed when she was twelve?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Of Love or of Friendship"
+            },
+            {
+              "id": "1",
+              "text": "The Voice of the Good God"
+            },
+            {
+              "id": "2",
+              "text": "I Have So Much Love for You"
+            },
+            {
+              "id": "3",
+              "text": "It Was Only a Dream"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It Was Only a Dream"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On which of these TV shows has Celine Dion made a guest appearance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "The Nanny"
+            },
+            {
+              "id": "2",
+              "text": "Touched by an Angel"
+            },
+            {
+              "id": "3",
+              "text": "All My Children"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What song did Casting Crowns win a Dove Award for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "East to West"
+            },
+            {
+              "id": "1",
+              "text": "Praise You In This Storm"
+            },
+            {
+              "id": "2",
+              "text": "Voice of Truth"
+            },
+            {
+              "id": "3",
+              "text": "Who Am I"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Who Am I"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dont Squeeze My Sharmon is the correct name of a song by this artist whose highest rated song on the country charts was Pick Me Up on Your Way Down. No he is not Cliff Arquette nor Cheyenne Bodie but think about putting them both together. Who is he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dave Dudley"
+            },
+            {
+              "id": "1",
+              "text": "Charlie Walker"
+            },
+            {
+              "id": "2",
+              "text": "Ferlin Huskey"
+            },
+            {
+              "id": "3",
+              "text": "Stonewall Jackson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Charlie Walker"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Celine Dions album A New Day Has Come was largely inspired by which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The birth of her son"
+            },
+            {
+              "id": "1",
+              "text": "Her surviving an accident"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Her marriage"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The birth of her son"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Celine Dion stated she was inspired by this musician in the dawn of her career, and wanted to become a star of the same magnitude.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eric Clapton"
+            },
+            {
+              "id": "1",
+              "text": "Madonna"
+            },
+            {
+              "id": "2",
+              "text": "Michael Jackson"
+            },
+            {
+              "id": "3",
+              "text": "Cher"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Jackson"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was singer Celine Dion named after?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A flower"
+            },
+            {
+              "id": "1",
+              "text": "A river"
+            },
+            {
+              "id": "2",
+              "text": "A song"
+            },
+            {
+              "id": "3",
+              "text": "A lake"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A song"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Celine Diones music has been criticized for which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was too sentimental."
+            },
+            {
+              "id": "1",
+              "text": "It was too personal."
+            },
+            {
+              "id": "2",
+              "text": "It portrayed women as weak beings."
+            },
+            {
+              "id": "3",
+              "text": "It lacked depth."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It was too sentimental."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nessun Dorma (None shall sleep), one of the best-known tenor arias, is sung by Calaf, the unknown prince in this famous opera.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rigoletto"
+            },
+            {
+              "id": "1",
+              "text": "The Magic Flute"
+            },
+            {
+              "id": "2",
+              "text": "Turandot"
+            },
+            {
+              "id": "3",
+              "text": "Norma"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Turandot"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the Celine Dion song that became her first number one single in the United States, Australia and Canada.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Power of Love"
+            },
+            {
+              "id": "1",
+              "text": "Its All Coming Back to Me Now"
+            },
+            {
+              "id": "2",
+              "text": "Falling into You"
+            },
+            {
+              "id": "3",
+              "text": "Because You Loved Me"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Power of Love"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of Celine Dions debut English album, released in 1990?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Inspired"
+            },
+            {
+              "id": "1",
+              "text": "Promises"
+            },
+            {
+              "id": "2",
+              "text": "Vision"
+            },
+            {
+              "id": "3",
+              "text": "Unison"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Unison"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of Celine Dions autobiographical book, published in 2001?",
+          "options": [
+            {
+              "id": "0",
+              "text": "My Life, My Love"
+            },
+            {
+              "id": "1",
+              "text": "My Story, My Dream"
+            },
+            {
+              "id": "2",
+              "text": "My Way, My Heart"
+            },
+            {
+              "id": "3",
+              "text": "My Book, My Confessions"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: My Story, My Dream"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who composed the opera Lelisir damore (The Elixir of Love) in which a peasant boy falls in love named Nemorino falls in love with Adina, a wealthy landowner?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gaetano Donizetti"
+            },
+            {
+              "id": "1",
+              "text": "Vincenzo Bellini"
+            },
+            {
+              "id": "2",
+              "text": "Ruggero Leocavallo"
+            },
+            {
+              "id": "3",
+              "text": "Gioachinno Rossini"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Gaetano Donizetti"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many octaves does Celine Dions voice encompass?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seven octaves"
+            },
+            {
+              "id": "1",
+              "text": "Three octaves"
+            },
+            {
+              "id": "2",
+              "text": "Eight octaves"
+            },
+            {
+              "id": "3",
+              "text": "Five octaves"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Five octaves"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "title",
+          "shows",
+          "none",
+          "tv",
+          "squeeze"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Rihanna and Title",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, people, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was the Chuck Wagon Gang gospel quartet founded?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1937"
+            },
+            {
+              "id": "1",
+              "text": "1934"
+            },
+            {
+              "id": "2",
+              "text": "1935"
+            },
+            {
+              "id": "3",
+              "text": "1936"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1935"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country was Rihanna born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Haiti"
+            },
+            {
+              "id": "1",
+              "text": "Dominican Republic"
+            },
+            {
+              "id": "2",
+              "text": "Barbados"
+            },
+            {
+              "id": "3",
+              "text": "Trinidad and Tobago"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Barbados"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of Casting Crowns original members is a violinist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What musician was charged with domestic violence against Rihanna in 2009?",
+          "options": [
+            {
+              "id": "0",
+              "text": "50 Cent"
+            },
+            {
+              "id": "1",
+              "text": "Kanye West"
+            },
+            {
+              "id": "2",
+              "text": "Justin Timberlake"
+            },
+            {
+              "id": "3",
+              "text": "Chris Brown"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chris Brown"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The original members of the Chuck Wagon Gang were four: Dad (David) Jim, Rose and what other family member?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anna"
+            },
+            {
+              "id": "1",
+              "text": "June"
+            },
+            {
+              "id": "2",
+              "text": "Sarah"
+            },
+            {
+              "id": "3",
+              "text": "Mother MayBelle"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Anna"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rihanna has been criticized by the people of her native country, Barbados, as well as by others, for which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Her outfits"
+            },
+            {
+              "id": "1",
+              "text": "Her lack of talent"
+            },
+            {
+              "id": "2",
+              "text": "Her being ashamed to be a native of Barbados"
+            },
+            {
+              "id": "3",
+              "text": "Her lack of education"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Her outfits"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many years in a row did Casting Crowns win the Dove Award for Group of the Year in the period 2003-2007?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the real first name of musician Rihanna?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rachel"
+            },
+            {
+              "id": "1",
+              "text": "Rita"
+            },
+            {
+              "id": "2",
+              "text": "Robyn"
+            },
+            {
+              "id": "3",
+              "text": "Roxanne"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Robyn"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of Casting Crowns 2007 album?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Altar and the Door"
+            },
+            {
+              "id": "1",
+              "text": "Every Man"
+            },
+            {
+              "id": "2",
+              "text": "East to West"
+            },
+            {
+              "id": "3",
+              "text": "What This World Needs"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Altar and the Door"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name Casting Crowns drummer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andy Williams"
+            },
+            {
+              "id": "1",
+              "text": "Chris Huffman"
+            },
+            {
+              "id": "2",
+              "text": "Juan DeVevo"
+            },
+            {
+              "id": "3",
+              "text": "Megan Garrett"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Andy Williams"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rihanna has stated she derived inspiration from which of the following artists?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mariah Carey"
+            },
+            {
+              "id": "1",
+              "text": "Beyonce"
+            },
+            {
+              "id": "2",
+              "text": "Madonna"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of Rihannas debut single?",
+          "options": [
+            {
+              "id": "0",
+              "text": "If Its Lovin that You Want"
+            },
+            {
+              "id": "1",
+              "text": "Unfaithful"
+            },
+            {
+              "id": "2",
+              "text": "Pon de Replay"
+            },
+            {
+              "id": "3",
+              "text": "SOS"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pon de Replay"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the lyrics to this Casting Crowns song:",
+          "options": [
+            {
+              "id": "0",
+              "text": "North is from the South"
+            },
+            {
+              "id": "1",
+              "text": "South is from the West"
+            },
+            {
+              "id": "2",
+              "text": "North is from the East"
+            },
+            {
+              "id": "3",
+              "text": "East is from the West"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: East is from the West"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mark Hall wrote all the songs on Casting Crowns self-titled debut album.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why was Rihanna bullied at school?",
+          "options": [
+            {
+              "id": "0",
+              "text": "because of her height"
+            },
+            {
+              "id": "1",
+              "text": "because of her weight"
+            },
+            {
+              "id": "2",
+              "text": "because of her name"
+            },
+            {
+              "id": "3",
+              "text": "because of the color of her skin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: because of the color of her skin"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "people",
+          "title",
+          "country",
+          "debut",
+          "drummer"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Cannibal and Musical",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, cannibal, creators. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What condition/infection does one of the miners become a victim of in the movie Cannibal! The Musical?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Measles"
+            },
+            {
+              "id": "1",
+              "text": "Trench Mouth"
+            },
+            {
+              "id": "2",
+              "text": "Gangrene"
+            },
+            {
+              "id": "3",
+              "text": "Elephantitis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gangrene"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "David (Dad) from the Chuck Wagon Gang was inducted into the Gospel Music Hall of Fame in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1960"
+            },
+            {
+              "id": "1",
+              "text": "1950"
+            },
+            {
+              "id": "2",
+              "text": "1984"
+            },
+            {
+              "id": "3",
+              "text": "1980"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1984"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the reporter who helped Packer in Cannibal! The Musical, and what newspaper did she work for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Betty Baxter, The San Francisco Chronicle"
+            },
+            {
+              "id": "1",
+              "text": "Alice Walker, The Chicago Tribune"
+            },
+            {
+              "id": "2",
+              "text": "Polly Pry, The Denver Post"
+            },
+            {
+              "id": "3",
+              "text": "Wallace Greeley, The New York Times"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Polly Pry, The Denver Post"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Packers horse in the film Cannibal! The Musical?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leslie"
+            },
+            {
+              "id": "1",
+              "text": "Lianne"
+            },
+            {
+              "id": "2",
+              "text": "Lisa"
+            },
+            {
+              "id": "3",
+              "text": "Gwendaline"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lianne"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Chuck Wagon Gang became a touring band in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1949"
+            },
+            {
+              "id": "1",
+              "text": "1946"
+            },
+            {
+              "id": "2",
+              "text": "1947"
+            },
+            {
+              "id": "3",
+              "text": "1948"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1948"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cannibal! The Musical is based on the real life story of what convicted cannibal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alferd Packer"
+            },
+            {
+              "id": "1",
+              "text": "Wolf Packer"
+            },
+            {
+              "id": "2",
+              "text": "Back Packer"
+            },
+            {
+              "id": "3",
+              "text": "Hugh Packer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Alferd Packer"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete this line from a song, featured in the movie Cannibal! The Musical:",
+          "options": [
+            {
+              "id": "0",
+              "text": "a furnace"
+            },
+            {
+              "id": "1",
+              "text": "an apple pie"
+            },
+            {
+              "id": "2",
+              "text": "a toaster oven"
+            },
+            {
+              "id": "3",
+              "text": "a baked potato"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: a baked potato"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Chuck Wagon Gang were named gospel artist or group of the year by Music City News five years in a row.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the beginning of the movie Cannibal! The Musical, a group of miners begin a trip on foot through the wilderness in search of gold. What is their destination?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Appalachian Trail"
+            },
+            {
+              "id": "1",
+              "text": "Shangri La"
+            },
+            {
+              "id": "2",
+              "text": "Colorado Territory"
+            },
+            {
+              "id": "3",
+              "text": "Eureka, California"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Colorado Territory"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of day do you think Packer, the protagonist of Cannibal! The Musical, would like to have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A very hectic day"
+            },
+            {
+              "id": "1",
+              "text": "A day at the beach"
+            },
+            {
+              "id": "2",
+              "text": "A shpadoinkle day"
+            },
+            {
+              "id": "3",
+              "text": "A day full of activities"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A shpadoinkle day"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the names of the five miners who went on expedition with Packer in the film Cannibal! The Musical?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jo Jo Klingensmith, Sunny California Hill, Shannon Wells, Israel Pigeon"
+            },
+            {
+              "id": "1",
+              "text": "Jimmy Hopkins, Char Texas Toast, Hacker Bill, Audrey Wilfred, Israel Bird"
+            },
+            {
+              "id": "2",
+              "text": "Jordy Calhoon, Saxton Montana Madness, Wally Guns, Israel Dove"
+            },
+            {
+              "id": "3",
+              "text": "James Humphrey, George California Noon, Shannon Bell, Israel Swan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James Humphrey, George California Noon, Shannon Bell, Israel Swan"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The creators of Cannibal! The Musical are also the creators of what popular cartoon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beavis and Butthead"
+            },
+            {
+              "id": "1",
+              "text": "The Simpsons"
+            },
+            {
+              "id": "2",
+              "text": "Teenage Mutant Ninja Turtles"
+            },
+            {
+              "id": "3",
+              "text": "South Park"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: South Park"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1955, who replaced David in the Chuck Wagon Gang?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny"
+            },
+            {
+              "id": "1",
+              "text": "Eddie"
+            },
+            {
+              "id": "2",
+              "text": "Bill Gaither"
+            },
+            {
+              "id": "3",
+              "text": "Phil Cross"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Chuck Wagon Gangs singing career was launched by a crisis which left the family destitute.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "June Carter and her mother, Mother MayBelle Carter, were members of the Chuck Wagon Gang at one and the same time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "cannibal",
+          "creators",
+          "kind",
+          "carter",
+          "june"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Line and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, cannibal, line. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete this line from Beyonce\u2019s ballad \u2018Flaws and All\u2019: \u2018I\u2019m a \u2026 by some standards, but in your eyes I\u2019m a queen\u2019?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Train wreck"
+            },
+            {
+              "id": "1",
+              "text": "Peasant"
+            },
+            {
+              "id": "2",
+              "text": "Rough girl"
+            },
+            {
+              "id": "3",
+              "text": "Hot mess"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Peasant"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete these lyrics from Beyonce\u2019s song \u2018Crazy in Love\u2019: \u2018Such a funny thing for me to try to explain how I\u2019m feeling, and my \u2026 is the one to blame\u2019.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mom"
+            },
+            {
+              "id": "1",
+              "text": "Heart"
+            },
+            {
+              "id": "2",
+              "text": "Dad"
+            },
+            {
+              "id": "3",
+              "text": "Pride"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pride"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish this line from the song \u2018Baby Boy\u2019 by Beyonce Knowles and Sean Paul: \u2018In our own little world the music is the sun, the dance floor become the sea. Feels like\u2026\u2019.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True paradise to me"
+            },
+            {
+              "id": "1",
+              "text": "Heaven on earth to me"
+            },
+            {
+              "id": "2",
+              "text": "Love taking over me"
+            },
+            {
+              "id": "3",
+              "text": "You\u2019re the only one I need"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True paradise to me"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Cannibal! The Musical, what did Crazy Old Ralph say to the miners before they left?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Youre going to die"
+            },
+            {
+              "id": "1",
+              "text": "Youre never fully dressed without a smile"
+            },
+            {
+              "id": "2",
+              "text": "Well behaved women rarely make history"
+            },
+            {
+              "id": "3",
+              "text": "Youre doomed! Doomed! Youre Doomed!  Doomed!"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Youre doomed! Doomed! Youre Doomed!  Doomed!"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete this line from Beyonce\u2019s song \u2018Dangerously in Love\u2019 end: \u2018Baby I love you, you are my \u2026\u2019",
+          "options": [
+            {
+              "id": "0",
+              "text": "All"
+            },
+            {
+              "id": "1",
+              "text": "Heart"
+            },
+            {
+              "id": "2",
+              "text": "Man"
+            },
+            {
+              "id": "3",
+              "text": "Life"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Life"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete this line from Beyonce\u2019s song \u2018Naughty Girl\u2019: \u2018Baby, the minute I feel your \u2026 your vibe is just taking over me\u2019.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Money"
+            },
+            {
+              "id": "1",
+              "text": "Hands on me"
+            },
+            {
+              "id": "2",
+              "text": "Energy"
+            },
+            {
+              "id": "3",
+              "text": "Love for me"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Energy"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the line from Beyonce Knowles\u2019 song \u2018Deja vu\u2019: \u2018Helplessly I reminisce, don\u2019t want to \u2026\u2019",
+          "options": [
+            {
+              "id": "0",
+              "text": "Compare nobody to you"
+            },
+            {
+              "id": "1",
+              "text": "Spend another day without you"
+            },
+            {
+              "id": "2",
+              "text": "Stay far away from you"
+            },
+            {
+              "id": "3",
+              "text": "Be ever without you"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Compare nobody to you"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the missing word from this line of the song \u2018Beautiful Liar\u2019 by Beyonce and Shakira: \u2018Let\u2019s not kill the \u2026, let\u2019s not start the fight\u2019?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Drama"
+            },
+            {
+              "id": "1",
+              "text": "Karma"
+            },
+            {
+              "id": "2",
+              "text": "Patience"
+            },
+            {
+              "id": "3",
+              "text": "Bastard"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Karma"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Radiohead album was the first to debut at Number 1 in the US chart?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amnesiac"
+            },
+            {
+              "id": "1",
+              "text": "Hail to the Tief"
+            },
+            {
+              "id": "2",
+              "text": "Kid A"
+            },
+            {
+              "id": "3",
+              "text": "OK Computer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kid A"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the film Cannibal! The Musical, Packer was chosen as the guide for the trip after the occurrence of this unfortunate event.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The original guide was struck by lightning."
+            },
+            {
+              "id": "1",
+              "text": "The original guide chickened out."
+            },
+            {
+              "id": "2",
+              "text": "The original guide broke his leg."
+            },
+            {
+              "id": "3",
+              "text": "The original guide went missing."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The original guide was struck by lightning."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What song did Israel sing in Cannibal! The Musical, when desperation seized the miners?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a song about building a brick shelter"
+            },
+            {
+              "id": "1",
+              "text": "a song about building a city on rock n roll"
+            },
+            {
+              "id": "2",
+              "text": "a song about building a synagogue"
+            },
+            {
+              "id": "3",
+              "text": "a song about building a snowman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: a song about building a snowman"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the film Cannibal! The Musical, the miners run into Cyclops and tell him that they are from Nashville.  How does Cyclops know that they are lying?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They didnt know how to country line dance."
+            },
+            {
+              "id": "1",
+              "text": "None of them know how to start up a John Deere tractor."
+            },
+            {
+              "id": "2",
+              "text": "They cant finish the lyrics to Dixie."
+            },
+            {
+              "id": "3",
+              "text": "They cant ride and rope broncos."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They cant finish the lyrics to Dixie."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish this line from the song \u2018Me, Myself  I\u2019 by Beyonce: \u2018You said that you love me but you don\u2019t, you family told me \u2026\u2019",
+          "options": [
+            {
+              "id": "0",
+              "text": "You\u2019re planning to leave me and move on"
+            },
+            {
+              "id": "1",
+              "text": "One day I would see it on my own"
+            },
+            {
+              "id": "2",
+              "text": "You said you will leave me all alone"
+            },
+            {
+              "id": "3",
+              "text": "You\u2019re not always sleeping in your home"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: One day I would see it on my own"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish this verse from Beyonce\u2019s popular song \u2018Single Ladies\u2019: \u2018If you liked it then you shoulda\u2026\u2019.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Made the best of it"
+            },
+            {
+              "id": "1",
+              "text": "Put a ring on it"
+            },
+            {
+              "id": "2",
+              "text": "Put your hand on it"
+            },
+            {
+              "id": "3",
+              "text": "Taken a grip on it"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Put a ring on it"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What word is missing from this line of the ballad \u2018Listen\u2019 by Beyonce Knowles: \u2018I\u2019m more than what you made of me, I found the \u2026 you think you gave to me\u2019?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Voice"
+            },
+            {
+              "id": "1",
+              "text": "Light"
+            },
+            {
+              "id": "2",
+              "text": "Heart"
+            },
+            {
+              "id": "3",
+              "text": "Strength"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Voice"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "cannibal",
+          "line",
+          "s",
+          "verse",
+          "ralph"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Album and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, title, director. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This famous documentary by director Grant Gee follows the alternative rock band Radiohead on their world tour after the release of the album OK Computer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "This is Spinal Tap"
+            },
+            {
+              "id": "1",
+              "text": "7 Television Commercials"
+            },
+            {
+              "id": "2",
+              "text": "Meeting People is Easy"
+            },
+            {
+              "id": "3",
+              "text": "Target Market"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Meeting People is Easy"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Radiohead songs contains references to The Hitchhickers Guide to the Galaxy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Subterranean Homesick Alien"
+            },
+            {
+              "id": "1",
+              "text": "Hunting Bears"
+            },
+            {
+              "id": "2",
+              "text": "Paranoid Android"
+            },
+            {
+              "id": "3",
+              "text": "Pyramid Song"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Paranoid Android"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song P5hng Me A*wy from Linkin Parks album Reanimation is often played at the bands concerts.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first track of Linkin Parks album Reanimation is entitled Opening. Which two members of Linkin Park perform on this track?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rob Bourdon and Chester Bennington"
+            },
+            {
+              "id": "1",
+              "text": "Dave Phoenix Farrell and Mike Shinoda"
+            },
+            {
+              "id": "2",
+              "text": "Chester Bennington and Mike Shinoda"
+            },
+            {
+              "id": "3",
+              "text": "Joe Hahn and Brad Delson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dave Phoenix Farrell and Mike Shinoda"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Radiohead initially released this album as a digital download that customers could order for whatever price they decide.",
+          "options": [
+            {
+              "id": "0",
+              "text": "In Rainbows"
+            },
+            {
+              "id": "1",
+              "text": "Amnesiac"
+            },
+            {
+              "id": "2",
+              "text": "Kid A"
+            },
+            {
+              "id": "3",
+              "text": "OK Computer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: In Rainbows"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Gloaming is the alternative title of this Radiohead album and also the name of one of its tracks.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hail to the Thief"
+            },
+            {
+              "id": "1",
+              "text": "In Rainbows"
+            },
+            {
+              "id": "2",
+              "text": "Kid A"
+            },
+            {
+              "id": "3",
+              "text": "Amnesiac"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hail to the Thief"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Radioheads vocalist Thom Yorkes first solo album?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Clock"
+            },
+            {
+              "id": "1",
+              "text": "Analyze"
+            },
+            {
+              "id": "2",
+              "text": "The Eraser"
+            },
+            {
+              "id": "3",
+              "text": "Harrowdown Hill"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Eraser"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rock band Radiohead recorded the song Life in a Glasshouse in collaboration with this British jazz musician.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kevin Davy"
+            },
+            {
+              "id": "1",
+              "text": "Chris Batchelor"
+            },
+            {
+              "id": "2",
+              "text": "Humphrey Lyttelton"
+            },
+            {
+              "id": "3",
+              "text": "Mick Mulligan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Humphrey Lyttelton"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Pts.Of.Athrty from Linkin Parks album Reanimation was released as a single with which other song from the album as its B-side?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Plc.4 Mie H\u00e6d"
+            },
+            {
+              "id": "1",
+              "text": "H! Vltg3"
+            },
+            {
+              "id": "2",
+              "text": "Enth E Nd"
+            },
+            {
+              "id": "3",
+              "text": "Frgt/10"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: H! Vltg3"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1994 My Iron Lung EP marked the beginning of a long collaborative working relationship between Radiohead and this artist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alfred Wainwright"
+            },
+            {
+              "id": "1",
+              "text": "Stanley Donwood"
+            },
+            {
+              "id": "2",
+              "text": "Martin Handford"
+            },
+            {
+              "id": "3",
+              "text": "Phil May"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stanley Donwood"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Frgt/10 from Linkin Parks album Reanimation followed the theme of the album in collaborations with other artists. Which of these artists did Linkin Park not collaborate with on this song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chairman Hahn"
+            },
+            {
+              "id": "1",
+              "text": "Chali 2na"
+            },
+            {
+              "id": "2",
+              "text": "Jonathan Davis"
+            },
+            {
+              "id": "3",
+              "text": "The Alchemist"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jonathan Davis"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Enth E Nd from Linkin Parks album Reanimation is a remix of their immensely popular song In The End. The original was mainly about failing in a relationship, focusing on how the singer screwed up. How is the theme of the remix different?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The song pins the blame of the failed relationship on the other person instead of on the singer"
+            },
+            {
+              "id": "1",
+              "text": "The song is about the singers relationship with his parents."
+            },
+            {
+              "id": "2",
+              "text": "The song focuses on how nothing actually matters."
+            },
+            {
+              "id": "3",
+              "text": "The song is more positive, focusing on a good relationship."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The song pins the blame of the failed relationship on the other person instead of on the singer"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To promote the release of this single, Radiohead started a competition for fans to create their own remixes of the song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Videotape"
+            },
+            {
+              "id": "1",
+              "text": "Nude"
+            },
+            {
+              "id": "2",
+              "text": "Jigsaw Falling into Place"
+            },
+            {
+              "id": "3",
+              "text": "Bodysnatchers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nude"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This famous producer is known for his long-running cooperation with British band Radiohead.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nigel Godrich"
+            },
+            {
+              "id": "1",
+              "text": "Norman Whitfield"
+            },
+            {
+              "id": "2",
+              "text": "Danger Mouse"
+            },
+            {
+              "id": "3",
+              "text": "David Foster"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nigel Godrich"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song X-Ecutioner Style from Linkin Parks album Reanimation is one of only two new full length songs on the album.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "title",
+          "director",
+          "e",
+          "wy",
+          "radiohead"
+        ]
+      }
+    }
+  ]
+}

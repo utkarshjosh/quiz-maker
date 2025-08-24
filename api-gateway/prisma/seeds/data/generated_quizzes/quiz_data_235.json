@@ -1,0 +1,2380 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Geography Quiz: Colorado and Florida",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, discovery, miami. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city is the Kennedy Space Center located in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Petersburg"
+            },
+            {
+              "id": "1",
+              "text": "Miami"
+            },
+            {
+              "id": "2",
+              "text": "Lakeland"
+            },
+            {
+              "id": "3",
+              "text": "Cape Canaveral"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cape Canaveral"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city is the Walt Disney World Resort located in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pensacola"
+            },
+            {
+              "id": "1",
+              "text": "Orlando"
+            },
+            {
+              "id": "2",
+              "text": "Miami Beach"
+            },
+            {
+              "id": "3",
+              "text": "Miami"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Orlando"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This mountain in Lake County, Colorado, is the highest of the Rocky Mountains.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tabeguache Mountain"
+            },
+            {
+              "id": "1",
+              "text": "Mt. Elbert"
+            },
+            {
+              "id": "2",
+              "text": "Huron Peak"
+            },
+            {
+              "id": "3",
+              "text": "Mt. Massive"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mt. Elbert"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Miami University is in Florida.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Tenth Amendment of the United States Bill of Rights states that any powers not given to the Federal Government are given to the state or the people.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Rocky Mountains within the state of Colorado, contain how many peaks over 14,000 ft?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "0"
+            },
+            {
+              "id": "2",
+              "text": "54"
+            },
+            {
+              "id": "3",
+              "text": "28"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 54"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the oldest port in the continental United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tallahassee"
+            },
+            {
+              "id": "1",
+              "text": "New Port"
+            },
+            {
+              "id": "2",
+              "text": "Pensacola"
+            },
+            {
+              "id": "3",
+              "text": "St. Augustine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: St. Augustine"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who discovered Florida?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Juan Ponce de Le\u00f3n"
+            },
+            {
+              "id": "1",
+              "text": "\u00c1lvar N\u00fa\u00f1ez Cabeza de Vaca"
+            },
+            {
+              "id": "2",
+              "text": "Diego Columbus"
+            },
+            {
+              "id": "3",
+              "text": "Christopher Columbus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Juan Ponce de Le\u00f3n"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Walter E. Disney was born in Florida.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This fort, established in 1858 and commanded by the legendary frontiersman Kit Carson, was the first and oldest military post in Colorado.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fort Collins"
+            },
+            {
+              "id": "1",
+              "text": "Fort Carson"
+            },
+            {
+              "id": "2",
+              "text": "Fort Garland"
+            },
+            {
+              "id": "3",
+              "text": "Fort Bent"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fort Garland"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This amendment concerning the right to own and bear arms is considered by many the most contreversal one on the United States Bill of Rights.",
+          "options": [
+            {
+              "id": "0",
+              "text": "First amendment"
+            },
+            {
+              "id": "1",
+              "text": "Second amendment"
+            },
+            {
+              "id": "2",
+              "text": "Tenth amendment"
+            },
+            {
+              "id": "3",
+              "text": "Fourth amendment"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Second amendment"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The freedom of speech, religion, petition and assembly are outlined in this amendment of the United States Bill of Rights.",
+          "options": [
+            {
+              "id": "0",
+              "text": "First"
+            },
+            {
+              "id": "1",
+              "text": "Second"
+            },
+            {
+              "id": "2",
+              "text": "Ninth"
+            },
+            {
+              "id": "3",
+              "text": "Fifth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: First"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This road, which traverses Rocky Mountain National Park from Estes Park, Colorado in the east to Grand Lake in the west, is the highest paved-through highway in the United States.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pikes Peak Road"
+            },
+            {
+              "id": "1",
+              "text": "Estes Park Drive"
+            },
+            {
+              "id": "2",
+              "text": "Mt. Evans Road"
+            },
+            {
+              "id": "3",
+              "text": "Trail Ridge Road"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Trail Ridge Road"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What discovery on the territory of Colorado became known as \u201cThe Richest Square Mile on Earth\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Golden Empire"
+            },
+            {
+              "id": "1",
+              "text": "The Central City"
+            },
+            {
+              "id": "2",
+              "text": "The Gregory Lode"
+            },
+            {
+              "id": "3",
+              "text": "The Evergreen Valley"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Gregory Lode"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what city in Florida is the University of Miami located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lakeland"
+            },
+            {
+              "id": "1",
+              "text": "Tampa"
+            },
+            {
+              "id": "2",
+              "text": "Miami"
+            },
+            {
+              "id": "3",
+              "text": "Coral Gables"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Coral Gables"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "discovery",
+          "miami",
+          "space",
+          "world",
+          "county"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Rights and The United States",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, network, products. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the beginning of his show he says, At no point are actors or stooges used in this show or  There were no actors or stooges used in this show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Criss Angel"
+            },
+            {
+              "id": "1",
+              "text": "Danny Tanner"
+            },
+            {
+              "id": "2",
+              "text": "Derren Brown"
+            },
+            {
+              "id": "3",
+              "text": "John Edward"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Derren Brown"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the author of the United States Bill of Rights?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Washington"
+            },
+            {
+              "id": "1",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "2",
+              "text": "John Adams"
+            },
+            {
+              "id": "3",
+              "text": "James Madison"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James Madison"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The United States Constitution and the United States Bill of Rights were adopted at the same time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which amendment of the United States Bill of Rights gives the defendant the right to be judged by jury?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seventh"
+            },
+            {
+              "id": "1",
+              "text": "Fifth"
+            },
+            {
+              "id": "2",
+              "text": "Eighth"
+            },
+            {
+              "id": "3",
+              "text": "Second"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Seventh"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which amendment of the United States Bill of Rights protects the individual from unreasonable search and seizures?",
+          "options": [
+            {
+              "id": "0",
+              "text": "First"
+            },
+            {
+              "id": "1",
+              "text": "Second"
+            },
+            {
+              "id": "2",
+              "text": "Third"
+            },
+            {
+              "id": "3",
+              "text": "Fourth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fourth"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What products ad says expect wonders?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Excedrin Back and Body"
+            },
+            {
+              "id": "1",
+              "text": "Bayer Aspirin"
+            },
+            {
+              "id": "2",
+              "text": "LOreal Natural Match"
+            },
+            {
+              "id": "3",
+              "text": "Tylenol"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bayer Aspirin"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kelly Ripa has done commercials for Tide on the Run Stick which can remove fresh drink and food stains in a flash.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Responsibility Matters is one of this companys slogans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Smirnoff"
+            },
+            {
+              "id": "1",
+              "text": "Progressive Insurance"
+            },
+            {
+              "id": "2",
+              "text": "Liberty Mutual"
+            },
+            {
+              "id": "3",
+              "text": "Anheuser-Busch"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Anheuser-Busch"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This politician did not originally want a Bill of Rights for the United States.",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Madison"
+            },
+            {
+              "id": "1",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "2",
+              "text": "John Adams"
+            },
+            {
+              "id": "3",
+              "text": "John Hanchock"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Jefferson"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which was the tenth state to approve the United States Bill of Rights?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Virginia"
+            },
+            {
+              "id": "1",
+              "text": "New York"
+            },
+            {
+              "id": "2",
+              "text": "Georgia"
+            },
+            {
+              "id": "3",
+              "text": "New Jersey"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Virginia"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which amendment of the United States Bill of Rights prohibits cruel and unusual punishment?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fourth"
+            },
+            {
+              "id": "1",
+              "text": "Ninth"
+            },
+            {
+              "id": "2",
+              "text": "Third"
+            },
+            {
+              "id": "3",
+              "text": "Eight"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eight"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chuck Norris and Christie Brinkley pitch ads for Bowflex.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Pennsylvania cities have served as capital of the USA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whose statue is at the top of Philadelphias City Hall?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rocky Balboas"
+            },
+            {
+              "id": "1",
+              "text": "Ben Franklins"
+            },
+            {
+              "id": "2",
+              "text": "Betsy Ross"
+            },
+            {
+              "id": "3",
+              "text": "William Penns"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: William Penns"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What network has the slogan We report, You decide?",
+          "options": [
+            {
+              "id": "0",
+              "text": "CNN"
+            },
+            {
+              "id": "1",
+              "text": "MSNBC"
+            },
+            {
+              "id": "2",
+              "text": "FOX"
+            },
+            {
+              "id": "3",
+              "text": "FNC"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: FNC"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "network",
+          "products",
+          "world",
+          "point",
+          "wonders"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Bethlehem and City",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, actor, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This landmark built by Constantine the Great stands in the center of Bethlehem.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rachels Tomb"
+            },
+            {
+              "id": "1",
+              "text": "Bethlehem University"
+            },
+            {
+              "id": "2",
+              "text": "Alis Palace"
+            },
+            {
+              "id": "3",
+              "text": "Church of the Nativity"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Church of the Nativity"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these states does not border Pennsylvania?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Connecticut"
+            },
+            {
+              "id": "1",
+              "text": "Delaware"
+            },
+            {
+              "id": "2",
+              "text": "New Jersey"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Connecticut"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the Samaritan Revolt the Church of the Nativity in Bethlehem was destroyed.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A song by the name of December has been done by all of the following bands except this band.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stone Temple Pilots"
+            },
+            {
+              "id": "1",
+              "text": "Weezer"
+            },
+            {
+              "id": "2",
+              "text": "Collective Soul"
+            },
+            {
+              "id": "3",
+              "text": "The Waterboys"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Stone Temple Pilots"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Commodore Oliver Hazard Perry won a major naval battle in the War of 1812 using this Pennsylvania city as his base.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Erie"
+            },
+            {
+              "id": "1",
+              "text": "Chester"
+            },
+            {
+              "id": "2",
+              "text": "Easton"
+            },
+            {
+              "id": "3",
+              "text": "Philadelphia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Erie"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular actor was born on December 17, 1953 and played characters named Dennis Alan (1988), Bob Hinson (1992), Ed Masterson (1994), President Thomas J. Whitmore (1996) and Peter Kirk (2004)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Will Smith"
+            },
+            {
+              "id": "1",
+              "text": "Bill Pullman"
+            },
+            {
+              "id": "2",
+              "text": "Paul Winfield"
+            },
+            {
+              "id": "3",
+              "text": "Kevin Costner"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Pullman"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An estimated 2,000 Christians left Bethlehem during the period of 2000 - 2003.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bethlehem is six miles south of what city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nazareth"
+            },
+            {
+              "id": "1",
+              "text": "Beit Jala"
+            },
+            {
+              "id": "2",
+              "text": "Jerusalem"
+            },
+            {
+              "id": "3",
+              "text": "Cairo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jerusalem"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which river flows through Pennsylvanias capital city, Harrisburg?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Monongahela"
+            },
+            {
+              "id": "1",
+              "text": "Susquehanna"
+            },
+            {
+              "id": "2",
+              "text": "Allegheny"
+            },
+            {
+              "id": "3",
+              "text": "Delaware"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Susquehanna"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1940, the population of Bethlehem was mostly Christian.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these groups was forced to leave when Saladin captured Bethlehem?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Persians"
+            },
+            {
+              "id": "1",
+              "text": "The Catholic missionaries"
+            },
+            {
+              "id": "2",
+              "text": "The Latin Clerics"
+            },
+            {
+              "id": "3",
+              "text": "The Puritan Crusaders"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Latin Clerics"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Billy Dee Williamss middle name is December.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lt. George Washington first made a name for himself by defeating the French in the battle at Fort Necessity in 1754.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2002, this building in Bethlehem became the site of a five-week standoff during the Israel Defense Leagues raid on the city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bethlehem University"
+            },
+            {
+              "id": "1",
+              "text": "Solomons Pool"
+            },
+            {
+              "id": "2",
+              "text": "Grotto Crypt"
+            },
+            {
+              "id": "3",
+              "text": "Church of the Nativity"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Church of the Nativity"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This king, born in Bethlehem, was the second King of Israel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "David"
+            },
+            {
+              "id": "1",
+              "text": "Judah"
+            },
+            {
+              "id": "2",
+              "text": "Joseph"
+            },
+            {
+              "id": "3",
+              "text": "Samuel"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: David"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "actor",
+          "world",
+          "nativity",
+          "period",
+          "middle"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: State and U.s.",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, independence, navel. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what state was a person executed by lethal injection on December 14, 1982?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Texas"
+            },
+            {
+              "id": "1",
+              "text": "North Dakota"
+            },
+            {
+              "id": "2",
+              "text": "Maryland"
+            },
+            {
+              "id": "3",
+              "text": "California"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Texas"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the youngest and shortest-serving state capital in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Oklahoma City"
+            },
+            {
+              "id": "2",
+              "text": "Juneau"
+            },
+            {
+              "id": "3",
+              "text": "Providence"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oklahoma City"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This U.S. state capital is located on a land that was once a Native American village called Standing Peachtree.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Springfield"
+            },
+            {
+              "id": "1",
+              "text": "Olympia"
+            },
+            {
+              "id": "2",
+              "text": "Atlanta"
+            },
+            {
+              "id": "3",
+              "text": "Columbia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Atlanta"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the capital city of the U.S. state in which Sioux Falls is the largest city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pierre"
+            },
+            {
+              "id": "1",
+              "text": "Nashville"
+            },
+            {
+              "id": "2",
+              "text": "Augusta"
+            },
+            {
+              "id": "3",
+              "text": "Charleston"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pierre"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What state capital is also the county seat of Marion County, U.S.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jackson"
+            },
+            {
+              "id": "1",
+              "text": "Indianapolis"
+            },
+            {
+              "id": "2",
+              "text": "Atlanta"
+            },
+            {
+              "id": "3",
+              "text": "Sacramento"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Indianapolis"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the state capital of the U.S. state of Wyoming?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jefferson City"
+            },
+            {
+              "id": "1",
+              "text": "Columbus"
+            },
+            {
+              "id": "2",
+              "text": "Madison"
+            },
+            {
+              "id": "3",
+              "text": "Cheyenne"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cheyenne"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On December 1, 1913 Ford Motor Company introduced standard seatbelts.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the least populated U.S. state capital according to the 2000 census?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Montpelier"
+            },
+            {
+              "id": "1",
+              "text": "Honolulu"
+            },
+            {
+              "id": "2",
+              "text": "Juneau"
+            },
+            {
+              "id": "3",
+              "text": "Boise"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Montpelier"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Here, at what legend says Zeus called the navel of the world, Apollo killed a winged snake whose blood gave prophetic visions to those who inhaled its fumes. By what better name do we know the seer, Pythia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Oracle of Delphi"
+            },
+            {
+              "id": "1",
+              "text": "Bridge of Sighs"
+            },
+            {
+              "id": "2",
+              "text": "The Rose of Sharon"
+            },
+            {
+              "id": "3",
+              "text": "Cassandra Stone"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Oracle of Delphi"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the state capital of the U.S. state of Iowa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helena"
+            },
+            {
+              "id": "1",
+              "text": "Providence"
+            },
+            {
+              "id": "2",
+              "text": "Des Moines"
+            },
+            {
+              "id": "3",
+              "text": "Baton Rouge"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Des Moines"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which state was the first of the original 13 to ratify the United States Constitution in 1787?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York"
+            },
+            {
+              "id": "1",
+              "text": "Maine"
+            },
+            {
+              "id": "2",
+              "text": "Pennsylvania"
+            },
+            {
+              "id": "3",
+              "text": "Delaware"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Delaware"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the capital city of the U.S. state in which the largest city is Bridgeport?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hartford"
+            },
+            {
+              "id": "1",
+              "text": "Boise"
+            },
+            {
+              "id": "2",
+              "text": "Tallahassee"
+            },
+            {
+              "id": "3",
+              "text": "Denver"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hartford"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This dome, the largest free-standing brick dome in the world, is a symbol of the Eternal City. Its beauty was shaped by Raphael, Bernini and Michelangelo. Here is housed Michelangelos Pieta, the only sculpture he ever signed. In what building would you be standing when you read upon this rock I will build my church. To you I give the kingdom of heaven.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "La Sagrada Familia"
+            },
+            {
+              "id": "1",
+              "text": "Basilica of St. Marks"
+            },
+            {
+              "id": "2",
+              "text": "St. Peters Basilica"
+            },
+            {
+              "id": "3",
+              "text": "Cologne Cathedral"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: St. Peters Basilica"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following countries gained its independence from Russia in December of 1917?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "Germany"
+            },
+            {
+              "id": "2",
+              "text": "Finland"
+            },
+            {
+              "id": "3",
+              "text": "Sweden"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Finland"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the capital city of the U.S. state in which the largest city is Newark?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bismarck"
+            },
+            {
+              "id": "1",
+              "text": "Salem"
+            },
+            {
+              "id": "2",
+              "text": "Trenton"
+            },
+            {
+              "id": "3",
+              "text": "Raleigh"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Trenton"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "independence",
+          "navel",
+          "land",
+          "world",
+          "ford"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: City and State",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, festival, regions. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the capital city of the U.S. state in which the most populous city in the United States is situated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tallahassee"
+            },
+            {
+              "id": "1",
+              "text": "Albany"
+            },
+            {
+              "id": "2",
+              "text": "Sacramento"
+            },
+            {
+              "id": "3",
+              "text": "Austin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Albany"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Tennessee city is the exact geographical center of the state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nashville"
+            },
+            {
+              "id": "1",
+              "text": "Memphis"
+            },
+            {
+              "id": "2",
+              "text": "Murfreesboro"
+            },
+            {
+              "id": "3",
+              "text": "Knoxville"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Murfreesboro"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Ferrari was founded by Enzo Ferrari in 1928.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did the production of the Mustang model of Ford first begin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Virginia"
+            },
+            {
+              "id": "1",
+              "text": "California"
+            },
+            {
+              "id": "2",
+              "text": "Michigan"
+            },
+            {
+              "id": "3",
+              "text": "Texas"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Michigan"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Holland is divided into North and South provinces.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This city in Florida is considered to be the oldest European settlement in North America.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saint Petersburg"
+            },
+            {
+              "id": "1",
+              "text": "Dade City"
+            },
+            {
+              "id": "2",
+              "text": "Saint Marks"
+            },
+            {
+              "id": "3",
+              "text": "Saint Augustine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Saint Augustine"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first 3D movie presentation was done in this citys famous Astor Theater.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miami"
+            },
+            {
+              "id": "1",
+              "text": "Dallas"
+            },
+            {
+              "id": "2",
+              "text": "Chicago"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New York"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most European countries are divided into provinces, regions, federal subjects or municipalities. Which of the following is divided into states?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "Russia"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "France"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Germany"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cumberland University, located in Lebanon, Tennessee, lost the most lopsided football game in history to what school?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of North Carolina"
+            },
+            {
+              "id": "1",
+              "text": "Georgia Tech"
+            },
+            {
+              "id": "2",
+              "text": "Middle Tennessee State"
+            },
+            {
+              "id": "3",
+              "text": "Penn State"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Georgia Tech"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Ford Mustang first debuted in 1965.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what Northeastern state did the first daily newspaper originate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pennsylvania"
+            },
+            {
+              "id": "1",
+              "text": "Vermont"
+            },
+            {
+              "id": "2",
+              "text": "Maine"
+            },
+            {
+              "id": "3",
+              "text": "Rhode Island"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pennsylvania"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gatorade was named after the University of Florida Gators football team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "NASCAR stands for National Association For Stock Car Auto Racing.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is the Honda Motor Company headquarters located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "Russia"
+            },
+            {
+              "id": "2",
+              "text": "China"
+            },
+            {
+              "id": "3",
+              "text": "Japan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Japan"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "1969s Woodstock Festival was held in Woodstock, New York.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "festival",
+          "regions",
+          "world",
+          "model",
+          "ford"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Illinois and Pennsylvania",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, nicknames, bird. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the official state bird of Illinois?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hummingbird"
+            },
+            {
+              "id": "1",
+              "text": "Robin"
+            },
+            {
+              "id": "2",
+              "text": "Sparrow"
+            },
+            {
+              "id": "3",
+              "text": "Cardinal"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cardinal"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This animal, which is often hunted in the fall season, is the official state animal of Illinois.",
+          "options": [
+            {
+              "id": "0",
+              "text": "White-tailed deer"
+            },
+            {
+              "id": "1",
+              "text": "Ostrich"
+            },
+            {
+              "id": "2",
+              "text": "Groundhog"
+            },
+            {
+              "id": "3",
+              "text": "Coyote"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: White-tailed deer"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name Illinois is Algonquin for tribes of intelligent men.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the official nickname of Illinois?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Prairie State"
+            },
+            {
+              "id": "1",
+              "text": "Sunflower State"
+            },
+            {
+              "id": "2",
+              "text": "Wildflower State"
+            },
+            {
+              "id": "3",
+              "text": "Crop State"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Prairie State"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is one of the nicknames of Pennsylvania?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dutch State"
+            },
+            {
+              "id": "1",
+              "text": "Keystone State"
+            },
+            {
+              "id": "2",
+              "text": "Brotherhood State"
+            },
+            {
+              "id": "3",
+              "text": "Commonwealth State"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Keystone State"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Illinois is the leading producer in the U.S. of which of these crops?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oats"
+            },
+            {
+              "id": "1",
+              "text": "Soybeans"
+            },
+            {
+              "id": "2",
+              "text": "Milo"
+            },
+            {
+              "id": "3",
+              "text": "Wheat"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Soybeans"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sugar Maple is the state tree of Pennsylvania.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first U.S. President born in Illinois?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "1",
+              "text": "Ronald Reagan"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Thomas Jefferson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ronald Reagan"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first night football game was played in this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pittsburgh"
+            },
+            {
+              "id": "1",
+              "text": "Tioga"
+            },
+            {
+              "id": "2",
+              "text": "State College"
+            },
+            {
+              "id": "3",
+              "text": "Mansfield"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mansfield"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Illinois enter the Union?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1818"
+            },
+            {
+              "id": "1",
+              "text": "1836"
+            },
+            {
+              "id": "2",
+              "text": "1820"
+            },
+            {
+              "id": "3",
+              "text": "1822"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1818"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many counties does Illinois have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "110"
+            },
+            {
+              "id": "1",
+              "text": "120"
+            },
+            {
+              "id": "2",
+              "text": "102"
+            },
+            {
+              "id": "3",
+              "text": "101"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 102"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the state motto of Pennsylvania: Virtue, Liberty and _________ .",
+          "options": [
+            {
+              "id": "0",
+              "text": "Happiness"
+            },
+            {
+              "id": "1",
+              "text": "Independence"
+            },
+            {
+              "id": "2",
+              "text": "Prosperity"
+            },
+            {
+              "id": "3",
+              "text": "Wealth"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Independence"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which United States President to was born in Pennsylvania?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zachery Taylor"
+            },
+            {
+              "id": "1",
+              "text": "James Buchanan"
+            },
+            {
+              "id": "2",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: James Buchanan"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Waschmule, one of the largest swimming pools, in Europe is 324 feet long.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the state flower for Pennsylvania?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tulip"
+            },
+            {
+              "id": "1",
+              "text": "Dandelion"
+            },
+            {
+              "id": "2",
+              "text": "Mountain Laurel"
+            },
+            {
+              "id": "3",
+              "text": "Dogwood"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mountain Laurel"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "nicknames",
+          "bird",
+          "world",
+          "following",
+          "game"
+        ]
+      }
+    }
+  ]
+}

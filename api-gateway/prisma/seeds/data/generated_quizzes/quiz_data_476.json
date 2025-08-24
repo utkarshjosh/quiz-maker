@@ -1,0 +1,2324 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Following and Blood",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, mean, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Normal blood pressure levels are higher for older patients.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is least likely to cause tooth decay according to The American Dental Association?",
+          "options": [
+            {
+              "id": "0",
+              "text": "potato chips"
+            },
+            {
+              "id": "1",
+              "text": "breadsticks"
+            },
+            {
+              "id": "2",
+              "text": "simple sugars"
+            },
+            {
+              "id": "3",
+              "text": "cereals"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: simple sugars"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Blood sugars are checked under 2 conditions: Fasting and Post-prandial. Fasting means after having not eaten (for example in the morning on rising). Post-prandial means after eating. When are post-prandial checks typically taken?",
+          "options": [
+            {
+              "id": "0",
+              "text": "30 minutes after eating"
+            },
+            {
+              "id": "1",
+              "text": "1 hour after eating"
+            },
+            {
+              "id": "2",
+              "text": "2 hours after eating"
+            },
+            {
+              "id": "3",
+              "text": "Immediately after eating"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2 hours after eating"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What medical term refers to hair loss?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alocasia"
+            },
+            {
+              "id": "1",
+              "text": "Preeclampsia"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Alopecia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alopecia"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Only three groups of land creatures get cavities - humans, pets kept by humans, and this group.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rodents"
+            },
+            {
+              "id": "1",
+              "text": "Bears"
+            },
+            {
+              "id": "2",
+              "text": "Tigers"
+            },
+            {
+              "id": "3",
+              "text": "Armadillos"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bears"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Its normal for blood pressure to be quite elevated during strenuous activity.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does long in the tooth mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Old"
+            },
+            {
+              "id": "1",
+              "text": "Tedious"
+            },
+            {
+              "id": "2",
+              "text": "Wise"
+            },
+            {
+              "id": "3",
+              "text": "Boring"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Old"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these terms refers to armpit hair?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pubic hair"
+            },
+            {
+              "id": "1",
+              "text": "Guard hair"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Axillary hair"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Axillary hair"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Uncontrolled hypertension (high blood pressure) leads to all of the following EXCEPT this one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heart disease"
+            },
+            {
+              "id": "1",
+              "text": "Thyroid disease"
+            },
+            {
+              "id": "2",
+              "text": "Kidney failure"
+            },
+            {
+              "id": "3",
+              "text": "Stroke"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Thyroid disease"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is a normal post-prandial blood sugar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Less than 140 mg/dl (7.8 mmol/L)"
+            },
+            {
+              "id": "1",
+              "text": "Less than 125 mg/dl (6.9 mmol/L)"
+            },
+            {
+              "id": "2",
+              "text": "Less than 160 mg/dl (8.9 mmol/L)"
+            },
+            {
+              "id": "3",
+              "text": "Less than 200 mg/dl (11.1 mmol/L)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Less than 140 mg/dl (7.8 mmol/L)"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of the following foods contain cholesterol EXCEPT this food.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eggs"
+            },
+            {
+              "id": "1",
+              "text": "Okra fried in vegetable oil"
+            },
+            {
+              "id": "2",
+              "text": "Ice cream"
+            },
+            {
+              "id": "3",
+              "text": "Fish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Okra fried in vegetable oil"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The molars of todays African elephant can be longer than a foot.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is a normal fasting blood sugar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Less than 160 mg/dl (8.9 mmol/L)"
+            },
+            {
+              "id": "1",
+              "text": "Less than 140 mg/dl (7.8 mmol/L)"
+            },
+            {
+              "id": "2",
+              "text": "Less than 100 mg/dl (5.6 mmol/L)"
+            },
+            {
+              "id": "3",
+              "text": "Less than 125 mg/dl (6.9 mmol/L)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Less than 100 mg/dl (5.6 mmol/L)"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If not controlled, diabetes causes all of the following EXCEPT this one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blindness"
+            },
+            {
+              "id": "1",
+              "text": "Colon cancer"
+            },
+            {
+              "id": "2",
+              "text": "Heart attacks"
+            },
+            {
+              "id": "3",
+              "text": "Kidney failure"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Colon cancer"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It has been shown that people with diabetes are less likely to have a heart attack if they take a cholesterol-lowering medication, even if their cholesterol level is perfectly normal already.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "mean",
+          "people",
+          "creatures",
+          "land",
+          "food"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: People and Medication",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, mean, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first human to have an inch long tooth was a fourth grade student in Ontario, Canada.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Orin Scivello is the name of a fictional dentist in this movie that was made into a play. Steve Martin portrayed him in the movie remake.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oz"
+            },
+            {
+              "id": "1",
+              "text": "Little Shop of Horrors"
+            },
+            {
+              "id": "2",
+              "text": "My Family"
+            },
+            {
+              "id": "3",
+              "text": "Wicked"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Little Shop of Horrors"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement is untrue?",
+          "options": [
+            {
+              "id": "0",
+              "text": "When a gorilla is angry it shows its teeth."
+            },
+            {
+              "id": "1",
+              "text": "Mosquitoes have teeth."
+            },
+            {
+              "id": "2",
+              "text": "The Statue of Libertys teeth are 3 feet wide."
+            },
+            {
+              "id": "3",
+              "text": "Lemon sharks  grow new teeth every two weeks."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: When a gorilla is angry it shows its teeth."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following definitions is the definition of the MEAN?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The MEAN is the value that half of the entries are below and half of the entries are above."
+            },
+            {
+              "id": "1",
+              "text": "The MEAN is the average calculated by adding up all the values and dividing by the number of entries."
+            },
+            {
+              "id": "2",
+              "text": "The MEAN is the value that has the highest frequency."
+            },
+            {
+              "id": "3",
+              "text": "The MEAN is the largest value."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The MEAN is the average calculated by adding up all the values and dividing by the number of entries."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the sentence, Correlation does not imply causation., mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two wrongs dont make a right."
+            },
+            {
+              "id": "1",
+              "text": "The fact that 2 phenomena are correlated does not mean that one of them causes the other."
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "The fact that one phenomenon causes another phenomenon does not mean that they are correlated."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The fact that 2 phenomena are correlated does not mean that one of them causes the other."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following definitions is the definition of the MODE?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The MODE is the value that has the highest frequency."
+            },
+            {
+              "id": "1",
+              "text": "The MODE is the value that half of the entries are below and half of the entries are above."
+            },
+            {
+              "id": "2",
+              "text": "The MODE is the largest value."
+            },
+            {
+              "id": "3",
+              "text": "The MODE is the average calculated by adding up all the values and dividing by the number of entries."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The MODE is the value that has the highest frequency."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Of these roof types, which one is least likely to have gables?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pitched Roof"
+            },
+            {
+              "id": "1",
+              "text": "Gambrel Roof"
+            },
+            {
+              "id": "2",
+              "text": "Cat Slide Roof"
+            },
+            {
+              "id": "3",
+              "text": "Hipped Roof"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hipped Roof"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement regarding snakes is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All snakes have teeth but not all snakes have fangs."
+            },
+            {
+              "id": "1",
+              "text": "All sea snakes have fangs."
+            },
+            {
+              "id": "2",
+              "text": "All snakes have fangs."
+            },
+            {
+              "id": "3",
+              "text": "All land snakes have fangs."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All snakes have teeth but not all snakes have fangs."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these architectural styles is the earliest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gothic"
+            },
+            {
+              "id": "1",
+              "text": "Greek"
+            },
+            {
+              "id": "2",
+              "text": "Renaissance"
+            },
+            {
+              "id": "3",
+              "text": "Roman"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Greek"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lets say youre conducting a survey of the people of the United States to find out how popular the president is. You randomly choose people to call, and make 1,000 phone calls to people scattered across the country. In this study, what is the statistics term for THE PEOPLE IN THE U.S., and what is the statistics term for THE PEOPLE YOU CALLED?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The people of the U.S. are the POPULATION, and the people you called are the SAMPLE."
+            },
+            {
+              "id": "1",
+              "text": "The people of the U.S. are the SAMPLE, and the people you called are the POPULATION."
+            },
+            {
+              "id": "2",
+              "text": "Both the people of the U.S. and the people you called are POPULATIONS."
+            },
+            {
+              "id": "3",
+              "text": "Both the people of the U.S. and the people you called are SAMPLES."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The people of the U.S. are the POPULATION, and the people you called are the SAMPLE."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lets say you want to know whether a medication is effective for curing the common cold. You take 1,000 people with colds, and divide them into 2 groups of 500. You give the medication to one group, and placebo to the other group. To make this a DOUBLE-BLIND study, what would you have to do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Conceal from both the patients and the experimenters which pills are medication and which pills are placebo."
+            },
+            {
+              "id": "1",
+              "text": "Dont tell the administrators of the experiment whether theyre giving out medication or placebo."
+            },
+            {
+              "id": "2",
+              "text": "Put blindfolds on the 500 people who get the medication."
+            },
+            {
+              "id": "3",
+              "text": "Dont tell the patients of either group whether theyre getting medication or placebo."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Conceal from both the patients and the experimenters which pills are medication and which pills are placebo."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lets say that a statistical analysis of the people of the United States shows that Texans are on average taller, and that Texans also are on average richer. What conclusion can one draw from this result?",
+          "options": [
+            {
+              "id": "0",
+              "text": "There might or might not be a relationship between being tall and being rich."
+            },
+            {
+              "id": "1",
+              "text": "Being rich leads to being tall."
+            },
+            {
+              "id": "2",
+              "text": "Being tall leads to being rich."
+            },
+            {
+              "id": "3",
+              "text": "If you want to be rich, you should move to Texas."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: There might or might not be a relationship between being tall and being rich."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lets say youre conducting a study to see whether a new experimental medication will cause bald men to grow hair. You divide your patients into 2 groups. To one group you give the medication. To the other group, you give a placebo. In this study, the correct terms for the taking of the medication and the growth of hair are the following.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The medication is the dependent variable, and the hair growth is the independent variable."
+            },
+            {
+              "id": "1",
+              "text": "Both the medication and the hair growth are dependent variables."
+            },
+            {
+              "id": "2",
+              "text": "Both the medication and the hair growth are independent variables."
+            },
+            {
+              "id": "3",
+              "text": "The medication is the independent variable, and the hair growth is the dependent variable."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The medication is the independent variable, and the hair growth is the dependent variable."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a 1976 thriller, as Sir Laurence Oliviers character drills into Dustin Hoffmans characters unanesthesied tooth, he asks Hoffmans character this question.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Is it safe?"
+            },
+            {
+              "id": "1",
+              "text": "Will they come?"
+            },
+            {
+              "id": "2",
+              "text": "Where are the jewels?"
+            },
+            {
+              "id": "3",
+              "text": "Where?"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Is it safe?"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Statistics is useless, since you can design an experiment to statistically prove anything you want to prove.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "mean",
+          "people",
+          "snakes",
+          "gables",
+          "definition"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Vitamin and World",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, lipitor, jupiter. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The chemical symbol of Fluorine is Fl.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a normal curve?",
+          "options": [
+            {
+              "id": "0",
+              "text": "On a race track, if the turning radius of a gradual turn exceeds pi/2, then this is a NORMAL CURVE."
+            },
+            {
+              "id": "1",
+              "text": "If the frequency of occurrence of something is clustered around the mean, and its graph is bell-shaped, then this is a NORMAL CURVE."
+            },
+            {
+              "id": "2",
+              "text": "If an average, mentally healthy individual draws an arc, then the pattern formed is termed a NORMAL CURVE."
+            },
+            {
+              "id": "3",
+              "text": "A woman with an hour-glass figure has a NORMAL CURVE."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: If the frequency of occurrence of something is clustered around the mean, and its graph is bell-shaped, then this is a NORMAL CURVE."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Also known for her record-breaking trip around the world, what American journalist faked insanity in order to study a mental institution from the inside?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nellie Bly"
+            },
+            {
+              "id": "1",
+              "text": "Gertrude Ederle"
+            },
+            {
+              "id": "2",
+              "text": "Lizzie Borden"
+            },
+            {
+              "id": "3",
+              "text": "Susan B. Anthony"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nellie Bly"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What famous 19th century nurse gained the moniker Lady with the lamp during the Crimean War?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Molly Pitcher"
+            },
+            {
+              "id": "1",
+              "text": "Florence Nightingale"
+            },
+            {
+              "id": "2",
+              "text": "Carrie Nation"
+            },
+            {
+              "id": "3",
+              "text": "Mary Mallon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Florence Nightingale"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What deadly and infectious disease that most often attacks the lungs used to be known as consumption?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tuberculosis"
+            },
+            {
+              "id": "1",
+              "text": "Measles"
+            },
+            {
+              "id": "2",
+              "text": "Whooping Cough"
+            },
+            {
+              "id": "3",
+              "text": "Chicken Pox"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tuberculosis"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What organization won the Nobel Peace Prize in 1999 for its medical care in acute crises and raising international awareness of potential humanitarian disasters?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amnesty International"
+            },
+            {
+              "id": "1",
+              "text": "UNESCO"
+            },
+            {
+              "id": "2",
+              "text": "International Red Cross"
+            },
+            {
+              "id": "3",
+              "text": "Doctors Without Borders"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Doctors Without Borders"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lipitor and Zocor are two popular brand names which fall under what class of cholesterol lowering drugs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Statins"
+            },
+            {
+              "id": "1",
+              "text": "Citrates"
+            },
+            {
+              "id": "2",
+              "text": "Hydrochlorides"
+            },
+            {
+              "id": "3",
+              "text": "Aminoketones"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Statins"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The planet Jupiter was named after the chief God in Roman Mythology. What is the name of his Greek counterpart?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apollo"
+            },
+            {
+              "id": "1",
+              "text": "Zeus"
+            },
+            {
+              "id": "2",
+              "text": "Ares"
+            },
+            {
+              "id": "3",
+              "text": "Hara"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Zeus"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jonas Salk was the 20th century American medical researcher responsible for developing the highly effective and safe oral polio vaccine.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An important supplement for pregnant women, what is vitamin B9 more commonly known as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thiamine"
+            },
+            {
+              "id": "1",
+              "text": "Riboflavin"
+            },
+            {
+              "id": "2",
+              "text": "Niacin"
+            },
+            {
+              "id": "3",
+              "text": "Folic Acid"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Folic Acid"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following definitions is the definition of the MEDIAN?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The MEDIAN is the value that half of the entries are below and half of the entries are above."
+            },
+            {
+              "id": "1",
+              "text": "The MEDIAN is the value that has the highest frequency."
+            },
+            {
+              "id": "2",
+              "text": "The MEDIAN is the average calculated by adding up all the values and dividing by the number of entries."
+            },
+            {
+              "id": "3",
+              "text": "The MEDIAN is the largest value."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The MEDIAN is the value that half of the entries are below and half of the entries are above."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What nervous system ailment, characterized by symptoms of severe lethargy and fatigue, is primarily caused by the lack of vitamin B1 (Thiamine) in the diet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scurvy"
+            },
+            {
+              "id": "1",
+              "text": "Rickets"
+            },
+            {
+              "id": "2",
+              "text": "Beriberi"
+            },
+            {
+              "id": "3",
+              "text": "Nyctalopia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Beriberi"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Clara Barton was the founder of the American Red Cross, but who founded the International Red Cross in 1863?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Henry Ford"
+            },
+            {
+              "id": "1",
+              "text": "William Durant"
+            },
+            {
+              "id": "2",
+              "text": "Alfred Nobel"
+            },
+            {
+              "id": "3",
+              "text": "Henry Dunant"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Henry Dunant"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Found in tonic water, quinine is commonly used to treat malaria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2009, Thomas R. Frieden, MD assumed office as director of this agency of the U.S. Department of Health and Human Services located just outside of Atlanta, Georgia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mayo Clinic"
+            },
+            {
+              "id": "1",
+              "text": "Food and Drug Administration"
+            },
+            {
+              "id": "2",
+              "text": "Centers for Disease Control  Prevention (CDC)"
+            },
+            {
+              "id": "3",
+              "text": "American Lung Association"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Centers for Disease Control  Prevention (CDC)"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "lipitor",
+          "jupiter",
+          "ailment",
+          "definition",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Jupiter and Men",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, jupiter, brain. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The human brain has approximately 14 billion cells.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What element is the atmosphere of Jupiter mostly comprised of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neon"
+            },
+            {
+              "id": "1",
+              "text": "Helium"
+            },
+            {
+              "id": "2",
+              "text": "Hydrogen"
+            },
+            {
+              "id": "3",
+              "text": "Argon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hydrogen"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what state is there a town called Jupiter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Georgia"
+            },
+            {
+              "id": "1",
+              "text": "Florida"
+            },
+            {
+              "id": "2",
+              "text": "Alaska"
+            },
+            {
+              "id": "3",
+              "text": "Alabama"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Florida"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The planet Jupiter has less than 50 natural satellites.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Women blink more often than men.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The human heart is about the size of a fist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The smallest cell in the human body is the ovum.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many genes does the human DNA contain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "About 200 000"
+            },
+            {
+              "id": "1",
+              "text": "About 80 000"
+            },
+            {
+              "id": "2",
+              "text": "About 8 000"
+            },
+            {
+              "id": "3",
+              "text": "About 20 000"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: About 80 000"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Men are considered to be dwarfs in stature if their height is below 130 cm.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Earth years does it take for Jupiter to complete one orbit around the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10.5 years"
+            },
+            {
+              "id": "1",
+              "text": "22.4 years"
+            },
+            {
+              "id": "2",
+              "text": "11.8 years"
+            },
+            {
+              "id": "3",
+              "text": "5.5 years"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 11.8 years"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The planet Jupiter orbits the Sun at an average distance of how many kilometers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "77,800,000"
+            },
+            {
+              "id": "1",
+              "text": "778,000"
+            },
+            {
+              "id": "2",
+              "text": "778,000,000"
+            },
+            {
+              "id": "3",
+              "text": "7,780,000"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 778,000,000"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first spacecraft to fly by Jupiter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pioneer 10"
+            },
+            {
+              "id": "1",
+              "text": "Voyager 1"
+            },
+            {
+              "id": "2",
+              "text": "Pioneer 11"
+            },
+            {
+              "id": "3",
+              "text": "Voyager 2"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pioneer 10"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What famous scientist discovered Jupiters four largest satellites?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Galileo Galilei"
+            },
+            {
+              "id": "1",
+              "text": "Giovanni Cassini"
+            },
+            {
+              "id": "2",
+              "text": "Johannes Kepler"
+            },
+            {
+              "id": "3",
+              "text": "Robert Hooke"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Galileo Galilei"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are approximately 2 million sweat glands in the human body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long is one day on the planet Jupiter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Just over 12 hours"
+            },
+            {
+              "id": "1",
+              "text": "24 hours"
+            },
+            {
+              "id": "2",
+              "text": "55 hours"
+            },
+            {
+              "id": "3",
+              "text": "Just under 10 hours"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Just under 10 hours"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "jupiter",
+          "brain",
+          "dna",
+          "sweat",
+          "glands"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Moon and Earth",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, people, iris. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The volume of the Earths moon is the same as the volume of the Pacific and Indian Oceans combined.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are more than 500,000 craters on the moon that can be seen from Earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The moon is not round, but egg shaped.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The temperature on the Moon reaches 243\u00b0 F at midday on the lunar equator.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The diameter of the largest crater on the moon is 1,044 miles across.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where exactly is the retina of the eye positioned?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Retina is a synonym of pupil."
+            },
+            {
+              "id": "1",
+              "text": "Along the optic nerve."
+            },
+            {
+              "id": "2",
+              "text": "Right behind the pupil"
+            },
+            {
+              "id": "3",
+              "text": "Its lining the inner surface of the eye."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Its lining the inner surface of the eye."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the largest organ in the human body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Skin"
+            },
+            {
+              "id": "1",
+              "text": "Stomach"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Large intestine"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Skin"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You always get to see the same half of the moon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the main function of the iris of the eye?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It protects the sclera from injuries."
+            },
+            {
+              "id": "1",
+              "text": "It protects the lens from injuries."
+            },
+            {
+              "id": "2",
+              "text": "It controls the amount of light that reaches the retina."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It controls the amount of light that reaches the retina."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The surface area of the moon is 14,658,000 square miles.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The moon is moving toward the Earth at a rate of 1.5 inches per year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Only about 40% of the moons surface is visible from Earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "People with red hair are more sensitive to thermal pain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The dark spots on the moon that create the man in the moon image are actually basins filled with basalt.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nearly half of all human bones are in the hands and feet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "people",
+          "iris",
+          "function",
+          "moon",
+          "hair"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Type and Eye",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, johannes, astronomer. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements is true about the eyelids?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They protect the eye from drying out and from foreign objects."
+            },
+            {
+              "id": "1",
+              "text": "The skin of the eyelids contains more pigment cells compared to the rest of the skin on the body."
+            },
+            {
+              "id": "2",
+              "text": "The skin of the eyelids is one of the thinnest skin of the whole human body."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a type of conic section?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ray"
+            },
+            {
+              "id": "1",
+              "text": "Hyperbola"
+            },
+            {
+              "id": "2",
+              "text": "Circle"
+            },
+            {
+              "id": "3",
+              "text": "Parabola"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ray"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The average size of a normal human eye is commonly compared to the size of this object.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apricot"
+            },
+            {
+              "id": "1",
+              "text": "Walnut"
+            },
+            {
+              "id": "2",
+              "text": "Golf ball"
+            },
+            {
+              "id": "3",
+              "text": "Cherry tomato"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Golf ball"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part of the eye is usually referred to as the white of the eye?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Conjunctiva"
+            },
+            {
+              "id": "1",
+              "text": "Sclera"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Stroma"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sclera"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why is the pupil of the eye black ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "It contains black pigments."
+            },
+            {
+              "id": "2",
+              "text": "The tissue right behind the pupil is black."
+            },
+            {
+              "id": "3",
+              "text": "Most of the light that enters the pupil is absorbed by the tissues inside the eye."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Most of the light that enters the pupil is absorbed by the tissues inside the eye."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of conic section would this equation yield: (x^2)/9-(y^2)/4=81?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hyperbola"
+            },
+            {
+              "id": "1",
+              "text": "Ray"
+            },
+            {
+              "id": "2",
+              "text": "Line"
+            },
+            {
+              "id": "3",
+              "text": "Parabola"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hyperbola"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Conjunctivitis, referred to as pink eye, is an inflammation of the conjunctiva of the eye. What may be the cause of such inflammation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Viral infection"
+            },
+            {
+              "id": "1",
+              "text": "Bacterial infection"
+            },
+            {
+              "id": "2",
+              "text": "Allergic reaction"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In baseball, when a quarterback throws a pass, the ball follows what type of path?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ray"
+            },
+            {
+              "id": "1",
+              "text": "Point"
+            },
+            {
+              "id": "2",
+              "text": "Line"
+            },
+            {
+              "id": "3",
+              "text": "Parabola"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Parabola"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of  conic  section wouyld this yield: y=3x^2-9",
+          "options": [
+            {
+              "id": "0",
+              "text": "Line"
+            },
+            {
+              "id": "1",
+              "text": "Parabola"
+            },
+            {
+              "id": "2",
+              "text": "Ray"
+            },
+            {
+              "id": "3",
+              "text": "Cylinder"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Parabola"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At what stage of the development of the fetus do eyelashes form?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Between the 7th and 8th week"
+            },
+            {
+              "id": "1",
+              "text": "Around the 26th week"
+            },
+            {
+              "id": "2",
+              "text": "Between the 13th and 14th week"
+            },
+            {
+              "id": "3",
+              "text": "Around the 20th week"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Between the 7th and 8th week"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of conic section would this mathematical equation produce: (x^2)/4+(y^2)/9=81?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Line"
+            },
+            {
+              "id": "1",
+              "text": "Circle"
+            },
+            {
+              "id": "2",
+              "text": "Ellipse"
+            },
+            {
+              "id": "3",
+              "text": "Ray"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ellipse"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is a medical term that refers to crying?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Humoring"
+            },
+            {
+              "id": "1",
+              "text": "Lactation"
+            },
+            {
+              "id": "2",
+              "text": "Lacrimation"
+            },
+            {
+              "id": "3",
+              "text": "Blepharitis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lacrimation"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "German astronomer Johannes Kepler showed that the planets circle the Sun in this type of path.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ellipse"
+            },
+            {
+              "id": "1",
+              "text": "Ray"
+            },
+            {
+              "id": "2",
+              "text": "Circle"
+            },
+            {
+              "id": "3",
+              "text": "Hyperbola"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ellipse"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The cornea of the eye is the transparent front part that covers the iris, pupil, and anterior chamber. Which of these statements is true about the cornea?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The cornea does not have blood vessels."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Touch of the cornea provokes an involuntary reflex to close the eyelid."
+            },
+            {
+              "id": "3",
+              "text": "It refract most of the light that enters the eye."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In mathematics, what type of conic section would this equation show: x^2+y^2=9?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Secant"
+            },
+            {
+              "id": "1",
+              "text": "Line"
+            },
+            {
+              "id": "2",
+              "text": "Ray"
+            },
+            {
+              "id": "3",
+              "text": "Circle"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Circle"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "johannes",
+          "astronomer",
+          "pink",
+          "conjunctivitis",
+          "part"
+        ]
+      }
+    }
+  ]
+}

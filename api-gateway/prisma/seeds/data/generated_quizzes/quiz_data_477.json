@@ -1,0 +1,2372 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Mercury and Following",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, computers, network. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Can you put movies and TV shows on your iPod?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does ADSL stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Asymmetrical Digital Subscriber Line"
+            },
+            {
+              "id": "1",
+              "text": "Asynchronous Digital Subscriber Line"
+            },
+            {
+              "id": "2",
+              "text": "Asynchronous Dial-up Subscriber Line"
+            },
+            {
+              "id": "3",
+              "text": "A Darn Slow Lan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Asymmetrical Digital Subscriber Line"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is best suited for network cable that must run close to electrical lines or florescent lighting?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fiber optic cable"
+            },
+            {
+              "id": "1",
+              "text": "UTP"
+            },
+            {
+              "id": "2",
+              "text": "STP"
+            },
+            {
+              "id": "3",
+              "text": "UDP"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fiber optic cable"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Siemens models has a built-in camera?",
+          "options": [
+            {
+              "id": "0",
+              "text": "SF65"
+            },
+            {
+              "id": "1",
+              "text": "M56"
+            },
+            {
+              "id": "2",
+              "text": "S56"
+            },
+            {
+              "id": "3",
+              "text": "CF62"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: SF65"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these commands will return a Windows\u00ae computers node IP address, Subnet mask and information on whether it was assigned via DHCP and how long the lease is?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ifconfig /all"
+            },
+            {
+              "id": "1",
+              "text": "ipconfig"
+            },
+            {
+              "id": "2",
+              "text": "ipconfig /all"
+            },
+            {
+              "id": "3",
+              "text": "ipsec /total"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: ipconfig /all"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first spacecraft to study the planet Mercury?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mariner 10"
+            },
+            {
+              "id": "1",
+              "text": "Voyager 2"
+            },
+            {
+              "id": "2",
+              "text": "Mariner 11"
+            },
+            {
+              "id": "3",
+              "text": "Mariner 9"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mariner 10"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If your cell phone runs out of power, this gadget will come to the rescue. Just plug it into your mobile phones charging port and turn the crank.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Manual Cranker Battery"
+            },
+            {
+              "id": "1",
+              "text": "New Cell Phone"
+            },
+            {
+              "id": "2",
+              "text": "Lithium Battery Generator"
+            },
+            {
+              "id": "3",
+              "text": "SOS Charger"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: SOS Charger"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When you ping a network node, which protocol is being utilized?",
+          "options": [
+            {
+              "id": "0",
+              "text": "RIP"
+            },
+            {
+              "id": "1",
+              "text": "ICBM"
+            },
+            {
+              "id": "2",
+              "text": "ARP"
+            },
+            {
+              "id": "3",
+              "text": "ICMP"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: ICMP"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You will need this type for memory card, if you want to expand yout Nokia 7710.",
+          "options": [
+            {
+              "id": "0",
+              "text": "XD Memory Card"
+            },
+            {
+              "id": "1",
+              "text": "MMC Card"
+            },
+            {
+              "id": "2",
+              "text": "SD Memory Card"
+            },
+            {
+              "id": "3",
+              "text": "Compact Flash Card"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: MMC Card"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many songs do 80 gigabyte iPods hold up to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "45,000"
+            },
+            {
+              "id": "1",
+              "text": "28,000"
+            },
+            {
+              "id": "2",
+              "text": "20,000"
+            },
+            {
+              "id": "3",
+              "text": "34,000"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 20,000"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the diameter of planet Mercury?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10,787 km / 6,702 miles"
+            },
+            {
+              "id": "1",
+              "text": "983 km / 610 miles"
+            },
+            {
+              "id": "2",
+              "text": "4,878 km / 3 031 miles"
+            },
+            {
+              "id": "3",
+              "text": "3,576 km / 2 222 miles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 4,878 km / 3 031 miles"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This device is pretty useful if you have to walk a mile in the dark.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mobile LED Light"
+            },
+            {
+              "id": "1",
+              "text": "Bluetooth Car Handset"
+            },
+            {
+              "id": "2",
+              "text": "Mobile UV Money Detector"
+            },
+            {
+              "id": "3",
+              "text": "Lithium Battery"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mobile LED Light"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mercury was named after the Roman Messenger of the gods. What is the name of the corresponding god in Greek mythology?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zeus"
+            },
+            {
+              "id": "1",
+              "text": "Hermes"
+            },
+            {
+              "id": "2",
+              "text": "Hera"
+            },
+            {
+              "id": "3",
+              "text": "Apollo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hermes"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All iPods come in one and the same shape.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a level 4 (Transport Layer) network protocol?",
+          "options": [
+            {
+              "id": "0",
+              "text": "TCP"
+            },
+            {
+              "id": "1",
+              "text": "RIP"
+            },
+            {
+              "id": "2",
+              "text": "UDP"
+            },
+            {
+              "id": "3",
+              "text": "SPX"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: RIP"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "computers",
+          "network",
+          "mercury",
+          "shows",
+          "ipods"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Pearls and Mercury",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, iridescence, mercury. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the mean temperature on the surface of Mercury?",
+          "options": [
+            {
+              "id": "0",
+              "text": "-10 degrees Fahrenheit / -23 degrees Celsius"
+            },
+            {
+              "id": "1",
+              "text": "333 degrees Fahrenheit / 167 degrees Celsius"
+            },
+            {
+              "id": "2",
+              "text": "212 degrees Fahrenheit / 100 degrees Celsius"
+            },
+            {
+              "id": "3",
+              "text": "1,500 degrees Fahrenheit / 815 degrees Celsius"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 333 degrees Fahrenheit / 167 degrees Celsius"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does it take for the planet Mercury to orbit the Sun once?",
+          "options": [
+            {
+              "id": "0",
+              "text": "88 days"
+            },
+            {
+              "id": "1",
+              "text": "2 years"
+            },
+            {
+              "id": "2",
+              "text": "44 days"
+            },
+            {
+              "id": "3",
+              "text": "365 days"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 88 days"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these methods is a reliable way to distinguish a natural pearl from a cultured one and a fake one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rubbing the pearl on ones teeth"
+            },
+            {
+              "id": "1",
+              "text": "X-ray examination"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Microscopic examination"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What element comprises more than half of Mercurys mass?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lead"
+            },
+            {
+              "id": "1",
+              "text": "Iron"
+            },
+            {
+              "id": "2",
+              "text": "Nickel"
+            },
+            {
+              "id": "3",
+              "text": "Carbon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Iron"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these pearls are the most valuable in the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Natural pearls with the most unusual shapes"
+            },
+            {
+              "id": "1",
+              "text": "Natural pearls that are perfectly spherical"
+            },
+            {
+              "id": "2",
+              "text": "Cultured pearls with spherical shape"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Natural pearls that are perfectly spherical"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The largest known impact crater on Mercury is named what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Caloris Basin"
+            },
+            {
+              "id": "1",
+              "text": "Olymus Mons"
+            },
+            {
+              "id": "2",
+              "text": "Tyco Crater"
+            },
+            {
+              "id": "3",
+              "text": "Skinakas Basin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Caloris Basin"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pearls come in many shapes and sizes. What term refers to pearls with irregular shapes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eggplant pearls"
+            },
+            {
+              "id": "1",
+              "text": "Baroque pearls"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Semi-pearls"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Baroque pearls"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the largest known pearl on the planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pearl of Allah"
+            },
+            {
+              "id": "1",
+              "text": "Pearl of Lao Tze"
+            },
+            {
+              "id": "2",
+              "text": "Pearl of Lao Tzu"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mercury has a moon called Celsius.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The iridescence of pearls depends on the number and thickness of the nacre layers. Which of these combinations provides the most iridescent pearl?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A large number of layers that are as thin as possible"
+            },
+            {
+              "id": "1",
+              "text": "Many layers that are as thick as possible"
+            },
+            {
+              "id": "2",
+              "text": "A small number of layers that are very thick"
+            },
+            {
+              "id": "3",
+              "text": "Fewer layers that are very thin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A large number of layers that are as thin as possible"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the most abundant element in Mercurys atmosphere?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nitrogen"
+            },
+            {
+              "id": "1",
+              "text": "Helium"
+            },
+            {
+              "id": "2",
+              "text": "Boron"
+            },
+            {
+              "id": "3",
+              "text": "Oxygen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Oxygen"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A pearl can be produced naturally by almost any shelled mollusk. What triggers the process of pearl formation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Irritant particles"
+            },
+            {
+              "id": "1",
+              "text": "Changes in the chemical composition of the water."
+            },
+            {
+              "id": "2",
+              "text": "Pheromones"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Irritant particles"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From our point of view on Earth, Mercury goes through different phases, just like our Moon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of pearls are the so-called Keshi pearls?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Very rare natural pearls found only in one place on the planet."
+            },
+            {
+              "id": "1",
+              "text": "Cultured pearls that are very large and precious"
+            },
+            {
+              "id": "2",
+              "text": "Fake pearls that are almost indistinguishable from natural pearls"
+            },
+            {
+              "id": "3",
+              "text": "Pearls that are produced accidentally, but are not considered natural"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pearls that are produced accidentally, but are not considered natural"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the basic chemical compound that natural pearls consist of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aluminum carbonate"
+            },
+            {
+              "id": "1",
+              "text": "Sodium sulphate"
+            },
+            {
+              "id": "2",
+              "text": "Calcium fluoride"
+            },
+            {
+              "id": "3",
+              "text": "Calcium carbonate"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Calcium carbonate"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "iridescence",
+          "mercury",
+          "process",
+          "kind",
+          "celsius"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Vitamin and Group",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, b1, places. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The folic acid, a compound especially important during periods of rapid cell division and growth, is commercially known under what name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin B7"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin B9"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin B1"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin B12"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin B9"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The B vitamins group was once thought to be a single vitamin. There are now eight officially recognized B vitamins referred to as vitamin B complex. Which of the following is not a vitamin from the B group?",
+          "options": [
+            {
+              "id": "0",
+              "text": "B12"
+            },
+            {
+              "id": "1",
+              "text": "B5"
+            },
+            {
+              "id": "2",
+              "text": "B4"
+            },
+            {
+              "id": "3",
+              "text": "B1"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: B4"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin B2 has which of these interesting properties?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is can be absorbed only through the skin."
+            },
+            {
+              "id": "1",
+              "text": "It can be found in all three physical conditions of matter."
+            },
+            {
+              "id": "2",
+              "text": "It is fluorescent under UV light."
+            },
+            {
+              "id": "3",
+              "text": "It melts at more than 10 000 degrees C."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It is fluorescent under UV light."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is true about the sources of vitamin B5?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is found only in plant products."
+            },
+            {
+              "id": "1",
+              "text": "It is synthesized in the skin under the influence of the sun rays."
+            },
+            {
+              "id": "2",
+              "text": "It is found only in animal products."
+            },
+            {
+              "id": "3",
+              "text": "It is found in a large variety of foods."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It is found in a large variety of foods."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin B6 is widely distributed in foods and its relatively stable form enables it to remain unchanged even when the products are cooked.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin B12 is a set of complex chemical compounds synthesized in nature only by this group of organisms.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fungi"
+            },
+            {
+              "id": "1",
+              "text": "Plants"
+            },
+            {
+              "id": "2",
+              "text": "Animals"
+            },
+            {
+              "id": "3",
+              "text": "Bacteria"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bacteria"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the only B vitamin that cannot be obtained from plant products?",
+          "options": [
+            {
+              "id": "0",
+              "text": "B7"
+            },
+            {
+              "id": "1",
+              "text": "B1"
+            },
+            {
+              "id": "2",
+              "text": "B6"
+            },
+            {
+              "id": "3",
+              "text": "B12"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: B12"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The vitamins from the B complex have many functions but generally play most important role in which of these processes of the human body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cell excretion"
+            },
+            {
+              "id": "1",
+              "text": "Cell reproduction"
+            },
+            {
+              "id": "2",
+              "text": "Cell regeneration"
+            },
+            {
+              "id": "3",
+              "text": "Cell metabolism"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cell metabolism"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To which of these groups of substances do the B vitamins belong?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fat-soluble"
+            },
+            {
+              "id": "1",
+              "text": "Alcohol-soluble"
+            },
+            {
+              "id": "2",
+              "text": "Non-soluble"
+            },
+            {
+              "id": "3",
+              "text": "Water-soluble"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Water-soluble"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these places natural pearl hunting on a large scale has survived until modern times?",
+          "options": [
+            {
+              "id": "0",
+              "text": "India and China"
+            },
+            {
+              "id": "1",
+              "text": "Spain"
+            },
+            {
+              "id": "2",
+              "text": "Africa and South America"
+            },
+            {
+              "id": "3",
+              "text": "Australia and Bahrain"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Australia and Bahrain"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not among the systems of the human body that vitamins of the B group mainly benefit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cardio-vascular"
+            },
+            {
+              "id": "1",
+              "text": "Immune"
+            },
+            {
+              "id": "2",
+              "text": "Respiratory"
+            },
+            {
+              "id": "3",
+              "text": "Digestive"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Respiratory"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "B1, a vitamin participating in many important cellular processes, is synthesized by animals, plants and some bacteria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This vitamin of the B complex, popular also under the name vitamin H, is not included in the recommended daily intake by some health organizations.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin B9"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin B12"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin B15"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin B7"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin B7"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these unusual colors can natural pearls come?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blue"
+            },
+            {
+              "id": "1",
+              "text": "Green"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Purple"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Niacin, also known as vitamin B3 or nicotinic acid, is a vitamin that can be synthesized by which organ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heart"
+            },
+            {
+              "id": "1",
+              "text": "Kidneys"
+            },
+            {
+              "id": "2",
+              "text": "Liver"
+            },
+            {
+              "id": "3",
+              "text": "Gall-bladder"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Liver"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "b1",
+          "places",
+          "b12",
+          "acid",
+          "colors"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Number and Atomic Number",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, lack, ricin. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What atomic number does Calcium have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "21"
+            },
+            {
+              "id": "1",
+              "text": "22"
+            },
+            {
+              "id": "2",
+              "text": "20"
+            },
+            {
+              "id": "3",
+              "text": "19"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 20"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what part of the apple are the toxic compounds cyanogenic glycosides found?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seeds"
+            },
+            {
+              "id": "1",
+              "text": "Flowers"
+            },
+            {
+              "id": "2",
+              "text": "Skin of the fruit"
+            },
+            {
+              "id": "3",
+              "text": "Leaves"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Seeds"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The atomic number of Argon is 19.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Megaloblastic anemia is a type of anemia in which among the bone marrows red blood cells start to appear many immature and dysfunctional ones. The deficiency of which two vitamins of the B complex group causes this disorder?",
+          "options": [
+            {
+              "id": "0",
+              "text": "B9 and B12"
+            },
+            {
+              "id": "1",
+              "text": "B1 and B2"
+            },
+            {
+              "id": "2",
+              "text": "B4 and B1"
+            },
+            {
+              "id": "3",
+              "text": "B6, B2 and B12"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: B9 and B12"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the correct atomic number of the chemical element Radon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "85"
+            },
+            {
+              "id": "1",
+              "text": "87"
+            },
+            {
+              "id": "2",
+              "text": "88"
+            },
+            {
+              "id": "3",
+              "text": "86"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 86"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the correct atomic number of the chemical element Actinium?",
+          "options": [
+            {
+              "id": "0",
+              "text": "99"
+            },
+            {
+              "id": "1",
+              "text": "89"
+            },
+            {
+              "id": "2",
+              "text": "79"
+            },
+            {
+              "id": "3",
+              "text": "78"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 89"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these medical conditions is caused by the ricin found in castor beans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Death"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Severe diarrhea"
+            },
+            {
+              "id": "3",
+              "text": "Long term organ damage"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Oxygens atomic number is 8.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the atomic number of Neon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11"
+            },
+            {
+              "id": "1",
+              "text": "13"
+            },
+            {
+              "id": "2",
+              "text": "10"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 10"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the star at the center of the Solar System called by the Romans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helios"
+            },
+            {
+              "id": "1",
+              "text": "Sol"
+            },
+            {
+              "id": "2",
+              "text": "Aredid"
+            },
+            {
+              "id": "3",
+              "text": "Sun"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sol"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The atomic number of the chemical element Tin is 50.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The fruit of the poisonous Jerusalem cherry is very similar to which of these?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morello cherry"
+            },
+            {
+              "id": "1",
+              "text": "Apricot"
+            },
+            {
+              "id": "2",
+              "text": "Cranberry"
+            },
+            {
+              "id": "3",
+              "text": "Cherry tomato"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cherry tomato"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The atomic number of Zinc is 52.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of medical problems does the consumption of raw seeds of the Common bean commonly cause?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eyesight problems"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Kidney failure"
+            },
+            {
+              "id": "3",
+              "text": "Gastric problems"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gastric problems"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Biotin deficiency (the lack of vitamin B7) is a rare nutritional disorder that occurs in people from this age group.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Adults"
+            },
+            {
+              "id": "1",
+              "text": "Elderly people"
+            },
+            {
+              "id": "2",
+              "text": "Infants"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "lack",
+          "ricin",
+          "chemical",
+          "star",
+          "part"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Mars and Sun",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, voyager, average. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On average, how long is the sunspot cycle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10.4 years"
+            },
+            {
+              "id": "1",
+              "text": "11.1 years"
+            },
+            {
+              "id": "2",
+              "text": "14.8 years"
+            },
+            {
+              "id": "3",
+              "text": "14.8 years"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 11.1 years"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the average temperature on the Martian surface?",
+          "options": [
+            {
+              "id": "0",
+              "text": "23 degrees Celsius"
+            },
+            {
+              "id": "1",
+              "text": "-23 degrees Celsius"
+            },
+            {
+              "id": "2",
+              "text": "0 degree Celsius"
+            },
+            {
+              "id": "3",
+              "text": "100 degrees Celsius"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: -23 degrees Celsius"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Olympus Mons lies on Mars.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sun orbits a center of mass.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement about the atmosphere Mars is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is quite dusty."
+            },
+            {
+              "id": "1",
+              "text": "It is relatively thin."
+            },
+            {
+              "id": "2",
+              "text": "It contains methane."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these parts of the Sun is the warmest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Corona"
+            },
+            {
+              "id": "1",
+              "text": "Photosphere"
+            },
+            {
+              "id": "2",
+              "text": "Prominences"
+            },
+            {
+              "id": "3",
+              "text": "Chromosphere"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Corona"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Voyager obtain the first images of Mars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sun has how many times the diameter of the Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "150"
+            },
+            {
+              "id": "1",
+              "text": "110"
+            },
+            {
+              "id": "2",
+              "text": "100"
+            },
+            {
+              "id": "3",
+              "text": "135"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 110"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the surface temperature of the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11450 Degrees Fahrenheit"
+            },
+            {
+              "id": "1",
+              "text": "7450 Degrees Fahrenheit"
+            },
+            {
+              "id": "2",
+              "text": "9950 Degrees Fahrenheit"
+            },
+            {
+              "id": "3",
+              "text": "2350 Degrees Fahrenheit"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 9950 Degrees Fahrenheit"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is Phobos a satellite of Mars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Earth masses is the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "395,000 Earth masses"
+            },
+            {
+              "id": "1",
+              "text": "330,000 Earth masses"
+            },
+            {
+              "id": "2",
+              "text": "310,000 Earth masses"
+            },
+            {
+              "id": "3",
+              "text": "275,000 Earth masses"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 330,000 Earth masses"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Valles Marineris is a polar rift on the surface of Mars.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the listed NASA probes made the closest approach to the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helios 2"
+            },
+            {
+              "id": "1",
+              "text": "SOHO"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Mariner 10"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Helios 2"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long is a day on the planet Mars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "48 Earth hours"
+            },
+            {
+              "id": "1",
+              "text": "26 Earth hours"
+            },
+            {
+              "id": "2",
+              "text": "12.6 Earth hours"
+            },
+            {
+              "id": "3",
+              "text": "24.6 Earth hours"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 24.6 Earth hours"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the size of Mars compared to the size of Earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The two planets can not be compared."
+            },
+            {
+              "id": "1",
+              "text": "They are the same size."
+            },
+            {
+              "id": "2",
+              "text": "Mars is smaller than Earth."
+            },
+            {
+              "id": "3",
+              "text": "Mars is bigger than Earth."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mars is smaller than Earth."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "voyager",
+          "average",
+          "valles",
+          "size",
+          "parts"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Vitamin and Following",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, mangoes, carotenoids. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is a major source of iron, which helps carry oxygen to the tissues?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Broccoli"
+            },
+            {
+              "id": "1",
+              "text": "Raisins"
+            },
+            {
+              "id": "2",
+              "text": "Lemons"
+            },
+            {
+              "id": "3",
+              "text": "Tomatoes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Raisins"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This vitamin, known as pantothenic acid, is found in some hair and skin care products.",
+          "options": [
+            {
+              "id": "0",
+              "text": "C"
+            },
+            {
+              "id": "1",
+              "text": "B12"
+            },
+            {
+              "id": "2",
+              "text": "B5"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: B5"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Niacin, also known as vitamin B3, is required for healthy hair.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does it take Mars to complete one revolution around the sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "225 days"
+            },
+            {
+              "id": "1",
+              "text": "525 days"
+            },
+            {
+              "id": "2",
+              "text": "456 days"
+            },
+            {
+              "id": "3",
+              "text": "687 days"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 687 days"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Apricots contain carotenoids and antioxidants that may help to prevent heart disease.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Figs are a natural source of potassium and carbohydrates.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Skimmed milk contains riboflavin (vitamin B2), vitamin A and calcium.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mangoes are high in prebiotic dietary fiber and vitamin C.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is said to be helpful in reducing swelling from bee stings?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pumpkin"
+            },
+            {
+              "id": "1",
+              "text": "Pinto beans"
+            },
+            {
+              "id": "2",
+              "text": "Onion"
+            },
+            {
+              "id": "3",
+              "text": "Parsley"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Onion"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Shellfish is rich in vitamin B12, which supports the functions of nerves and mental ability.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the six-wheeled robotic vehicle of the Pathfinder Mission on Mars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Viking"
+            },
+            {
+              "id": "1",
+              "text": "Mariner"
+            },
+            {
+              "id": "2",
+              "text": "Pathfinder"
+            },
+            {
+              "id": "3",
+              "text": "Sojourner"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sojourner"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is present in lentils?",
+          "options": [
+            {
+              "id": "0",
+              "text": "dietary fiber"
+            },
+            {
+              "id": "1",
+              "text": "folate"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "vitamin B1"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Walnuts contain only unsaturated fats and therefore decrease the risk of heart disease.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is a water soluble vitamin also known as riboflavin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin C"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin E"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin B2"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin B2"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these fish is a major source of omega-3 fatty acids?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tuna"
+            },
+            {
+              "id": "1",
+              "text": "Salmon"
+            },
+            {
+              "id": "2",
+              "text": "Mackerel"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "mangoes",
+          "carotenoids",
+          "walnuts",
+          "b12",
+          "acid"
+        ]
+      }
+    }
+  ]
+}

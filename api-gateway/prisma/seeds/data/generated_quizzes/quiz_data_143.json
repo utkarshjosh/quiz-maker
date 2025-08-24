@@ -1,0 +1,2412 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Team and Mets",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, john, stadium. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the first Busch Stadium built?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1956"
+            },
+            {
+              "id": "1",
+              "text": "1960"
+            },
+            {
+              "id": "2",
+              "text": "1966"
+            },
+            {
+              "id": "3",
+              "text": "1970"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1966"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jerry Koosman was traded from the Mets to the Twins and in return for Jerry Koosman, the Mets got Jesse Orosco.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What pitcher, who last played with the St. Louis Cardinals, died suddenly in his hotel room in Chicago in 2002?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Carlton"
+            },
+            {
+              "id": "1",
+              "text": "John Tudor"
+            },
+            {
+              "id": "2",
+              "text": "Darryl Kile"
+            },
+            {
+              "id": "3",
+              "text": "Bob Tewksbury"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Darryl Kile"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was the St. Louis Cardinals team established?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1882"
+            },
+            {
+              "id": "1",
+              "text": "1890"
+            },
+            {
+              "id": "2",
+              "text": "1900"
+            },
+            {
+              "id": "3",
+              "text": "1910"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1882"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What team did Ozzie Smith play for before joining the St. Louis Cardinals in 1982?",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Diego Padres"
+            },
+            {
+              "id": "1",
+              "text": "New York Mets"
+            },
+            {
+              "id": "2",
+              "text": "LA Dodgers"
+            },
+            {
+              "id": "3",
+              "text": "Oakland As"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: San Diego Padres"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who started at third base for the New York Mets on Opening Day in 1962?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ed Charles"
+            },
+            {
+              "id": "1",
+              "text": "Rod Kanehl"
+            },
+            {
+              "id": "2",
+              "text": "Elio Chacon"
+            },
+            {
+              "id": "3",
+              "text": "Don Zimmer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Don Zimmer"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The New York Mets are the single oldest baseball team team without a no hitter.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Bob Gibsons earned run average in 1968?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1.12"
+            },
+            {
+              "id": "1",
+              "text": "1.58"
+            },
+            {
+              "id": "2",
+              "text": "1.00"
+            },
+            {
+              "id": "3",
+              "text": "1.39"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1.12"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The New York  Mets lost to which team in the 1988 NLCS?",
+          "options": [
+            {
+              "id": "0",
+              "text": "CIncinatti Reds"
+            },
+            {
+              "id": "1",
+              "text": "San Diego Padres"
+            },
+            {
+              "id": "2",
+              "text": "Atlanta Braves"
+            },
+            {
+              "id": "3",
+              "text": "Los Angeles Dodgers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Los Angeles Dodgers"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What former Cardinal played against his old team in the 1985 World Series as a member of the Kansas City Royals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dane Iorg"
+            },
+            {
+              "id": "1",
+              "text": "Keith Hernandez"
+            },
+            {
+              "id": "2",
+              "text": "Ken Oberkfell"
+            },
+            {
+              "id": "3",
+              "text": "Terry Pendleton"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dane Iorg"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many years did John Franco spend with the New York Mets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "13"
+            },
+            {
+              "id": "1",
+              "text": "15"
+            },
+            {
+              "id": "2",
+              "text": "16"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 15"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these baseball players has never played with the New York Mets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bobby Valentine"
+            },
+            {
+              "id": "1",
+              "text": "Fran Healy"
+            },
+            {
+              "id": "2",
+              "text": "Warren Spahn"
+            },
+            {
+              "id": "3",
+              "text": "Joe Torre"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fran Healy"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which player of the the St. Louis Cardinals set a major league record by hitting two grand slams in a single inning against the Los Angeles Dodgers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ken Boyer"
+            },
+            {
+              "id": "1",
+              "text": "Mike Shannon"
+            },
+            {
+              "id": "2",
+              "text": "Terry Pendleton"
+            },
+            {
+              "id": "3",
+              "text": "Fernando Tatis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fernando Tatis"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the St. Louis Cardinals win the World Series after beating the Milwaukee Brewers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1987"
+            },
+            {
+              "id": "1",
+              "text": "1968"
+            },
+            {
+              "id": "2",
+              "text": "1985"
+            },
+            {
+              "id": "3",
+              "text": "1982"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1982"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What nickname was applied to the St. Louis Cardinals team of the 1934?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Flyin Birds"
+            },
+            {
+              "id": "1",
+              "text": "Whiz Kids"
+            },
+            {
+              "id": "2",
+              "text": "Gashouse Gang"
+            },
+            {
+              "id": "3",
+              "text": "Cardiac Kids"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gashouse Gang"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "john",
+          "stadium",
+          "average",
+          "world",
+          "players"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Team and Charger",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, playoffs, bird. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many regular season games did the Chargers win in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "12"
+            },
+            {
+              "id": "2",
+              "text": "13"
+            },
+            {
+              "id": "3",
+              "text": "14"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 14"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which former San Diego Charger scored a touchdown against his former team in the Chargers 2006 playoff loss?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reche Caldwell"
+            },
+            {
+              "id": "1",
+              "text": "Derek Farmer"
+            },
+            {
+              "id": "2",
+              "text": "Drew Brees"
+            },
+            {
+              "id": "3",
+              "text": "Jesse Chatman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Reche Caldwell"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team did the 2006 Chargers lose to in the playoffs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Jets"
+            },
+            {
+              "id": "1",
+              "text": "Baltimore Ravens"
+            },
+            {
+              "id": "2",
+              "text": "Indianapolis Colts"
+            },
+            {
+              "id": "3",
+              "text": "New England Patriots"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New England Patriots"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Wycliffe \u201cWyc\u201d Grousbeck was the first owner of the Boston Celtics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following Charger players did NOT break either the National Football League (NFL) rules or the law in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Terrence Kiel"
+            },
+            {
+              "id": "1",
+              "text": "Antonio Cromartie"
+            },
+            {
+              "id": "2",
+              "text": "Shawne Merriman"
+            },
+            {
+              "id": "3",
+              "text": "Steve Foley"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Antonio Cromartie"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Charger led the team in receiving touchdowns in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Antonio Gates"
+            },
+            {
+              "id": "1",
+              "text": "Keenan McCardell"
+            },
+            {
+              "id": "2",
+              "text": "Vincent Jackson"
+            },
+            {
+              "id": "3",
+              "text": "Eric Parker"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Antonio Gates"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Boston Celtics player John Havlicek was elected to the NBA Hall Of Fame in 1983.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird wore which Boston Celtics number that was retired February 4, 1993?",
+          "options": [
+            {
+              "id": "0",
+              "text": "23"
+            },
+            {
+              "id": "1",
+              "text": "33"
+            },
+            {
+              "id": "2",
+              "text": "10"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 33"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Chargers were elected to (including replacement player) the 2006 AFC Pro Bowl from the 2006 team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "6"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 10"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "LaDainian Tomlinson finished first on the 2006 Chargers team in rushing yards. What running back finished second that year behind Tomlinson?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Philip Rivers"
+            },
+            {
+              "id": "1",
+              "text": "Lorenzo Neal"
+            },
+            {
+              "id": "2",
+              "text": "Andrew Pinnock"
+            },
+            {
+              "id": "3",
+              "text": "Michael Turner"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Turner"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bill Russells uniform number 6 was retired from the Celtics March 12, 1972.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dennis Johnson, better known as DJ, played how many seasons with the Celtics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "9"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is NOT true of Charger running back LaDainian Tomlinson?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In 2006, he broke the single season scoring record."
+            },
+            {
+              "id": "1",
+              "text": "In 2006, he won the NFL Most Valuable Player award."
+            },
+            {
+              "id": "2",
+              "text": "In 2006, he rushed for over 2,000 yards."
+            },
+            {
+              "id": "3",
+              "text": "In 2006, he became the player to reach 100 touchdowns for a career in the shortest length of time."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: In 2006, he rushed for over 2,000 yards."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of the 2006 Chargers coaching staff was fired following the season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Lofton"
+            },
+            {
+              "id": "1",
+              "text": "Wade Phillips"
+            },
+            {
+              "id": "2",
+              "text": "Marty Schottenheimer"
+            },
+            {
+              "id": "3",
+              "text": "Cam Cameron"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Marty Schottenheimer"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team did the 2006 Chargers shut out on the road on Monday night by the score of 27-0?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pittsburgh Steelers"
+            },
+            {
+              "id": "1",
+              "text": "Tennessee Titans"
+            },
+            {
+              "id": "2",
+              "text": "Oakland Raiders"
+            },
+            {
+              "id": "3",
+              "text": "Kansas City Chiefs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oakland Raiders"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "playoffs",
+          "bird",
+          "charger",
+          "staff",
+          "players"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Dale Earnhardt Jr. and Number",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, parish, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following tennis players was the World number one player for the most number of consecutive weeks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ivan Lendl (Czechoslovakia and USA)"
+            },
+            {
+              "id": "1",
+              "text": "Roger Federer (Switzerland)"
+            },
+            {
+              "id": "2",
+              "text": "Jimmy Connors (USA)"
+            },
+            {
+              "id": "3",
+              "text": "Pete Sampras (USA)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Roger Federer (Switzerland)"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dale Earnhardt Junior owns a share in the Paducah Raceway along with Tony Stewart and what other driver?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ken Schrader"
+            },
+            {
+              "id": "1",
+              "text": "Mark Martin"
+            },
+            {
+              "id": "2",
+              "text": "Michael Waltrip"
+            },
+            {
+              "id": "3",
+              "text": "Kyle Petty"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ken Schrader"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the 1980s decade how many titles did the Celtics win?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The logo of the Boston Celtics is a leprechaun.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first man to win 8 gold medals at a single Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carl Lewis (USA, track and field)"
+            },
+            {
+              "id": "1",
+              "text": "Michael Phelps (USA, swimming)"
+            },
+            {
+              "id": "2",
+              "text": "Alexander Dityatin (USSR, gymnastics)"
+            },
+            {
+              "id": "3",
+              "text": "Usain Bolt (Jamaica, track and field)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Phelps (USA, swimming)"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Besides being co-owner of Chance 2 Motorsports, what other company does Dale Earnhardt  Jr. own?",
+          "options": [
+            {
+              "id": "0",
+              "text": "JR Motorsports"
+            },
+            {
+              "id": "1",
+              "text": "Second Chance Driving"
+            },
+            {
+              "id": "2",
+              "text": "JR Inc."
+            },
+            {
+              "id": "3",
+              "text": "Earnhardt Racing Co."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: JR Motorsports"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which cyclist was diagnosed with testicle cancer, but recovered and won the prestigious Tour de France race for a record breaking 7 consecutive years?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddy Merckx (Belgium)"
+            },
+            {
+              "id": "1",
+              "text": "Miguel Indurain (Spain)"
+            },
+            {
+              "id": "2",
+              "text": "Bernard Hinault (France)"
+            },
+            {
+              "id": "3",
+              "text": "Lance Armstrong (USA)"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lance Armstrong (USA)"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Dale Earnhardt Juniors mother?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barbara"
+            },
+            {
+              "id": "1",
+              "text": "Brenda"
+            },
+            {
+              "id": "2",
+              "text": "Kathy"
+            },
+            {
+              "id": "3",
+              "text": "Kelley"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Brenda"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Dale Earnhardt Juniors favourite football team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dallas Cowboys"
+            },
+            {
+              "id": "1",
+              "text": "Oakland Raiders"
+            },
+            {
+              "id": "2",
+              "text": "Carolina Panthers"
+            },
+            {
+              "id": "3",
+              "text": "Washington Redskins"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Washington Redskins"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is Dale Earnhardt Jr. an only child?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1985-86 season in the NBA championship saw what number title for the Boston Celtics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20th"
+            },
+            {
+              "id": "1",
+              "text": "15th"
+            },
+            {
+              "id": "2",
+              "text": "16th"
+            },
+            {
+              "id": "3",
+              "text": "21st"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 16th"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Celtics were the winners of the NBA title in the 1985-86 season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Dale Earnhardt Juniors full name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ralph Dale Earnhardt, Jr."
+            },
+            {
+              "id": "1",
+              "text": "Dale Ralph Earnhardt, Jr."
+            },
+            {
+              "id": "2",
+              "text": "Randall Dale Earnhardt, Jr."
+            },
+            {
+              "id": "3",
+              "text": "Dale Randall Earnhardt, Jr."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ralph Dale Earnhardt, Jr."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was Dale Earnhardt Jr. born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "October 10, 1974"
+            },
+            {
+              "id": "1",
+              "text": "August 1, 1973"
+            },
+            {
+              "id": "2",
+              "text": "March 28, 1980"
+            },
+            {
+              "id": "3",
+              "text": "May 29, 1970"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: October 10, 1974"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Robert Parish from the Boston Celtics was better known by his nickname. What was it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Chief"
+            },
+            {
+              "id": "1",
+              "text": "The Captain"
+            },
+            {
+              "id": "2",
+              "text": "The Boss"
+            },
+            {
+              "id": "3",
+              "text": "The Playmaker"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Chief"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "parish",
+          "title",
+          "players",
+          "world",
+          "chance"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Birth and Athletes",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, drivers, athletes. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won every competition they could between 2003-2007, including an Olympic Gold, 2 World Championships and 6 World League cups?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany, soccer - men"
+            },
+            {
+              "id": "1",
+              "text": "USA, basketball - men"
+            },
+            {
+              "id": "2",
+              "text": "Brazil, volleyball - men"
+            },
+            {
+              "id": "3",
+              "text": "South Korea, soccer- women"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Brazil, volleyball - men"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Ethiopian is widely considered one of the greatest long distance runners in history?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wilson Boit Kipketer"
+            },
+            {
+              "id": "1",
+              "text": "Paavo Nurmi"
+            },
+            {
+              "id": "2",
+              "text": "Haile Gebrselassie"
+            },
+            {
+              "id": "3",
+              "text": "Hicham El Guerrouj"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Haile Gebrselassie"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these drivers won the most World Rally Championships and individual rallies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carlos Sainz (Spain)"
+            },
+            {
+              "id": "1",
+              "text": "Juha Kankkunen (Finland)"
+            },
+            {
+              "id": "2",
+              "text": "Colin McRae (UK)"
+            },
+            {
+              "id": "3",
+              "text": "S\u00e9bastien Loeb (France)"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: S\u00e9bastien Loeb (France)"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "NFL running backs Duce Staley and Deuce McAllister are two of a kind, because both of their monikers are actual given names.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the baseball players known as Sparky, has the first and middle name of George Lee?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sparky Anderson"
+            },
+            {
+              "id": "1",
+              "text": "Sparky Frickshun"
+            },
+            {
+              "id": "2",
+              "text": "Sparky Lyle"
+            },
+            {
+              "id": "3",
+              "text": "Sparky Farkas"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sparky Anderson"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which female pole vaulter was first to clear 5m?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stacy Dragila (USA)"
+            },
+            {
+              "id": "1",
+              "text": "Svetlana Feofanova (Russia)"
+            },
+            {
+              "id": "2",
+              "text": "Jennifer Stuczynski (USA)"
+            },
+            {
+              "id": "3",
+              "text": "Yelena Isinbayeva (Russia)"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Yelena Isinbayeva (Russia)"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Earl and Kultida Woods named their son Tiger when he was born on December 30, 1975 in Cypress, CA. because his birth had been a tough ordeal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which fact is true about the two baseball players named Goose?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Their playing days were separated by some 50 years."
+            },
+            {
+              "id": "1",
+              "text": "They both loved foie gras."
+            },
+            {
+              "id": "2",
+              "text": "Both were pitchers."
+            },
+            {
+              "id": "3",
+              "text": "Both their given names are Gander."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Their playing days were separated by some 50 years."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bubba was the birth name of how many of these eight athletes: Church, Crosby, Franks, Long, Trammell, Smith, Walton, Wells?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0"
+            },
+            {
+              "id": "1",
+              "text": "All"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 0"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the most Formula 1 Championships in the period 1985-2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Schumacher (Germany)"
+            },
+            {
+              "id": "1",
+              "text": "Fernando Alonso (Spain)"
+            },
+            {
+              "id": "2",
+              "text": "Ayrton Senna (Brazil)"
+            },
+            {
+              "id": "3",
+              "text": "Lewis Hamilton (UK)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Schumacher (Germany)"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The NFL players Peyton and Archie Manning are the only Manning family men known by their actual birth names.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which alpine skier is known as Herminator?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Herman Maier (Austria)"
+            },
+            {
+              "id": "1",
+              "text": "Bode Miller (USA)"
+            },
+            {
+              "id": "2",
+              "text": "Alberto Tomba (Italy)"
+            },
+            {
+              "id": "3",
+              "text": "Pirmin Zurbriggen (Switzerland)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Herman Maier (Austria)"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Athletes from which country took all gold medals in table tennis in the Olympic Games in 2000, 2004 and 2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "USA"
+            },
+            {
+              "id": "1",
+              "text": "Poland"
+            },
+            {
+              "id": "2",
+              "text": "China"
+            },
+            {
+              "id": "3",
+              "text": "Singapore"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did baseball player Mordecai Brown get the nickname Three-Finger Brown?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was born with just 3 fingers on his pitching hand."
+            },
+            {
+              "id": "1",
+              "text": "At age 7, his hand was mangled by a corn shredder."
+            },
+            {
+              "id": "2",
+              "text": "For emphasis, he used to give opponents the finger, in triplicate."
+            },
+            {
+              "id": "3",
+              "text": "He held up 3 fingers to taunt batters before throwing them 3 straight fastballs."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: At age 7, his hand was mangled by a corn shredder."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Yankee teammates Bernie Williams and Melky Cabrara were, respectively, born Bernardo and Melchior.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "drivers",
+          "athletes",
+          "country",
+          "world",
+          "players"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Brett Favre and Player",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, bret, game. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Brett Farve has never won a game in Texas Stadium (Home of the Dallas Cowboys) in his career.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many teams did Brett Favre play for in his professional career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "4"
+            },
+            {
+              "id": "3",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many titles did Gerard Houllier win while with Liverpool?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "4"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 5"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bret Favres first pass as a Packer was caught by this player.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Antonio Freeman"
+            },
+            {
+              "id": "1",
+              "text": "Bubba Franks"
+            },
+            {
+              "id": "2",
+              "text": "Himself"
+            },
+            {
+              "id": "3",
+              "text": "Donald Driver"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Himself"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many games and how many goals are accredited to David Beckham while playing for Manchester United",
+          "options": [
+            {
+              "id": "0",
+              "text": "500-91"
+            },
+            {
+              "id": "1",
+              "text": "250-65"
+            },
+            {
+              "id": "2",
+              "text": "394-85"
+            },
+            {
+              "id": "3",
+              "text": "350-35"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 394-85"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Brett Favres fathers name is Irvin Favre.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did Dennis Bergkamp join Arsenal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1993"
+            },
+            {
+              "id": "1",
+              "text": "1996"
+            },
+            {
+              "id": "2",
+              "text": "1995"
+            },
+            {
+              "id": "3",
+              "text": "1991"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1995"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jock Callander is a former ice hockey player whose real first name is Jock.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Premiership titles did Ryan Giggs win dirung 1990-2004?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 8"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Southern Mississippi originally offered Brett Favre a scholarship to play as defensive back.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was Brett Favre born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "October 10, 1969"
+            },
+            {
+              "id": "1",
+              "text": "September 12, 1970"
+            },
+            {
+              "id": "2",
+              "text": "December 11, 1970"
+            },
+            {
+              "id": "3",
+              "text": "November 11, 1969"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: October 10, 1969"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Brett Favre raised?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Burton, Alabama"
+            },
+            {
+              "id": "1",
+              "text": "Green Bay, Wisconsin"
+            },
+            {
+              "id": "2",
+              "text": "Kiln, Mississippi"
+            },
+            {
+              "id": "3",
+              "text": "Memphis, Tennessee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kiln, Mississippi"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of the following statements is true about the pigskin brothers, Tiki and Ronde Barber?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They were born in a huddle."
+            },
+            {
+              "id": "1",
+              "text": "They are named after Hawaiian snack foods."
+            },
+            {
+              "id": "2",
+              "text": "They are fraternal, not identical twins."
+            },
+            {
+              "id": "3",
+              "text": "Both of their jock names are nicknames."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Both of their jock names are nicknames."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many NFL all-time records did Brett Favre set?",
+          "options": [
+            {
+              "id": "0",
+              "text": "16"
+            },
+            {
+              "id": "1",
+              "text": "10"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "15"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 5"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1999 match between Juventus and Manchester United ends in 2:3.  Which player scored first for Manchester United?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Bekcham"
+            },
+            {
+              "id": "1",
+              "text": "Roy Keane"
+            },
+            {
+              "id": "2",
+              "text": "Ryan Giggs"
+            },
+            {
+              "id": "3",
+              "text": "Andy Cole"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Roy Keane"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "bret",
+          "game",
+          "jock",
+          "ice",
+          "liverpool"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Schools and Commissioner",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, schools, smith. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This commissioner barred both Willie Mays and Mickey Mantle from baseball due to the their involvement in a casino promotion.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A. Bartlett Giamatti"
+            },
+            {
+              "id": "1",
+              "text": "Bowie K. Kuhn"
+            },
+            {
+              "id": "2",
+              "text": "Fay Vincent"
+            },
+            {
+              "id": "3",
+              "text": "Ford C. Frick"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bowie K. Kuhn"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Commissioner of Major League Baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kenesaw Mountain Landis"
+            },
+            {
+              "id": "1",
+              "text": "Bowie Kent Kuhn"
+            },
+            {
+              "id": "2",
+              "text": "A.B. Happy Chandler"
+            },
+            {
+              "id": "3",
+              "text": "Lt. Gen. William D. Eckert"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kenesaw Mountain Landis"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During which season did Manchester United first become English Champions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1910-11"
+            },
+            {
+              "id": "1",
+              "text": "1958-59"
+            },
+            {
+              "id": "2",
+              "text": "1907-08"
+            },
+            {
+              "id": "3",
+              "text": "1956-57"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1907-08"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these schools is NOT one of the original members of the Atlantic Coast Conference?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Clemson"
+            },
+            {
+              "id": "1",
+              "text": "Duke"
+            },
+            {
+              "id": "2",
+              "text": "North Carolina"
+            },
+            {
+              "id": "3",
+              "text": "Boston"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Boston"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Starting in 1999, the ACC has challenged what other power conference in a friendly, early-season tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "SEC"
+            },
+            {
+              "id": "1",
+              "text": "Big East"
+            },
+            {
+              "id": "2",
+              "text": "Big 10"
+            },
+            {
+              "id": "3",
+              "text": "Pac-10"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Big 10"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Conference did the ACC challenge in a friendly, early-season tournament prior to 1999?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pac-10"
+            },
+            {
+              "id": "1",
+              "text": "Big Ten"
+            },
+            {
+              "id": "2",
+              "text": "SEC"
+            },
+            {
+              "id": "3",
+              "text": "Big East"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Big East"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Arsenal bought Thierry Henry in 1999 from which team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Inter"
+            },
+            {
+              "id": "1",
+              "text": "Milan"
+            },
+            {
+              "id": "2",
+              "text": "Juvenots"
+            },
+            {
+              "id": "3",
+              "text": "Parma"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Juvenots"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What ACC school won the NCAA championship in 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maryland"
+            },
+            {
+              "id": "1",
+              "text": "Duke"
+            },
+            {
+              "id": "2",
+              "text": "NC State"
+            },
+            {
+              "id": "3",
+              "text": "UNC"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: UNC"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What school won the 2006 ACC Mens Basketball Tournament Championship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "NC State"
+            },
+            {
+              "id": "1",
+              "text": "Duke"
+            },
+            {
+              "id": "2",
+              "text": "Wake Forest"
+            },
+            {
+              "id": "3",
+              "text": "UNC"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Duke"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these schools is NOT on the legendary Tobacco Road?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Clemson"
+            },
+            {
+              "id": "1",
+              "text": "Wake Forest"
+            },
+            {
+              "id": "2",
+              "text": "The University of North Carolina (UNC)"
+            },
+            {
+              "id": "3",
+              "text": "Duke"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Clemson"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was manager for Birmingham City during the 2004-2005 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Bruce"
+            },
+            {
+              "id": "1",
+              "text": "Bryan Robson"
+            },
+            {
+              "id": "2",
+              "text": "Steve Wigley"
+            },
+            {
+              "id": "3",
+              "text": "David Moyes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Steve Bruce"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of the following schools was NOT added to the Atlantic Coast Conference in 2004 and 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boston College"
+            },
+            {
+              "id": "1",
+              "text": "Miami"
+            },
+            {
+              "id": "2",
+              "text": "Virginia Tech"
+            },
+            {
+              "id": "3",
+              "text": "Virginia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Virginia"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What school did NBA player Tim Duncan attend?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Virginia"
+            },
+            {
+              "id": "1",
+              "text": "Wake Forest"
+            },
+            {
+              "id": "2",
+              "text": "Georgia Tech"
+            },
+            {
+              "id": "3",
+              "text": "UNC"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wake Forest"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Both commissioner Kenesaw Mountain Landis and commissioner A. Bartlett Giamatti died while in office",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dean Smith was the all-time wins leader among college coaches until Bobby Knight surpassed him on January 1, 2007. How many seasons did Smith coach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "36"
+            },
+            {
+              "id": "1",
+              "text": "37"
+            },
+            {
+              "id": "2",
+              "text": "38"
+            },
+            {
+              "id": "3",
+              "text": "39"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 36"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "schools",
+          "smith",
+          "champions",
+          "conference",
+          "willie"
+        ]
+      }
+    }
+  ]
+}

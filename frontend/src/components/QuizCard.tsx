@@ -1,5 +1,6 @@
 import { Star, User } from "lucide-react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Image, ImageKitProvider } from "@imagekit/react";
 
 interface QuizCardProps {
@@ -22,6 +23,7 @@ const QuizCard = ({
   layout = "vertical" 
 }: QuizCardProps) => {
   const [isHovered, setIsHovered] = useState(false);
+  const navigate = useNavigate();
 
   const cardContent = (
     <>
@@ -86,6 +88,7 @@ const QuizCard = ({
     <div
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={() => navigate(`/play/host/${id}`)}
       className={`group cursor-pointer transition-transform duration-200 hover:-translate-y-1 ${
         layout === "horizontal" 
           ? "flex gap-4 bg-white/80 p-4 rounded-xl hover:bg-white hover:shadow-lg" 

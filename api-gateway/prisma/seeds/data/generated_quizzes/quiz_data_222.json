@@ -1,0 +1,2412 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: Country and City",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, linz, independence. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is Geneva (Gen\u00e8ve) located within the EU territory?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No, it is in Switzerland which is outside ot EU."
+            },
+            {
+              "id": "1",
+              "text": "No, it is a self-governed city (like Monaco) which is outside of the EU."
+            },
+            {
+              "id": "2",
+              "text": "Yes, it is an Italian city."
+            },
+            {
+              "id": "3",
+              "text": "Yes, it is in France"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No, it is in Switzerland which is outside ot EU."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is the city of Brno located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In Serbia"
+            },
+            {
+              "id": "1",
+              "text": "In Croatia"
+            },
+            {
+              "id": "2",
+              "text": "In Switzerland"
+            },
+            {
+              "id": "3",
+              "text": "In the Czech Republic"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: In the Czech Republic"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country is Lviv located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Poland"
+            },
+            {
+              "id": "1",
+              "text": "Lithuania"
+            },
+            {
+              "id": "2",
+              "text": "Hungary"
+            },
+            {
+              "id": "3",
+              "text": "Ukraine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ukraine"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which Central European country will you find Munich (Muenchen)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Austria"
+            },
+            {
+              "id": "1",
+              "text": "Switzerland"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "Poland"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Germany"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which European country used to have Cracow (Krak\u00f3w) as its capital?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Poland"
+            },
+            {
+              "id": "1",
+              "text": "Denmark"
+            },
+            {
+              "id": "2",
+              "text": "Lithuania"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Poland"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is Kosice (Ko\u0161ice)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In Slovenia"
+            },
+            {
+              "id": "1",
+              "text": "In Poland"
+            },
+            {
+              "id": "2",
+              "text": "In Slovakia"
+            },
+            {
+              "id": "3",
+              "text": "In Hungary"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: In Slovakia"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which Baltic country will you find the city of Kaunas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lithuania"
+            },
+            {
+              "id": "1",
+              "text": "Poland"
+            },
+            {
+              "id": "2",
+              "text": "Latvia"
+            },
+            {
+              "id": "3",
+              "text": "Estonia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lithuania"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which countrys second largest port is Turku?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Finland"
+            },
+            {
+              "id": "1",
+              "text": "Sweden"
+            },
+            {
+              "id": "2",
+              "text": "Turkey"
+            },
+            {
+              "id": "3",
+              "text": "Moldavia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Finland"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country will you find the city of Narvik?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Norway"
+            },
+            {
+              "id": "1",
+              "text": "Denmark"
+            },
+            {
+              "id": "2",
+              "text": "Sweden"
+            },
+            {
+              "id": "3",
+              "text": "UK"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Norway"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which German-speaking country will you find the city of Linz?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Austria"
+            },
+            {
+              "id": "2",
+              "text": "Liechtenstein"
+            },
+            {
+              "id": "3",
+              "text": "Switzerland"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Austria"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Before the Spanish arrived, this country was home to various Pre-Inca cultures and later, to the Inca Empire. Francisco Pizarro landed on its coast in 1532.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brazil"
+            },
+            {
+              "id": "1",
+              "text": "Bolivia"
+            },
+            {
+              "id": "2",
+              "text": "Peru"
+            },
+            {
+              "id": "3",
+              "text": "Argentina"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Peru"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of this small African country means lioness mountains. Its written history begins in 1462 when Portuguese explorers first landed there.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cote dIvoire"
+            },
+            {
+              "id": "1",
+              "text": "Uganda"
+            },
+            {
+              "id": "2",
+              "text": "Sierra Leone"
+            },
+            {
+              "id": "3",
+              "text": "Guine-Bissau"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sierra Leone"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country will you find the Adriatic town of Trieste (Trst, Triest)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Croatia"
+            },
+            {
+              "id": "1",
+              "text": "Slovenia"
+            },
+            {
+              "id": "2",
+              "text": "Serbia"
+            },
+            {
+              "id": "3",
+              "text": "Italy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Italy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Aalborg is the main city of the region of North Jutland which is located in this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Sweden"
+            },
+            {
+              "id": "2",
+              "text": "Norway"
+            },
+            {
+              "id": "3",
+              "text": "Denmark"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Denmark"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This country won its independence from France. Its currency is Gourde (HTG) and capital - Port-au-Prince.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Haiti"
+            },
+            {
+              "id": "1",
+              "text": "Ghana"
+            },
+            {
+              "id": "2",
+              "text": "Kenya"
+            },
+            {
+              "id": "3",
+              "text": "Laos"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Haiti"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "linz",
+          "independence",
+          "country",
+          "cultures",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Titanic and Ship",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, cherbourg, hill. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The construction of the Titanic was fully completed on 31 March, 1912.  Titanics maiden voyage commenced from Southampton, England on this memorable day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "10 June 1914"
+            },
+            {
+              "id": "1",
+              "text": "12 May 1912"
+            },
+            {
+              "id": "2",
+              "text": "10 April 1912"
+            },
+            {
+              "id": "3",
+              "text": "12 May 1913"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 10 April 1912"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Titanic broke into two sections and by 2:20 AM they had both sunk into the ocean. About two hours later, this ship arrived and began rescuing the survivors.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carpathia"
+            },
+            {
+              "id": "1",
+              "text": "Mesaba"
+            },
+            {
+              "id": "2",
+              "text": "MacKay-Bennett"
+            },
+            {
+              "id": "3",
+              "text": "Caronia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Carpathia"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At 11:40 PM, the fatal iceberg was spotted by the lookouts - Fredrick Fleet and Reginald Lee, and the bridge was warned. An abrupt turn to port (left) and full speed astern were the orders of First Officer Murdoch, but the collision was still inevitable. How did the iceberg collide with Titanic?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It brushed its right side"
+            },
+            {
+              "id": "1",
+              "text": "It brushed its left side"
+            },
+            {
+              "id": "2",
+              "text": "It hit the ships right side directly"
+            },
+            {
+              "id": "3",
+              "text": "It hit the ships head directly"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It brushed its right side"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Prior to Titanics fatal incident, the distress signal SOS had never been used.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Titanic was the second of a trio of giant liners, designed to dominate the transatlantic travel business. It was owned by the White Star Line. Where was the Titanic built?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Netherlands"
+            },
+            {
+              "id": "1",
+              "text": "Ireland"
+            },
+            {
+              "id": "2",
+              "text": "Poland"
+            },
+            {
+              "id": "3",
+              "text": "Finland"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ireland"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When on 1 September, 1985 the wreck of the Titanic was discovered by a team of scientists, it became clear that the two sections had sunk one on top of the other.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the fatal day of the disaster, the Titanic recieved many iceberg warnings. The last one was recieved at 9:40 PM from this ship.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amerika"
+            },
+            {
+              "id": "1",
+              "text": "Caronia"
+            },
+            {
+              "id": "2",
+              "text": "Mesaba"
+            },
+            {
+              "id": "3",
+              "text": "Baltic"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mesaba"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country\u2019s name is derived from silver?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Samoa"
+            },
+            {
+              "id": "1",
+              "text": "Argentina"
+            },
+            {
+              "id": "2",
+              "text": "Switzerland"
+            },
+            {
+              "id": "3",
+              "text": "Zimbabwe"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Argentina"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Titanic was one of the most luxurious ships for its time. It offered an on-board swimming pool, gymnasium, and a Turkish bath.  Its passengers could also enjoy a squash court.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the name of China in the native language of the country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Empire of Gods"
+            },
+            {
+              "id": "1",
+              "text": "Middle Kingdom"
+            },
+            {
+              "id": "2",
+              "text": "The Great Nation"
+            },
+            {
+              "id": "3",
+              "text": "Land Behind the Wall"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Middle Kingdom"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The White Star Lines managing director, who also came up with the idea of building ship, was on-board the Titanic (this is true). However, the ships builder didnt board the ship, because he was afraid of sailing.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the origin of the name of Australia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Austral parakeet, a parrot native to the continent"
+            },
+            {
+              "id": "1",
+              "text": "Bigger Austria (German)"
+            },
+            {
+              "id": "2",
+              "text": "Southern (Latin)"
+            },
+            {
+              "id": "3",
+              "text": "It refers to the multitude of stars that can be observed from there (astral land)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Southern (Latin)"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After the ship departed from Southampton, it stopped at Cherbourg, France and Queenstown, Ireland, to disembark and board some additional passengers. Then, it continued its voyage with over 1,300 passengers on-board, who were segregated in this many class sections.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two"
+            },
+            {
+              "id": "1",
+              "text": "Three"
+            },
+            {
+              "id": "2",
+              "text": "Five"
+            },
+            {
+              "id": "3",
+              "text": "Four"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Three"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After it became clear that the Titanic could not stay afloat, safety measures to save the crew and the passengers were taken. At 12:40 AM the first lifeboat, boat 7, was lowered. How many of these boats did Titanic have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20"
+            },
+            {
+              "id": "1",
+              "text": "30"
+            },
+            {
+              "id": "2",
+              "text": "40"
+            },
+            {
+              "id": "3",
+              "text": "60"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 20"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Faith Hill sang the famous song My Heart Will Go On from the Soundtrack of the movie Titanic (1997).",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "cherbourg",
+          "hill",
+          "ship",
+          "country",
+          "origin"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: City and Country",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, patricks, independence. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1980s, the proud residents of this city  declared its independence from the United States and formed the Conch Republic. People on Duval Street party each night until dawn and at 201 Duval Street  you can drink to the writer Ernest Hemingway at Sloppy Joes bar. What southernmost city in the continental United States did Hemingway call The St Tropez of the Poor ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Islandmorado"
+            },
+            {
+              "id": "1",
+              "text": "Key West"
+            },
+            {
+              "id": "2",
+              "text": "Key Largo"
+            },
+            {
+              "id": "3",
+              "text": "Princeville"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Key West"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the origin of the name of Tanzania?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It comes from Latin stanza, meaning poetry."
+            },
+            {
+              "id": "1",
+              "text": "Tanzan, a Buddhist monk who was the legendary founder of the country"
+            },
+            {
+              "id": "2",
+              "text": "Land of the Proud in Swahili"
+            },
+            {
+              "id": "3",
+              "text": "Its a combination of TANganyika and ZANzibar, the two main parts of the country."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Its a combination of TANganyika and ZANzibar, the two main parts of the country."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Belarus is a country in Eastern Europe. The name relates to Russia. What is the proper translation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Russia"
+            },
+            {
+              "id": "1",
+              "text": "Lower Russia"
+            },
+            {
+              "id": "2",
+              "text": "West Russia"
+            },
+            {
+              "id": "3",
+              "text": "White Russia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: White Russia"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country\u2019s name means rich harbour?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thailand"
+            },
+            {
+              "id": "1",
+              "text": "Cape Verde"
+            },
+            {
+              "id": "2",
+              "text": "Sierra Leone"
+            },
+            {
+              "id": "3",
+              "text": "Puerto Rico"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Puerto Rico"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From Antebellum mansions, to shotguns houses, to Creole houses found in the French Quarter, the architecture reflects this citys history. Marie Laveau, Jean Lafitte, Harry Connick Jr. and Ann Rice have walked the streets of The Crescent City. Andrew Jackson fought the last battle of the War of 1812 in this city two weeks after the war had ended with the signing of the Treaty of Ghent. The city is New Orleans but  by what other name is New Orleans affectionately called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peachtree City"
+            },
+            {
+              "id": "1",
+              "text": "Heart of Dixie"
+            },
+            {
+              "id": "2",
+              "text": "The Queen City"
+            },
+            {
+              "id": "3",
+              "text": "The Big Easy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Big Easy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country name does NOT contain a color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Belarus"
+            },
+            {
+              "id": "1",
+              "text": "Montenegro"
+            },
+            {
+              "id": "2",
+              "text": "Sri Lanka"
+            },
+            {
+              "id": "3",
+              "text": "Cape Verde"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sri Lanka"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Many Caribbean nations are named after a saint. Which saint country is fictional?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saint Martin"
+            },
+            {
+              "id": "1",
+              "text": "Saint George"
+            },
+            {
+              "id": "2",
+              "text": "Saint Lucia"
+            },
+            {
+              "id": "3",
+              "text": "Saint Kitts and Nevis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Saint George"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This charming southern city has the second largest St. Patricks Day parade in the nation. Paula Deenes Lady and Two Sons restaurant first opened in this city. UGA, the white bulldog that is the mascot for the University of Georgia lives here, in Savanna. But Savanna has a darker and more secret side that is revealed in John Berndts best selling book about the murder of Danny Hansord. What is the name of the book that introduces Lady Chablis and John Williams to the nation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dark Secret:  The Murder of Danny Hansford"
+            },
+            {
+              "id": "1",
+              "text": "Voodoo and Murder in Old Savanna"
+            },
+            {
+              "id": "2",
+              "text": "Murder in the Mercer House"
+            },
+            {
+              "id": "3",
+              "text": "Midnight in the Garden of Good and Evil"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Midnight in the Garden of Good and Evil"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Many Central Asian countries\u2019 names end with STAN. What does the suffix mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Empire"
+            },
+            {
+              "id": "1",
+              "text": "Mountain"
+            },
+            {
+              "id": "2",
+              "text": "Land"
+            },
+            {
+              "id": "3",
+              "text": "Kingdom"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Land"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The City of Brotherly Love is seeped in American history. Visit Independence Hall to see where the Declaration of Independence was signed. You can still walk on cobblestones and see the Liberty Bell. Have a cheesesteak, it was invented in this city.  And South Street is where all the hippies meet.  What city would you be in to watch the Mummers Parade?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Philadelphia"
+            },
+            {
+              "id": "1",
+              "text": "Boston"
+            },
+            {
+              "id": "2",
+              "text": "Concord"
+            },
+            {
+              "id": "3",
+              "text": "Plymouth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Philadelphia"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which countrys name can be translated as God fights?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Israel"
+            },
+            {
+              "id": "2",
+              "text": "Iran"
+            },
+            {
+              "id": "3",
+              "text": "Turkey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Israel"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this four-mile area know as the strip one can find a replica of the Statue of Liberty, gondolas floating on canals, the castles of Camelot, and a replica of the Eiffel Tower. Best of all what happens in this city stays in this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Las Vegas"
+            },
+            {
+              "id": "1",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "2",
+              "text": "Reno"
+            },
+            {
+              "id": "3",
+              "text": "Hollywood"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Las Vegas"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which African nation is country of the blacks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Montenegro"
+            },
+            {
+              "id": "1",
+              "text": "Senegal"
+            },
+            {
+              "id": "2",
+              "text": "Zimbabwe"
+            },
+            {
+              "id": "3",
+              "text": "Sudan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sudan"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country has a lion in its name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sudan"
+            },
+            {
+              "id": "1",
+              "text": "Kiribati"
+            },
+            {
+              "id": "2",
+              "text": "Cape Verde"
+            },
+            {
+              "id": "3",
+              "text": "Sierra Leone"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sierra Leone"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which was the first US state to declare Christmas a legal holiday?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oklahoma"
+            },
+            {
+              "id": "1",
+              "text": "Mississippi"
+            },
+            {
+              "id": "2",
+              "text": "Alabama"
+            },
+            {
+              "id": "3",
+              "text": "Arizona"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Alabama"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "patricks",
+          "independence",
+          "origin",
+          "country",
+          "countrys"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Capital and England",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, headquarters, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The United Nations Headquarters is in London, England.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The capital of Hawaii is Honolulu.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most natural Christmas trees are edible.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Christopher Columbus is credited with discovering America. His ship the Mayflower actually made 12 trips back and forth across the Atlantic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these was a traditional Christmas dinner in early England?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shepherds pie"
+            },
+            {
+              "id": "1",
+              "text": "Stuffed turkey"
+            },
+            {
+              "id": "2",
+              "text": "Pig head"
+            },
+            {
+              "id": "3",
+              "text": "Fried fish"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pig head"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are 7 oceans in the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Detroit, Michigan was founded by a man named Cadillac.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Canadian city Winnipeg is located 250 miles north of  New York City.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The capital of California is San Francisco.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chicago is known as the Windy City.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first United States President to decorate an official White House Christmas tree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Franklin Pierce"
+            },
+            {
+              "id": "1",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "2",
+              "text": "John F. Kennedy"
+            },
+            {
+              "id": "3",
+              "text": "Millard Fillmore"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Franklin Pierce"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "People in which country used to decorate Christmas trees with artificial roses and set  them on fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Finland"
+            },
+            {
+              "id": "1",
+              "text": "Estonia"
+            },
+            {
+              "id": "2",
+              "text": "Sweden"
+            },
+            {
+              "id": "3",
+              "text": "Lithuania"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Estonia"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Mason-Dixon line runs parallel to the Mississippi River.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song, Have Yourself a Merry Little Christmas was introduced in which Broadway musical?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Barkleys of Broadway"
+            },
+            {
+              "id": "1",
+              "text": "West Side Story"
+            },
+            {
+              "id": "2",
+              "text": "Meet Me in St. Louis"
+            },
+            {
+              "id": "3",
+              "text": "The sound of Music"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Meet Me in St. Louis"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Both Frederick Cook and Robert Peary are credited with discovering the North Pole.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "headquarters",
+          "people",
+          "michigan",
+          "country",
+          "line"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: State and Letter",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, beliefs, catkin. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is no U.S. state capital that starts with the letter F.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many U.S. states that begin with the letter M, have state capitals that also start with the letter M?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "zero"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: zero"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is customary in this country to put an artificial spider and a web on the Christmas tree.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ukraine"
+            },
+            {
+              "id": "1",
+              "text": "Bulgaria"
+            },
+            {
+              "id": "2",
+              "text": "Iran"
+            },
+            {
+              "id": "3",
+              "text": "Russia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ukraine"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When listing all the U.S. states in alphabetical order, which state capital comes first?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Augusta"
+            },
+            {
+              "id": "1",
+              "text": "Phoenix"
+            },
+            {
+              "id": "2",
+              "text": "Montgomery"
+            },
+            {
+              "id": "3",
+              "text": "Little Rock"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Montgomery"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the only state that has the word Saint (St.) in its state capital?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Montana"
+            },
+            {
+              "id": "1",
+              "text": "Michigan"
+            },
+            {
+              "id": "2",
+              "text": "Minnesota"
+            },
+            {
+              "id": "3",
+              "text": "Maine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Minnesota"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many U.S. state capitals have the word city included in their name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "July 7th-14th is the time when youd better stay out of the streets in Pamplona, Spain. A herd of fighting bulls are let loose onto the streets, after a crowd of young men. A lot of injuries occur during this famous fiesta.",
+          "options": [
+            {
+              "id": "0",
+              "text": "La Endiablada (The Disguised Devils)"
+            },
+            {
+              "id": "1",
+              "text": "Bull Running"
+            },
+            {
+              "id": "2",
+              "text": "Bullfight"
+            },
+            {
+              "id": "3",
+              "text": "April Fair"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bull Running"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to beliefs in Poland, swallowing a willow catkin from a branch consecrated by a priest would bring good health. When does this event take place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Easter"
+            },
+            {
+              "id": "1",
+              "text": "Summer Solstice"
+            },
+            {
+              "id": "2",
+              "text": "Christmas"
+            },
+            {
+              "id": "3",
+              "text": "1st of March"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Easter"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This peculiar tradition takes place in Spain too. Right at the peak of the tomato season a wild tomato battle develops as people pelt each other with ripe tomatoes. Rivers of tomato sauce run down the streets.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Bull Running"
+            },
+            {
+              "id": "1",
+              "text": "La Tomatina"
+            },
+            {
+              "id": "2",
+              "text": "Cinco De Mayo"
+            },
+            {
+              "id": "3",
+              "text": "El Perro"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: La Tomatina"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many U.S. state capitals have two words in their name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "9"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 8"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is a strange tradition in this Spanish town which involves geese.  During the fiesta men try to pull the neck off a goose while repeatedly plunging into the water.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lekeitio"
+            },
+            {
+              "id": "1",
+              "text": "Antequera"
+            },
+            {
+              "id": "2",
+              "text": "Benalmadena"
+            },
+            {
+              "id": "3",
+              "text": "Costa Del Sol"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lekeitio"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sending these items for Christmas is considered bad manners in Japan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Party invitations"
+            },
+            {
+              "id": "1",
+              "text": "Red Christmas cards"
+            },
+            {
+              "id": "2",
+              "text": "Greetings"
+            },
+            {
+              "id": "3",
+              "text": "Presents"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Red Christmas cards"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You wouldnt want to be a bride in this country - the honey moon lasts three months and according to custom, the bride covers all expenses.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morocco"
+            },
+            {
+              "id": "1",
+              "text": "Algeria"
+            },
+            {
+              "id": "2",
+              "text": "Thailand"
+            },
+            {
+              "id": "3",
+              "text": "India"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Thailand"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Russians have the  strange custom of fighting these wild animals. After a hunt, the fighter combats this type of animal either with his bare hands or using a pitchfork.",
+          "options": [
+            {
+              "id": "0",
+              "text": "An elephant"
+            },
+            {
+              "id": "1",
+              "text": "A lion"
+            },
+            {
+              "id": "2",
+              "text": "A bear"
+            },
+            {
+              "id": "3",
+              "text": "An ox"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A bear"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many U.S. state capitals share the same first letter with their state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "beliefs",
+          "catkin",
+          "country",
+          "world",
+          "capitals"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Men and Myth",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, countrys, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of the these is a British physicist and mathematician, born on Christmas Day?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Henry Pratt"
+            },
+            {
+              "id": "1",
+              "text": "Sir Isaac Newton"
+            },
+            {
+              "id": "2",
+              "text": "Kenneth C. Griffin"
+            },
+            {
+              "id": "3",
+              "text": "Wang Weike"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sir Isaac Newton"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At Christmas, Christians in the tropical areas of this country decorate banana or mango trees .",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chile"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "Iraq"
+            },
+            {
+              "id": "3",
+              "text": "Japan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: India"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This countrys Christmas tree decorations traditionally include an artificial spider web.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Romania"
+            },
+            {
+              "id": "1",
+              "text": "Ukraine"
+            },
+            {
+              "id": "2",
+              "text": "Portugal"
+            },
+            {
+              "id": "3",
+              "text": "Estonia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ukraine"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The myth of Santa Claus was inspired by the story of which real person?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saint Louis"
+            },
+            {
+              "id": "1",
+              "text": "Saint Nicholas"
+            },
+            {
+              "id": "2",
+              "text": "Saint Joseph"
+            },
+            {
+              "id": "3",
+              "text": "Saint Paul"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Saint Nicholas"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what major European city was the first commercial Christmas card introduced?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Copenhagen, Denmark"
+            },
+            {
+              "id": "1",
+              "text": "Zurich, Switzerland"
+            },
+            {
+              "id": "2",
+              "text": "London, United Kingdom"
+            },
+            {
+              "id": "3",
+              "text": "Berlin, Germany"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: London, United Kingdom"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where does the earliest evidence of Christmas celebrations come from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rome"
+            },
+            {
+              "id": "1",
+              "text": "Jerusalem"
+            },
+            {
+              "id": "2",
+              "text": "Mesopotamia"
+            },
+            {
+              "id": "3",
+              "text": "Egypt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Egypt"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Composed in 1857 by James Pierpont, this is the original name of the popular Christmas song, Jingle Bells.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oer the Hills"
+            },
+            {
+              "id": "1",
+              "text": "Dashing Through the Snow"
+            },
+            {
+              "id": "2",
+              "text": "A Sleighing Song"
+            },
+            {
+              "id": "3",
+              "text": "One-Horse Open Sleigh"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: One-Horse Open Sleigh"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Russians have another strange tradition for men. They get together and prepare a bottle of vodka for every three men.  Then they drink until this happens.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A man dies"
+            },
+            {
+              "id": "1",
+              "text": "A man blinks"
+            },
+            {
+              "id": "2",
+              "text": "A man faints"
+            },
+            {
+              "id": "3",
+              "text": "A man falls"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A man falls"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The original versioan of the popular Christmas song, Silent night was what language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "German"
+            },
+            {
+              "id": "1",
+              "text": "French"
+            },
+            {
+              "id": "2",
+              "text": "Swedish"
+            },
+            {
+              "id": "3",
+              "text": "Dutch"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: German"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of of the following countries, Christmas presents are brought by a kindly witch and not by Santa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Japan"
+            },
+            {
+              "id": "1",
+              "text": "Italy"
+            },
+            {
+              "id": "2",
+              "text": "Bulgaria"
+            },
+            {
+              "id": "3",
+              "text": "Russia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Italy"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to tradition, passengers of the train passing over the Jamuna river in India, should give tribute to the river by throwing this in it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A shoe"
+            },
+            {
+              "id": "1",
+              "text": "A silver ring"
+            },
+            {
+              "id": "2",
+              "text": "Coins"
+            },
+            {
+              "id": "3",
+              "text": "A piece of their clothing"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Coins"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the myth, what do the children on Santas bad list often receive, instead of presents?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A book with proverbs and morals"
+            },
+            {
+              "id": "1",
+              "text": "A box of rocks"
+            },
+            {
+              "id": "2",
+              "text": "A piece of coal"
+            },
+            {
+              "id": "3",
+              "text": "Rotten fruit"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A piece of coal"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following songs is not a Christmas carol?",
+          "options": [
+            {
+              "id": "0",
+              "text": "O Tannenbaum"
+            },
+            {
+              "id": "1",
+              "text": "Deck The Halls"
+            },
+            {
+              "id": "2",
+              "text": "Winter Wonderland"
+            },
+            {
+              "id": "3",
+              "text": "Modest Maid"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Modest Maid"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Christmas, a Christian holiday celebrated all over the world, is known under what name in the Netherlands?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dies Natalis"
+            },
+            {
+              "id": "1",
+              "text": "No\u00ebl"
+            },
+            {
+              "id": "2",
+              "text": "Kerstmis"
+            },
+            {
+              "id": "3",
+              "text": "Weihnachtsfest"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kerstmis"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Folk hero Santa Claus is a variant of a European folk tale based on the historical figure of Saint Nicholas, who lived on the territory of what present-day country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "England"
+            },
+            {
+              "id": "1",
+              "text": "Turkey"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "Netherlands"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Turkey"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "countrys",
+          "world",
+          "evidence",
+          "celebrations",
+          "men"
+        ]
+      }
+    }
+  ]
+}

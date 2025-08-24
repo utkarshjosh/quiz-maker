@@ -1,0 +1,2476 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Property and Mathematics",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, discovery, e^. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "e^(pi*i) +1 = 0 is an important formula, involving the key mathematical constant e, which is popularly known as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eulers Equation"
+            },
+            {
+              "id": "1",
+              "text": "Einsteins Equation"
+            },
+            {
+              "id": "2",
+              "text": "The Hyperbolic Cosine Law"
+            },
+            {
+              "id": "3",
+              "text": "Newtons Equation"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eulers Equation"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the property used in this addition equation: 12 + 0 = 12?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Associative property"
+            },
+            {
+              "id": "1",
+              "text": "Distributive property"
+            },
+            {
+              "id": "2",
+              "text": "Commutative property"
+            },
+            {
+              "id": "3",
+              "text": "Identity property"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Identity property"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the mathematical property used in this addition equation: (57 + 63) + 14 = 57 + (63 + 14)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Commutative property"
+            },
+            {
+              "id": "1",
+              "text": "Distributive Property"
+            },
+            {
+              "id": "2",
+              "text": "Associative property"
+            },
+            {
+              "id": "3",
+              "text": "Identity Property"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Associative property"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The mathematical constant e, one of the most important numbers in mathematics, is equal to which of these fractions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "22/7"
+            },
+            {
+              "id": "1",
+              "text": "278/10"
+            },
+            {
+              "id": "2",
+              "text": "271828/10000"
+            },
+            {
+              "id": "3",
+              "text": "none of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: none of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Roman numerals, what is the symbol for 1000?",
+          "options": [
+            {
+              "id": "0",
+              "text": "L"
+            },
+            {
+              "id": "1",
+              "text": "M"
+            },
+            {
+              "id": "2",
+              "text": "C"
+            },
+            {
+              "id": "3",
+              "text": "D"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: M"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The constant e is present in countless fields of mathematics but its most significant function is related to its use in what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The characteristics of unitary matrices"
+            },
+            {
+              "id": "1",
+              "text": "The base of natural logarithms"
+            },
+            {
+              "id": "2",
+              "text": "The mantissa of common logarithms"
+            },
+            {
+              "id": "3",
+              "text": "The limiting value of the sum of the squares of the odd numbers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The base of natural logarithms"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Change the Roman numeral XL to a Hindu-Arabic numeral.",
+          "options": [
+            {
+              "id": "0",
+              "text": "40"
+            },
+            {
+              "id": "1",
+              "text": "70"
+            },
+            {
+              "id": "2",
+              "text": "50"
+            },
+            {
+              "id": "3",
+              "text": "60"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 40"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the greatest common factor (GCF) of 24 and 36?",
+          "options": [
+            {
+              "id": "0",
+              "text": "16"
+            },
+            {
+              "id": "1",
+              "text": "12"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "14"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 12"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why was the letter e\u201d chosen to denote the important mathematical constant e?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was arbitrarily chosen by Latin scholars."
+            },
+            {
+              "id": "1",
+              "text": "Its the first letter of a mathematicians name."
+            },
+            {
+              "id": "2",
+              "text": "It stands for exponential."
+            },
+            {
+              "id": "3",
+              "text": "The first 4 letters of the alphabet were already taken."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It stands for exponential."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Identify the property used in this addition equation: 678 + 45 = 45 + 678.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Associative property"
+            },
+            {
+              "id": "1",
+              "text": "Distributive property"
+            },
+            {
+              "id": "2",
+              "text": "Identity property"
+            },
+            {
+              "id": "3",
+              "text": "Commutative property"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Commutative property"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements best describes the mathematical constant  e?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is a transcendental number."
+            },
+            {
+              "id": "1",
+              "text": "It is an algebraic transcendental and irrational number."
+            },
+            {
+              "id": "2",
+              "text": "It is a transcendental and irrational number."
+            },
+            {
+              "id": "3",
+              "text": "It is a rational transcendental number."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It is a transcendental and irrational number."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the least common multiple (LCM) of 5, 6, and 10?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20"
+            },
+            {
+              "id": "1",
+              "text": "30"
+            },
+            {
+              "id": "2",
+              "text": "10"
+            },
+            {
+              "id": "3",
+              "text": "15"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 30"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What significant discovery about the nature of the constant e did French mathematician Charles Hermite make in 1873?",
+          "options": [
+            {
+              "id": "0",
+              "text": "e is algebraic."
+            },
+            {
+              "id": "1",
+              "text": "e is transcendental."
+            },
+            {
+              "id": "2",
+              "text": "e^pi is transcendental."
+            },
+            {
+              "id": "3",
+              "text": "e is irrational"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: e is transcendental."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the derivative of y in this function related to the exponential constant e: If y=e^x?",
+          "options": [
+            {
+              "id": "0",
+              "text": "e^x"
+            },
+            {
+              "id": "1",
+              "text": "e^x +x"
+            },
+            {
+              "id": "2",
+              "text": "e^pi"
+            },
+            {
+              "id": "3",
+              "text": "e"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: e^x"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of fractions are 4/4, 9/8, and 7/4?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Proper fractions"
+            },
+            {
+              "id": "1",
+              "text": "Improper fractions"
+            },
+            {
+              "id": "2",
+              "text": "Similar fractions"
+            },
+            {
+              "id": "3",
+              "text": "Dissimilar fractions"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Improper fractions"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "discovery",
+          "e^",
+          "kind",
+          "fields",
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Calculus and Number",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, +, function. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Find the missing number in the following sequence: 6, 18, 36, ___, 216, 648, 1296.",
+          "options": [
+            {
+              "id": "0",
+              "text": "108"
+            },
+            {
+              "id": "1",
+              "text": "180"
+            },
+            {
+              "id": "2",
+              "text": "72"
+            },
+            {
+              "id": "3",
+              "text": "54"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 108"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Find the missing number in the following sequence: 11, 16, 32, ___, 74, 79, 158.",
+          "options": [
+            {
+              "id": "0",
+              "text": "64"
+            },
+            {
+              "id": "1",
+              "text": "38"
+            },
+            {
+              "id": "2",
+              "text": "37"
+            },
+            {
+              "id": "3",
+              "text": "69"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 37"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Guess the missing number from the following sequence: 12, 24, 48, ___, 120, 240, 264?",
+          "options": [
+            {
+              "id": "0",
+              "text": "80"
+            },
+            {
+              "id": "1",
+              "text": "60"
+            },
+            {
+              "id": "2",
+              "text": "96"
+            },
+            {
+              "id": "3",
+              "text": "72"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 96"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the minimum value of the function y= x^2+3x-1?",
+          "options": [
+            {
+              "id": "0",
+              "text": "13/4"
+            },
+            {
+              "id": "1",
+              "text": "-13/4"
+            },
+            {
+              "id": "2",
+              "text": "-3/2"
+            },
+            {
+              "id": "3",
+              "text": "3/2"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: -13/4"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement is not  true about functions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "For some functions we can not find a maximal value."
+            },
+            {
+              "id": "1",
+              "text": "A function is always written as a polynomial."
+            },
+            {
+              "id": "2",
+              "text": "A function is a type of relationship between two sets."
+            },
+            {
+              "id": "3",
+              "text": "A one-to-one relationship is a type of function."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A function is always written as a polynomial."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In calculus we never use complex (or imaginary) numbers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the missing number in the following sequence:  4, 20, 24, ___, 44, 60, 64?",
+          "options": [
+            {
+              "id": "0",
+              "text": "28"
+            },
+            {
+              "id": "1",
+              "text": "40"
+            },
+            {
+              "id": "2",
+              "text": "30"
+            },
+            {
+              "id": "3",
+              "text": "32"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 40"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After the proof of a mathematical theorem we often see the letters Q.E.D. Do these letters stand for Quite easily Done.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number is missing from the following sequence:  5,10,20, ___, 50, 55, 110?",
+          "options": [
+            {
+              "id": "0",
+              "text": "25"
+            },
+            {
+              "id": "1",
+              "text": "30"
+            },
+            {
+              "id": "2",
+              "text": "40"
+            },
+            {
+              "id": "3",
+              "text": "35"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 25"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Consider this infinite series: 1/2+1/4+1/8+1/16+1/32 +.... If we add all these terms, what do we get?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3/4"
+            },
+            {
+              "id": "1",
+              "text": "You cannot add an infinite series of numbers"
+            },
+            {
+              "id": "2",
+              "text": "0"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When you study calculus, you usually also study this branch of geometry.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bolyai geometry"
+            },
+            {
+              "id": "1",
+              "text": "Discrete geometry"
+            },
+            {
+              "id": "2",
+              "text": "Analytic geometry"
+            },
+            {
+              "id": "3",
+              "text": "Riemannian  geometry"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Analytic geometry"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When we find the extrema of a function we use this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The solution of the sixth degree equation"
+            },
+            {
+              "id": "1",
+              "text": "The solution of the second degree equation"
+            },
+            {
+              "id": "2",
+              "text": "The first derivative"
+            },
+            {
+              "id": "3",
+              "text": "The third derivative"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The first derivative"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Guess the missing number from the following sequence: 3,6,7,14,15 ___, 31,62, 63. 126, 127.",
+          "options": [
+            {
+              "id": "0",
+              "text": "30"
+            },
+            {
+              "id": "1",
+              "text": "17"
+            },
+            {
+              "id": "2",
+              "text": "16"
+            },
+            {
+              "id": "3",
+              "text": "28"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 30"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these are considered the two developers of the modern calculus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Newton and Gauss"
+            },
+            {
+              "id": "1",
+              "text": "Euler and Cauchy"
+            },
+            {
+              "id": "2",
+              "text": "Newton and Euler"
+            },
+            {
+              "id": "3",
+              "text": "Newton and Leibnitz"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Newton and Leibnitz"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the two basic processes in calculus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Finding maxima and minima and solving second degree equations"
+            },
+            {
+              "id": "1",
+              "text": "Composition and convolution"
+            },
+            {
+              "id": "2",
+              "text": "Integration and derivation"
+            },
+            {
+              "id": "3",
+              "text": "Solving equations of sixth and seventh degrees"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Integration and derivation"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "+",
+          "function",
+          "letters",
+          "sequence",
+          "geometry"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Cloning and Process",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, fiction, process. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Substance vital for treating what hereditary blood defect that occurs almost exclusively in males, has been produced by cloning?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anemia"
+            },
+            {
+              "id": "1",
+              "text": "Hemoglobinopaties"
+            },
+            {
+              "id": "2",
+              "text": "Hemophilia"
+            },
+            {
+              "id": "3",
+              "text": "Thalassemia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hemophilia"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many unsuccessful attempts did it take to finally create Dolly, the first successfully cloned mammal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "76"
+            },
+            {
+              "id": "1",
+              "text": "276"
+            },
+            {
+              "id": "2",
+              "text": "19"
+            },
+            {
+              "id": "3",
+              "text": "154"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 276"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What prevents scientists from fulfilling one of science fiction writers dreams - to clone a dinosaur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The lack of knowledge about their embryonal development"
+            },
+            {
+              "id": "1",
+              "text": "The need for a mother from a closely related species"
+            },
+            {
+              "id": "2",
+              "text": "The difference in environmental conditions now and then"
+            },
+            {
+              "id": "3",
+              "text": "Lack of live dinosaur tissue"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The need for a mother from a closely related species"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Find the missing number in the following sequence: 10, 20, 100, ___, 280, 560, 640.",
+          "options": [
+            {
+              "id": "0",
+              "text": "110"
+            },
+            {
+              "id": "1",
+              "text": "200"
+            },
+            {
+              "id": "2",
+              "text": "180"
+            },
+            {
+              "id": "3",
+              "text": "270"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 200"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Guess the missing number in the following sequence: 3, 6, 18, 36, ___, 216, 234, 468, 1404.",
+          "options": [
+            {
+              "id": "0",
+              "text": "108"
+            },
+            {
+              "id": "1",
+              "text": "54"
+            },
+            {
+              "id": "2",
+              "text": "72"
+            },
+            {
+              "id": "3",
+              "text": "39"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 72"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first person to orbit the Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Georgi Dobrovolski"
+            },
+            {
+              "id": "1",
+              "text": "Yuri Gagarin"
+            },
+            {
+              "id": "2",
+              "text": "Neil Armstrong"
+            },
+            {
+              "id": "3",
+              "text": "Kerim Kerimov"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yuri Gagarin"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cloning, the process of creating an identical copy of an organism, is only attainable by artificial means.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these can be defined as a clones biological mother and father?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "The egg cell donor and the surrogate mother"
+            },
+            {
+              "id": "2",
+              "text": "The egg cell donor and the surrogate mother"
+            },
+            {
+              "id": "3",
+              "text": "The genetic material donor and the egg cell donor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements about the process of cloning is not true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scientists use more than one method for cloning."
+            },
+            {
+              "id": "1",
+              "text": "Cloning can be used therapeutically, to create replacement organs or tissue."
+            },
+            {
+              "id": "2",
+              "text": "Cloning could be theoretically used to bring extinct species back to life"
+            },
+            {
+              "id": "3",
+              "text": "Cloning produces a completely identical copy of an organism."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cloning produces a completely identical copy of an organism."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first successful experiment in which a cloned animal embryo reached an adult state, was carried out in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1952"
+            },
+            {
+              "id": "1",
+              "text": "1907"
+            },
+            {
+              "id": "2",
+              "text": "1973"
+            },
+            {
+              "id": "3",
+              "text": "1926"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1952"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Find the missing number in the following sequence:  8, 16, 28, 44, ___, 88, 116, 148, 184.",
+          "options": [
+            {
+              "id": "0",
+              "text": "48"
+            },
+            {
+              "id": "1",
+              "text": "56"
+            },
+            {
+              "id": "2",
+              "text": "64"
+            },
+            {
+              "id": "3",
+              "text": "52"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 64"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cloning and the boundless possibilities it offers is a challenging topic for scriptwriters imagination. All but one of these science fiction movies involve cloning in their plots.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jurassic Park"
+            },
+            {
+              "id": "1",
+              "text": "The 6th Day"
+            },
+            {
+              "id": "2",
+              "text": "The Green Mile"
+            },
+            {
+              "id": "3",
+              "text": "The House of the Scorpion"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Green Mile"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Guess the missing number in the following sequence: 15, 30, 40, ___, 90, 180, 190.",
+          "options": [
+            {
+              "id": "0",
+              "text": "55"
+            },
+            {
+              "id": "1",
+              "text": "45"
+            },
+            {
+              "id": "2",
+              "text": "50"
+            },
+            {
+              "id": "3",
+              "text": "80"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 80"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The term clone, originally used in botany before it entered molecular genetics, means what in Greek?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Twin"
+            },
+            {
+              "id": "1",
+              "text": "Copy"
+            },
+            {
+              "id": "2",
+              "text": "Root"
+            },
+            {
+              "id": "3",
+              "text": "Twig"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Twig"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Prometea, an example of successfully cloned mammal, was what type of animal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cat"
+            },
+            {
+              "id": "1",
+              "text": "Pig"
+            },
+            {
+              "id": "2",
+              "text": "Rabbit"
+            },
+            {
+              "id": "3",
+              "text": "Horse"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Horse"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "fiction",
+          "process",
+          "example",
+          "topic",
+          "father"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Space and Acid",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, nucleus, spaceplane. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In  April 28, 2001, this famous American multimillionaire became the first space tourist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mark Shuttleworth"
+            },
+            {
+              "id": "1",
+              "text": "Charles Simonyi"
+            },
+            {
+              "id": "2",
+              "text": "Gregory Olsen"
+            },
+            {
+              "id": "3",
+              "text": "Dennis Tito"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dennis Tito"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the dog, that became the first earthling to enter orbit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lisichka"
+            },
+            {
+              "id": "1",
+              "text": "Laika"
+            },
+            {
+              "id": "2",
+              "text": "Rover"
+            },
+            {
+              "id": "3",
+              "text": "Belka"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Laika"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The entire hereditary information of an organism held in the Deoxyribonucleic acid (DNA), is defined by which term?",
+          "options": [
+            {
+              "id": "0",
+              "text": "proteome"
+            },
+            {
+              "id": "1",
+              "text": "genome"
+            },
+            {
+              "id": "2",
+              "text": "cryptome"
+            },
+            {
+              "id": "3",
+              "text": "regulome"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: genome"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Russian astronaut became the first person to be married in space, while he was on the International Space Station?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vladimir Dezhurov"
+            },
+            {
+              "id": "1",
+              "text": "Yuri Gidzenko"
+            },
+            {
+              "id": "2",
+              "text": "Sergei K. Krikalev"
+            },
+            {
+              "id": "3",
+              "text": "Yuri Malenchenko"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Yuri Malenchenko"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was nationality of Vladimir Remek - the first cosmonaut from a country other than the Soviet Union or the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hungarian"
+            },
+            {
+              "id": "1",
+              "text": "Bulgarian"
+            },
+            {
+              "id": "2",
+              "text": "Czechoslovak"
+            },
+            {
+              "id": "3",
+              "text": "Pole"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Czechoslovak"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements about the Deoxyribonucleic acid (DNA), the molecule of heredity, is correct?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its molecule is a single-stranded"
+            },
+            {
+              "id": "1",
+              "text": "It encodes information from RNA"
+            },
+            {
+              "id": "2",
+              "text": "Its molecule is a double helix"
+            },
+            {
+              "id": "3",
+              "text": "It carries information to the Ribonucleic acid (RNA)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Its molecule is a double helix"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2005, this famous Russian cosmonaut set a record for total time, spent in space.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anatoly Solovyev"
+            },
+            {
+              "id": "1",
+              "text": "Sergei Krikalev"
+            },
+            {
+              "id": "2",
+              "text": "Valeriy Polyakov"
+            },
+            {
+              "id": "3",
+              "text": "Sergei Avdeyev"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sergei Krikalev"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The crew of which Apollo mission spent the longest time on the Lunar surface?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apollo 9"
+            },
+            {
+              "id": "1",
+              "text": "Apollo 7"
+            },
+            {
+              "id": "2",
+              "text": "Apollo 12"
+            },
+            {
+              "id": "3",
+              "text": "Apollo 17"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Apollo 17"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This genetic disorder is characterized by the premature fusion of the bones of the skull, which affects the shape of the head and face.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pfeiffer syndrome"
+            },
+            {
+              "id": "1",
+              "text": "Angelman syndrome"
+            },
+            {
+              "id": "2",
+              "text": "Joubert syndrome"
+            },
+            {
+              "id": "3",
+              "text": "Klinefelter syndrome"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pfeiffer syndrome"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chromatin, found in the nucleus of a cell, consists of a complex of Deoxyribonucleic acid (DNA), the gene-carrying molecule. Which of the following types of chromatin is rich in genes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "heterochromatin"
+            },
+            {
+              "id": "1",
+              "text": "euchromatin"
+            },
+            {
+              "id": "2",
+              "text": "facultative heterochromatin"
+            },
+            {
+              "id": "3",
+              "text": "constitutive heterochromatin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: euchromatin"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the pilot of SpaceShipOne, the spaceplane that completed the first privately funded human spaceflight?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike Melvill"
+            },
+            {
+              "id": "1",
+              "text": "Peter Siebold"
+            },
+            {
+              "id": "2",
+              "text": "Doug Shane"
+            },
+            {
+              "id": "3",
+              "text": "Brian Binnie"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mike Melvill"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1905, this British scientist suggested the word genetics to describe the study of inheritance.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hennig Brand"
+            },
+            {
+              "id": "1",
+              "text": "Karl Pearson"
+            },
+            {
+              "id": "2",
+              "text": "William Bateson"
+            },
+            {
+              "id": "3",
+              "text": "Adam Sedgwick"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: William Bateson"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A chromosome is a very long piece of Deoxyribonucleic acid (DNA) which contains genes. Which term refers to the number of chromosomes per cell in a species?",
+          "options": [
+            {
+              "id": "0",
+              "text": "monoploid number"
+            },
+            {
+              "id": "1",
+              "text": "euploid number"
+            },
+            {
+              "id": "2",
+              "text": "haploid number"
+            },
+            {
+              "id": "3",
+              "text": "aneuploid number"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: euploid number"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Along with Neil  Armstrong and Michael Collins, who was the third member of the Apollo 11 crew?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James A. Lovell, Jr"
+            },
+            {
+              "id": "1",
+              "text": "William Anders"
+            },
+            {
+              "id": "2",
+              "text": "Fred Haise"
+            },
+            {
+              "id": "3",
+              "text": "Buzz Aldrin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Buzz Aldrin"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the first monkey to go in outer space?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Albert I"
+            },
+            {
+              "id": "1",
+              "text": "Gordo"
+            },
+            {
+              "id": "2",
+              "text": "Sam"
+            },
+            {
+              "id": "3",
+              "text": "Bonny"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Albert I"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "nucleus",
+          "spaceplane",
+          "space",
+          "acid",
+          "earthling"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Odds and Cards",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, pair, structure. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A card is selected at random from a regular poker deck of cards. The  jokers have been eliminated. What is the probability that the selected card is a diamond?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1 in  4"
+            },
+            {
+              "id": "1",
+              "text": "1 in 13"
+            },
+            {
+              "id": "2",
+              "text": "1 in 26"
+            },
+            {
+              "id": "3",
+              "text": "1 in 52"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1 in  4"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This cell structure exists only when the long pieces of Deoxyribonucleic acid (DNA), called chromosomes, replicate themselves.",
+          "options": [
+            {
+              "id": "0",
+              "text": "flagelle"
+            },
+            {
+              "id": "1",
+              "text": "chromatid"
+            },
+            {
+              "id": "2",
+              "text": "centrosome"
+            },
+            {
+              "id": "3",
+              "text": "microtubule"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: chromatid"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genes are the units of heredity in living organisms. Variants of the same gene are known under what name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "albumins"
+            },
+            {
+              "id": "1",
+              "text": "nucleotides"
+            },
+            {
+              "id": "2",
+              "text": "myosins"
+            },
+            {
+              "id": "3",
+              "text": "alleles"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: alleles"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A combination lock has a  combination consisting of  three numbers. Each number could be 0,1,2,3,4,....39. How many different combinations are possible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "40 X 40 X 40=40^3"
+            },
+            {
+              "id": "1",
+              "text": "40  X 3=120"
+            },
+            {
+              "id": "2",
+              "text": "39X 3=117"
+            },
+            {
+              "id": "3",
+              "text": "3 X3 X 3X.........=3^40"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 40 X 40 X 40=40^3"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mr. A  picks three cards from a 52-card deck. Mr. B rolls a pair of dice once. Mr. C rolls three dice. Mr. A must pick three aces. Mr. B must roll a 13. Mr. C must roll a  two. Who has the best odds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mr. A"
+            },
+            {
+              "id": "1",
+              "text": "The odds are equal"
+            },
+            {
+              "id": "2",
+              "text": "Mr. C."
+            },
+            {
+              "id": "3",
+              "text": "Mr. B"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. A"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which casino game gives you the best chance of winning? (We assume that no cheating is involved.)",
+          "options": [
+            {
+              "id": "0",
+              "text": "Keno"
+            },
+            {
+              "id": "1",
+              "text": "Slot machines"
+            },
+            {
+              "id": "2",
+              "text": "Blackjack"
+            },
+            {
+              "id": "3",
+              "text": "Craps"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Blackjack"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two cards are randomly selected from a regular 52-card deck. What are the odds that they are both red?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1 in 4"
+            },
+            {
+              "id": "1",
+              "text": "25 out of 102"
+            },
+            {
+              "id": "2",
+              "text": "1 in 2"
+            },
+            {
+              "id": "3",
+              "text": "1 in 26"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 25 out of 102"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This chemical element has a smell similar to garlic and is part of the structure of Deoxyribonucleic acid (DNA), the molecule that carries genes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "iodine"
+            },
+            {
+              "id": "1",
+              "text": "sulfur"
+            },
+            {
+              "id": "2",
+              "text": "potassium"
+            },
+            {
+              "id": "3",
+              "text": "phosphorus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: phosphorus"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you bet on a number in roulette in a fancy casino in Monaco or in an average casino in the USA, your odds of winning are the same.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On average, how many tornadoes are reported in the United States annually?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2,000-2,500"
+            },
+            {
+              "id": "1",
+              "text": "3,500-4,000"
+            },
+            {
+              "id": "2",
+              "text": "3,000-3,200"
+            },
+            {
+              "id": "3",
+              "text": "800-1,000"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 800-1,000"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A  nine-digit number is selected at random. What are the odds that it will be your social security number (in the USA)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1 in 9"
+            },
+            {
+              "id": "1",
+              "text": "9 in 1,000,000,000"
+            },
+            {
+              "id": "2",
+              "text": "1 in 1,000,000,000"
+            },
+            {
+              "id": "3",
+              "text": "1 in 9,000,000,000"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1 in 1,000,000,000"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For some reason, you  are playing craps. The person rolling wants Little Joe. What is he hoping for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a 12"
+            },
+            {
+              "id": "1",
+              "text": "a 2"
+            },
+            {
+              "id": "2",
+              "text": "a 4"
+            },
+            {
+              "id": "3",
+              "text": "a 14"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: a 4"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A regular fair  pair of  dice is rolled. What is the probability that the role  will be a 7?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7 in 6"
+            },
+            {
+              "id": "1",
+              "text": "1 in 6"
+            },
+            {
+              "id": "2",
+              "text": "6 in 7"
+            },
+            {
+              "id": "3",
+              "text": "7 in 36"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1 in 6"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are  the odds that you will be killed by lightning in the USA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "360,200,000 to1"
+            },
+            {
+              "id": "1",
+              "text": "2,320,000 to 1"
+            },
+            {
+              "id": "2",
+              "text": "23,200,000 to 1"
+            },
+            {
+              "id": "3",
+              "text": "506,000 to 1"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2,320,000 to 1"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Deoxyribonucleic acid (DNA), the molecule of heredity, is doubled in what stage of cell division?",
+          "options": [
+            {
+              "id": "0",
+              "text": "G2 phase"
+            },
+            {
+              "id": "1",
+              "text": "S phase"
+            },
+            {
+              "id": "2",
+              "text": "M phase"
+            },
+            {
+              "id": "3",
+              "text": "G1 phase"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: S phase"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "pair",
+          "structure",
+          "roulette",
+          "average",
+          "chance"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Tornadoes and Duality",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, computation, zeroth. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the southern part of the United States, what months are peak season for tornadoes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "March-May"
+            },
+            {
+              "id": "1",
+              "text": "June-August"
+            },
+            {
+              "id": "2",
+              "text": "January-Feburary"
+            },
+            {
+              "id": "3",
+              "text": "September-December"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: March-May"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who developed a punch card that was used with mechanical tabulating machines in the 1890 U.S. Census?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dr. Herman Hollerith"
+            },
+            {
+              "id": "1",
+              "text": "John Napier"
+            },
+            {
+              "id": "2",
+              "text": "Joseph Marie Jacquards"
+            },
+            {
+              "id": "3",
+              "text": "Blaise Pascal"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dr. Herman Hollerith"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Was the Pascaline invented by Blaise Pascal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is an early computation device used in the 12th century by the Chinese.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abacus"
+            },
+            {
+              "id": "1",
+              "text": "Pascaline"
+            },
+            {
+              "id": "2",
+              "text": "Napiers Bone"
+            },
+            {
+              "id": "3",
+              "text": "Jacquards Loom"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Abacus"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tornadoes are transparent at first until dust and debris are picked up.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are four laws governing thermodynamics.  The zeroth is concerned with thermal equilibrium of three systems, the first law describes that the total energy of the universe remains constant and the second law tells us that entropy of a non-equilibrium system will increase over time.  What does the third law of thermodynamics describe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "As temperature approaches absolute zero, the entropy of a system approaches a constant (Avogadros number)."
+            },
+            {
+              "id": "1",
+              "text": "As temperature approaches absolute zero, the entropy of a system approaches critical mass."
+            },
+            {
+              "id": "2",
+              "text": "As temperature approaches absolute zero, the entropy of a system approaches a constant (zero)."
+            },
+            {
+              "id": "3",
+              "text": "As temperature approaches absolute zero, the entropy of a system approaches infinity."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: As temperature approaches absolute zero, the entropy of a system approaches a constant (zero)."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Duality in quantum mechanics is used to describe these two concepts.  The Schrodinger equation is in fact the essence of duality.  Which two concepts are described in duality?",
+          "options": [
+            {
+              "id": "0",
+              "text": "solids and liquids"
+            },
+            {
+              "id": "1",
+              "text": "temperature and volume"
+            },
+            {
+              "id": "2",
+              "text": "liquids and gases"
+            },
+            {
+              "id": "3",
+              "text": "particles and waves"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: particles and waves"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Molecular electronic transitions (n to \u03a0* or \u03a0 to \u03a0*) are are usually caused by the input of infrared radiation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the electromagnetic spectrum, which region is the most energetic?",
+          "options": [
+            {
+              "id": "0",
+              "text": "infrared"
+            },
+            {
+              "id": "1",
+              "text": "gamma"
+            },
+            {
+              "id": "2",
+              "text": "ultra-violet (UV)"
+            },
+            {
+              "id": "3",
+              "text": "radio"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: gamma"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Buildings can explode due to low pressure that comes with tornadoes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When a tornadoe warning is issued, you should get in your car and try to outrun the storm to get to safety.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What time of the day do tornadoes most often strike?",
+          "options": [
+            {
+              "id": "0",
+              "text": "12 a.m. - 1 p.m."
+            },
+            {
+              "id": "1",
+              "text": "10 p.m. - 3 a.m."
+            },
+            {
+              "id": "2",
+              "text": "2 a.m. - 12 p.m"
+            },
+            {
+              "id": "3",
+              "text": "3 p.m. - 9p.m."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3 p.m. - 9p.m."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What computational device was invented in 1617?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abacus"
+            },
+            {
+              "id": "1",
+              "text": "Napiers bones"
+            },
+            {
+              "id": "2",
+              "text": "Jacquards Loom"
+            },
+            {
+              "id": "3",
+              "text": "Analytical engine"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Napiers bones"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was the Pascaline invented?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1601"
+            },
+            {
+              "id": "1",
+              "text": "1636"
+            },
+            {
+              "id": "2",
+              "text": "1886"
+            },
+            {
+              "id": "3",
+              "text": "1645"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1645"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What computational device was designed by Charles Babbage?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Difference Engine"
+            },
+            {
+              "id": "1",
+              "text": "Abacus"
+            },
+            {
+              "id": "2",
+              "text": "Pascaline"
+            },
+            {
+              "id": "3",
+              "text": "Holleriths Punch Card"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Difference Engine"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "computation",
+          "zeroth",
+          "transitions",
+          "tornadoes",
+          "part"
+        ]
+      }
+    }
+  ]
+}

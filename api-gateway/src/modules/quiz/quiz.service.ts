@@ -93,6 +93,7 @@ export default class QuizService {
         title: true,
         description: true,
         difficulty: true,
+        imageUrl: true,
         timeLimit: true,
         totalQuestions: true,
         status: true,
@@ -148,6 +149,7 @@ export default class QuizService {
           title: true,
           description: true,
           difficulty: true,
+          imageUrl: true,
           timeLimit: true,
           totalQuestions: true,
           status: true,
@@ -366,13 +368,14 @@ export default class QuizService {
     }));
   }
 
-  public async getSecondaryTags(primaryTagId: string) {
+  public async getSecondaryTags(primaryTag: string) {
     // First verify the primary tag exists
-    const primaryTag = await prisma.tag.findFirst({
-      where: { id: primaryTagId, isPrimary: true },
+    const tagSlug = primaryTag.toLowerCase();
+    const primaryTagData = await prisma.tag.findFirst({
+      where: { slug: tagSlug, isPrimary: true },
     });
 
-    if (!primaryTag) {
+    if (!primaryTagData) {
       throw new HttpNotFoundError('Primary tag not found');
     }
 
@@ -381,7 +384,7 @@ export default class QuizService {
       where: {
         tags: {
           some: {
-            tagId: primaryTagId,
+            tagId: primaryTagData.id,
           },
         },
         status: 'published',
@@ -430,20 +433,129 @@ export default class QuizService {
       });
     });
 
-    return Array.from(secondaryTagsMap.values()).sort(
-      (a, b) => b.quizCount - a.quizCount
-    );
+    // Sort by quiz count and limit to top 20 most commonly used tags
+    return Array.from(secondaryTagsMap.values())
+      .sort((a, b) => b.quizCount - a.quizCount)
+      .slice(0, 20);
   }
 
   public async getQuizzesByCategory(
-    primaryTagId: string,
-    secondaryTagId?: string,
+    primaryTag?: string,
+    secondaryTag?: string,
     page: number = 1,
-    limit: number = 10
+    quizLimit: number = 10,
+    groupLimit: number = 10
   ) {
+    // If primary tag is not provided, return quizzes grouped by top primary tags
+    if (!primaryTag) {
+      return this.getQuizzesByTopPrimaryTags(page, quizLimit, groupLimit);
+    }
+
     // Verify the primary tag exists
-    const primaryTag = await prisma.tag.findFirst({
-      where: { id: primaryTagId, isPrimary: true },
+    const primaryTagData = await this.validateAndGetPrimaryTag(primaryTag);
+
+    // If secondary tag is provided, return paginated quizzes for that specific combination
+    if (secondaryTag) {
+      return this.getQuizzesByPrimaryAndSecondaryTag(
+        primaryTagData,
+        secondaryTag,
+        page,
+        quizLimit
+      );
+    }
+
+    // If no secondary tag, group by secondary tags of the primary tag
+    return this.getQuizzesGroupedBySecondaryTags(
+      primaryTagData,
+      primaryTag,
+      page,
+      quizLimit,
+      groupLimit
+    );
+  }
+
+  private async getQuizzesByTopPrimaryTags(
+    page: number,
+    quizLimit: number,
+    groupLimit: number
+  ) {
+    // Calculate pagination for groups (tags)
+    const skip = (page - 1) * groupLimit;
+    
+    // First get total count of primary tags for pagination info
+    const totalPrimaryTags = await prisma.tag.count({
+      where: { isPrimary: true },
+    });
+    
+    // Fetch primary tags with pagination based on groupLimit
+    const topPrimaryTags = await prisma.tag.findMany({
+      where: { isPrimary: true },
+      select: {
+        id: true,
+        name: true,
+        slug: true,
+        icon: true,
+        color: true,
+        description: true,
+      },
+      orderBy: {
+        quizzes: {
+          _count: 'desc',
+        },
+      },
+      skip, // Apply pagination skip
+      take: groupLimit, // Apply group limit here
+    });
+
+    const groups = await Promise.all(
+      topPrimaryTags.map(async (tag) => {
+        const tagWhere: Prisma.QuizWhereInput = {
+          status: 'published',
+          tags: {
+            some: {
+              tagId: tag.id,
+            },
+          },
+        };
+
+        const [quizzes, totalCount] = await Promise.all([
+          this.getQuizzesForTag(tagWhere, quizLimit),
+          prisma.quiz.count({ where: tagWhere }),
+        ]);
+
+        return {
+          tag: {
+            id: tag.id,
+            name: tag.name,
+            slug: tag.slug,
+            icon: tag.icon,
+            color: tag.color,
+            description: tag.description,
+          },
+          quizzes: this.formatQuizzesWithPlayCount(quizzes),
+          totalQuizzes: totalCount,
+        };
+      })
+    );
+
+    return {
+      primaryTag: undefined,
+      groups,
+      pagination: {
+        page,
+        limit: groupLimit, // Use groupLimit instead of quizLimit for pagination
+        totalGroups: totalPrimaryTags, // Total available groups
+        totalPages: Math.ceil(totalPrimaryTags / groupLimit),
+        hasNext: page < Math.ceil(totalPrimaryTags / groupLimit),
+        hasPrev: page > 1,
+        totalQuizzes: groups.reduce((acc, g) => acc + g.totalQuizzes, 0),
+      },
+    };
+  }
+
+  private async validateAndGetPrimaryTag(primaryTag: string) {
+    const primaryTagData = await prisma.tag.findFirst({
+      where: { slug: primaryTag.toLowerCase(), isPrimary: true },
       select: {
         id: true,
         name: true,
@@ -454,203 +566,277 @@ export default class QuizService {
       },
     });
 
-    if (!primaryTag) {
+    if (!primaryTagData) {
       throw new HttpNotFoundError('Primary tag not found');
     }
 
-    // Base query conditions for published quizzes with primary tag
-    const baseWhere: Prisma.QuizWhereInput = {
-      status: 'published',
-      tags: {
-        some: {
-          tagId: primaryTagId,
-        },
+    return primaryTagData;
+  }
+
+  private async getQuizzesByPrimaryAndSecondaryTag(
+    primaryTagData: any,
+    secondaryTag: string,
+    page: number,
+    quizLimit: number
+  ) {
+    const secondaryTagData = await prisma.tag.findFirst({
+      where: { slug: secondaryTag.toLowerCase(), isPrimary: false },
+      select: {
+        id: true,
+        name: true,
+        slug: true,
+        icon: true,
+        color: true,
+        description: true,
       },
+    });
+
+    if (!secondaryTagData) {
+      throw new HttpNotFoundError('Secondary tag not found');
+    }
+
+    const skip = (page - 1) * quizLimit;
+    const where: Prisma.QuizWhereInput = {
+      status: 'published',
+      AND: [
+        { tags: { some: { tagId: primaryTagData.id } } },
+        { tags: { some: { tagId: secondaryTagData.id } } },
+      ],
     };
 
-    // If secondary tag is provided, add it to the conditions
-    if (secondaryTagId) {
-      const secondaryTag = await prisma.tag.findFirst({
-        where: { id: secondaryTagId, isPrimary: false },
-        select: {
-          id: true,
-          name: true,
-          slug: true,
-          icon: true,
-          color: true,
-          description: true,
+    // Get quizzes for specific secondary tag
+    const [quizzes, totalCount] = await Promise.all([
+      prisma.quiz.findMany({
+        where,
+        select: this.getQuizSelectFields(),
+        orderBy: { createdAt: 'desc' },
+        skip,
+        take: quizLimit,
+      }),
+      prisma.quiz.count({ where }),
+    ]);
+
+    return {
+      primaryTag: primaryTagData.slug,
+      groups: [
+        {
+          tag: secondaryTagData,
+          quizzes: this.formatQuizzesWithPlayCount(quizzes),
+          totalQuizzes: totalCount,
         },
-      });
+      ],
+      pagination: {
+        page,
+        limit: quizLimit,
+        totalCount,
+        totalPages: Math.ceil(totalCount / quizLimit),
+        hasNext: page < Math.ceil(totalCount / quizLimit),
+        hasPrev: page > 1,
+      },
+    };
+  }
 
-      if (!secondaryTag) {
-        throw new HttpNotFoundError('Secondary tag not found');
-      }
-
-      const skip = (page - 1) * limit;
-      const where = {
-        ...baseWhere,
-        tags: {
+  private async getQuizzesGroupedBySecondaryTags(
+    primaryTagData: any,
+    primaryTag: string,
+    page: number,
+    quizLimit: number,
+    groupLimit: number
+  ) {
+    // First, get all secondary tags associated with the primary tag, ordered by quiz count
+    const secondaryTagsWithCounts = await prisma.tag.findMany({
+      where: {
+        isPrimary: false,
+        quizzes: {
           some: {
-            tagId: {
-              in: [primaryTagId, secondaryTagId],
-            },
-          },
-        },
-      };
-
-      // Get quizzes for specific secondary tag
-      const [quizzes, totalCount] = await Promise.all([
-        prisma.quiz.findMany({
-          where,
-          select: {
-            id: true,
-            title: true,
-            description: true,
-            difficulty: true,
-            totalQuestions: true,
-            timeLimit: true,
-            createdAt: true,
-            user: {
-              select: {
-                username: true,
-              },
-            },
-            _count: {
-              select: {
-                hostingSessions: true,
-              },
-            },
-          },
-          orderBy: { createdAt: 'desc' },
-          skip,
-          take: limit,
-        }),
-        prisma.quiz.count({ where }),
-      ]);
-
-      return {
-        primaryTag,
-        groups: [
-          {
-            tag: secondaryTag,
-            quizzes: quizzes.map((quiz) => ({
-              ...quiz,
-              playCount: quiz._count.hostingSessions,
-              _count: undefined,
-            })),
-            totalQuizzes: totalCount,
-          },
-        ],
-        pagination: {
-          page,
-          limit,
-          totalCount,
-          totalPages: Math.ceil(totalCount / limit),
-          hasNext: page < Math.ceil(totalCount / limit),
-          hasPrev: page > 1,
-        },
-      };
-    } else {
-      // Get all secondary tags and their quizzes
-      const allQuizzes = await prisma.quiz.findMany({
-        where: baseWhere,
-        select: {
-          id: true,
-          title: true,
-          description: true,
-          difficulty: true,
-          totalQuestions: true,
-          timeLimit: true,
-          createdAt: true,
-          user: {
-            select: {
-              username: true,
-            },
-          },
-          tags: {
-            include: {
-              tag: {
-                select: {
-                  id: true,
-                  name: true,
-                  slug: true,
-                  icon: true,
-                  color: true,
-                  description: true,
-                  isPrimary: true,
+            quiz: {
+              status: 'published',
+              tags: {
+                some: {
+                  tagId: primaryTagData.id,
                 },
               },
             },
           },
-          _count: {
-            select: {
-              hostingSessions: true,
+        },
+      },
+      select: {
+        id: true,
+        name: true,
+        slug: true,
+        icon: true,
+        color: true,
+        description: true,
+        _count: {
+          select: {
+            quizzes: {
+              where: {
+                quiz: {
+                  status: 'published',
+                  tags: {
+                    some: {
+                      tagId: primaryTagData.id,
+                    },
+                  },
+                },
+              },
             },
           },
         },
-        orderBy: { createdAt: 'desc' },
-      });
-
-      // Group quizzes by secondary tags
-      const groupedQuizzes = new Map<
-        string,
-        {
-          tag: any;
-          quizzes: any[];
-          totalQuizzes: number;
-        }
-      >();
-
-      allQuizzes.forEach((quiz) => {
-        const secondaryTags = quiz.tags.filter(({ tag }) => !tag.isPrimary);
-
-        secondaryTags.forEach(({ tag }) => {
-          if (!groupedQuizzes.has(tag.id)) {
-            groupedQuizzes.set(tag.id, {
-              tag: {
-                id: tag.id,
-                name: tag.name,
-                slug: tag.slug,
-                icon: tag.icon,
-                color: tag.color,
-                description: tag.description,
-              },
-              quizzes: [],
-              totalQuizzes: 0,
-            });
-          }
-
-          const group = groupedQuizzes.get(tag.id) as any;
-
-          // Only add quiz if within pagination range for this group
-          if (group.quizzes.length < limit) {
-            group.quizzes.push({
-              ...quiz,
-              tags: undefined,
-              playCount: quiz._count.hostingSessions,
-              _count: undefined,
-            });
-          }
-          group.totalQuizzes++;
-        });
-      });
-
-      // Convert map to array and sort by quiz count
-      const groups = Array.from(groupedQuizzes.values()).sort(
-        (a, b) => b.totalQuizzes - a.totalQuizzes
-      );
-
-      return {
-        primaryTag,
-        groups,
-        pagination: {
-          page,
-          limit,
-          totalGroups: groups.length,
-          totalQuizzes: allQuizzes.length,
+      },
+      orderBy: {
+        quizzes: {
+          _count: 'desc',
         },
-      };
-    }
+      },
+    });
+
+    // Calculate pagination for groups (secondary tags)
+    const skip = (page - 1) * groupLimit;
+    const totalSecondaryTags = secondaryTagsWithCounts.length;
+    
+    // Apply pagination to secondary tags
+    const paginatedSecondaryTags = secondaryTagsWithCounts.slice(skip, skip + groupLimit);
+
+    // Now fetch quizzes for each paginated secondary tag
+    const groups = await Promise.all(
+      paginatedSecondaryTags.map(async (tag) => {
+        const baseWhere: Prisma.QuizWhereInput = {
+          status: 'published',
+          tags: {
+            some: {
+              tagId: primaryTagData.id,
+            },
+          },
+          AND: {
+            tags: {
+              some: {
+                tagId: tag.id,
+              },
+            },
+          },
+        };
+
+        const [quizzes, totalCount] = await Promise.all([
+          this.getQuizzesForTag(baseWhere, quizLimit),
+          prisma.quiz.count({ where: baseWhere }),
+        ]);
+
+        return {
+          tag: {
+            id: tag.id,
+            name: tag.name,
+            slug: tag.slug,
+            icon: tag.icon,
+            color: tag.color,
+            description: tag.description,
+          },
+          quizzes: this.formatQuizzesWithPlayCount(quizzes),
+          totalQuizzes: totalCount,
+        };
+      })
+    );
+
+    return {
+      primaryTag,
+      groups,
+      pagination: {
+        page,
+        limit: groupLimit, // Use groupLimit for pagination
+        totalGroups: totalSecondaryTags, // Total available secondary tag groups
+        totalPages: Math.ceil(totalSecondaryTags / groupLimit),
+        hasNext: page < Math.ceil(totalSecondaryTags / groupLimit),
+        hasPrev: page > 1,
+        totalQuizzes: groups.reduce((acc, g) => acc + g.totalQuizzes, 0),
+      },
+    };
+  }
+
+  private groupQuizzesBySecondaryTags(allQuizzes: any[], quizLimit: number) {
+    const groupedQuizzes = new Map<
+      string,
+      {
+        tag: any;
+        quizzes: any[];
+        totalQuizzes: number;
+      }
+    >();
+
+    allQuizzes.forEach((quiz) => {
+      const secondaryTags = quiz.tags.filter(({ tag }: any) => !tag.isPrimary);
+
+      secondaryTags.forEach(({ tag }: any) => {
+        if (!groupedQuizzes.has(tag.id)) {
+          groupedQuizzes.set(tag.id, {
+            tag: {
+              id: tag.id,
+              name: tag.name,
+              slug: tag.slug,
+              icon: tag.icon,
+              color: tag.color,
+              description: tag.description,
+            },
+            quizzes: [],
+            totalQuizzes: 0,
+          });
+        }
+
+        const group = groupedQuizzes.get(tag.id) as any;
+
+        // Only add quiz if within pagination range for this group
+        if (group.quizzes.length < quizLimit) {
+          group.quizzes.push({
+            ...quiz,
+            tags: undefined,
+            playCount: quiz._count.hostingSessions,
+            _count: undefined,
+          });
+        }
+        group.totalQuizzes++;
+      });
+    });
+
+    return groupedQuizzes;
+  }
+
+  private getQuizSelectFields() {
+    return {
+      id: true,
+      title: true,
+      imageUrl: true,
+      description: true,
+      difficulty: true,
+      totalQuestions: true,
+      timeLimit: true,
+      createdAt: true,
+      user: {
+        select: {
+          username: true,
+        },
+      },
+      _count: {
+        select: {
+          hostingSessions: true,
+        },
+      },
+    };
+  }
+
+  private async getQuizzesForTag(where: Prisma.QuizWhereInput, limit: number) {
+    return prisma.quiz.findMany({
+      where,
+      select: this.getQuizSelectFields(),
+      orderBy: { createdAt: 'desc' },
+      take: limit,
+    });
+  }
+
+  private formatQuizzesWithPlayCount(quizzes: any[]) {
+    return quizzes.map((quiz) => ({
+      ...quiz,
+      playCount: quiz._count.hostingSessions,
+      _count: undefined,
+    }));
   }
 
   public async getQuizzesByTags(

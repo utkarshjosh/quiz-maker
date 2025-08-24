@@ -1,0 +1,2476 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Atoms and Atom",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, denote, components. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the force that binds together protons and neutrons together and thus forms the atoms nucleus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Strong interaction"
+            },
+            {
+              "id": "1",
+              "text": "Electromagnetic force"
+            },
+            {
+              "id": "2",
+              "text": "Gravitation"
+            },
+            {
+              "id": "3",
+              "text": "Weak interaction"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Strong interaction"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When a hydrogen atom loses its electron it might form which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A proton"
+            },
+            {
+              "id": "1",
+              "text": "A neutron"
+            },
+            {
+              "id": "2",
+              "text": "A lepton"
+            },
+            {
+              "id": "3",
+              "text": "A quark"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A proton"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In physics and chemistry, which isotopes are considered stable?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Isotopes that are in a bond"
+            },
+            {
+              "id": "1",
+              "text": "Isotopes that are not radioactive"
+            },
+            {
+              "id": "2",
+              "text": "Isotopes in which the number of electrons, protons and neutrons is equal"
+            },
+            {
+              "id": "3",
+              "text": "Isotopes that do not form bonds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Isotopes that are not radioactive"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Super-heavy atoms, (or super heavy elements, often abbreviated SHE), are the elements with large atomic number (starting from 104), which occur only deep in the Earths mantle. They are very useful in the study of atoms structure and properties.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In chemistry and physics, what do we call free radicals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atoms free of electrons"
+            },
+            {
+              "id": "1",
+              "text": "Atoms not part of a molecule"
+            },
+            {
+              "id": "2",
+              "text": "Atoms with at least one unpaired electron"
+            },
+            {
+              "id": "3",
+              "text": "Atom freely floating in space"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Atoms with at least one unpaired electron"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In nuclear physics what is a radionuclide?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A nucleus separated from the atom by radioactive processes"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Two radioactive atoms in a molecule"
+            },
+            {
+              "id": "3",
+              "text": "An atom with an unstable nucleus characterized by excess energy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: An atom with an unstable nucleus characterized by excess energy"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following components of the atom is not considered an elementary particle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Proton"
+            },
+            {
+              "id": "1",
+              "text": "Quark"
+            },
+            {
+              "id": "2",
+              "text": "Electron"
+            },
+            {
+              "id": "3",
+              "text": "Gluon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Proton"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In atomic physics what does the term magnetic moment refer to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The moment in which an atom enters a magnetic field"
+            },
+            {
+              "id": "1",
+              "text": "A miniature slice of time in an atoms magnetic interaction with other particles"
+            },
+            {
+              "id": "2",
+              "text": "The magnetic field produced by an atom"
+            },
+            {
+              "id": "3",
+              "text": "The moment in which an atom becomes magnetized"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The magnetic field produced by an atom"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following cannot affect the energy levels of the electrons of an atom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Absorption of energy from light (photons)"
+            },
+            {
+              "id": "1",
+              "text": "Magnetic field"
+            },
+            {
+              "id": "2",
+              "text": "All of these can affect the energy levels"
+            },
+            {
+              "id": "3",
+              "text": "Mechanical collision between particles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these can affect the energy levels"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the term tornado family denote?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A family that had suffered damages caused by a tornado"
+            },
+            {
+              "id": "1",
+              "text": "A series of tornadoes"
+            },
+            {
+              "id": "2",
+              "text": "A class of tornadoes"
+            },
+            {
+              "id": "3",
+              "text": "Quarrelsome family"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A series of tornadoes"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In atomic physics, which atoms are called exotic atoms?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atoms that occur on other planets of the Solar System but not on Earth"
+            },
+            {
+              "id": "1",
+              "text": "Atoms in which a sub-atomic particle has been replaced by another particle of the same charge"
+            },
+            {
+              "id": "2",
+              "text": "Magnetized atoms"
+            },
+            {
+              "id": "3",
+              "text": "Atoms that occur on Earth naturally very rarely"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Atoms in which a sub-atomic particle has been replaced by another particle of the same charge"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the word tornado literally mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Devil"
+            },
+            {
+              "id": "1",
+              "text": "Death"
+            },
+            {
+              "id": "2",
+              "text": "Danger"
+            },
+            {
+              "id": "3",
+              "text": "Thunderstorm"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Thunderstorm"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For the purposes of their experiments how do physicists slow down atoms in order to study them better?",
+          "options": [
+            {
+              "id": "0",
+              "text": "With liquid nitrogen"
+            },
+            {
+              "id": "1",
+              "text": "By laser cooling"
+            },
+            {
+              "id": "2",
+              "text": "In special refrigerators"
+            },
+            {
+              "id": "3",
+              "text": "By bombarding them with micro particles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: By laser cooling"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How are the orbits in which the electrons of the atom reside called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Electron shells"
+            },
+            {
+              "id": "1",
+              "text": "Electron orbits"
+            },
+            {
+              "id": "2",
+              "text": "Electron paths"
+            },
+            {
+              "id": "3",
+              "text": "Electron circles"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Electron shells"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How is an atom having the valance of 1 called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nucleuid"
+            },
+            {
+              "id": "1",
+              "text": "Mono particle"
+            },
+            {
+              "id": "2",
+              "text": "Monotom"
+            },
+            {
+              "id": "3",
+              "text": "Monad"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Monad"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "denote",
+          "components",
+          "particle",
+          "levels",
+          "electrons"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Mercury and Tornado",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, mercury, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The vast majority of tornadoes in the world occur in the Tornado Alley region which is located in this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The United States"
+            },
+            {
+              "id": "1",
+              "text": "Indonesia"
+            },
+            {
+              "id": "2",
+              "text": "Mexico"
+            },
+            {
+              "id": "3",
+              "text": "Australia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The United States"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Calores Montes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a large crater on Mercury"
+            },
+            {
+              "id": "1",
+              "text": "a tall mountain on Mercury"
+            },
+            {
+              "id": "2",
+              "text": "a volcano on Mercury"
+            },
+            {
+              "id": "3",
+              "text": "a range of mountains on Mercury"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: a range of mountains on Mercury"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mercury is the densest major body in the solar system.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is a common myth concerning the damages caused by a tornado to a house?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Having trees and shrubs around the house will lessen the damages."
+            },
+            {
+              "id": "1",
+              "text": "Opening the windows will lessen the damages."
+            },
+            {
+              "id": "2",
+              "text": "Tornadoes spare houses painted in orange."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Opening the windows will lessen the damages."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress starred in the 1996 disaster movie Twister?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Meg Ryan"
+            },
+            {
+              "id": "1",
+              "text": "Helen Hunt"
+            },
+            {
+              "id": "2",
+              "text": "Jodie Foster"
+            },
+            {
+              "id": "3",
+              "text": "Michelle Pfeiffer"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Helen Hunt"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the common shape of large single-vortex tornadoes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Funnel tornadoes"
+            },
+            {
+              "id": "1",
+              "text": "Stovepipe tornadoes"
+            },
+            {
+              "id": "2",
+              "text": "Rope tornadoes"
+            },
+            {
+              "id": "3",
+              "text": "Wedge tornadoes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wedge tornadoes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What word is commonly used to refer to the central area of the tornado?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Eye"
+            },
+            {
+              "id": "2",
+              "text": "Heart"
+            },
+            {
+              "id": "3",
+              "text": "Navel"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eye"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the scale that is used to rate the intensity of tornadoes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dmitriev scale"
+            },
+            {
+              "id": "1",
+              "text": "Fujita scale"
+            },
+            {
+              "id": "2",
+              "text": "Richter scale"
+            },
+            {
+              "id": "3",
+              "text": "Saccitoni scale"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fujita scale"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mercurys maximum elongation is 32.2 degrees.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the tornado that occurred on March 18, 1925 and became the deadliest in U.S. history?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oklahoma City Tornado"
+            },
+            {
+              "id": "1",
+              "text": "Great Natchez Tornado"
+            },
+            {
+              "id": "2",
+              "text": "1896 St. Louis \u2013 East St. Louis tornado"
+            },
+            {
+              "id": "3",
+              "text": "Tri-State Tornado"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tri-State Tornado"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When does a transit of Mercury occur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "when the planet Mercury passes between the Earth and the Sun"
+            },
+            {
+              "id": "1",
+              "text": "when the planet Mercury has an object pass between it and the Earth"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "when the planet Mercury reaches maximum apparent distance from the Sun"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: when the planet Mercury passes between the Earth and the Sun"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The horse of what fictional hero is called Tornado?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don Quixote"
+            },
+            {
+              "id": "1",
+              "text": "Zorro"
+            },
+            {
+              "id": "2",
+              "text": "Don Juan"
+            },
+            {
+              "id": "3",
+              "text": "dArtagnan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Zorro"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "By what name was the closest planet to the Sun called by the Greeks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kokhav Hamah"
+            },
+            {
+              "id": "1",
+              "text": "Hermes"
+            },
+            {
+              "id": "2",
+              "text": "Hermaon"
+            },
+            {
+              "id": "3",
+              "text": "Mercury"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hermes"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Mercury have an atmosphere?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which probe became the first probe to visit Mercury in 1974?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mariner 8"
+            },
+            {
+              "id": "1",
+              "text": "Mariner 9"
+            },
+            {
+              "id": "2",
+              "text": "Mariner 10"
+            },
+            {
+              "id": "3",
+              "text": "Venera 11"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mariner 10"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "mercury",
+          "world",
+          "tornadoes",
+          "march",
+          "calores"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Planet Uranus and Planet",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, field, mercury. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Mercury have a magnetic field?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Uranus was renamed Urectum in what animated TV Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Futurama"
+            },
+            {
+              "id": "1",
+              "text": "The Simpsons"
+            },
+            {
+              "id": "2",
+              "text": "The Family Guy"
+            },
+            {
+              "id": "3",
+              "text": "American Dad"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Futurama"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What important advantage does algal fuel possess?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is relatively environmentally harmless."
+            },
+            {
+              "id": "1",
+              "text": "It is biodegradable."
+            },
+            {
+              "id": "2",
+              "text": "It produces much more energy than second-generation biofuel crops."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kelp ash is used in the production of which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Plastic"
+            },
+            {
+              "id": "1",
+              "text": "Glass"
+            },
+            {
+              "id": "2",
+              "text": "Rubber"
+            },
+            {
+              "id": "3",
+              "text": "Teflon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Glass"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the largest of Uranus moons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titania."
+            },
+            {
+              "id": "1",
+              "text": "Miranda."
+            },
+            {
+              "id": "2",
+              "text": "Ariel."
+            },
+            {
+              "id": "3",
+              "text": "Oberon."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Titania."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Uranus has only 10 moons.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the Japanese dried seaweed sheets used in the preparation of sushi?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Onigiri"
+            },
+            {
+              "id": "1",
+              "text": "Sashimi"
+            },
+            {
+              "id": "2",
+              "text": "Yakisoba"
+            },
+            {
+              "id": "3",
+              "text": "Nori"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nori"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why will worms not live in seaweed fertilizer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Because it contains antibiotics that repulse them"
+            },
+            {
+              "id": "1",
+              "text": "Because of its high salt content"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Because it is acidic"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Because of its high salt content"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many separate rings does the planet Uranus have according to observations made with the Hubble Space Telescope in 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7 rings"
+            },
+            {
+              "id": "1",
+              "text": "Uranus does not have any rings."
+            },
+            {
+              "id": "2",
+              "text": "13 rings"
+            },
+            {
+              "id": "3",
+              "text": "5 rings"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 13 rings"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What element comprises the bulk of Uranus atmosphere?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ozone"
+            },
+            {
+              "id": "1",
+              "text": "Carbon Dioxide"
+            },
+            {
+              "id": "2",
+              "text": "Hydrogen"
+            },
+            {
+              "id": "3",
+              "text": "Helium"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hydrogen"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many years does it take for the planet Uranus to orbit the Sun once?",
+          "options": [
+            {
+              "id": "0",
+              "text": "104"
+            },
+            {
+              "id": "1",
+              "text": "64"
+            },
+            {
+              "id": "2",
+              "text": "84"
+            },
+            {
+              "id": "3",
+              "text": "44"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 84"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the 1962 film about the planet Uranus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Meet me on Uranus"
+            },
+            {
+              "id": "1",
+              "text": "Journey to the Seventh Planet"
+            },
+            {
+              "id": "2",
+              "text": "Escaping the Blue Planet"
+            },
+            {
+              "id": "3",
+              "text": "I Love Uranus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Journey to the Seventh Planet"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the first spacecraft to study the planet Uranus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pioneer 11"
+            },
+            {
+              "id": "1",
+              "text": "Pioneer 10"
+            },
+            {
+              "id": "2",
+              "text": "Voyager 2"
+            },
+            {
+              "id": "3",
+              "text": "Voyager 1"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Voyager 2"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Mercurys spin-orbit resonance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1:1"
+            },
+            {
+              "id": "1",
+              "text": "8:5"
+            },
+            {
+              "id": "2",
+              "text": "3:4"
+            },
+            {
+              "id": "3",
+              "text": "3:2"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3:2"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the planet Uranus named after?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Egyptian god of the sky"
+            },
+            {
+              "id": "1",
+              "text": "The Roman god of the sky"
+            },
+            {
+              "id": "2",
+              "text": "The Greek god of the sky"
+            },
+            {
+              "id": "3",
+              "text": "The Babylonian god of the sky"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Greek god of the sky"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "field",
+          "mercury",
+          "advantage",
+          "kelp",
+          "tv"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Charles Darwin and Charles Darwins",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, condition, algae. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Charles Darwins second son and fifth child, who became a prominent astronomer and mathematician?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leonard Darwin"
+            },
+            {
+              "id": "1",
+              "text": "George Howard Darwin"
+            },
+            {
+              "id": "2",
+              "text": "Francis Darwin"
+            },
+            {
+              "id": "3",
+              "text": "William Erasmus Darwin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George Howard Darwin"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Charles Darwin was neglecting his studies at the University of Edinburgh, so his father sent him to Cambridge to get a Bachelor of Art degree, as the first step towards what profession?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Teacher"
+            },
+            {
+              "id": "1",
+              "text": "Medical doctor"
+            },
+            {
+              "id": "2",
+              "text": "Priest"
+            },
+            {
+              "id": "3",
+              "text": "Artist"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Priest"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What name is commonly used to refer to the edible seaweed Caulerpa lentillifera, also known as sea grapes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marine eggs"
+            },
+            {
+              "id": "1",
+              "text": "Green caviar"
+            },
+            {
+              "id": "2",
+              "text": "Sea corn"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Green caviar"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What medical condition is the chlorella algae beneficial for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "High cholesterol levels"
+            },
+            {
+              "id": "2",
+              "text": "Radiation exposure"
+            },
+            {
+              "id": "3",
+              "text": "High blood pressure"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Charles Darwin disgusted with while in Brazil during the second voyage of HMS Beagle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Racism"
+            },
+            {
+              "id": "1",
+              "text": "Slavery"
+            },
+            {
+              "id": "2",
+              "text": "Animal sacrifices"
+            },
+            {
+              "id": "3",
+              "text": "Live animal skinning"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Slavery"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What important mineral is sea lettuce especially rich in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Iron"
+            },
+            {
+              "id": "1",
+              "text": "Magnesium"
+            },
+            {
+              "id": "2",
+              "text": "Copper"
+            },
+            {
+              "id": "3",
+              "text": "Potassium"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Iron"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Marine algae may have this effect on the human body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Laxative effect"
+            },
+            {
+              "id": "2",
+              "text": "May act as opiates"
+            },
+            {
+              "id": "3",
+              "text": "Increase the cholesterol levels"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Laxative effect"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about Charles Darwins wife, Emma Wedgwood?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was Charles second cousin"
+            },
+            {
+              "id": "1",
+              "text": "She was two years older than Charles"
+            },
+            {
+              "id": "2",
+              "text": "She was known for her charity work"
+            },
+            {
+              "id": "3",
+              "text": "She was quick-tempered and often argued with her husband"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: She was known for her charity work"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The edible seaweed Irish moss contains this essential mineral used in the prevention and treatment of goiter.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Potassium"
+            },
+            {
+              "id": "1",
+              "text": "Calcium"
+            },
+            {
+              "id": "2",
+              "text": "Iodine"
+            },
+            {
+              "id": "3",
+              "text": "Sulfur"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Iodine"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What process does the edible seaweed called Wakame accelerate according to studies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Healing of wounds"
+            },
+            {
+              "id": "1",
+              "text": "Cell growth"
+            },
+            {
+              "id": "2",
+              "text": "Burning of fat"
+            },
+            {
+              "id": "3",
+              "text": "Delivery of the baby"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Burning of fat"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Charles Darwin had a passion for this popular hobby, which was introduced to him by his cousin William Darwin Fox.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Collecting herbs"
+            },
+            {
+              "id": "1",
+              "text": "Collecting beetles"
+            },
+            {
+              "id": "2",
+              "text": "Painting"
+            },
+            {
+              "id": "3",
+              "text": "Fowling"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Collecting beetles"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country did Charles Darwin experience an earthquake, leading him to form a theory on the movements of the Earths crust?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "South Africa"
+            },
+            {
+              "id": "3",
+              "text": "Chile"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chile"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the supposed reason for Charles Darwins health problems that started in 1837?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Allergy"
+            },
+            {
+              "id": "1",
+              "text": "Depression"
+            },
+            {
+              "id": "2",
+              "text": "A mysterious disease that he caught during his first voyage"
+            },
+            {
+              "id": "3",
+              "text": "Overwork"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Overwork"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Charles Darwin major in at the University of Edinburgh where he joined his older brother in October 1825?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Geography"
+            },
+            {
+              "id": "1",
+              "text": "Natural history"
+            },
+            {
+              "id": "2",
+              "text": "Marine biology"
+            },
+            {
+              "id": "3",
+              "text": "Medicine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Medicine"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Charles Darwin and his wife Emma survived the death of this child of theirs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charles Waring Darwin"
+            },
+            {
+              "id": "1",
+              "text": "Mary Eleanor Darwin"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Anne Elizabeth Darwin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "condition",
+          "algae",
+          "process",
+          "brazil",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Depression and Type",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, people, mood. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Alchemists were in search of \u2018panacea\u2019. What is panacea?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The meaning of life"
+            },
+            {
+              "id": "1",
+              "text": "Remedy for all ailments"
+            },
+            {
+              "id": "2",
+              "text": "The Holy Grail"
+            },
+            {
+              "id": "3",
+              "text": "A piece of Jesus Christ\u2019s cross"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Remedy for all ailments"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the best location to exercise in order to fight depression according to studies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In a gym"
+            },
+            {
+              "id": "1",
+              "text": "In the bathroom"
+            },
+            {
+              "id": "2",
+              "text": "In your home"
+            },
+            {
+              "id": "3",
+              "text": "Outdoors"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Outdoors"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What mineral present in some mineral waters is used as a cure for different types of depression?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Copper"
+            },
+            {
+              "id": "1",
+              "text": "Aluminium"
+            },
+            {
+              "id": "2",
+              "text": "Vanadium"
+            },
+            {
+              "id": "3",
+              "text": "Lithium"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lithium"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Listening to what type of music is recommended for people who suffer from mood disorders?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Loud music"
+            },
+            {
+              "id": "1",
+              "text": "Soft music"
+            },
+            {
+              "id": "2",
+              "text": "Jazz"
+            },
+            {
+              "id": "3",
+              "text": "Rock and roll"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Soft music"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What natural therapy works best for seasonal depression and low moods due to sleep deprivation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Water therapy"
+            },
+            {
+              "id": "1",
+              "text": "Bright light therapy"
+            },
+            {
+              "id": "2",
+              "text": "Aromatherapy"
+            },
+            {
+              "id": "3",
+              "text": "Massage"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bright light therapy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bathing in what type of water is proven to battle depression and enhance the mood?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hot water"
+            },
+            {
+              "id": "1",
+              "text": "Mineral water"
+            },
+            {
+              "id": "2",
+              "text": "Cold water"
+            },
+            {
+              "id": "3",
+              "text": "Water with temperature close to that of the human body"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cold water"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the special magic power of the philosophers stone that alchemists were searching for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It would bring them luck and happiness."
+            },
+            {
+              "id": "1",
+              "text": "It would grant them eternal life."
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "It would give them unprecedented knowledge."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It would give them unprecedented knowledge."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What fields did the science of alchemy originally combine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Metallurgy and astrology"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Chemistry and medicine"
+            },
+            {
+              "id": "3",
+              "text": "Art and physics"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these substances and minerals is not effective in the treatment of depression?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sodium"
+            },
+            {
+              "id": "1",
+              "text": "Zinc"
+            },
+            {
+              "id": "2",
+              "text": "Magnesium"
+            },
+            {
+              "id": "3",
+              "text": "Dopamine"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sodium"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What impressive physical characteristic did Charles Darwin possess, which made the Bank of England use his image for the ten pound note in 2000?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Distinctive eyes"
+            },
+            {
+              "id": "1",
+              "text": "Very big ears"
+            },
+            {
+              "id": "2",
+              "text": "Unique nose"
+            },
+            {
+              "id": "3",
+              "text": "Large beard"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Large beard"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What animals are used in the treatment of mood disorders such as depression?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Parrots"
+            },
+            {
+              "id": "1",
+              "text": "Dolphins"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Dogs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What spice possesses antidepressant properties?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saffron"
+            },
+            {
+              "id": "1",
+              "text": "Black pepper"
+            },
+            {
+              "id": "2",
+              "text": "Chilli"
+            },
+            {
+              "id": "3",
+              "text": "Nutmeg"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Saffron"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of food is rich in tryptophan, and therefore prevents and cures depression?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nuts"
+            },
+            {
+              "id": "1",
+              "text": "Dairy"
+            },
+            {
+              "id": "2",
+              "text": "Meat"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What element was usually the subject of transformation in alchemy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Copper"
+            },
+            {
+              "id": "1",
+              "text": "Lead"
+            },
+            {
+              "id": "2",
+              "text": "Lithium"
+            },
+            {
+              "id": "3",
+              "text": "Tin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lead"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of fish contains the valuable Omega-3 fatty acids, proven to fight depression and improve overall health?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marine fish"
+            },
+            {
+              "id": "1",
+              "text": "Bony fish"
+            },
+            {
+              "id": "2",
+              "text": "Cartilaginous fish"
+            },
+            {
+              "id": "3",
+              "text": "Cold-water fish"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cold-water fish"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "people",
+          "mood",
+          "cure",
+          "food",
+          "spice"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Earth and Period",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, jupiter, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mars lower density and size gives it a mass about how much that of Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1/6"
+            },
+            {
+              "id": "1",
+              "text": "1/8"
+            },
+            {
+              "id": "2",
+              "text": "1/2"
+            },
+            {
+              "id": "3",
+              "text": "1/10"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1/10"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the word \u2018alchemy\u2019 generally believed to mean literally?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The art of transformation"
+            },
+            {
+              "id": "1",
+              "text": "All in one"
+            },
+            {
+              "id": "2",
+              "text": "All is possible"
+            },
+            {
+              "id": "3",
+              "text": "The transfusion of matter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The art of transformation"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The earliest evidence of animal life comes from this period.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vendian"
+            },
+            {
+              "id": "1",
+              "text": "Cambrian"
+            },
+            {
+              "id": "2",
+              "text": "Ordovician"
+            },
+            {
+              "id": "3",
+              "text": "Carboniferous"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vendian"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the only mass extinction in which insects were affected?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cretaceous/Paleogene event"
+            },
+            {
+              "id": "1",
+              "text": "Ordovician/Silurian event"
+            },
+            {
+              "id": "2",
+              "text": "Triassic/Jurassic event"
+            },
+            {
+              "id": "3",
+              "text": "Permian/Triassic event"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Permian/Triassic event"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If I weighed 100 pounds(45.5 Kilograms) on Earth, about how much would I weigh on Mars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "90.7 Pounds(41.2 Kilograms)"
+            },
+            {
+              "id": "1",
+              "text": "48.6 Pounds(22.1 Kilograms)"
+            },
+            {
+              "id": "2",
+              "text": "37.7 Pounds(17.1 Kilograms)"
+            },
+            {
+              "id": "3",
+              "text": "88.9 Pounds(40.4 Kilograms)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 37.7 Pounds(17.1 Kilograms)"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mars moon Deimos orbits the closest to its planet of any moon in the Solar System.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jupiter is the fourth brightest object in the sky.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the author of the 1988 book \u2018The Alchemist\u2019?",
+          "options": [
+            {
+              "id": "0",
+              "text": "J. K. Rowling"
+            },
+            {
+              "id": "1",
+              "text": "Umberto Eco"
+            },
+            {
+              "id": "2",
+              "text": "Terry Pratchett"
+            },
+            {
+              "id": "3",
+              "text": "Paulo Coehlo"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Paulo Coehlo"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these orders the terrestrial planets from smallest to largest by diameter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars, Mercury, Earth, Venus"
+            },
+            {
+              "id": "1",
+              "text": "Mercury, Mars, Venus, Earth"
+            },
+            {
+              "id": "2",
+              "text": "Venus, Mercury, Mars, Earth"
+            },
+            {
+              "id": "3",
+              "text": "Mars, Mercury, Venus, Earth"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mercury, Mars, Venus, Earth"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did alchemists associate the planets with?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Women"
+            },
+            {
+              "id": "1",
+              "text": "Animals"
+            },
+            {
+              "id": "2",
+              "text": "Metals"
+            },
+            {
+              "id": "3",
+              "text": "Dreams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Metals"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Early amphibians such as Icthyostega evolved during what geological period?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Silurian"
+            },
+            {
+              "id": "1",
+              "text": "Carboniferous"
+            },
+            {
+              "id": "2",
+              "text": "Permian"
+            },
+            {
+              "id": "3",
+              "text": "Devonian"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Devonian"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what Asian country did one of the two main branches of alchemy originate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "India"
+            },
+            {
+              "id": "1",
+              "text": "Saudi Arabia"
+            },
+            {
+              "id": "2",
+              "text": "China"
+            },
+            {
+              "id": "3",
+              "text": "Japan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Until what century was alchemy considered a serious science in Europe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14th century"
+            },
+            {
+              "id": "1",
+              "text": "13th century"
+            },
+            {
+              "id": "2",
+              "text": "18th  century"
+            },
+            {
+              "id": "3",
+              "text": "16th century"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 16th century"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Arthropods were the largest animals on Earth during the Silurian period (443ma-417ma).",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What scientist is believed to have been the first true alchemist in Medieval Europe, as well as the most significant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Isaac Newton"
+            },
+            {
+              "id": "1",
+              "text": "Roger Bacon"
+            },
+            {
+              "id": "2",
+              "text": "Thomas Aquinas"
+            },
+            {
+              "id": "3",
+              "text": "Galileo Galilei"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Roger Bacon"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "jupiter",
+          "country",
+          "period",
+          "evidence",
+          "density"
+        ]
+      }
+    }
+  ]
+}

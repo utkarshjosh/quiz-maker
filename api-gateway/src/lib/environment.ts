@@ -23,7 +23,7 @@ class Environment implements IEnvironment {
   private _appUrl: string;
 
   constructor() {
-    this.port = +process.env.PORT ?? appConfig.defaultPort;
+    this.port = parseInt(process.env.PORT ?? appConfig.defaultPort.toString());
     this.setEnvironment(process.env.NODE_ENV ?? Environments.DEV);
   }
 

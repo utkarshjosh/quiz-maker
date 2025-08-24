@@ -1,0 +1,2484 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Team and Cowboys",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, college, heisman. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Cowboys had the first selection in the 1974 draft. Who did they take?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tony Dorsett"
+            },
+            {
+              "id": "1",
+              "text": "Thomas Henderson"
+            },
+            {
+              "id": "2",
+              "text": "Ed Too Tall  Jones"
+            },
+            {
+              "id": "3",
+              "text": "Randy White"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ed Too Tall  Jones"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Roger Staubach win the Heisman Trophy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1963"
+            },
+            {
+              "id": "1",
+              "text": "1962"
+            },
+            {
+              "id": "2",
+              "text": "1965"
+            },
+            {
+              "id": "3",
+              "text": "1964"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1963"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many innings are in a Little League baseball game, excluding extra innings?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "7"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 6"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For what team did Tony Dorsett play after he left the Cowboys?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Houston Oilers"
+            },
+            {
+              "id": "1",
+              "text": "Minnesota Vikings"
+            },
+            {
+              "id": "2",
+              "text": "Pittsburgh Steelers"
+            },
+            {
+              "id": "3",
+              "text": "Denver Broncos"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Denver Broncos"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many games are in a Major League Baseball season per team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "155"
+            },
+            {
+              "id": "1",
+              "text": "162"
+            },
+            {
+              "id": "2",
+              "text": "160"
+            },
+            {
+              "id": "3",
+              "text": "170"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 162"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Has wrestler Bret Hart been inducted in the WWE Hall of Fame?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Troy Aikman graduated from UCLA, but where did he begin his college career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miami"
+            },
+            {
+              "id": "1",
+              "text": "Stanford"
+            },
+            {
+              "id": "2",
+              "text": "Oklahoma"
+            },
+            {
+              "id": "3",
+              "text": "Texas"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oklahoma"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In professional wrestling, the high side thrust kick, often used by Shawn Michaels as a finishing move, is also known by what name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leg Drop"
+            },
+            {
+              "id": "1",
+              "text": "Sweet Chin Music"
+            },
+            {
+              "id": "2",
+              "text": "Batista Bomb"
+            },
+            {
+              "id": "3",
+              "text": "5 Star"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sweet Chin Music"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did Hank Aaron wear for the Atlanta Braves?",
+          "options": [
+            {
+              "id": "0",
+              "text": "26"
+            },
+            {
+              "id": "1",
+              "text": "44"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "15"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 44"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Major League Baseball, first and second bases are this far apart.",
+          "options": [
+            {
+              "id": "0",
+              "text": "85"
+            },
+            {
+              "id": "1",
+              "text": "95"
+            },
+            {
+              "id": "2",
+              "text": "90"
+            },
+            {
+              "id": "3",
+              "text": "93"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 90"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these people founded the World Wrestling Entertainment, Inc?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hulk Hogan"
+            },
+            {
+              "id": "1",
+              "text": "Shane McHamon"
+            },
+            {
+              "id": "2",
+              "text": "Vincent McMahon"
+            },
+            {
+              "id": "3",
+              "text": "Ric Flair"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vincent McMahon"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "RAW wrestling star Kurt Angle was shaved on stage after a match with Edge in 2002.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This team moved to Detroit in 1957. It was founded by Fred Zollner in 1940.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Knicks"
+            },
+            {
+              "id": "1",
+              "text": "Warriors"
+            },
+            {
+              "id": "2",
+              "text": "Pistons"
+            },
+            {
+              "id": "3",
+              "text": "Lakers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pistons"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Professional wrestler Ric Flair was once manager of the WWEs RAW brand.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many home runs did Hank Aaron hit in his career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "609"
+            },
+            {
+              "id": "1",
+              "text": "625"
+            },
+            {
+              "id": "2",
+              "text": "750"
+            },
+            {
+              "id": "3",
+              "text": "755"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 755"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "college",
+          "heisman",
+          "people",
+          "world",
+          "star"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Player and Detroit Pistons",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, suns, college. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This European player was drafted in 2001 by the San Antonio Spurs. He became the youngest player ever to appear in a game with the Spurs making his NBA debut at 19 years old.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tony Parker"
+            },
+            {
+              "id": "1",
+              "text": "Vlade Divac"
+            },
+            {
+              "id": "2",
+              "text": "Peja Stojakovic"
+            },
+            {
+              "id": "3",
+              "text": "Raul Lopez"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tony Parker"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Cowboys were originally called the Dallas Texans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was drafted in 2002 by Phoenix Suns, right after Nikoloz Tskitishvili , Dajuan Wagner, Nene, and Chris Wilcox.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shawn Kemp"
+            },
+            {
+              "id": "1",
+              "text": "LeBron James"
+            },
+            {
+              "id": "2",
+              "text": "Jason Kidd"
+            },
+            {
+              "id": "3",
+              "text": "Amare Stoudemire"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Amare Stoudemire"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rashard Lewis was the 3rd pick in 1998.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1986 Detroit Pistons had great luck- they made two good draft picks. One of them was John Salley and the other was the 27th selected player.",
+          "options": [
+            {
+              "id": "0",
+              "text": "LeBron James"
+            },
+            {
+              "id": "1",
+              "text": "Vlade Divac"
+            },
+            {
+              "id": "2",
+              "text": "Dennis Rodman"
+            },
+            {
+              "id": "3",
+              "text": "Chris Webber"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dennis Rodman"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was selected by the Phoenix Suns in the first round (15th pick overall) of the 1996 NBA Draft.  In 2005 he was awarded MVP (most valuable player).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carmelo Anthony"
+            },
+            {
+              "id": "1",
+              "text": "Karl Malone"
+            },
+            {
+              "id": "2",
+              "text": "Kobe Bryant"
+            },
+            {
+              "id": "3",
+              "text": "Steve Nash"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Steve Nash"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these players won the Super Bowl MVP despite his teams loss?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roger Staubach"
+            },
+            {
+              "id": "1",
+              "text": "Harvey Martin"
+            },
+            {
+              "id": "2",
+              "text": "Randy White"
+            },
+            {
+              "id": "3",
+              "text": "Chuck Howley"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chuck Howley"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player was drafted in 1962 by the Celtics. He is also known as Hondo.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maurice Cheeks"
+            },
+            {
+              "id": "1",
+              "text": "Jonh Havlicek"
+            },
+            {
+              "id": "2",
+              "text": "Peja Sojakovich"
+            },
+            {
+              "id": "3",
+              "text": "Sam Jones"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jonh Havlicek"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Cowboys won the Super Bowl XII MVP trophy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harvey Martin"
+            },
+            {
+              "id": "1",
+              "text": "Tony Dorsett"
+            },
+            {
+              "id": "2",
+              "text": "Duane Thomas"
+            },
+            {
+              "id": "3",
+              "text": "Michael Irvin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Harvey Martin"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although this player was the 36th selected player drafted by the Philadelphia 76ers in 1978, he turned out to be the best point guard drafted that year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerome James"
+            },
+            {
+              "id": "1",
+              "text": "Maurice Cheeks"
+            },
+            {
+              "id": "2",
+              "text": "Butch Lee"
+            },
+            {
+              "id": "3",
+              "text": "Butch Lee"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Maurice Cheeks"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Before they were the L.A. Lakers, they played in this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Denver"
+            },
+            {
+              "id": "1",
+              "text": "Milwaukee"
+            },
+            {
+              "id": "2",
+              "text": "Minneapolis"
+            },
+            {
+              "id": "3",
+              "text": "Cincinnati"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Minneapolis"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player was the 31st selected in 2001 draft by the Golden State Warriors.  He and Jamison was chossen to represent the Washington Wizards at the 2005 NBA All-Star Game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carmelo Anthony"
+            },
+            {
+              "id": "1",
+              "text": "Ben Gordon"
+            },
+            {
+              "id": "2",
+              "text": "Vlade Divac"
+            },
+            {
+              "id": "3",
+              "text": "Gilbert Arenas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gilbert Arenas"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chicago Bulls drafted this player in 1984, who is probably the best in the NBA ever. He played his final game on April 16, 2003.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shaquille ONeal"
+            },
+            {
+              "id": "1",
+              "text": "Magic Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Kevin Garnett"
+            },
+            {
+              "id": "3",
+              "text": "Michael Jordan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Jordan"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although he wasnt the best player on his college team, he became an All-Star player in his fifth season. Detroit Pistons drafted him in 1971.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roko Ukic"
+            },
+            {
+              "id": "1",
+              "text": "Curtis Rowe"
+            },
+            {
+              "id": "2",
+              "text": "Ben Gordon"
+            },
+            {
+              "id": "3",
+              "text": "Jackson Vroman"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Curtis Rowe"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Before they were the Detroit Pistons, the Pistons played in this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gary, Indiana"
+            },
+            {
+              "id": "1",
+              "text": "Louisville, Kentucky"
+            },
+            {
+              "id": "2",
+              "text": "Ft. Wayne, Indiana"
+            },
+            {
+              "id": "3",
+              "text": "Cincinnati, Ohio"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ft. Wayne, Indiana"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "suns",
+          "college",
+          "dallas",
+          "players",
+          "pistons"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Team and Football",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, atlanta, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the original home to the NFL Rams?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cincinnati, OH"
+            },
+            {
+              "id": "1",
+              "text": "Canton, OH"
+            },
+            {
+              "id": "2",
+              "text": "L.A., CA"
+            },
+            {
+              "id": "3",
+              "text": "Cleveland, OH"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cleveland, OH"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These are the only two original NBA teams that never  moved.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Warriors and Bulls"
+            },
+            {
+              "id": "1",
+              "text": "Bulls and Celtics"
+            },
+            {
+              "id": "2",
+              "text": "Knicks and Celtics"
+            },
+            {
+              "id": "3",
+              "text": "Warriors and Knicks"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Knicks and Celtics"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where were the NBA Hawks located, before moving to Atlanta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rochester, NY"
+            },
+            {
+              "id": "1",
+              "text": "Syracuse, NY"
+            },
+            {
+              "id": "2",
+              "text": "Cincinnati, OH"
+            },
+            {
+              "id": "3",
+              "text": "St. Louis,MO"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: St. Louis,MO"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To which city do the Sacramento Kings trace their origins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Washington, DC"
+            },
+            {
+              "id": "1",
+              "text": "Pittsburgh, PA"
+            },
+            {
+              "id": "2",
+              "text": "Louisville, KY"
+            },
+            {
+              "id": "3",
+              "text": "Rochester, NY"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rochester, NY"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where were the Dodgers playing before they moved to L.A.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Newark, NJ"
+            },
+            {
+              "id": "1",
+              "text": "Sacramento, CA"
+            },
+            {
+              "id": "2",
+              "text": "Brooklyn, NY"
+            },
+            {
+              "id": "3",
+              "text": "Washington, DC"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Brooklyn, NY"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This team, nicknamed The Hurricanes, won three NCAA Football Titles in the 1980s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miami"
+            },
+            {
+              "id": "1",
+              "text": "Oklahoma"
+            },
+            {
+              "id": "2",
+              "text": "Penn State"
+            },
+            {
+              "id": "3",
+              "text": "Notre Dame"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Miami"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to Dickinson poll, in 1928 this football team, coached by Howard Jones, won its first national title.",
+          "options": [
+            {
+              "id": "0",
+              "text": "LSU"
+            },
+            {
+              "id": "1",
+              "text": "USC"
+            },
+            {
+              "id": "2",
+              "text": "BYU"
+            },
+            {
+              "id": "3",
+              "text": "Yale"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: USC"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This team won the 2005 NCAA Football Championship, lead by head coach Mack Brown",
+          "options": [
+            {
+              "id": "0",
+              "text": "Notre Dame"
+            },
+            {
+              "id": "1",
+              "text": "Texas"
+            },
+            {
+              "id": "2",
+              "text": "LSU"
+            },
+            {
+              "id": "3",
+              "text": "USC"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Texas"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did the Philadelphia Eagles use to play?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rochest, NY"
+            },
+            {
+              "id": "1",
+              "text": "Pittsburgh and Philadelphia"
+            },
+            {
+              "id": "2",
+              "text": "Cincinnati, OH"
+            },
+            {
+              "id": "3",
+              "text": "Canton, OH"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pittsburgh and Philadelphia"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This team, with head coach Tom Osborne, won the most NCAA football Championships in the 1990s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tennessee"
+            },
+            {
+              "id": "1",
+              "text": "Nebraska"
+            },
+            {
+              "id": "2",
+              "text": "Florida"
+            },
+            {
+              "id": "3",
+              "text": "Florida State"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nebraska"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did the San Francisco Giants play before San Francisco?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Washington, DC"
+            },
+            {
+              "id": "1",
+              "text": "Buffalo, NY"
+            },
+            {
+              "id": "2",
+              "text": "Atlanta, GA"
+            },
+            {
+              "id": "3",
+              "text": "New York, NY"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New York, NY"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This team won the 1994 NCAA Division I-A national football championship. The motto of the team is: Not the victory but the action. Not the goal but the game. In the deed the glory.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nebraska"
+            },
+            {
+              "id": "1",
+              "text": "Oklahoma"
+            },
+            {
+              "id": "2",
+              "text": "Ohio State"
+            },
+            {
+              "id": "3",
+              "text": "Florida St"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nebraska"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1958, this team shared their first title from NCAA Division I-A national football championship with Iowa.",
+          "options": [
+            {
+              "id": "0",
+              "text": "LSU"
+            },
+            {
+              "id": "1",
+              "text": "Army"
+            },
+            {
+              "id": "2",
+              "text": "BYU"
+            },
+            {
+              "id": "3",
+              "text": "Florida"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: LSU"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1927 this Ivy League team won the NCAA Division I-A national football championship.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harvard"
+            },
+            {
+              "id": "1",
+              "text": "Army"
+            },
+            {
+              "id": "2",
+              "text": "Princeton"
+            },
+            {
+              "id": "3",
+              "text": "Yale"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Yale"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did the Atlanta Braves team originate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boston"
+            },
+            {
+              "id": "1",
+              "text": "They were always in Atlanta"
+            },
+            {
+              "id": "2",
+              "text": "Sacramento"
+            },
+            {
+              "id": "3",
+              "text": "Milwaukee"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Boston"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "atlanta",
+          "title",
+          "sacramento",
+          "coach",
+          "rams"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Nickname and Team",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, john, carolina. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1967 NFL Championship Game Green Bay beat Dallas 21-17. Which nickname is attached to this game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Long Fourth-Quarter Game"
+            },
+            {
+              "id": "1",
+              "text": "The Ice Bowl"
+            },
+            {
+              "id": "2",
+              "text": "The One -Quarter Game"
+            },
+            {
+              "id": "3",
+              "text": "The First Super Bowl"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Ice Bowl"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which American university has chosen the spider as its official mascot?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Richmond"
+            },
+            {
+              "id": "1",
+              "text": "Boston College"
+            },
+            {
+              "id": "2",
+              "text": "University of Rhode Island"
+            },
+            {
+              "id": "3",
+              "text": "Valipariaso"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: University of Richmond"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these teams won their first Super Bowl in 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atlanta"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Seattle"
+            },
+            {
+              "id": "3",
+              "text": "Cincinnati"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the nickname of the University of Tennessees teams?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hokies"
+            },
+            {
+              "id": "1",
+              "text": "Terrapins"
+            },
+            {
+              "id": "2",
+              "text": "Crimsom Tide"
+            },
+            {
+              "id": "3",
+              "text": "Volunteers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Volunteers"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Boilermakers is the nickname of which American university?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Michigan"
+            },
+            {
+              "id": "1",
+              "text": "Indiana State University"
+            },
+            {
+              "id": "2",
+              "text": "Northwestern University"
+            },
+            {
+              "id": "3",
+              "text": "Purdue University"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Purdue University"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won the 1940 National Football League Championship Game with 73-0?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Giants"
+            },
+            {
+              "id": "1",
+              "text": "Oakland Raiders"
+            },
+            {
+              "id": "2",
+              "text": "Washington Redskins"
+            },
+            {
+              "id": "3",
+              "text": "Chicago Bears"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago Bears"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which championship game was called The Greatest Game Ever Played and was the first  championship game to go into overtime?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The 1983 Championship Game"
+            },
+            {
+              "id": "1",
+              "text": "The 1974 Championship Game"
+            },
+            {
+              "id": "2",
+              "text": "The 1990 Championship Game"
+            },
+            {
+              "id": "3",
+              "text": "The 1958 Championship Game"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The 1958 Championship Game"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the nickname of North Carolina and of the University of North Carolina at Chapel Hill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hoyas"
+            },
+            {
+              "id": "1",
+              "text": "Buckeyes"
+            },
+            {
+              "id": "2",
+              "text": "Tar Heels"
+            },
+            {
+              "id": "3",
+              "text": "Bruins"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tar Heels"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This team, led by head coach James Tressel,  won the 2002 NCAA championship, beating Miami in overtime.",
+          "options": [
+            {
+              "id": "0",
+              "text": "USC"
+            },
+            {
+              "id": "1",
+              "text": "Ohio State"
+            },
+            {
+              "id": "2",
+              "text": "LSU"
+            },
+            {
+              "id": "3",
+              "text": "Miami"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ohio State"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The nickname for the University of Washington is the Huskies.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Notre Dame and their head coach Knute Rockne, win their first NCAA football Championship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1987"
+            },
+            {
+              "id": "1",
+              "text": "1980"
+            },
+            {
+              "id": "2",
+              "text": "1938"
+            },
+            {
+              "id": "3",
+              "text": "1924"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1924"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Eagles athletic teams represent which college/university?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boston College"
+            },
+            {
+              "id": "1",
+              "text": "University of Arizona"
+            },
+            {
+              "id": "2",
+              "text": "University of Philadelphia"
+            },
+            {
+              "id": "3",
+              "text": "Yale"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Boston College"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The athletic teams of St. John\u2019s University were called the Redmen in the 1920s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1933 this team won the first NFL Championship Game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Giants"
+            },
+            {
+              "id": "1",
+              "text": "Chicago Bears"
+            },
+            {
+              "id": "2",
+              "text": "Canton Bulldogs"
+            },
+            {
+              "id": "3",
+              "text": "Washington Redskins"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago Bears"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which NFL team won their 12th Championship in 1997?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green Bay Packers"
+            },
+            {
+              "id": "1",
+              "text": "New England Patriots"
+            },
+            {
+              "id": "2",
+              "text": "Chicago Bears"
+            },
+            {
+              "id": "3",
+              "text": "Cleveland Bowns"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Green Bay Packers"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "john",
+          "carolina",
+          "coach",
+          "eagles",
+          "game"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Summerslam and Title",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, title, players. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bret Hart wrestled in every SummerSlam that he could, while a WWF SuperStar.  From 1988-1997 he missed only one SummerSlam.  What year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1989"
+            },
+            {
+              "id": "1",
+              "text": "1990"
+            },
+            {
+              "id": "2",
+              "text": "1996"
+            },
+            {
+              "id": "3",
+              "text": "1988"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1996"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Largest in terms of attendance SummerSlam took Place in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2001"
+            },
+            {
+              "id": "1",
+              "text": "2002"
+            },
+            {
+              "id": "2",
+              "text": "1994"
+            },
+            {
+              "id": "3",
+              "text": "1992"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1992"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hulk Hogan has won a title at SummerSlam.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Honky Tonk man lost the Intercontinental Title to Ultimate Warrior at the first SummerSlam in 1988, but who was Honky originally to defend his title against?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don Murracco"
+            },
+            {
+              "id": "1",
+              "text": "Jake Roberts"
+            },
+            {
+              "id": "2",
+              "text": "Brutus Beefcake"
+            },
+            {
+              "id": "3",
+              "text": "Jim Duggan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Brutus Beefcake"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won Super Bowl VII and Super Bowl VIII?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pittsburgh Steelers"
+            },
+            {
+              "id": "1",
+              "text": "San Francisco 49ERs"
+            },
+            {
+              "id": "2",
+              "text": "Miami Dolphins"
+            },
+            {
+              "id": "3",
+              "text": "Dallas Cowboys"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Miami Dolphins"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How Many Times has Randy Savage been the Macho King at SummerSlam?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "0"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the SmackDown! US title match from the 2003 edition of SummerSlam, who walked out the US Champion?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tajiri"
+            },
+            {
+              "id": "1",
+              "text": "Chris Benoit"
+            },
+            {
+              "id": "2",
+              "text": "Eddie Guerrero"
+            },
+            {
+              "id": "3",
+              "text": "Rhyno"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Guerrero"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these teams was defeated at the Super Bowl XXXIII game by the Denver Broncos?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atlanta Falcons"
+            },
+            {
+              "id": "1",
+              "text": "Providence Steam Roller"
+            },
+            {
+              "id": "2",
+              "text": "Frankford Yellow Jackets"
+            },
+            {
+              "id": "3",
+              "text": "Tennessee Titans"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Atlanta Falcons"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first steel cage match at SummerSlam was between which two competitors?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diesel/Mabel"
+            },
+            {
+              "id": "1",
+              "text": "Bret Hart/Owen Hart"
+            },
+            {
+              "id": "2",
+              "text": "Ultimate Warrior/Rick Rude"
+            },
+            {
+              "id": "3",
+              "text": "Mankind/Hunter Hearst Helmsley"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ultimate Warrior/Rick Rude"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL team did O.J. Simpson play for at the end of his career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Francisco 49ers"
+            },
+            {
+              "id": "1",
+              "text": "Oakland Raiders"
+            },
+            {
+              "id": "2",
+              "text": "Philadelphia Eagles"
+            },
+            {
+              "id": "3",
+              "text": "Miami Dolphins"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: San Francisco 49ers"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won five NBA titles in the 1980s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Knicks"
+            },
+            {
+              "id": "1",
+              "text": "Chicago Bulls"
+            },
+            {
+              "id": "2",
+              "text": "Los Angeles Lakers"
+            },
+            {
+              "id": "3",
+              "text": "Boston Celtics"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Los Angeles Lakers"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Ultimate Warrior and Rick Rude competed for the Intercontinental Title in which SummerSlam?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1989"
+            },
+            {
+              "id": "1",
+              "text": "1990"
+            },
+            {
+              "id": "2",
+              "text": "1988"
+            },
+            {
+              "id": "3",
+              "text": "1991"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1989"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player from Alabama University was the Championship MVP in 1968.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paul Horning"
+            },
+            {
+              "id": "1",
+              "text": "Darryl LaMonica"
+            },
+            {
+              "id": "2",
+              "text": "Bart Starr"
+            },
+            {
+              "id": "3",
+              "text": "Max McGee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bart Starr"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these players have never won the Super Bowl MVP?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Dent"
+            },
+            {
+              "id": "1",
+              "text": "Jake Scott"
+            },
+            {
+              "id": "2",
+              "text": "Dan Marino"
+            },
+            {
+              "id": "3",
+              "text": "Chuck Howley"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dan Marino"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times has SummerSlam been in New York City, at Madison Square Garden?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "At least 3"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "0"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: At least 3"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "title",
+          "players",
+          "cage",
+          "game",
+          "savage"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Number and Team",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, college, outfielder. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did Major League Baseball player Pete Rose wear when he played for the Cincinnati Reds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "4"
+            },
+            {
+              "id": "3",
+              "text": "7"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 14"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What team did Oklahoma beat in the 2000 Orange Bowl to win the national title?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Florida Sate"
+            },
+            {
+              "id": "1",
+              "text": "ISU"
+            },
+            {
+              "id": "2",
+              "text": "Miami"
+            },
+            {
+              "id": "3",
+              "text": "Nebraska"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Florida Sate"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did American football quarterback Joe Montana wear when he played for the college team Notre Dame?",
+          "options": [
+            {
+              "id": "0",
+              "text": "18"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "16"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did Kirby Puckett,  who was elected to the Baseball Hall of Fame in 2001, wear when he was a player for the Minnesota Twins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14"
+            },
+            {
+              "id": "1",
+              "text": "34"
+            },
+            {
+              "id": "2",
+              "text": "32"
+            },
+            {
+              "id": "3",
+              "text": "18"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 34"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did baseball player Darryl Strawberry wear when he played for the Los Angeles Dodgers in the 1990s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "44"
+            },
+            {
+              "id": "1",
+              "text": "39"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "18"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 44"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did Carlton Fisk, who was inducted into the Baseball Hall of Fame in 2000, wear when he played for the Chicago White Sox?",
+          "options": [
+            {
+              "id": "0",
+              "text": "27"
+            },
+            {
+              "id": "1",
+              "text": "72"
+            },
+            {
+              "id": "2",
+              "text": "15"
+            },
+            {
+              "id": "3",
+              "text": "13"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 72"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did Tom Seaver, who was elected to the Baseball Hall of Fame on January in 1992,  wear when he was a player for the New York Mets in the 1970s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "35"
+            },
+            {
+              "id": "1",
+              "text": "47"
+            },
+            {
+              "id": "2",
+              "text": "41"
+            },
+            {
+              "id": "3",
+              "text": "32"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 41"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did Don Mattingly wear when he played as a part-time first baseman and outfielder for the New York Yankees in 1983?",
+          "options": [
+            {
+              "id": "0",
+              "text": "33"
+            },
+            {
+              "id": "1",
+              "text": "18"
+            },
+            {
+              "id": "2",
+              "text": "23"
+            },
+            {
+              "id": "3",
+              "text": "46"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 46"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NBA team is known for their cowbells?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atlanta Hawks"
+            },
+            {
+              "id": "1",
+              "text": "Portland Trail Blazers"
+            },
+            {
+              "id": "2",
+              "text": "Sacramento Kings"
+            },
+            {
+              "id": "3",
+              "text": "San Antonio Spurs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sacramento Kings"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did O. J. Simpson, a member of the Pro Football Hall of Fame, wear when he played for the Buffalo Bills in the 70s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "44"
+            },
+            {
+              "id": "1",
+              "text": "33"
+            },
+            {
+              "id": "2",
+              "text": "32"
+            },
+            {
+              "id": "3",
+              "text": "34"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 32"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did  Baseball Hall of Famer, Rod Carew, wear on his uniform when he played for the Minnesota Twins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "33"
+            },
+            {
+              "id": "1",
+              "text": "6"
+            },
+            {
+              "id": "2",
+              "text": "29"
+            },
+            {
+              "id": "3",
+              "text": "44"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 29"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NBA team did Bill Walton lead to a NBA title?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Portland Trail Blazers"
+            },
+            {
+              "id": "1",
+              "text": "Utah Jazz"
+            },
+            {
+              "id": "2",
+              "text": "San Antonio Spurs"
+            },
+            {
+              "id": "3",
+              "text": "Houston Rockets"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Portland Trail Blazers"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL team went 1-15 during the 1989 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Houston Texans"
+            },
+            {
+              "id": "1",
+              "text": "Chicago Bears"
+            },
+            {
+              "id": "2",
+              "text": "Dallas Cowboys"
+            },
+            {
+              "id": "3",
+              "text": "The New York Jets"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dallas Cowboys"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did Ralph Kiner, who was inducted into the Baseball Hall of Fame in 1975, wear when he played for the Pittsburgh Pirates in the 40s and 50s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What college basketball team did Billy King, general manager of the Philadelphia 76ers, play for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alabama"
+            },
+            {
+              "id": "1",
+              "text": "UCLA"
+            },
+            {
+              "id": "2",
+              "text": "Georgetown"
+            },
+            {
+              "id": "3",
+              "text": "Duke"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Duke"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "college",
+          "outfielder",
+          "seaver",
+          "beat",
+          "quarterback"
+        ]
+      }
+    }
+  ]
+}

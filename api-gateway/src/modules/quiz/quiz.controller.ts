@@ -2,7 +2,7 @@ import { type NextFunction, type Request } from 'express';
 import { HttpStatusCode } from 'axios';
 import QuizService from './quiz.service';
 import { type CustomResponse } from '@/types/common.type';
-import { type AuthenticatedRequest } from '@/middlewares/auth';
+import { type AuthenticatedRequest } from '@/middlewares/oauth.middleware';
 import Api from '@/lib/api';
 
 export default class QuizController extends Api {
@@ -138,41 +138,6 @@ export default class QuizController extends Api {
     }
   };
 
-  public createQuizRoom = async (
-    req: AuthenticatedRequest,
-    res: CustomResponse<any>,
-    next: NextFunction
-  ) => {
-    try {
-      const userId = req.user?.id;
-      if (!userId) {
-        return this.send(
-          res,
-          { message: 'User not authenticated' },
-          HttpStatusCode.Unauthorized,
-          'User not authenticated'
-        );
-      }
-
-      const { quizId, maxPlayers, title } = req.body;
-
-      const room = await this.quizService.createQuizRoom(
-        quizId,
-        userId,
-        maxPlayers,
-        title
-      );
-      this.send(
-        res,
-        room,
-        HttpStatusCode.Created,
-        'Quiz room created successfully'
-      );
-    } catch (e) {
-      next(e);
-    }
-  };
-
   public getQuizResults = async (
     req: AuthenticatedRequest,
     res: CustomResponse<any>,
@@ -228,8 +193,9 @@ export default class QuizController extends Api {
     next: NextFunction
   ) => {
     try {
-      const { primaryTagId } = req.params;
-      if (!primaryTagId) {
+      const { primaryTag } = req.params;
+      console.log(primaryTag);
+      if (!primaryTag) {
         return this.send(
           res,
           { message: 'Primary tag ID is required' },
@@ -238,7 +204,7 @@ export default class QuizController extends Api {
         );
       }
 
-      const tags = await this.quizService.getSecondaryTags(primaryTagId);
+      const tags = await this.quizService.getSecondaryTags(primaryTag);
       this.send(
         res,
         tags,
@@ -256,25 +222,17 @@ export default class QuizController extends Api {
     next: NextFunction
   ) => {
     try {
-      const { primaryTagId } = req.params;
-      const { secondaryTagId } = req.query;
+      const { primaryTag } = req.params;
+      const { secondaryTag } = req.query;
       const page = parseInt(req.query.page as string) || 1;
-      const limit = parseInt(req.query.limit as string) || 10;
-
-      if (!primaryTagId) {
-        return this.send(
-          res,
-          { message: 'Primary tag ID is required' },
-          HttpStatusCode.BadRequest,
-          'Primary tag ID is required'
-        );
-      }
-
+      const quizLimit = parseInt(req.query.limit as string) || 5;
+      const groupLimit = parseInt(req.query.groupLimit as string) || 5;
       const quizzes = await this.quizService.getQuizzesByCategory(
-        primaryTagId,
-        secondaryTagId as string | undefined,
+        primaryTag,
+        secondaryTag as string | undefined,
         page,
-        limit
+        quizLimit,
+        groupLimit
       );
 
       this.send(

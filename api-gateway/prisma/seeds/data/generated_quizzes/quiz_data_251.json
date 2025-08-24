@@ -1,0 +1,2460 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: New York City and April",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, john, shops. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This restaurant, located in Central Park on the Upper West Side of Manhattan, was in operation from 1934 to 2009.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tavern On the Green"
+            },
+            {
+              "id": "1",
+              "text": "The Rainbow Room"
+            },
+            {
+              "id": "2",
+              "text": "SaraBeths"
+            },
+            {
+              "id": "3",
+              "text": "Serendipity 3"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tavern On the Green"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Lennon was shot outside this building.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Plaza"
+            },
+            {
+              "id": "1",
+              "text": "Hyatt"
+            },
+            {
+              "id": "2",
+              "text": "Dylan"
+            },
+            {
+              "id": "3",
+              "text": "The Dakota"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Dakota"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Gideon Sundback patent on April 29, 1913?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Safety Pin"
+            },
+            {
+              "id": "1",
+              "text": "Spring Mattress"
+            },
+            {
+              "id": "2",
+              "text": "Windshield Wiper"
+            },
+            {
+              "id": "3",
+              "text": "Zipper"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Zipper"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What U.S. president was born in Westmoreland County, VA on April 28, 1758?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Monroe"
+            },
+            {
+              "id": "1",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "2",
+              "text": "George Washington"
+            },
+            {
+              "id": "3",
+              "text": "James Madison"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: James Monroe"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "TV shows like Dateline NBC, SNL, and the Today have been filmed in this famous New York City building.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grand Central station"
+            },
+            {
+              "id": "1",
+              "text": "ABC building"
+            },
+            {
+              "id": "2",
+              "text": "NBC building"
+            },
+            {
+              "id": "3",
+              "text": "ESPN"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: NBC building"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. president died on April 4, 1841 just one month after his inauguration?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Henry Harrison"
+            },
+            {
+              "id": "1",
+              "text": "Zachary Taylor"
+            },
+            {
+              "id": "2",
+              "text": "Benjamin Harrison"
+            },
+            {
+              "id": "3",
+              "text": "Martin Van Buren"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: William Henry Harrison"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fifth Avenue in NYC is lined with prestigious shops and is consistently ranked among the most expensive shopping streets in the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "New York City was the first capital of the USA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Brooklyn Bridge connect the boroughs of Staten Island and Brooklyn in New York City?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is a nickname of New York City?",
+          "options": [
+            {
+              "id": "0",
+              "text": "City That Never Sleeps"
+            },
+            {
+              "id": "1",
+              "text": "The Capital of the World"
+            },
+            {
+              "id": "2",
+              "text": "The Big Apple"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where in NYC is Penn Station located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lexington and 34"
+            },
+            {
+              "id": "1",
+              "text": "5th ave and 27 st"
+            },
+            {
+              "id": "2",
+              "text": "7th Ave and 34th st"
+            },
+            {
+              "id": "3",
+              "text": "9th ave and 46 st"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 7th Ave and 34th st"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Elvis Presley song hit the Billboard Charts at # 1 on April 21, 1956?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Love Me Tender"
+            },
+            {
+              "id": "1",
+              "text": "Jailhouse Rock"
+            },
+            {
+              "id": "2",
+              "text": "Teddy Bear"
+            },
+            {
+              "id": "3",
+              "text": "Heartbreak Hotel"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Heartbreak Hotel"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who became the youngest golfer in history to win the Masters on the 13th of April, 1997?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Nicklaus"
+            },
+            {
+              "id": "1",
+              "text": "Bobby Jones"
+            },
+            {
+              "id": "2",
+              "text": "Arnold Palmer"
+            },
+            {
+              "id": "3",
+              "text": "Tiger Woods"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tiger Woods"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city was the Reverend Martin Luther King, Jr. assassinated in on April 4, 1968?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Birmingham"
+            },
+            {
+              "id": "1",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "2",
+              "text": "Dallas"
+            },
+            {
+              "id": "3",
+              "text": "Memphis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Memphis"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did the Titanic depart from en route to New York City?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Southhampton, England"
+            },
+            {
+              "id": "1",
+              "text": "Rotterdam, Netherlands"
+            },
+            {
+              "id": "2",
+              "text": "Brighton, England"
+            },
+            {
+              "id": "3",
+              "text": "Dublin, Ireland"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Southhampton, England"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "john",
+          "shops",
+          "depart",
+          "shows",
+          "route"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Alexandria and Landmark",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, egypt, abu. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Thanksgiving Song, performed and co-written by Adam Sandler, revolves around the repetition of what word?",
+          "options": [
+            {
+              "id": "0",
+              "text": "together"
+            },
+            {
+              "id": "1",
+              "text": "turkey"
+            },
+            {
+              "id": "2",
+              "text": "cranberry"
+            },
+            {
+              "id": "3",
+              "text": "harvest"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: turkey"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following historical sites is located in Alexandria, Egypt?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Citadel"
+            },
+            {
+              "id": "1",
+              "text": "The Catacombs of Kom el Shoqafa"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Khan El-Khalili"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Catacombs of Kom el Shoqafa"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What landmark near Islamic Cairo was home to Egypts rulers for 700 years?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Saladin Citadel"
+            },
+            {
+              "id": "1",
+              "text": "Colossi of Memnon"
+            },
+            {
+              "id": "2",
+              "text": "The Valley of the Kings"
+            },
+            {
+              "id": "3",
+              "text": "St Catherines Monastery"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Saladin Citadel"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A Sphinx features the body of a lion and a human head.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "St. Catherines Monastery was built by order of which Emperor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emperor Maximiam"
+            },
+            {
+              "id": "1",
+              "text": "Emperor Constantius III"
+            },
+            {
+              "id": "2",
+              "text": "Emperor Justinian"
+            },
+            {
+              "id": "3",
+              "text": "Emperor Valentine II"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Emperor Justinian"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Monastery of Saint Anthony is located southeast of what Egyptian city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alexandria"
+            },
+            {
+              "id": "1",
+              "text": "Luxor"
+            },
+            {
+              "id": "2",
+              "text": "Cairo"
+            },
+            {
+              "id": "3",
+              "text": "Aswan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cairo"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you are stationed in Germany, you will not be on a post, but most likely on which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beer Run"
+            },
+            {
+              "id": "1",
+              "text": "Bahn Hauf"
+            },
+            {
+              "id": "2",
+              "text": "Kaserne"
+            },
+            {
+              "id": "3",
+              "text": "Concern"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kaserne"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What statement is true about the Colossi of Memnon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Colossi of Memnon are four massive stone statues."
+            },
+            {
+              "id": "1",
+              "text": "The Colossi of Memnon are three massive stone statues."
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "The Colossi of Memnon are two massive stone statues."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Colossi of Memnon are two massive stone statues."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the television special A Charlie Brown Thanksgiving, Charlie Brown and his friends sing a chorus of this popular Thanksgiving song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Thanksgiving Song"
+            },
+            {
+              "id": "1",
+              "text": "Over the River and through the Woods"
+            },
+            {
+              "id": "2",
+              "text": "We Gather Together"
+            },
+            {
+              "id": "3",
+              "text": "Grandma Stuffed the Turkey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Over the River and through the Woods"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A Thanksgiving Day celebration was held in December 1777 by the thirteen colonies to commemorate the defeat of the British at this location.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Camden"
+            },
+            {
+              "id": "1",
+              "text": "Saratoga"
+            },
+            {
+              "id": "2",
+              "text": "Yorktown"
+            },
+            {
+              "id": "3",
+              "text": "Bennington"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Saratoga"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Abu Simbel Temple was built during the reign of which pharaoh?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tutankhamen"
+            },
+            {
+              "id": "1",
+              "text": "Amenhotep III"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Ramses II"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ramses II"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Howard Crater discover in 1922?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the Valley of the Kings"
+            },
+            {
+              "id": "1",
+              "text": "the tomb of Tutankhamun"
+            },
+            {
+              "id": "2",
+              "text": "the Luxor Temple"
+            },
+            {
+              "id": "3",
+              "text": "the Colossi of Mammon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: the tomb of Tutankhamun"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the American writer and editor who campaigned for the creation of the holiday known as Thanksgiving.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kate Chopin"
+            },
+            {
+              "id": "1",
+              "text": "Mary Young Pickersgill"
+            },
+            {
+              "id": "2",
+              "text": "Sarah Josepha Hale"
+            },
+            {
+              "id": "3",
+              "text": "Emily Dickinson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sarah Josepha Hale"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What landmark is known in the Egyptian language as ipet resyt, or the southern sanctuary?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Sphinx"
+            },
+            {
+              "id": "1",
+              "text": "Luxor Temple"
+            },
+            {
+              "id": "2",
+              "text": "Roman Theatre"
+            },
+            {
+              "id": "3",
+              "text": "Citadel"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Luxor Temple"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pompeys Pillar in Alexandria is a red-granite column erected in honour of Roman Emperor Diocletain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "egypt",
+          "abu",
+          "world",
+          "colossi",
+          "brown"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Republic and Ireland",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, leader, pilgrims. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What musical instrument is depicted on the coat of arms of The Republic of Ireland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harp"
+            },
+            {
+              "id": "1",
+              "text": "Viola"
+            },
+            {
+              "id": "2",
+              "text": "Bagpipe"
+            },
+            {
+              "id": "3",
+              "text": "Flute"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Harp"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the term Franksgiving?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It referred to a Thanksgiving holiday, held one week earlier than normal."
+            },
+            {
+              "id": "1",
+              "text": "It was coined to describe the American Thanksgiving holiday from 1939\u20131941."
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "It is a portmanteau word from Franklin and Thanksgiving."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these popular musicians/bands is not Irish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "U2"
+            },
+            {
+              "id": "1",
+              "text": "The Cranberries"
+            },
+            {
+              "id": "2",
+              "text": "Sinead OConnor"
+            },
+            {
+              "id": "3",
+              "text": "Take That"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Take That"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term was used to refer to the period of fast economic growth in the Republic of Ireland between 1995 and 2007?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Boom"
+            },
+            {
+              "id": "1",
+              "text": "Celtic Tiger"
+            },
+            {
+              "id": "2",
+              "text": "Irelands Economic Miracle"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this 1992 biographical movie, starring Denzel Washington, the civil rights orator states: We didnt land on Plymouth Rock. Plymouth Rock landed on us.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Bone Collector"
+            },
+            {
+              "id": "1",
+              "text": "A Soldiers Story"
+            },
+            {
+              "id": "2",
+              "text": "Malcolm X"
+            },
+            {
+              "id": "3",
+              "text": "Cry Freedom"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Malcolm X"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Unthanksgiving Day is an annual event commemorating the survival of Native American peoples following the settlement of Europeans in the Western Hemisphere. Where is the event held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "1",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "2",
+              "text": "Alcatraz Island"
+            },
+            {
+              "id": "3",
+              "text": "New York City"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Alcatraz Island"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Champ is the name of a popular Irish dish. What does the popular Irish expression to be as thick as champ mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "To be inflexible and unwilling to change"
+            },
+            {
+              "id": "1",
+              "text": "To be stupid"
+            },
+            {
+              "id": "2",
+              "text": "To be very smart"
+            },
+            {
+              "id": "3",
+              "text": "To be reticent and devoid of emotion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: To be stupid"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What punk rock band, formed in California, recorded the song Macys Day Parade on their album, Warning?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green Day"
+            },
+            {
+              "id": "1",
+              "text": "The Misfits"
+            },
+            {
+              "id": "2",
+              "text": "Limp Bizkit"
+            },
+            {
+              "id": "3",
+              "text": "The Sex Pistols"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Green Day"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is presented with a live domestic turkey at the annual ceremony known as National Thanksgiving Turkey Presentation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the US First Lady"
+            },
+            {
+              "id": "1",
+              "text": "the winners of the NFL Thanksgiving Classic"
+            },
+            {
+              "id": "2",
+              "text": "the US President"
+            },
+            {
+              "id": "3",
+              "text": "the best performer at the Macys Thanksgiving Day Parade"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: the US President"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these colors is not present on the national flag of the Republic of Ireland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "White"
+            },
+            {
+              "id": "1",
+              "text": "Orange"
+            },
+            {
+              "id": "2",
+              "text": "Red"
+            },
+            {
+              "id": "3",
+              "text": "Green"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Red"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these words refers to a group of turkeys?",
+          "options": [
+            {
+              "id": "0",
+              "text": "flight"
+            },
+            {
+              "id": "1",
+              "text": "herd"
+            },
+            {
+              "id": "2",
+              "text": "rafter"
+            },
+            {
+              "id": "3",
+              "text": "gaggle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: rafter"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the leader of the Plymouth Colony in Massachusetts who wrote Of Plymouth Plantation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alexis De Tocqueville"
+            },
+            {
+              "id": "1",
+              "text": "William Bradford"
+            },
+            {
+              "id": "2",
+              "text": "John Carver"
+            },
+            {
+              "id": "3",
+              "text": "John Smith"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: William Bradford"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the official language in the Republic of Ireland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Irish"
+            },
+            {
+              "id": "1",
+              "text": "English"
+            },
+            {
+              "id": "2",
+              "text": "Irish and Cornish"
+            },
+            {
+              "id": "3",
+              "text": "English and Irish"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: English and Irish"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the capital and largest city of the Republic of Ireland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edinburgh"
+            },
+            {
+              "id": "1",
+              "text": "Cardiff"
+            },
+            {
+              "id": "2",
+              "text": "Belfast"
+            },
+            {
+              "id": "3",
+              "text": "Dublin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dublin"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the Native American who assisted the Pilgrims by teaching them techniques to increase food production?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sagamore"
+            },
+            {
+              "id": "1",
+              "text": "Samoset"
+            },
+            {
+              "id": "2",
+              "text": "Squanto"
+            },
+            {
+              "id": "3",
+              "text": "Sitting Bull"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Squanto"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "leader",
+          "pilgrims",
+          "world",
+          "period",
+          "punk"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: April and United States",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, cosmetics, deseret. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The State of Deseret was proposed in 1849 by settlers in Salt Lake City.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Utah was part of United States when the Mormons first settled there.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American hip hop artist, record producer and actor was born on April 1, 1971?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dr. Dre"
+            },
+            {
+              "id": "1",
+              "text": "Ja Rule"
+            },
+            {
+              "id": "2",
+              "text": "Method Man"
+            },
+            {
+              "id": "3",
+              "text": "Timbaland"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Method Man"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of the national anthem of the Republic of Ireland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Land of Glory"
+            },
+            {
+              "id": "1",
+              "text": "The Soldiers Song"
+            },
+            {
+              "id": "2",
+              "text": "Dear Ireland"
+            },
+            {
+              "id": "3",
+              "text": "Invincible Country"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Soldiers Song"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cairo is the most populous metropolitan area in Africa.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color is traditionally worn on Saint Patricks Day, celebrated annually on March 17 as a public holiday in the Republic of Ireland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Orange"
+            },
+            {
+              "id": "1",
+              "text": "Blue"
+            },
+            {
+              "id": "2",
+              "text": "Green"
+            },
+            {
+              "id": "3",
+              "text": "Red"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Green"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On April 1, 1867 this country became a British crown colony.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sudan"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "Singapore"
+            },
+            {
+              "id": "3",
+              "text": "Egypt"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Singapore"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On April 1, 1970, US President Richard Nixon signed an act into law, banning the advertisements of this product on television and radio in the United States starting on January 1, 1971.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alcohol"
+            },
+            {
+              "id": "1",
+              "text": "Cigarettes"
+            },
+            {
+              "id": "2",
+              "text": "Condoms"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cigarettes"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What multinational corporation was founded on April 1, 1976 in Cupertino, California?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apple Computer, Inc."
+            },
+            {
+              "id": "1",
+              "text": "McDonalds Corporation"
+            },
+            {
+              "id": "2",
+              "text": "Google Inc."
+            },
+            {
+              "id": "3",
+              "text": "Microsoft Corporation"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Apple Computer, Inc."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Irish writer James Joyce penned this popular novel, published in 1922 in Paris.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Picture of Dorian Gray"
+            },
+            {
+              "id": "1",
+              "text": "Ulysses"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Pygmalion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ulysses"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What important historical figure was born on April 1, 1815 in Schonhausen, Germany?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fanny Mendelssohn"
+            },
+            {
+              "id": "1",
+              "text": "Robert Schumann"
+            },
+            {
+              "id": "2",
+              "text": "Pope Leo XIII"
+            },
+            {
+              "id": "3",
+              "text": "Otto von Bismarck"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Otto von Bismarck"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what US state was American actress Debbie Reynolds born on April 1, 1932?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "1",
+              "text": "North Carolina"
+            },
+            {
+              "id": "2",
+              "text": "Ohio"
+            },
+            {
+              "id": "3",
+              "text": "Texas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Texas"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What military operation was carried out on April 1, 1945 in Okinawa by United States troops?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Operation Falcon"
+            },
+            {
+              "id": "1",
+              "text": "Operation Tornado"
+            },
+            {
+              "id": "2",
+              "text": "Operation Iceberg"
+            },
+            {
+              "id": "3",
+              "text": "Operation Shark"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Operation Iceberg"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these inventions was patented on April 1, 1826 by Samuel Morey?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rimless glasses"
+            },
+            {
+              "id": "1",
+              "text": "Mechanic potato peeler"
+            },
+            {
+              "id": "2",
+              "text": "Self-tanner"
+            },
+            {
+              "id": "3",
+              "text": "Internal combustion engine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Internal combustion engine"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What legendary cosmetics tycoon passed away on April 1, 1965?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Max Factor"
+            },
+            {
+              "id": "1",
+              "text": "Estee Lauder"
+            },
+            {
+              "id": "2",
+              "text": "Elizabeth Arden"
+            },
+            {
+              "id": "3",
+              "text": "Helena Rubinstein"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Helena Rubinstein"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "cosmetics",
+          "deseret",
+          "title",
+          "patricks",
+          "nixon"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Cairo and Ice",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, egypt, structure. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the official language in Cairo, Egypt?",
+          "options": [
+            {
+              "id": "0",
+              "text": "English"
+            },
+            {
+              "id": "1",
+              "text": "Chinese"
+            },
+            {
+              "id": "2",
+              "text": "Egyptian"
+            },
+            {
+              "id": "3",
+              "text": "Arabic"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Arabic"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The majority of ice in Earths biosphere is of this type.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ice III"
+            },
+            {
+              "id": "1",
+              "text": "Ice Ic"
+            },
+            {
+              "id": "2",
+              "text": "Ice XI"
+            },
+            {
+              "id": "3",
+              "text": "Ice Ih"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ice Ih"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In science \u201cice\u201d refers to one of the crystalline phases of water. How many of them are known to exist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "17"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "15"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 15"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the airport code for Cairo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "CAI"
+            },
+            {
+              "id": "1",
+              "text": "CRP"
+            },
+            {
+              "id": "2",
+              "text": "LAX"
+            },
+            {
+              "id": "3",
+              "text": "CIO"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: CAI"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which continent is Egypt in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "South America"
+            },
+            {
+              "id": "1",
+              "text": "Africa"
+            },
+            {
+              "id": "2",
+              "text": "Europe"
+            },
+            {
+              "id": "3",
+              "text": "Asia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Africa"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was the city of Cairo founded?",
+          "options": [
+            {
+              "id": "0",
+              "text": "969 AD"
+            },
+            {
+              "id": "1",
+              "text": "1985 BC"
+            },
+            {
+              "id": "2",
+              "text": "1245 BC"
+            },
+            {
+              "id": "3",
+              "text": "145 AD"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 969 AD"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the official currency of Egypt?",
+          "options": [
+            {
+              "id": "0",
+              "text": "US Dollar"
+            },
+            {
+              "id": "1",
+              "text": "Egyptian Pound"
+            },
+            {
+              "id": "2",
+              "text": "Ruppi"
+            },
+            {
+              "id": "3",
+              "text": "Frank"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Egyptian Pound"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What body of water is Cairo situated on?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Sea"
+            },
+            {
+              "id": "1",
+              "text": "Indian Ocean"
+            },
+            {
+              "id": "2",
+              "text": "Dead Sea"
+            },
+            {
+              "id": "3",
+              "text": "Nile River"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nile River"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As ice is a crystalline inorganic solid with an ordered structure, it is scientifically classified as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Electrolyte"
+            },
+            {
+              "id": "1",
+              "text": "Mineral"
+            },
+            {
+              "id": "2",
+              "text": "Plasma"
+            },
+            {
+              "id": "3",
+              "text": "Weak acid"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mineral"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the official name of Cairo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ethiopia"
+            },
+            {
+              "id": "1",
+              "text": "Geezeh"
+            },
+            {
+              "id": "2",
+              "text": "Al-Q\u0101hirah"
+            },
+            {
+              "id": "3",
+              "text": "Gedarif"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Al-Q\u0101hirah"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why is ice slippery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "It is not in fact slippery, it makes the air between it and objects slippery."
+            },
+            {
+              "id": "2",
+              "text": "Because of its acid properties"
+            },
+            {
+              "id": "3",
+              "text": "Because the pressure of an object in contact with it causes a thin layer to melt"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the term heat of fusion refer to in ice melting?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The temperature range at which the ice melts"
+            },
+            {
+              "id": "1",
+              "text": "The amount of energy consumed in breaking hydrogen bonds in the transition from ice to water"
+            },
+            {
+              "id": "2",
+              "text": "The amount of energy released when forming hydrogen bonds in the transition from water to ice"
+            },
+            {
+              "id": "3",
+              "text": "The temperature range at which ice forms"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The amount of energy consumed in breaking hydrogen bonds in the transition from ice to water"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Cairo, the first two train cars of the subway are reserved for men only.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The eastern half of Cairo is dominated by the government buildings.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ice is the only known non-metallic substance to have this physical property.",
+          "options": [
+            {
+              "id": "0",
+              "text": "It weighs more when it is heated."
+            },
+            {
+              "id": "1",
+              "text": "It shrinks when it freezes."
+            },
+            {
+              "id": "2",
+              "text": "It expands when it freezes."
+            },
+            {
+              "id": "3",
+              "text": "It weighs more when it is cooled."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It expands when it freezes."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "egypt",
+          "structure",
+          "world",
+          "heat",
+          "language"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Town and Country",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, summer, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the location of the Panagyurishte treasure, one of the best known surviving artifacts of Thracian culture?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Poland"
+            },
+            {
+              "id": "1",
+              "text": "Romania"
+            },
+            {
+              "id": "2",
+              "text": "Bulgaria"
+            },
+            {
+              "id": "3",
+              "text": "Greece"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bulgaria"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What legendary Hollywood actress starred in the 1959 movie Suddenly, Last Summer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marilyn Monroe"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Katharine Hepburn"
+            },
+            {
+              "id": "3",
+              "text": "Audrey Hepburn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Katharine Hepburn"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Preslav Treasure was found in Bulgaria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country were the 2008 Summer Olympics held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Japan"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "Greece"
+            },
+            {
+              "id": "3",
+              "text": "United States"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did American Frederic Tudor became known as the \u201cIce King\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He had the extraordinary ability to produce ice when he touched water."
+            },
+            {
+              "id": "1",
+              "text": "He worked on developing better insulation products for the long distance shipment of ice."
+            },
+            {
+              "id": "2",
+              "text": "He was an ice artist."
+            },
+            {
+              "id": "3",
+              "text": "He developed a technique for using ice as a source of heat."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He worked on developing better insulation products for the long distance shipment of ice."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these characters appears in William Shakespeares comedy A Midsummer Nights Dream?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oberon"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Lysander"
+            },
+            {
+              "id": "3",
+              "text": "Tom Snout"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Midsummer holiday is associated with which event in the Christian calendar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Falling asleep of Virgin Mary"
+            },
+            {
+              "id": "1",
+              "text": "Annunciation of Virgin Mary"
+            },
+            {
+              "id": "2",
+              "text": "Death of John the Baptist"
+            },
+            {
+              "id": "3",
+              "text": "Birth of John the Baptist"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Birth of John the Baptist"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What atoms does the molecule of ice consist of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two oxygen atom and two hydrogen atoms"
+            },
+            {
+              "id": "1",
+              "text": "One oxygen atom and two nitrogen atoms"
+            },
+            {
+              "id": "2",
+              "text": "One oxygen atom and two hydrogen atoms"
+            },
+            {
+              "id": "3",
+              "text": "Two oxygen atom and one nitrogen atoms"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: One oxygen atom and two hydrogen atoms"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which U.S. state is there a town named Summersville?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mississippi"
+            },
+            {
+              "id": "1",
+              "text": "Maryland"
+            },
+            {
+              "id": "2",
+              "text": "Missouri"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Missouri"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term collectively describes all parts of Earths surface where water is in frozen form?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frozosphere"
+            },
+            {
+              "id": "1",
+              "text": "Icosphere"
+            },
+            {
+              "id": "2",
+              "text": "Ice caps"
+            },
+            {
+              "id": "3",
+              "text": "Cryosphere"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cryosphere"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From which opera composed by George Gershwin is the famous aria Summertime?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Porgy and Bess"
+            },
+            {
+              "id": "1",
+              "text": "Shall We Dance"
+            },
+            {
+              "id": "2",
+              "text": "My One and Only"
+            },
+            {
+              "id": "3",
+              "text": "Blue Monday"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Porgy and Bess"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was discovered during demolition of an old building in the town of \u015aroda, Poland on 8 June 1985?",
+          "options": [
+            {
+              "id": "0",
+              "text": "rings and gold pendants, gold and silver coins"
+            },
+            {
+              "id": "1",
+              "text": "a medieval gold clasp decorated with precious stones"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "a gold womans crown"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these actors did not appear in the 1997 horror movie I Know What You Did Last Summer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jennifer Love Hewitt"
+            },
+            {
+              "id": "1",
+              "text": "Brandy Norwood"
+            },
+            {
+              "id": "2",
+              "text": "Ryan Phillippe"
+            },
+            {
+              "id": "3",
+              "text": "Freddie Prinze, Jr."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Brandy Norwood"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is dry ice?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ice formed from other substances different from water"
+            },
+            {
+              "id": "1",
+              "text": "Ice formed at temperatures under -78 degrees C"
+            },
+            {
+              "id": "2",
+              "text": "Ice that never melts"
+            },
+            {
+              "id": "3",
+              "text": "The solid form of carbon dioxide"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The solid form of carbon dioxide"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular actress portrayed Buffy Summers in the Buffy the Vampire Slayer TV series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sarah Michelle Gellar"
+            },
+            {
+              "id": "1",
+              "text": "Jennifer Garner"
+            },
+            {
+              "id": "2",
+              "text": "Courtney Cox"
+            },
+            {
+              "id": "3",
+              "text": "Jennifer Love Hewitt"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sarah Michelle Gellar"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "summer",
+          "country",
+          "parts",
+          "tudor",
+          "world"
+        ]
+      }
+    }
+  ]
+}

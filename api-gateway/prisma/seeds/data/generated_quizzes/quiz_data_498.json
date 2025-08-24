@@ -1,0 +1,420 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Nature Quiz: Insects and Scorpions",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, kind, fasciculatum. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What common name is used to refer to the insects from the subfamily Triatominae, mainly found in the Americas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kissing bugs"
+            },
+            {
+              "id": "1",
+              "text": "Lollipop bugs"
+            },
+            {
+              "id": "2",
+              "text": "Microphone bugs"
+            },
+            {
+              "id": "3",
+              "text": "Pretty bugs"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kissing bugs"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of substance does the female redeye cicada prefer for laying eggs into?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dead animal matter"
+            },
+            {
+              "id": "1",
+              "text": "Animal and human hair"
+            },
+            {
+              "id": "2",
+              "text": "Plant tissue"
+            },
+            {
+              "id": "3",
+              "text": "Living animal organisms"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Plant tissue"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is wrong about the reproduction of scorpions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Most scorpions reproduce through parthenogenesis."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Most scorpion species are hermaphrodites."
+            },
+            {
+              "id": "3",
+              "text": "Most scorpions reproduce asexually."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where does the female scorpion raise its young?",
+          "options": [
+            {
+              "id": "0",
+              "text": "On her back"
+            },
+            {
+              "id": "1",
+              "text": "In the roots of plants"
+            },
+            {
+              "id": "2",
+              "text": "Under her abdomen"
+            },
+            {
+              "id": "3",
+              "text": "In burrows in the ground"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: On her back"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is a separate species of scorpions which have two tails, with a venomous sting on each tail.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Scorpion venom is regarded as a potential source of chemicals that can be used in the treatment of this disease.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Autoimmune disorders"
+            },
+            {
+              "id": "1",
+              "text": "Cancer"
+            },
+            {
+              "id": "2",
+              "text": "Multiple sclerosis"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the diet of scorpions usually consist of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Insects"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Worms and maggots"
+            },
+            {
+              "id": "3",
+              "text": "Plant matter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Insects"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of behavior is characteristic of scorpion species?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Photophobic behavior"
+            },
+            {
+              "id": "1",
+              "text": "Hydrophobic behavior"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Phonophobic behavior"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Photophobic behavior"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What belief about the European hornet, the largest European eusocial wasp, is widespread among the people who are afraid of it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "If it stings you, youll never have children."
+            },
+            {
+              "id": "1",
+              "text": "If it stings you on the arm or leg, that limb has to be amputated."
+            },
+            {
+              "id": "2",
+              "text": "Three stings can kill an adult human, and seven can kill a horse."
+            },
+            {
+              "id": "3",
+              "text": "Stinging results in deep sleep that you may never wake up from."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Three stings can kill an adult human, and seven can kill a horse."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why were the insects known as snakeflies given this interesting name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They hiss."
+            },
+            {
+              "id": "1",
+              "text": "They have a venomous bite."
+            },
+            {
+              "id": "2",
+              "text": "Their body is elongated."
+            },
+            {
+              "id": "3",
+              "text": "They have snake skin color patterns on their back."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Their body is elongated."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What distinctive anatomical feature does the beetle species Trogodendron fasciculatum possess?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bright yellow antennae"
+            },
+            {
+              "id": "1",
+              "text": "A green W mark on the back"
+            },
+            {
+              "id": "2",
+              "text": "Very large red eyes"
+            },
+            {
+              "id": "3",
+              "text": "Its abdomen is blue"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bright yellow antennae"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To what geographical area is the Ctenomorphodes chronus, a species of stick insect, endemic?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Madagascar"
+            },
+            {
+              "id": "2",
+              "text": "South America"
+            },
+            {
+              "id": "3",
+              "text": "Australia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Australia"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part of their body do the insects from order Archaeognatha use to spring up into the air?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Antennae"
+            },
+            {
+              "id": "1",
+              "text": "Front legs"
+            },
+            {
+              "id": "2",
+              "text": "Hind legs"
+            },
+            {
+              "id": "3",
+              "text": "Tail"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tail"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the flamboyant flower beetle, also known as striped love beetle, feed on?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Insects"
+            },
+            {
+              "id": "1",
+              "text": "Nectar"
+            },
+            {
+              "id": "2",
+              "text": "Blood"
+            },
+            {
+              "id": "3",
+              "text": "Carrion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nectar"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the largest extant butterfly species on the planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rajah Brookes Birdwing"
+            },
+            {
+              "id": "1",
+              "text": "Goliath Birdwing"
+            },
+            {
+              "id": "2",
+              "text": "Queen Alexandras Birdwing"
+            },
+            {
+              "id": "3",
+              "text": "Cairns Birdwing"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Queen Alexandras Birdwing"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "kind",
+          "fasciculatum",
+          "venom",
+          "tails",
+          "insects"
+        ]
+      }
+    }
+  ]
+}

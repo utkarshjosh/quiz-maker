@@ -1,0 +1,2404 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Nfl and Team",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, hokey, patriots. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In golf, a caddie is the person who carries a players bag.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was running back for the Atlanta Falcons from 2002-2007?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Warrick Dunn"
+            },
+            {
+              "id": "1",
+              "text": "Cory Dillion"
+            },
+            {
+              "id": "2",
+              "text": "Shaun Alexander"
+            },
+            {
+              "id": "3",
+              "text": "Tiki Barber"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Warrick Dunn"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played quarterback for the New York Jets from 2000-2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dan Marino"
+            },
+            {
+              "id": "1",
+              "text": "Chad Pennington"
+            },
+            {
+              "id": "2",
+              "text": "Brett Farve"
+            },
+            {
+              "id": "3",
+              "text": "Tom Brady"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chad Pennington"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In golf, this type of shot is the first shot played from a teeing ground and is usually made with a driver.",
+          "options": [
+            {
+              "id": "0",
+              "text": "chip"
+            },
+            {
+              "id": "1",
+              "text": "bunker shot"
+            },
+            {
+              "id": "2",
+              "text": "tee shot"
+            },
+            {
+              "id": "3",
+              "text": "flop"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: tee shot"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL teams logo is a horseshoe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bears"
+            },
+            {
+              "id": "1",
+              "text": "Ravens"
+            },
+            {
+              "id": "2",
+              "text": "Colts"
+            },
+            {
+              "id": "3",
+              "text": "Falcons"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Colts"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL football team won the first two Super Bowls in a row?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atlanta Falcons"
+            },
+            {
+              "id": "1",
+              "text": "Carolina Panthers"
+            },
+            {
+              "id": "2",
+              "text": "New England Patriots"
+            },
+            {
+              "id": "3",
+              "text": "Green Bay Packers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Green Bay Packers"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former professional ice hokey player, known as The Great One, is widely accepted as the greatest player to ever play the game of hockey.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wayne Gretzky"
+            },
+            {
+              "id": "1",
+              "text": "Bobby Orr"
+            },
+            {
+              "id": "2",
+              "text": "Paul Kariya"
+            },
+            {
+              "id": "3",
+              "text": "Mike Modano"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Wayne Gretzky"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the last hockey player to be cut from the 1980 USA Olympic team by coach Herb Brooks, and what college team did he play for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ralph Ocallahan - UNH"
+            },
+            {
+              "id": "1",
+              "text": "Ralph Ocallahan - BU"
+            },
+            {
+              "id": "2",
+              "text": "Ralph Cox - UNH"
+            },
+            {
+              "id": "3",
+              "text": "Ralph Cox - BU"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ralph Cox - UNH"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The New England Patriots used to be called the San Diego Patriots.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL football team has a lightening bolt logo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Diego Chargers"
+            },
+            {
+              "id": "1",
+              "text": "Atlanta Falcons"
+            },
+            {
+              "id": "2",
+              "text": "New York Giants"
+            },
+            {
+              "id": "3",
+              "text": "St. Louis Rams"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: San Diego Chargers"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He played for the Boston Bruins from 1966 to 1976.  On May 10, 1970 he scored an amazing goal diving through the air after being tripped, giving Boston its first Stanley Cup in 29 years.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phil Espeszito"
+            },
+            {
+              "id": "1",
+              "text": "Wayne Greztky"
+            },
+            {
+              "id": "2",
+              "text": "Gordie Howe"
+            },
+            {
+              "id": "3",
+              "text": "Bobby Orr"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bobby Orr"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL team went 16-0 for the 2007 season and lost to the New York Giants in the Super Bowl?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Jets"
+            },
+            {
+              "id": "1",
+              "text": "New England Patriots"
+            },
+            {
+              "id": "2",
+              "text": "The Green Bay Packers"
+            },
+            {
+              "id": "3",
+              "text": "Carolina Panthers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: New England Patriots"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Miami Dolphins had the worst record in 2007.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL wide receiver was drafted by the Colts in 1996?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerry Rice"
+            },
+            {
+              "id": "1",
+              "text": "Terrell Owens"
+            },
+            {
+              "id": "2",
+              "text": "Pearless Price"
+            },
+            {
+              "id": "3",
+              "text": "Marvin Harrison"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Marvin Harrison"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL football team had the second to worst record in 2007?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Tennessee Titans"
+            },
+            {
+              "id": "1",
+              "text": "Green Bay Packers"
+            },
+            {
+              "id": "2",
+              "text": "Atlanta Falcons"
+            },
+            {
+              "id": "3",
+              "text": "St. Louis Rams"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: St. Louis Rams"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "hokey",
+          "patriots",
+          "miami",
+          "ice",
+          "quarterback"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: City and Olympics",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, olympiad, summer. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ice hockey was first played in the 1920 Olympics, which were held in what city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Montreal"
+            },
+            {
+              "id": "1",
+              "text": "Antwerp"
+            },
+            {
+              "id": "2",
+              "text": "Chamonix"
+            },
+            {
+              "id": "3",
+              "text": "Lake Placid"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Antwerp"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Generally regarded as one of the greatest hockey players of all time, Gordie Howe (aka Mr. Hockey) made his NHL debut in 1976 at the age of 18.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Of the following countries, which one did NOT host both the winter and summer Olympics in the same year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "Germany"
+            },
+            {
+              "id": "2",
+              "text": "Japan"
+            },
+            {
+              "id": "3",
+              "text": "United States"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Japan"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1970, the American city of Denver was selected to host the 1976 winter Olympics, but the Games were moved to Innsbruck instead. Why?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A massive strike by construction workers made it impossible to finish all the facilities in time."
+            },
+            {
+              "id": "1",
+              "text": "The International Olympic Committee rescinded their decision when proof of bribery came to light."
+            },
+            {
+              "id": "2",
+              "text": "Several countries threatened to boycott the games because of the U.S. involvement in Vietnam."
+            },
+            {
+              "id": "3",
+              "text": "Coloradans voted not to pay the expenses associated with hosting the Olympics."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Coloradans voted not to pay the expenses associated with hosting the Olympics."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which city did a 2002 figure skating judging scandal result in the awarding of two Olympic gold medals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lillehammer"
+            },
+            {
+              "id": "1",
+              "text": "Calgary"
+            },
+            {
+              "id": "2",
+              "text": "Salt Lake City"
+            },
+            {
+              "id": "3",
+              "text": "Innsbruck"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Salt Lake City"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where were the winter Olympics held in 1960, the first time the host country won the gold medal in ice hockey?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oslo"
+            },
+            {
+              "id": "1",
+              "text": "Squaw Valley"
+            },
+            {
+              "id": "2",
+              "text": "Calgary"
+            },
+            {
+              "id": "3",
+              "text": "Lake Placid"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Squaw Valley"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city was awarded the 1920 Olympics to honor the suffering that had been inflicted on the Belgian people during World War I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charleroi"
+            },
+            {
+              "id": "1",
+              "text": "Gent"
+            },
+            {
+              "id": "2",
+              "text": "Antwerp"
+            },
+            {
+              "id": "3",
+              "text": "Brussels"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Antwerp"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which city hosted the first Olympics not held in a leap year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paris"
+            },
+            {
+              "id": "1",
+              "text": "Nagano"
+            },
+            {
+              "id": "2",
+              "text": "Lillehammer"
+            },
+            {
+              "id": "3",
+              "text": "Sydney"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Paris"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first Asian city to host the Olympics, in 1964?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seoul"
+            },
+            {
+              "id": "1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "2",
+              "text": "Nagano"
+            },
+            {
+              "id": "3",
+              "text": "Sapporo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tokyo"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Berlin host the Olympics, allowing Germany to use the event as a Nazi propaganda tool?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1944"
+            },
+            {
+              "id": "1",
+              "text": "1932"
+            },
+            {
+              "id": "2",
+              "text": "1936"
+            },
+            {
+              "id": "3",
+              "text": "1940"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1936"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which city has been chosen to host the 2012 Olympics, thus becoming the first three-time Olympic host city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paris"
+            },
+            {
+              "id": "1",
+              "text": "Innsbruck"
+            },
+            {
+              "id": "2",
+              "text": "London"
+            },
+            {
+              "id": "3",
+              "text": "Los Angeles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: London"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which city hosted the first modern Olympiad in 1896?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Athens"
+            },
+            {
+              "id": "1",
+              "text": "Rome"
+            },
+            {
+              "id": "2",
+              "text": "Paris"
+            },
+            {
+              "id": "3",
+              "text": "Moscow"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Athens"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When were the Olympics held south of the equator?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Never"
+            },
+            {
+              "id": "1",
+              "text": "1996 and 2000"
+            },
+            {
+              "id": "2",
+              "text": "1952 and 2004"
+            },
+            {
+              "id": "3",
+              "text": "1956 and 2000"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1956 and 2000"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city hosted the first womens Olympic marathon in 1984?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "1",
+              "text": "Rome"
+            },
+            {
+              "id": "2",
+              "text": "Barcelona"
+            },
+            {
+              "id": "3",
+              "text": "Montreal"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Los Angeles"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "No communist country has ever hosted the Olympics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "olympiad",
+          "summer",
+          "country",
+          "players",
+          "equator"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: City and Olympics",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, stadium, summer. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the real name of WWE superstar Viscera?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Nelson"
+            },
+            {
+              "id": "3",
+              "text": "Mable"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nelson"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is professional wrestler Dave Finlay from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atlanta, Georgia"
+            },
+            {
+              "id": "1",
+              "text": "Ireland"
+            },
+            {
+              "id": "2",
+              "text": "Omaha, Nebraska"
+            },
+            {
+              "id": "3",
+              "text": "North Carolina"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ireland"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following events marred the 1972 summer Olympics in Munich?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Three boxing judges were accused of bribery after they awarded the decision to a South Korean light middleweight who was dominated by his American opponent."
+            },
+            {
+              "id": "1",
+              "text": "The quarters of several Austrian athletes were raided as part of a massive doping investigation."
+            },
+            {
+              "id": "2",
+              "text": "The marathon winner was found to have run only a portion of the race, hitching a ride for several miles before returning to the course."
+            },
+            {
+              "id": "3",
+              "text": "Eleven Israeli athletes were killed after being kidnapped by Palestinian terrorists."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eleven Israeli athletes were killed after being kidnapped by Palestinian terrorists."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city hosted the Olympics in 1994, only two years after the previous games were held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atlanta"
+            },
+            {
+              "id": "1",
+              "text": "Albertville"
+            },
+            {
+              "id": "2",
+              "text": "Lillehammer"
+            },
+            {
+              "id": "3",
+              "text": "Barcelona"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lillehammer"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1968 Olympic citys altitude was responsible for many track and field records being broken because of the rarefied air?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helsinki"
+            },
+            {
+              "id": "1",
+              "text": "Rome"
+            },
+            {
+              "id": "2",
+              "text": "Denver"
+            },
+            {
+              "id": "3",
+              "text": "Mexico City"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mexico City"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which previous Olympic city hosted the equestrian events of 1956, five months before the rest of the games took place in Melbourne?",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Louis"
+            },
+            {
+              "id": "1",
+              "text": "Amsterdam"
+            },
+            {
+              "id": "2",
+              "text": "Stockholm"
+            },
+            {
+              "id": "3",
+              "text": "Helsinki"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Stockholm"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what city did the same skier win all three Olympic alpine events for the first time in history, in 1956?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Torino"
+            },
+            {
+              "id": "1",
+              "text": "Cortina DAmpezzo"
+            },
+            {
+              "id": "2",
+              "text": "Oslo"
+            },
+            {
+              "id": "3",
+              "text": "Grenoble"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cortina DAmpezzo"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "American professional wrestler Kane is Undertakers step-brother in real life besides in the show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where were the summer Olympics held in 1992, when a black African woman won a gold medal for the first time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "1",
+              "text": "Amsterdam"
+            },
+            {
+              "id": "2",
+              "text": "Sydney"
+            },
+            {
+              "id": "3",
+              "text": "Barcelona"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Barcelona"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city hosted the 1998 debut of snowboarding as an official Olympic sport?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Albertville"
+            },
+            {
+              "id": "1",
+              "text": "Torino"
+            },
+            {
+              "id": "2",
+              "text": "Nagano"
+            },
+            {
+              "id": "3",
+              "text": "Salt Lake City"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nagano"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city hosted the first Olympics to include the U.S.S.R., in 1952?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Melbourne"
+            },
+            {
+              "id": "1",
+              "text": "Amsterdam"
+            },
+            {
+              "id": "2",
+              "text": "Rome"
+            },
+            {
+              "id": "3",
+              "text": "Helsinki"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Helsinki"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which city did a bomb explode during the 1996 Olympics, resulting in two deaths?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atlanta"
+            },
+            {
+              "id": "1",
+              "text": "Munich"
+            },
+            {
+              "id": "2",
+              "text": "Nagano"
+            },
+            {
+              "id": "3",
+              "text": "Moscow"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Atlanta"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1960 Summer Olympics, the first to be fully covered by television, were held in which city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grenoble"
+            },
+            {
+              "id": "1",
+              "text": "Tokyo"
+            },
+            {
+              "id": "2",
+              "text": "Innsbruck"
+            },
+            {
+              "id": "3",
+              "text": "Rome"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rome"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which citys retractable dome stadium wasnt completed in time for the 1976 Olympics due to a construction strike?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Munich"
+            },
+            {
+              "id": "1",
+              "text": "Seoul"
+            },
+            {
+              "id": "2",
+              "text": "Moscow"
+            },
+            {
+              "id": "3",
+              "text": "Montreal"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Montreal"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2003, professional wrestler Triple H officially married Stephanie McMahon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "stadium",
+          "summer",
+          "viscera",
+          "citys",
+          "debut"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Wrestler and Professional Wrestler",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, headquarters, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Former professional wrestler Brett The Hitman Hart was a six-time WWE heavyweight champion.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Terry Funk won the NWA world title in 1975.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1987, former AWA World Champion Rick Martel formed the tag team Strike Force with which wrestler?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tony Garea"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Tom Zenk"
+            },
+            {
+              "id": "3",
+              "text": "Tito Santana"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tito Santana"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Professional wrestler Lita was really pregnant in 2004.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Professional wrestler Cheif Jay Strongbow had a partner whose neck was broken by Ken Patera. What was his name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jay Youngblood"
+            },
+            {
+              "id": "1",
+              "text": "Jules Strongbow"
+            },
+            {
+              "id": "2",
+              "text": "Billy White Wolf"
+            },
+            {
+              "id": "3",
+              "text": "Wahoo Mcdaneil"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Billy White Wolf"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these ladies dated both Matt Hardy and Edge?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amy Dumas"
+            },
+            {
+              "id": "1",
+              "text": "Codi Davis"
+            },
+            {
+              "id": "2",
+              "text": "Laura Bush"
+            },
+            {
+              "id": "3",
+              "text": "Trish Stratus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Amy Dumas"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nicknamed The Chief, he was a great basketball center, who played for many years.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dennis Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Walt Bellamy"
+            },
+            {
+              "id": "2",
+              "text": "JoJo White"
+            },
+            {
+              "id": "3",
+              "text": "Robert Parrish"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Parrish"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which professional wrestler was the very first WWF heavyweight champion of Latino descent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Guerrerro"
+            },
+            {
+              "id": "1",
+              "text": "Rey Mysterio"
+            },
+            {
+              "id": "2",
+              "text": "Pedro Morales"
+            },
+            {
+              "id": "3",
+              "text": "Tito Santana"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pedro Morales"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Former professional wrestler Bob Backlund has held the WWF/WWE world title how many times?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2 times"
+            },
+            {
+              "id": "1",
+              "text": "1 time"
+            },
+            {
+              "id": "2",
+              "text": "3 times"
+            },
+            {
+              "id": "3",
+              "text": "5 times"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 3 times"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did professional wrestler Stacy Keibler retire from wrestling?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She didnt like the fame anymore."
+            },
+            {
+              "id": "1",
+              "text": "She wanted to have a social life and move on to other endeavors."
+            },
+            {
+              "id": "2",
+              "text": "She really wanted to dance, and take a break."
+            },
+            {
+              "id": "3",
+              "text": "She didnt quit."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: She wanted to have a social life and move on to other endeavors."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Professional wrestler Ric Flair, better known by the ring name The Nature Boy was involved in what kind of accident in 1975?",
+          "options": [
+            {
+              "id": "0",
+              "text": "car accident"
+            },
+            {
+              "id": "1",
+              "text": "jet-ski accident"
+            },
+            {
+              "id": "2",
+              "text": "motorcycle accident"
+            },
+            {
+              "id": "3",
+              "text": "plane accident"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: plane accident"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which WWE star has used the ring names Vampiro Americano, Death Mask and Johnny Hawk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "JBL"
+            },
+            {
+              "id": "1",
+              "text": "Bret Hart"
+            },
+            {
+              "id": "2",
+              "text": "Cena"
+            },
+            {
+              "id": "3",
+              "text": "HHH"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: JBL"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Abe was the originator, owner, and player for the Harlem Globetrotters.   What was Abes last name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saperstein"
+            },
+            {
+              "id": "1",
+              "text": "Davis"
+            },
+            {
+              "id": "2",
+              "text": "Mikan"
+            },
+            {
+              "id": "3",
+              "text": "Davidson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Saperstein"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former professional wrestler introduced the Undertaker to the WWF at the 1990 Survivor Series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Slick"
+            },
+            {
+              "id": "1",
+              "text": "Ted Million Dollar Man Dibiase"
+            },
+            {
+              "id": "2",
+              "text": "Captain Lou Albano"
+            },
+            {
+              "id": "3",
+              "text": "Paul Bearer"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ted Million Dollar Man Dibiase"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is WWEs headquarters?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stamford, Connecticut"
+            },
+            {
+              "id": "1",
+              "text": "L.A., California"
+            },
+            {
+              "id": "2",
+              "text": "Hartford, Connecticut"
+            },
+            {
+              "id": "3",
+              "text": "New York, New York"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Stamford, Connecticut"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "headquarters",
+          "title",
+          "undertaker",
+          "keibler",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Player and Players",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, field, candidate. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which teams played in the first Super Bowl?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kansas City and Green Bay"
+            },
+            {
+              "id": "1",
+              "text": "Chicago and New York"
+            },
+            {
+              "id": "2",
+              "text": "Chicago and Boston"
+            },
+            {
+              "id": "3",
+              "text": "Green Bay and New York"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kansas City and Green Bay"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Detroit Red Wings won their first Stanley Cup, after defeating the Toronto Maple Leafs in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1934"
+            },
+            {
+              "id": "1",
+              "text": "1959"
+            },
+            {
+              "id": "2",
+              "text": "1925"
+            },
+            {
+              "id": "3",
+              "text": "1936"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1936"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the first Pro Bowl game held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1955"
+            },
+            {
+              "id": "1",
+              "text": "1935"
+            },
+            {
+              "id": "2",
+              "text": "1939"
+            },
+            {
+              "id": "3",
+              "text": "1970"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1939"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "American football teams can use their allotted timeouts however they want.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Detroit Red Wings were among the Original Six members of the National Hockey League .",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She was the first woman to sign a contract with a National Basketball Association team, the Indiana Pacers.  She was also the first player to be part of the U.S. National team while still in high school.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cheryl Miller"
+            },
+            {
+              "id": "1",
+              "text": "Nancy Lieberman"
+            },
+            {
+              "id": "2",
+              "text": "Carol Blazejowski"
+            },
+            {
+              "id": "3",
+              "text": "Ann Meyers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ann Meyers"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There can only be 10 American football players on the field at a time, while a play is live.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who scored the game winning goal for the Detroit Red Wings in the 1950 Stanley Cup finals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pete Babando"
+            },
+            {
+              "id": "1",
+              "text": "Tommy Ivan"
+            },
+            {
+              "id": "2",
+              "text": "Jimmy Skinner"
+            },
+            {
+              "id": "3",
+              "text": "Metro Prystai"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pete Babando"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He developed basketball as a five-player sport while a faculty member of Springfield College.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Namath"
+            },
+            {
+              "id": "1",
+              "text": "Amos Alonzo Stagg"
+            },
+            {
+              "id": "2",
+              "text": "Dr. James Naismith"
+            },
+            {
+              "id": "3",
+              "text": "Rodney Duff"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Amos Alonzo Stagg"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these players has been enshrined in the Basketball Hall of Fame both as a player and coach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nat Holman"
+            },
+            {
+              "id": "1",
+              "text": "Red Holtzman"
+            },
+            {
+              "id": "2",
+              "text": "Red Auerbach"
+            },
+            {
+              "id": "3",
+              "text": "Lenny Wilkins"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lenny Wilkins"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This basketball Hall Of Famer was known for 22 years, as the Clown Prince of the Globetrotters, a team upon which he left his mark as a player. His first name was Meadowlark . What is his last name ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lemon"
+            },
+            {
+              "id": "1",
+              "text": "Watkins"
+            },
+            {
+              "id": "2",
+              "text": "Johnson"
+            },
+            {
+              "id": "3",
+              "text": "McCoy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lemon"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This basketball player, who played for the Harlem Globetrotters, had amazing ball-handing abilities -- he would often dribble long enough for other players to rest.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Darren McCune"
+            },
+            {
+              "id": "1",
+              "text": "Marques Haynes"
+            },
+            {
+              "id": "2",
+              "text": "Larry Big Hands Culpepper"
+            },
+            {
+              "id": "3",
+              "text": "Bill The Hill McGill"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Marques Haynes"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former U.S. Senator and presidential candidate was inducted into the Basketball Hall of Fame in 1982.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Byron (Whizzer) White"
+            },
+            {
+              "id": "1",
+              "text": "Tom McMillan"
+            },
+            {
+              "id": "2",
+              "text": "Marv Levy"
+            },
+            {
+              "id": "3",
+              "text": "Bill Bradley"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Bradley"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many professional American football teams were there at the end of the 1920 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14"
+            },
+            {
+              "id": "1",
+              "text": "30"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "15"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 14"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Green Bay Packers have won two consecutive Super Bowl games.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "field",
+          "candidate",
+          "players",
+          "game",
+          "woman"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Chicago Cubs and Coach",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, cubs, drove. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Chicago Cubs player won the MVP award in back to back seasons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ernie Banks"
+            },
+            {
+              "id": "1",
+              "text": "Ryne Sandberg"
+            },
+            {
+              "id": "2",
+              "text": "Andre Dawson"
+            },
+            {
+              "id": "3",
+              "text": "Sammy Sosa"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ernie Banks"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which was the first ballpark in which the Chicago Cubs played in the national league?",
+          "options": [
+            {
+              "id": "0",
+              "text": "23rd Street Grounds"
+            },
+            {
+              "id": "1",
+              "text": "South Side Park"
+            },
+            {
+              "id": "2",
+              "text": "Wrigley Field"
+            },
+            {
+              "id": "3",
+              "text": "West Side Grounds"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 23rd Street Grounds"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2002, this former ice hockey defenseman became head coach of the Detroit Red Wings, after the retirement of Scotty Bowman.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike Babcock"
+            },
+            {
+              "id": "1",
+              "text": "Mike Ilitch"
+            },
+            {
+              "id": "2",
+              "text": "Scotty Bowman"
+            },
+            {
+              "id": "3",
+              "text": "Dave Lewis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dave Lewis"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2002, the Detroit Red Wings won their tenth Stanley Cup, led by which coach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike Babcock"
+            },
+            {
+              "id": "1",
+              "text": "Dawe Lewis"
+            },
+            {
+              "id": "2",
+              "text": "Scotty Bowman"
+            },
+            {
+              "id": "3",
+              "text": "Wayne Maxner"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Scotty Bowman"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2003 the Chicago Cubs retired the jersey of which player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron Santo"
+            },
+            {
+              "id": "1",
+              "text": "Ernie Banks"
+            },
+            {
+              "id": "2",
+              "text": "Billy Williams"
+            },
+            {
+              "id": "3",
+              "text": "Ryne Sandberg"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ron Santo"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Steve Yzerman play in the 2006 Winter Olympics for the Canadian ice hockey team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Detroit Red Wings players won gold medals in mens hockey in the 2006 Winter Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 5"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The motto of  the oldest established National Hockey League franchise, The Montreal Canadiens is:  To you from failing hands we throw the torch. Be yours to hold it high.",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ron Santo, who played almost his entire career with the Chicago Cubs, was named a National League All-Star how many times?",
+          "options": [
+            {
+              "id": "0",
+              "text": "eleven"
+            },
+            {
+              "id": "1",
+              "text": "ten"
+            },
+            {
+              "id": "2",
+              "text": "nine"
+            },
+            {
+              "id": "3",
+              "text": "eight"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: nine"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Former Detroit Red Wings head coach Scotty Bowman started his coaching career in the NHL as head coach of the St. Louis Blues.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the Chicago Cubs win their first World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1908"
+            },
+            {
+              "id": "1",
+              "text": "1945"
+            },
+            {
+              "id": "2",
+              "text": "1932"
+            },
+            {
+              "id": "3",
+              "text": "1907"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1907"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1950, this NHL team scored a game-winning goal in overtime of game seven, Stanley Cup Finals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Chicago Blackhawks"
+            },
+            {
+              "id": "1",
+              "text": "The Montreal Canadiens"
+            },
+            {
+              "id": "2",
+              "text": "The Boston Bruins"
+            },
+            {
+              "id": "3",
+              "text": "The Detroit Red Wings"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Detroit Red Wings"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which manager of the Chicago Cubs was named Manager of the Year in 1989?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dusty Baker"
+            },
+            {
+              "id": "1",
+              "text": "Don Baylor"
+            },
+            {
+              "id": "2",
+              "text": "Jim Frey"
+            },
+            {
+              "id": "3",
+              "text": "Don Zimmer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Don Zimmer"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dale Earnhardt Sr. is the first driver to win Rookie of the Year and a NASCAR championship in consecutive years.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dale Earnhardt drove for several owners. Which owner was he driving for when he won his first NASCAR championship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rod Osterland"
+            },
+            {
+              "id": "1",
+              "text": "Wood Brothers"
+            },
+            {
+              "id": "2",
+              "text": "Bud Moore"
+            },
+            {
+              "id": "3",
+              "text": "Richard Childress"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rod Osterland"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "cubs",
+          "drove",
+          "players",
+          "coach",
+          "yzerman"
+        ]
+      }
+    }
+  ]
+}

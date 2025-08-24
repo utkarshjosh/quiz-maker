@@ -1,8 +1,6 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, type Prisma } from '@prisma/client';
 import { seedUsers } from './users';
-import { seedTags } from './tags';
-import { seedQuizTags } from './quiz-tags';
-import { seedLargeQuizDataset } from './large-quiz-dataset';
+import { autoImportQuizzes } from './auto-import-quiz';
 
 const prisma = new PrismaClient();
 
@@ -11,18 +9,15 @@ export async function main(): Promise<void> {
 
   try {
     // Run seeds in transaction batches
-    await prisma.$transaction(async (tx: PrismaClient) => {
-      console.log('Seeding users...');
-      await seedUsers(tx);
-      console.log('Seeding tags...');
-      await seedTags(tx);
-    });
+    await prisma.$transaction(
+      async (tx: PrismaClient | Prisma.TransactionClient) => {
+        console.log('Seeding users...');
+        await seedUsers(tx);
+      }
+    );
 
-    // Large dataset is seeded separately due to size
-    console.log('Seeding large quiz dataset...');
-    await seedLargeQuizDataset(prisma);
-    console.log('Seeding quiz tags relationships...');
-    await seedQuizTags(prisma);
+    console.log('Seeding quizzes...');
+    await autoImportQuizzes(prisma, '1ac7d213-c0ee-4461-8f52-6a42b8e2b343');
     console.log('✅ Seed process completed successfully!');
   } catch (error) {
     console.error('❌ Seed process failed:', error);

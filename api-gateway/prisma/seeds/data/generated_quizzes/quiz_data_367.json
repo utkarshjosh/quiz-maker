@@ -1,0 +1,2420 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: Absinthe and Chocolate",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, ground, content. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When you serve absinthe, you pour it straight over a sugar cube, then add a small portion of water to the glass before tossing it down. After that, you should do this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Light it up"
+            },
+            {
+              "id": "1",
+              "text": "Pour into another glass"
+            },
+            {
+              "id": "2",
+              "text": "Stir it"
+            },
+            {
+              "id": "3",
+              "text": "Sip it"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Light it up"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Absinthe Drinker and Woman Drinking Absinthe are paintings that immortalise the fame of absinthe. Who is the artist that painted them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Van Gogh"
+            },
+            {
+              "id": "1",
+              "text": "Monet"
+            },
+            {
+              "id": "2",
+              "text": "Picasso"
+            },
+            {
+              "id": "3",
+              "text": "Dali"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Picasso"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chocolate syrup was used as fake blood in the famous shower scene in the 1960 movie Psycho.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chocolate is low in caffeine.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does white chocolate contain cocoa solids?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The active ingredient of absinthe is thujone. It is chemically similar to this psychoactive substance. Scientists also believe that thujone and this substance affect the same brain receptors.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tetrahydrocannabinol"
+            },
+            {
+              "id": "1",
+              "text": "Beta-phenylethylamine"
+            },
+            {
+              "id": "2",
+              "text": "Opium"
+            },
+            {
+              "id": "3",
+              "text": "Codeine Phosphate"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tetrahydrocannabinol"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The mixture of hot cream and melted chocolate is called ganache. What does the French word ganache literally mean in English?",
+          "options": [
+            {
+              "id": "0",
+              "text": "flower"
+            },
+            {
+              "id": "1",
+              "text": "chocolate"
+            },
+            {
+              "id": "2",
+              "text": "cream"
+            },
+            {
+              "id": "3",
+              "text": "fool"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: fool"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Absinthe was most popular in this country as it was the common beverage among artists and writers in the late 19th and early 20th centuries.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Italy"
+            },
+            {
+              "id": "2",
+              "text": "England"
+            },
+            {
+              "id": "3",
+              "text": "France"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The alcohol content is very high in absinthe. It can be as high as this %.",
+          "options": [
+            {
+              "id": "0",
+              "text": "85 %"
+            },
+            {
+              "id": "1",
+              "text": "75 %"
+            },
+            {
+              "id": "2",
+              "text": "65 %"
+            },
+            {
+              "id": "3",
+              "text": "95 %"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 85 %"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Absinthe was prohibited in this year, because it was believed to be reason for elevated crime rates.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1915"
+            },
+            {
+              "id": "1",
+              "text": "1919"
+            },
+            {
+              "id": "2",
+              "text": "1961"
+            },
+            {
+              "id": "3",
+              "text": "1906"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1915"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Addiction, hyper excitability, and hallucinations were believed to be manifestations of this syndrome, urged by absinthe. People considered that these traits, once acquired from absinthe drinking, became hereditary and could be passed over to their children.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Downing syndrome"
+            },
+            {
+              "id": "1",
+              "text": "Absinthism"
+            },
+            {
+              "id": "2",
+              "text": "Opitz G/BBB Syndrome"
+            },
+            {
+              "id": "3",
+              "text": "Aspergers syndrome"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Absinthism"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Peanuts cartoon character said, All I really need is love, but a little chocolate now and then doesnt hurt!?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charlie Brown"
+            },
+            {
+              "id": "1",
+              "text": "Linus"
+            },
+            {
+              "id": "2",
+              "text": "Lucy"
+            },
+            {
+              "id": "3",
+              "text": "Sally"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lucy"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As the most ardent consumers of absinthe, the French produced these amounts in 1910, just for domestic use.",
+          "options": [
+            {
+              "id": "0",
+              "text": "15 million liters"
+            },
+            {
+              "id": "1",
+              "text": "11 million liters"
+            },
+            {
+              "id": "2",
+              "text": "10 million liters"
+            },
+            {
+              "id": "3",
+              "text": "36 million liters"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 36 million liters"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This delectable chocolate dessert is named after fungi rooted out of the ground by pigs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nugget"
+            },
+            {
+              "id": "1",
+              "text": "Truffles"
+            },
+            {
+              "id": "2",
+              "text": "Eclairs"
+            },
+            {
+              "id": "3",
+              "text": "Mushrooms"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Truffles"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The word absinthe comes from ancient Greek and means this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Magical"
+            },
+            {
+              "id": "1",
+              "text": "Hallucinogenic"
+            },
+            {
+              "id": "2",
+              "text": "Undrinkable"
+            },
+            {
+              "id": "3",
+              "text": "Tasty"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Undrinkable"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "ground",
+          "content",
+          "cartoon",
+          "cocoa",
+          "dessert"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Blackjack and Player",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, signs, game. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you see the characters \u201cS17\u201d printed on a Blackjack table what valuable information do you get about the rules of the game in this casino?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Soft 17s are considered eights by the dealer"
+            },
+            {
+              "id": "1",
+              "text": "The dealer surrenders on soft 17s"
+            },
+            {
+              "id": "2",
+              "text": "The dealer doubles on soft 17s"
+            },
+            {
+              "id": "3",
+              "text": "The dealer stands on soft 17s"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The dealer stands on soft 17s"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In most U.S. casinos counting the cards even mentally is illegal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the popular set of optimal rules for playing Blackjack called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golden rules strategy"
+            },
+            {
+              "id": "1",
+              "text": "Best strategy"
+            },
+            {
+              "id": "2",
+              "text": "Basic strategy"
+            },
+            {
+              "id": "3",
+              "text": "Push strategy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Basic strategy"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Blackjack, it is crucial for the player not to let neither the dealer nor the other players see his/her cards.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is what they call a straight shot of absinthe served over a cube of sugar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Traditional"
+            },
+            {
+              "id": "1",
+              "text": "Short"
+            },
+            {
+              "id": "2",
+              "text": "Neat"
+            },
+            {
+              "id": "3",
+              "text": "Van Gogh Crazy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Van Gogh Crazy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Blackjack what card combination is called Blackjack?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Any card combination with total value of 21"
+            },
+            {
+              "id": "1",
+              "text": "An ace and a card with value 10"
+            },
+            {
+              "id": "2",
+              "text": "An ace and a jack"
+            },
+            {
+              "id": "3",
+              "text": "Two aces"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: An ace and a card with value 10"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you play Blackjack with handheld cards in a casino, with which one of these non-verbal signs can you tell the dealer you want to \u201chit\u201d (have one more card)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scrape the cards against the table"
+            },
+            {
+              "id": "1",
+              "text": "Slide the cards under the bet"
+            },
+            {
+              "id": "2",
+              "text": "Place additional chips on the top of the original bet"
+            },
+            {
+              "id": "3",
+              "text": "Place additional chips next to the original bet"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Scrape the cards against the table"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The popular casino game Blackjack is known under several different names. Which of the following is NOT one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Twenty-One"
+            },
+            {
+              "id": "1",
+              "text": "Crazy Eights"
+            },
+            {
+              "id": "2",
+              "text": "Vingt-et-un"
+            },
+            {
+              "id": "3",
+              "text": "Pontoon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Crazy Eights"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What card combination is called \u201cSoft 17\u201d in Blackjack?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two aces"
+            },
+            {
+              "id": "1",
+              "text": "An ace plus a jack"
+            },
+            {
+              "id": "2",
+              "text": "An ace valued 11 plus 6 more points from other cards"
+            },
+            {
+              "id": "3",
+              "text": "An ace valued 1 plus 16 more points from other cards"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: An ace valued 11 plus 6 more points from other cards"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following versions of Blackjack is most favorable to the player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two-deck game"
+            },
+            {
+              "id": "1",
+              "text": "Eight-deck game"
+            },
+            {
+              "id": "2",
+              "text": "Four-deck game"
+            },
+            {
+              "id": "3",
+              "text": "Single deck game"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Single deck game"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Blackjack how is it accepted for a player holding the cards in his/her hand to give a sign to the dealer he/she wants to stand (stay)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "By scraping the cards against the table"
+            },
+            {
+              "id": "1",
+              "text": "By sliding the cards under the bet"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "By placing additional chips next to the bet"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: By sliding the cards under the bet"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the casino version of Blackjack, what is a \u201cshoe\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The edge of the playing table"
+            },
+            {
+              "id": "1",
+              "text": "The container from which cards are dealt"
+            },
+            {
+              "id": "2",
+              "text": "The container where the player puts the cards he/she receives"
+            },
+            {
+              "id": "3",
+              "text": "The shape of the playing table"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The container from which cards are dealt"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In casinos where Blackjack dealers must hit on soft 17 the game is substantially more favorable for the player than in casinos where dealers must stand on soft 17.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When the player \u201csurrenders\u201d in Blackjack, what part of his/her bet does he/she lose?",
+          "options": [
+            {
+              "id": "0",
+              "text": "One fifth"
+            },
+            {
+              "id": "1",
+              "text": "One half"
+            },
+            {
+              "id": "2",
+              "text": "The whole bet"
+            },
+            {
+              "id": "3",
+              "text": "Two thirds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: One half"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first written reference of Blackjack can be found in a short story by this world-famous author.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hans Christian Anderson"
+            },
+            {
+              "id": "1",
+              "text": "Mark Twain"
+            },
+            {
+              "id": "2",
+              "text": "Victor Hugo"
+            },
+            {
+              "id": "3",
+              "text": "Miguel de Cervantes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Miguel de Cervantes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "signs",
+          "game",
+          "casinos",
+          "\u201c",
+          "hobbies"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Knowledge Quiz: Calvin Klein and Blackjack",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, klein, kind. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these watch companies has produced luxury watches under the Calvin Klein brand?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Swatch"
+            },
+            {
+              "id": "1",
+              "text": "Rolex"
+            },
+            {
+              "id": "2",
+              "text": "Seiko"
+            },
+            {
+              "id": "3",
+              "text": "Casio"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Swatch"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In December 2002, Calvin Klein sold his company to which fashion corporation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Holding di Partecipazioni"
+            },
+            {
+              "id": "1",
+              "text": "Abercrombie  Fitch"
+            },
+            {
+              "id": "2",
+              "text": "Phillips Van Heusen Corp."
+            },
+            {
+              "id": "3",
+              "text": "Tommy Hilfiger Corp."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Phillips Van Heusen Corp."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these four Calvin Klein fragrances was created first in 1985?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Truth"
+            },
+            {
+              "id": "1",
+              "text": "Obsession"
+            },
+            {
+              "id": "2",
+              "text": "Euphoria"
+            },
+            {
+              "id": "3",
+              "text": "cK be"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Obsession"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The composition-dependant strategy works best in this kind of Blackjack game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Single-deck"
+            },
+            {
+              "id": "2",
+              "text": "Eight-deck"
+            },
+            {
+              "id": "3",
+              "text": "Two-deck"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Single-deck"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Calvin Klein won the Coty Award, the most prestigious award in fashion, in what three consecutive years?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1970, 1971, 1972"
+            },
+            {
+              "id": "1",
+              "text": "1972, 1973, 1974"
+            },
+            {
+              "id": "2",
+              "text": "1973, 1974, 1975"
+            },
+            {
+              "id": "3",
+              "text": "1974, 1975, 1976"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1973, 1974, 1975"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This celebrity, then 15-year-old, starred in the controversial Calvin Klein underwear advertisement which featured the tagline nothing comes between me and my Calvins.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny Depp"
+            },
+            {
+              "id": "1",
+              "text": "Natalia Vodianova"
+            },
+            {
+              "id": "2",
+              "text": "Kate Moss"
+            },
+            {
+              "id": "3",
+              "text": "Brooke Shields"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Brooke Shields"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which U.S. city is the Blackjack Hall of Fame located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Diego"
+            },
+            {
+              "id": "1",
+              "text": "New York"
+            },
+            {
+              "id": "2",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "3",
+              "text": "Las Vegas"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: San Diego"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first ever Calvin Klein collection featured what kind of clothes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hats"
+            },
+            {
+              "id": "1",
+              "text": "Underwear"
+            },
+            {
+              "id": "2",
+              "text": "Coats"
+            },
+            {
+              "id": "3",
+              "text": "T-shirts"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Coats"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In April 2007 a new version of Blackjack was approved for playing in the U.S. state of Washington. What is it called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Three Card Blackjack"
+            },
+            {
+              "id": "1",
+              "text": "Pantoon"
+            },
+            {
+              "id": "2",
+              "text": "Chinese Blackjack"
+            },
+            {
+              "id": "3",
+              "text": "Multiple Action Blackjack"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Three Card Blackjack"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Blackjack, what does a \u201cnatural\u201d hand consist of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ace and a ten-valued card"
+            },
+            {
+              "id": "1",
+              "text": "Two equal cards"
+            },
+            {
+              "id": "2",
+              "text": "Two even-numbered card"
+            },
+            {
+              "id": "3",
+              "text": "Ace and a Jack"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ace and a ten-valued card"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did American model and singer Mark Wahlberg advertise for Calvin Klein?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Eternity Moment fragrance"
+            },
+            {
+              "id": "1",
+              "text": "Coats"
+            },
+            {
+              "id": "2",
+              "text": "Jeans"
+            },
+            {
+              "id": "3",
+              "text": "Underwear"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Underwear"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When is the so-called insurance offered to the player in Blackjack?",
+          "options": [
+            {
+              "id": "0",
+              "text": "When the dealers exposed card is an ace"
+            },
+            {
+              "id": "1",
+              "text": "When the player has reached 20"
+            },
+            {
+              "id": "2",
+              "text": "When the dealers exposed card is 10-valued"
+            },
+            {
+              "id": "3",
+              "text": "When the player has reached 18"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: When the dealers exposed card is an ace"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these pairs of a model and a Calvin Klein fragrance, advertised by the model, is correct?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kate Moss - Euphoria"
+            },
+            {
+              "id": "1",
+              "text": "Kate Moss - Obsession"
+            },
+            {
+              "id": "2",
+              "text": "Natalia Vodianova - cK one"
+            },
+            {
+              "id": "3",
+              "text": "Brooke Shields - Obsession"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kate Moss - Obsession"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a name of a Calvin Klein fragrance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Euphoria"
+            },
+            {
+              "id": "1",
+              "text": "Obsession"
+            },
+            {
+              "id": "2",
+              "text": "cK be"
+            },
+            {
+              "id": "3",
+              "text": "Dolce Vita"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dolce Vita"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When playing Blackjack in a casino, there are two proper ways to announce your decision after you\u2019ve received a card \u2013 either say it aloud or use some of the commonly accepted non-verbal signs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "klein",
+          "kind",
+          "model",
+          "hand",
+          "calvin"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Coffee and Sizes",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, coffee, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which sizes are for those 5 4 - 5 5 tall, who have a higher bust and a shorter back?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miss Petite"
+            },
+            {
+              "id": "1",
+              "text": "Junior Petite"
+            },
+            {
+              "id": "2",
+              "text": "Junior"
+            },
+            {
+              "id": "3",
+              "text": "Young Junior"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Junior"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a cappuccino?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Coffee plus aerated milk"
+            },
+            {
+              "id": "1",
+              "text": "Coffee plus aerated milk plus chocolate"
+            },
+            {
+              "id": "2",
+              "text": "Espresso plus aerated milk"
+            },
+            {
+              "id": "3",
+              "text": "Espresso plus aerated milk plus chocolate"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Espresso plus aerated milk"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which dress sizes are for those who are 5 1 tall, with an average bust but a shorter back?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miss Petite"
+            },
+            {
+              "id": "1",
+              "text": "Junior"
+            },
+            {
+              "id": "2",
+              "text": "Junior Petite"
+            },
+            {
+              "id": "3",
+              "text": "Young Junior"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Junior Petite"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a beverage has mocha in the name, what ingredients can you be sure that it contains?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Milk, sugar and coffee"
+            },
+            {
+              "id": "1",
+              "text": "Chocolate, coffee and milk"
+            },
+            {
+              "id": "2",
+              "text": "Sugar and coffee"
+            },
+            {
+              "id": "3",
+              "text": "Milk and chocolate"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chocolate, coffee and milk"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Abrupt cessation of coffee consumption can cause caffeine-withdrawal headaches.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which sizes are for those who are 5 2 - 5 3 tall, with a lower bust and a shorter back?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miss Petite"
+            },
+            {
+              "id": "1",
+              "text": "Half sizes"
+            },
+            {
+              "id": "2",
+              "text": "Junior Petite"
+            },
+            {
+              "id": "3",
+              "text": "Misses sizes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Half sizes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A single shot (1 ounce) of espresso contains more caffeine than a 7-ounce cup of drip coffee.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the middle name of American fashion designer Calvin Klein?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Theodore"
+            },
+            {
+              "id": "1",
+              "text": "Richard"
+            },
+            {
+              "id": "2",
+              "text": "Abraham"
+            },
+            {
+              "id": "3",
+              "text": "William"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Richard"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which part of the world was coffee first prepared as a beverage?",
+          "options": [
+            {
+              "id": "0",
+              "text": "China"
+            },
+            {
+              "id": "1",
+              "text": "Peru"
+            },
+            {
+              "id": "2",
+              "text": "Colombia"
+            },
+            {
+              "id": "3",
+              "text": "Ethiopia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ethiopia"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most medical authorities believe that coffee consumption is harmful to the health.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Decaffeinated coffee contains no caffeine.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The consumption of coffee is forbidden by which one of the following religions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Islam"
+            },
+            {
+              "id": "1",
+              "text": "Ethiopian Orthodox Christianity"
+            },
+            {
+              "id": "2",
+              "text": "The Sufi Branch of Islam"
+            },
+            {
+              "id": "3",
+              "text": "The Church of Jesus Christ of Latter-day Saints"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Church of Jesus Christ of Latter-day Saints"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which dress sizes are for those 5 2 - 5 3 tall, with an average bust but a shorter back?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Womens sizes"
+            },
+            {
+              "id": "1",
+              "text": "Half sizes"
+            },
+            {
+              "id": "2",
+              "text": "Miss Petite sizes"
+            },
+            {
+              "id": "3",
+              "text": "Misses sizes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Miss Petite sizes"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Latt\u00e9?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Coffee plus aerated milk"
+            },
+            {
+              "id": "1",
+              "text": "Coffee plus aerated milk plus chocolate"
+            },
+            {
+              "id": "2",
+              "text": "Espresso plus aerated milk"
+            },
+            {
+              "id": "3",
+              "text": "Espresso plus aerated milk plus chocolate"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Espresso plus aerated milk"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these countries exports the most coffee per year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colombia"
+            },
+            {
+              "id": "1",
+              "text": "Brazil"
+            },
+            {
+              "id": "2",
+              "text": "Viet Nam"
+            },
+            {
+              "id": "3",
+              "text": "Ethiopia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Brazil"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "coffee",
+          "world",
+          "exports",
+          "part",
+          "designer"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: Mall and Sizes",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, mean, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the location of the oldest mall in England.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Canterbury"
+            },
+            {
+              "id": "1",
+              "text": "Surrey"
+            },
+            {
+              "id": "2",
+              "text": "Kent"
+            },
+            {
+              "id": "3",
+              "text": "Oxford"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Oxford"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the location of the oldest mall still in use.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Istanbul"
+            },
+            {
+              "id": "1",
+              "text": "Paris"
+            },
+            {
+              "id": "2",
+              "text": "Kent"
+            },
+            {
+              "id": "3",
+              "text": "Tashkent"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Istanbul"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the location of the largest mall in Europe.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lyon, France"
+            },
+            {
+              "id": "1",
+              "text": "Istanbul, Turkey"
+            },
+            {
+              "id": "2",
+              "text": "Barcelona, Spain"
+            },
+            {
+              "id": "3",
+              "text": "Moscow, Russia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Istanbul, Turkey"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the largest mall in the North American continent.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Mall at 4"
+            },
+            {
+              "id": "1",
+              "text": "The  Bergen Mall"
+            },
+            {
+              "id": "2",
+              "text": "The Center"
+            },
+            {
+              "id": "3",
+              "text": "The West Edmonston Mall"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The West Edmonston Mall"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Odd-numbered dress sizes are usually for younger women.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Misses sizes are cut more generously in the bust and hips than junior sizes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the largest mall in the world, as of 2007.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Bejing Mall"
+            },
+            {
+              "id": "1",
+              "text": "The South China Mall"
+            },
+            {
+              "id": "2",
+              "text": "The West Edmonton Mall"
+            },
+            {
+              "id": "3",
+              "text": "The Raja Mall at Mombai"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The South China Mall"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Berjaya Times Square Mall has 45 restaurants, its own theme park , and hip-hop town.  Where is it located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kuala Lumpur"
+            },
+            {
+              "id": "1",
+              "text": "Delhi"
+            },
+            {
+              "id": "2",
+              "text": "Riyadh"
+            },
+            {
+              "id": "3",
+              "text": "Bangalore"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kuala Lumpur"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Half-sizes are for short-waisted women.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does short-waisted mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It means your waist is shorter than your head."
+            },
+            {
+              "id": "1",
+              "text": "It means your shorts need replacing."
+            },
+            {
+              "id": "2",
+              "text": "It means your waist is not very high above the ground."
+            },
+            {
+              "id": "3",
+              "text": "It means your torso is short."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It means your torso is short."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Petite sizes are for women who are under 5 1.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The mall in this city has its own 400-meter ski slope.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Denver"
+            },
+            {
+              "id": "1",
+              "text": "Oslo"
+            },
+            {
+              "id": "2",
+              "text": "Dubai"
+            },
+            {
+              "id": "3",
+              "text": "Edmonton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dubai"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Plus sizes are for heavier women.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the largest mall in the USA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Center"
+            },
+            {
+              "id": "1",
+              "text": "The Bergen Mall"
+            },
+            {
+              "id": "2",
+              "text": "The Mall at 4"
+            },
+            {
+              "id": "3",
+              "text": "The King of Prussia Mall"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The King of Prussia Mall"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is considered to have been the first mall.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Grand Shoppes at  Kent"
+            },
+            {
+              "id": "1",
+              "text": "The Magnificante at Toledo"
+            },
+            {
+              "id": "2",
+              "text": "Isfahan Grand Bazaar"
+            },
+            {
+              "id": "3",
+              "text": "Tashkent Roayl Bazaar"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Isfahan Grand Bazaar"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "mean",
+          "world",
+          "hobbies",
+          "times",
+          "dress"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Type and Preparation",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, kind, dessert. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meat is used in the preparation of the Indian dish called Bombay duck?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fish"
+            },
+            {
+              "id": "1",
+              "text": "Chicken"
+            },
+            {
+              "id": "2",
+              "text": "Pork"
+            },
+            {
+              "id": "3",
+              "text": "Beef"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fish"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the main ingredient in the Chinese meal called Lions head ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cabbage"
+            },
+            {
+              "id": "1",
+              "text": "Lions testicles"
+            },
+            {
+              "id": "2",
+              "text": "Shrimp"
+            },
+            {
+              "id": "3",
+              "text": "Pork meatballs"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pork meatballs"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these ingredients is not used in the preparation of the Chinese dish called Ants climbing a tree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Garlic"
+            },
+            {
+              "id": "1",
+              "text": "Fish"
+            },
+            {
+              "id": "2",
+              "text": "Noodles"
+            },
+            {
+              "id": "3",
+              "text": "Meat"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fish"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of tea is the Chinese Gunpowder tea produced in Zhejiang Province of China?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Black tea"
+            },
+            {
+              "id": "1",
+              "text": "It is actually cocoa"
+            },
+            {
+              "id": "2",
+              "text": "Green tea"
+            },
+            {
+              "id": "3",
+              "text": "It is not tea, it is coffee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Green tea"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The dish called American fried rice is not in fact American. Where was it created?",
+          "options": [
+            {
+              "id": "0",
+              "text": "China"
+            },
+            {
+              "id": "1",
+              "text": "Thailand"
+            },
+            {
+              "id": "2",
+              "text": "Italy"
+            },
+            {
+              "id": "3",
+              "text": "France"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Thailand"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the name of the Suea Rong Hai dish that is popular in Thailand?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crying tiger"
+            },
+            {
+              "id": "1",
+              "text": "Spiders web"
+            },
+            {
+              "id": "2",
+              "text": "Angry octopus"
+            },
+            {
+              "id": "3",
+              "text": "Mothers heart"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Crying tiger"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of meat product is used for the preparation of Buffalo wings?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pork ham"
+            },
+            {
+              "id": "1",
+              "text": "Chicken wings"
+            },
+            {
+              "id": "2",
+              "text": "Buffalo ribs"
+            },
+            {
+              "id": "3",
+              "text": "Chopped pork"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chicken wings"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The recipe for the German chocolate cake did not originate in Germany, but in this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Canada"
+            },
+            {
+              "id": "1",
+              "text": "the USA"
+            },
+            {
+              "id": "2",
+              "text": "Spain"
+            },
+            {
+              "id": "3",
+              "text": "Switzerland"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: the USA"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the color of the blossoms of the apple tree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yellow"
+            },
+            {
+              "id": "1",
+              "text": "Purple and yellow"
+            },
+            {
+              "id": "2",
+              "text": "White and pink"
+            },
+            {
+              "id": "3",
+              "text": "Blue"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: White and pink"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the apple tree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "It is evergreen."
+            },
+            {
+              "id": "2",
+              "text": "It grows up to 60 feet (18 meters)."
+            },
+            {
+              "id": "3",
+              "text": "Its crown is broad and dense."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Its crown is broad and dense."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of dessert is the Boston cream pie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ice cream"
+            },
+            {
+              "id": "1",
+              "text": "Tortellini"
+            },
+            {
+              "id": "2",
+              "text": "Biscuit"
+            },
+            {
+              "id": "3",
+              "text": "Cake"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cake"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He is considered the first architect whose fame was built on his mall designs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hiram Martyn"
+            },
+            {
+              "id": "1",
+              "text": "Victor Gruen"
+            },
+            {
+              "id": "2",
+              "text": "Robert G. Perez"
+            },
+            {
+              "id": "3",
+              "text": "James L. Perez"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Victor Gruen"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meal is the Norwegian Omelette?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Drink"
+            },
+            {
+              "id": "1",
+              "text": "Dessert"
+            },
+            {
+              "id": "2",
+              "text": "Salad"
+            },
+            {
+              "id": "3",
+              "text": "Soup"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dessert"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these season do the fruit of the apple tree ripen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Late summer"
+            },
+            {
+              "id": "1",
+              "text": "Early summer"
+            },
+            {
+              "id": "2",
+              "text": "Late spring"
+            },
+            {
+              "id": "3",
+              "text": "Fall"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fall"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Latin word for apple is malus, which is considered to be derived from the word malum. What does malum mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green"
+            },
+            {
+              "id": "1",
+              "text": "Sweet"
+            },
+            {
+              "id": "2",
+              "text": "Evil"
+            },
+            {
+              "id": "3",
+              "text": "Pain"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Evil"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "kind",
+          "dessert",
+          "lions",
+          "omelette",
+          "hobbies"
+        ]
+      }
+    }
+  ]
+}

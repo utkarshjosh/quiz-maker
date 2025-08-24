@@ -1,0 +1,2460 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Movie and Godzilla",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, screen, household. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The following conversation is from the 1983 movie Bad Boys.",
+          "options": [
+            {
+              "id": "0",
+              "text": "ptain Howard: Until then, until then, you are Mike Lowrey, you be him, thats what you are, youre him."
+            },
+            {
+              "id": "1",
+              "text": "ptain Howard: Youre him, I dont wanna hear it, youre him. And you, youre you, you be you, but not in front of her. Youre him, youre you."
+            },
+            {
+              "id": "2",
+              "text": "True"
+            },
+            {
+              "id": "3",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This exchange is from the 1983 movie The Return of the Living Dead.",
+          "options": [
+            {
+              "id": "0",
+              "text": "n: Oh, hell! Any good five men could do that!"
+            },
+            {
+              "id": "1",
+              "text": "n: Well, if theres that much, theyll probably get us wherever we are."
+            },
+            {
+              "id": "2",
+              "text": "True"
+            },
+            {
+              "id": "3",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the 1985 movie about a bar-owner in Texas whos certain that his wife is cheating on him.  He hires a private detective to spy on her and discovers that she is.  He then asks the investigator to kill her and her lover.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blood Simple"
+            },
+            {
+              "id": "1",
+              "text": "Death of a Salesman"
+            },
+            {
+              "id": "2",
+              "text": "Urban Cowboy"
+            },
+            {
+              "id": "3",
+              "text": "Red Moon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blood Simple"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is from which Will Smith movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ristopher Gardner: Hey. Dont ever let somebody tell you... You cant do something. Not even me. All right?"
+            },
+            {
+              "id": "1",
+              "text": "ristopher: All right."
+            },
+            {
+              "id": "2",
+              "text": "ristopher Gardner: You got a dream... You gotta protect it. People cant do somethin themselves, they wanna tell you you cant do it. If you want somethin, go get it. Period."
+            },
+            {
+              "id": "3",
+              "text": "Seven Pounds"
+            },
+            {
+              "id": "4",
+              "text": "Men in Black"
+            },
+            {
+              "id": "5",
+              "text": "I Am Legend"
+            },
+            {
+              "id": "6",
+              "text": "The Pursuit of Happyness"
+            }
+          ],
+          "correctAnswer": "6",
+          "points": 10,
+          "explanation": "The correct answer is: The Pursuit of Happyness"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Brave Little Toaster was about some household appliances that go on a quest to find their owner.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These lines can be heard in what 1964 movie starring Sean Connery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Goldfinger"
+            },
+            {
+              "id": "1",
+              "text": "Thunderball"
+            },
+            {
+              "id": "2",
+              "text": "The Man with the Golden Gun"
+            },
+            {
+              "id": "3",
+              "text": "Quantum of Solace"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Goldfinger"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2001, a Godzilla film was released, subtitled Giant Monsters All-Out Attack, which is considered one of the best of the series.  While many monsters appear in this movie, which monster is NOT featured in the film?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mothra"
+            },
+            {
+              "id": "1",
+              "text": "King Ghidrah"
+            },
+            {
+              "id": "2",
+              "text": "Baragon"
+            },
+            {
+              "id": "3",
+              "text": "Anguirus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Anguirus"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gojira is the result of combining two Japanese words.  What do these two words mean in English?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Whale and Ape"
+            },
+            {
+              "id": "1",
+              "text": "Swim and Stomp"
+            },
+            {
+              "id": "2",
+              "text": "King and Monster"
+            },
+            {
+              "id": "3",
+              "text": "Lizard and Demon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Whale and Ape"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Godzilla vs. Hedorah (1971), a socially conscious entry in the series, what ecological problem was addressed by the storyline?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nuclear Power Accidents"
+            },
+            {
+              "id": "1",
+              "text": "Strip Mining"
+            },
+            {
+              "id": "2",
+              "text": "Deforestation"
+            },
+            {
+              "id": "3",
+              "text": "Pollution"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pollution"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Godzilla (1984) was released in the U.S. as Godzilla 1985 and revived the series after nearly a decade.  What conection did this film have with the original U.S. release of Godzilla?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Both films feature new American scores by composer John Barry."
+            },
+            {
+              "id": "1",
+              "text": "They are the only two films in the series in which Godzilla is shown dead."
+            },
+            {
+              "id": "2",
+              "text": "Raymond Burr returned as the American reporter."
+            },
+            {
+              "id": "3",
+              "text": "The same American voice actors returned thirty years later to overdub the Japanese dialogue."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Raymond Burr returned as the American reporter."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This dialogue is from the 1941 movie CItizen Kane.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1995, a new Godzilla movie was released with the tagline Godzilla Dies.  Who was the Big Guys enemy in this film?",
+          "options": [
+            {
+              "id": "0",
+              "text": "King Ghidrah"
+            },
+            {
+              "id": "1",
+              "text": "Megalon"
+            },
+            {
+              "id": "2",
+              "text": "King Kong"
+            },
+            {
+              "id": "3",
+              "text": "Destroyah"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Destroyah"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Son of Godzilla (1967) the Big Guy has an offspring who looks nothing like him; in fact, his son is cute and cuddly.  What is the name of Godzillas son?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gyaos"
+            },
+            {
+              "id": "1",
+              "text": "Jet Jaguar"
+            },
+            {
+              "id": "2",
+              "text": "Sonzilla"
+            },
+            {
+              "id": "3",
+              "text": "Minya"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Minya"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This movie released in 2004 has the following tag:  Whats the worst thing you ever did?  It stars Kevin Bacon and Kyra Sedgwick.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tremors"
+            },
+            {
+              "id": "1",
+              "text": "Where The Truth Lies"
+            },
+            {
+              "id": "2",
+              "text": "Footloose"
+            },
+            {
+              "id": "3",
+              "text": "The Woodsman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Woodsman"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which movie that hit the big screen in 1979 included the following lines?",
+          "options": [
+            {
+              "id": "0",
+              "text": "lonel Lucas: Your mission is to proceed up the Nung River in a Navy patrol boat. Pick up Colonel Kurtzs path at Nu Mung Ba, follow it and learn what you can along the way. When you find the Colonel, infiltrate his team by whatever means available and terminate the Colonels command."
+            },
+            {
+              "id": "1",
+              "text": "vilian: Terminate with extreme prejudice."
+            },
+            {
+              "id": "2",
+              "text": "lonel Lucas: You understand Captain that this mission does not exist, nor will it ever exist."
+            },
+            {
+              "id": "3",
+              "text": "Platoon"
+            },
+            {
+              "id": "4",
+              "text": "Apocalypse Now"
+            },
+            {
+              "id": "5",
+              "text": "The War At Home"
+            },
+            {
+              "id": "6",
+              "text": "The Warriors"
+            }
+          ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The correct answer is: Apocalypse Now"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "screen",
+          "household",
+          "u.s.",
+          "godzilla",
+          "words"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Movie and Door",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, keanu, kind. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the two products that Uncle Rico tries to sell door-to-door?",
+          "options": [
+            {
+              "id": "0",
+              "text": "footballs and weight-loss pills"
+            },
+            {
+              "id": "1",
+              "text": "Tupperware and bust enhancer"
+            },
+            {
+              "id": "2",
+              "text": "Bibles and maps"
+            },
+            {
+              "id": "3",
+              "text": "steaks and miniature ship replicas"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tupperware and bust enhancer"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Keanu Reeves starred in the 2005 movie Thumbsucker.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Napoleons suit and socks that he wears to the dance are what colors?",
+          "options": [
+            {
+              "id": "0",
+              "text": "brown suit, white socks"
+            },
+            {
+              "id": "1",
+              "text": "dark blue suit, white socks"
+            },
+            {
+              "id": "2",
+              "text": "yellow suit, brown socks"
+            },
+            {
+              "id": "3",
+              "text": "white suit, black socks"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: brown suit, white socks"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the food of death in The Godfather movies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Canoli"
+            },
+            {
+              "id": "1",
+              "text": "Cake"
+            },
+            {
+              "id": "2",
+              "text": "Spaghetti"
+            },
+            {
+              "id": "3",
+              "text": "Oranges"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Oranges"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Pedro felt sickly and hot, what did he do after he got home?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He took some Tylenol."
+            },
+            {
+              "id": "1",
+              "text": "He asked his mom for advice."
+            },
+            {
+              "id": "2",
+              "text": "He went to bed and slept it off."
+            },
+            {
+              "id": "3",
+              "text": "He shaved his head."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He shaved his head."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What event is taking place during the opening scene of the 1958 portion of the movie The Godfather Part II?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anthonys First Communion"
+            },
+            {
+              "id": "1",
+              "text": "Connies Wedding"
+            },
+            {
+              "id": "2",
+              "text": "Micheals Birthday"
+            },
+            {
+              "id": "3",
+              "text": "A Celebration of the Corleones receiving a Gambling license"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Anthonys First Communion"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who takes over as Don in The Godfather Part II, when Michael leaves after an attempt on his life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank Pentangeli"
+            },
+            {
+              "id": "1",
+              "text": "Al Neri"
+            },
+            {
+              "id": "2",
+              "text": "Fredo Corleone"
+            },
+            {
+              "id": "3",
+              "text": "Tom Hagen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tom Hagen"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did fictional character Hyman Roth start loving baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ever since he was a kid"
+            },
+            {
+              "id": "1",
+              "text": "Ever since he saw Ty Cobb spike a catcher in the face while stealing home"
+            },
+            {
+              "id": "2",
+              "text": "Ever since he saw Babe Ruth call his shot in 32"
+            },
+            {
+              "id": "3",
+              "text": "Ever since Arnold Rothstien fixed the series in 1919"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ever since Arnold Rothstien fixed the series in 1919"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of pet does Napoleons grandmother own and what is its name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a llama named Tina"
+            },
+            {
+              "id": "1",
+              "text": "a dog named Boo"
+            },
+            {
+              "id": "2",
+              "text": "a turtle named Michael"
+            },
+            {
+              "id": "3",
+              "text": "a parrot named Crackers"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: a llama named Tina"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 2002 movie revolves around the lives of 3 women who reach critical turning points in their lives.  The 3 women are played by Parker Posey, Kyra Sedgwick and Fairuza Balk.",
+          "options": [
+            {
+              "id": "0",
+              "text": "If These Walls Could Talk"
+            },
+            {
+              "id": "1",
+              "text": "Personal Velocity"
+            },
+            {
+              "id": "2",
+              "text": "Singles"
+            },
+            {
+              "id": "3",
+              "text": "Best In Show"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Personal Velocity"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did Michael Corleone say he enlisted in the army?",
+          "options": [
+            {
+              "id": "0",
+              "text": "His brothers had enlisted"
+            },
+            {
+              "id": "1",
+              "text": "To get out of the family business"
+            },
+            {
+              "id": "2",
+              "text": "Because of the attack on Pearl Harbor"
+            },
+            {
+              "id": "3",
+              "text": "To learn how to kill"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Because of the attack on Pearl Harbor"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These are the last lines spoken in this 1992 movie by Robert Rodriguez which was set up as a prequel to Desperado.  All I wanted was to be a ***, like my ancestors. But the city I thought would bring me luck brought only a curse.  I lost my guitar, my hand, and her.  With this injury, I may never play the guitar again.  Without her, I have no love.  But with the dog and the weapons, Im prepared for the future.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bedhead"
+            },
+            {
+              "id": "1",
+              "text": "The Faculty"
+            },
+            {
+              "id": "2",
+              "text": "El Mariachi"
+            },
+            {
+              "id": "3",
+              "text": "From Dusk till Dawn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: El Mariachi"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "2000s Girlfight was Michelle Rodriguezs breakout role.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the Don who controlled Little Italy when Vito Corleone was younger?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don Andolini"
+            },
+            {
+              "id": "1",
+              "text": "Don Fanucci"
+            },
+            {
+              "id": "2",
+              "text": "Don Ciccio"
+            },
+            {
+              "id": "3",
+              "text": "Don Carlito"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Don Fanucci"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the senator who attempts to extort money from Michael in The Godfather Part II?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stockton"
+            },
+            {
+              "id": "1",
+              "text": "McAllister"
+            },
+            {
+              "id": "2",
+              "text": "Ellis"
+            },
+            {
+              "id": "3",
+              "text": "Geary"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Geary"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "keanu",
+          "kind",
+          "products",
+          "death",
+          "food"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Movie and Best Picture",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, stars, hoffman. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What movie, that won best picture at the 45th annual Academy Awards, stars Al Pacino and Marlon Brando?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Godfather"
+            },
+            {
+              "id": "1",
+              "text": "Scarecrow"
+            },
+            {
+              "id": "2",
+              "text": "Serpico"
+            },
+            {
+              "id": "3",
+              "text": "The Panic In Needle Park"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Godfather"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "James Camerons Titanic was nominated for how many Academy Awards?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14"
+            },
+            {
+              "id": "1",
+              "text": "10"
+            },
+            {
+              "id": "2",
+              "text": "12"
+            },
+            {
+              "id": "3",
+              "text": "16"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 14"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Morgan Freeman movie won Best Picture at the 62nd annual Academy Awards?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Outbreak"
+            },
+            {
+              "id": "1",
+              "text": "Unforgiven"
+            },
+            {
+              "id": "2",
+              "text": "Glory"
+            },
+            {
+              "id": "3",
+              "text": "Driving Miss Daisy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Driving Miss Daisy"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of the Lord of the Rings movies won the Academy Award for Best Picture?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Lord of the Rings: Fellowship of the Ring"
+            },
+            {
+              "id": "1",
+              "text": "The Lord of the Rings: Return of the King"
+            },
+            {
+              "id": "2",
+              "text": "None of them"
+            },
+            {
+              "id": "3",
+              "text": "The Lord of the Rings: The Two Towers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Lord of the Rings: Return of the King"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dustin Hoffman was in two movies that won the Best Picture Academy Award in the 1980-1989 period.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One Flew Over the Cuckoos Nest beat out what Steven Spielberg movie for Best Picture at the 48th annual Academy Awards?",
+          "options": [
+            {
+              "id": "0",
+              "text": "E.T.: The Extra Terrestrial"
+            },
+            {
+              "id": "1",
+              "text": "Close Encounters of the Third Kind"
+            },
+            {
+              "id": "2",
+              "text": "Jaws"
+            },
+            {
+              "id": "3",
+              "text": "Jurassic Park"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jaws"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Under Empire Magazines category Cinemas Most Truly Terrifying Moments, # 180 angles in on a girl walking to place flowers on a grave located by a house that has a FOR SELL sign. Its months after the prom night from hell and Susan bends to place the flowers on the grave and suddenly..... In what movie does the bloody hand rise from the grave to terrorize Susan?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dead Zone"
+            },
+            {
+              "id": "1",
+              "text": "Prom Night"
+            },
+            {
+              "id": "2",
+              "text": "Halloween"
+            },
+            {
+              "id": "3",
+              "text": "Carrie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Carrie"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who directed the movie Whats Love Got to Do With It?",
+          "options": [
+            {
+              "id": "0",
+              "text": "F. Gary Gray"
+            },
+            {
+              "id": "1",
+              "text": "Brian Gibson"
+            },
+            {
+              "id": "2",
+              "text": "Tina Turner"
+            },
+            {
+              "id": "3",
+              "text": "Laurence Fishburne"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Brian Gibson"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On Empire Magazines 1001 Greatest Movie Moments list, # 242 through 188 was devoted to Star Style such as Marlon Brandos method, Jackie Chans stunts and John Travoltas dances. This star was cited for his zingers such as He had to split, uttered after chainsawing Buzzsaw or the advice Stick around, given while knifing a guerrilla to a wall. Who shoots his wife in the face while announcing Consider that a divorce.? PS: If you need a little longer to consider your answer, I have to go to the kitchen but Ill be back.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arnold Schwarzenegger"
+            },
+            {
+              "id": "1",
+              "text": "Jean Claude van Damme"
+            },
+            {
+              "id": "2",
+              "text": "Bruce Willis"
+            },
+            {
+              "id": "3",
+              "text": "Bill Murray"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Arnold Schwarzenegger"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All the actors who portrayed Vito Corleone won an Oscar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Robert Duvall stars in No Country for Old Men, which won Best Picture at the 80th annual Academy Awards,.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1949 movie won Oscar for Best Picture?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bridge On the Rover Kwai"
+            },
+            {
+              "id": "1",
+              "text": "Lawrence of Arabia"
+            },
+            {
+              "id": "2",
+              "text": "All the Kings Men"
+            },
+            {
+              "id": "3",
+              "text": "Ben Hur"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All the Kings Men"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Charleton Heston movie won Best Picture at the 32nd annual Academy Awards?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The 10 Commandments"
+            },
+            {
+              "id": "1",
+              "text": "Earthquake"
+            },
+            {
+              "id": "2",
+              "text": "Ben Hur"
+            },
+            {
+              "id": "3",
+              "text": "Planet of the Apes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ben Hur"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Under Empire Magazines category Freakouts and Meltdowns, anchorman Howard Beale, on finding he is in danger of being fired, loses all self control, flings open the windows and screams Im mad as hell and Im not going to take this anymore. What actor played Howard Beale?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Duvall"
+            },
+            {
+              "id": "1",
+              "text": "Peter Finch"
+            },
+            {
+              "id": "2",
+              "text": "William Holden"
+            },
+            {
+              "id": "3",
+              "text": "Peter OToole"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Peter Finch"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what movie did Lt Kaffee ask Col. Jessep, Did you order the Code Red? DID YOU ORDER THE CODE RED!",
+          "options": [
+            {
+              "id": "0",
+              "text": "Twelve Angry Men"
+            },
+            {
+              "id": "1",
+              "text": "A Few Good Men"
+            },
+            {
+              "id": "2",
+              "text": "JFK"
+            },
+            {
+              "id": "3",
+              "text": "Witness for the Prosecution"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A Few Good Men"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "stars",
+          "hoffman",
+          "country",
+          "cuckoos",
+          "beat"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Movie and Love",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, turner, bullock. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the motel where Tina Turner stayed after she left Ike Turner in the hotel room?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Ramada Inn"
+            },
+            {
+              "id": "1",
+              "text": "Super 8"
+            },
+            {
+              "id": "2",
+              "text": "Days Inn"
+            },
+            {
+              "id": "3",
+              "text": "Motel 6"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Ramada Inn"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What score did the students of Eastside High get on the Practice Basic Skills Test in the film Lean on Me?",
+          "options": [
+            {
+              "id": "0",
+              "text": "50%"
+            },
+            {
+              "id": "1",
+              "text": "40%"
+            },
+            {
+              "id": "2",
+              "text": "35%"
+            },
+            {
+              "id": "3",
+              "text": "25.2%"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 35%"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Tina Turner leaves Ike Turner in the hotel room after a fight, she runs across a highway to stay at a motel. How much money does Tina tell the clerk she has in her pocket?",
+          "options": [
+            {
+              "id": "0",
+              "text": "50 cents"
+            },
+            {
+              "id": "1",
+              "text": "$2.50"
+            },
+            {
+              "id": "2",
+              "text": "$1.00"
+            },
+            {
+              "id": "3",
+              "text": "32 cents"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 32 cents"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was Tina Turner born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "26 November 1939"
+            },
+            {
+              "id": "1",
+              "text": "19 November 1926"
+            },
+            {
+              "id": "2",
+              "text": "1 November 1940"
+            },
+            {
+              "id": "3",
+              "text": "30 November 1944"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 26 November 1939"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the movie Whats Love Got To Do With It released?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1996"
+            },
+            {
+              "id": "1",
+              "text": "1993"
+            },
+            {
+              "id": "2",
+              "text": "1995"
+            },
+            {
+              "id": "3",
+              "text": "1990"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1993"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Was the movie Lean on Me based on a true story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played the role of Zelma Bullock in Whats Love Got to Do With It?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jennifer Lewis"
+            },
+            {
+              "id": "1",
+              "text": "Anna Maria Horsford"
+            },
+            {
+              "id": "2",
+              "text": "Loretta Divine"
+            },
+            {
+              "id": "3",
+              "text": "Sandra Reaves-Phillips"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jennifer Lewis"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played the role of Thomas Sams in the movie Lean on Me?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cedric The Entertainer"
+            },
+            {
+              "id": "1",
+              "text": "Anthony Anderson"
+            },
+            {
+              "id": "2",
+              "text": "Wish of B.O.N.E Thugs n Harmony"
+            },
+            {
+              "id": "3",
+              "text": "Jermaine Hopkins"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jermaine Hopkins"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times did Laurence Fishburne turn down the role of Ike Turner in Whats Love Got to Do With It?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two"
+            },
+            {
+              "id": "1",
+              "text": "Zero"
+            },
+            {
+              "id": "2",
+              "text": "Five"
+            },
+            {
+              "id": "3",
+              "text": "Seven"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Five"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what date was the movie Lean on Me released?",
+          "options": [
+            {
+              "id": "0",
+              "text": "March 3, 1989"
+            },
+            {
+              "id": "1",
+              "text": "April 3, 1989"
+            },
+            {
+              "id": "2",
+              "text": "February 3, 1989"
+            },
+            {
+              "id": "3",
+              "text": "May 3, 1989"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: March 3, 1989"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What nickname was Joe Clark given by the press in the movie Lean on Me?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crazy Joe"
+            },
+            {
+              "id": "1",
+              "text": "HNIC"
+            },
+            {
+              "id": "2",
+              "text": "Batman"
+            },
+            {
+              "id": "3",
+              "text": "Crazy Batman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Crazy Joe"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Besides Angela Bassett, these actresses auditioned for the role of Tina Turner in the movie Whats Love Got to Do with It.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kimberly Elise, Gabrielle Union, Halle Berry, Lynn Whitfield"
+            },
+            {
+              "id": "1",
+              "text": "Vivica A. Fox, Halle Berry, Regina King, Jada Pinkett"
+            },
+            {
+              "id": "2",
+              "text": "Whitney Houston, Pam Grier, Kimberly Elise, Halle Berry"
+            },
+            {
+              "id": "3",
+              "text": "Robin Givens, Janet Jackson, Halle Berry, Whitney Houston"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Robin Givens, Janet Jackson, Halle Berry, Whitney Houston"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Grammys did Tina Turner win in 1985 for the song Whats Love Got To Do With It?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Whats Love Got to Do With It, what was the name of the song that Ann Marie Bullook sang for Ike Turner at the lounge where they first met?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Down Home Blues"
+            },
+            {
+              "id": "1",
+              "text": "(Darlin) You Know I Love You"
+            },
+            {
+              "id": "2",
+              "text": "Hail Mary"
+            },
+            {
+              "id": "3",
+              "text": "Crazy Blues"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: (Darlin) You Know I Love You"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Lean on Me, where was Eastside High located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Washington, DC"
+            },
+            {
+              "id": "1",
+              "text": "Paterson, NJ"
+            },
+            {
+              "id": "2",
+              "text": "Gary, ID"
+            },
+            {
+              "id": "3",
+              "text": "New York, NY"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Paterson, NJ"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "turner",
+          "bullock",
+          "bassett",
+          "clark",
+          "get"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Rocky and Movie",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, creed, balboa. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was Rocky IV released?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1986"
+            },
+            {
+              "id": "1",
+              "text": "1984"
+            },
+            {
+              "id": "2",
+              "text": "1985"
+            },
+            {
+              "id": "3",
+              "text": "1987"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1985"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "While training in Russia, Rocky Balboa was sporting a beard. Did he have a beard during his fight against Drago?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Rocky IV, as Rocky was walking to the ring, Paulie told him that if he could be someone else he would love to be Rocky. He then said something to Rocky just after the two fighters received instructions from the referee. What did Paulie say?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uh, Rock, you remember what I said back there about wanting to be you ........ Well youd better run and hide"
+            },
+            {
+              "id": "1",
+              "text": "Uh, Rock, you remember what I said back there about wanting to be you ........ Well, you better call a priest."
+            },
+            {
+              "id": "2",
+              "text": "Uh, Rock, you remember what I said back there about wanting to be you ........ I lied."
+            },
+            {
+              "id": "3",
+              "text": "Uh, Rock, you remember what I said about wantin to be you .......... Forget it."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Uh, Rock, you remember what I said about wantin to be you .......... Forget it."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the song played at the beginning of Rocky IV?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eye of the Lion"
+            },
+            {
+              "id": "1",
+              "text": "Eye of the Tiger"
+            },
+            {
+              "id": "2",
+              "text": "Eye of the Panther"
+            },
+            {
+              "id": "3",
+              "text": "Eye of the Lizard"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eye of the Tiger"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the movie Lean on Me, Eastside High was built on a cemetery.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Rocky IV, Rockys wife, Adrian, didnt join him the first time he flew to Russia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The main characters from the movie Say Anything are Lloyd and Diane.  What are their last names?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dibler and Count"
+            },
+            {
+              "id": "1",
+              "text": "Dobler and Court"
+            },
+            {
+              "id": "2",
+              "text": "Miller and Jones"
+            },
+            {
+              "id": "3",
+              "text": "Brown and Green"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dobler and Court"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Lean on Me Joe Clark is caught with chains on the doors by the mayor of Paterson, NJ.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Mrs. Powers, the music teacher, in the movie Lean on Me?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Della Reese"
+            },
+            {
+              "id": "1",
+              "text": "Halle Berry"
+            },
+            {
+              "id": "2",
+              "text": "Loretta Divine"
+            },
+            {
+              "id": "3",
+              "text": "Sandra Reaves-Phillips"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sandra Reaves-Phillips"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fill in the missing word in this line from the movie Rocky IV: Its ....................! Youve seen him, you know how strong he is. You cant win!",
+          "options": [
+            {
+              "id": "0",
+              "text": "Suicide"
+            },
+            {
+              "id": "1",
+              "text": "Dumb"
+            },
+            {
+              "id": "2",
+              "text": "Craziness"
+            },
+            {
+              "id": "3",
+              "text": "Stupidity"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Suicide"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of the Balboa household was celebrating a birthday at the beginning of the movie Rocky IV?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Adrian Balboa"
+            },
+            {
+              "id": "1",
+              "text": "Rocky Senior"
+            },
+            {
+              "id": "2",
+              "text": "Paulie"
+            },
+            {
+              "id": "3",
+              "text": "Rocky Junior"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Paulie"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After his fight with Apollo Creed in Rocky IV, what was Ivan Drago re-nicknamed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Death From Below"
+            },
+            {
+              "id": "1",
+              "text": "Death From Communism"
+            },
+            {
+              "id": "2",
+              "text": "Death From Above"
+            },
+            {
+              "id": "3",
+              "text": "Death From Russia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Death From Above"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Rocky IV, Dragos wife was said to be a double gold medalist at the Olympics in which sport?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Swimming"
+            },
+            {
+              "id": "1",
+              "text": "Archery"
+            },
+            {
+              "id": "2",
+              "text": "Athletics"
+            },
+            {
+              "id": "3",
+              "text": "Diving"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Swimming"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which American soul singer sang Living in America prior to Apollo Creeds fight with Ivan Drago in Rocky IV?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bobby Brown"
+            },
+            {
+              "id": "1",
+              "text": "James Black"
+            },
+            {
+              "id": "2",
+              "text": "Marvin Gaye"
+            },
+            {
+              "id": "3",
+              "text": "James Brown"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James Brown"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What day did Rocky choose to fight Drago in Rocky IV?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thanksgiving"
+            },
+            {
+              "id": "1",
+              "text": "Good Friday"
+            },
+            {
+              "id": "2",
+              "text": "Christmas Day"
+            },
+            {
+              "id": "3",
+              "text": "New Years Day"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Christmas Day"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "creed",
+          "balboa",
+          "line",
+          "soul",
+          "clark"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Movie and Blazing Saddles",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, kind, everyone. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Say Anything, what kind of car does Lloyd drive?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green pick-up truck"
+            },
+            {
+              "id": "1",
+              "text": "Brown Trans Am"
+            },
+            {
+              "id": "2",
+              "text": "Red Chevette"
+            },
+            {
+              "id": "3",
+              "text": "Blue Chevy Malibu"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Blue Chevy Malibu"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Everyone in the town of Rock Ridge, featured in Blazing Saddles, had the same surname. What was it ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Smith"
+            },
+            {
+              "id": "2",
+              "text": "Peters"
+            },
+            {
+              "id": "3",
+              "text": "Taylor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Johnson"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did the movie Say Anything premiere?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1987"
+            },
+            {
+              "id": "1",
+              "text": "1990"
+            },
+            {
+              "id": "2",
+              "text": "1988"
+            },
+            {
+              "id": "3",
+              "text": "1989"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1989"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What word/phrase did the Waco Kid say that he started to hear in his sleep in the movie Blazing Saddles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Draw"
+            },
+            {
+              "id": "1",
+              "text": "Youre Dead"
+            },
+            {
+              "id": "2",
+              "text": "Stick Em Up"
+            },
+            {
+              "id": "3",
+              "text": "Reach for It  Mister"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Draw"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Say Anything, Lloyds nickname for his nephew is Little J.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Say Anything, while Lloyd and Diane are walking home after their first date, Lloyd points out what item for Diane to walk around?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Large stick"
+            },
+            {
+              "id": "1",
+              "text": "Pile of dog poop"
+            },
+            {
+              "id": "2",
+              "text": "Puddle"
+            },
+            {
+              "id": "3",
+              "text": "Pile of broken glass"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pile of broken glass"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Mongo came into Rock Ridge in the movie Blazing Saddles, the Waco Kid said to Bart, No, no, dont do that. If you ........... him youll just make him mad. Fill in the missing word in the quote.",
+          "options": [
+            {
+              "id": "0",
+              "text": "shoot"
+            },
+            {
+              "id": "1",
+              "text": "abuse"
+            },
+            {
+              "id": "2",
+              "text": "kiss"
+            },
+            {
+              "id": "3",
+              "text": "arrest"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: shoot"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Blazing Saddles, a meeting was bombed in the town of Rock Ridge. Where was this town meeting held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "at the church"
+            },
+            {
+              "id": "1",
+              "text": "at the saloon"
+            },
+            {
+              "id": "2",
+              "text": "at the town hall"
+            },
+            {
+              "id": "3",
+              "text": "at the ice cream parlour"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: at the church"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Say Anything, Diane is afraid of flying.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many songs did Corey write about her ex-boyfriend Joe in the movie Say Anything?",
+          "options": [
+            {
+              "id": "0",
+              "text": "60"
+            },
+            {
+              "id": "1",
+              "text": "55"
+            },
+            {
+              "id": "2",
+              "text": "65"
+            },
+            {
+              "id": "3",
+              "text": "50"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 65"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Blazing Saddles, Bart was going to be hanged for committing what crime?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Refusing to work"
+            },
+            {
+              "id": "1",
+              "text": "Walking off the job"
+            },
+            {
+              "id": "2",
+              "text": "Hitting Taggart over the head with a shovel"
+            },
+            {
+              "id": "3",
+              "text": "Hitting Lyle over the head with a shovel"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hitting Taggart over the head with a shovel"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following gets shot when Bart arrives in Rock Ridge in the film Blazing Saddles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Church Bell"
+            },
+            {
+              "id": "1",
+              "text": "A Bible"
+            },
+            {
+              "id": "2",
+              "text": "Barts Hat"
+            },
+            {
+              "id": "3",
+              "text": "The Clock tower"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A Bible"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Blazing Saddles, what was the name of the man Bart got trapped in the quicksand with?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim"
+            },
+            {
+              "id": "1",
+              "text": "Bill"
+            },
+            {
+              "id": "2",
+              "text": "Charlie"
+            },
+            {
+              "id": "3",
+              "text": "Mongo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Charlie"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Blazing Saddles, in the middle of Lili Von Shtupps show, a man intrudes onto the stage. What did Lili Von Schupp do to him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She head butted him."
+            },
+            {
+              "id": "1",
+              "text": "She shot him."
+            },
+            {
+              "id": "2",
+              "text": "She kneed him in his private parts."
+            },
+            {
+              "id": "3",
+              "text": "She kissed him."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: She kneed him in his private parts."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fill in the missing year in this dialogue from the movie Blazing Saddles:",
+          "options": [
+            {
+              "id": "0",
+              "text": "1872"
+            },
+            {
+              "id": "1",
+              "text": "1874"
+            },
+            {
+              "id": "2",
+              "text": "1876"
+            },
+            {
+              "id": "3",
+              "text": "1870"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1874"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "kind",
+          "everyone",
+          "diane",
+          "blazing",
+          "bart"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2436 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Patient and Diagnosis",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, frog, throat. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a patient has chest pain and ST elevation in nearly all leads of the EKG, what is the likely diagnosis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Acute Myocardial Infarction"
+            },
+            {
+              "id": "1",
+              "text": "Pulmonary Embolism"
+            },
+            {
+              "id": "2",
+              "text": "Pericarditis"
+            },
+            {
+              "id": "3",
+              "text": "Pneumothorax"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pericarditis"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The word buck is used for what male animal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Antelope"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Deer"
+            },
+            {
+              "id": "3",
+              "text": "Rabbit"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A young goat is called a kid.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a patient over the age of 50 presents with shoulder-and pelvic-girdle muscle pain, and you suspect a diagnosis of Polymyalgia Rheumatica, what question should you ask to rule out another diagnosis which often accompanies this one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Do you get short of breath?"
+            },
+            {
+              "id": "1",
+              "text": "Does your jaw hurt when you chew?"
+            },
+            {
+              "id": "2",
+              "text": "Does it ever seem that your heart is beating fast?"
+            },
+            {
+              "id": "3",
+              "text": "Do you have tingling in your feet or toes?"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Does your jaw hurt when you chew?"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of the following medications are contraindicated during pregnancy, EXCEPT which one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tetracycline"
+            },
+            {
+              "id": "1",
+              "text": "Valproic Acid"
+            },
+            {
+              "id": "2",
+              "text": "Nitrofurantoin"
+            },
+            {
+              "id": "3",
+              "text": "Methotrexate"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nitrofurantoin"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the national flower of Wales?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Daisy"
+            },
+            {
+              "id": "1",
+              "text": "Daffodil"
+            },
+            {
+              "id": "2",
+              "text": "Rose"
+            },
+            {
+              "id": "3",
+              "text": "Posy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Daffodil"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If Kermit the Frog were a live animal, would he be considered an amphibian?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nag is slang for what animal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snake"
+            },
+            {
+              "id": "1",
+              "text": "Newt"
+            },
+            {
+              "id": "2",
+              "text": "Pony"
+            },
+            {
+              "id": "3",
+              "text": "Horse"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Horse"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When a patient presents with a sore throat, which of the following diagnoses may indicate immediate intubation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mononucleosis"
+            },
+            {
+              "id": "1",
+              "text": "Quinsy"
+            },
+            {
+              "id": "2",
+              "text": "Epiglottitis"
+            },
+            {
+              "id": "3",
+              "text": "Peri-tonsillar Abscess"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Epiglottitis"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What continent is the aardvark native to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "America"
+            },
+            {
+              "id": "2",
+              "text": "Africa"
+            },
+            {
+              "id": "3",
+              "text": "Asia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Africa"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Identify a true characteristic of skeletal muscle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is found in the stomach and intestines."
+            },
+            {
+              "id": "1",
+              "text": "It is non-striated, composed of spindle shaped cells."
+            },
+            {
+              "id": "2",
+              "text": "It is involuntary."
+            },
+            {
+              "id": "3",
+              "text": "It is striated, made up of long slender, striped cells."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It is striated, made up of long slender, striped cells."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What sea creature has 3 hearts and 8 tentacles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "sea worm"
+            },
+            {
+              "id": "1",
+              "text": "crab"
+            },
+            {
+              "id": "2",
+              "text": "octopus"
+            },
+            {
+              "id": "3",
+              "text": "squid"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: octopus"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a koala eat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "banyan tree"
+            },
+            {
+              "id": "1",
+              "text": "bamboo"
+            },
+            {
+              "id": "2",
+              "text": "eucalyptus leaves"
+            },
+            {
+              "id": "3",
+              "text": "rice"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: eucalyptus leaves"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a caterpillar turn into?",
+          "options": [
+            {
+              "id": "0",
+              "text": "butterfly or moth"
+            },
+            {
+              "id": "1",
+              "text": "butterfly"
+            },
+            {
+              "id": "2",
+              "text": "moth"
+            },
+            {
+              "id": "3",
+              "text": "larva"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: butterfly or moth"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What continent are tigers native to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "South America"
+            },
+            {
+              "id": "1",
+              "text": "Africa"
+            },
+            {
+              "id": "2",
+              "text": "Europe"
+            },
+            {
+              "id": "3",
+              "text": "Asia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Asia"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "frog",
+          "throat",
+          "koala",
+          "elevation",
+          "nag"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Following and Asthma",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, vinegar, seizures. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is a possible cause of sudden-onset shortness of breath?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neither of these"
+            },
+            {
+              "id": "1",
+              "text": "Acute myocardial infarction"
+            },
+            {
+              "id": "2",
+              "text": "Both of these"
+            },
+            {
+              "id": "3",
+              "text": "Pulmonary embolism"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Both of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following patients should have the lowest goal low-density lipoprotein?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A 60-year-old man with erectile dysfunction and a family history of coronary artery disease"
+            },
+            {
+              "id": "1",
+              "text": "A 30-year-old woman with type 2 diabetes"
+            },
+            {
+              "id": "2",
+              "text": "A 55-year-old man with colon cancer"
+            },
+            {
+              "id": "3",
+              "text": "A 50-year-old cigarette-smoking woman with familial hypercholesterolemia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A 30-year-old woman with type 2 diabetes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of the following are common causes of elevated liver enzymes EXCEPT which one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "HMG Co-enzyme-A Reductase Inhibitors"
+            },
+            {
+              "id": "1",
+              "text": "Alcohol abuse"
+            },
+            {
+              "id": "2",
+              "text": "Cholelithiasis"
+            },
+            {
+              "id": "3",
+              "text": "Fatty Liver"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cholelithiasis"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the first four planets of the Solar System in order of their distance from the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mercury, Venus, Earth, Mars"
+            },
+            {
+              "id": "1",
+              "text": "Mars, Venus, Earth, Mercury"
+            },
+            {
+              "id": "2",
+              "text": "Jupiter, Venus, Mars, Earth"
+            },
+            {
+              "id": "3",
+              "text": "Saturn, Pluto, Jupiter, Earth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mercury, Venus, Earth, Mars"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the largest planet in the solar system?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neptune"
+            },
+            {
+              "id": "1",
+              "text": "Jupiter"
+            },
+            {
+              "id": "2",
+              "text": "Mars"
+            },
+            {
+              "id": "3",
+              "text": "Venus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jupiter"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following opiates is most likely to cause seizures?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morphine"
+            },
+            {
+              "id": "1",
+              "text": "Hydromorphone"
+            },
+            {
+              "id": "2",
+              "text": "Meperidine"
+            },
+            {
+              "id": "3",
+              "text": "Oxycodone"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Meperidine"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following tests would be appropriate to confirm the diagnosis of B12 deficiency in a patient whose B12 level is at the low end of the normal range?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Methylmalonic Acid level"
+            },
+            {
+              "id": "1",
+              "text": "Urine Catecholamines"
+            },
+            {
+              "id": "2",
+              "text": "Folic Acid level"
+            },
+            {
+              "id": "3",
+              "text": "Haptaglobin level"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Methylmalonic Acid level"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the chemical formula for baking soda?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Co3"
+            },
+            {
+              "id": "1",
+              "text": "NaHCO3"
+            },
+            {
+              "id": "2",
+              "text": "C3H8"
+            },
+            {
+              "id": "3",
+              "text": "C12 H22 O11"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: NaHCO3"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of the following are treatments for rheumatoid arthritis EXCEPT which one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carbamazepine"
+            },
+            {
+              "id": "1",
+              "text": "Hydroxychloroquine"
+            },
+            {
+              "id": "2",
+              "text": "Gold"
+            },
+            {
+              "id": "3",
+              "text": "Prednisone"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Carbamazepine"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is represented by the chemical formula C12 H22 O11?",
+          "options": [
+            {
+              "id": "0",
+              "text": "sugar"
+            },
+            {
+              "id": "1",
+              "text": "salt"
+            },
+            {
+              "id": "2",
+              "text": "oxygen"
+            },
+            {
+              "id": "3",
+              "text": "baking soda"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: sugar"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is certainly feasible to practice medicine without ever prescribing opiate medications.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mixing baking soda and vinegar in a closed container causes a tiny explosion.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is INCORRECT?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Esophoria need not be addressed before the age of 3."
+            },
+            {
+              "id": "1",
+              "text": "Umbilical hernias almost always resolve spontaneously by the age of 5."
+            },
+            {
+              "id": "2",
+              "text": "Acute otitis media in a child need not be treated with an antibiotic."
+            },
+            {
+              "id": "3",
+              "text": "In epispadias the urethral meatus is superior to its normal location."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Esophoria need not be addressed before the age of 3."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Treatment of asthma with a long-acting beta agonist is inadvisable unless you are also treating the asthma with a steroid.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the atomic number of the chemical element chlorine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "28"
+            },
+            {
+              "id": "1",
+              "text": "83"
+            },
+            {
+              "id": "2",
+              "text": "17"
+            },
+            {
+              "id": "3",
+              "text": "9"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 17"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "vinegar",
+          "seizures",
+          "tests",
+          "chemical",
+          "patients"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Church and Constantinople",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, field, example. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The long body of the church Hagia Irene in Istanbul (former Constantinople) is covered by two domes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first examples of early Byzantine architecture, found in Ravenna and Constantinople, date from the reign of which Byzantine emperor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Justinian I"
+            },
+            {
+              "id": "1",
+              "text": "Justin II"
+            },
+            {
+              "id": "2",
+              "text": "Tiberius II"
+            },
+            {
+              "id": "3",
+              "text": "Haraclius"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Justinian I"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Almost all organisms on Earth have a vision restricted to small range of the electromagnetic spectrum (between 320 and 800 nm). This is considered to be a consequence of which of these evolutionary facts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Life emerged on another planet"
+            },
+            {
+              "id": "1",
+              "text": "The atmosphere had different composition when life emerged"
+            },
+            {
+              "id": "2",
+              "text": "At the time when life emerged, the electromagnetic spectrum was different"
+            },
+            {
+              "id": "3",
+              "text": "Life emerged underwater"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Life emerged underwater"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of which country is derived from the Latin word for silver?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ecuador"
+            },
+            {
+              "id": "1",
+              "text": "Argentina"
+            },
+            {
+              "id": "2",
+              "text": "El Salvador"
+            },
+            {
+              "id": "3",
+              "text": "Albania"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Argentina"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Unlike most animals eyes, the eyes of fish and snakes usually have a fixed lens size. How do these animals eyes focus then?",
+          "options": [
+            {
+              "id": "0",
+              "text": "By rotating the lens"
+            },
+            {
+              "id": "1",
+              "text": "By telescoping the lens"
+            },
+            {
+              "id": "2",
+              "text": "By tilting the lens"
+            },
+            {
+              "id": "3",
+              "text": "By bending the lens"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: By telescoping the lens"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "St Volodimyr Cathedral, an example of Neo-Byzantine architecture, is located in which Eastern European city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sofia"
+            },
+            {
+              "id": "1",
+              "text": "Kiev"
+            },
+            {
+              "id": "2",
+              "text": "St Petersburg"
+            },
+            {
+              "id": "3",
+              "text": "Moscow"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kiev"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elmali Kilise, a rock sanctuary built in Byzantine style, dates back to the Comnenan period and is located in which district?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Athens"
+            },
+            {
+              "id": "1",
+              "text": "Sicily"
+            },
+            {
+              "id": "2",
+              "text": "Istanbul"
+            },
+            {
+              "id": "3",
+              "text": "Cappadocia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cappadocia"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the maximum angle of field of vision compound eyes can have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "290 degrees"
+            },
+            {
+              "id": "1",
+              "text": "360 degrees"
+            },
+            {
+              "id": "2",
+              "text": "310 degrees"
+            },
+            {
+              "id": "3",
+              "text": "200 degrees"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 360 degrees"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Church of the Holy Sepulchre, also called the Church of the Resurrection, is an example of Byzantine architecture, located in which city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moscow, Russia"
+            },
+            {
+              "id": "1",
+              "text": "Rome, Italy"
+            },
+            {
+              "id": "2",
+              "text": "Istanbul, Turkey"
+            },
+            {
+              "id": "3",
+              "text": "Jerusalem, Israel"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jerusalem, Israel"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The church of Hagia Irene, a Byzantine church, was converted into a mosque by Sultan Mehmed the Conquerer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "St Marks Basilica, a prominent example of Byzantine architecture, is located in which Italian city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Milan"
+            },
+            {
+              "id": "1",
+              "text": "Rome"
+            },
+            {
+              "id": "2",
+              "text": "Venice"
+            },
+            {
+              "id": "3",
+              "text": "Florence"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Venice"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Byzantine church of Hagia Irene was the seat of the Bishop of Constantinople until what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "738"
+            },
+            {
+              "id": "1",
+              "text": "404"
+            },
+            {
+              "id": "2",
+              "text": "415"
+            },
+            {
+              "id": "3",
+              "text": "564"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 415"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The dome of Hagia Sophia in Istanbul (former Constantinople) is supported by how many massive piers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these species has the most complex color vision known?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Tarantula"
+            },
+            {
+              "id": "1",
+              "text": "The Bengal tiger"
+            },
+            {
+              "id": "2",
+              "text": "The Great white shark"
+            },
+            {
+              "id": "3",
+              "text": "The Mantis shrimp"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Mantis shrimp"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What star is closest to the sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Procima Beta"
+            },
+            {
+              "id": "1",
+              "text": "Proxima Centauri"
+            },
+            {
+              "id": "2",
+              "text": "Alpha Centauri"
+            },
+            {
+              "id": "3",
+              "text": "Proxima Alpha"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Proxima Centauri"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "field",
+          "example",
+          "st",
+          "country",
+          "examples"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Eyes and Metric System",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, field, mean. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What unit is used in the metric system for measuring time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the second"
+            },
+            {
+              "id": "1",
+              "text": "the Ohm"
+            },
+            {
+              "id": "2",
+              "text": "the grad"
+            },
+            {
+              "id": "3",
+              "text": "the cell phone"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the second"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the metric system, what unit is used to measure temperature?",
+          "options": [
+            {
+              "id": "0",
+              "text": "degrees Fahrenheit"
+            },
+            {
+              "id": "1",
+              "text": "degrees Centigrade(Celsius)"
+            },
+            {
+              "id": "2",
+              "text": "degrees Rankine"
+            },
+            {
+              "id": "3",
+              "text": "degrees Kelvin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: degrees Kelvin"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the metric prefix nano mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1,000,000"
+            },
+            {
+              "id": "1",
+              "text": "1,000,000,000"
+            },
+            {
+              "id": "2",
+              "text": "1/1,000,000,000"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1/1,000,000,000"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In order to achieve the widest possible field of view, these animals have their two eyes positioned on opposite sides of their heads.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Prey animals"
+            },
+            {
+              "id": "1",
+              "text": "Predatory animals"
+            },
+            {
+              "id": "2",
+              "text": "Underwater animals"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Prey animals"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which three nations have not officially adopted the metric system?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The USA, Jamaica, Libya"
+            },
+            {
+              "id": "1",
+              "text": "The USA, the United Kingdom, Malawi"
+            },
+            {
+              "id": "2",
+              "text": "The USA, Jamaica, Burma"
+            },
+            {
+              "id": "3",
+              "text": "The USA, Liberia, Myanmar"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The USA, Liberia, Myanmar"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chameleons have some of the most distinctive eyes among the reptiles. The two separately moving and focusing eyes of a chameleon give it a full 360-degree arc of vision around its body, but can they also ensure sharp clear focusing on one single object?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first person to propose the idea of a metric system?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gabriel Mouton"
+            },
+            {
+              "id": "1",
+              "text": "Simon Stevin"
+            },
+            {
+              "id": "2",
+              "text": "Napoleon"
+            },
+            {
+              "id": "3",
+              "text": "King Louis XIV"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Simon Stevin"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the metric prefix kilo mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1000"
+            },
+            {
+              "id": "1",
+              "text": "10000"
+            },
+            {
+              "id": "2",
+              "text": "100"
+            },
+            {
+              "id": "3",
+              "text": "1000000"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1000"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these activities can cause permanent damage to the eyes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reading in poor light"
+            },
+            {
+              "id": "1",
+              "text": "Prolonged reading"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Reading small print"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Many computer drives have a capacity of a terabit. How many bits are in one terabit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1,000"
+            },
+            {
+              "id": "1",
+              "text": "10"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "1,000,000,000,000"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1,000,000,000,000"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the  prefix milli mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1000"
+            },
+            {
+              "id": "1",
+              "text": "1/100000"
+            },
+            {
+              "id": "2",
+              "text": "1/1000"
+            },
+            {
+              "id": "3",
+              "text": "1/100"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1/1000"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Iridology is a branch of ophthalmology that deals with diseases and treatment of the human iris.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Stereopsis is a process in visual perception giving the organism a sensation of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Color"
+            },
+            {
+              "id": "1",
+              "text": "Width"
+            },
+            {
+              "id": "2",
+              "text": "Depth"
+            },
+            {
+              "id": "3",
+              "text": "Movement"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Depth"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which was the first nation to adopt a metric system?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "Austria"
+            },
+            {
+              "id": "2",
+              "text": "France"
+            },
+            {
+              "id": "3",
+              "text": "Vatican City"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If compared to a camera, what part of the human eye is its aperture?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Iris"
+            },
+            {
+              "id": "1",
+              "text": "Pupil"
+            },
+            {
+              "id": "2",
+              "text": "The cones"
+            },
+            {
+              "id": "3",
+              "text": "Optic nerve"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pupil"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "field",
+          "mean",
+          "milli",
+          "process",
+          "nations"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Acid and Base",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, yottagram, reaction. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two of these are produced when an acid and a base are mixed together?",
+          "options": [
+            {
+              "id": "0",
+              "text": "water and a salt"
+            },
+            {
+              "id": "1",
+              "text": "water and another base"
+            },
+            {
+              "id": "2",
+              "text": "HCl and NaOH"
+            },
+            {
+              "id": "3",
+              "text": "water and another acid"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: water and a salt"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did the Nintendo system debut in the U.S.A.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1998"
+            },
+            {
+              "id": "1",
+              "text": "1980"
+            },
+            {
+              "id": "2",
+              "text": "1985"
+            },
+            {
+              "id": "3",
+              "text": "1970"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1985"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the reaction called when an acid and a base are mixed together?",
+          "options": [
+            {
+              "id": "0",
+              "text": "single replacement"
+            },
+            {
+              "id": "1",
+              "text": "double replacement"
+            },
+            {
+              "id": "2",
+              "text": "neutralization"
+            },
+            {
+              "id": "3",
+              "text": "synthesis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: neutralization"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "HCl has pH close to which one of these?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "14"
+            },
+            {
+              "id": "3",
+              "text": "7"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This engineer, called the father of supercomputing, has been credited with creating the supercomputer industry.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seymour Gray"
+            },
+            {
+              "id": "1",
+              "text": "Charles Babbage"
+            },
+            {
+              "id": "2",
+              "text": "Bill Gates"
+            },
+            {
+              "id": "3",
+              "text": "Steve Jobs"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Seymour Gray"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Kasson Metric Act of 1866 made the Metric System the official system of the USA, although it was repealed in 1873.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens to an indicator when touched by an acid or a base?",
+          "options": [
+            {
+              "id": "0",
+              "text": "it vibrates"
+            },
+            {
+              "id": "1",
+              "text": "it dissolves"
+            },
+            {
+              "id": "2",
+              "text": "the color changes"
+            },
+            {
+              "id": "3",
+              "text": "it corrodes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: the color changes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The giant sub atomic particle collider, capable of reproducing the big bang conditions, is located in which research facility?",
+          "options": [
+            {
+              "id": "0",
+              "text": "NASA"
+            },
+            {
+              "id": "1",
+              "text": "CERN"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "KAOS"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: CERN"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is a unit called a Yottagram. How many grams are in one Yottagram?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10^12"
+            },
+            {
+              "id": "1",
+              "text": "10^24"
+            },
+            {
+              "id": "2",
+              "text": "10^18"
+            },
+            {
+              "id": "3",
+              "text": "10^ -12"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 10^24"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bases corrode metal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which nation issued the first metric currency - a unit that was divided in 100 parts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "Spain"
+            },
+            {
+              "id": "3",
+              "text": "The USA"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The USA"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Thomas Jefferson was a leading opponent of the metric system.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does XML stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "excellent markup language"
+            },
+            {
+              "id": "1",
+              "text": "extensive markup language"
+            },
+            {
+              "id": "2",
+              "text": "easy markup language"
+            },
+            {
+              "id": "3",
+              "text": "extensible markup language"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: extensible markup language"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If HCl and NaOH are combined, what compound is produced other than water?",
+          "options": [
+            {
+              "id": "0",
+              "text": "NaCl"
+            },
+            {
+              "id": "1",
+              "text": "HNa"
+            },
+            {
+              "id": "2",
+              "text": "HOH"
+            },
+            {
+              "id": "3",
+              "text": "ClOH"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: NaCl"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did the U.S.A. launch the Galileo space probe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "to explore Pluto"
+            },
+            {
+              "id": "1",
+              "text": "to explore Mercury"
+            },
+            {
+              "id": "2",
+              "text": "to explore Jupiter"
+            },
+            {
+              "id": "3",
+              "text": "to explore the sun"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: to explore Jupiter"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "yottagram",
+          "reaction",
+          "grams",
+          "space",
+          "acid"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Solar System and Abbreviation",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, reaction, abbreviation. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The pH of solids in solid form can be measured using indicator paper.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement is true about airplanes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "To dive, elevators are up."
+            },
+            {
+              "id": "1",
+              "text": "To dive, ailerons are down."
+            },
+            {
+              "id": "2",
+              "text": "To dive, elevators are down."
+            },
+            {
+              "id": "3",
+              "text": "To dive, ailerons are up."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: To dive, elevators are down."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why are recoilless guns recoilless?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Their barrels are open at both ends."
+            },
+            {
+              "id": "1",
+              "text": "They are loaded with missiles not cannon balls."
+            },
+            {
+              "id": "2",
+              "text": "They are made of  very heavy metals."
+            },
+            {
+              "id": "3",
+              "text": "They are not placed on wheels."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Their barrels are open at both ends."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is an endothermic chemical reaction?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A chemical reaction in which energy is released"
+            },
+            {
+              "id": "1",
+              "text": "A chemical reaction in which energy is used up"
+            },
+            {
+              "id": "2",
+              "text": "A chemical reaction in which oxides are produced"
+            },
+            {
+              "id": "3",
+              "text": "A chemical reaction in which carbon compounds are involved"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A chemical reaction in which energy is used up"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Taxonomy of vertebrates divides fishes into what two basic groups?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gilled and non-gilled"
+            },
+            {
+              "id": "1",
+              "text": "Mammalian and non-mammalian"
+            },
+            {
+              "id": "2",
+              "text": "Nematodes and non-nematodes"
+            },
+            {
+              "id": "3",
+              "text": "Jawed and jawless"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jawed and jawless"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the range of the pH scale?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14 -- 20"
+            },
+            {
+              "id": "1",
+              "text": "(0 or 1) -- 14"
+            },
+            {
+              "id": "2",
+              "text": "0 -- 7"
+            },
+            {
+              "id": "3",
+              "text": "-7 -- 0"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: (0 or 1) -- 14"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these values signifies the greatest temperature?",
+          "options": [
+            {
+              "id": "0",
+              "text": "One degree Fahrenheit"
+            },
+            {
+              "id": "1",
+              "text": "One degree Celsius"
+            },
+            {
+              "id": "2",
+              "text": "One degree Rankine"
+            },
+            {
+              "id": "3",
+              "text": "One degree Kelvin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: One degree Celsius"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is soap?",
+          "options": [
+            {
+              "id": "0",
+              "text": "an acid with a sour taste"
+            },
+            {
+              "id": "1",
+              "text": "an acid with a bitter taste"
+            },
+            {
+              "id": "2",
+              "text": "a base with a sour taste"
+            },
+            {
+              "id": "3",
+              "text": "a base with a bitter taste"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: a base with a bitter taste"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A ionic compound with H (hydrogen) in the front is most likely to be which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "acid"
+            },
+            {
+              "id": "1",
+              "text": "base"
+            },
+            {
+              "id": "2",
+              "text": "water"
+            },
+            {
+              "id": "3",
+              "text": "indicator"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: acid"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how long is one astronomical unit (1 a.u.)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "174,000,000 km /108,118,587 miles"
+            },
+            {
+              "id": "1",
+              "text": "8,000,000 km/ 4,970,969 miles"
+            },
+            {
+              "id": "2",
+              "text": "149,597,000 km/ 92,955,266 miles"
+            },
+            {
+              "id": "3",
+              "text": "878,000,000 km/ 545,563,907 miles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 149,597,000 km/ 92,955,266 miles"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the Galaxy that our Solar System is a part of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Milky Way"
+            },
+            {
+              "id": "1",
+              "text": "The Large Magellanic Cloud"
+            },
+            {
+              "id": "2",
+              "text": "Andromeda"
+            },
+            {
+              "id": "3",
+              "text": "Hollywood"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Milky Way"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What makes almost 99% of the visible universe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nitrogen"
+            },
+            {
+              "id": "1",
+              "text": "Quasars"
+            },
+            {
+              "id": "2",
+              "text": "Plasma"
+            },
+            {
+              "id": "3",
+              "text": "Solids"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Plasma"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fill in the missing letter in this chain that has to do with the Solar System we live in: M, V, E, M, J, _, U, N.",
+          "options": [
+            {
+              "id": "0",
+              "text": "R"
+            },
+            {
+              "id": "1",
+              "text": "P"
+            },
+            {
+              "id": "2",
+              "text": "S"
+            },
+            {
+              "id": "3",
+              "text": "B"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: S"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the abbreviation THEL stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thermabaric harmonic emergent light"
+            },
+            {
+              "id": "1",
+              "text": "Thermobaric high energy light"
+            },
+            {
+              "id": "2",
+              "text": "Titanium harmonic emergent laser"
+            },
+            {
+              "id": "3",
+              "text": "Tactical high energy laser"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tactical high energy laser"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "\u201cWattle and daub is a method of construction.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "reaction",
+          "abbreviation",
+          "ph",
+          "chemical",
+          "thel"
+        ]
+      }
+    }
+  ]
+}

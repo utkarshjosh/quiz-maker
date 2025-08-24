@@ -1,24 +1,20 @@
 import { Router } from 'express';
 import QuizController from './quiz.controller';
-import { verifyAuthToken } from '@/middlewares/auth';
+import OAuthMiddleware from '@/middlewares/oauth.middleware';
 import RequestValidator from '@/middlewares/request-validator';
-import {
-  CreateQuizDto,
-  UpdateQuizDto,
-  CreateQuizRoomDto,
-} from '@/dto/quiz.dto';
+import { CreateQuizDto, UpdateQuizDto } from '@/dto/quiz.dto';
 
 const router = Router();
 const quizController = new QuizController();
 
 // Public routes
 router.get('/tags', quizController.getTags);
-router.get('/tags/:primaryTagId/secondary', quizController.getSecondaryTags);
-router.get('/category/:primaryTagId', quizController.getQuizzesByCategory);
+router.get('/tags/:primaryTag/secondary', quizController.getSecondaryTags);
+router.get('/category/:primaryTag?', quizController.getQuizzesByCategory);
 router.get('/by-tags', quizController.getQuizzesByTags);
 
-// Protected routes
-router.use(verifyAuthToken);
+// Protected routes - require authentication
+router.use(OAuthMiddleware.requireAuth());
 
 /**
  * Generate quiz body
@@ -76,7 +72,6 @@ router.use(verifyAuthToken);
  */
 router.post(
   '/generate',
-  verifyAuthToken,
   RequestValidator.validate(CreateQuizDto),
   quizController.generateQuiz
 );
@@ -103,7 +98,7 @@ router.get('/:quizId', quizController.getQuiz);
  * @return {object} 200 - Quizzes retrieved successfully
  * @return {object} 401 - Unauthorized
  */
-router.get('/user/my-quizzes', verifyAuthToken, quizController.getUserQuizzes);
+router.get('/user/my-quizzes', quizController.getUserQuizzes);
 
 /**
  * PUT /quiz/{quizId}
@@ -118,7 +113,6 @@ router.get('/user/my-quizzes', verifyAuthToken, quizController.getUserQuizzes);
  */
 router.put(
   '/:quizId',
-  verifyAuthToken,
   RequestValidator.validate(UpdateQuizDto),
   quizController.updateQuiz
 );
@@ -133,24 +127,7 @@ router.put(
  * @return {object} 404 - Quiz not found
  * @return {object} 401 - Unauthorized
  */
-router.delete('/:quizId', verifyAuthToken, quizController.deleteQuiz);
-
-/**
- * POST /quiz/room
- * @summary Create quiz room
- * @tags Quiz
- * @security BearerAuth
- * @param {CreateQuizRoomBody} request.body.required - Room creation data
- * @return {QuizRoomResponse} 201 - Room created successfully
- * @return {object} 400 - Bad request
- * @return {object} 401 - Unauthorized
- */
-router.post(
-  '/room',
-  verifyAuthToken,
-  RequestValidator.validate(CreateQuizRoomDto),
-  quizController.createQuizRoom
-);
+router.delete('/:quizId', quizController.deleteQuiz);
 
 /**
  * GET /quiz/{quizId}/results
@@ -162,6 +139,6 @@ router.post(
  * @return {object} 404 - Quiz not found
  * @return {object} 401 - Unauthorized
  */
-router.get('/:quizId/results', verifyAuthToken, quizController.getQuizResults);
+router.get('/:quizId/results', quizController.getQuizResults);
 
 export default router;

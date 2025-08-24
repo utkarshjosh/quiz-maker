@@ -1,0 +1,2500 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Song and Title",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, title, chords. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What female singer recorded the swing jazz song Candyman in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hilary Duff"
+            },
+            {
+              "id": "1",
+              "text": "Britney Spears"
+            },
+            {
+              "id": "2",
+              "text": "Christina Aguilera"
+            },
+            {
+              "id": "3",
+              "text": "Kylie Minogue"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Christina Aguilera"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This song from a 1962 movie that received the Academy Award for Best Original Song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Days of Vodka and Roses"
+            },
+            {
+              "id": "1",
+              "text": "Days of Whiskey and Roses"
+            },
+            {
+              "id": "2",
+              "text": "Days of Wine and Roses"
+            },
+            {
+              "id": "3",
+              "text": "Days of Water and Roses"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Days of Wine and Roses"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What rock band released the song Hot Dog in 1979?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Rolling Stones"
+            },
+            {
+              "id": "1",
+              "text": "Led Zeppelin"
+            },
+            {
+              "id": "2",
+              "text": "Deep Purple"
+            },
+            {
+              "id": "3",
+              "text": "Whitesnake"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Led Zeppelin"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From which album by the Spice Girls is the 1997 song Spice Up Your Life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Forever"
+            },
+            {
+              "id": "1",
+              "text": "Spice Girls"
+            },
+            {
+              "id": "2",
+              "text": "Spiceworld"
+            },
+            {
+              "id": "3",
+              "text": "Spice"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Spiceworld"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This composer, famous for the ballet Firebird, said, My music is best understood by children and animals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Irving Berlin"
+            },
+            {
+              "id": "1",
+              "text": "Igor Stravinsky"
+            },
+            {
+              "id": "2",
+              "text": "Rimsky Korsakov"
+            },
+            {
+              "id": "3",
+              "text": "Petr Ilytch Tchaikivsky"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Igor Stravinsky"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who made this statement: Without music, life would be a mistake.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Immanuel Kant"
+            },
+            {
+              "id": "1",
+              "text": "Friedrich Nietzsche"
+            },
+            {
+              "id": "2",
+              "text": "Groucho Marx"
+            },
+            {
+              "id": "3",
+              "text": "Karl Marx"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Friedrich Nietzsche"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This man, who appeared in the animated film Fantasia, said, A painter paints pictures on canvas. But a musician paints pictures on silence.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walt Disney"
+            },
+            {
+              "id": "1",
+              "text": "Leopold Stokowski"
+            },
+            {
+              "id": "2",
+              "text": "Leonard Bernstein"
+            },
+            {
+              "id": "3",
+              "text": "Roy Hobbs"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Leopold Stokowski"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of the song performed most famously by Billie Holiday in 1939?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Strange Fruit"
+            },
+            {
+              "id": "1",
+              "text": "Strange Grape"
+            },
+            {
+              "id": "2",
+              "text": "Strange Potato"
+            },
+            {
+              "id": "3",
+              "text": "Strange Apple"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Strange Fruit"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This prolific composer, who died way to young, said, I write as a sow piddles.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bach"
+            },
+            {
+              "id": "1",
+              "text": "Frank Zappa"
+            },
+            {
+              "id": "2",
+              "text": "Beethoven"
+            },
+            {
+              "id": "3",
+              "text": "Mozart"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mozart"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of the traditional calypso folk song performed by by Harry Belafonte in 1956?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Watermelon Boat Song"
+            },
+            {
+              "id": "1",
+              "text": "Avocado Boat Song"
+            },
+            {
+              "id": "2",
+              "text": "Banana Boat Song"
+            },
+            {
+              "id": "3",
+              "text": "Papaya Boat Song"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Banana Boat Song"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What saxophonist said, A jazz musician is a juggler who uses harmonies instead of oranges.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Benny Golston"
+            },
+            {
+              "id": "1",
+              "text": "Benny Goodman"
+            },
+            {
+              "id": "2",
+              "text": "Benny Green"
+            },
+            {
+              "id": "3",
+              "text": "Ben Blue"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Benny Green"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This influential musician and producer, famous also as Rashidas dad, stated, Making a record is like painting a school bus with a toothbrush.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stevie Wonder"
+            },
+            {
+              "id": "1",
+              "text": "Quincy Jones"
+            },
+            {
+              "id": "2",
+              "text": "Will Smith"
+            },
+            {
+              "id": "3",
+              "text": "Frank Zappa"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Quincy Jones"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This bandleader, who was once married to Charo, said, I would rather play Chiquita Banana and have my swimming pool than play Bach and starve.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xavier Cugat"
+            },
+            {
+              "id": "1",
+              "text": "Quincy Jones"
+            },
+            {
+              "id": "2",
+              "text": "Lou Reed"
+            },
+            {
+              "id": "3",
+              "text": "Carlos Santana"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Xavier Cugat"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What influential guitarist stated, If it has more than three chords, its jazz.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lou Rawls"
+            },
+            {
+              "id": "1",
+              "text": "Louis Costanza"
+            },
+            {
+              "id": "2",
+              "text": "Lou Reed"
+            },
+            {
+              "id": "3",
+              "text": "Louis Armstrong"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lou Reed"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1998 song Chocolate Salty Balls is from the soundtrack of what popular animated TV series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "South Park"
+            },
+            {
+              "id": "1",
+              "text": "Johnny Bravo"
+            },
+            {
+              "id": "2",
+              "text": "Scooby-Doo"
+            },
+            {
+              "id": "3",
+              "text": "Beavis and Butt-head"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: South Park"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "title",
+          "chords",
+          "salty",
+          "billie",
+          "firebird"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Jesse Mccartney and Music",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, jesse. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jesse McCartney guest-starred  as himself in an episode of the The Suite Life of Zack and Cody.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "About which recording group did Decca Records say this: We dont like their sound, and guitar music is on the way out.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Rolling Stones"
+            },
+            {
+              "id": "1",
+              "text": "The Beatles"
+            },
+            {
+              "id": "2",
+              "text": "The Tremelos"
+            },
+            {
+              "id": "3",
+              "text": "The E-Street band"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Beatles"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the early 2000s Jesse Mccartney was a member of what boy band?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Dream Street"
+            },
+            {
+              "id": "2",
+              "text": "Westlife"
+            },
+            {
+              "id": "3",
+              "text": "NSYNC"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dream Street"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the person quoted here: It occurred to me by intuition, and music was the driving force behind that intuition. My discovery was the result of musical perception.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Gates"
+            },
+            {
+              "id": "1",
+              "text": "Thomas Alva Edison"
+            },
+            {
+              "id": "2",
+              "text": "Albert Einstein"
+            },
+            {
+              "id": "3",
+              "text": "Jonas Salk"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Albert Einstein"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What member of the Beatles said this: Of course Im ambitious. Whats wrong with that? Otherwise you sleep all day.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Harrison"
+            },
+            {
+              "id": "1",
+              "text": "Ringo Starr"
+            },
+            {
+              "id": "2",
+              "text": "John Lennon"
+            },
+            {
+              "id": "3",
+              "text": "Paul McCartney"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ringo Starr"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Select the quote by Elvis Costello",
+          "options": [
+            {
+              "id": "0",
+              "text": "I want to do a musical movie, like Evita but with good music."
+            },
+            {
+              "id": "1",
+              "text": "My personal hobbies are reading, listening to music, and silence."
+            },
+            {
+              "id": "2",
+              "text": "Writing about music is like dancing about architecture; its really a stupid thing to wan to do."
+            },
+            {
+              "id": "3",
+              "text": "A symphony is a stage play with the parts written for instruments instead of for actors."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Writing about music is like dancing about architecture; its really a stupid thing to wan to do."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Select the quote by Garth Brooks.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Love is friendship set to music."
+            },
+            {
+              "id": "1",
+              "text": "My sole inspiration is a telephone call from a music producer."
+            },
+            {
+              "id": "2",
+              "text": "The greatest conflicts are not between two people but between one person and himself."
+            },
+            {
+              "id": "3",
+              "text": "Opera is when a guy gets stabbed in the back and instead of bleeding he sings."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The greatest conflicts are not between two people but between one person and himself."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What artist said, People deserve the truth. They deserve honesty. The best music, you can seek some shelter in it momentarily, but its essentially there to provide you something to face the world with.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerry Lewis"
+            },
+            {
+              "id": "1",
+              "text": "Whitney Houston"
+            },
+            {
+              "id": "2",
+              "text": "Bruce Springsteen"
+            },
+            {
+              "id": "3",
+              "text": "Frank Sinatra"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bruce Springsteen"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What musician said, There are more bad musicians than bad  music.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yitzrach Perleman"
+            },
+            {
+              "id": "1",
+              "text": "Bela Bartok"
+            },
+            {
+              "id": "2",
+              "text": "Isaac Stern"
+            },
+            {
+              "id": "3",
+              "text": "Yo-Yo Ma"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Isaac Stern"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the first single from Jesse McCartneys debut album?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Without You"
+            },
+            {
+              "id": "1",
+              "text": "Shes No You"
+            },
+            {
+              "id": "2",
+              "text": "Beautiful Soul"
+            },
+            {
+              "id": "3",
+              "text": "Why Dont You Kiss Her"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Beautiful Soul"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Academy Award-winning artist said, Thats a hell of an ambition, to be mellow. Its like wanting to be senile.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ed Sullivan"
+            },
+            {
+              "id": "1",
+              "text": "Donnie Osmond"
+            },
+            {
+              "id": "2",
+              "text": "Roberta Flack"
+            },
+            {
+              "id": "3",
+              "text": "Randy Newman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Randy Newman"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the artist who said, I always felt that blues, rock n roll and country are just about a beat apart.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leonard Bernstein"
+            },
+            {
+              "id": "1",
+              "text": "Waylon Jennings"
+            },
+            {
+              "id": "2",
+              "text": "Lou Reed"
+            },
+            {
+              "id": "3",
+              "text": "Dolly Parton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Waylon Jennings"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What performer said, Its much too late  to  do anything about  rock  roll now.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerry Jeff Walker"
+            },
+            {
+              "id": "1",
+              "text": "Jerry Lewis"
+            },
+            {
+              "id": "2",
+              "text": "Jerry Lee Lewis"
+            },
+            {
+              "id": "3",
+              "text": "Jerry Garcia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jerry Garcia"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pop singer and actor Jesse McCartney was born on April 9, 1986.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2004 Jesse McCartney started dating a girl whose first name is what ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Katie"
+            },
+            {
+              "id": "1",
+              "text": "Syndey"
+            },
+            {
+              "id": "2",
+              "text": "Ashley"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Katie"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "jesse",
+          "people",
+          "ambition",
+          "elvis"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Jesse Mccartney and Member",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, jesse, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of Irish band Boyzone passed away unexpectedly on October 10, 2009 at the age of 33?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mikey Graham"
+            },
+            {
+              "id": "1",
+              "text": "Keith Duffy"
+            },
+            {
+              "id": "2",
+              "text": "Stephen Gately"
+            },
+            {
+              "id": "3",
+              "text": "Shane Lynch"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Stephen Gately"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the 1970 documentary movie about The Beatles that received an Academy Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Beatles"
+            },
+            {
+              "id": "1",
+              "text": "The Fab Four"
+            },
+            {
+              "id": "2",
+              "text": "Let It Be"
+            },
+            {
+              "id": "3",
+              "text": "Yellow Submarine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Let It Be"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the autumn of 2005, Jesse McCartney toured Australia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did N Sync come up with their name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They named the band after a music shop."
+            },
+            {
+              "id": "1",
+              "text": "They named the group after a brand of electronics."
+            },
+            {
+              "id": "2",
+              "text": "The name of the band is a play on the letters of the members first names."
+            },
+            {
+              "id": "3",
+              "text": "A fortune teller told them they should be named so."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The name of the band is a play on the letters of the members first names."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of blood relationship did the members of the Bee Gees have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Half-brothers"
+            },
+            {
+              "id": "1",
+              "text": "Brothers"
+            },
+            {
+              "id": "2",
+              "text": "Cousins"
+            },
+            {
+              "id": "3",
+              "text": "Two brothers and a cousin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Brothers"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Jesse McCartney have a brother?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country was the boy band Five, or 5ive, formed in 1997?",
+          "options": [
+            {
+              "id": "0",
+              "text": "United Kingdom"
+            },
+            {
+              "id": "1",
+              "text": "United States"
+            },
+            {
+              "id": "2",
+              "text": "Australia"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: United Kingdom"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of English boy band Take That titled his debut solo album Life thru a Lens?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mark Owen"
+            },
+            {
+              "id": "1",
+              "text": "Gary Barlow"
+            },
+            {
+              "id": "2",
+              "text": "Howard Donald"
+            },
+            {
+              "id": "3",
+              "text": "Robbie Williams"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Robbie Williams"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of New Kids on the Blocks debut album released in 1986?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hangin Tough"
+            },
+            {
+              "id": "1",
+              "text": "New Kids on the Block"
+            },
+            {
+              "id": "2",
+              "text": "Face the Music"
+            },
+            {
+              "id": "3",
+              "text": "The Block"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: New Kids on the Block"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the character, portrayed by Jesse McCartney on the soap opera All My Children?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Adam J.R. Chandler"
+            },
+            {
+              "id": "1",
+              "text": "Adrian Sword"
+            },
+            {
+              "id": "2",
+              "text": "Mateo Santos"
+            },
+            {
+              "id": "3",
+              "text": "Leo DuPres"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Adam J.R. Chandler"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of the Backstreet Boys left the group in June 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nick Carter"
+            },
+            {
+              "id": "1",
+              "text": "Howie Dorough"
+            },
+            {
+              "id": "2",
+              "text": "A. J. McLean"
+            },
+            {
+              "id": "3",
+              "text": "Kevin Richardson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kevin Richardson"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term is used for the music created by The Jackson 5?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cotton candy blues"
+            },
+            {
+              "id": "1",
+              "text": "Candy pop"
+            },
+            {
+              "id": "2",
+              "text": "Chocolate jazz"
+            },
+            {
+              "id": "3",
+              "text": "Bubblegum soul"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bubblegum soul"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Jesse McCartney star in the TV series Summerland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the original name of RB boy band Boyz II Men, formed in 1986 in Philadelphia, Pennsylvania?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Unique Attraction"
+            },
+            {
+              "id": "1",
+              "text": "New Page"
+            },
+            {
+              "id": "2",
+              "text": "New Edition"
+            },
+            {
+              "id": "3",
+              "text": "To The Right"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Unique Attraction"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of Jesse McCartneys second studio album, released in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Right Where You Want Me"
+            },
+            {
+              "id": "1",
+              "text": "Good Life"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Beautiful Soul"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Right Where You Want Me"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "jesse",
+          "title",
+          "kind",
+          "jackson",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Barbra Streisand and Movie",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, bennie. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For which of these American Presidents did Barbra Streisand campaign?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "1",
+              "text": "George H. W. Bush"
+            },
+            {
+              "id": "2",
+              "text": "Bill Clinton"
+            },
+            {
+              "id": "3",
+              "text": "Barack Obama"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Clinton"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what popular musical film did Barbra Streisand star in 1969?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moulin Rouge"
+            },
+            {
+              "id": "1",
+              "text": "Hello, Dolly!"
+            },
+            {
+              "id": "2",
+              "text": "Chicago"
+            },
+            {
+              "id": "3",
+              "text": "Hair"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hello, Dolly!"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For what song featured on the 1976 movie A Star Is Born did Barbra Streisand win an Academy Award as a composer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Happy Days Are Here Again"
+            },
+            {
+              "id": "1",
+              "text": "You Dont Bring Me Flowers"
+            },
+            {
+              "id": "2",
+              "text": "Evergreen"
+            },
+            {
+              "id": "3",
+              "text": "I Finally Found Someone"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Evergreen"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Barbra Streisand shares her birthday, April 24, with this Academy Award-winning actress, and they are known for celebrating together.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Whoopi Goldberg"
+            },
+            {
+              "id": "1",
+              "text": "Shirley MacLaine"
+            },
+            {
+              "id": "2",
+              "text": "Jane Fonda"
+            },
+            {
+              "id": "3",
+              "text": "Sally Field"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Shirley MacLaine"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This jazz great lived 1919-1956. He is remembered for his virtuosity and creativity yet many called his style unjazzlike.  He was legally blind in both eyes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Art Tatum"
+            },
+            {
+              "id": "1",
+              "text": "Teddy Wilson"
+            },
+            {
+              "id": "2",
+              "text": "Cedar Walton"
+            },
+            {
+              "id": "3",
+              "text": "Earl Hines"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Art Tatum"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Bennie Goodman integrated jazz performances via his famous Carneigie Hall concert, this person was the pianist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zutty Singleton"
+            },
+            {
+              "id": "1",
+              "text": "Earl Hines"
+            },
+            {
+              "id": "2",
+              "text": "Art Tatum"
+            },
+            {
+              "id": "3",
+              "text": "Teddy Wilson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Teddy Wilson"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of causes does The Streisand Foundation, created by Barbra Streisand, support?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Womens issues"
+            },
+            {
+              "id": "1",
+              "text": "Protection of civil rights"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Environmental"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the occupation of Barbra Streisands character, Rosalind Focker, in the 2004 comedy movie Meet the Fockers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lingerie model"
+            },
+            {
+              "id": "1",
+              "text": "Witch doctor"
+            },
+            {
+              "id": "2",
+              "text": "Sex therapist"
+            },
+            {
+              "id": "3",
+              "text": "Dog trainer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sex therapist"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which great pianist was often called Fatha?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Art Tatum"
+            },
+            {
+              "id": "1",
+              "text": "Teddy Wilson"
+            },
+            {
+              "id": "2",
+              "text": "Earl Hines"
+            },
+            {
+              "id": "3",
+              "text": "Cedar Walton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Earl Hines"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the first movie directed by Barbra Streisand, in 1983?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Way We Were"
+            },
+            {
+              "id": "1",
+              "text": "Yentl"
+            },
+            {
+              "id": "2",
+              "text": "The Mirror Has Two Faces"
+            },
+            {
+              "id": "3",
+              "text": "The Prince of Tides"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yentl"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The following lyrics are from which song by Carbon Leaf?",
+          "options": [
+            {
+              "id": "0",
+              "text": "One Day"
+            },
+            {
+              "id": "1",
+              "text": "Breath in the Night"
+            },
+            {
+              "id": "2",
+              "text": "Your a Lullaby"
+            },
+            {
+              "id": "3",
+              "text": "Shooting Star"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: One Day"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Barbra Streisands album on which she worked with the Bee Gees Barry Gibb?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barbra"
+            },
+            {
+              "id": "1",
+              "text": "Guilty"
+            },
+            {
+              "id": "2",
+              "text": "Woman In Love"
+            },
+            {
+              "id": "3",
+              "text": "Time"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Guilty"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The band, Carbon Leaf, got their start at Randolph-Macon College in Virginia, in 1992.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actor, director and producer did Barbra Streisand marry in 1998?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron Howard"
+            },
+            {
+              "id": "1",
+              "text": "James Brolin"
+            },
+            {
+              "id": "2",
+              "text": "Jon Peters"
+            },
+            {
+              "id": "3",
+              "text": "Elliott Gould"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: James Brolin"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first movie for which Barbra Streisand won an Academy Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Funny Girl"
+            },
+            {
+              "id": "1",
+              "text": "The Prince of Tides"
+            },
+            {
+              "id": "2",
+              "text": "A Star Is Born"
+            },
+            {
+              "id": "3",
+              "text": "Hello, Dolly!"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Funny Girl"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "bennie",
+          "presidents",
+          "carbon",
+          "leaf"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Pianist and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, title, carolina. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born in New Orleans around 1885, this pianist spent much of his younger years as a pimp, gambler, comedian, etc. In the late 1920s he became serious about music. He wrote many songs like London Blues and Black Bottom Stomp. He claimed to be the Originator of Jazz. Who was he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pops Foster"
+            },
+            {
+              "id": "1",
+              "text": "Ferdinand  Williams"
+            },
+            {
+              "id": "2",
+              "text": "Zutty Singleton"
+            },
+            {
+              "id": "3",
+              "text": "Jelly Roll Morton"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jelly Roll Morton"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the artist or group that performs this song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aqua"
+            },
+            {
+              "id": "1",
+              "text": "S\u00f6ren Rask"
+            },
+            {
+              "id": "2",
+              "text": "Aquarius"
+            },
+            {
+              "id": "3",
+              "text": "Lene Nystr\u00f6m"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Aqua"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This New Jersey-born pianist began playing professionally at age 12.In the 1940s he played boogie-woogie style piano in New York City. He was the pianist in The Miles Davis Sextet.\u201d Who is this composer of the hit All About Rosie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chick Corea"
+            },
+            {
+              "id": "1",
+              "text": "Jelly Roll Morton"
+            },
+            {
+              "id": "2",
+              "text": "Erroll Garner"
+            },
+            {
+              "id": "3",
+              "text": "Bill Evans"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Evans"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this 1997 song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Angel"
+            },
+            {
+              "id": "1",
+              "text": "Arc Angels"
+            },
+            {
+              "id": "2",
+              "text": "Engel"
+            },
+            {
+              "id": "3",
+              "text": "Engler"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Engel"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the band who recorded the song from the sound clip.",
+          "options": [
+            {
+              "id": "0",
+              "text": "BomfunkMC`s"
+            },
+            {
+              "id": "1",
+              "text": "Bomfunk"
+            },
+            {
+              "id": "2",
+              "text": "Bomfunk MS"
+            },
+            {
+              "id": "3",
+              "text": "Bomfunk MC`s"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bomfunk MC`s"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the artist who performs the song from the sound clip.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two Pac"
+            },
+            {
+              "id": "1",
+              "text": "Tupac"
+            },
+            {
+              "id": "2",
+              "text": "Tu Pac"
+            },
+            {
+              "id": "3",
+              "text": "2Pac"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 2Pac"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born in Montreal in 1925, this musician was introduced to music as a very young child by his father. In high school he played in bands with trumpeter Maynard Ferguson. At 14 he won a talent contest and that led to a job on a CBC program. From 1950-1955 he was voted the top pianist by Downbeat Magazine. Who is this great pianist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barnard Francis"
+            },
+            {
+              "id": "1",
+              "text": "Oscar Peterson"
+            },
+            {
+              "id": "2",
+              "text": "James P. Johnson"
+            },
+            {
+              "id": "3",
+              "text": "Cedar Walton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oscar Peterson"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which pianist\u2019s music does the musical Aint Misbehaving feature?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Waller"
+            },
+            {
+              "id": "1",
+              "text": "Cedar Walton"
+            },
+            {
+              "id": "2",
+              "text": "Earl Hines"
+            },
+            {
+              "id": "3",
+              "text": "Jelly Roll Morton"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Waller"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was born in North Carolina but was raised and gained fame in New York City. Who was this very influential pianist, the composer of the great tune Round Midnight?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chick Correa"
+            },
+            {
+              "id": "1",
+              "text": "Thelonious Monk"
+            },
+            {
+              "id": "2",
+              "text": "Cedar Walton"
+            },
+            {
+              "id": "3",
+              "text": "Oscar Peterson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Thelonious Monk"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This New Jersey-born pianist was one of the inventors of the stride piano style. He wrote the song Charleston which began the great dance craze of the 1920s. Who was this great musician?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Waller"
+            },
+            {
+              "id": "1",
+              "text": "Art Tatum"
+            },
+            {
+              "id": "2",
+              "text": "Lucky Roberts"
+            },
+            {
+              "id": "3",
+              "text": "James Price Johnson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James Price Johnson"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Texas-born pianist was born in 1934. His career took off after moving to New York around 1956. He played with Coltrane, The Jazz Messengers, Benny Golson, etc. His most famous composition is Bolivia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Art Tatum"
+            },
+            {
+              "id": "1",
+              "text": "Cedar Walton"
+            },
+            {
+              "id": "2",
+              "text": "Earl Hines"
+            },
+            {
+              "id": "3",
+              "text": "James Johnson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cedar Walton"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of this 1996 song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dont Sing"
+            },
+            {
+              "id": "1",
+              "text": "Dont Talk"
+            },
+            {
+              "id": "2",
+              "text": "Speak"
+            },
+            {
+              "id": "3",
+              "text": "Dont Speak"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dont Speak"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This keyboardist was raised in Philadelphia and was a neighbor of pianist Bud Powell. At 17 he played with John Coltrane. Eventually he was the pianist in the great jazz group The John Coltrane Quartet. Who is he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thelonious Monk"
+            },
+            {
+              "id": "1",
+              "text": "McCoy Tyner"
+            },
+            {
+              "id": "2",
+              "text": "Chick Corea"
+            },
+            {
+              "id": "3",
+              "text": "Bill Evans"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: McCoy Tyner"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She is one of the few women who have achieved great fame in jazz. This Atlanta-born pianist was already playing professionally by her teenage years. By 1941 she was staff arranger for the Ellington Orchestra. She was born Mary Elfrieda Winn Scruggs but was known as Mary Lou. By what last name did she play professionally?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jamieson"
+            },
+            {
+              "id": "1",
+              "text": "James"
+            },
+            {
+              "id": "2",
+              "text": "Williams"
+            },
+            {
+              "id": "3",
+              "text": "Johnson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Williams"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Pittsburgh-born pianist was self-taught and could not really read music very well. His swinging style usually included long, beautiful runs. Despite his brilliance, most people only know him for his composition Misty.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Evans"
+            },
+            {
+              "id": "1",
+              "text": "Jelly Roll Morton"
+            },
+            {
+              "id": "2",
+              "text": "Erroll Garner"
+            },
+            {
+              "id": "3",
+              "text": "McCoy Tyner"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Erroll Garner"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "title",
+          "carolina",
+          "keyboardist",
+          "style",
+          "musician"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Song and Linkin Park",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, tribute. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which song by Linkin Park do these lyrics belong to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "d I/ Just wish that it didnt feel like there was something I missed"
+            },
+            {
+              "id": "1",
+              "text": "d I/ Take back all things that I said to you."
+            },
+            {
+              "id": "2",
+              "text": "By Myself"
+            },
+            {
+              "id": "3",
+              "text": "My December"
+            },
+            {
+              "id": "4",
+              "text": "Valentines Day"
+            },
+            {
+              "id": "5",
+              "text": "Faint"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: My December"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What movie features this song by Brian Adams?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titanic"
+            },
+            {
+              "id": "1",
+              "text": "Robin Hood: Men in Tights"
+            },
+            {
+              "id": "2",
+              "text": "Robin Hood: The Prince of Thieves"
+            },
+            {
+              "id": "3",
+              "text": "Don Juan DeMarco"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Robin Hood: The Prince of Thieves"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the artist who performs the song in the sound clip.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gary Brooks"
+            },
+            {
+              "id": "1",
+              "text": "Garth Books"
+            },
+            {
+              "id": "2",
+              "text": "Garth Brokly"
+            },
+            {
+              "id": "3",
+              "text": "Garth Brooks"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Garth Brooks"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the song from the sound clip.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don`t Cry For Me"
+            },
+            {
+              "id": "1",
+              "text": "Don`t Cry For Me Argentina"
+            },
+            {
+              "id": "2",
+              "text": "Don`t Cry For Me Brasilia"
+            },
+            {
+              "id": "3",
+              "text": "Don`t Cry"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Don`t Cry For Me Argentina"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What artist or band recorded this song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bryan Adams"
+            },
+            {
+              "id": "1",
+              "text": "The Connells"
+            },
+            {
+              "id": "2",
+              "text": "Elton John"
+            },
+            {
+              "id": "3",
+              "text": "Connells"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Connells"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this song by Metallica.",
+          "options": [
+            {
+              "id": "0",
+              "text": "One"
+            },
+            {
+              "id": "1",
+              "text": "For Whom the Bell Tolls"
+            },
+            {
+              "id": "2",
+              "text": "Fade to Black"
+            },
+            {
+              "id": "3",
+              "text": "Enter Sandman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Enter Sandman"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hit..Me Baby One More Time"
+            },
+            {
+              "id": "1",
+              "text": "Oops.. I Did`t Again"
+            },
+            {
+              "id": "2",
+              "text": "....Baby One More Time"
+            },
+            {
+              "id": "3",
+              "text": "Everytime"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: ....Baby One More Time"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the Swedish band that recorded the song in the sound clip.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rednex"
+            },
+            {
+              "id": "1",
+              "text": "Bluenex"
+            },
+            {
+              "id": "2",
+              "text": "Aqua"
+            },
+            {
+              "id": "3",
+              "text": "Abba"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rednex"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these songs was not released as a single by Linkin Park?",
+          "options": [
+            {
+              "id": "0",
+              "text": "From the Inside"
+            },
+            {
+              "id": "1",
+              "text": "Nobodys Listening"
+            },
+            {
+              "id": "2",
+              "text": "Shadow of the Day"
+            },
+            {
+              "id": "3",
+              "text": "Points of Authority"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nobodys Listening"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what movie does this song appear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Beauty and the Beast"
+            },
+            {
+              "id": "1",
+              "text": "Cars"
+            },
+            {
+              "id": "2",
+              "text": "The Lion King"
+            },
+            {
+              "id": "3",
+              "text": "Toy Story"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Lion King"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these artists did Linkin Park not do a collaboration with on their 2002 remix album Reanimation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Motion Man"
+            },
+            {
+              "id": "1",
+              "text": "Aaron Lewis"
+            },
+            {
+              "id": "2",
+              "text": "Jonathan Davis"
+            },
+            {
+              "id": "3",
+              "text": "Kool Keith"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kool Keith"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1997, Elton John released this song as a tribute to this famous person.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Princess Diana"
+            },
+            {
+              "id": "1",
+              "text": "Princess Diadora"
+            },
+            {
+              "id": "2",
+              "text": "Queen Elizabeth"
+            },
+            {
+              "id": "3",
+              "text": "Freddie Mercury"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Princess Diana"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the annual concert tour that Linkin Park started in 2002?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Warped Tour"
+            },
+            {
+              "id": "1",
+              "text": "Wild Things"
+            },
+            {
+              "id": "2",
+              "text": "Projekt Revolution"
+            },
+            {
+              "id": "3",
+              "text": "Collision Course"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Projekt Revolution"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the band that performed the power ballad from the sound clip.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scorpions"
+            },
+            {
+              "id": "1",
+              "text": "Scorpio"
+            },
+            {
+              "id": "2",
+              "text": "Ramstein"
+            },
+            {
+              "id": "3",
+              "text": "The Rolling Stones"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Scorpions"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The three founding members of Linkin Park were Mike Shinoda, Brad Delson, and Chester Bennington.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "tribute",
+          "tour",
+          "movie",
+          "park"
+        ]
+      }
+    }
+  ]
+}

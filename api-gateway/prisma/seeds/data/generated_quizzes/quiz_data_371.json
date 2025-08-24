@@ -1,0 +1,2540 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Domino and Type",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, domino, making. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of seafood is put in the center of the traditional Japanese dumplings called Takoyaki?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Octopus"
+            },
+            {
+              "id": "1",
+              "text": "Squid"
+            },
+            {
+              "id": "2",
+              "text": "Shrimp"
+            },
+            {
+              "id": "3",
+              "text": "Seaweed"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Octopus"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not among the traditional ingredients used for the making of the Japanese dish Nikujaga?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Meat"
+            },
+            {
+              "id": "1",
+              "text": "Onions"
+            },
+            {
+              "id": "2",
+              "text": "Potatoes"
+            },
+            {
+              "id": "3",
+              "text": "Seaweed"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Seaweed"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of domino game is Bergen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Both blocking and scoring domino game"
+            },
+            {
+              "id": "1",
+              "text": "Blocking domino game"
+            },
+            {
+              "id": "2",
+              "text": "Neither blocking nor scoring domino game"
+            },
+            {
+              "id": "3",
+              "text": "Scoring domino game"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Scoring domino game"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of meal is the traditional Japanese dish called Zoni?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Soup"
+            },
+            {
+              "id": "1",
+              "text": "Dessert"
+            },
+            {
+              "id": "2",
+              "text": "Fried fish"
+            },
+            {
+              "id": "3",
+              "text": "Sushi"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Soup"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the domino game Chicken Foot, which of the following is true about doubles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Doubles cannot be used as spinners."
+            },
+            {
+              "id": "1",
+              "text": "When used as a spinner all sides of the double must be occupied before players can play anywhere else."
+            },
+            {
+              "id": "2",
+              "text": "Players double their score when they put a double."
+            },
+            {
+              "id": "3",
+              "text": "Players are only allowed to add tiles to a certain branch."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: When used as a spinner all sides of the double must be occupied before players can play anywhere else."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meat is used for the preparation of the traditional Japanese meal Soki?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pork"
+            },
+            {
+              "id": "1",
+              "text": "Beef"
+            },
+            {
+              "id": "2",
+              "text": "Fish"
+            },
+            {
+              "id": "3",
+              "text": "Chicken"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pork"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How is the popular Japanese meal Karaage prepared?",
+          "options": [
+            {
+              "id": "0",
+              "text": "By roasting"
+            },
+            {
+              "id": "1",
+              "text": "By stewing"
+            },
+            {
+              "id": "2",
+              "text": "By boiling"
+            },
+            {
+              "id": "3",
+              "text": "By deep frying"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: By deep frying"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The largest commonly available domino set is the Double Twelve consisting of 91 tiles.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not one of the colloquial nicknames of the pieces of the domino set?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They all are"
+            },
+            {
+              "id": "1",
+              "text": "Stones"
+            },
+            {
+              "id": "2",
+              "text": "Spinners"
+            },
+            {
+              "id": "3",
+              "text": "Bones"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They all are"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Of how many pieces does the traditional Sino-European domino set consist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "16"
+            },
+            {
+              "id": "1",
+              "text": "32"
+            },
+            {
+              "id": "2",
+              "text": "30"
+            },
+            {
+              "id": "3",
+              "text": "28"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 28"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meat is used for the preparation of Basashi, a popular Japanese dish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Goat meat"
+            },
+            {
+              "id": "1",
+              "text": "Bear meat"
+            },
+            {
+              "id": "2",
+              "text": "Shark"
+            },
+            {
+              "id": "3",
+              "text": "Horse meat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Horse meat"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what shape is the Japanese cake called Taiyaki traditionally made?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Baby"
+            },
+            {
+              "id": "1",
+              "text": "Octopus"
+            },
+            {
+              "id": "2",
+              "text": "Crescent moon"
+            },
+            {
+              "id": "3",
+              "text": "Fish"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fish"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is a traditional Japanese low-alcoholic sweet drink?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hojicha"
+            },
+            {
+              "id": "1",
+              "text": "Kukicha"
+            },
+            {
+              "id": "2",
+              "text": "Matcha"
+            },
+            {
+              "id": "3",
+              "text": "Amazake"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Amazake"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In domino, what does the term downing mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Branching the line of play"
+            },
+            {
+              "id": "1",
+              "text": "Putting the last tile of the game"
+            },
+            {
+              "id": "2",
+              "text": "Blocking another player"
+            },
+            {
+              "id": "3",
+              "text": "Putting the first tile of the game"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Putting the first tile of the game"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In blocking domino games when does the scoring of the game happen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "At the beginning of the game"
+            },
+            {
+              "id": "1",
+              "text": "In the middle of the game"
+            },
+            {
+              "id": "2",
+              "text": "Throughout the entire game"
+            },
+            {
+              "id": "3",
+              "text": "At the end of the game"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: At the end of the game"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "domino",
+          "making",
+          "nicknames",
+          "taiyaki",
+          "mean"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "History Quiz: Domino and Meaning",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, domino, application. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What physical reaction is pepper believed to stimulate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vomiting"
+            },
+            {
+              "id": "1",
+              "text": "Sneezing"
+            },
+            {
+              "id": "2",
+              "text": "Coughing"
+            },
+            {
+              "id": "3",
+              "text": "Crying"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sneezing"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the Spanish word vainilla, from which the name of the spice vanilla originated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Little pod"
+            },
+            {
+              "id": "1",
+              "text": "Sweet aroma"
+            },
+            {
+              "id": "2",
+              "text": "Small wonder"
+            },
+            {
+              "id": "3",
+              "text": "Milky flavor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Little pod"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The modern game of chess originated from this Indian game of strategy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "sankara"
+            },
+            {
+              "id": "1",
+              "text": "chaturanga"
+            },
+            {
+              "id": "2",
+              "text": "parchana"
+            },
+            {
+              "id": "3",
+              "text": "mancala"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: chaturanga"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What herb is known as Laotian coriander and Lao cilantro in Thailand and Vietnam?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marjoram"
+            },
+            {
+              "id": "1",
+              "text": "Basil"
+            },
+            {
+              "id": "2",
+              "text": "Dill"
+            },
+            {
+              "id": "3",
+              "text": "Jasmine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dill"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Garlic worsens which of these medical conditions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diabetes"
+            },
+            {
+              "id": "1",
+              "text": "Stomach ulcer"
+            },
+            {
+              "id": "2",
+              "text": "Intestinal worms"
+            },
+            {
+              "id": "3",
+              "text": "Hypertension"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stomach ulcer"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the name of the popular spice saffron, which has an Arabic origin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Poison"
+            },
+            {
+              "id": "1",
+              "text": "Aroma"
+            },
+            {
+              "id": "2",
+              "text": "Yellow"
+            },
+            {
+              "id": "3",
+              "text": "Red"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Yellow"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the Japanese version of chess known as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "kyoki"
+            },
+            {
+              "id": "1",
+              "text": "shogi"
+            },
+            {
+              "id": "2",
+              "text": "shatranj"
+            },
+            {
+              "id": "3",
+              "text": "masala"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: shogi"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The domino effect, a term named after the domino game, denotes what peculiar sequence of events?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Simultaneous events caused by a small event"
+            },
+            {
+              "id": "1",
+              "text": "Consecutive events triggering one another"
+            },
+            {
+              "id": "2",
+              "text": "A series of unexpected events"
+            },
+            {
+              "id": "3",
+              "text": "One big event causing a series of simultaneous small events"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Consecutive events triggering one another"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Paprika, and chili peppers in general, are very high in this essential vitamin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin E"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin C"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin B5"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin C"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mustard seeds are especially high in this mineral.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Potassium"
+            },
+            {
+              "id": "1",
+              "text": "Phosphorus"
+            },
+            {
+              "id": "2",
+              "text": "Sodium"
+            },
+            {
+              "id": "3",
+              "text": "Iodine"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Phosphorus"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The consumption of ginger is contraindicated in cases of this medical condition.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diarrhea"
+            },
+            {
+              "id": "1",
+              "text": "Pregnancy"
+            },
+            {
+              "id": "2",
+              "text": "Gallstones"
+            },
+            {
+              "id": "3",
+              "text": "Kidney stones"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gallstones"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What unusual application does ground nutmeg have in India?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is used as a fertilized for pot plants."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "It is smoked."
+            },
+            {
+              "id": "3",
+              "text": "It is used to make dyes."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It is smoked."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cinnamon is believed to have a beneficial effect in the treatment of which of the following conditions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Diarrhea"
+            },
+            {
+              "id": "2",
+              "text": "Diabetes"
+            },
+            {
+              "id": "3",
+              "text": "Common cold"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "42 is a domino game popular in which part of the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "Guatemala"
+            },
+            {
+              "id": "2",
+              "text": "Hawaii"
+            },
+            {
+              "id": "3",
+              "text": "Texas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Texas"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was a depiction of a domino tile included in 2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In the flag of Nicaragua"
+            },
+            {
+              "id": "1",
+              "text": "In Unicode"
+            },
+            {
+              "id": "2",
+              "text": "In the Chinese alphabet"
+            },
+            {
+              "id": "3",
+              "text": "In Microsofts logo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: In Unicode"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "domino",
+          "application",
+          "nutmeg",
+          "ground",
+          "cinnamon"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Knowledge Quiz: Chess and Meal",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, making, cartoon. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meal is the Native American dish called Alegria?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Candy"
+            },
+            {
+              "id": "1",
+              "text": "Cake"
+            },
+            {
+              "id": "2",
+              "text": "Drink"
+            },
+            {
+              "id": "3",
+              "text": "Bread"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Candy"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the word taco, denoting a traditional Native American meal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bundle"
+            },
+            {
+              "id": "1",
+              "text": "Cake"
+            },
+            {
+              "id": "2",
+              "text": "Plug"
+            },
+            {
+              "id": "3",
+              "text": "Bracelet"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Plug"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the Native American drink called Asi associated with in the Native American tradition?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was considered a panacea"
+            },
+            {
+              "id": "1",
+              "text": "Purification"
+            },
+            {
+              "id": "2",
+              "text": "Warfare"
+            },
+            {
+              "id": "3",
+              "text": "Power"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Purification"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the Burmese variation of chess known as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "mylangin"
+            },
+            {
+              "id": "1",
+              "text": "Sittuyin"
+            },
+            {
+              "id": "2",
+              "text": "masala"
+            },
+            {
+              "id": "3",
+              "text": "kyoki"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sittuyin"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The piece known as the rukh is found in this variation of chess.",
+          "options": [
+            {
+              "id": "0",
+              "text": "shatar"
+            },
+            {
+              "id": "1",
+              "text": "shogi"
+            },
+            {
+              "id": "2",
+              "text": "shatranj"
+            },
+            {
+              "id": "3",
+              "text": "makruk"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: shatranj"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the Native American sauce Mole de Cacahuate, or Peanut Mole, traditionally served with?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beef"
+            },
+            {
+              "id": "1",
+              "text": "Chicken"
+            },
+            {
+              "id": "2",
+              "text": "Fish"
+            },
+            {
+              "id": "3",
+              "text": "Guinea pig"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chicken"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What vegetables are used for the making of the traditional Native American meal called Llapingacho?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Toamtoes"
+            },
+            {
+              "id": "1",
+              "text": "Peppers"
+            },
+            {
+              "id": "2",
+              "text": "Potatoes"
+            },
+            {
+              "id": "3",
+              "text": "Carrots"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Potatoes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meat is used for the preparation of the traditional Native American soup called Pira caldo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fish"
+            },
+            {
+              "id": "1",
+              "text": "Llama"
+            },
+            {
+              "id": "2",
+              "text": "Guinea pig"
+            },
+            {
+              "id": "3",
+              "text": "Duck"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fish"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Capturing the opponents flag is the means of winning in this version of chess.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luzhanqi"
+            },
+            {
+              "id": "1",
+              "text": "Dou shou qi"
+            },
+            {
+              "id": "2",
+              "text": "ajedrez"
+            },
+            {
+              "id": "3",
+              "text": "shatranj"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Luzhanqi"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the literal translation of the Quechua word pachamanca, which refers to a traditional Native American dish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Under the fire"
+            },
+            {
+              "id": "1",
+              "text": "From the ground"
+            },
+            {
+              "id": "2",
+              "text": "Hot stone"
+            },
+            {
+              "id": "3",
+              "text": "Earthen pot"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Earthen pot"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The piece known as the noyon is found in this version of chess.",
+          "options": [
+            {
+              "id": "0",
+              "text": "makruk"
+            },
+            {
+              "id": "1",
+              "text": "shatar"
+            },
+            {
+              "id": "2",
+              "text": "xiangqi"
+            },
+            {
+              "id": "3",
+              "text": "chaturanga"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: shatar"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The leopard, lion and the tiger appear in this variation of chess.",
+          "options": [
+            {
+              "id": "0",
+              "text": "chaturanga"
+            },
+            {
+              "id": "1",
+              "text": "shatranj"
+            },
+            {
+              "id": "2",
+              "text": "makruk"
+            },
+            {
+              "id": "3",
+              "text": "Dou Shou Qi"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dou Shou Qi"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of drink is the traditional Native American beverage called Champurrado?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beer"
+            },
+            {
+              "id": "1",
+              "text": "Coca tea"
+            },
+            {
+              "id": "2",
+              "text": "Chocolate drink"
+            },
+            {
+              "id": "3",
+              "text": "A type of tequila"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chocolate drink"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meal is the bammy, which originates from Jamaica?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dessert"
+            },
+            {
+              "id": "1",
+              "text": "Bread"
+            },
+            {
+              "id": "2",
+              "text": "Boiled meat"
+            },
+            {
+              "id": "3",
+              "text": "Soup"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bread"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Warner Bros. cartoon character uses the name of the Native American meal succotash as a catchphrase?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bugs Bunny"
+            },
+            {
+              "id": "1",
+              "text": "Sylvester"
+            },
+            {
+              "id": "2",
+              "text": "Daffy Duck"
+            },
+            {
+              "id": "3",
+              "text": "Tweety"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sylvester"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "making",
+          "cartoon",
+          "kind",
+          "rukh",
+          "hobbies"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Consumption and Fruit",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, fruits, watermelon. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the treatment of what disease are the leaves and bark of the guava used?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dysentery"
+            },
+            {
+              "id": "1",
+              "text": "Cancer"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Diabetes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What effect does the consumption of figs produce on the human body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It has a laxative effect."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "It lowers cholesterol."
+            },
+            {
+              "id": "3",
+              "text": "It reduces blood pressure."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It has a laxative effect."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part of the grape plant contains the lowest amount of antioxidants?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pulp of the fruit"
+            },
+            {
+              "id": "1",
+              "text": "Leaves"
+            },
+            {
+              "id": "2",
+              "text": "Skin of the fruit"
+            },
+            {
+              "id": "3",
+              "text": "Seeds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Leaves"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What vitamin are lychee fruits rich in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin D"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin C"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin E"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin C"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what continent is the watermelon plant believed to have originated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Africa"
+            },
+            {
+              "id": "1",
+              "text": "Europe"
+            },
+            {
+              "id": "2",
+              "text": "Asia"
+            },
+            {
+              "id": "3",
+              "text": "South America"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Africa"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why was the passion fruit given this interesting name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Because of its sweet smell."
+            },
+            {
+              "id": "1",
+              "text": "Because it was considered an aphrodisiac."
+            },
+            {
+              "id": "2",
+              "text": "Because it tastes very sweet."
+            },
+            {
+              "id": "3",
+              "text": "It has a religious connotation."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It has a religious connotation."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The mango fruit is the national fruit of this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Philippines"
+            },
+            {
+              "id": "1",
+              "text": "Pakistan"
+            },
+            {
+              "id": "2",
+              "text": "India"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The consumption of raw pineapple is contraindicated for people who suffer from this disease.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Liver disease"
+            },
+            {
+              "id": "1",
+              "text": "Heart disease"
+            },
+            {
+              "id": "2",
+              "text": "Diabetes"
+            },
+            {
+              "id": "3",
+              "text": "AIDS"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Liver disease"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the common name of the fruit Persea Americana, which is native to the Caribbean, Mexico, South America and Central America?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alligator pear"
+            },
+            {
+              "id": "1",
+              "text": "Butter pear"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Avocado"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country is the largest producer of strawberries in the world according to 2007 data?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spain"
+            },
+            {
+              "id": "1",
+              "text": "Russia"
+            },
+            {
+              "id": "2",
+              "text": "Turkey"
+            },
+            {
+              "id": "3",
+              "text": "the USA"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: the USA"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a variety of the lemon tree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lisbon"
+            },
+            {
+              "id": "1",
+              "text": "California"
+            },
+            {
+              "id": "2",
+              "text": "Verna"
+            },
+            {
+              "id": "3",
+              "text": "Lemonade"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The consumption of blood oranges prevents this medical problem.",
+          "options": [
+            {
+              "id": "0",
+              "text": "High blood sugar levels"
+            },
+            {
+              "id": "1",
+              "text": "Cataract"
+            },
+            {
+              "id": "2",
+              "text": "High blood pressure"
+            },
+            {
+              "id": "3",
+              "text": "Insomnia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cataract"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The ripe fruits of raspberry culitvars come in all of these colors except which one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yellow"
+            },
+            {
+              "id": "1",
+              "text": "Green"
+            },
+            {
+              "id": "2",
+              "text": "Black"
+            },
+            {
+              "id": "3",
+              "text": "Purple"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Green"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is not true about pears?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "They are rich in vitamin A."
+            },
+            {
+              "id": "2",
+              "text": "They promote allergic reactions."
+            },
+            {
+              "id": "3",
+              "text": "They are rich in potassium."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They promote allergic reactions."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why shouldnt blackberries be picked after September 29 according to a popular superstition in the United Kingdom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A woman who consumes them after this date will never get pregnant."
+            },
+            {
+              "id": "1",
+              "text": "They belong to the devil from this day on."
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "The one who eats them will grow hairs on their back."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They belong to the devil from this day on."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "fruits",
+          "watermelon",
+          "people",
+          "grape",
+          "lemon"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: Type and Preparation",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, condition, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of alcoholic beverage is the traditional Thai drink Sang Som?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beer"
+            },
+            {
+              "id": "1",
+              "text": "Rum"
+            },
+            {
+              "id": "2",
+              "text": "Wine"
+            },
+            {
+              "id": "3",
+              "text": "Brandy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rum"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The leaves of which of these plants are most often used for the preparation of the popular Arab dish dolma, also known as sarma?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Palm tree"
+            },
+            {
+              "id": "1",
+              "text": "Grape vine"
+            },
+            {
+              "id": "2",
+              "text": "Fig tree"
+            },
+            {
+              "id": "3",
+              "text": "Lettuce"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Grape vine"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the literal translation of the expression Kai yat sai, denoting a Thai omelette?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sun and snow"
+            },
+            {
+              "id": "1",
+              "text": "Spicy eggs"
+            },
+            {
+              "id": "2",
+              "text": "Stuffed eggs"
+            },
+            {
+              "id": "3",
+              "text": "Eggs and cheese"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Stuffed eggs"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What method of cooking is used in the preparation of the traditional Thai dish called Nuea pad prik?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boiling"
+            },
+            {
+              "id": "1",
+              "text": "Stir frying"
+            },
+            {
+              "id": "2",
+              "text": "Stewing"
+            },
+            {
+              "id": "3",
+              "text": "Baking"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stir frying"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the popular Thai hot sauce Sriracha named after?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A goddess"
+            },
+            {
+              "id": "1",
+              "text": "A herb"
+            },
+            {
+              "id": "2",
+              "text": "A dance"
+            },
+            {
+              "id": "3",
+              "text": "A town"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A town"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Thai dish Khanom bueang is known under this name in the English-speaking world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spring rolls"
+            },
+            {
+              "id": "1",
+              "text": "Crispy pancakes"
+            },
+            {
+              "id": "2",
+              "text": "Yellow curry"
+            },
+            {
+              "id": "3",
+              "text": "Curry puff"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Crispy pancakes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of drink is the traditional Thai drink Kokkoh?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rice milk"
+            },
+            {
+              "id": "1",
+              "text": "Rice wine"
+            },
+            {
+              "id": "2",
+              "text": "Fermented coconut milk"
+            },
+            {
+              "id": "3",
+              "text": "Lemonade"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rice milk"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What essential nutrient do tangerines contain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin C"
+            },
+            {
+              "id": "1",
+              "text": "Folate"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Beta-carotene"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "People having this type of allergy may have allergic reaction to bananas.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Latex allergy"
+            },
+            {
+              "id": "2",
+              "text": "Dust allergy"
+            },
+            {
+              "id": "3",
+              "text": "Pollen allergy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Latex allergy"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What medical condition do prunes and prune juice relieve?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Constipation"
+            },
+            {
+              "id": "1",
+              "text": "Dizziness"
+            },
+            {
+              "id": "2",
+              "text": "Pain"
+            },
+            {
+              "id": "3",
+              "text": "Cramps"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Constipation"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The traditional Thai tea, called cha-yen in Thailand, is made from this type of tea.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "White tea"
+            },
+            {
+              "id": "2",
+              "text": "Black tea"
+            },
+            {
+              "id": "3",
+              "text": "Green tea"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Black tea"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which grapefruit variety contains the powerful antioxidant lycopene?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red grapefruit"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "White grapefruit"
+            },
+            {
+              "id": "3",
+              "text": "Yellow grapefruit"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Red grapefruit"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the literal meaning of the name of the dish Pad see ew, very popular in Thailand and Laos?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fried with soy sauce"
+            },
+            {
+              "id": "1",
+              "text": "Noddles and meat"
+            },
+            {
+              "id": "2",
+              "text": "Triple meal"
+            },
+            {
+              "id": "3",
+              "text": "Hungry tiger"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fried with soy sauce"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What unripened fruit is used for the preparation of the spicy Thai salad Som tam?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Papaya"
+            },
+            {
+              "id": "1",
+              "text": "Banana"
+            },
+            {
+              "id": "2",
+              "text": "Mango"
+            },
+            {
+              "id": "3",
+              "text": "Lychee"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Papaya"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meat is used for the preparation of the popular Thai soup called Tom yum?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Prawns"
+            },
+            {
+              "id": "1",
+              "text": "Fish"
+            },
+            {
+              "id": "2",
+              "text": "Chicken"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "condition",
+          "people",
+          "sriracha",
+          "method",
+          "kai"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Dish and Preparation",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, cookies, making. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What plant is used in the preparation of the traditional Arab dish called Toum?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Turnip"
+            },
+            {
+              "id": "1",
+              "text": "Garlic"
+            },
+            {
+              "id": "2",
+              "text": "Mustard"
+            },
+            {
+              "id": "3",
+              "text": "Onion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Garlic"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of food is Amasi, a meal very popular in South Africa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fermented milk"
+            },
+            {
+              "id": "1",
+              "text": "Fruit salad"
+            },
+            {
+              "id": "2",
+              "text": "Cake"
+            },
+            {
+              "id": "3",
+              "text": "Cheese omelet"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fermented milk"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meat is used for the making of the traditional South African dish Tomato bredie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chicken"
+            },
+            {
+              "id": "1",
+              "text": "Lamb"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Pork"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lamb"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The traditional Arab cookies, called Kleicha, are considered the national cookies of this Arab country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Libya"
+            },
+            {
+              "id": "1",
+              "text": "Iraq"
+            },
+            {
+              "id": "2",
+              "text": "Iran"
+            },
+            {
+              "id": "3",
+              "text": "Lebanon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Iraq"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning if the word kibbeh which refers to a popular dish in the Arab world and in Brazil?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eye"
+            },
+            {
+              "id": "1",
+              "text": "Ball"
+            },
+            {
+              "id": "2",
+              "text": "Cube"
+            },
+            {
+              "id": "3",
+              "text": "Ring"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ball"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of dish is the popular South African meal called Melktert?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Soup"
+            },
+            {
+              "id": "1",
+              "text": "Dessert"
+            },
+            {
+              "id": "2",
+              "text": "Stew"
+            },
+            {
+              "id": "3",
+              "text": "Salad"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dessert"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of meat is used for the preparation of the popular Arab meal called Shish taouk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chicken"
+            },
+            {
+              "id": "1",
+              "text": "Beef"
+            },
+            {
+              "id": "2",
+              "text": "Lamb"
+            },
+            {
+              "id": "3",
+              "text": "Duck"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Chicken"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of alcoholic beverage is the popular South African drink Umqombothi?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brandy"
+            },
+            {
+              "id": "1",
+              "text": "Wine"
+            },
+            {
+              "id": "2",
+              "text": "Beer"
+            },
+            {
+              "id": "3",
+              "text": "Rum"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Beer"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not among the traditional ingredients used for the preparation of the Arab dish Matbucha?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tomato"
+            },
+            {
+              "id": "1",
+              "text": "Bell paper"
+            },
+            {
+              "id": "2",
+              "text": "Lamb meat"
+            },
+            {
+              "id": "3",
+              "text": "Garlic"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lamb meat"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of food is the popular Arab dish called baklava?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Baked lamb"
+            },
+            {
+              "id": "1",
+              "text": "Dessert"
+            },
+            {
+              "id": "2",
+              "text": "Soup"
+            },
+            {
+              "id": "3",
+              "text": "Stew"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dessert"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hummus is a popular meal in the Arab world and especially in the Middle East. What does the name of the dish mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Soil"
+            },
+            {
+              "id": "1",
+              "text": "Butter"
+            },
+            {
+              "id": "2",
+              "text": "Chickpeas"
+            },
+            {
+              "id": "3",
+              "text": "Food"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chickpeas"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Arabian dish Manakish is very similar to this very popular Italian food.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lasagna"
+            },
+            {
+              "id": "1",
+              "text": "Pizza"
+            },
+            {
+              "id": "2",
+              "text": "Spaghetti"
+            },
+            {
+              "id": "3",
+              "text": "Ravioli"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pizza"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What vegetable is used for the preparation of the traditional Arab dish called Baba ghanoush?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Potato"
+            },
+            {
+              "id": "1",
+              "text": "Carrot"
+            },
+            {
+              "id": "2",
+              "text": "Eggplant"
+            },
+            {
+              "id": "3",
+              "text": "Tomato"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eggplant"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of animal is the Gonimbrasia belina, popular food among the native inhabitants of South Africa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cricket"
+            },
+            {
+              "id": "1",
+              "text": "Snake"
+            },
+            {
+              "id": "2",
+              "text": "Moth"
+            },
+            {
+              "id": "3",
+              "text": "Frog"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Moth"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What animal part is used for the preparation of the traditional South African dish called Mala Mogodu?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tripe"
+            },
+            {
+              "id": "1",
+              "text": "Liver"
+            },
+            {
+              "id": "2",
+              "text": "Tongue"
+            },
+            {
+              "id": "3",
+              "text": "Kidney"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tripe"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "cookies",
+          "making",
+          "kibbeh",
+          "kind",
+          "world"
+        ]
+      }
+    }
+  ]
+}

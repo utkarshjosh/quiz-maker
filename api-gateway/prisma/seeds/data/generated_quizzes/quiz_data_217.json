@@ -1,0 +1,2524 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Geography Quiz: Capital and Country",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, phnom, trenton. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Montevideo is the capital of this second smallest country in South America, after Suriname.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paraguay"
+            },
+            {
+              "id": "1",
+              "text": "Bolivia"
+            },
+            {
+              "id": "2",
+              "text": "Chile"
+            },
+            {
+              "id": "3",
+              "text": "Uruguay"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Uruguay"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Caracas is the capital of this country, a Spanish colony for more than 300 years, before it declared its independence in the early 19th century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peru"
+            },
+            {
+              "id": "1",
+              "text": "Columbia"
+            },
+            {
+              "id": "2",
+              "text": "Venezuela"
+            },
+            {
+              "id": "3",
+              "text": "Chile"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Venezuela"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "None of these  could be found in Europe before the Great Geographical Discoveries:",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "With the aid of Queen Isabella of Spain, Christopher Columbus set off in 1492 using three tiny ships.  One of these ships was not part of the expedition.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Santa Maria"
+            },
+            {
+              "id": "1",
+              "text": "The Pinta"
+            },
+            {
+              "id": "2",
+              "text": "The Victoria"
+            },
+            {
+              "id": "3",
+              "text": "The Nina"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Victoria"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Trenton is the capital of this eastern state.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maryland"
+            },
+            {
+              "id": "1",
+              "text": "New York"
+            },
+            {
+              "id": "2",
+              "text": "New Jersey"
+            },
+            {
+              "id": "3",
+              "text": "Connecticut"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: New Jersey"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following pairs (explorer - region he discovered) is not correct?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cortez - Mexico"
+            },
+            {
+              "id": "1",
+              "text": "Pizarro - Peru"
+            },
+            {
+              "id": "2",
+              "text": "Cabral - Uruguay"
+            },
+            {
+              "id": "3",
+              "text": "Vespucci - Argentina"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cabral - Uruguay"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following was not a cause of the Great Geographical Discoveries?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Portuguese King thought his admirals would dethrone him and he wanted to send them away."
+            },
+            {
+              "id": "1",
+              "text": "Many new inventions like the compass helped the sailors a lot."
+            },
+            {
+              "id": "2",
+              "text": "The Turks controlled the land route to India. That forced the Western countries to seek alternative routes."
+            },
+            {
+              "id": "3",
+              "text": "Western monarchs along with the Pope wanted to spread their influence through converting the newly discovered nations to Christianity."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Portuguese King thought his admirals would dethrone him and he wanted to send them away."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Great Geographical Discoveries led to the spreading of colonialism and imperialism and even exploitation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Juneau is the capital of this last frontier state.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Utah"
+            },
+            {
+              "id": "1",
+              "text": "Alaska"
+            },
+            {
+              "id": "2",
+              "text": "California"
+            },
+            {
+              "id": "3",
+              "text": "Nevada"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Alaska"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Prince Henry the Navigator contributed to the Great Geographical Discoveries by leading all Portuguese expeditions.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vienna is the capital of this landlocked country, which became a member of the European Union in 1995.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "Belgium"
+            },
+            {
+              "id": "2",
+              "text": "Austria"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Austria"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1488, a bold captain named Bartholomew Diaz gave the name Cape of Storms to the most southern African tip.  However, the Portuguese King altered the name to this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cape Cod Bay"
+            },
+            {
+              "id": "1",
+              "text": "Cape of Breakers"
+            },
+            {
+              "id": "2",
+              "text": "Cape of Good Hope"
+            },
+            {
+              "id": "3",
+              "text": "Cape of South Africa"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cape of Good Hope"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Phnom Penh is the capital of this country, whose official language is Khmer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cambodia"
+            },
+            {
+              "id": "1",
+              "text": "South Vietnam"
+            },
+            {
+              "id": "2",
+              "text": "Laos"
+            },
+            {
+              "id": "3",
+              "text": "North Vietnam"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cambodia"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Columbus discovered the Americas in 1492, and is rewarded with this midwestern state naming its capital after him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "North Carolina"
+            },
+            {
+              "id": "1",
+              "text": "South Carolina"
+            },
+            {
+              "id": "2",
+              "text": "Ohio"
+            },
+            {
+              "id": "3",
+              "text": "Georgia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ohio"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did the political life in England, Spain and France change as a result of the geographical discoveries?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peasants rebelled and took over"
+            },
+            {
+              "id": "1",
+              "text": "The political life did not change significantly"
+            },
+            {
+              "id": "2",
+              "text": "They were weakened because their armies were spread thin on other continents"
+            },
+            {
+              "id": "3",
+              "text": "They turned into strong monarchies with rich and autocratic monarchs"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They turned into strong monarchies with rich and autocratic monarchs"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "phnom",
+          "trenton",
+          "country",
+          "none",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Capital and State",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, salty, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Richmond is the capital of this state where many US presidents were born.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maryland"
+            },
+            {
+              "id": "1",
+              "text": "Virginia"
+            },
+            {
+              "id": "2",
+              "text": "West Virginia"
+            },
+            {
+              "id": "3",
+              "text": "Delaware"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Virginia"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jefferson City serves as the capital of this Midwestern state.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Texas"
+            },
+            {
+              "id": "1",
+              "text": "California"
+            },
+            {
+              "id": "2",
+              "text": "Missouri"
+            },
+            {
+              "id": "3",
+              "text": "Florida"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Missouri"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Austin is the capital of this US state which once existed as an independent republic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Texas"
+            },
+            {
+              "id": "1",
+              "text": "Maine"
+            },
+            {
+              "id": "2",
+              "text": "Georgia"
+            },
+            {
+              "id": "3",
+              "text": "South Carolina"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Texas"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Carson City is the capital of this Battle Born State.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arizona"
+            },
+            {
+              "id": "1",
+              "text": "Nevada"
+            },
+            {
+              "id": "2",
+              "text": "California"
+            },
+            {
+              "id": "3",
+              "text": "Utah"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nevada"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you are in Sacramento, the capital of this western state, you are within a days drive to beautiful beaches, high mountains with famous national parks, and one of the deepest, most picturesque lakes in the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arizona"
+            },
+            {
+              "id": "1",
+              "text": "California"
+            },
+            {
+              "id": "2",
+              "text": "Utah"
+            },
+            {
+              "id": "3",
+              "text": "Washington"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Helena is this Rocky Mountain states capital.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nevada"
+            },
+            {
+              "id": "1",
+              "text": "California"
+            },
+            {
+              "id": "2",
+              "text": "Wyoming"
+            },
+            {
+              "id": "3",
+              "text": "Montana"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Montana"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Salt Lake City, known for the salty, barren desert lake to the west of the city, was founded by mormons and is the capital of this geographically diverse state.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Utah"
+            },
+            {
+              "id": "1",
+              "text": "South Dakota"
+            },
+            {
+              "id": "2",
+              "text": "Nevada"
+            },
+            {
+              "id": "3",
+              "text": "North Dakota"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Utah"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tallahassee is situated on the panhandle of this southern state and serves as its capital.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pennsylvania"
+            },
+            {
+              "id": "1",
+              "text": "Florida"
+            },
+            {
+              "id": "2",
+              "text": "North Dakota"
+            },
+            {
+              "id": "3",
+              "text": "California"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Florida"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The capital of this southern state is also known as music city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Delaware"
+            },
+            {
+              "id": "1",
+              "text": "Tennessee"
+            },
+            {
+              "id": "2",
+              "text": "Kentucky"
+            },
+            {
+              "id": "3",
+              "text": "Georgia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tennessee"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This state, which houses one of the largest cities in the world, has Albany as its capital.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York"
+            },
+            {
+              "id": "1",
+              "text": "New Mexico"
+            },
+            {
+              "id": "2",
+              "text": "Georgia"
+            },
+            {
+              "id": "3",
+              "text": "Minnesota"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: New York"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This southern state has many beaches, an incredible fort from the revolutionary war, and Columbia as its capital.",
+          "options": [
+            {
+              "id": "0",
+              "text": "South Carolina"
+            },
+            {
+              "id": "1",
+              "text": "Ohio"
+            },
+            {
+              "id": "2",
+              "text": "Illinois"
+            },
+            {
+              "id": "3",
+              "text": "North Carolina"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: South Carolina"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This northeast state has Augusta as its capital.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New Hampshire"
+            },
+            {
+              "id": "1",
+              "text": "Maine"
+            },
+            {
+              "id": "2",
+              "text": "Pennsylvania"
+            },
+            {
+              "id": "3",
+              "text": "Vermont"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Maine"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The capital of this diverse northwestern state is Salem.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "1",
+              "text": "Oregon"
+            },
+            {
+              "id": "2",
+              "text": "New Hampshire"
+            },
+            {
+              "id": "3",
+              "text": "Washington"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oregon"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This midwestern state has Madison as its capital.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wisconsin"
+            },
+            {
+              "id": "1",
+              "text": "Indiana"
+            },
+            {
+              "id": "2",
+              "text": "Kentucky"
+            },
+            {
+              "id": "3",
+              "text": "Illinois"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Wisconsin"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This eastern state with rich history has Annapolis as its capital.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maryland"
+            },
+            {
+              "id": "1",
+              "text": "New Mexico"
+            },
+            {
+              "id": "2",
+              "text": "New Jersey"
+            },
+            {
+              "id": "3",
+              "text": "Virginia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Maryland"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "salty",
+          "world",
+          "sacramento",
+          "barren",
+          "states"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "History Quiz: Territory and Seven Wonders",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, people, artemis. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what century was the original version of the Seven Wonders of the World list created by Antipater of Sidon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6th century BC"
+            },
+            {
+              "id": "1",
+              "text": "2nd century BC"
+            },
+            {
+              "id": "2",
+              "text": "7th century AD"
+            },
+            {
+              "id": "3",
+              "text": "3th century AD"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2nd century BC"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Great Pyramid of Giza, the oldest of the Seven Wonders of the Ancient World, was built approximately how long ago?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1000 years ago"
+            },
+            {
+              "id": "1",
+              "text": "2000 years ago"
+            },
+            {
+              "id": "2",
+              "text": "700 years ago"
+            },
+            {
+              "id": "3",
+              "text": "4500 years ago"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4500 years ago"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Only this one of the seven wonders of the world survived the trials of time and is open to visitors.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colossus of Rhodes"
+            },
+            {
+              "id": "1",
+              "text": "Statue of Zeus at Olympia"
+            },
+            {
+              "id": "2",
+              "text": "Great Pyramid of Giza"
+            },
+            {
+              "id": "3",
+              "text": "Lighthouse of Alexandria"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Great Pyramid of Giza"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This home to 144 million spans 11 time zones and its territory takes up 1/8th of the entire Earth surface.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "Canada"
+            },
+            {
+              "id": "2",
+              "text": "USA"
+            },
+            {
+              "id": "3",
+              "text": "Russia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Russia"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dhaka, formerly Dacca, is the capital and largest city of this  country with over 140 million citizens.  Families there are large, unfortunately so is infant mortality.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ecuador"
+            },
+            {
+              "id": "1",
+              "text": "Pakistan"
+            },
+            {
+              "id": "2",
+              "text": "Nauru"
+            },
+            {
+              "id": "3",
+              "text": "Bangladesh"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bangladesh"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Statue of Zeus, a Wonder of the Ancient World created in the ancient city of Olympia in 435 BC, was made primarily of what material?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Copper"
+            },
+            {
+              "id": "1",
+              "text": "Gold"
+            },
+            {
+              "id": "2",
+              "text": "Marble"
+            },
+            {
+              "id": "3",
+              "text": "Ivory"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ivory"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Like the Great Pyramid of Giza, the Mausoleum of Maussollos is the burial place of an ancient ruler - king Mausollos of Caria. Who conceived the idea of building this ancient wonder of the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maussolloss best friend and advisor"
+            },
+            {
+              "id": "1",
+              "text": "Maussolloss son"
+            },
+            {
+              "id": "2",
+              "text": "Maussolloss sister"
+            },
+            {
+              "id": "3",
+              "text": "Maussolloss brother"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Maussolloss sister"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Springfield is the capital of this midwestern state.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kentucky"
+            },
+            {
+              "id": "1",
+              "text": "Missouri"
+            },
+            {
+              "id": "2",
+              "text": "Illinois"
+            },
+            {
+              "id": "3",
+              "text": "Ohio"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Illinois"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Built in honor of the Greek goddess Artemis, the Temple of Artemis was an enormous architectural construction for its time. In Greek mythology, Artemis is the goddes of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wisdom, strategy, and war"
+            },
+            {
+              "id": "1",
+              "text": "Beauty and Love"
+            },
+            {
+              "id": "2",
+              "text": "Plague, beauty, light, healing, colonists, medicine"
+            },
+            {
+              "id": "3",
+              "text": "Hunt and the moon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hunt and the moon"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to legends, what was the purpose of the most mysterious of the Seven Wonders of the Ancient World -- The Hanging Gardens of Babylon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Resemble the Heavens"
+            },
+            {
+              "id": "1",
+              "text": "Please the gods"
+            },
+            {
+              "id": "2",
+              "text": "Comfort a rulers wife"
+            },
+            {
+              "id": "3",
+              "text": "Provide a place of solace and recreation for the rulers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Comfort a rulers wife"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is a vending machine for every 23 of the almost 130 million people that live in this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "China"
+            },
+            {
+              "id": "1",
+              "text": "Singapore"
+            },
+            {
+              "id": "2",
+              "text": "Japan"
+            },
+            {
+              "id": "3",
+              "text": "Korea"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Japan"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Over 125 million people of more than 250 ethnic groups share the territory of this African country. This constitutes 1/5 of the population of the entire continent.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nigeria"
+            },
+            {
+              "id": "1",
+              "text": "Egypt"
+            },
+            {
+              "id": "2",
+              "text": "Zaire"
+            },
+            {
+              "id": "3",
+              "text": "South Africa"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nigeria"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Lighthouse of Alexandria, the only one of the Seven Wonders, which had a practical use in addition to architectural elegance, included this remarkable device that astonishes even modern researchers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A huge mirror"
+            },
+            {
+              "id": "1",
+              "text": "A telescope"
+            },
+            {
+              "id": "2",
+              "text": "A heavy catapult"
+            },
+            {
+              "id": "3",
+              "text": "A windsock"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A huge mirror"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A wonder of the ancient world was built on the territory of all of these modern-day countries, but one.  Which is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Iraq"
+            },
+            {
+              "id": "1",
+              "text": "Syria"
+            },
+            {
+              "id": "2",
+              "text": "Egypt"
+            },
+            {
+              "id": "3",
+              "text": "Turkey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Syria"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Colossus of Rhodes was a giant statue, erected at the Greek island Rhodes harbor in 3rd century BC. Which ancient Greek god did the statue depict?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ares"
+            },
+            {
+              "id": "1",
+              "text": "Helios"
+            },
+            {
+              "id": "2",
+              "text": "Zeus"
+            },
+            {
+              "id": "3",
+              "text": "Eurus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Helios"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "people",
+          "artemis",
+          "giza",
+          "trials",
+          "dhaka"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: City and Country",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, people, pink. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the most populated country in the world - 1.3 billion people live there.  The native language, Mandarin, is most widely spoken, with 885 million speakers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Japan"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "China"
+            },
+            {
+              "id": "3",
+              "text": "South Korea"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This East European capital city is famous for its wide, tree-lined boulevards and glorious Belle Epoque buildings. Some call it Little Paris because of these buildings.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Belgrade, Serbia"
+            },
+            {
+              "id": "1",
+              "text": "Sofia, Bulgaria"
+            },
+            {
+              "id": "2",
+              "text": "Athens, Greece"
+            },
+            {
+              "id": "3",
+              "text": "Bucharest, Romania"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bucharest, Romania"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of this 5th largest city in North America originates from a Mohawk word, meaning where there are trees standing in the water.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Toronto"
+            },
+            {
+              "id": "1",
+              "text": "Quebec"
+            },
+            {
+              "id": "2",
+              "text": "Montreal"
+            },
+            {
+              "id": "3",
+              "text": "Ottawa"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Toronto"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Constituted of 17,508 islands this country gives home to about 240 million. Its tropical rain forest accounts for 10% of the worlds rain forests.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bali"
+            },
+            {
+              "id": "1",
+              "text": "Singapore"
+            },
+            {
+              "id": "2",
+              "text": "Malaysia"
+            },
+            {
+              "id": "3",
+              "text": "Indonesia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Indonesia"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Islam, Christianity and Hinduism all coexist in this country of 160 million.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bangladesh"
+            },
+            {
+              "id": "1",
+              "text": "Pakistan"
+            },
+            {
+              "id": "2",
+              "text": "Iran"
+            },
+            {
+              "id": "3",
+              "text": "Iraq"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pakistan"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Indian city was the capital of Mogul sovereigns from 1526 to 1658.  Its most notable building is the Taj Mahal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Agra"
+            },
+            {
+              "id": "1",
+              "text": "Varanasi"
+            },
+            {
+              "id": "2",
+              "text": "Mumbay"
+            },
+            {
+              "id": "3",
+              "text": "Jaipur"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Agra"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Indian city again. This one, founded in 1727 AD  is known as The Pink City and is often visited by honeymooners.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Delhi"
+            },
+            {
+              "id": "1",
+              "text": "Jaipur"
+            },
+            {
+              "id": "2",
+              "text": "Bengal"
+            },
+            {
+              "id": "3",
+              "text": "Agra"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jaipur"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The famous Bull Run is held in this Spanish city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Valencia"
+            },
+            {
+              "id": "1",
+              "text": "Pamplona"
+            },
+            {
+              "id": "2",
+              "text": "Cordoba"
+            },
+            {
+              "id": "3",
+              "text": "Barcelona"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pamplona"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "About 75% of the 185 million citizens of this country live in the cities. The largest city is Sao Paulo with a population of 16 million.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peru"
+            },
+            {
+              "id": "1",
+              "text": "Brazil"
+            },
+            {
+              "id": "2",
+              "text": "Bolivia"
+            },
+            {
+              "id": "3",
+              "text": "Argentina"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Brazil"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In close proximity to this Italian city are the famous ruins of Pompeii, which once was a thriving town for wealthy Romans. The city of Pompeii was destroyed in the cataclysmic eruption of Mount Vesuvius in 79 AD.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bologna"
+            },
+            {
+              "id": "1",
+              "text": "Venice"
+            },
+            {
+              "id": "2",
+              "text": "Naples"
+            },
+            {
+              "id": "3",
+              "text": "Rome"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Naples"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first medical school, Ayurveda was founded in this populous country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Israel"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "Pakistan"
+            },
+            {
+              "id": "3",
+              "text": "China"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: India"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The famous Forbidden City located in this Chinese city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fujian"
+            },
+            {
+              "id": "1",
+              "text": "Beijing"
+            },
+            {
+              "id": "2",
+              "text": "Guangdong"
+            },
+            {
+              "id": "3",
+              "text": "Yunnan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Beijing"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American city used to be called  El Pueblo de Nuestra Senora la Reina de (blank) de Porciuncula.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Las Vegas"
+            },
+            {
+              "id": "1",
+              "text": "New York"
+            },
+            {
+              "id": "2",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "3",
+              "text": "Kansas"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Los Angeles"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is home of almost 300 million.  There were millions of buffaloes before the first settlers arrived, but urbanization has been a factor in their decrease.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Canada"
+            },
+            {
+              "id": "1",
+              "text": "Mexico"
+            },
+            {
+              "id": "2",
+              "text": "Australia"
+            },
+            {
+              "id": "3",
+              "text": "USA"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: USA"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This city is famous for the fact, that a living goddess dwells there.  She is a young girl by the name of Kumari,  believed to have appeared in the 18th century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tansen"
+            },
+            {
+              "id": "1",
+              "text": "Kurari"
+            },
+            {
+              "id": "2",
+              "text": "Pokhara"
+            },
+            {
+              "id": "3",
+              "text": "Katmandu"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Katmandu"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "people",
+          "pink",
+          "country",
+          "world",
+          "boulevards"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: State and Country",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, carolina, defeat. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nicknamed after the international park located in it, this state is often called The Peace Garden State.",
+          "options": [
+            {
+              "id": "0",
+              "text": "North Dakota"
+            },
+            {
+              "id": "1",
+              "text": "Oregon"
+            },
+            {
+              "id": "2",
+              "text": "South Dakota"
+            },
+            {
+              "id": "3",
+              "text": "Tennessee"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: North Dakota"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This state of the New England region of the United States has the nicknames Pine Tree State and Vacationland.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michigan"
+            },
+            {
+              "id": "1",
+              "text": "Maryland"
+            },
+            {
+              "id": "2",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "3",
+              "text": "Maine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Maine"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This state, officially nicknamed The Golden State, is situated in the southern half of the west coast of the USA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Florida"
+            },
+            {
+              "id": "1",
+              "text": "Utah"
+            },
+            {
+              "id": "2",
+              "text": "California"
+            },
+            {
+              "id": "3",
+              "text": "Miami"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This mid-Atlantic state is called The First State due to the fact that it was the first to ratify the US Constitution.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Columbia"
+            },
+            {
+              "id": "1",
+              "text": "Georgia"
+            },
+            {
+              "id": "2",
+              "text": "Maine"
+            },
+            {
+              "id": "3",
+              "text": "Delaware"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Delaware"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Central America country, slightly smaller than South Carolina, withdrew from Colombia in 1903 with the help of US support.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chile"
+            },
+            {
+              "id": "1",
+              "text": "Panama"
+            },
+            {
+              "id": "2",
+              "text": "Ecuador"
+            },
+            {
+              "id": "3",
+              "text": "Venezuela"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Panama"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Southern state of the United States has a nickname The Magnolia State and a name that is the same as that of a big river?",
+          "options": [
+            {
+              "id": "0",
+              "text": "South Dakota"
+            },
+            {
+              "id": "1",
+              "text": "Mississippi"
+            },
+            {
+              "id": "2",
+              "text": "South Carolina"
+            },
+            {
+              "id": "3",
+              "text": "Colorado"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mississippi"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of this city means the capital in the native language.  It is the capital of South Korea.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seoul"
+            },
+            {
+              "id": "1",
+              "text": "Taegu"
+            },
+            {
+              "id": "2",
+              "text": "Taejeon"
+            },
+            {
+              "id": "3",
+              "text": "Pusan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Seoul"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the real name of the Evergreen State, situated in the Pacific Northwest of the United States.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pennsylvania"
+            },
+            {
+              "id": "1",
+              "text": "New Jersey"
+            },
+            {
+              "id": "2",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "3",
+              "text": "Washington"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Washington"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This state, located in the mid-Atlantic region of the USA, has a capital called Trenton and is usually nicknamed The Garden State.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wyoming"
+            },
+            {
+              "id": "1",
+              "text": "New Jersey"
+            },
+            {
+              "id": "2",
+              "text": "Rhode Island"
+            },
+            {
+              "id": "3",
+              "text": "Maine"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: New Jersey"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This country, a victor in both World War I and World War II is the largest West European nation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spain"
+            },
+            {
+              "id": "1",
+              "text": "United Kingdom"
+            },
+            {
+              "id": "2",
+              "text": "France"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Due to its natural beauty and relative wilderness, this Southern state is called The Natural State.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arkansas"
+            },
+            {
+              "id": "1",
+              "text": "Alabama"
+            },
+            {
+              "id": "2",
+              "text": "Alaska"
+            },
+            {
+              "id": "3",
+              "text": "Arizona"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Arkansas"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1895, military defeat forced China to cede this country to Japan. China re-gained control after World War II.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thailand"
+            },
+            {
+              "id": "1",
+              "text": "Hong Kong"
+            },
+            {
+              "id": "2",
+              "text": "Singapore"
+            },
+            {
+              "id": "3",
+              "text": "Taiwan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Taiwan"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Widely known for huge gambling and the legalization of gambling industry, this states official nickname is The Silver State.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kansas"
+            },
+            {
+              "id": "1",
+              "text": "Nevada"
+            },
+            {
+              "id": "2",
+              "text": "Florida"
+            },
+            {
+              "id": "3",
+              "text": "Alaska"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nevada"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This small Mountain Sate is located in the region of Appalachia in the Eastern parts of the USA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New Jersey"
+            },
+            {
+              "id": "1",
+              "text": "Pennsylvania"
+            },
+            {
+              "id": "2",
+              "text": "East Virginia"
+            },
+            {
+              "id": "3",
+              "text": "West Virginia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: West Virginia"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After multiple agreements between 1772 and 1795, Russia, Prussia, and Austria divided this central European country among themselves.  It finally regained its independence in 1918.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Slovakia"
+            },
+            {
+              "id": "1",
+              "text": "Belarus"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "Poland"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Poland"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "carolina",
+          "defeat",
+          "country",
+          "world",
+          "northwest"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: A Christmas Story and Film",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, independence, frances. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie A Christmas Story, when Ralphies mother puts soap in his mouth to teach him a lesson,",
+          "options": [
+            {
+              "id": "0",
+              "text": "He goes blind"
+            },
+            {
+              "id": "1",
+              "text": "He goes mute"
+            },
+            {
+              "id": "2",
+              "text": "He goes deaf"
+            },
+            {
+              "id": "3",
+              "text": "He loses an arm"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He goes blind"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where do the Parkers end up having Christmas dinner in the film A Christmas Story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chinese Restaurant"
+            },
+            {
+              "id": "1",
+              "text": "Goldblatts Department Store"
+            },
+            {
+              "id": "2",
+              "text": "The Bumpass"
+            },
+            {
+              "id": "3",
+              "text": "Griffith"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Chinese Restaurant"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This island country tried to gain its independence from Spain in 1821, but was conquered and ruled by the Haitians for 22 years.  It finally became independent in 1844.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peru"
+            },
+            {
+              "id": "1",
+              "text": "Chile"
+            },
+            {
+              "id": "2",
+              "text": "Dominican Republic"
+            },
+            {
+              "id": "3",
+              "text": "Costa Rica"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dominican Republic"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What present does Ralphie want more than anything in the film A Christmas Story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Slingshot"
+            },
+            {
+              "id": "1",
+              "text": "Bow and Arrow"
+            },
+            {
+              "id": "2",
+              "text": "Red Ryder BB Gun"
+            },
+            {
+              "id": "3",
+              "text": "Brandywine Cannon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Red Ryder BB Gun"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Frances conquest of this country began in 1858 and was completed by 1884.  Independence was declared after World War II, but the French continued to rule until 1954.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tunisia"
+            },
+            {
+              "id": "1",
+              "text": "Morocco"
+            },
+            {
+              "id": "2",
+              "text": "Vietnam"
+            },
+            {
+              "id": "3",
+              "text": "Algeria"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vietnam"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This independent country, located in Southeastern Asia was first colonized by Portugal in the 16th century.  Between 1976 and 1999 it was a provice of Indonesia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brunei"
+            },
+            {
+              "id": "1",
+              "text": "Myanmar (formerly Burma)"
+            },
+            {
+              "id": "2",
+              "text": "East Timor"
+            },
+            {
+              "id": "3",
+              "text": "Philippines"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: East Timor"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Ralphies dad win in A Christmas Story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Womans Leg Trophy"
+            },
+            {
+              "id": "1",
+              "text": "Womans Leg Lamp"
+            },
+            {
+              "id": "2",
+              "text": "Womans Leg Can Opener"
+            },
+            {
+              "id": "3",
+              "text": "Womans Leg Statue"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Womans Leg Lamp"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the little brother of Ralphie, the main character of A Christmas Story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rascal"
+            },
+            {
+              "id": "1",
+              "text": "Rudy"
+            },
+            {
+              "id": "2",
+              "text": "Rocky"
+            },
+            {
+              "id": "3",
+              "text": "Randy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Randy"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Southeast European country allied with the Axis powers and participated in the 1941 German invasion of the USSR.  In 1947, overrun by the Soviets, it bacame a Communist peoples republic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hungary"
+            },
+            {
+              "id": "1",
+              "text": "Yugoslavia"
+            },
+            {
+              "id": "2",
+              "text": "Slovenia"
+            },
+            {
+              "id": "3",
+              "text": "Romania"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Romania"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What favorite television show did the film A Christmas Story inspire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "That 70s Show"
+            },
+            {
+              "id": "1",
+              "text": "Full House"
+            },
+            {
+              "id": "2",
+              "text": "Happy Days"
+            },
+            {
+              "id": "3",
+              "text": "The Wonder Years"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Wonder Years"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In A Christmas Story which famous piece of music always played in the background, when the bully and his minion entered a scene?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ode to Joy"
+            },
+            {
+              "id": "1",
+              "text": "William Tell Overture"
+            },
+            {
+              "id": "2",
+              "text": "Pachelbels Canon"
+            },
+            {
+              "id": "3",
+              "text": "Peter and the Wolf"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Peter and the Wolf"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This kingdom was a founding member of NATO and the EU.  It remained neutral during World War I, but was invaded and occupied by Germany during World War II.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Denmark"
+            },
+            {
+              "id": "1",
+              "text": "Switzerland"
+            },
+            {
+              "id": "2",
+              "text": "Netherlands"
+            },
+            {
+              "id": "3",
+              "text": "Belgium"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Netherlands"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This powerful world empire of the 16th and 17th centuries borders Andorra, France, Gibraltar, Portugal and  Morocco.",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "Tunisia"
+            },
+            {
+              "id": "2",
+              "text": "Algeria"
+            },
+            {
+              "id": "3",
+              "text": "Spain"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Spain"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Christmas is the Christian holiday that celebrates the birth of Christ.  Christ was born in this city, according to the Bible.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nazareth"
+            },
+            {
+              "id": "1",
+              "text": "Jerusalem"
+            },
+            {
+              "id": "2",
+              "text": "Bethlehem"
+            },
+            {
+              "id": "3",
+              "text": "Rome"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bethlehem"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie A Christmas Story, which of Ralphies friends gets his tongue stuck to a pole?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scutt"
+            },
+            {
+              "id": "1",
+              "text": "Schwartz"
+            },
+            {
+              "id": "2",
+              "text": "Grover"
+            },
+            {
+              "id": "3",
+              "text": "Flick"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Flick"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "independence",
+          "frances",
+          "country",
+          "world",
+          "portugal"
+        ]
+      }
+    }
+  ]
+}

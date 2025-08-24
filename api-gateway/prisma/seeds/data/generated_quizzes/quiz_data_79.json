@@ -1,0 +1,2444 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Geography Quiz: Character and Movie",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, actor, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Senator Barack Obama born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gary, Indiana"
+            },
+            {
+              "id": "1",
+              "text": "Chicago, Illinois"
+            },
+            {
+              "id": "2",
+              "text": "Honolulu, Hawaii"
+            },
+            {
+              "id": "3",
+              "text": "Peoria, Illinois"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Honolulu, Hawaii"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress is not correctly matched with the character she portrayed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elizabeth Taylor - Maggie the Cat (Cat on a Hot Tin Roof)"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth Montgomery - Baby Jane Hudson (What Ever Happened to Baby Jane?)"
+            },
+            {
+              "id": "2",
+              "text": "Elizabeth Hurley - Sara (Serving Sara)"
+            },
+            {
+              "id": "3",
+              "text": "Elizabet Shue - Elizabeth (Hide and Seek)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Montgomery - Baby Jane Hudson (What Ever Happened to Baby Jane?)"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This celebrity, who once said, Big girls need big diamonds, wrote the 2002 book My Love Affair with Jewelry.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bette Midler"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth Taylor"
+            },
+            {
+              "id": "2",
+              "text": "Bette Davis"
+            },
+            {
+              "id": "3",
+              "text": "Elizabet Hurley"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Taylor"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor married Linda Cozlowski after co-starring with her in a 1986 comedy film and its 1988 sequel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paul Newman"
+            },
+            {
+              "id": "1",
+              "text": "Paul Hogan"
+            },
+            {
+              "id": "2",
+              "text": "Paul Young"
+            },
+            {
+              "id": "3",
+              "text": "Paul Lambert"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Paul Hogan"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Paul Newman won the Best Actor Academy Award for his portrayal of Fast Eddie Felson in the movie The Color of Money. Name the previous movie in which Newman played the same character.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Towering Inferno"
+            },
+            {
+              "id": "1",
+              "text": "The Sting"
+            },
+            {
+              "id": "2",
+              "text": "The Hustler"
+            },
+            {
+              "id": "3",
+              "text": "The Verdict"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Hustler"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the birth name of Elizabeth Arden who built a cosmetics empire in the US?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Florence Nightingale Graham"
+            },
+            {
+              "id": "1",
+              "text": "Rosalind Elsie Franklin"
+            },
+            {
+              "id": "2",
+              "text": "Scarlett OHara Hamilton"
+            },
+            {
+              "id": "3",
+              "text": "Betty Naomi Goldstein"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Florence Nightingale Graham"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What multiple Grammy Award-winning singer co-founded the band Wings with Linda Eastman and Denny Laine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paul Williams"
+            },
+            {
+              "id": "1",
+              "text": "Paul McCartney"
+            },
+            {
+              "id": "2",
+              "text": "Paul Stanley"
+            },
+            {
+              "id": "3",
+              "text": "Paul Simon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Paul McCartney"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whose mother was Saint Elizabeth according to the New Testament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zechariahs"
+            },
+            {
+              "id": "1",
+              "text": "Judas Iscariots"
+            },
+            {
+              "id": "2",
+              "text": "John the Baptists"
+            },
+            {
+              "id": "3",
+              "text": "Bartholomews"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John the Baptists"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Upon the death of her father King George VI in 1952, Elizabeth II ascended the thrones of seven countries. Which of the following is not one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New Zealand"
+            },
+            {
+              "id": "1",
+              "text": "Australia"
+            },
+            {
+              "id": "2",
+              "text": "India"
+            },
+            {
+              "id": "3",
+              "text": "Canada"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: India"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elizabeth I of England, also known as the Virgin Queen, was the last monarch of this dynasty.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Windsor"
+            },
+            {
+              "id": "1",
+              "text": "Stuart"
+            },
+            {
+              "id": "2",
+              "text": "Lancaster"
+            },
+            {
+              "id": "3",
+              "text": "Tudor"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tudor"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this Oscar-nominated movie, Elisabeth Shue stars as a prostitute who has a doomed love affair with a depressed alcoholic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Trigger Effect"
+            },
+            {
+              "id": "1",
+              "text": "City of Angels"
+            },
+            {
+              "id": "2",
+              "text": "The Saint"
+            },
+            {
+              "id": "3",
+              "text": "Leaving Las Vegas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Leaving Las Vegas"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As head coach of this team, Paul Bear Bryant won six national championships and thirteen conference championships.",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Maryland football team"
+            },
+            {
+              "id": "1",
+              "text": "University of Alabama football team"
+            },
+            {
+              "id": "2",
+              "text": "University of Kentucky football team"
+            },
+            {
+              "id": "3",
+              "text": "Texas AM University"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: University of Alabama football team"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elizabeth Blackwell, born in 1821 in Bristol, England, holds this distinction.",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was the first woman to earn a medical degree in the United States."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "She was the first woman to gain a medical qualification in Britain."
+            },
+            {
+              "id": "3",
+              "text": "She was the first woman to run for US President."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: She was the first woman to earn a medical degree in the United States."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1956, this poet and writer received the Pulitzer Prize for her collection of poetry, North  South.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elizabeth Alexander"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth Gaskell"
+            },
+            {
+              "id": "2",
+              "text": "Elizabeth Bishop"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth Barret Browning"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Bishop"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Victorian author is famous for writing the social novel North and South and the biography of fellow novelist Charlotte Bront\u00eb?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elizabeth Barrett Browning"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth Spencer"
+            },
+            {
+              "id": "2",
+              "text": "Elizabeth Smart"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth Gaskell"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Gaskell"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "actor",
+          "stars",
+          "people",
+          "newman",
+          "diamonds"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Knowledge Quiz: Barack Obama and Senate",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, people, smith. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Senator Barack Obama\u2019s 2004 book that became number one bestseller on the New York Times nonfiction list?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Audacity of a Nation"
+            },
+            {
+              "id": "1",
+              "text": "The Audacity of War"
+            },
+            {
+              "id": "2",
+              "text": "The Audacity of Afro-Americans"
+            },
+            {
+              "id": "3",
+              "text": "The Audacity of Hope"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Audacity of Hope"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Senator Barack Obama was the only African-American Senator in the Senate in 2006.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which three colleges did Barack Obama attend as a student?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Illinois, Oxford, and Harvard"
+            },
+            {
+              "id": "1",
+              "text": "Illinois, Northwestern, and Harvard"
+            },
+            {
+              "id": "2",
+              "text": "Occidental, Columbia, and Harvard"
+            },
+            {
+              "id": "3",
+              "text": "Northwestern, Harvard, and Chicago"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Occidental, Columbia, and Harvard"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To which country did Barack Obama\u2019s family move when he was six?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kenya"
+            },
+            {
+              "id": "1",
+              "text": "Thailand"
+            },
+            {
+              "id": "2",
+              "text": "Uganda"
+            },
+            {
+              "id": "3",
+              "text": "Indonesia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Indonesia"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What job did Barack Obama start after finishing his education?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Assistant Mayor of Chicago"
+            },
+            {
+              "id": "1",
+              "text": "Assistant Ward Administrator in Chicago"
+            },
+            {
+              "id": "2",
+              "text": "Civil rights lawyer in Chicago"
+            },
+            {
+              "id": "3",
+              "text": "Assistant Mayor of Peoria"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Civil rights lawyer in Chicago"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "US Senator Barack Obama has won a Grammy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whom did Barack Obama defeat to win his Senate seat in 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A. Keyes"
+            },
+            {
+              "id": "1",
+              "text": "Paul Simon and Richard Daily, Jr."
+            },
+            {
+              "id": "2",
+              "text": "Harold Washington and Paul Simon"
+            },
+            {
+              "id": "3",
+              "text": "Bobby Rush and Peter Fitzgerald"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A. Keyes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Barack Obamas first book?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Audacity of Hope"
+            },
+            {
+              "id": "1",
+              "text": "The Audacity of Truth"
+            },
+            {
+              "id": "2",
+              "text": "Dreams from My Father"
+            },
+            {
+              "id": "3",
+              "text": "The Audacity of Hillary Clinton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dreams from My Father"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which subject did Senator Barack Obama get his B.A.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pre-Law"
+            },
+            {
+              "id": "1",
+              "text": "Political Science"
+            },
+            {
+              "id": "2",
+              "text": "Public Administration"
+            },
+            {
+              "id": "3",
+              "text": "History"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Political Science"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Susan Smith was convicted of killing her 2 sons by drowning them in her car in 1994.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Atlanta area woman was charged with the beating death of her 5-month-old daughter. Can you name her?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kim Fields"
+            },
+            {
+              "id": "1",
+              "text": "Deanna Laney"
+            },
+            {
+              "id": "2",
+              "text": "Carisa Ashe"
+            },
+            {
+              "id": "3",
+              "text": "Andrea Yates"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Carisa Ashe"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Senator Barack Obamas father born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uganda"
+            },
+            {
+              "id": "1",
+              "text": "California"
+            },
+            {
+              "id": "2",
+              "text": "Illinois"
+            },
+            {
+              "id": "3",
+              "text": "Kenya"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kenya"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did Barack Obama\u2019s term as Senator in the United States Senate begin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2005"
+            },
+            {
+              "id": "1",
+              "text": "2000"
+            },
+            {
+              "id": "2",
+              "text": "1997"
+            },
+            {
+              "id": "3",
+              "text": "1999"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 2005"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Texas mom killed her 11-month-old daughter in 2004 by amputating the babys arms with a knife and then offered her to God.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andrea Yates"
+            },
+            {
+              "id": "1",
+              "text": "Dena Schlosser"
+            },
+            {
+              "id": "2",
+              "text": "Janie Lou Gibbs"
+            },
+            {
+              "id": "3",
+              "text": "Nannie Doss"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dena Schlosser"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Diane Downs was convicted in 1984 for shooting which of these?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Her 2 sons and 2 daughters"
+            },
+            {
+              "id": "1",
+              "text": "Her 3 daughters"
+            },
+            {
+              "id": "2",
+              "text": "Her 3 sons"
+            },
+            {
+              "id": "3",
+              "text": "Her 1 son and 2 daughters"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Her 1 son and 2 daughters"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "people",
+          "smith",
+          "defeat",
+          "diane",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Knowledge Quiz: Author and Stories",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, people, presidents. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the author of The Caballeros Way, The Gift of the Magi, Memoirs of a Yellow Dog, Cherchez la Femme?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saki"
+            },
+            {
+              "id": "1",
+              "text": "Stephen Crane"
+            },
+            {
+              "id": "2",
+              "text": "H. H. Munroe"
+            },
+            {
+              "id": "3",
+              "text": "William Sydney Porter"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: William Sydney Porter"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote the short stories .007, How the Leopard Got Its Spots, Kidnapped, The Man Who Would Be King?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Louis Costanza"
+            },
+            {
+              "id": "1",
+              "text": "Ian Fleming"
+            },
+            {
+              "id": "2",
+              "text": "Rudyard Kipling"
+            },
+            {
+              "id": "3",
+              "text": "Robert Louis Stevenson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rudyard Kipling"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He served one term as President and two terms as Vice President.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Tyler"
+            },
+            {
+              "id": "1",
+              "text": "Martin Van Buren"
+            },
+            {
+              "id": "2",
+              "text": "Millard Fillmore"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: John Adams"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the author of the following short stories: The Iliad of Sandy Bar, Tennessees Partner, The Outcasts of Poker Flats, High Water Mark?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stephen Benet"
+            },
+            {
+              "id": "1",
+              "text": "Bret Harte"
+            },
+            {
+              "id": "2",
+              "text": "Harte Crane"
+            },
+            {
+              "id": "3",
+              "text": "Stephen Crane"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bret Harte"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Secret Sharer, The Return, Heart of Darkness, The Lagoon are short stories written by this Polish-born author.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joseph Conrad"
+            },
+            {
+              "id": "1",
+              "text": "Ambroise Bierce"
+            },
+            {
+              "id": "2",
+              "text": "Stephen Benet"
+            },
+            {
+              "id": "3",
+              "text": "Sir Arthur Conan Doyle"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Joseph Conrad"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An Occurrence at Owl Creek Bridge, The Psychological Shipwreck, Beyond the Wall, Haita the Shepherd are short stories by this writer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stephen Crane"
+            },
+            {
+              "id": "1",
+              "text": "Stephen Benet"
+            },
+            {
+              "id": "2",
+              "text": "Ambroise Bierce"
+            },
+            {
+              "id": "3",
+              "text": "Ambroise LaFollette"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ambroise Bierce"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What US President served more than two terms?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Theodore Roosevelt"
+            },
+            {
+              "id": "1",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "2",
+              "text": "Grover Cleveland"
+            },
+            {
+              "id": "3",
+              "text": "Franklin D. Roosevelt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Franklin D. Roosevelt"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the author The Red-headed League, The Adventure of the Blue Carbunkle and The Adventure of the Speckled Band?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zola Vernon Hayes"
+            },
+            {
+              "id": "1",
+              "text": "Edgar Allan Poe"
+            },
+            {
+              "id": "2",
+              "text": "Sir Arthur Conan Doyle"
+            },
+            {
+              "id": "3",
+              "text": "Stephen Crane"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sir Arthur Conan Doyle"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genene Jones was a pediatric nurse in Texas whose shift was commonly referred to as the Death Shift.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these US Presidents was assassinated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andrew Johnson"
+            },
+            {
+              "id": "1",
+              "text": "John Tyler"
+            },
+            {
+              "id": "2",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "3",
+              "text": "James A. Garfield"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James A. Garfield"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Penal Colony, Before the Law, The Next Village, A Country Doctor, On the Train are short stories written by this author.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emile Zola"
+            },
+            {
+              "id": "1",
+              "text": "Franz Kafka"
+            },
+            {
+              "id": "2",
+              "text": "Franz Werfel"
+            },
+            {
+              "id": "3",
+              "text": "Emile Barrenas"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Franz Kafka"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Notes From the Underground and The Thief are short stories by this writer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anton Chekov"
+            },
+            {
+              "id": "1",
+              "text": "Leo Tolstoi"
+            },
+            {
+              "id": "2",
+              "text": "Fyodor Dostoevsky"
+            },
+            {
+              "id": "3",
+              "text": "Franz Kafka"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fyodor Dostoevsky"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Redheadded Outfield, The Rube, False Colors were penned by this author.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zane Grey"
+            },
+            {
+              "id": "1",
+              "text": "Harte Crane"
+            },
+            {
+              "id": "2",
+              "text": "Bret Harte"
+            },
+            {
+              "id": "3",
+              "text": "Sir Arthur Conan Doyle"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Zane Grey"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Texas mom, convicted in 1996 of killing her 2 young sons, claimed an intruder broke in and murdered them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ruth Snyder"
+            },
+            {
+              "id": "1",
+              "text": "Piper Rountree"
+            },
+            {
+              "id": "2",
+              "text": "Susan Smith"
+            },
+            {
+              "id": "3",
+              "text": "Darlie Routier"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Darlie Routier"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who penned The Open Boat, The Snake, Four Men in a Cave and The Veteran?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bret Harte"
+            },
+            {
+              "id": "1",
+              "text": "Crane Harte"
+            },
+            {
+              "id": "2",
+              "text": "Hart Crane"
+            },
+            {
+              "id": "3",
+              "text": "Stephen Crane"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Stephen Crane"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "people",
+          "presidents",
+          "president",
+          "village",
+          "mom"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Us and President",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, people, catherine. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what movie do Kate Winslet and Leonardo DiCaprio star as a married couple living in a Connecticut suburb?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titanic"
+            },
+            {
+              "id": "1",
+              "text": "The Reader"
+            },
+            {
+              "id": "2",
+              "text": "The Basketball Diaries"
+            },
+            {
+              "id": "3",
+              "text": "Revolutionary Road"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Revolutionary Road"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the first US President to remain a lifelong bachelor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Calvin Coolidge"
+            },
+            {
+              "id": "1",
+              "text": "William McKinley"
+            },
+            {
+              "id": "2",
+              "text": "Benjamin Harrison"
+            },
+            {
+              "id": "3",
+              "text": "James Buchanan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James Buchanan"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these was physically the heaviest US President weighing over 300 pounds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Tyler"
+            },
+            {
+              "id": "1",
+              "text": "Zachary Taylor"
+            },
+            {
+              "id": "2",
+              "text": "William Howard Taft"
+            },
+            {
+              "id": "3",
+              "text": "John Quincy Adams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: William Howard Taft"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The son of a US President, he later became US President himself and took part in formulating the Monroe Doctrine.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Franklin D. Roosevelt"
+            },
+            {
+              "id": "1",
+              "text": "John Quincy Adams"
+            },
+            {
+              "id": "2",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "3",
+              "text": "Zachary Taylor"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Quincy Adams"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the last US President to be born in the 18th century?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "1",
+              "text": "James Buchanan"
+            },
+            {
+              "id": "2",
+              "text": "Franklin Pierce"
+            },
+            {
+              "id": "3",
+              "text": "Millard Fillmore"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: James Buchanan"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1990s, Kate Moss waif look and her depiction in a Calvin Cline advertising campaign drew criticism from what President of the US?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ronald Reagan."
+            },
+            {
+              "id": "1",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "2",
+              "text": "George H. W. Bush"
+            },
+            {
+              "id": "3",
+              "text": "Bill Clinton"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Clinton"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this movie Cate Blanchett and Kate Beckinsale play the roles of acclaimed real-life actresses who were both involved with Leonardo DiCaprios character.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Departed"
+            },
+            {
+              "id": "1",
+              "text": "The Aviator"
+            },
+            {
+              "id": "2",
+              "text": "Catch Me If You can"
+            },
+            {
+              "id": "3",
+              "text": "This Boys Life"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Aviator"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1901, he became the youngest person to enter office as President.",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Madison"
+            },
+            {
+              "id": "1",
+              "text": "William McKinley"
+            },
+            {
+              "id": "2",
+              "text": "Barack Obama"
+            },
+            {
+              "id": "3",
+              "text": "Theodore Roosevelt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Theodore Roosevelt"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Actress Katie Holmes first achieved fame for her role as Joey Potter on this television teen drama.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dawsons Creek"
+            },
+            {
+              "id": "1",
+              "text": "One Tree Hill"
+            },
+            {
+              "id": "2",
+              "text": "Point Pleasant"
+            },
+            {
+              "id": "3",
+              "text": "Beverly Hills 90210"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dawsons Creek"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Henry VIIIs attempt to have the 24-year marriage with his first wife annulled led to Englands break with the Roman Catholic Church. Which Cathrine was his first wife?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Catherine of Aragon"
+            },
+            {
+              "id": "1",
+              "text": "Catherine de Medici"
+            },
+            {
+              "id": "2",
+              "text": "Catherine Parr"
+            },
+            {
+              "id": "3",
+              "text": "Catherine Howard"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Catherine of Aragon"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this 2001 movie, directed by Barry Levinson, Kate Blanchet portrays Kate Wheeler, a housewife disappointed with her marriage?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heaven"
+            },
+            {
+              "id": "1",
+              "text": "Sphere"
+            },
+            {
+              "id": "2",
+              "text": "Disclosure"
+            },
+            {
+              "id": "3",
+              "text": "Bandits"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bandits"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Founding Father and US President promoted the ideals of republicanism in the US and supported the separation of church and state.",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Monroe"
+            },
+            {
+              "id": "1",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "2",
+              "text": "George Washington"
+            },
+            {
+              "id": "3",
+              "text": "Thomas Jefferson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Jefferson"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first US President to die in office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John F. Kennedy"
+            },
+            {
+              "id": "1",
+              "text": "William Henry Harrison"
+            },
+            {
+              "id": "2",
+              "text": "Warren G. Harding"
+            },
+            {
+              "id": "3",
+              "text": "James A. Garfield"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: William Henry Harrison"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kate Bushs debut single is named after and based on this novel by Emily Bronte.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wuthering Heights"
+            },
+            {
+              "id": "1",
+              "text": "Pride and Prejudice"
+            },
+            {
+              "id": "2",
+              "text": "Sense and Sensibility"
+            },
+            {
+              "id": "3",
+              "text": "Jane Air"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Wuthering Heights"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these events is believed to have been instigated by Catherine de Medici, who was queen consort of King Henry II of France from 1547 to 1559?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Storming of the Bastille"
+            },
+            {
+              "id": "1",
+              "text": "The 100 Years War"
+            },
+            {
+              "id": "2",
+              "text": "St. Bartholomews Day massacre"
+            },
+            {
+              "id": "3",
+              "text": "The Thermidorian Reaction"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: St. Bartholomews Day massacre"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "people",
+          "catherine",
+          "winslet",
+          "barry",
+          "debut"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "History Quiz: Biography and History",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, recluse, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mao Zedong refused to brush his teeth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to a biography by Clark Gable she was extremely dirty, and not in the sexual sense.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marilyn Monroe"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth Taylor"
+            },
+            {
+              "id": "2",
+              "text": "Audrey Hepburn"
+            },
+            {
+              "id": "3",
+              "text": "Audrey Manson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Marilyn Monroe"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What German composer, who was attracted to the ideals of the Enlightenment, refused to bathe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Siegfried Wagner"
+            },
+            {
+              "id": "1",
+              "text": "Ludwig van Beethoven"
+            },
+            {
+              "id": "2",
+              "text": "Johann Sebastian Bach"
+            },
+            {
+              "id": "3",
+              "text": "Johann Christoph Bach"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ludwig van Beethoven"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He believed that cleanliness was a bourgeoisie excess.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Adolf Hitler"
+            },
+            {
+              "id": "1",
+              "text": "Friedrich Wilhelm Nietzsche"
+            },
+            {
+              "id": "2",
+              "text": "Karl Marx"
+            },
+            {
+              "id": "3",
+              "text": "Friedrich Engels"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Karl Marx"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which American politician is credited with writing the Declaration of Independence?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "1",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "2",
+              "text": "John Adams"
+            },
+            {
+              "id": "3",
+              "text": "George Washington"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Jefferson"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Frederick II of Prussia refused to bathe and stopped changing his clothes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the richest women in history, she bathed just a few times and wore several black dresses her entire life.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Coco Chanel"
+            },
+            {
+              "id": "1",
+              "text": "Marlin Monroe"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Henrietta Green"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Henrietta Green"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This popular French king who tried to provide his citizens with a \u201cchicken in the pot every Sunday\u201d became known for his refusal to bathe and mask his odor with cologne after hunting.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Antoine of Navarre"
+            },
+            {
+              "id": "1",
+              "text": "Louis XIII of France"
+            },
+            {
+              "id": "2",
+              "text": "Henry IV of France"
+            },
+            {
+              "id": "3",
+              "text": "Nicholas Henri, Duke of Orl\u00e9ans"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Henry IV of France"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which President of the United States wrote, Rules of Civility and Decent Behavior in Company and Conversation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Quincy Adams"
+            },
+            {
+              "id": "1",
+              "text": "Chester B. Arthur"
+            },
+            {
+              "id": "2",
+              "text": "James Madison"
+            },
+            {
+              "id": "3",
+              "text": "George Washington"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: George Washington"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gregor Mendel wrote On the Origins of Species in 1859.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won an Academy Award for Best Supporting Actress for the portrayal of Velma Kelly, a vaudevillian who murdered her adulterous husband and her sister?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kate Winslet"
+            },
+            {
+              "id": "1",
+              "text": "Catherine Zeta-Jones"
+            },
+            {
+              "id": "2",
+              "text": "Kate Bosworth"
+            },
+            {
+              "id": "3",
+              "text": "Katharine Hepburn"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Catherine Zeta-Jones"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This celebrity became a recluse, who refused to bathe and trimmed his hair and nails only once a year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron Howard"
+            },
+            {
+              "id": "1",
+              "text": "Edward Howard"
+            },
+            {
+              "id": "2",
+              "text": "Clark Howard"
+            },
+            {
+              "id": "3",
+              "text": "Howard Hughes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Howard Hughes"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Benedict of Aniane was a monk that spent most of his life in rags.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This king who ruled France for 72 years was probably hydrophobic and refused to bathe.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Louis V"
+            },
+            {
+              "id": "1",
+              "text": "Charles V"
+            },
+            {
+              "id": "2",
+              "text": "Louis XVI"
+            },
+            {
+              "id": "3",
+              "text": "Louis XIV"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Louis XIV"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which scholastic tome was NOT written by Issac Newton?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Opticks"
+            },
+            {
+              "id": "1",
+              "text": "Gravity and Physics: An In-depth Study"
+            },
+            {
+              "id": "2",
+              "text": "An Historical Account of Two Notable Corruptions of Scripture"
+            },
+            {
+              "id": "3",
+              "text": "Arithmetica Universalis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gravity and Physics: An In-depth Study"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "recluse",
+          "people",
+          "independence",
+          "clark",
+          "biography"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "History Quiz: Phrase and Golds",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, people, scrolls. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tug McGraw played for the New York Mets from 1975-1984.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1975 I defeated then popular player, Jimmy Conners, and went on to win the Wimbledon singles title. I retired in 1980 due to health problems with 818 wins and 51 titles. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Blake"
+            },
+            {
+              "id": "1",
+              "text": "Althea Gibson"
+            },
+            {
+              "id": "2",
+              "text": "Arthur Ashe"
+            },
+            {
+              "id": "3",
+              "text": "Donald Young"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Arthur Ashe"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The phrase United we stand, divided we fall has been used in mottoes and songs. Who is this phrase attributed to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Shakespeare"
+            },
+            {
+              "id": "1",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "2",
+              "text": "Plato"
+            },
+            {
+              "id": "3",
+              "text": "Aesop"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Aesop"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The famed Dead Sea Scrolls which contain ancient scriptures from the Hebrew Bible were written by which ancient people?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aztecs"
+            },
+            {
+              "id": "1",
+              "text": "Mayan"
+            },
+            {
+              "id": "2",
+              "text": "Essenes"
+            },
+            {
+              "id": "3",
+              "text": "Ican"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Essenes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is this expression attributed to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Samuel Adams"
+            },
+            {
+              "id": "1",
+              "text": "William Butler Yeats"
+            },
+            {
+              "id": "2",
+              "text": "Pope John Paul the first"
+            },
+            {
+              "id": "3",
+              "text": "Alcuin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alcuin"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I won 10 Olympic medals including 9 golds, and 10 World Championships medals including 8 golds, during my career that spanned from 1979 to 1996. My events were the 100, 200, 4X100 relay and the long jump. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carl Lewis"
+            },
+            {
+              "id": "1",
+              "text": "Maurice Greene"
+            },
+            {
+              "id": "2",
+              "text": "Marion Jones"
+            },
+            {
+              "id": "3",
+              "text": "Torri Edwards"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Carl Lewis"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whose autobiography was titled  An Autobiography or My Experiments with Truth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mohandas Ghandi"
+            },
+            {
+              "id": "1",
+              "text": "Harry Truman"
+            },
+            {
+              "id": "2",
+              "text": "George H.W Bush"
+            },
+            {
+              "id": "3",
+              "text": "Winston Churchill"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mohandas Ghandi"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I attended Indiana University and was drafted 2nd overall in the 1981 NBA draft by the Detroit Pistons.  Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Dumars"
+            },
+            {
+              "id": "1",
+              "text": "Bill Laimbeer"
+            },
+            {
+              "id": "2",
+              "text": "Larry Bird"
+            },
+            {
+              "id": "3",
+              "text": "Isiah Thomas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Isiah Thomas"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What feminist activist made this statement?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Susan B. Anthony"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth Blackwell"
+            },
+            {
+              "id": "2",
+              "text": "Rosa Parks"
+            },
+            {
+              "id": "3",
+              "text": "Robin Morgan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Robin Morgan"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Profiles in Courage is the book written by John F. Kennedy that won him the Pulitzer Prize for Biography in 1957.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "May you live all the days of your life is a quote by this famous person.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bob Marley"
+            },
+            {
+              "id": "1",
+              "text": "Jonathan Swift"
+            },
+            {
+              "id": "2",
+              "text": "Herbert Hoover"
+            },
+            {
+              "id": "3",
+              "text": "C.S. Lewis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jonathan Swift"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ancient Egyptians wrote on papyrus.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jack Nicklaus is also known as The Golden Bear.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is credited with the quote, Reserve your right to think, for even to think wrongly is better than not to think at all.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Queen Victoria"
+            },
+            {
+              "id": "1",
+              "text": "Martin Luther King, Jr."
+            },
+            {
+              "id": "2",
+              "text": "Hypatia of Alexandria"
+            },
+            {
+              "id": "3",
+              "text": "Socrates"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hypatia of Alexandria"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Letter from Birmingham Jail was written by Dr. Martin Luther King Jr. after he was jailed for eating at a segregated lunch counter.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "people",
+          "scrolls",
+          "phrase",
+          "mcgraw",
+          "jimmy"
+        ]
+      }
+    }
+  ]
+}

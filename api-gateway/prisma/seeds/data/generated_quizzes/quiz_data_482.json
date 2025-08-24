@@ -1,0 +1,2444 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Weather and Kind",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, frost, mean. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first frost will come within this many days, after you hear the first cicada.",
+          "options": [
+            {
+              "id": "0",
+              "text": "45"
+            },
+            {
+              "id": "1",
+              "text": "50"
+            },
+            {
+              "id": "2",
+              "text": "90"
+            },
+            {
+              "id": "3",
+              "text": "60"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 90"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does liquid iron float on liquid nickel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A reddish ring around the moon means this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rain or snow"
+            },
+            {
+              "id": "1",
+              "text": "Rainbow or bright sunshine"
+            },
+            {
+              "id": "2",
+              "text": "Fog or haze"
+            },
+            {
+              "id": "3",
+              "text": "Wind or rain"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rain or snow"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A piece of wood floating on the ocean has what kind of buoyancy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Neutral buoyancy"
+            },
+            {
+              "id": "2",
+              "text": "Negative buoyancy"
+            },
+            {
+              "id": "3",
+              "text": "Positive buoyancy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Positive buoyancy"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a hydrometer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "An instrument used to measure a liquids temperature"
+            },
+            {
+              "id": "2",
+              "text": "An instrument used to measure a liquids weight"
+            },
+            {
+              "id": "3",
+              "text": "An instrument used to measure a liquids density"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: An instrument used to measure a liquids density"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This flower opens up in sunny weather. When rain is expected, it closes tightly.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Primrose"
+            },
+            {
+              "id": "1",
+              "text": "Nasturtium"
+            },
+            {
+              "id": "2",
+              "text": "Daisy"
+            },
+            {
+              "id": "3",
+              "text": "Scarlet Pimpernel"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Scarlet Pimpernel"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does hydrogen float on helium?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does volumetric flow rate mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The volume of fluid which passes through a given volume per unit time"
+            },
+            {
+              "id": "1",
+              "text": "The way a fluid flows"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "The resistance of a fluid to deform under shear stress"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The volume of fluid which passes through a given volume per unit time"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does gasoline float on distilled water?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These are often used as weather indicators. Before the weather gets dry, they open up. If it will be wet, they return to their normal shape.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dandelions"
+            },
+            {
+              "id": "1",
+              "text": "Pine cones"
+            },
+            {
+              "id": "2",
+              "text": "Pea pods"
+            },
+            {
+              "id": "3",
+              "text": "Willow sprigs"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pine cones"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does laminar flow mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The movement of a liquid past a bumpy object. (Water past rapids)"
+            },
+            {
+              "id": "1",
+              "text": "The movement of a liquid in straight line (Water in a straw)"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "The movement of a liquid in space, outside the planet Earth"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The movement of a liquid in straight line (Water in a straw)"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If the crow has any interruption in her note like hiccup, or a croak with a kind of swallowing, it signifies this event.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wind and tornado"
+            },
+            {
+              "id": "1",
+              "text": "Wind and rain"
+            },
+            {
+              "id": "2",
+              "text": "Fog and thunder"
+            },
+            {
+              "id": "3",
+              "text": "Rain and haze"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wind and rain"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does liquid mercury float on liquid gold?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If at noon on the 2nd of February you see this animals shadow, be sure the weather will be cold.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A weasel"
+            },
+            {
+              "id": "1",
+              "text": "A groundhog"
+            },
+            {
+              "id": "2",
+              "text": "A hedgehog"
+            },
+            {
+              "id": "3",
+              "text": "A hog"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A groundhog"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Such the weather will be if at dusk the sky is red.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dry"
+            },
+            {
+              "id": "1",
+              "text": "Rainy"
+            },
+            {
+              "id": "2",
+              "text": "Snowy"
+            },
+            {
+              "id": "3",
+              "text": "Hot"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dry"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "frost",
+          "mean",
+          "mercury",
+          "dusk",
+          "sky"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Jupiter and Storm",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, birds, jupiter. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The word hurricane\u201d comes from the name of a Caribbean god - Huracan. Huracan was god of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The sea"
+            },
+            {
+              "id": "1",
+              "text": "The weather"
+            },
+            {
+              "id": "2",
+              "text": "The moon"
+            },
+            {
+              "id": "3",
+              "text": "The storms"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The storms"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A tropical cyclone is a storm with a closed circulation around a center of low pressure. Based on strength and location a tropical cyclone can be referred to by different names. Which of the following is not a possible name for a tropical cyclone?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tropical Storm"
+            },
+            {
+              "id": "1",
+              "text": "Typhoon"
+            },
+            {
+              "id": "2",
+              "text": "Hurricane"
+            },
+            {
+              "id": "3",
+              "text": "Mesocyclone"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mesocyclone"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You should expect this, if fish jump out of the water while the weather is nice.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rainbows"
+            },
+            {
+              "id": "1",
+              "text": "Extreme heat"
+            },
+            {
+              "id": "2",
+              "text": "Lightning storm"
+            },
+            {
+              "id": "3",
+              "text": "Rain"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rain"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Despite a hurricane\u2019s destructive nature and its toll on both lives and property, there are some beneficial effects of tropical cyclones.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the distance between the planets and the Sun, Jupiter is situated between which two planets in the Solar system?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mercury and Venus"
+            },
+            {
+              "id": "1",
+              "text": "Venus and Earth"
+            },
+            {
+              "id": "2",
+              "text": "Neptune and Pluto"
+            },
+            {
+              "id": "3",
+              "text": "Mars and Saturn"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mars and Saturn"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A tropical cyclone is classified to have reached landfall when the outer edges of the storm are over land.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the minimum ocean water temperature required for a tropical cyclone to form?",
+          "options": [
+            {
+              "id": "0",
+              "text": "87 degrees Fahrenheit"
+            },
+            {
+              "id": "1",
+              "text": "80 degrees Fahrenheit"
+            },
+            {
+              "id": "2",
+              "text": "77 degrees Fahrenheit"
+            },
+            {
+              "id": "3",
+              "text": "93 degrees Fahrenheit"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 80 degrees Fahrenheit"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How do the Korean, the Japanese and the Chinese call Jupiter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Iron fist"
+            },
+            {
+              "id": "1",
+              "text": "Wood star"
+            },
+            {
+              "id": "2",
+              "text": "Ice cube"
+            },
+            {
+              "id": "3",
+              "text": "Fire ball"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wood star"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Once a tropical cyclone reaches wind speeds of at least 39 mph, it is classified as a tropical storm. At what minimum wind speed is a tropical storm classified as a hurricane or typhoon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "74 mph"
+            },
+            {
+              "id": "1",
+              "text": "52 mph"
+            },
+            {
+              "id": "2",
+              "text": "85 mph"
+            },
+            {
+              "id": "3",
+              "text": "92 mph"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 74 mph"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If the tail of these animals appears thicker,  then you could expect a severe winter.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Squirrels"
+            },
+            {
+              "id": "1",
+              "text": "Bears"
+            },
+            {
+              "id": "2",
+              "text": "Skunks"
+            },
+            {
+              "id": "3",
+              "text": "Marmots"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Squirrels"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many moons, revolving around Jupiter, did Galileo Galilei discover in the 17th century?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jupiter, the fifth planet from the Sun, has atmosphere composed of what gases?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oxygen and hydrogen"
+            },
+            {
+              "id": "1",
+              "text": "Hydrogen and nitrogen"
+            },
+            {
+              "id": "2",
+              "text": "Oxygen and nitrogen"
+            },
+            {
+              "id": "3",
+              "text": "Hydrogen and helium"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hydrogen and helium"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1994, what major hurricane broke the record for longest-lasting hurricane ever observed both in the Pacific Ocean and worldwide?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hurricane John"
+            },
+            {
+              "id": "1",
+              "text": "Hurricane Carrie"
+            },
+            {
+              "id": "2",
+              "text": "Hurricane Ginger"
+            },
+            {
+              "id": "3",
+              "text": "Hurricane Kyle"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hurricane John"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If these birds do run for shelter during rain, the weather is going to get worse.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Owls"
+            },
+            {
+              "id": "1",
+              "text": "Eagles"
+            },
+            {
+              "id": "2",
+              "text": "Pigeons"
+            },
+            {
+              "id": "3",
+              "text": "Hens"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hens"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The constant anticyclonic storm on Jupiter which can be seen through telescopes from Earth is called by what name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Green Belt"
+            },
+            {
+              "id": "1",
+              "text": "The Great Red Spot"
+            },
+            {
+              "id": "2",
+              "text": "The Red Eye"
+            },
+            {
+              "id": "3",
+              "text": "The Bright White Eye"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Great Red Spot"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "birds",
+          "jupiter",
+          "thicker",
+          "mph",
+          "landfall"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Prescription and Jupiter",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, jupiter, reads. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these names refers to a large group of asteroids in Jupiters orbit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Hellenic asteroids"
+            },
+            {
+              "id": "1",
+              "text": "The Trojan asteroids"
+            },
+            {
+              "id": "2",
+              "text": "The Roman asteroids"
+            },
+            {
+              "id": "3",
+              "text": "The Martian asteroids"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Trojan asteroids"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the abbreviations on prescriptions called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "sib abbreviations"
+            },
+            {
+              "id": "1",
+              "text": "sig codes"
+            },
+            {
+              "id": "2",
+              "text": "sif abbreviations"
+            },
+            {
+              "id": "3",
+              "text": "sic codes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: sig codes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first directly-observed collision between two solar system bodies was between Jupiter and which comet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shoemaker-Levy 9"
+            },
+            {
+              "id": "1",
+              "text": "Hale-Bopp"
+            },
+            {
+              "id": "2",
+              "text": "Schwassmann-Wachmann"
+            },
+            {
+              "id": "3",
+              "text": "Tuttle-Giacobini-Kresak"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Shoemaker-Levy 9"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The four Jovian planets in the Solar system are Jupiter, Saturn, Neptune and which other planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars"
+            },
+            {
+              "id": "1",
+              "text": "Venus"
+            },
+            {
+              "id": "2",
+              "text": "Uranus"
+            },
+            {
+              "id": "3",
+              "text": "Earth"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Uranus"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a prescription has the terms NS and OS written on it, what does this probably mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "You need an IV."
+            },
+            {
+              "id": "1",
+              "text": "You cant get more of your ulcer medication."
+            },
+            {
+              "id": "2",
+              "text": "You have really bad dandruff."
+            },
+            {
+              "id": "3",
+              "text": "You have an eye problem."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: You have an eye problem."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not one of the four main parts that make up a prescription?",
+          "options": [
+            {
+              "id": "0",
+              "text": "petition"
+            },
+            {
+              "id": "1",
+              "text": "signature"
+            },
+            {
+              "id": "2",
+              "text": "inscription"
+            },
+            {
+              "id": "3",
+              "text": "subscription"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: petition"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Should I eat before taking my medication, if the prescription says the medication should be taken a.c.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one is not a name of a Galilean moon revolving around Jupiter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Io"
+            },
+            {
+              "id": "1",
+              "text": "Athena"
+            },
+            {
+              "id": "2",
+              "text": "Europa"
+            },
+            {
+              "id": "3",
+              "text": "Callisto"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Athena"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is used to indicate the medication should be taken with food?",
+          "options": [
+            {
+              "id": "0",
+              "text": "w.c."
+            },
+            {
+              "id": "1",
+              "text": "l.c."
+            },
+            {
+              "id": "2",
+              "text": "c.c."
+            },
+            {
+              "id": "3",
+              "text": "a.c."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: c.c."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This woman was the first female licensed physician in Great Britain. She died on December 17, 1917 at the age of 81.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Agnodice"
+            },
+            {
+              "id": "1",
+              "text": "Dr. Quinn"
+            },
+            {
+              "id": "2",
+              "text": "Florence Nightingale"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth Garrett Anderson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Garrett Anderson"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a pharmacy setting, what does ft. mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "feet"
+            },
+            {
+              "id": "1",
+              "text": "for tincture"
+            },
+            {
+              "id": "2",
+              "text": "let it be made"
+            },
+            {
+              "id": "3",
+              "text": "place under tongue"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: let it be made"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jupiter, the largest planet in the Solar system, is the ruling planet of which astrological sign?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aries"
+            },
+            {
+              "id": "1",
+              "text": "Gemini"
+            },
+            {
+              "id": "2",
+              "text": "Sagittarius"
+            },
+            {
+              "id": "3",
+              "text": "Libra"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sagittarius"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pregnancy has a lot of myths surrounding it. Is this one of them? Do spicy foods and/or red wine help induce labor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these would most likely appear on a prescription if the medication should be taken as a large single dose?",
+          "options": [
+            {
+              "id": "0",
+              "text": "prn"
+            },
+            {
+              "id": "1",
+              "text": "A.A.O."
+            },
+            {
+              "id": "2",
+              "text": "bol."
+            },
+            {
+              "id": "3",
+              "text": "q.i.d"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: bol."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If the prescription reads take 2 IBU 400mg Tab PO BID p.c. disp. q.s. 5 days DAW, how many ibuprofen tablets should be dispensed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "30"
+            },
+            {
+              "id": "2",
+              "text": "40"
+            },
+            {
+              "id": "3",
+              "text": "20"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 20"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "jupiter",
+          "reads",
+          "prescription",
+          "parts",
+          "food"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Planet and Nose",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, stars, ice. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This can be viewed as a generalization of the Pythagorean Theorem.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Law of  Willens"
+            },
+            {
+              "id": "1",
+              "text": "Law of Cosines"
+            },
+            {
+              "id": "2",
+              "text": "Law of Cotangents"
+            },
+            {
+              "id": "3",
+              "text": "Law of Verseed Sines"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Law of Cosines"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do you call a massive system of stars held together by gravity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A nebula"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Space"
+            },
+            {
+              "id": "3",
+              "text": "A galaxy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A galaxy"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A solar eclipse is when Earth casts a shadow on the Moon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these equations can describe the Theorem of Pythagoras?",
+          "options": [
+            {
+              "id": "0",
+              "text": "sqrt(pi)=t^3"
+            },
+            {
+              "id": "1",
+              "text": "a^2+b^2=c^2"
+            },
+            {
+              "id": "2",
+              "text": "e^(pi*i)=-1"
+            },
+            {
+              "id": "3",
+              "text": "a^3+b^3=c^3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: a^2+b^2=c^2"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Solar System body was once considered a planet, but was later reclassified as a dwarf planet and a member of the Kuiper Belt.",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Venus"
+            },
+            {
+              "id": "2",
+              "text": "Jupiter"
+            },
+            {
+              "id": "3",
+              "text": "Pluto"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pluto"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Meteoroids are small celestial bodies consisting of ice, dust and rock that form gaseous tails as they move closer to the Sun.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is sometimes called Eulers Formula.",
+          "options": [
+            {
+              "id": "0",
+              "text": "a^2+b^2=c^2"
+            },
+            {
+              "id": "1",
+              "text": "e=m*c^2"
+            },
+            {
+              "id": "2",
+              "text": "a^2=b^2+c^2-2*a*b*cosine c"
+            },
+            {
+              "id": "3",
+              "text": "e^(pi*i)+1=0"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: e^(pi*i)+1=0"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If youre double-jointed, it means you have two joints where normally there is one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The nose is an amazing piece of the human body.  Every flower or food gives off odor molecules that your nose picks up and your brain translates. How many smells can your brain recognize?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5,000"
+            },
+            {
+              "id": "1",
+              "text": "15,000"
+            },
+            {
+              "id": "2",
+              "text": "10,000"
+            },
+            {
+              "id": "3",
+              "text": "20,000"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 10,000"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet of the Solar System has the most moons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars"
+            },
+            {
+              "id": "1",
+              "text": "Saturn"
+            },
+            {
+              "id": "2",
+              "text": "Jupiter"
+            },
+            {
+              "id": "3",
+              "text": "Pluto"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jupiter"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following asteroids is the only one visible to the naked eye?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Davida"
+            },
+            {
+              "id": "1",
+              "text": "Vesta"
+            },
+            {
+              "id": "2",
+              "text": "Ceres"
+            },
+            {
+              "id": "3",
+              "text": "Pallas"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vesta"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a dog is wagging its tail, then it is safe to approach.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these countries has the highest infant mortality rate according to a 2006 revision of the UN World Population Prospects report?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Singapore"
+            },
+            {
+              "id": "1",
+              "text": "Czech Republic"
+            },
+            {
+              "id": "2",
+              "text": "United States"
+            },
+            {
+              "id": "3",
+              "text": "Sweden"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: United States"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I think we have all heard this one. Does an apple a day keep the doctor away?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the hottest planet of the Solar System?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars"
+            },
+            {
+              "id": "1",
+              "text": "Venus"
+            },
+            {
+              "id": "2",
+              "text": "Mercury"
+            },
+            {
+              "id": "3",
+              "text": "Uranus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Venus"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "stars",
+          "ice",
+          "eclipse",
+          "nose",
+          "generalization"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Equation and Plant",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, amazon, cape. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "x^2+y^2=r^2 is which equation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the equation of a parabola"
+            },
+            {
+              "id": "1",
+              "text": "the equation of a circle"
+            },
+            {
+              "id": "2",
+              "text": "the equation of a right triangle"
+            },
+            {
+              "id": "3",
+              "text": "the equation of a hyperbola"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: the equation of a circle"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does this equation describe?  y=A(sin) wt, where A is the amplitude and t is the time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The tangent of the angle x"
+            },
+            {
+              "id": "1",
+              "text": "The cosine of the angle w"
+            },
+            {
+              "id": "2",
+              "text": "Linear motion"
+            },
+            {
+              "id": "3",
+              "text": "Simple harmonic motion"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Simple harmonic motion"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is one of the major equations of relativity.",
+          "options": [
+            {
+              "id": "0",
+              "text": "V=(4/3)*pi*r^2"
+            },
+            {
+              "id": "1",
+              "text": "V=arcsine(pi+i^2)"
+            },
+            {
+              "id": "2",
+              "text": "L=sqrt(L/g)"
+            },
+            {
+              "id": "3",
+              "text": "E=M*C^2"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: E=M*C^2"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which drug consists of a sediment, extracted form the fruit of the squirting cucumber, that is native of the the Mediterranean region?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Piperazine"
+            },
+            {
+              "id": "1",
+              "text": "Thionin"
+            },
+            {
+              "id": "2",
+              "text": "Elaterium"
+            },
+            {
+              "id": "3",
+              "text": "Mycoherbicide"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Elaterium"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This tree, which grows mainly in Australia, is the tallest of all flowering evergreen plants.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Acacia cultriformis"
+            },
+            {
+              "id": "1",
+              "text": "IIIawarra"
+            },
+            {
+              "id": "2",
+              "text": "Sugar brother"
+            },
+            {
+              "id": "3",
+              "text": "Eucalyptus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eucalyptus"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Given the equation C=pi*D. What does the C and the D stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The circumference and diameter of a circle"
+            },
+            {
+              "id": "1",
+              "text": "The electrical capacitance and the electrical dipole"
+            },
+            {
+              "id": "2",
+              "text": "The circular radius and the diopter distance"
+            },
+            {
+              "id": "3",
+              "text": "The cranial area and the circumspectum"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The circumference and diameter of a circle"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which plant, that grows in the equatorial rainforests of Sumatra, Indonesia, has the largest unbranched inflorescence in the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titan arum"
+            },
+            {
+              "id": "1",
+              "text": "Rafflesia amoldii"
+            },
+            {
+              "id": "2",
+              "text": "Talipot palm"
+            },
+            {
+              "id": "3",
+              "text": "Tillandsia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Titan arum"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This equation, Y=mX+B, represents what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A prism"
+            },
+            {
+              "id": "1",
+              "text": "A circle in the plane"
+            },
+            {
+              "id": "2",
+              "text": "A line in the plane"
+            },
+            {
+              "id": "3",
+              "text": "An ellipse in the plane"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A line in the plane"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This plant, native to the shallow waters of the Amazon River basin, is the largest representative of waterlilies.",
+          "options": [
+            {
+              "id": "0",
+              "text": "American Lotus"
+            },
+            {
+              "id": "1",
+              "text": "Sacred Lotus"
+            },
+            {
+              "id": "2",
+              "text": "Red lily"
+            },
+            {
+              "id": "3",
+              "text": "Victoria waterlily"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Victoria waterlily"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which tree, that grows on the Canary Islands, Cape Verde and Madeira, secretes a reddish juice, called Dragons blood?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dracaena draco"
+            },
+            {
+              "id": "1",
+              "text": "Para rubber tree"
+            },
+            {
+              "id": "2",
+              "text": "The Canary Island Pine"
+            },
+            {
+              "id": "3",
+              "text": "Castanopsis"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dracaena draco"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is this equation?  F=G*m1*m2/d^2",
+          "options": [
+            {
+              "id": "0",
+              "text": "the atomic number of an isotope of uranium at distance d from the nucleus"
+            },
+            {
+              "id": "1",
+              "text": "the force of gravity between two bodies of masses m1 and m2 at distance d"
+            },
+            {
+              "id": "2",
+              "text": "the  thermal force between two masses, m1 and m2 at a distance d from the isothermal center"
+            },
+            {
+              "id": "3",
+              "text": "the focal length of a lens of diopter length m1 and m2 at distance d"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: the force of gravity between two bodies of masses m1 and m2 at distance d"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of this famous theorem?  If x, y, and z are non-zero positive integers, then x^n+y^n=z^n has no solution if n is an integer greater than two.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fermats Theorem"
+            },
+            {
+              "id": "1",
+              "text": "Gauss Theorem"
+            },
+            {
+              "id": "2",
+              "text": "Eulers Theorem"
+            },
+            {
+              "id": "3",
+              "text": "Riemanns Hypothesis"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fermats Theorem"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of orchid, discovered by Charles Darwin, is pollinated by the hawkmoth, an insect with a long tongue.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stargaser"
+            },
+            {
+              "id": "1",
+              "text": "Clivia miniata"
+            },
+            {
+              "id": "2",
+              "text": "Sundew"
+            },
+            {
+              "id": "3",
+              "text": "The Comet Orchid"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Comet Orchid"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Drosera, an insectivorous plant that grows in South Africa, South America and Australia, attracts the insects to its tips in what way?",
+          "options": [
+            {
+              "id": "0",
+              "text": "By its colours"
+            },
+            {
+              "id": "1",
+              "text": "By its smell of rotting meat"
+            },
+            {
+              "id": "2",
+              "text": "By its sweet smell"
+            },
+            {
+              "id": "3",
+              "text": "By its dew-drop appearance"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: By its dew-drop appearance"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rafflesia, a parasitic plant found in southeastern Asia, has flowers, which smell like what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sweet perfume"
+            },
+            {
+              "id": "1",
+              "text": "Mushrooms"
+            },
+            {
+              "id": "2",
+              "text": "Rotting meat"
+            },
+            {
+              "id": "3",
+              "text": "Garlic"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rotting meat"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "amazon",
+          "cape",
+          "describe",
+          "waters",
+          "orchid"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Satellite and Moon",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, field, jupiter. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This natural satellite, named after Neptunes son from the Greek Mythology, is the largest moon of the planet Neptune.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nereid"
+            },
+            {
+              "id": "1",
+              "text": "Phoebe"
+            },
+            {
+              "id": "2",
+              "text": "Triton"
+            },
+            {
+              "id": "3",
+              "text": "Proteus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Triton"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which natural satellite is Jupiters largest moon as well as the largest moon in the whole Solar System?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titan"
+            },
+            {
+              "id": "1",
+              "text": "Io"
+            },
+            {
+              "id": "2",
+              "text": "Europa"
+            },
+            {
+              "id": "3",
+              "text": "Ganymede"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ganymede"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the fifth largest moon of Jupiter, named after the nymph of Greek Mythology, who nursed young Zeus (Jupiter) with goat milk.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Galatea"
+            },
+            {
+              "id": "1",
+              "text": "Mimas"
+            },
+            {
+              "id": "2",
+              "text": "Amalthea"
+            },
+            {
+              "id": "3",
+              "text": "Himalia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Amalthea"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The German word edelweiss, referring to one of the most famous European mountain flowers, means what in English?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frost and noble"
+            },
+            {
+              "id": "1",
+              "text": "Beautiful and white"
+            },
+            {
+              "id": "2",
+              "text": "Noble and white"
+            },
+            {
+              "id": "3",
+              "text": "Frost and white"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Noble and white"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Isabella took a test that had 20 questions.  The total grade was computed by awarding 10 points for each correct answer and deducting 5 points for each incorrect answer. Isabella answered all 20 questions and received a score of 125. How many answers did Isabella get incorrect?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "8"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 5"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This asteroid, orbiting around the sun, is sometimes called the second moon of the Earth but it is not a real satellite.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vesta"
+            },
+            {
+              "id": "1",
+              "text": "Cruithne"
+            },
+            {
+              "id": "2",
+              "text": "Pallas"
+            },
+            {
+              "id": "3",
+              "text": "Davida"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cruithne"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This moon, bearing the name of the ferryman of the dead in Greek mythology, is the largest satellite of Pluto.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charon"
+            },
+            {
+              "id": "1",
+              "text": "Nereid"
+            },
+            {
+              "id": "2",
+              "text": "Proteus"
+            },
+            {
+              "id": "3",
+              "text": "Larissa"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Charon"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the largest moon of Saturn and the second largest moon in the Solar System, which was the first satellite to be discovered after the discovery of the four Galilean moons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Io"
+            },
+            {
+              "id": "1",
+              "text": "Titan"
+            },
+            {
+              "id": "2",
+              "text": "Rhea"
+            },
+            {
+              "id": "3",
+              "text": "Triton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Titan"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cupid, named after a character in a Shakespearean play and discovered in 2003 with the help of the Hubble telescope, is a small natural satellite of which planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars"
+            },
+            {
+              "id": "1",
+              "text": "Saturn"
+            },
+            {
+              "id": "2",
+              "text": "Uranus"
+            },
+            {
+              "id": "3",
+              "text": "Neptune"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Uranus"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2002 Ericsson signed a joint agreement with a vendor, whose advanced silicon technology would be used in the core components for Ericssons GPRS and 3G reference design platforms.  Who was that vendor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "IBM"
+            },
+            {
+              "id": "1",
+              "text": "Motorola"
+            },
+            {
+              "id": "2",
+              "text": "Intel"
+            },
+            {
+              "id": "3",
+              "text": "Texas Instruments"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Texas Instruments"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three dogs and two puppies weigh 128 lbs. Four dogs and three puppies weigh 176 lbs. All dogs weigh the same and all puppies weigh the same. What is the weight of two dogs and one puppy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "32 lbs"
+            },
+            {
+              "id": "1",
+              "text": "16 lbs"
+            },
+            {
+              "id": "2",
+              "text": "80 lbs"
+            },
+            {
+              "id": "3",
+              "text": "48 lbs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 80 lbs"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which natural satellite of Saturn is characterized by its irregular shape, unexplained sponge-like appearance and chaotic rotation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Janus"
+            },
+            {
+              "id": "1",
+              "text": "Miranda"
+            },
+            {
+              "id": "2",
+              "text": "Oberon"
+            },
+            {
+              "id": "3",
+              "text": "Hyperion"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hyperion"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which company demonstrated the first GPRS mobile phone with video-on-demand in March of 2002?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sony Ericsson"
+            },
+            {
+              "id": "1",
+              "text": "Motorola"
+            },
+            {
+              "id": "2",
+              "text": "Nokia"
+            },
+            {
+              "id": "3",
+              "text": "Samsung"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Samsung"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This space object, named after the mythological son of Ares (Mars), is the larger and innermost of Mars two moons, orbiting closer to its major planet than any other satellite in the Solar System.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phobos"
+            },
+            {
+              "id": "1",
+              "text": "Thebe"
+            },
+            {
+              "id": "2",
+              "text": "Elara"
+            },
+            {
+              "id": "3",
+              "text": "Deimos"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Phobos"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two planets of the Solar System, characterized by a low magnetic field, have no moons at all?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mercury and Mars"
+            },
+            {
+              "id": "1",
+              "text": "Mercury and Venus"
+            },
+            {
+              "id": "2",
+              "text": "Venus and Jupiter"
+            },
+            {
+              "id": "3",
+              "text": "Venus and Mars"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mercury and Venus"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "field",
+          "jupiter",
+          "space",
+          "edelweiss",
+          "ferryman"
+        ]
+      }
+    }
+  ]
+}

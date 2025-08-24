@@ -82,7 +82,7 @@ model Quiz {
   updatedAt        DateTime    @updatedAt @map("updated_at")
   publishedAt      DateTime?   @map("published_at")
   version          Int         @default(1)
-
+  imageUrl         String?      @db.VarChar(2048) @map("image_url")
   // Relations
   user            User             @relation(fields: [userId], references: [id], onDelete: Cascade)
   versions        QuizVersion[]

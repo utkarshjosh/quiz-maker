@@ -1,0 +1,2420 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Nickname and Quarterback",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, purr, mascot. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two football players played high school football together at Mount Carmel High School?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marvin Harrison and Jerry Rice"
+            },
+            {
+              "id": "1",
+              "text": "Tiki and Ronde Barber"
+            },
+            {
+              "id": "2",
+              "text": "Warren Sapp and Terrell Owens"
+            },
+            {
+              "id": "3",
+              "text": "Donovan McNabb and Simeon Rice"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Donovan McNabb and Simeon Rice"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the quarterback for the Baltimore Ravens when they won the super bowl in 2000?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Trent Dilfer"
+            },
+            {
+              "id": "1",
+              "text": "Tony banks"
+            },
+            {
+              "id": "2",
+              "text": "Jeff Goerge"
+            },
+            {
+              "id": "3",
+              "text": "Brooks Bollinger"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Trent Dilfer"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sir Purr is the mascot of what NFL football team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Falcons"
+            },
+            {
+              "id": "1",
+              "text": "The Panthers"
+            },
+            {
+              "id": "2",
+              "text": "The saints"
+            },
+            {
+              "id": "3",
+              "text": "The Bucks"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Panthers"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the former head coach of the Minnesota Vikings, succeeded by Brad Childress?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike Tice"
+            },
+            {
+              "id": "1",
+              "text": "John Gruden"
+            },
+            {
+              "id": "2",
+              "text": "Marty Schottenheimer"
+            },
+            {
+              "id": "3",
+              "text": "Norv Turner"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mike Tice"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does the Big East have any teams with the same nickname?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Georgetown Universitys mascot is a bulldog. What is its nickname?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wildcats"
+            },
+            {
+              "id": "1",
+              "text": "Panthers"
+            },
+            {
+              "id": "2",
+              "text": "Hoyas"
+            },
+            {
+              "id": "3",
+              "text": "Huskies"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hoyas"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is UNC Wilmingtons nickname?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tribe"
+            },
+            {
+              "id": "1",
+              "text": "Rams"
+            },
+            {
+              "id": "2",
+              "text": "Seahawks"
+            },
+            {
+              "id": "3",
+              "text": "Wolfpack"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Seahawks"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nickname of San Diego State University during 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aztecs"
+            },
+            {
+              "id": "1",
+              "text": "Indians"
+            },
+            {
+              "id": "2",
+              "text": "Warriors"
+            },
+            {
+              "id": "3",
+              "text": "Colonials"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Aztecs"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which quarterback in the NFL is the second cousin of Atlanta Falcons quarterback Michael Vick?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve McNair"
+            },
+            {
+              "id": "1",
+              "text": "Mike Vanderjagt"
+            },
+            {
+              "id": "2",
+              "text": "Aaron Brooks"
+            },
+            {
+              "id": "3",
+              "text": "T. J. Houshmanzadah"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Aaron Brooks"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the colourful celebration, conducted by the of the offensive players of the St. Louis Rams in the end zone, after scoring a touchdown?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Bounce"
+            },
+            {
+              "id": "1",
+              "text": "The Bob and Weave"
+            },
+            {
+              "id": "2",
+              "text": "The Ram Wiggle"
+            },
+            {
+              "id": "3",
+              "text": "The Circle Jerk"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Bob and Weave"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nickname of Oregon State University in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ducks"
+            },
+            {
+              "id": "1",
+              "text": "Badgers"
+            },
+            {
+              "id": "2",
+              "text": "Beavers"
+            },
+            {
+              "id": "3",
+              "text": "Birds"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Beavers"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these college-nickname pairs from 2006 is wrong?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Southern Illinois - Salukis"
+            },
+            {
+              "id": "1",
+              "text": "Sacramento State - Hornets"
+            },
+            {
+              "id": "2",
+              "text": "University of Denver - Rams"
+            },
+            {
+              "id": "3",
+              "text": "Syracuse - Orange(men)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: University of Denver - Rams"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At University High School in Waco, Texas, during his first game, football player LaDanian Tomlinson, nicknamed LT, scored how many touchdowns?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7"
+            },
+            {
+              "id": "1",
+              "text": "0"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 5"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the nickname of the University of Cincinnati?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bearcats"
+            },
+            {
+              "id": "1",
+              "text": "Tigers"
+            },
+            {
+              "id": "2",
+              "text": "Wildcats"
+            },
+            {
+              "id": "3",
+              "text": "Bearpack"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bearcats"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which football tight end said Im a f*****g soldier. in a an interview, after a game against the University of Tennessee?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kellen WInslow Jr"
+            },
+            {
+              "id": "1",
+              "text": "Terrell Owens"
+            },
+            {
+              "id": "2",
+              "text": "Randy Moss"
+            },
+            {
+              "id": "3",
+              "text": "Jeremy Shockey"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kellen WInslow Jr"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "purr",
+          "mascot",
+          "players",
+          "coach",
+          "waco"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Player and Career",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, expos, phillies. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Having played only one season in the majors with the 1959 Phillies, this player, popularly known as Sparky, later made his mark as a manager.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John McGraw"
+            },
+            {
+              "id": "1",
+              "text": "Earl Weaver"
+            },
+            {
+              "id": "2",
+              "text": "Walter Alston"
+            },
+            {
+              "id": "3",
+              "text": "George Anderson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: George Anderson"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these pitchers threw 7 no hitters during his career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nolan Ryan"
+            },
+            {
+              "id": "1",
+              "text": "Sandy Koufax"
+            },
+            {
+              "id": "2",
+              "text": "J.R. Richard"
+            },
+            {
+              "id": "3",
+              "text": "Bob Moose"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nolan Ryan"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player, known as the Iron Horse, spent seventeen seasons with the New York Yankees hitting 493 home runs. When he retired, he brought the crowd at Yankee Stadium to tears by saying he was the luckiest man on the face of the earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Babe Ruth"
+            },
+            {
+              "id": "1",
+              "text": "Hank Bauer"
+            },
+            {
+              "id": "2",
+              "text": "Joe DiMaggio"
+            },
+            {
+              "id": "3",
+              "text": "Lou Gehrig"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lou Gehrig"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Old Timer, known as Dizzy Dean, pitched twelve years for the St. Louis Cardinals, Chicago Cubs, and St. Louis Browns.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peter Paul"
+            },
+            {
+              "id": "1",
+              "text": "Marvin Edward"
+            },
+            {
+              "id": "2",
+              "text": "Henry Haymaker"
+            },
+            {
+              "id": "3",
+              "text": "Jay Hanna"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jay Hanna"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Old Aches and Pains played twenty years for the Chicago White Sox, winning batting titles in 1936 and 1943. What is his real name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luis Aparicio"
+            },
+            {
+              "id": "1",
+              "text": "Luke Appling"
+            },
+            {
+              "id": "2",
+              "text": "Frank Malzone"
+            },
+            {
+              "id": "3",
+              "text": "Tony Lazzeri"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Luke Appling"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Drafted by the Montreal Expos in 1972, The Kid won three Gold Gloves as a catcher. He finished his career with 324 home runs and was elected to the Hall of Fame in 2003. What is his real name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gary Carter"
+            },
+            {
+              "id": "1",
+              "text": "Lance Parrish"
+            },
+            {
+              "id": "2",
+              "text": "Ted Simmons"
+            },
+            {
+              "id": "3",
+              "text": "Carlton Fisk"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Gary Carter"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which old timer struck out a total of 4 times in 1920 while playing with the Indians?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Foxx"
+            },
+            {
+              "id": "1",
+              "text": "Billy Martin"
+            },
+            {
+              "id": "2",
+              "text": "Joe Sewell"
+            },
+            {
+              "id": "3",
+              "text": "Don Mattingly"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Sewell"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player was caught stealing a total of 335 bases in his major league career.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rickey Henderson"
+            },
+            {
+              "id": "1",
+              "text": "Maury WIlls"
+            },
+            {
+              "id": "2",
+              "text": "Joe Morgan"
+            },
+            {
+              "id": "3",
+              "text": "Lou Brock"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rickey Henderson"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This classy left-hander, known as Lefty, was a ten-time All-Star and winner of four Cy Young Awards.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Randy Jones"
+            },
+            {
+              "id": "1",
+              "text": "Whitey Ford"
+            },
+            {
+              "id": "2",
+              "text": "Steve Carlton"
+            },
+            {
+              "id": "3",
+              "text": "Warren Spahn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Steve Carlton"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player, nicknamed Mr. Cub, spent nineteen seasons in the Windy City with the Chicago Cubs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sammy Sosa"
+            },
+            {
+              "id": "1",
+              "text": "Ferguson Jenkins"
+            },
+            {
+              "id": "2",
+              "text": "Ernie Banks"
+            },
+            {
+              "id": "3",
+              "text": "Ryne Sandberg"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ernie Banks"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player, known as The Lip, began his career with the Yankees in 1925 and finished it with the St. Louis Browns in 1945. He is a three time All-Star, elected to the Hall of Fame in 1994.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Durham"
+            },
+            {
+              "id": "1",
+              "text": "Frank Crosetti"
+            },
+            {
+              "id": "2",
+              "text": "Leo Durocher"
+            },
+            {
+              "id": "3",
+              "text": "Norm Siebern"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Leo Durocher"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player, nicknamed Baby Bull, made his debut on April 15, 1958 hitting a home run against the L.A. Dodgers. He hit 379 home runs over a seventeen-year career and was the national League MVP in 1967.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Orlando Cepeda"
+            },
+            {
+              "id": "1",
+              "text": "Bobby Bonds"
+            },
+            {
+              "id": "2",
+              "text": "Danny Tartabull"
+            },
+            {
+              "id": "3",
+              "text": "Wes Westrum"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Orlando Cepeda"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This batter was hit by a pitch 50 times in a season in 1971.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dock Ellis"
+            },
+            {
+              "id": "1",
+              "text": "Gary Carter"
+            },
+            {
+              "id": "2",
+              "text": "Ron Hunt"
+            },
+            {
+              "id": "3",
+              "text": "Reggie Jackson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ron Hunt"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This diminutive second baseman, known as Nellie Fox, led the Chicago White Sox into the World Series in 1959 against the Dodgers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jacob Nelson"
+            },
+            {
+              "id": "1",
+              "text": "Samuel Sheridan"
+            },
+            {
+              "id": "2",
+              "text": "Mordecai Abraham"
+            },
+            {
+              "id": "3",
+              "text": "Frank James"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jacob Nelson"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What player stole home a record 54 times while playing with the Tigers and As?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Morgan"
+            },
+            {
+              "id": "1",
+              "text": "Al Kaline"
+            },
+            {
+              "id": "2",
+              "text": "John Roseboro"
+            },
+            {
+              "id": "3",
+              "text": "Ty Cobb"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ty Cobb"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "expos",
+          "phillies",
+          "hitters",
+          "left-hander",
+          "aches"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Team and Career",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, arsenals, carter. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1999s match for the FA Cup between Arsenal and Manchester United, who misses the penalty during the first period of extra-time, and who scores later on, thus deciding the outcome of the match?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kanu - Ryan Giggs"
+            },
+            {
+              "id": "1",
+              "text": "Bergkamp - Ryan Giggs"
+            },
+            {
+              "id": "2",
+              "text": "Bergkamp - Beckham"
+            },
+            {
+              "id": "3",
+              "text": "Henry - Ryan Giggs"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bergkamp - Ryan Giggs"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2003-04, who became the new owner of Chelsea?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Not listed here as an option"
+            },
+            {
+              "id": "1",
+              "text": "Roman Abramovich"
+            },
+            {
+              "id": "2",
+              "text": "Malcolm Glaizer"
+            },
+            {
+              "id": "3",
+              "text": "Ivan Abramovich"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Roman Abramovich"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What trophie did Chelsea win in 2000?",
+          "options": [
+            {
+              "id": "0",
+              "text": "League Cup"
+            },
+            {
+              "id": "1",
+              "text": "FA Cup"
+            },
+            {
+              "id": "2",
+              "text": "Premiership Cup"
+            },
+            {
+              "id": "3",
+              "text": "UEFA Cup"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: FA Cup"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which pitcher recorded 511 wins while pitching in the big leagues?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Chesbro"
+            },
+            {
+              "id": "1",
+              "text": "Cy Young"
+            },
+            {
+              "id": "2",
+              "text": "Walter Johnson"
+            },
+            {
+              "id": "3",
+              "text": "Sandy Koufax"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cy Young"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many premiership titles did  Liverpool win during the period of 1992-2004?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "0"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 0"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During which season was the number of teams in the English Premiership reduced to 20?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1997-98"
+            },
+            {
+              "id": "1",
+              "text": "1995-96"
+            },
+            {
+              "id": "2",
+              "text": "1993-94"
+            },
+            {
+              "id": "3",
+              "text": "1992-93"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1995-96"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player was a feared homerun hitter during his major league playing career. He started his major league career in Milwaukee Braves and ended it in Milwaukee Brewers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hank Aaron"
+            },
+            {
+              "id": "1",
+              "text": "Willie Mays"
+            },
+            {
+              "id": "2",
+              "text": "Barry Bonds"
+            },
+            {
+              "id": "3",
+              "text": "Babe Ruth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hank Aaron"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the 2004-2005 season, which team ended Arsenals streak of 49 matches without defeat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fulham"
+            },
+            {
+              "id": "1",
+              "text": "Manchester United"
+            },
+            {
+              "id": "2",
+              "text": "Liverpool"
+            },
+            {
+              "id": "3",
+              "text": "Chelsea"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Manchester United"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won Treble in 1999?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Manchester United"
+            },
+            {
+              "id": "1",
+              "text": "Arsenal"
+            },
+            {
+              "id": "2",
+              "text": "Chelsea"
+            },
+            {
+              "id": "3",
+              "text": "Liverpool"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Manchester United"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these players collected over 200 hits ten times during his career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Willie Keeler"
+            },
+            {
+              "id": "1",
+              "text": "Pete Rose"
+            },
+            {
+              "id": "2",
+              "text": "Wade Boggs"
+            },
+            {
+              "id": "3",
+              "text": "Ty Cobb"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pete Rose"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Yankee slugger hit a total of 23 Grand Slams in his career.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mickey Mantle"
+            },
+            {
+              "id": "1",
+              "text": "Lou Gehrig"
+            },
+            {
+              "id": "2",
+              "text": "Yogi Berra"
+            },
+            {
+              "id": "3",
+              "text": "Reggie Jackson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lou Gehrig"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team wins the English Premiership in the 1994-95 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Manchester United"
+            },
+            {
+              "id": "1",
+              "text": "Newcastle"
+            },
+            {
+              "id": "2",
+              "text": "Blackburn"
+            },
+            {
+              "id": "3",
+              "text": "Arsenal"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Blackburn"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "With which team did Joe Carter start his career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cubs"
+            },
+            {
+              "id": "1",
+              "text": "Indians"
+            },
+            {
+              "id": "2",
+              "text": "Padres"
+            },
+            {
+              "id": "3",
+              "text": "Blue Jays"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cubs"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During which season did Arsenal become Englands Champion for the first time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1930-31"
+            },
+            {
+              "id": "1",
+              "text": "1970-71"
+            },
+            {
+              "id": "2",
+              "text": "1932-33"
+            },
+            {
+              "id": "3",
+              "text": "1942-43"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1930-31"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Known as Charlie Hustle, this player played with Cincinnati, Montreal, and Philadelphia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tony Perez"
+            },
+            {
+              "id": "1",
+              "text": "Hank Aaron"
+            },
+            {
+              "id": "2",
+              "text": "Gary Templeton"
+            },
+            {
+              "id": "3",
+              "text": "Pete Rose"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pete Rose"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "arsenals",
+          "carter",
+          "slugger",
+          "players",
+          "charlie"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Joe and Second Baseman",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, phillies, yankees. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Joe was the youngest player to pitch during the 20th century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nuxhall"
+            },
+            {
+              "id": "1",
+              "text": "Cronin"
+            },
+            {
+              "id": "2",
+              "text": "Torre"
+            },
+            {
+              "id": "3",
+              "text": "Mauer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nuxhall"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Has Joe Girardi ever won the Manager of the Year Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Joe roamed the outfield during the Oakland As heyday of the early 1970s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rudi"
+            },
+            {
+              "id": "1",
+              "text": "Girardi"
+            },
+            {
+              "id": "2",
+              "text": "Morgan"
+            },
+            {
+              "id": "3",
+              "text": "Carter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rudi"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This second baseman had a batting average of .424 in 1924 while playing with the St. Louis Cardinals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ryne Sandberg"
+            },
+            {
+              "id": "1",
+              "text": "Ty Cobb"
+            },
+            {
+              "id": "2",
+              "text": "Tony Lazzeri"
+            },
+            {
+              "id": "3",
+              "text": "Rogers Hornsby"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rogers Hornsby"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This second baseman hit a game winning home run in the 1960 world series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pete Rose"
+            },
+            {
+              "id": "1",
+              "text": "Jackie Robinson"
+            },
+            {
+              "id": "2",
+              "text": "Joe Morgan"
+            },
+            {
+              "id": "3",
+              "text": "Bill Mazeroski"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Mazeroski"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This second baseman, elected to the Hall of Fame in 1989 by the Veterans Committee, played with Stan Musial, another Hall of Famer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Schoendienst"
+            },
+            {
+              "id": "1",
+              "text": "Joe Morgan"
+            },
+            {
+              "id": "2",
+              "text": "Ryne Sandberg"
+            },
+            {
+              "id": "3",
+              "text": "Rod Carew"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Red Schoendienst"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This second baseman played for the Twins and the Angels during his career.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny Evers"
+            },
+            {
+              "id": "1",
+              "text": "Joe Morgan"
+            },
+            {
+              "id": "2",
+              "text": "Rod Carew"
+            },
+            {
+              "id": "3",
+              "text": "Bid McPhee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rod Carew"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Joe played primarily first base for the Yankees starting in 1962.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pepitone"
+            },
+            {
+              "id": "1",
+              "text": "Skowron"
+            },
+            {
+              "id": "2",
+              "text": "Jacoby"
+            },
+            {
+              "id": "3",
+              "text": "Jeter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pepitone"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This second baseman was in the middle of the Tinker to _______ to Chance double play combination.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Mazeroski"
+            },
+            {
+              "id": "1",
+              "text": "Johnny Evers"
+            },
+            {
+              "id": "2",
+              "text": "Frank Grant"
+            },
+            {
+              "id": "3",
+              "text": "Nap Lajoie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Johnny Evers"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe Morgan started his career with the Houston Colt .45s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe Torres brother Frank played with the Braves and the Phillies.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe DiMaggio had two brothers who played in the baseball major leagues. One was Dom or Dominick. What was the name of his other brother?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vance"
+            },
+            {
+              "id": "1",
+              "text": "Vince"
+            },
+            {
+              "id": "2",
+              "text": "Jim"
+            },
+            {
+              "id": "3",
+              "text": "Denny"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vince"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which second baseman was known for breaking the color barrier?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nellie Fox"
+            },
+            {
+              "id": "1",
+              "text": "Joe Morgan"
+            },
+            {
+              "id": "2",
+              "text": "Johnny Evers"
+            },
+            {
+              "id": "3",
+              "text": "Jackie Robinson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jackie Robinson"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe Garagiola signed with the St. Louis Cardinals at the age of 16.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many seasons did Joe Jackson play in the baseball major leagues?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14"
+            },
+            {
+              "id": "1",
+              "text": "15"
+            },
+            {
+              "id": "2",
+              "text": "13"
+            },
+            {
+              "id": "3",
+              "text": "16"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 13"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "phillies",
+          "yankees",
+          "average",
+          "jackson",
+          "angels"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Larry Bird and Season",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, cubs, bird. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird graduated from Spring Valley High School.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two NBA teams had the two best records in 1960-1961?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boston Celtics and St Louis Hawks"
+            },
+            {
+              "id": "1",
+              "text": "Los Angeles Lakers and Boston Celtics"
+            },
+            {
+              "id": "2",
+              "text": "New York Knicks and St Louis Hawks"
+            },
+            {
+              "id": "3",
+              "text": "Philly Warriors and Detriot Pistons"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Boston Celtics and St Louis Hawks"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird graduated from Indiana State in 1978.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two teams had the best NBA records in the 1997-1998 Season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Antonio and L.A. Lakers"
+            },
+            {
+              "id": "1",
+              "text": "Chicago Bulls and Utah jazz"
+            },
+            {
+              "id": "2",
+              "text": "Houston Rockets and Seattle Supersonics"
+            },
+            {
+              "id": "3",
+              "text": "New York Knicks and Miami Heat"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago Bulls and Utah jazz"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This second baseman played for the Chicago Cubs in the 1980s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ryne Sandberg"
+            },
+            {
+              "id": "1",
+              "text": "Tony Lazzeri"
+            },
+            {
+              "id": "2",
+              "text": "Frankie Frisch"
+            },
+            {
+              "id": "3",
+              "text": "Frank Grant"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ryne Sandberg"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which second baseman was known as the silent captain of the Red Sox?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bobby Doerr"
+            },
+            {
+              "id": "1",
+              "text": "Bid McPhee"
+            },
+            {
+              "id": "2",
+              "text": "Joe Morgan"
+            },
+            {
+              "id": "3",
+              "text": "Johnny Evers"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bobby Doerr"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Los Angeles Clippers (known as the San Diego Clippers until 1984) had the worst record of the 1981-1982 NBA season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird was born in French Lick, Indiana.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What expansion team finished with the NBA worst win/loss record during their first season in 1995\u201396?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vancouver Grizzlies"
+            },
+            {
+              "id": "1",
+              "text": "Charlotte Bobcats"
+            },
+            {
+              "id": "2",
+              "text": "Toronto Raptors"
+            },
+            {
+              "id": "3",
+              "text": "Orlando Magic"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vancouver Grizzlies"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This second baseman played for the Cincinnati Reds with Pete Rose, Johnny Bench, and Tony Perez.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Mazeroski"
+            },
+            {
+              "id": "1",
+              "text": "Frank Grant"
+            },
+            {
+              "id": "2",
+              "text": "Ryne Sandberg"
+            },
+            {
+              "id": "3",
+              "text": "Joe Morgan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Morgan"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird was born on December 7, 1956.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This second baseman was part of the New York Yankees murderers row.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rod Carew"
+            },
+            {
+              "id": "1",
+              "text": "Tony Lazzeri"
+            },
+            {
+              "id": "2",
+              "text": "Jackie Robinson"
+            },
+            {
+              "id": "3",
+              "text": "Joe Morgan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tony Lazzeri"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1996-1997 season, which team broke the best record for an NBA season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit Pistons"
+            },
+            {
+              "id": "1",
+              "text": "Boston Celtics"
+            },
+            {
+              "id": "2",
+              "text": "San Antonio Spurs"
+            },
+            {
+              "id": "3",
+              "text": "Chicago Bulls"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago Bulls"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The San Diego Clippers, who moved to Los Angeles, California and changed their name to the Los Angeles Clippers, finished 1984 with what record?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20-62"
+            },
+            {
+              "id": "1",
+              "text": "31-51"
+            },
+            {
+              "id": "2",
+              "text": "25-57"
+            },
+            {
+              "id": "3",
+              "text": "15-67"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 31-51"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the 1970-1971 season, which Eastern Conference team had the best record and got the Most Valuable Player Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Milwaukee Bucks"
+            },
+            {
+              "id": "1",
+              "text": "NY Knicks"
+            },
+            {
+              "id": "2",
+              "text": "Boston Celtics"
+            },
+            {
+              "id": "3",
+              "text": "Philadelphia 76ers"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Milwaukee Bucks"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "cubs",
+          "bird",
+          "part",
+          "conference",
+          "spring"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Larry Bird and Shortstop",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, rookie, college. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player, known as Chocolate Thunder, was the first to jump right from high school to the NBA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marvin Webster"
+            },
+            {
+              "id": "1",
+              "text": "Darryl Dawkins"
+            },
+            {
+              "id": "2",
+              "text": "Moses Malone"
+            },
+            {
+              "id": "3",
+              "text": "Bob McAdoo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Darryl Dawkins"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird has a street named after him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This college basketball coach won seven straight National Championships between 1967 and 1973. Four times his teams went 30 - 0 and, during a stretch between 1971 and 1974, his team won 88 straight games. He was known as The Wizard of Westwood.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dean Smith"
+            },
+            {
+              "id": "1",
+              "text": "Bobby Knight"
+            },
+            {
+              "id": "2",
+              "text": "John Wooden"
+            },
+            {
+              "id": "3",
+              "text": "Larry Brown"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Wooden"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When keeping a baseball boxscore, which number signifies the shortstop?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "6"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 6"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe Tinker was the shortstop in the famous combination Tinkers to Evers to Chance.\u201c What was the name of the famous poem that immortalized these three players?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Baseballs Sad Lexicon"
+            },
+            {
+              "id": "1",
+              "text": "Casey at the Bat"
+            },
+            {
+              "id": "2",
+              "text": "The Deadly Trio"
+            },
+            {
+              "id": "3",
+              "text": "Bad Days in Chi-town"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Baseballs Sad Lexicon"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This shortstop had a great year in 1962 winning his second consecutive Gold Glove, the NL MVP Award, and hitting a homerun both rightly and lefty in one game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ernie Banks"
+            },
+            {
+              "id": "1",
+              "text": "Alvin Dark"
+            },
+            {
+              "id": "2",
+              "text": "Maury Wills"
+            },
+            {
+              "id": "3",
+              "text": "Dick Groat"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Maury Wills"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird was voted thirteen times in the All-Star team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which player broke the record for the most home runs by a shortstop in one season in 2002?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ernie Banks"
+            },
+            {
+              "id": "1",
+              "text": "Miguel Tejada"
+            },
+            {
+              "id": "2",
+              "text": "Derek Jeter"
+            },
+            {
+              "id": "3",
+              "text": "Alex Rodriguez"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alex Rodriguez"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born in 1931 in Dallas, this player was a fan favorite as well as a Hall of Famer. He wore #14 and played his whole career for one team, a team whose inability to win had nothing to do with its star shortstops ability.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luis Aparicio"
+            },
+            {
+              "id": "1",
+              "text": "Tony Kubek"
+            },
+            {
+              "id": "2",
+              "text": "Ernie Banks"
+            },
+            {
+              "id": "3",
+              "text": "Johnny Logan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ernie Banks"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird never played in the Olympic games.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird was a first round draft choice of the Pacers in 1978.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Venezuelan was a great fielding shortstop for the White Sox. On White Sox he teamed with Nellie Fox to form a great fielding duo. Who was this famous #11?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Felix Lopez"
+            },
+            {
+              "id": "1",
+              "text": "Luis Aparicio"
+            },
+            {
+              "id": "2",
+              "text": "Chico Fernandez"
+            },
+            {
+              "id": "3",
+              "text": "Chico Carrasquel"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Luis Aparicio"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird played 13 years with the Boston Celtics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larry Bird was rookie of the year in 1980.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This baseball shortstop player donated $3.9 million to renovate the baseball field at The University of Miami and also won two Gold Gloves.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ernie Banks"
+            },
+            {
+              "id": "1",
+              "text": "Alex Rodriguiz"
+            },
+            {
+              "id": "2",
+              "text": "Miguel Tejada"
+            },
+            {
+              "id": "3",
+              "text": "Derek Jeter"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Alex Rodriguiz"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "rookie",
+          "college",
+          "bird",
+          "dallas",
+          "coach"
+        ]
+      }
+    }
+  ]
+}

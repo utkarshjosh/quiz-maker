@@ -1,0 +1,2484 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Knowledge Quiz: Term and State",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, piero, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An ambassador is the highest ranking diplomat.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these was painted by Italian painter Sandro Botticelli, nicknamed Il Botticello The Little Barrel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "\u201cThe Adoration of the Magi \u201c"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "\u201cThe Birth of Venus\u201d"
+            },
+            {
+              "id": "3",
+              "text": "\u201cPrimavera\u201d"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a consul do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A consul assists and protect the citizens of the consuls own country"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "He is a representative from one head of state to another."
+            },
+            {
+              "id": "3",
+              "text": "The duties of a consul are the same as the duties of an ambassador."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A consul assists and protect the citizens of the consuls own country"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term used in diplomacy indicates a proscription against a person entering the country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Persona grata"
+            },
+            {
+              "id": "1",
+              "text": "Damnatio memoriae"
+            },
+            {
+              "id": "2",
+              "text": "In loco parentis"
+            },
+            {
+              "id": "3",
+              "text": "Persona non grata"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Persona non grata"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term refers to a formal meeting between a head of state and another person?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Verbal note"
+            },
+            {
+              "id": "1",
+              "text": "Audience"
+            },
+            {
+              "id": "2",
+              "text": "Agreement"
+            },
+            {
+              "id": "3",
+              "text": "Diplomatic note"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Audience"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term refers to the easing of strained relations, especially in a political situation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Entente"
+            },
+            {
+              "id": "1",
+              "text": "Exequatur"
+            },
+            {
+              "id": "2",
+              "text": "Demarche"
+            },
+            {
+              "id": "3",
+              "text": "D\u00e9tente"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: D\u00e9tente"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What painter of the Parma school of the Italian Renaissance created \u201cJupiter and Io\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Allesandro Alberti"
+            },
+            {
+              "id": "1",
+              "text": "Antonello da Massina"
+            },
+            {
+              "id": "2",
+              "text": "Antonio da Correggio"
+            },
+            {
+              "id": "3",
+              "text": "Andrea Busati"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Antonio da Correggio"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Piero della Francescas painting was characterised by the use of geometric forms.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these was completed after Michelangelos death?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the Statue of David"
+            },
+            {
+              "id": "1",
+              "text": "Piet\u00e0"
+            },
+            {
+              "id": "2",
+              "text": "The ceiling of the Sistine Chapel"
+            },
+            {
+              "id": "3",
+              "text": "The dome of Saint Peter\u2019s Basillica"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The dome of Saint Peter\u2019s Basillica"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Venetian painter was called by his contemporaries The Sun Amidst Small Stars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Giovanni Bellini"
+            },
+            {
+              "id": "1",
+              "text": "Masaccio"
+            },
+            {
+              "id": "2",
+              "text": "Titian (Tiziano Vecelli)"
+            },
+            {
+              "id": "3",
+              "text": "Piero di Cosimo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Titian (Tiziano Vecelli)"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of Leonardo Da Vinci\u2019s works was a key element leading to the Holy Grail in the novel The Da Vinci Code?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Virgin of the Rocks"
+            },
+            {
+              "id": "1",
+              "text": "Mona Lisa"
+            },
+            {
+              "id": "2",
+              "text": "The Last Supper"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Last Supper"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An Apostolic Nuncio is a permanent diplomatic representative of the Vatican to a state or international organization.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Virgin Annunciate was the last work of which Italian painter from Sicily?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Antonello da Messina"
+            },
+            {
+              "id": "1",
+              "text": "Sandro Boticcelli"
+            },
+            {
+              "id": "2",
+              "text": "Giorgio Vasari"
+            },
+            {
+              "id": "3",
+              "text": "Giuseppe Arcimboldo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Antonello da Messina"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term refers to a letter of protest presented by one states foreign ministry to another state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ex gracia"
+            },
+            {
+              "id": "1",
+              "text": "bout de papier"
+            },
+            {
+              "id": "2",
+              "text": "alternat"
+            },
+            {
+              "id": "3",
+              "text": "diplomatic note"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: diplomatic note"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term indicates a group of people from one state present in another state to represent the sending state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Diplomatic accreditation"
+            },
+            {
+              "id": "2",
+              "text": "Diplomatic mission"
+            },
+            {
+              "id": "3",
+              "text": "International diplomatic organization"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Diplomatic mission"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "piero",
+          "people",
+          "easing",
+          "death",
+          "meeting"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Bing Crosby and Judy Garland",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, di, piero. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bing Crosby was an advocate for the legalization of what drug?",
+          "options": [
+            {
+              "id": "0",
+              "text": "marijuana"
+            },
+            {
+              "id": "1",
+              "text": "Cocaine"
+            },
+            {
+              "id": "2",
+              "text": "Heroin"
+            },
+            {
+              "id": "3",
+              "text": "Meth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: marijuana"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What famous Composer wrote the song White Christmas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Les Paul"
+            },
+            {
+              "id": "1",
+              "text": "John Scott Trotter"
+            },
+            {
+              "id": "2",
+              "text": "George M. Cohan"
+            },
+            {
+              "id": "3",
+              "text": "Irving Berlin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Irving Berlin"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What sport other than baseball did Bing Crosby have an interest in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "basketball"
+            },
+            {
+              "id": "1",
+              "text": "football"
+            },
+            {
+              "id": "2",
+              "text": "thoroughbred horse racing"
+            },
+            {
+              "id": "3",
+              "text": "tennis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: thoroughbred horse racing"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What university did Bing Crosby attend?",
+          "options": [
+            {
+              "id": "0",
+              "text": "College of Spokane"
+            },
+            {
+              "id": "1",
+              "text": "U of Washington St."
+            },
+            {
+              "id": "2",
+              "text": "Gonzaga"
+            },
+            {
+              "id": "3",
+              "text": "U of Washington"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gonzaga"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first movie Judy Garland didnt sing in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Till the Clouds Roll By"
+            },
+            {
+              "id": "1",
+              "text": "The Clock"
+            },
+            {
+              "id": "2",
+              "text": "The Harvey Girls"
+            },
+            {
+              "id": "3",
+              "text": "I Could Go On Singing"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Clock"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Judy Garlands parents emigrated from Europe to the US in the early 1900s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Judy Garland was always close to her mother and sisters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bing Crosby exerted an important influence in the development of what technology?",
+          "options": [
+            {
+              "id": "0",
+              "text": "magnetic tape sound recording"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "videotape recorder"
+            },
+            {
+              "id": "3",
+              "text": "pre-recording"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Piero di Lorenzo, who painted \u201cPortrait of Simonetta Vespucci\u201d, is also known by what other name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Piero della Francesca"
+            },
+            {
+              "id": "1",
+              "text": "Piero di Cosimo"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Pietro Perugino"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Piero di Cosimo"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Italian painter of the early Renaissance and died at the age of 27?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Masaccio"
+            },
+            {
+              "id": "1",
+              "text": "Marco Cardisco"
+            },
+            {
+              "id": "2",
+              "text": "Vicenzo Caccianemici"
+            },
+            {
+              "id": "3",
+              "text": "Francesco Capelli"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Masaccio"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Judy Garlands birth name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mary Jane Gumm"
+            },
+            {
+              "id": "1",
+              "text": "Frances Ethel Gumm"
+            },
+            {
+              "id": "2",
+              "text": "Dorothy Virginia Gumm"
+            },
+            {
+              "id": "3",
+              "text": "Judith Garland"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Frances Ethel Gumm"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What faith was Bing Crosby a member of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roman Catholic"
+            },
+            {
+              "id": "1",
+              "text": "Anglican"
+            },
+            {
+              "id": "2",
+              "text": "Baptist"
+            },
+            {
+              "id": "3",
+              "text": "Lutheran"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Roman Catholic"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bing Crosby was the original singer of how many Oscar-winning songs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Paolo Uccello was an Italian painter and mathematician.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the last film Judy Garland made for MGM?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Annie Get Your Gun"
+            },
+            {
+              "id": "1",
+              "text": "In the Good Old Summertime"
+            },
+            {
+              "id": "2",
+              "text": "Easter Parade"
+            },
+            {
+              "id": "3",
+              "text": "Summer Stock"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Summer Stock"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "di",
+          "piero",
+          "uccello",
+          "attend",
+          "parents"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Movie and Fatso",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, kind. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The actress who played this Star Trek character ended up marrying a co-star after becoming pregnant.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Deanna Troi"
+            },
+            {
+              "id": "1",
+              "text": "Tasha Yar"
+            },
+            {
+              "id": "2",
+              "text": "Jadzia Dax"
+            },
+            {
+              "id": "3",
+              "text": "Kira Nerys"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kira Nerys"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor from Star Trek: Deep Space Nine was in fact one of the original finalists to play the role of Capitan Benjamin Sisko in the series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Dorn who played Worf"
+            },
+            {
+              "id": "1",
+              "text": "Alexander Siddig who played Dr. Bashir"
+            },
+            {
+              "id": "2",
+              "text": "Rene Auberjonis who played Odo"
+            },
+            {
+              "id": "3",
+              "text": "Colm Meany who played Miles OBrien"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Alexander Siddig who played Dr. Bashir"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of a store do the DiNapolis have in the neighborhood in the movie Fatso?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a butcher shop"
+            },
+            {
+              "id": "1",
+              "text": "a card store"
+            },
+            {
+              "id": "2",
+              "text": "a clothing store"
+            },
+            {
+              "id": "3",
+              "text": "a coffee shop"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: a card store"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gene Roddenberry was married to this actress who also starred in the Star Trek series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kate Mulgrew"
+            },
+            {
+              "id": "1",
+              "text": "Gates McFadden"
+            },
+            {
+              "id": "2",
+              "text": "Majel Barrett"
+            },
+            {
+              "id": "3",
+              "text": "Nichelle Nichols"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Majel Barrett"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Prior to creating Star Trek: The Next Generation, Gene Roddenberry held this occupation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Salesman"
+            },
+            {
+              "id": "1",
+              "text": "Police Officer"
+            },
+            {
+              "id": "2",
+              "text": "Accountant"
+            },
+            {
+              "id": "3",
+              "text": "Actor"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Police Officer"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the place where Dom used to buy his fruit in the movie Fatso?",
+          "options": [
+            {
+              "id": "0",
+              "text": "DiMartinos"
+            },
+            {
+              "id": "1",
+              "text": "Angelos"
+            },
+            {
+              "id": "2",
+              "text": "Balduccis"
+            },
+            {
+              "id": "3",
+              "text": "Lagalantes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Balduccis"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bing Crosby is in the World Golf Hall of Fame.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The person who played this Star Trek character had several recurring appearances on the sitcom Night Court as a down on his luck criminal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Riker"
+            },
+            {
+              "id": "1",
+              "text": "Gordi La Forge"
+            },
+            {
+              "id": "2",
+              "text": "Data"
+            },
+            {
+              "id": "3",
+              "text": "Quark"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Data"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Fatso, Dominicks sister sends him out to go get dinner. Upon returning home, he decides to binge eat and devours the whole order. What food did he eat in the car on the way home?",
+          "options": [
+            {
+              "id": "0",
+              "text": "two whole trays of lasagna"
+            },
+            {
+              "id": "1",
+              "text": "Kentucky Fried Chicken"
+            },
+            {
+              "id": "2",
+              "text": "three pizza pies"
+            },
+            {
+              "id": "3",
+              "text": "Chinese food"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chinese food"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the woman who frequents the stationary and gives Dom tips on dieting in the movie Fatso?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mrs. DeSero"
+            },
+            {
+              "id": "1",
+              "text": "Mrs. Schwartz"
+            },
+            {
+              "id": "2",
+              "text": "Mrs. Esposito"
+            },
+            {
+              "id": "3",
+              "text": "Mrs. Goodman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mrs. Goodman"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The actor who played this Star Trek character also starred on the television series CHiPS in the late 1970s - early 1980s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "James T. Kirk"
+            },
+            {
+              "id": "1",
+              "text": "Chief Miles OBrien"
+            },
+            {
+              "id": "2",
+              "text": "Q"
+            },
+            {
+              "id": "3",
+              "text": "Worf"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Worf"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The actor who played this Star Trek character also starred as Governor Gatlings Chief of Staff on the television series Benson.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Odo"
+            },
+            {
+              "id": "1",
+              "text": "Tuvok"
+            },
+            {
+              "id": "2",
+              "text": "Gordi LaForge"
+            },
+            {
+              "id": "3",
+              "text": "Miles OBrien"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Odo"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many kids does Dom end up having in the movie Fatso?",
+          "options": [
+            {
+              "id": "0",
+              "text": "two"
+            },
+            {
+              "id": "1",
+              "text": "seven"
+            },
+            {
+              "id": "2",
+              "text": "three"
+            },
+            {
+              "id": "3",
+              "text": "five"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: five"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The actress who played this Star Trek character became such good friends with castmates during her tenure on the Star Trek series that two of them were groomsmen at her wedding.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ezri Dax"
+            },
+            {
+              "id": "1",
+              "text": "Tasha Yar"
+            },
+            {
+              "id": "2",
+              "text": "Ro Laren"
+            },
+            {
+              "id": "3",
+              "text": "Deanna Troi"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Deanna Troi"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The real life grandfather of the person who played this Star Trek character was a famous actor / musician from 1926 until his death in 1977.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tasha Yar"
+            },
+            {
+              "id": "1",
+              "text": "Dr Beverly Crusher"
+            },
+            {
+              "id": "2",
+              "text": "Deanna Troi"
+            },
+            {
+              "id": "3",
+              "text": "Jadzia Dax"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tasha Yar"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "kind",
+          "trek",
+          "world",
+          "star"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Witches and Witch",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, dorothys, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What mythical Christian patriarch was believed to have ruled over a Christian nation lost amidst the Muslims and pagans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Prester John"
+            },
+            {
+              "id": "2",
+              "text": "Pope Joan"
+            },
+            {
+              "id": "3",
+              "text": "King Arthur"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Prester John"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress portrays Abigail Williams in the movie The Crucible which is centred around the Salem Witch Trials of 1692?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kate Winslet"
+            },
+            {
+              "id": "1",
+              "text": "Gwyneth Paltrow"
+            },
+            {
+              "id": "2",
+              "text": "Winona Ryder"
+            },
+            {
+              "id": "3",
+              "text": "Neve Campbell"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Winona Ryder"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Water of Life or Fountain of Youth has been associated with which of the following locations?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Florida"
+            },
+            {
+              "id": "1",
+              "text": "the mythical land of Bimini"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "the land of the Ethiopians"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what classic fairy tale does a cannibalistic witch live in a house of candy and cake?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Tom Thumb"
+            },
+            {
+              "id": "2",
+              "text": "Snow White"
+            },
+            {
+              "id": "3",
+              "text": "Hansel and Gretel"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hansel and Gretel"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress is NOT correctly matched with the witch she portrayed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phoebe Halliwell - Shannen Doherty"
+            },
+            {
+              "id": "1",
+              "text": "Sabrina Spellman - Melissa Joan Hart"
+            },
+            {
+              "id": "2",
+              "text": "Samantha Stephens- Elizabeth Montgomery"
+            },
+            {
+              "id": "3",
+              "text": "The Wicked Witch of the West - Margaret Hamilton"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Phoebe Halliwell - Shannen Doherty"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Christian tradition, the Holy Grail, used by Jesus at the Last Supper, is most often described as which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Plate"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Cup"
+            },
+            {
+              "id": "3",
+              "text": "Dish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who penned the childrens book The Witches in which an organization of witches aims to destroy children?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rudyard Kipling"
+            },
+            {
+              "id": "1",
+              "text": "Roald Dahl"
+            },
+            {
+              "id": "2",
+              "text": "C. S. Lewis"
+            },
+            {
+              "id": "3",
+              "text": "A. A. Milne"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Roald Dahl"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actress had a recurring role as the character Rosalind Shays on the television series L.A. Law.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nicole de Boer"
+            },
+            {
+              "id": "1",
+              "text": "Diana Muldaur"
+            },
+            {
+              "id": "2",
+              "text": "Gates McFadden"
+            },
+            {
+              "id": "3",
+              "text": "Marina Sirtis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Diana Muldaur"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these was believed to be a talented woman who disguised herself as a man?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pope Joan"
+            },
+            {
+              "id": "1",
+              "text": "The Wandering Jew"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Mary Magdalene"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pope Joan"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What witch is killed when Dorothys house lands on her in the 1939 movie The Wizard of Oz?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Glinda"
+            },
+            {
+              "id": "1",
+              "text": "The Wicked Witch of the East"
+            },
+            {
+              "id": "2",
+              "text": "The Wicked Witch of the South"
+            },
+            {
+              "id": "3",
+              "text": "The Wicked Witch of the West"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Wicked Witch of the East"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tempted by the White Witchs promise of power, this character betrays his siblings in the novel The Lion, the Witch and the Wardrobe.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edmund Pevensie"
+            },
+            {
+              "id": "1",
+              "text": "Lucy Pevensie"
+            },
+            {
+              "id": "2",
+              "text": "Peter Pevensie"
+            },
+            {
+              "id": "3",
+              "text": "Susan Pevensie"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Edmund Pevensie"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What character in the play Macbeth is informed by the three witches that he will father a line of kings but he himself will not become a king?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Duncan"
+            },
+            {
+              "id": "1",
+              "text": "Banquo"
+            },
+            {
+              "id": "2",
+              "text": "Macduff"
+            },
+            {
+              "id": "3",
+              "text": "Macbeth"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Banquo"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of the secret book which Prue, Piper and Phoebe Halliwell find in the TV series Charmed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Enchanted Book"
+            },
+            {
+              "id": "1",
+              "text": "The Book of Shadows"
+            },
+            {
+              "id": "2",
+              "text": "The Mystic Book"
+            },
+            {
+              "id": "3",
+              "text": "The Book of Potions"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Book of Shadows"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the author of the novel The Witches of Eastwick which follows three witches who acquire their powers after leaving or being left by their husbands.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nathaniel Hawthorn"
+            },
+            {
+              "id": "1",
+              "text": "Mark Twain"
+            },
+            {
+              "id": "2",
+              "text": "John Updike"
+            },
+            {
+              "id": "3",
+              "text": "Washington Irving"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Updike"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1996 horror movie starring Neve Campbell centers around four teenage girls who pursue witchcraft?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Craft"
+            },
+            {
+              "id": "1",
+              "text": "Suspiria"
+            },
+            {
+              "id": "2",
+              "text": "The Witches"
+            },
+            {
+              "id": "3",
+              "text": "The Witches of Eastwick"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Craft"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "dorothys",
+          "title",
+          "patriarch",
+          "grail",
+          "woman"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "History Quiz: Film and Movie",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, leader, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What name is given to a variety of fictional and factual events of 1212 which are related to the conversion of Muslims in the Holy Land to Christianity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Crusade of Nuns"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "The Children\u2019s Crusade"
+            },
+            {
+              "id": "3",
+              "text": "The Crusade of Templars"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Children\u2019s Crusade"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Robin Hoods group of fellow outlaws referred to as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Merry Men"
+            },
+            {
+              "id": "1",
+              "text": "The Merry Pranksters"
+            },
+            {
+              "id": "2",
+              "text": "The Angry Men"
+            },
+            {
+              "id": "3",
+              "text": "The Merry Saviours"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Merry Men"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American epic romance and disaster film was directed by James Cameron and stars Leonardo Di Caprio.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Beach"
+            },
+            {
+              "id": "1",
+              "text": "Titanic"
+            },
+            {
+              "id": "2",
+              "text": "The Man in the Iron Mask"
+            },
+            {
+              "id": "3",
+              "text": "Romeo + Juliet"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Titanic"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Wandering Jew according to medieval Christian folklore?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a Jew who taunted Jesus on the way to the Crucifixion"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "the doorman at Pontius Pilate\u2019s estate"
+            },
+            {
+              "id": "3",
+              "text": "a tradesman"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This film tells the story of a skillful cheque forger named Frank Abagnale Jr.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Face/Off"
+            },
+            {
+              "id": "1",
+              "text": "Catch Me If You Can"
+            },
+            {
+              "id": "2",
+              "text": "Speed"
+            },
+            {
+              "id": "3",
+              "text": "The Aviator"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Catch Me If You Can"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What were incubuses and succubuses according to mythical traditions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Male and female demons"
+            },
+            {
+              "id": "2",
+              "text": "Male and female werewolves"
+            },
+            {
+              "id": "3",
+              "text": "Male and female angels"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Male and female demons"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which movie set in World War II focuses on two snipers trying to kill each other during the Battle of Stalingrad?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Attack!"
+            },
+            {
+              "id": "1",
+              "text": "Across the Pacific"
+            },
+            {
+              "id": "2",
+              "text": "Air Force"
+            },
+            {
+              "id": "3",
+              "text": "Enemy at the Gates"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Enemy at the Gates"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which biographic film stars Jamie Foxx in the title role?",
+          "options": [
+            {
+              "id": "0",
+              "text": "La Bamba"
+            },
+            {
+              "id": "1",
+              "text": "Brians Song"
+            },
+            {
+              "id": "2",
+              "text": "The Buddy Holly Story"
+            },
+            {
+              "id": "3",
+              "text": "Ray"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ray"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which film directed by Martin Scorsese is based on the life of middleweight boxer Jake LaMotta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Broken Arrow"
+            },
+            {
+              "id": "1",
+              "text": "Far and Away"
+            },
+            {
+              "id": "2",
+              "text": "Raging Bull"
+            },
+            {
+              "id": "3",
+              "text": "Midnight Sting"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Raging Bull"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the legendary leader, who led the defence of Britain against the Saxon invaders.",
+          "options": [
+            {
+              "id": "0",
+              "text": "King Arthur"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Robin Hood"
+            },
+            {
+              "id": "3",
+              "text": "Joan of Ark"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: King Arthur"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What movie starring Angela Bassett  tells the life story of Tina Turner?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Whats Love Got to Do with It"
+            },
+            {
+              "id": "1",
+              "text": "Both of these"
+            },
+            {
+              "id": "2",
+              "text": "Gimme Shelter"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Whats Love Got to Do with It"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For which of these biographical drama did Will Smith receive an Academy Award nomination for Best Actor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Aviator"
+            },
+            {
+              "id": "1",
+              "text": "The Legend of Bagger Vance"
+            },
+            {
+              "id": "2",
+              "text": "The Pursuit of Happiness"
+            },
+            {
+              "id": "3",
+              "text": "Seven Pounds"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Pursuit of Happiness"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which gangster film is based on the non-fiction book Wiseguy by Nicholas Pileggi?",
+          "options": [
+            {
+              "id": "0",
+              "text": "American Gangster"
+            },
+            {
+              "id": "1",
+              "text": "Scarface"
+            },
+            {
+              "id": "2",
+              "text": "Donnie Brasco"
+            },
+            {
+              "id": "3",
+              "text": "Goodfellas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Goodfellas"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The war movie Black Hawk Down depicts the Battle of Mogadishu.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The names Reuben, Simeon and Gad are related to which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "The Lost Tribes"
+            },
+            {
+              "id": "2",
+              "text": "The Children\u2019s Crusade"
+            },
+            {
+              "id": "3",
+              "text": "The band of Robin Hood"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Lost Tribes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "leader",
+          "stars",
+          "gad",
+          "drama",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Following and Enid Blyton",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, places, drama. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What nationality was Sir Arthur Ignatius Conan Doyle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "English"
+            },
+            {
+              "id": "1",
+              "text": "Scottish"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Irish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Scottish"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of Enid Blytons first books, The Secret Island, had four sequels. Which of the following is not one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Secret of Spiggy Holes"
+            },
+            {
+              "id": "1",
+              "text": "The Secret Mountain"
+            },
+            {
+              "id": "2",
+              "text": "The Secret of Moon Castle"
+            },
+            {
+              "id": "3",
+              "text": "The Secret of Cliff Castle"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Secret of Cliff Castle"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following works did Arthur Conan Doyle author?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Adventures of Sherlock Holmes, 1892"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "The Hound of the Baskervilles, 1902"
+            },
+            {
+              "id": "3",
+              "text": "The Lost World, 1912"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The R Mystery series by Enid Blyton are so-called since each begins with R. They are also called  the Barney Mysteries after the circus boy who features in each one. Various animals appear in these stories.  Which of these is not one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Loopy the spaniel"
+            },
+            {
+              "id": "1",
+              "text": "Loony the spaniel"
+            },
+            {
+              "id": "2",
+              "text": "Hurly-Burly the chimp"
+            },
+            {
+              "id": "3",
+              "text": "Miranda the monkey"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hurly-Burly the chimp"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Adventure series of stories the four children are Philip, Dinah, Jack and Lucy-Ann. But what was the name of the fifth important character, Jacks parrot?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Polly"
+            },
+            {
+              "id": "1",
+              "text": "Kiki"
+            },
+            {
+              "id": "2",
+              "text": "Buster"
+            },
+            {
+              "id": "3",
+              "text": "Tufty"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kiki"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these was not a girls boarding school described by Enid Blyton?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Malory Towers"
+            },
+            {
+              "id": "1",
+              "text": "Red Roofs"
+            },
+            {
+              "id": "2",
+              "text": "Whyteleafe"
+            },
+            {
+              "id": "3",
+              "text": "St Clares"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Red Roofs"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these sports did Arthur Conan Doyle practise?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cricket"
+            },
+            {
+              "id": "1",
+              "text": "Golf"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Football"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Enid Blytons Mystery stories featured the Five Find-Outers and Dog. What was the real name of the boy known as Fatty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frederick Algernon Trottville"
+            },
+            {
+              "id": "1",
+              "text": "Francis Algernon Twistleton"
+            },
+            {
+              "id": "2",
+              "text": "Francis Arthur Trotter"
+            },
+            {
+              "id": "3",
+              "text": "Frederick Albert Trotter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Frederick Algernon Trottville"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did Sir Arthur Conan Doyle study medicine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Vienna"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "University of London"
+            },
+            {
+              "id": "3",
+              "text": "University of Edinburgh"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: University of Edinburgh"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1995 crime drama film stars Robert De Niroas Sam Ace Rothstein?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Casino"
+            },
+            {
+              "id": "1",
+              "text": "Everybody\u2019s Fine"
+            },
+            {
+              "id": "2",
+              "text": "Men of Honor"
+            },
+            {
+              "id": "3",
+              "text": "What Just Happened"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Casino"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not one of the Famous Five books by Enid Blyton?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Julian"
+            },
+            {
+              "id": "1",
+              "text": "Timmy"
+            },
+            {
+              "id": "2",
+              "text": "Peter"
+            },
+            {
+              "id": "3",
+              "text": "George"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Peter"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The stories of the Folk of the Faraway Tree in the Enchanted Wood are some of Enid Blytons best loved.  Which of these characters is not encountered up the tree or in one of the magic lands that drift past?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dame Washalot"
+            },
+            {
+              "id": "1",
+              "text": "Silky"
+            },
+            {
+              "id": "2",
+              "text": "Dame Smack"
+            },
+            {
+              "id": "3",
+              "text": "Saucepan  Man"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dame Smack"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Enid Blyton wrote 15 Secret Seven books. Which of the following is the title of a real Secret Seven book?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Secret Seven Investigate"
+            },
+            {
+              "id": "1",
+              "text": "Hurrah for the Secret Seven"
+            },
+            {
+              "id": "2",
+              "text": "Secret Seven Fireworks"
+            },
+            {
+              "id": "3",
+              "text": "The Secret Seven Save the Day"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Secret Seven Fireworks"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Noddy was Enid Blytons most famous creation for younger children. Which of the following is not to be found in Noddys home Toyland or Toytown?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Clockwork Mouse"
+            },
+            {
+              "id": "1",
+              "text": "Mr Plod"
+            },
+            {
+              "id": "2",
+              "text": "Little-Ears"
+            },
+            {
+              "id": "3",
+              "text": "Jumpy Dog"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jumpy Dog"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not one of the places where the Famous Five had an adventure?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Smugglers Top"
+            },
+            {
+              "id": "1",
+              "text": "Marston Moor"
+            },
+            {
+              "id": "2",
+              "text": "Billycock Hill"
+            },
+            {
+              "id": "3",
+              "text": "Kirrin Island"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Marston Moor"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "places",
+          "drama",
+          "books",
+          "following",
+          "conan"
+        ]
+      }
+    }
+  ]
+}

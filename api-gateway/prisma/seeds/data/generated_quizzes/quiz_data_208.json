@@ -1,0 +1,2444 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Wkrp and Cincinnati",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, opening, patrol. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of the Rat Patrol was a ladies man?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hitch"
+            },
+            {
+              "id": "1",
+              "text": "Moffitt"
+            },
+            {
+              "id": "2",
+              "text": "Troy"
+            },
+            {
+              "id": "3",
+              "text": "Tully"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hitch"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What word got Johnny fired on the sitcom WKRP in Cincinnati?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Booger"
+            },
+            {
+              "id": "1",
+              "text": "Boogie"
+            },
+            {
+              "id": "2",
+              "text": "Fart"
+            },
+            {
+              "id": "3",
+              "text": "Tushie"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Booger"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the TV show WKRP in Cincinnati, Carlsons wife was named Cindy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What could the Senator not explain in the opening newscast on WKRP in Cincinnati?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Life, the Universe and everything"
+            },
+            {
+              "id": "1",
+              "text": "His Super Pac"
+            },
+            {
+              "id": "2",
+              "text": "His stand on anything"
+            },
+            {
+              "id": "3",
+              "text": "His nudity"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: His nudity"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What word did all of the Rat Patrol episodes have in the title?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rat"
+            },
+            {
+              "id": "1",
+              "text": "Patrol"
+            },
+            {
+              "id": "2",
+              "text": "Affair"
+            },
+            {
+              "id": "3",
+              "text": "Raid"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Raid"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Venus real name on the TV show WKRP in Cincinnati?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Shumway"
+            },
+            {
+              "id": "1",
+              "text": "Gordon Shumway"
+            },
+            {
+              "id": "2",
+              "text": "George Sims"
+            },
+            {
+              "id": "3",
+              "text": "Gordon Sims"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gordon Sims"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did The Rat Patrol character Hitch always wear on his head?",
+          "options": [
+            {
+              "id": "0",
+              "text": "French Foreign Legion cap"
+            },
+            {
+              "id": "1",
+              "text": "A handkerchief"
+            },
+            {
+              "id": "2",
+              "text": "Green Beret cap"
+            },
+            {
+              "id": "3",
+              "text": "Nothing"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: French Foreign Legion cap"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was wrong with the house Jennifer buys on WKRP in Cincinnati?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was haunted."
+            },
+            {
+              "id": "1",
+              "text": "There were loud neighbors."
+            },
+            {
+              "id": "2",
+              "text": "It was in a bad neighborhood."
+            },
+            {
+              "id": "3",
+              "text": "It had a leaky roof."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It was haunted."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of the Evangelist with a program on WKRP is Little Ed Pembrook.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Carlson from WKRP in Cincinnati loved baseball above everything else.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What unit was Moffitt in before he joined The Rat Patrol on the self-titled TV show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Royal Tank Corps"
+            },
+            {
+              "id": "1",
+              "text": "Scots Greys"
+            },
+            {
+              "id": "2",
+              "text": "Popskis Private Army"
+            },
+            {
+              "id": "3",
+              "text": "Military anthropology unit"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Scots Greys"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Venus Flytrap working before WKRP according to the pilot episode of the self-titled show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chicago"
+            },
+            {
+              "id": "1",
+              "text": "Memphis"
+            },
+            {
+              "id": "2",
+              "text": "New York"
+            },
+            {
+              "id": "3",
+              "text": "New Orleans"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New Orleans"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the filming of an episode of The Rat Patrol, a jeep overturned on Christopher George causing serious injury.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sgt. Sam Troy was the leader of the Rat Patrol on the self-titled show. What did he always wear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Baseball Cap"
+            },
+            {
+              "id": "1",
+              "text": "A green Beret"
+            },
+            {
+              "id": "2",
+              "text": "German pith helmet"
+            },
+            {
+              "id": "3",
+              "text": "Australian bush hat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Australian bush hat"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Carlsons mother in the pilot episode of WKRP?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helen Hayes"
+            },
+            {
+              "id": "1",
+              "text": "Mildred Natwick"
+            },
+            {
+              "id": "2",
+              "text": "Sylvia Sydney"
+            },
+            {
+              "id": "3",
+              "text": "Carol Bruce"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sylvia Sydney"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "opening",
+          "patrol",
+          "tv",
+          "troy",
+          "program"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Johnny Bravo and Series",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, seagal, technique. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Rurouni Kenshin anime series, which technique did Kenshin use to defeat Ud\u014d Jin-e?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ry\u016btsuisen"
+            },
+            {
+              "id": "1",
+              "text": "Batt\u014djutsu Hiry\u016bsen"
+            },
+            {
+              "id": "2",
+              "text": "Batt\u014djutsu Sory\u016bsen"
+            },
+            {
+              "id": "3",
+              "text": "Batt\u014djutsu Sory\u016bsen ~ Ikazuchi"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Batt\u014djutsu Sory\u016bsen"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the color of Johnny Bravos eyes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blue"
+            },
+            {
+              "id": "1",
+              "text": "It is never revealed."
+            },
+            {
+              "id": "2",
+              "text": "Green"
+            },
+            {
+              "id": "3",
+              "text": "Brown"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: It is never revealed."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Johnny Bravos geeky neighbor whom he likes to call dweeb?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Master Hamma"
+            },
+            {
+              "id": "1",
+              "text": "Pops"
+            },
+            {
+              "id": "2",
+              "text": "Carl Chryniszzswics"
+            },
+            {
+              "id": "3",
+              "text": "Suzy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Carl Chryniszzswics"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the creator of Johnny Bravo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Van Partible"
+            },
+            {
+              "id": "1",
+              "text": "Robert Alvarez"
+            },
+            {
+              "id": "2",
+              "text": "John McIntyre"
+            },
+            {
+              "id": "3",
+              "text": "Rumen Petkov"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Van Partible"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character or faction from the series Rurouni Kenshin does this theme song represent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sekihoutai"
+            },
+            {
+              "id": "1",
+              "text": "Kamiya Kaoru"
+            },
+            {
+              "id": "2",
+              "text": "Sagara Sanosuke"
+            },
+            {
+              "id": "3",
+              "text": "Makimachi Misao"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sagara Sanosuke"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In an episode of Johnny Bravo it is revealed that this character is a cousin of actress Farrah Fawcett.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carl"
+            },
+            {
+              "id": "1",
+              "text": "Little Suzy"
+            },
+            {
+              "id": "2",
+              "text": "Bunny Bravo"
+            },
+            {
+              "id": "3",
+              "text": "Johnny"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Little Suzy"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Johnny Bravo episode The Perfect Gift, Johnny is trying to get some money to buy his mom this gift for Mothers Day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A pot of beautiful flowers"
+            },
+            {
+              "id": "1",
+              "text": "A pair of bunny slippers"
+            },
+            {
+              "id": "2",
+              "text": "A bottle of lemonade"
+            },
+            {
+              "id": "3",
+              "text": "Sunglasses"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A pair of bunny slippers"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Johnny Bravo is sometimes set on a date with weird creatures. Which of these has Johnny dated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vampire"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Werewolf"
+            },
+            {
+              "id": "3",
+              "text": "Antelope"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This fictional action star, who is a Steven Seagal lookalike, is Johnny Bravos idol and favorite hero.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Squint Ringo"
+            },
+            {
+              "id": "1",
+              "text": "Master Hamma"
+            },
+            {
+              "id": "2",
+              "text": "Galaxy boy"
+            },
+            {
+              "id": "3",
+              "text": "Pretty boy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Squint Ringo"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An episode of Johnny Bravo is based on this very popular movie with Leonardo DiCaprio that won 11 Academy Awards.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Aviator"
+            },
+            {
+              "id": "1",
+              "text": "Romeo + Juliet"
+            },
+            {
+              "id": "2",
+              "text": "Titanic"
+            },
+            {
+              "id": "3",
+              "text": "The Beach"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Titanic"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Johnny Bravo say to his clone when meeting him in one of the episodes of the series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Excuse me, sir, you look suspiciously pretty."
+            },
+            {
+              "id": "1",
+              "text": "Look, mister, I dont know who you are and how you got so pretty..."
+            },
+            {
+              "id": "2",
+              "text": "Hey, you look so familiar that it almost smells funny."
+            },
+            {
+              "id": "3",
+              "text": "Oh, mama! Now I can send me on dates and watch me pick up chicks from another angle!"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Look, mister, I dont know who you are and how you got so pretty..."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Johnny Bravo sounds like this music legend.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elvis Presley"
+            },
+            {
+              "id": "1",
+              "text": "Elton John"
+            },
+            {
+              "id": "2",
+              "text": "Tom Jones"
+            },
+            {
+              "id": "3",
+              "text": "John Lennon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Elvis Presley"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the anime series Rurouni Kenshin, did someone manage to dodge Kenshins attack Kuzu-ry\u016bsen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character or faction from the series Rurouni Kenshin does the theme song in the sound clip represent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hajime Saito"
+            },
+            {
+              "id": "1",
+              "text": "Jupangatana"
+            },
+            {
+              "id": "2",
+              "text": "Sanouske Sagara"
+            },
+            {
+              "id": "3",
+              "text": "Sekihoutai"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sekihoutai"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the series Rurouni Kenshin, the first secret of the final attack Amakakeru Ry\u016b no Hirameki is the god-like speed. What is the second secret?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Utilizing the sheath"
+            },
+            {
+              "id": "1",
+              "text": "Additional step with the left foot"
+            },
+            {
+              "id": "2",
+              "text": "Additional step with the right foot"
+            },
+            {
+              "id": "3",
+              "text": "To draw the sword with the left arm"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Additional step with the left foot"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "seagal",
+          "technique",
+          "star",
+          "johnny",
+          "date"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Michael Scott and Office",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, steve, topless. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Steve Carells father was born with this surname.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Caroselli"
+            },
+            {
+              "id": "1",
+              "text": "Charley"
+            },
+            {
+              "id": "2",
+              "text": "Carroll"
+            },
+            {
+              "id": "3",
+              "text": "Carlton"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Caroselli"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which employee shows herself topless to Michael Scott on the TV show The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kelly"
+            },
+            {
+              "id": "1",
+              "text": "Meredith"
+            },
+            {
+              "id": "2",
+              "text": "Erin"
+            },
+            {
+              "id": "3",
+              "text": "Pam"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Meredith"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part did fictional character Michael Scott originally have at his mothers second wedding ceremony?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Usher"
+            },
+            {
+              "id": "1",
+              "text": "Best man"
+            },
+            {
+              "id": "2",
+              "text": "Ring barer"
+            },
+            {
+              "id": "3",
+              "text": "Flower boy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ring barer"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "While he was Scranton manager, TV character Michael Scott had a second job. What was it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Car salesman"
+            },
+            {
+              "id": "1",
+              "text": "Candle salesman"
+            },
+            {
+              "id": "2",
+              "text": "Telemarketer"
+            },
+            {
+              "id": "3",
+              "text": "Wedding singer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Telemarketer"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Michael Scott burn his foot on the TV show The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He dropped a palette of paper on it."
+            },
+            {
+              "id": "1",
+              "text": "He burned it on a George Foreman grill."
+            },
+            {
+              "id": "2",
+              "text": "He closed his car door on it."
+            },
+            {
+              "id": "3",
+              "text": "He still does not know."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He burned it on a George Foreman grill."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the TV show The Office, why do the other students in Michael Scotts improv class not like him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He can not remember his lines."
+            },
+            {
+              "id": "1",
+              "text": "He wants to do all the talking."
+            },
+            {
+              "id": "2",
+              "text": "He refuses to sit down."
+            },
+            {
+              "id": "3",
+              "text": "He constantly uses the line I have a gun."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He constantly uses the line I have a gun."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What role does Steve Carells real life wife, Nancy, play on The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amy, the purse saleswoman"
+            },
+            {
+              "id": "1",
+              "text": "Carol,  the real estate agent"
+            },
+            {
+              "id": "2",
+              "text": "Holly, the H-R person"
+            },
+            {
+              "id": "3",
+              "text": "Madge, the replacement for Pam."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Carol,  the real estate agent"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Michaels desk on the TV show The Office always has a Worlds Best Boss award on it. How did he get it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He got it at Pams wedding."
+            },
+            {
+              "id": "1",
+              "text": "It was awarded to him by the Scranton Better Business Bureau."
+            },
+            {
+              "id": "2",
+              "text": "He bought it himself."
+            },
+            {
+              "id": "3",
+              "text": "It was given to him by David Wallace."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He bought it himself."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Michael become a manager on the TV show The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "His cousin worked in the mail room at corporate."
+            },
+            {
+              "id": "1",
+              "text": "His best friend, Bob Packard, recommended him."
+            },
+            {
+              "id": "2",
+              "text": "He was one of the top salespeople in Dunder Mifflin history."
+            },
+            {
+              "id": "3",
+              "text": "His degree from Temple was in management."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He was one of the top salespeople in Dunder Mifflin history."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which employee does Michael Scott run into with his car in an episode of The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oscar"
+            },
+            {
+              "id": "1",
+              "text": "Meredith"
+            },
+            {
+              "id": "2",
+              "text": "Pam"
+            },
+            {
+              "id": "3",
+              "text": "Erin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Meredith"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Find the correct statement about fictional character Michael Scott.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Scott attended Temple University in Philadelphia."
+            },
+            {
+              "id": "1",
+              "text": "Michael Scott never attended college"
+            },
+            {
+              "id": "2",
+              "text": "Michael Scott graduated  from Wilkes-Barre Community College"
+            },
+            {
+              "id": "3",
+              "text": "Michael Scott graduated from Scranton University."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Scott never attended college"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which type of car does fictional character Michael Scott think shows how classy he is?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Volkswagen Jetta"
+            },
+            {
+              "id": "1",
+              "text": "Toyota Avalon"
+            },
+            {
+              "id": "2",
+              "text": "Chrysler Sebring"
+            },
+            {
+              "id": "3",
+              "text": "Honda Accord"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chrysler Sebring"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these sentences can Michael Scott not stop saying on The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rim shot!"
+            },
+            {
+              "id": "1",
+              "text": "Take me to your leader!"
+            },
+            {
+              "id": "2",
+              "text": "Therein lies the rub."
+            },
+            {
+              "id": "3",
+              "text": "Thats what she said!"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Thats what she said!"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was fictional character Michael Scott born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "March 15-the same day as Eva Longoria"
+            },
+            {
+              "id": "1",
+              "text": "October 15-the same day as  Lee Iacoca"
+            },
+            {
+              "id": "2",
+              "text": "October 28-the same day as Bill Gates"
+            },
+            {
+              "id": "3",
+              "text": "May 28-the same day as Gladys Knight"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: March 15-the same day as Eva Longoria"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fictional character Michael Scott was a child actor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "steve",
+          "topless",
+          "employee",
+          "desk",
+          "tv"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Episode and Xena",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, college. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When TV character Michael Scott forms his own company, who takes Michaels place at Dunder Mifflin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Darryl"
+            },
+            {
+              "id": "1",
+              "text": "Dwight"
+            },
+            {
+              "id": "2",
+              "text": "Charles"
+            },
+            {
+              "id": "3",
+              "text": "Jim"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Charles"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the episode The Xena Scrolls, Xenas descendant (who looks remarkably like her), allows Xena to fight through her and defeat Ares.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who does Michael hook up with at Pams wedding on the TV show The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pams mother"
+            },
+            {
+              "id": "1",
+              "text": "Erin"
+            },
+            {
+              "id": "2",
+              "text": "Jan"
+            },
+            {
+              "id": "3",
+              "text": "Kelly"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pams mother"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the TV show The Office, when Michael wants to seal a big sale he usually brings the customer to this restaurant.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Coopers"
+            },
+            {
+              "id": "1",
+              "text": "Applebees"
+            },
+            {
+              "id": "2",
+              "text": "The Cheesecake Factory"
+            },
+            {
+              "id": "3",
+              "text": "Chilis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chilis"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did Michael Scott quit his job on the TV show The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Dwight said Michael did not have the guts to do it."
+            },
+            {
+              "id": "2",
+              "text": "He was so successful as a car salesman that he felt he would make a million with his own company."
+            },
+            {
+              "id": "3",
+              "text": "He was insulted that David Wallace did not return his call."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He was insulted that David Wallace did not return his call."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From which college did actor Steve Carell graduate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Northeastern"
+            },
+            {
+              "id": "1",
+              "text": "Chicago"
+            },
+            {
+              "id": "2",
+              "text": "Villanova"
+            },
+            {
+              "id": "3",
+              "text": "Dennison"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dennison"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the episode Fallen Angel, Xena the warrior Princess gives up her wings and travels to hell to save a fallen Gabrielle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens in the Xena episode Ulysses?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xena falls in love with Ulysses."
+            },
+            {
+              "id": "1",
+              "text": "Xena rescues Ulysses from Poseidons followers."
+            },
+            {
+              "id": "2",
+              "text": "Xena helps Ulysses return home to Ithaca and win back his kingdom."
+            },
+            {
+              "id": "3",
+              "text": "All of the these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of the these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following doesnt occur in the 2-part Xena episode The Quest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xena dies."
+            },
+            {
+              "id": "1",
+              "text": "Xena is brought back to life by ambrosia."
+            },
+            {
+              "id": "2",
+              "text": "Xena is able to communicate through Autolycus after he drank water she was using as a portal to the moral world."
+            },
+            {
+              "id": "3",
+              "text": "Xena awakens in time to help trap Velaca - the God of Chaos, and stop her from killing Gabrielle."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Xena dies."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Xena first appeared to viewers in the series Hercules - the Legendary Journeys, in the episode, titled The Gauntlet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Michaels role at Phyliss wedding in the TV series The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was to check for wedding crashers."
+            },
+            {
+              "id": "1",
+              "text": "He was in charge of watching everyones shoes."
+            },
+            {
+              "id": "2",
+              "text": "He was to wheel her father down the aisle."
+            },
+            {
+              "id": "3",
+              "text": "He was to deliver to ring to the best man."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He was to wheel her father down the aisle."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens in the episode of the Xena series titled the Furies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xena convinces the Furies that they werent able to drive her mad."
+            },
+            {
+              "id": "1",
+              "text": "Gabrielle finds the answer to removing the Furies curse and frees Xena for a change."
+            },
+            {
+              "id": "2",
+              "text": "Xena convinces the Furies that Ares was her father."
+            },
+            {
+              "id": "3",
+              "text": "Xena attempts suicide to stop the madness."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Xena convinces the Furies that Ares was her father."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the TV show The Office, Michael gets back together with Jan because of this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "She promises him a promotion."
+            },
+            {
+              "id": "1",
+              "text": "She is having his baby."
+            },
+            {
+              "id": "2",
+              "text": "She had breast enlargement."
+            },
+            {
+              "id": "3",
+              "text": "She says she loves him."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: She had breast enlargement."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the first episode of the series Xena: Warrior Princess, Xena fights Draco on the scaffold erected in her mothers bar and balancing on the shoulders of patrons. This scenario was repeated in another episode.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did Michael Scott and Holly break up on the TV show The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She went back to Toby."
+            },
+            {
+              "id": "1",
+              "text": "He wanted children,she did not."
+            },
+            {
+              "id": "2",
+              "text": "She was transferred to New Hampshire."
+            },
+            {
+              "id": "3",
+              "text": "He went back to Jan because she promised him a promotion."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: She was transferred to New Hampshire."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "college",
+          "scrolls",
+          "steve",
+          "princess"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Ugly Betty and Series",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, suarez, condition. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the Three Tenors is Amandas uncle in the TV sitcom Ugly Betty according to her own words?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The big one"
+            },
+            {
+              "id": "1",
+              "text": "The pretty one"
+            },
+            {
+              "id": "2",
+              "text": "The thin one"
+            },
+            {
+              "id": "3",
+              "text": "The curly one"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The thin one"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Sugar Mamas dogs name in the series The Proud Family?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buff"
+            },
+            {
+              "id": "1",
+              "text": "Tuff"
+            },
+            {
+              "id": "2",
+              "text": "Poofy"
+            },
+            {
+              "id": "3",
+              "text": "Puff"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Puff"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What statement is true about Alexis Meade from the TV comedy series Ugly Betty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She has a tail."
+            },
+            {
+              "id": "1",
+              "text": "She has three kidneys."
+            },
+            {
+              "id": "2",
+              "text": "She was born a man."
+            },
+            {
+              "id": "3",
+              "text": "She eats dog food."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: She was born a man."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the special talent of Hilda Suarez from the TV show Ugly Betty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She is a talented stylist and beautician."
+            },
+            {
+              "id": "1",
+              "text": "She is a gifted opera singer."
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "She can fix anything broken around the house."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: She is a talented stylist and beautician."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Daniel Meades signature trait in the TV sitcom Ugly Betty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "His voice sounds funny."
+            },
+            {
+              "id": "1",
+              "text": "He is not very smart."
+            },
+            {
+              "id": "2",
+              "text": "He is a coward."
+            },
+            {
+              "id": "3",
+              "text": "He is a womanizer."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He is a womanizer."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who does Sugar Mama often show affection for in The Proud Family?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Clapi"
+            },
+            {
+              "id": "1",
+              "text": "Papi"
+            },
+            {
+              "id": "2",
+              "text": "Toppy"
+            },
+            {
+              "id": "3",
+              "text": "Dadi"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Papi"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Wilhelmina Slater from Ugly Betty addicted to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lipstick"
+            },
+            {
+              "id": "1",
+              "text": "Diets"
+            },
+            {
+              "id": "2",
+              "text": "Botox"
+            },
+            {
+              "id": "3",
+              "text": "Chocolate"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Botox"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why was Betty Suarez hired at Mode magazine as Daniel Meades assistant on the TV show Ugly Betty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Because she was kind-hearted"
+            },
+            {
+              "id": "1",
+              "text": "Because she was unattractive"
+            },
+            {
+              "id": "2",
+              "text": "Because they liked her outfit"
+            },
+            {
+              "id": "3",
+              "text": "Because she was qualified"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Because she was unattractive"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did The Proud Family first air on Disney Channel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2000"
+            },
+            {
+              "id": "1",
+              "text": "1999"
+            },
+            {
+              "id": "2",
+              "text": "2005"
+            },
+            {
+              "id": "3",
+              "text": "2001"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 2001"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who voices Penny Proud in the animated TV series The Proud Family?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beyonce Knowles"
+            },
+            {
+              "id": "1",
+              "text": "Kyla Pratt"
+            },
+            {
+              "id": "2",
+              "text": "Tyra Banks"
+            },
+            {
+              "id": "3",
+              "text": "Raven Symone"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kyla Pratt"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Justin Suarez from the Ugly Betty TV show obsessed with?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Baseball"
+            },
+            {
+              "id": "1",
+              "text": "Fishing"
+            },
+            {
+              "id": "2",
+              "text": "Fashion"
+            },
+            {
+              "id": "3",
+              "text": "Cars"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fashion"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What culinary nickname did Gio give to Henry on the TV comedy show Ungly Betty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Egg salad"
+            },
+            {
+              "id": "1",
+              "text": "Butterfingers"
+            },
+            {
+              "id": "2",
+              "text": "Pickle sandwich"
+            },
+            {
+              "id": "3",
+              "text": "Plain yogurt"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Egg salad"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fabia from the TV sitcom Ugly Betty was created as a parody of this famous fashion designer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vivienne Westwood"
+            },
+            {
+              "id": "1",
+              "text": "Coco Chanel"
+            },
+            {
+              "id": "2",
+              "text": "Stella McCartney"
+            },
+            {
+              "id": "3",
+              "text": "Donatella Versace"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Donatella Versace"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Penny Proud from The Proud Family isnt a singer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What medical condition does Marc from Ugly Betty suffer from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stomach ulcer"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "ADD"
+            },
+            {
+              "id": "3",
+              "text": "Asthma"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Asthma"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "suarez",
+          "condition",
+          "magazine",
+          "mama",
+          "fabia"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Shield and Season",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, crowleys, tv. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who uses Terry Crowley to infiltrate the strike team in the first season of The Shield?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The FBI"
+            },
+            {
+              "id": "1",
+              "text": "Asst. Chief Phillips"
+            },
+            {
+              "id": "2",
+              "text": "Captain David Aceveda"
+            },
+            {
+              "id": "3",
+              "text": "The Internal Affairs Division (IAD)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Captain David Aceveda"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who created the animated series The Proud Family?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bruce W. Smith"
+            },
+            {
+              "id": "1",
+              "text": "Steven  A. Spielburg"
+            },
+            {
+              "id": "2",
+              "text": "Will Smith"
+            },
+            {
+              "id": "3",
+              "text": "Michael Poryes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bruce W. Smith"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens when Vic locks T-Bonz and Kern Little in the storage bin for the night in Season One of The Shield?",
+          "options": [
+            {
+              "id": "0",
+              "text": "T-Bonz and Kern fall in love."
+            },
+            {
+              "id": "1",
+              "text": "T-Bonz and Kern end their hostilities."
+            },
+            {
+              "id": "2",
+              "text": "Kern kills T-Bonz."
+            },
+            {
+              "id": "3",
+              "text": "T-Bonz kills Kern."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kern kills T-Bonz."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was found to be responsible for the riots that ended Season One of The Shield?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Captain David Aceveda"
+            },
+            {
+              "id": "1",
+              "text": "Assistant Chief Benjamin Ben Gilroy"
+            },
+            {
+              "id": "2",
+              "text": "Detective Claudette Wyms"
+            },
+            {
+              "id": "3",
+              "text": "Detective Vic Mackey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Assistant Chief Benjamin Ben Gilroy"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who makes Dutch Wagonbaugh cry in Season One of The Shield?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vic Mackey"
+            },
+            {
+              "id": "1",
+              "text": "Detective Claudette Wyms"
+            },
+            {
+              "id": "2",
+              "text": "Detective Shane Vendrell"
+            },
+            {
+              "id": "3",
+              "text": "A serial killer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A serial killer"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The made for TV movie called Breaking the Surface: The Greg Louganis Story was about the life and professional career of the Olympic swimmer. Can you name the actor who portrayed Louganis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mario Lopez"
+            },
+            {
+              "id": "1",
+              "text": "Benjamin Bratt"
+            },
+            {
+              "id": "2",
+              "text": "Ramon Estevez"
+            },
+            {
+              "id": "3",
+              "text": "Jimmy Smits"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mario Lopez"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Season One of The Shield, Julien witnesses Mackey and his men stealing evidence from a drug bust. How many kilos of cocaine did the strike team steal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Pennys white and nerdy friend in the series The Proud Family?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sonia Parker"
+            },
+            {
+              "id": "1",
+              "text": "Demi Rack"
+            },
+            {
+              "id": "2",
+              "text": "Taylro Littletree"
+            },
+            {
+              "id": "3",
+              "text": "Zoey Howzer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Zoey Howzer"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Season One of The Shield, David Aceveda was given an opportunity to run for city council, but a story was written accusing him of rape. David Acedveda was really guilty of the rape.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why does Julien go back on his statement about witnessing the strike team steal the cocaine from the Armenians in Season One of The Shield?",
+          "options": [
+            {
+              "id": "0",
+              "text": "IAD finds Mackey innocent of the charges."
+            },
+            {
+              "id": "1",
+              "text": "Vic walks in on him and Tomas."
+            },
+            {
+              "id": "2",
+              "text": "Vic finds a stolen ring for him."
+            },
+            {
+              "id": "3",
+              "text": "Aceveda convinces him that a bigger bust for Mackey is possible."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vic walks in on him and Tomas."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Season One of The Shield, Vic threw Rondell Robinson from a rooftop.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This made for TV movie aired on HBO in 1996 and was nominated for an Emmy. It was a triology of stories set in the same house, with different occupants over the span of 40 years.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Made For Me"
+            },
+            {
+              "id": "1",
+              "text": "House"
+            },
+            {
+              "id": "2",
+              "text": "Journey"
+            },
+            {
+              "id": "3",
+              "text": "If These Walls Could Talk"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: If These Walls Could Talk"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who are the only two witnesses to Terry Crowleys murder in the pilot episode of The Shield?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vic and Shane"
+            },
+            {
+              "id": "1",
+              "text": "Aceveda and Vic"
+            },
+            {
+              "id": "2",
+              "text": "Shane and Lem"
+            },
+            {
+              "id": "3",
+              "text": "Vic and Lem"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vic and Shane"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Season One of the  FX series, The Shield, what is unique about the bodies left by Dutch Wagonbaughs serial killer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He ties a red ribbon to each arm."
+            },
+            {
+              "id": "1",
+              "text": "He puts lipstick on their cheek."
+            },
+            {
+              "id": "2",
+              "text": "He leaves the weapon inside the body."
+            },
+            {
+              "id": "3",
+              "text": "He poses them face down."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He poses them face down."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the Armenian Mobster Margos like about Danni Sofer in Season One of The Shield?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Her feet"
+            },
+            {
+              "id": "1",
+              "text": "Her gun"
+            },
+            {
+              "id": "2",
+              "text": "Her hair"
+            },
+            {
+              "id": "3",
+              "text": "Her fingers"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Her feet"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "crowleys",
+          "tv",
+          "witnesses",
+          "julien",
+          "aceveda"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2412 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Episode and Friends",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, stars, chefs. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following chefs made a guest appearance on the sitcom Frasier in 2002, playing himself?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cat Cora"
+            },
+            {
+              "id": "1",
+              "text": "Bobby Flay"
+            },
+            {
+              "id": "2",
+              "text": "Wolfgang Puck"
+            },
+            {
+              "id": "3",
+              "text": "Mario Batali"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wolfgang Puck"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it true that Bobby Flay, the host of Food Nation and Boy Meets Grill, was the chef who opened Mesa Grill in New York City?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Emmy Award-winning sitcom stars Jason Lee as a redneck on a quest to repair his Carma, by helping the people he has hurt.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Jason Lee Show"
+            },
+            {
+              "id": "1",
+              "text": "Carma Trouble"
+            },
+            {
+              "id": "2",
+              "text": "My Name Is Earl"
+            },
+            {
+              "id": "3",
+              "text": "The Village Idiot"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: My Name Is Earl"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who plays the central character of J.D. in the Emmy Award-winning sitcom Scrubs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Matthew Perry"
+            },
+            {
+              "id": "1",
+              "text": "Zach Braff"
+            },
+            {
+              "id": "2",
+              "text": "Zac Efron"
+            },
+            {
+              "id": "3",
+              "text": "Jon Favreau"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Zach Braff"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ray Rachael is famous for promising that you can fix a great meal in 30 minutes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whose unique cooking show includes a live audience and lots of bams!?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rachel Ray"
+            },
+            {
+              "id": "1",
+              "text": "Alton Brown"
+            },
+            {
+              "id": "2",
+              "text": "Emeril Lagasse"
+            },
+            {
+              "id": "3",
+              "text": "Bobby Flay"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Emeril Lagasse"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Joey dress up as at Monicas Halloween party in season 8 of Friends?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a sandwich"
+            },
+            {
+              "id": "1",
+              "text": "Santa Claus"
+            },
+            {
+              "id": "2",
+              "text": "Chandler"
+            },
+            {
+              "id": "3",
+              "text": "Batman"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chandler"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who did Rachel ask to go buy more candy for her in the episode of friends which aired on November 1, 2001?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chandler"
+            },
+            {
+              "id": "1",
+              "text": "Gunther"
+            },
+            {
+              "id": "2",
+              "text": "Joey"
+            },
+            {
+              "id": "3",
+              "text": "Ross"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gunther"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Friends episode The One With The Halloween Party, Phoebe invites her twin sister Ursula to the party. Who plays Ursulas fiance, Eric?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sean Penn"
+            },
+            {
+              "id": "1",
+              "text": "George Clooney"
+            },
+            {
+              "id": "2",
+              "text": "Tom Green"
+            },
+            {
+              "id": "3",
+              "text": "Seth Green"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sean Penn"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it true that in South Park there is a character named Damien?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the episode of Friends, titled The One With The Halloween Party, Rachel was in charge of handing out candy to the trick-or-treaters. What did she start giving out when she ran out of candy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "stuffed animals"
+            },
+            {
+              "id": "1",
+              "text": "cash and checks"
+            },
+            {
+              "id": "2",
+              "text": "popsicles"
+            },
+            {
+              "id": "3",
+              "text": "cookies"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: cash and checks"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The original host of the program Iron Chef is referred to as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Chairman"
+            },
+            {
+              "id": "1",
+              "text": "Your Royal Chef"
+            },
+            {
+              "id": "2",
+              "text": "The Commissioner"
+            },
+            {
+              "id": "3",
+              "text": "Mr. Iron"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Chairman"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first winner on the US version of Chef Gordon Ramsays reality show Hells Kitchen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom"
+            },
+            {
+              "id": "1",
+              "text": "Michael"
+            },
+            {
+              "id": "2",
+              "text": "Jean"
+            },
+            {
+              "id": "3",
+              "text": "Ralph"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Michael"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the episode The One With The Halloween Party, Monica and Joey debate over who would win a fight between Ross and Chandler. What do Ross and Chandler do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They arm-wrestle."
+            },
+            {
+              "id": "1",
+              "text": "They pick up Joey and see who can hold him the longest."
+            },
+            {
+              "id": "2",
+              "text": "They punch each others arm in the same place to see who gives up first."
+            },
+            {
+              "id": "3",
+              "text": "They have a staring contest."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They arm-wrestle."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What store does Alton Brown visit regularly on his show to shop for kitchen utensils and small appliances?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bed, Bath and Beyond"
+            },
+            {
+              "id": "1",
+              "text": "Linens and Things"
+            },
+            {
+              "id": "2",
+              "text": "LL Bean"
+            },
+            {
+              "id": "3",
+              "text": "Walmart"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bed, Bath and Beyond"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "stars",
+          "chefs",
+          "j.d",
+          "appearance",
+          "one"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Episode and Friends",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, villains, mean. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what Hawaiian Island is the show Lost filmed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Molokai"
+            },
+            {
+              "id": "1",
+              "text": "Oahu"
+            },
+            {
+              "id": "2",
+              "text": "Lanai"
+            },
+            {
+              "id": "3",
+              "text": "Kauai"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oahu"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the flight number of the plane that crashed, stranding its passengers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "822"
+            },
+            {
+              "id": "1",
+              "text": "722"
+            },
+            {
+              "id": "2",
+              "text": "815"
+            },
+            {
+              "id": "3",
+              "text": "915"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 815"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sawyer is initially seen reading what book?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Watership Down"
+            },
+            {
+              "id": "1",
+              "text": "Faster Friends"
+            },
+            {
+              "id": "2",
+              "text": "A Wrinkle in Time"
+            },
+            {
+              "id": "3",
+              "text": "Dark Tower"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Watership Down"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the episode of Friends, titled The One With The Halloween Party Rosss girlfriend attends the party, dressed as a nurse. What is her name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Janice"
+            },
+            {
+              "id": "1",
+              "text": "Brittany"
+            },
+            {
+              "id": "2",
+              "text": "Aida"
+            },
+            {
+              "id": "3",
+              "text": "Mona"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mona"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is not a character on the TV show Lost?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charlie Pace"
+            },
+            {
+              "id": "1",
+              "text": "Danielle Rousseau"
+            },
+            {
+              "id": "2",
+              "text": "Michael Dawson"
+            },
+            {
+              "id": "3",
+              "text": "Yunjin Kim"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Yunjin Kim"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many survivors were there from the crash?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14"
+            },
+            {
+              "id": "1",
+              "text": "50"
+            },
+            {
+              "id": "2",
+              "text": "33"
+            },
+            {
+              "id": "3",
+              "text": "48"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 48"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the villains in the film Madagascar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Lemurs"
+            },
+            {
+              "id": "1",
+              "text": "The Hyneas"
+            },
+            {
+              "id": "2",
+              "text": "The Fussa"
+            },
+            {
+              "id": "3",
+              "text": "The Mamossoans"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Fussa"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the episode of Friends titled The One With The Halloween Party, when Rachel asks one little trick-or-treater what her name is, what does the girl say?",
+          "options": [
+            {
+              "id": "0",
+              "text": "T. J."
+            },
+            {
+              "id": "1",
+              "text": "I cant tell a stranger that."
+            },
+            {
+              "id": "2",
+              "text": "Buttercup"
+            },
+            {
+              "id": "3",
+              "text": "Leilani Mayolanofavich"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Leilani Mayolanofavich"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Eric comes back to get Ursulas purse in the Friends episode The One With The Halloween Party, what does Phoebe do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "tells him she has a crush on him"
+            },
+            {
+              "id": "1",
+              "text": "tells him Ursula has been lying to him"
+            },
+            {
+              "id": "2",
+              "text": "tells him its been stolen"
+            },
+            {
+              "id": "3",
+              "text": "hides the purse to hurt Ursula"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: tells him Ursula has been lying to him"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vincent, the dog on the show, is played by a male golden Labrador retriever.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the wacky villain in the Disney film, Alice in Wonderland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The White Rabbit"
+            },
+            {
+              "id": "1",
+              "text": "Queen of Hearts"
+            },
+            {
+              "id": "2",
+              "text": "The Black Hare"
+            },
+            {
+              "id": "3",
+              "text": "The Knave of Spades"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Queen of Hearts"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Ursulas fiance gets to the party in the Friends episode The One With The Halloween Party, the first thing he does is slap Phoebe on the butt.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hurleys unlucky numbers include 4, 8, 15, and three of the others listed, which is not one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "42"
+            },
+            {
+              "id": "1",
+              "text": "36"
+            },
+            {
+              "id": "2",
+              "text": "23"
+            },
+            {
+              "id": "3",
+              "text": "16"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 36"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the TV show Lost, who is revealed to be John Lockes mother?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emily Annabeth"
+            },
+            {
+              "id": "1",
+              "text": "Mary Margaret"
+            },
+            {
+              "id": "2",
+              "text": "Katherine Lee"
+            },
+            {
+              "id": "3",
+              "text": "Suzanne Lynn"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Emily Annabeth"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the symbol on Claires necklace mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joy"
+            },
+            {
+              "id": "1",
+              "text": "Love"
+            },
+            {
+              "id": "2",
+              "text": "Family"
+            },
+            {
+              "id": "3",
+              "text": "Peace"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Love"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "villains",
+          "mean",
+          "villain",
+          "tv",
+          "one"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Lady and Cinderella",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, oz. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the TV series ALF debut?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1985"
+            },
+            {
+              "id": "1",
+              "text": "1987"
+            },
+            {
+              "id": "2",
+              "text": "1986"
+            },
+            {
+              "id": "3",
+              "text": "1984"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1986"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Tarzans nemesis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Winthrope"
+            },
+            {
+              "id": "1",
+              "text": "Clayton"
+            },
+            {
+              "id": "2",
+              "text": "He-Man"
+            },
+            {
+              "id": "3",
+              "text": "She-ra"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Clayton"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following were kidnapped by Cruella De Vil because of their fur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Aristocats"
+            },
+            {
+              "id": "1",
+              "text": "Beethoven and the puppies"
+            },
+            {
+              "id": "2",
+              "text": "Lady and the Tramp"
+            },
+            {
+              "id": "3",
+              "text": "101 Dalmations"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 101 Dalmations"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the main bad guy in Shark Tale?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mario Lino"
+            },
+            {
+              "id": "1",
+              "text": "Don Lino"
+            },
+            {
+              "id": "2",
+              "text": "Dan Leno"
+            },
+            {
+              "id": "3",
+              "text": "Jay Leno"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Don Lino"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Captain Hook was after this character but was always outwitted by him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Smee"
+            },
+            {
+              "id": "1",
+              "text": "Nana the dog"
+            },
+            {
+              "id": "2",
+              "text": "Peter Pan"
+            },
+            {
+              "id": "3",
+              "text": "Princess Tiger Lily"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Peter Pan"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The voice of ALF was actually provided by the shows producer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the female villain in Shrek II?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wicked Witch of the West"
+            },
+            {
+              "id": "1",
+              "text": "Fairy Godmother"
+            },
+            {
+              "id": "2",
+              "text": "Fionas evil stepsister"
+            },
+            {
+              "id": "3",
+              "text": "Grisabella"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fairy Godmother"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is ALFs real first name on the popular sitcom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Benny"
+            },
+            {
+              "id": "1",
+              "text": "Norman"
+            },
+            {
+              "id": "2",
+              "text": "Harold"
+            },
+            {
+              "id": "3",
+              "text": "Gordon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gordon"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was trying to eliminate Duchess in The Aristocats?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The jealous Duke"
+            },
+            {
+              "id": "1",
+              "text": "The Butler did it"
+            },
+            {
+              "id": "2",
+              "text": "Cruella de Vil"
+            },
+            {
+              "id": "3",
+              "text": "The Count de Monay"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Butler did it"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who tried to get rid of Lady by blaming her for all the damage they had done in Lady and The Tramp?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mungojelly and Rumpleteaser"
+            },
+            {
+              "id": "1",
+              "text": "The Tramps"
+            },
+            {
+              "id": "2",
+              "text": "The Siamese Cats"
+            },
+            {
+              "id": "3",
+              "text": "The Mouse king and his rats"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Siamese Cats"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the usurper Prince John trying to eliminate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robin Hood"
+            },
+            {
+              "id": "1",
+              "text": "King Richard III"
+            },
+            {
+              "id": "2",
+              "text": "The Mayor of Sherwood"
+            },
+            {
+              "id": "3",
+              "text": "The Sheriff of Nottingham"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Robin Hood"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Dorothys nemesis in The Wizard of Oz?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Flying Monkeys"
+            },
+            {
+              "id": "1",
+              "text": "The Wizard"
+            },
+            {
+              "id": "2",
+              "text": "The Witch of the West"
+            },
+            {
+              "id": "3",
+              "text": "The Witch of the North"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Witch of the West"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the evil cat in Cinderella?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lucifer"
+            },
+            {
+              "id": "1",
+              "text": "He had no name"
+            },
+            {
+              "id": "2",
+              "text": "Satan"
+            },
+            {
+              "id": "3",
+              "text": "Mad Tom"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lucifer"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who tried to keep Belle away from the the Beast and marry her?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Candlestick"
+            },
+            {
+              "id": "1",
+              "text": "Her own stepfather"
+            },
+            {
+              "id": "2",
+              "text": "Chip, the broken cup"
+            },
+            {
+              "id": "3",
+              "text": "Gaston"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gaston"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the villain in The Incredibles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny Dangerously"
+            },
+            {
+              "id": "1",
+              "text": "Dasltery"
+            },
+            {
+              "id": "2",
+              "text": "Unincredible Hulk"
+            },
+            {
+              "id": "3",
+              "text": "Bomb Voyage"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bomb Voyage"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "oz",
+          "cruella",
+          "shows",
+          "cinderella"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Futurama and Popeye",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, network, cartoon. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the family that ALF lived with in the 80s TV hit ALF?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Conner"
+            },
+            {
+              "id": "1",
+              "text": "Harper"
+            },
+            {
+              "id": "2",
+              "text": "Steadman"
+            },
+            {
+              "id": "3",
+              "text": "Tanner"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tanner"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the popular comic strip character Popeye make his debut?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1915"
+            },
+            {
+              "id": "1",
+              "text": "1929"
+            },
+            {
+              "id": "2",
+              "text": "1945"
+            },
+            {
+              "id": "3",
+              "text": "1933"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1929"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the popular cartoon of the same name, Popeye has a ship tattooed on his muscular forearm.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What television network originally aired the TV show ALF?",
+          "options": [
+            {
+              "id": "0",
+              "text": "CBS"
+            },
+            {
+              "id": "1",
+              "text": "NBC"
+            },
+            {
+              "id": "2",
+              "text": "HBO"
+            },
+            {
+              "id": "3",
+              "text": "ABC"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: NBC"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the first Emperor of the Moon in the animated series Futurama?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Al Gore"
+            },
+            {
+              "id": "1",
+              "text": "Philip J. Fry (Frys nephew)"
+            },
+            {
+              "id": "2",
+              "text": "Neil Armstrong"
+            },
+            {
+              "id": "3",
+              "text": "Buzz Aldren"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Al Gore"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of the Star Trek cast was not taken to the forbidden planet, Omega 3 in the animated show Futurama?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nichelle Nichols"
+            },
+            {
+              "id": "1",
+              "text": "William Shatner"
+            },
+            {
+              "id": "2",
+              "text": "George Takei"
+            },
+            {
+              "id": "3",
+              "text": "Leonard Nimoy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Leonard Nimoy"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is a Popeye statue erected in Nebraska.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What monument stands next to the Washington Monument in the episode of Futurama, entitled A Taste of Freedom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roosevelt Monument"
+            },
+            {
+              "id": "1",
+              "text": "Reagan Monument"
+            },
+            {
+              "id": "2",
+              "text": "Clinton Monument"
+            },
+            {
+              "id": "3",
+              "text": "MacNeille Monument"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Clinton Monument"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the Popeye the Sailor cartoon debut?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1919"
+            },
+            {
+              "id": "1",
+              "text": "1923"
+            },
+            {
+              "id": "2",
+              "text": "1941"
+            },
+            {
+              "id": "3",
+              "text": "1933"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1933"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Popeyes hometown according to the popular cartoon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oceanview"
+            },
+            {
+              "id": "1",
+              "text": "Harborside"
+            },
+            {
+              "id": "2",
+              "text": "Waterville"
+            },
+            {
+              "id": "3",
+              "text": "Seawater"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Seawater"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This vegetable gave cartoon character Popeye superhuman strength when he consumed it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sweet peas"
+            },
+            {
+              "id": "1",
+              "text": "Spinach"
+            },
+            {
+              "id": "2",
+              "text": "Cabbage"
+            },
+            {
+              "id": "3",
+              "text": "Carrots"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Spinach"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In an episode of Futurama, entitled Obsoletely Fabulous, Bender is getting his Robot 1-X compatibility upgrade. How much does arm extension cost?",
+          "options": [
+            {
+              "id": "0",
+              "text": "$1 per yard"
+            },
+            {
+              "id": "1",
+              "text": "$0.70 per yard"
+            },
+            {
+              "id": "2",
+              "text": "$1.25 per yard"
+            },
+            {
+              "id": "3",
+              "text": "$0.75 per yard"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: $0.70 per yard"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bender, a character from Futurama, has to fly the dark matter tank within three feet of Pluto for what reason?",
+          "options": [
+            {
+              "id": "0",
+              "text": "To endanger the penguins"
+            },
+            {
+              "id": "1",
+              "text": "To keep as far away from the Neptunians as possible"
+            },
+            {
+              "id": "2",
+              "text": "To avoid the toll booth"
+            },
+            {
+              "id": "3",
+              "text": "To prove to Leela that the dark matter is not harmful"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: To avoid the toll booth"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the series Futurama, Professor Farnsworh tells Bender to install a fake satellite dish to impress the neighbors.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "ALF was such a popular character, that he was once featured on 3 TV shows at the same time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "network",
+          "cartoon",
+          "trek",
+          "sailor",
+          "professor"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Cheers and Series",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, gunsmoke. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Marshal Matt Dillon in the TV series Gunsmoke?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sam Peckinpah"
+            },
+            {
+              "id": "1",
+              "text": "James Arness"
+            },
+            {
+              "id": "2",
+              "text": "Gunnar Hellstr\u00f6m"
+            },
+            {
+              "id": "3",
+              "text": "James Nusser"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: James Arness"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Doc Adams first name in the series Gunsmoke?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Galen"
+            },
+            {
+              "id": "1",
+              "text": "Doc"
+            },
+            {
+              "id": "2",
+              "text": "Quincy"
+            },
+            {
+              "id": "3",
+              "text": "Andrew"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Galen"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did Gunsmoke debut?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1955"
+            },
+            {
+              "id": "1",
+              "text": "1958"
+            },
+            {
+              "id": "2",
+              "text": "1956"
+            },
+            {
+              "id": "3",
+              "text": "1957"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1955"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who portrayed the town drunk Louie Pheeters in the Gunsmoke TV series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Nusser"
+            },
+            {
+              "id": "1",
+              "text": "Burt Reynolds"
+            },
+            {
+              "id": "2",
+              "text": "Buck Taylor"
+            },
+            {
+              "id": "3",
+              "text": "Dabbs Greer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: James Nusser"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is one of the middle names of fictional character Carla Tortelli?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ezmirelda"
+            },
+            {
+              "id": "1",
+              "text": "Vittoria"
+            },
+            {
+              "id": "2",
+              "text": "Lucia"
+            },
+            {
+              "id": "3",
+              "text": "Velma"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vittoria"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the TV series Gunsmoke, Chester Goode was played by Buck Taylor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many children did Carla have by the end of the TV show Cheers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "8"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 8"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Carla Tortelli was one of the few characters featured in every Cheers episode.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the saloon ran by Kitty Russell on the show Gunsmoke?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kittys Palace"
+            },
+            {
+              "id": "1",
+              "text": "Long Branch"
+            },
+            {
+              "id": "2",
+              "text": "The Light House"
+            },
+            {
+              "id": "3",
+              "text": "Crows Nest"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Long Branch"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Burt Reynolds played Quint Asper on the show Gunsmoke.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first name of Carlas first husband on Cheers from which she got the name Tortelli?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vinny"
+            },
+            {
+              "id": "1",
+              "text": "Victor"
+            },
+            {
+              "id": "2",
+              "text": "Anthony"
+            },
+            {
+              "id": "3",
+              "text": "Nick"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nick"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the hit show Cheers, Carlas second husband was killed in a plane crash.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which actor played Popeye in the 1980 hit film of the same name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert De Niro"
+            },
+            {
+              "id": "1",
+              "text": "Robin Williams"
+            },
+            {
+              "id": "2",
+              "text": "Marlon Brando"
+            },
+            {
+              "id": "3",
+              "text": "Jackie Chan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Robin Williams"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is NOT one of the many middle names of Cheers character Carla Tortelli?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apollonia"
+            },
+            {
+              "id": "1",
+              "text": "Lucia"
+            },
+            {
+              "id": "2",
+              "text": "Angelina"
+            },
+            {
+              "id": "3",
+              "text": "Teresa"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lucia"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the profession of Carla Tortellis second husband Eddie LeBec in the TV series Cheers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Delivery Driver"
+            },
+            {
+              "id": "1",
+              "text": "Garbage Man"
+            },
+            {
+              "id": "2",
+              "text": "Police Officer"
+            },
+            {
+              "id": "3",
+              "text": "Hockey Player"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hockey Player"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "gunsmoke",
+          "profession",
+          "tortelli",
+          "carla"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Lucy and Series",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, gunsmoke, emergency. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who turns Daniel Oz Osbourne from the Buffy series into a werewolf?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jordy"
+            },
+            {
+              "id": "1",
+              "text": "Varucca"
+            },
+            {
+              "id": "2",
+              "text": "Angel"
+            },
+            {
+              "id": "3",
+              "text": "Willow"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jordy"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the show I Love Lucy, Lucy and Ethel land on the observation deck of the Brooklyn Bridge when they pose as space aliens.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the last name of Sam, the bartender on the show Gunsmoke?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Taylor"
+            },
+            {
+              "id": "1",
+              "text": "Jones"
+            },
+            {
+              "id": "2",
+              "text": "Greene"
+            },
+            {
+              "id": "3",
+              "text": "Noonan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Noonan"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what episode of the Buffy series did Buffy kiss Spike for the first time (without any magic intervention)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All the Way"
+            },
+            {
+              "id": "1",
+              "text": "Tabula Rasa"
+            },
+            {
+              "id": "2",
+              "text": "Once More, With Feeling"
+            },
+            {
+              "id": "3",
+              "text": "Intervention"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Intervention"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Buck Taylor who played Newly OBrien on Gunsmoke named one of his children after Marshal Matt Dillon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the sitcom I Love Lucy, how does Lucy ensure that her friends will recognize her when she plays a dead showgirl in a Hollywood movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She paints her name on the soles of her shoes."
+            },
+            {
+              "id": "1",
+              "text": "She enlists Ethel to add her name to the credits of the show."
+            },
+            {
+              "id": "2",
+              "text": "She holds up a sign in the background."
+            },
+            {
+              "id": "3",
+              "text": "She embroiders her name onto her show girl hat."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: She paints her name on the soles of her shoes."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times does Buffy die in the series Buffy the Vampire Slayer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "One"
+            },
+            {
+              "id": "1",
+              "text": "Five"
+            },
+            {
+              "id": "2",
+              "text": "Three"
+            },
+            {
+              "id": "3",
+              "text": "Two"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Three"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the TV show Gunsmoke, Festus Haggen was played by which of these actors?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Arness"
+            },
+            {
+              "id": "1",
+              "text": "Ted Jordan"
+            },
+            {
+              "id": "2",
+              "text": "Howard Culver"
+            },
+            {
+              "id": "3",
+              "text": "Ken Curtis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ken Curtis"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lucy, the main character on the TV show I Love Lucy was chosen to play a part in an Italian movie entitled Bitter Grapes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Ricky keep hidden in his closet as an emergency gift on the TV show I love Lucy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A box of chocolates"
+            },
+            {
+              "id": "1",
+              "text": "A mink stole"
+            },
+            {
+              "id": "2",
+              "text": "A pair of earrings"
+            },
+            {
+              "id": "3",
+              "text": "Bongo drums"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A box of chocolates"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character does Buffy meet first in the first official episode of the TV series Buffy the Vampire Slayer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xander"
+            },
+            {
+              "id": "1",
+              "text": "Willow"
+            },
+            {
+              "id": "2",
+              "text": "Rupert"
+            },
+            {
+              "id": "3",
+              "text": "Cordelia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Xander"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the elderly neighbor who babysat for little Ricky on the sitcom I Love Lucy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mrs. Trumbull"
+            },
+            {
+              "id": "1",
+              "text": "Mrs. Nathan"
+            },
+            {
+              "id": "2",
+              "text": "Miss Turner"
+            },
+            {
+              "id": "3",
+              "text": "Mrs. Patterson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mrs. Trumbull"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The elocution coach that Lucy hires in the TV series I Love Lucy insists she never use what two words?",
+          "options": [
+            {
+              "id": "0",
+              "text": "cool and neato"
+            },
+            {
+              "id": "1",
+              "text": "narly and heavy"
+            },
+            {
+              "id": "2",
+              "text": "swell and lousy"
+            },
+            {
+              "id": "3",
+              "text": "flippin and sweet"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: swell and lousy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What brand of car did the Ricardos and Mertzes drive cross country to California in the TV series I love Lucy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cadillac"
+            },
+            {
+              "id": "1",
+              "text": "Pontiac"
+            },
+            {
+              "id": "2",
+              "text": "Ford"
+            },
+            {
+              "id": "3",
+              "text": "Chevrolet"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pontiac"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the first person shown in the very first official episode of the Buffy series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xander"
+            },
+            {
+              "id": "1",
+              "text": "Buffy"
+            },
+            {
+              "id": "2",
+              "text": "Angel"
+            },
+            {
+              "id": "3",
+              "text": "Darla"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Darla"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "gunsmoke",
+          "emergency",
+          "hires",
+          "ricardos",
+          "buffy"
+        ]
+      }
+    }
+  ]
+}

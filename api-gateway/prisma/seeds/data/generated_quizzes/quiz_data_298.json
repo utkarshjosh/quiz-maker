@@ -1,0 +1,2484 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Movie and Spin",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, lakes, college. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rhoda, a show about a woman in her 30s who leaves her home in Minneapolis to start a new life in New York City, is a spin-off of what television show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maude"
+            },
+            {
+              "id": "1",
+              "text": "The Mary Tyler Moore Show"
+            },
+            {
+              "id": "2",
+              "text": "Alice"
+            },
+            {
+              "id": "3",
+              "text": "Gloria"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Mary Tyler Moore Show"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A Different World, a show about the everyday lives of young women attending Hillman College, is a spin-off of what television show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Cosby Show"
+            },
+            {
+              "id": "1",
+              "text": "School Daze"
+            },
+            {
+              "id": "2",
+              "text": "Living Single"
+            },
+            {
+              "id": "3",
+              "text": "Girl Talk"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Cosby Show"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the university that Thornton and his son Jason attended in the great 80s movie Back to School?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Loyola Marymount"
+            },
+            {
+              "id": "1",
+              "text": "St. Johns University"
+            },
+            {
+              "id": "2",
+              "text": "Kansas State University"
+            },
+            {
+              "id": "3",
+              "text": "Grand Lakes University"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Grand Lakes University"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Good Times, a show about a family struggling to make ends meet in Chicago,  is a spin-off of what television show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roots"
+            },
+            {
+              "id": "1",
+              "text": "The Ghetto"
+            },
+            {
+              "id": "2",
+              "text": "The Struggle"
+            },
+            {
+              "id": "3",
+              "text": "Maude"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Maude"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the hilarious movie from the 80s, Back to School first hit the theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1983"
+            },
+            {
+              "id": "1",
+              "text": "1986"
+            },
+            {
+              "id": "2",
+              "text": "1984"
+            },
+            {
+              "id": "3",
+              "text": "1982"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1986"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The late comedian Sam Kinison appears in the movie Back to School.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Frasier, a show about a neurotic psychiatrist who moves to Seattle to start fresh and lands a job hosting his own radio show, is a spin-off of what television show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Big Blue Marble"
+            },
+            {
+              "id": "1",
+              "text": "The Tortellis"
+            },
+            {
+              "id": "2",
+              "text": "Franks Place"
+            },
+            {
+              "id": "3",
+              "text": "Cheers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cheers"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who plays the college weirdo Derek Lutz in the movie Back to School?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Downey Jr."
+            },
+            {
+              "id": "1",
+              "text": "Charlie Sheen"
+            },
+            {
+              "id": "2",
+              "text": "Will E.  Maze"
+            },
+            {
+              "id": "3",
+              "text": "Emilio Estevez"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Downey Jr."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Enos, a show about a bumpkin deputy who lands a job in Los Angeles after making an important arrest in his hometown, is a spin-off from what television show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Dukes Of Hazzard"
+            },
+            {
+              "id": "1",
+              "text": "Knots Landing"
+            },
+            {
+              "id": "2",
+              "text": "Kojak"
+            },
+            {
+              "id": "3",
+              "text": "Heat Of The Night"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Dukes Of Hazzard"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Back to School, Thorntons son is the towel boy for  the school diving team. One of the star divers on the team (Chas) gets hurt, so Thornton has to fill in for him. What is the name of the famous dive that Thornton performs in the competition?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Triple Play"
+            },
+            {
+              "id": "1",
+              "text": "The Double Crossover Jack- knife"
+            },
+            {
+              "id": "2",
+              "text": "The Triple Lindy"
+            },
+            {
+              "id": "3",
+              "text": "The Triple Axle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Triple Lindy"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Thorntons bodyguard/driver in the classic film Back to School?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rocco"
+            },
+            {
+              "id": "1",
+              "text": "Paulie"
+            },
+            {
+              "id": "2",
+              "text": "Lou"
+            },
+            {
+              "id": "3",
+              "text": "Sonny"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lou"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Thornton do for a living in the hit 80s movie Back to School?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He owns the Milwaukee Brewers major league baseball team."
+            },
+            {
+              "id": "1",
+              "text": "He owns a string of donut shops."
+            },
+            {
+              "id": "2",
+              "text": "He owns a chain of Big and Fat stores."
+            },
+            {
+              "id": "3",
+              "text": "He owns a bunch hot dog trucks."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He owns a chain of Big and Fat stores."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Thorntons last name in the movie Back to School?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dillon"
+            },
+            {
+              "id": "1",
+              "text": "Melon"
+            },
+            {
+              "id": "2",
+              "text": "Schmelling"
+            },
+            {
+              "id": "3",
+              "text": "Orange"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Melon"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the nickname of the Grand Lakes University swim team in the movie Back to School?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Orioles"
+            },
+            {
+              "id": "1",
+              "text": "Hooters"
+            },
+            {
+              "id": "2",
+              "text": "Sparrows"
+            },
+            {
+              "id": "3",
+              "text": "Jayhawks"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hooters"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American entertainer was born Tula Ellice Finklea on March 8, 1921, in Amarillo, Texas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buddy Ebsen"
+            },
+            {
+              "id": "1",
+              "text": "Tom Selleck"
+            },
+            {
+              "id": "2",
+              "text": "Cyd Charisse"
+            },
+            {
+              "id": "3",
+              "text": "Buddy Hackett"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cyd Charisse"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "lakes",
+          "college",
+          "world",
+          "woman",
+          "thornton"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Movie and Actress",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, director. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "American entertainer Herbert Khaury, born April 12, 1932, was better known as this stage name, after the character from Dickens, A Christmas Carol.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harry Anderson"
+            },
+            {
+              "id": "1",
+              "text": "Tiny Tim"
+            },
+            {
+              "id": "2",
+              "text": "Billy Crystal"
+            },
+            {
+              "id": "3",
+              "text": "Herbie Hancock"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tiny Tim"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does Johnny Cade kill Bob Sheldon in the popular 80s movie The Outsiders?",
+          "options": [
+            {
+              "id": "0",
+              "text": "throws him off a rooftop"
+            },
+            {
+              "id": "1",
+              "text": "shoots him in the stomach"
+            },
+            {
+              "id": "2",
+              "text": "switchblade"
+            },
+            {
+              "id": "3",
+              "text": "cracks him in the head with a rock"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: switchblade"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Best known as lead singer of The Four Seasons, he was born Francis Stephen Castelluccio in Newark, New Jersey.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom Jones"
+            },
+            {
+              "id": "1",
+              "text": "Frank Sinatra"
+            },
+            {
+              "id": "2",
+              "text": "Frank Zappa"
+            },
+            {
+              "id": "3",
+              "text": "Frankie Valli"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Frankie Valli"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American film and stage actress, who appeared in Shock Treatment (1964), was born Betty Joan Perske on 16 September 1924 in New York City, New York?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Earth Kitt"
+            },
+            {
+              "id": "1",
+              "text": "Joan Collins"
+            },
+            {
+              "id": "2",
+              "text": "Lauren Bacall"
+            },
+            {
+              "id": "3",
+              "text": "Yvonne De Carlo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lauren Bacall"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the great 80s movie The Outsiders first hit the movie theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1983"
+            },
+            {
+              "id": "1",
+              "text": "1986"
+            },
+            {
+              "id": "2",
+              "text": "1985"
+            },
+            {
+              "id": "3",
+              "text": "1982"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1983"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What African American actor and rapper, originally a member of the group, N.W.A, was born OShea Jackson on June 15, 1969?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ice T"
+            },
+            {
+              "id": "1",
+              "text": "Lawrence Hilton-Jacobs"
+            },
+            {
+              "id": "2",
+              "text": "50 Cent"
+            },
+            {
+              "id": "3",
+              "text": "Ice Cube"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ice Cube"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the American actress and signer, born Dana Elaine Owens on March 18, 1970, whose brother Lance was killed in 1992.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vivica A. Fox"
+            },
+            {
+              "id": "1",
+              "text": "Erika Alexander"
+            },
+            {
+              "id": "2",
+              "text": "Diahann Carroll"
+            },
+            {
+              "id": "3",
+              "text": "Queen Latifah"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Queen Latifah"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American actor, producer and director, who starred as Little Joe on TV show, Bonanza, was born Eugene Maurice Orowitz?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gene Hackman"
+            },
+            {
+              "id": "1",
+              "text": "Gene Wilder"
+            },
+            {
+              "id": "2",
+              "text": "Michael Landon"
+            },
+            {
+              "id": "3",
+              "text": "Hal Linden"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Landon"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American actor, famous for his role in TV series The Six Million Dollar Man, was born Harvey Lee Yeary?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lee Majors"
+            },
+            {
+              "id": "1",
+              "text": "Lee Strasberg"
+            },
+            {
+              "id": "2",
+              "text": "Lee Marvin"
+            },
+            {
+              "id": "3",
+              "text": "Lee Mazzilli"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lee Majors"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the hit 80s movie The Outsiders, when Ponyboy and Johnny tell Dallas that they want to turn themselves in to the police and admit to killing Bob Sheldon, Dallas gets mad at them. They are driving together in a car and see a building on fire. What type of building is on fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a pizza place"
+            },
+            {
+              "id": "1",
+              "text": "school"
+            },
+            {
+              "id": "2",
+              "text": "Dairy Queen"
+            },
+            {
+              "id": "3",
+              "text": "church"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: church"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What an American singer, songwriter, and actress was born Kathie Epstein on August 16, 1953, in Paris, France?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kathy Lee Gifford"
+            },
+            {
+              "id": "1",
+              "text": "Cathy Rigby"
+            },
+            {
+              "id": "2",
+              "text": "Marisa Tomei"
+            },
+            {
+              "id": "3",
+              "text": "Geena Davis"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kathy Lee Gifford"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American television and film actress, married for some years to musician/composer Burt Bacharach, was born Angeline Brown on September 30, 1931?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Angelina Jolie"
+            },
+            {
+              "id": "1",
+              "text": "Angie Dickinson"
+            },
+            {
+              "id": "2",
+              "text": "Donna Pescow"
+            },
+            {
+              "id": "3",
+              "text": "Angie Everheart"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Angie Dickinson"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the great 80s movie The Outsiders, what state do the principal characters live in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "North Carolina"
+            },
+            {
+              "id": "1",
+              "text": "Tennessee"
+            },
+            {
+              "id": "2",
+              "text": "Oklahoma"
+            },
+            {
+              "id": "3",
+              "text": "Kentucky"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oklahoma"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After Johnny kills Bob in the movie The Outsiders, he and Ponyboy go to Dallas Winston ( Matt Dillon ) for help and he gives them directions to go hide out somewhere. Where do they go to hide out ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "an old baseball stadium"
+            },
+            {
+              "id": "1",
+              "text": "an abandoned church in Windrixville"
+            },
+            {
+              "id": "2",
+              "text": "a vacant lot in Alabamba"
+            },
+            {
+              "id": "3",
+              "text": "a run down movie theatre"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: an abandoned church in Windrixville"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American entertainer, who once flew over the Grand Canyon, was born David Seth Kotkin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Copperfield"
+            },
+            {
+              "id": "1",
+              "text": "Danny DeVito"
+            },
+            {
+              "id": "2",
+              "text": "David Brenner"
+            },
+            {
+              "id": "3",
+              "text": "David Susskind"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: David Copperfield"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "director",
+          "tv",
+          "canyon",
+          "film"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Knowledge Quiz: Austin Powers and Movie",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, festival, dallas. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 80s movie The Outsiders, Keith Two-Bit Matthews (Emilio Estevez) is wearing a shirt with a Disney character on it . What is the name of this Disney character?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Donald Duck"
+            },
+            {
+              "id": "1",
+              "text": "Mickey Mouse"
+            },
+            {
+              "id": "2",
+              "text": "Goofy"
+            },
+            {
+              "id": "3",
+              "text": "Minnie Mouse"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mickey Mouse"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the movie Austin Powers: International Man of Mystery come out in the movie theatres?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1995"
+            },
+            {
+              "id": "1",
+              "text": "1996"
+            },
+            {
+              "id": "2",
+              "text": "1997"
+            },
+            {
+              "id": "3",
+              "text": "1994"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1997"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the film The Outsiders, Dallas Winston opens up a homeless shelter and takes care of all the kids in need.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the person who owned the dairy farm at which the Woodstock Festival took place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Max Baer"
+            },
+            {
+              "id": "1",
+              "text": "Max Factor"
+            },
+            {
+              "id": "2",
+              "text": "Max Yasgur"
+            },
+            {
+              "id": "3",
+              "text": "Abbie Hoffman"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Max Yasgur"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is one of Austin Powers catchphrases from the movie Austin Powers: International Man of Mystery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yeah, baby!"
+            },
+            {
+              "id": "1",
+              "text": "Dyno-mite!"
+            },
+            {
+              "id": "2",
+              "text": "Sit on it !"
+            },
+            {
+              "id": "3",
+              "text": "The devil made me do it"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yeah, baby!"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Austin Powers: International Man of Mystery, Austin Powers was frozen in what year in the 1960s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1964"
+            },
+            {
+              "id": "1",
+              "text": "1965"
+            },
+            {
+              "id": "2",
+              "text": "1969"
+            },
+            {
+              "id": "3",
+              "text": "1967"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1967"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played the role of Austin Powers in the movie Austin Powers: International Man of Mystery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Wagner"
+            },
+            {
+              "id": "1",
+              "text": "Michael McKean"
+            },
+            {
+              "id": "2",
+              "text": "Michael Douglas"
+            },
+            {
+              "id": "3",
+              "text": "Michael Myers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Myers"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Dr. Evils cat in the movie Austin Powers: International Man of Mystery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mr. Bigglesworth"
+            },
+            {
+              "id": "1",
+              "text": "Scott"
+            },
+            {
+              "id": "2",
+              "text": "Morris"
+            },
+            {
+              "id": "3",
+              "text": "Wench 00"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Bigglesworth"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Austin Powers: International Man of Mystery, Dr. Evil has android models with guns that pop out of their breasts. What is the name of these android models?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fembots"
+            },
+            {
+              "id": "1",
+              "text": "Hot robot"
+            },
+            {
+              "id": "2",
+              "text": "Sexy Guns"
+            },
+            {
+              "id": "3",
+              "text": "2hot2trot"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fembots"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first singer to perform at the legendary 60s Woodstock Festival?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Paul Butterfield Blues Band"
+            },
+            {
+              "id": "1",
+              "text": "Joan Baez"
+            },
+            {
+              "id": "2",
+              "text": "Richie Havens"
+            },
+            {
+              "id": "3",
+              "text": "Ten Years After"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Richie Havens"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress plays the role of Cherry Valance in the movie The Outsiders?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diane Lane"
+            },
+            {
+              "id": "1",
+              "text": "Sherit Blackbelt"
+            },
+            {
+              "id": "2",
+              "text": "Diane Ladd"
+            },
+            {
+              "id": "3",
+              "text": "Diane Chambers"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Diane Lane"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress played the role of Vanessa Kensington in the hit movie  Austin Powers: International Man of Mystery ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Debra-Neil Fisher"
+            },
+            {
+              "id": "1",
+              "text": "Carrie Fisher"
+            },
+            {
+              "id": "2",
+              "text": "Elizabeth Hurley"
+            },
+            {
+              "id": "3",
+              "text": "Mimi Rogers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Hurley"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Austin Powers: International Man Of Mystery, which one of Dr. Evils henchmen was played by actor Robert Wagner?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Number 2"
+            },
+            {
+              "id": "1",
+              "text": "Alotta Fagina"
+            },
+            {
+              "id": "2",
+              "text": "Cinema 26"
+            },
+            {
+              "id": "3",
+              "text": "Mustafa"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Number 2"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Austin Powers: International Man of Mystery, Austin marries Vanessa Kensington.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What state did the Woodstock Festival take place in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York"
+            },
+            {
+              "id": "1",
+              "text": "California"
+            },
+            {
+              "id": "2",
+              "text": "Florida"
+            },
+            {
+              "id": "3",
+              "text": "Texas"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: New York"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "festival",
+          "dallas",
+          "evils",
+          "kensington",
+          "film"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Knowledge Quiz: Movie and Silence",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, disneys, bills. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the young FBI trainee played by Jodie Foster in the thriller The Silence of the Lambs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Clarice Starling"
+            },
+            {
+              "id": "1",
+              "text": "Mary Stevens"
+            },
+            {
+              "id": "2",
+              "text": "Michelle Farlow"
+            },
+            {
+              "id": "3",
+              "text": "Catherine Martin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Clarice Starling"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Actress Michelle Pfeiffer was originally asked to star in the movie The Silence Of The Lambs portraying FBI trainee Clarice Starling.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From what Disney movie is the song you can hear in the audio file?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snow White and the Seven Dwarfs"
+            },
+            {
+              "id": "1",
+              "text": "Sleeping Beauty"
+            },
+            {
+              "id": "2",
+              "text": "Cinderella"
+            },
+            {
+              "id": "3",
+              "text": "Fantasia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Snow White and the Seven Dwarfs"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Buffalo Bills dog in the movie The Silence of the Lambs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Benji"
+            },
+            {
+              "id": "1",
+              "text": "Precious"
+            },
+            {
+              "id": "2",
+              "text": "Tinkerbell"
+            },
+            {
+              "id": "3",
+              "text": "Darling"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Precious"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Clarice Starling want to give Dr. Hannibal Lecter when she visits the asylum in the movie The Silence of the Lambs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a homicide report"
+            },
+            {
+              "id": "1",
+              "text": "a handcuff key"
+            },
+            {
+              "id": "2",
+              "text": "the case file"
+            },
+            {
+              "id": "3",
+              "text": "an autopsy report"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: the case file"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Si and Am are the two characters that sang the song you hear. What Disney movie is it from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lady and the Tramp"
+            },
+            {
+              "id": "1",
+              "text": "The Rescuers"
+            },
+            {
+              "id": "2",
+              "text": "The Aristocats"
+            },
+            {
+              "id": "3",
+              "text": "101 Dalmations"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lady and the Tramp"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song you hear in the track is from Disneys 2002  Lilo and Stich movie.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did The Silence of the Lambs make its U.S. debut in movie theatres?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1993"
+            },
+            {
+              "id": "1",
+              "text": "1990"
+            },
+            {
+              "id": "2",
+              "text": "1991"
+            },
+            {
+              "id": "3",
+              "text": "1994"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1991"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This song was sung by the character Horatio Felonious Ignacious Crustaceous Sebastian in what Disney movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Little Mermaid"
+            },
+            {
+              "id": "1",
+              "text": "Aladdin"
+            },
+            {
+              "id": "2",
+              "text": "Beauty and the Beast"
+            },
+            {
+              "id": "3",
+              "text": "Peter Pan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Little Mermaid"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a scene from thriller The Silence of The Lambs, Clarice Starling and Jack Crawford are performing an autopsy on one of the victims. What does Clarice find in the throat of the victim?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a dollar bill"
+            },
+            {
+              "id": "1",
+              "text": "a small machete"
+            },
+            {
+              "id": "2",
+              "text": "a chrysalis moth"
+            },
+            {
+              "id": "3",
+              "text": "a bumble bee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: a chrysalis moth"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The popular Disney movie you will hear an extract from became a long-running show on Broadway.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Lion King"
+            },
+            {
+              "id": "1",
+              "text": "Aladdin"
+            },
+            {
+              "id": "2",
+              "text": "Tarzan"
+            },
+            {
+              "id": "3",
+              "text": "The Sword in the Stone"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Lion King"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie The Silence of the Lambs, how does Clarice finally figure out that she is in Buffalo Bills house?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She sees a fur coat in the house."
+            },
+            {
+              "id": "1",
+              "text": "He tells her I am Buffalo Bill."
+            },
+            {
+              "id": "2",
+              "text": "She sees lots of yarn and thread in the house."
+            },
+            {
+              "id": "3",
+              "text": "She sees a victims head in the house."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: She sees lots of yarn and thread in the house."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1967 animated Disney feature is this song from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Fox and the Hound"
+            },
+            {
+              "id": "1",
+              "text": "Dumbo"
+            },
+            {
+              "id": "2",
+              "text": "The Jungle Book"
+            },
+            {
+              "id": "3",
+              "text": "The Rescuers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Jungle Book"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the hit movie The Silence of the Lambs, what did Dr. Hannibal Lecter do before getting nine life sentences in a Baltimore mental institute?",
+          "options": [
+            {
+              "id": "0",
+              "text": "phychiatrist"
+            },
+            {
+              "id": "1",
+              "text": "oral surgeon"
+            },
+            {
+              "id": "2",
+              "text": "podiatrist"
+            },
+            {
+              "id": "3",
+              "text": "shoe salesman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: phychiatrist"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the serial killer in the great movie The Silence of the Lambs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Boston Strangler"
+            },
+            {
+              "id": "1",
+              "text": "Pittsburgh Pete"
+            },
+            {
+              "id": "2",
+              "text": "Baltimore Bob"
+            },
+            {
+              "id": "3",
+              "text": "Buffalo Bill"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Buffalo Bill"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "disneys",
+          "bills",
+          "scene",
+          "michelle",
+          "silence"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Knowledge Quiz: Misery and Movie",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, profession, director. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the character played by the  Academy Award-winning actress Kathy Bates in the sensational movie Misery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dominique Wilkes"
+            },
+            {
+              "id": "1",
+              "text": "Annie Jilkes"
+            },
+            {
+              "id": "2",
+              "text": "Annie Wilkes"
+            },
+            {
+              "id": "3",
+              "text": "Penny Wilson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Annie Wilkes"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the 1991 Disney movie this song is from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mulan"
+            },
+            {
+              "id": "1",
+              "text": "Beauty and the Beast"
+            },
+            {
+              "id": "2",
+              "text": "Pocahontas"
+            },
+            {
+              "id": "3",
+              "text": "The Little Mermaid"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Beauty and the Beast"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the director of  the hit 90s movie Misery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Bachman"
+            },
+            {
+              "id": "1",
+              "text": "Stephen King"
+            },
+            {
+              "id": "2",
+              "text": "Rob Reiner"
+            },
+            {
+              "id": "3",
+              "text": "Ron Howard"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rob Reiner"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 90s movie Misery, how does Paul Sheldon end up waking up in somebodys home?",
+          "options": [
+            {
+              "id": "0",
+              "text": "car accident"
+            },
+            {
+              "id": "1",
+              "text": "boating accident"
+            },
+            {
+              "id": "2",
+              "text": "plane crash"
+            },
+            {
+              "id": "3",
+              "text": "He went to the wrong house"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: car accident"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This song you can hear in the track is from the Walt Disney animated movie Mulan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the profession of Paul Sheldon, played by James Caan, in the movie Misery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Limo Driver"
+            },
+            {
+              "id": "1",
+              "text": "Milkman"
+            },
+            {
+              "id": "2",
+              "text": "Writer"
+            },
+            {
+              "id": "3",
+              "text": "Mailman"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Writer"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the thriller Misery,  Annie finds out that Paul has been out of his room. She then gets even with him by doing what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "breaking his ankles with a hockey stick"
+            },
+            {
+              "id": "1",
+              "text": "breaking his arms with a pick axe"
+            },
+            {
+              "id": "2",
+              "text": "breaking his ankles with a sledgehammer"
+            },
+            {
+              "id": "3",
+              "text": "breaking his ankles with a baseball bat"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: breaking his ankles with a sledgehammer"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Misery, Paul sends Annie to the store. What does she buy for him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "beer"
+            },
+            {
+              "id": "1",
+              "text": "typing paper"
+            },
+            {
+              "id": "2",
+              "text": "sledgehammer"
+            },
+            {
+              "id": "3",
+              "text": "some print for the typewriter"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: typing paper"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the movie My Cousin Vinny first hit the theatres?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1995"
+            },
+            {
+              "id": "1",
+              "text": "1990"
+            },
+            {
+              "id": "2",
+              "text": "1991"
+            },
+            {
+              "id": "3",
+              "text": "1992"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1992"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Listen to the track and decide what animated Disney feature this song is from.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pocahontas"
+            },
+            {
+              "id": "1",
+              "text": "Aladdin"
+            },
+            {
+              "id": "2",
+              "text": "Brother Bear"
+            },
+            {
+              "id": "3",
+              "text": "Mulan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pocahontas"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does Annie Wilkes get knocked out in the movie Misery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paul cracks her in the head with one of his books."
+            },
+            {
+              "id": "1",
+              "text": "Paul breaks the champagne bottle over her head."
+            },
+            {
+              "id": "2",
+              "text": "Paul clubs her in the head with a tire iron."
+            },
+            {
+              "id": "3",
+              "text": "Paul trips her and she hits her head on a typewriter."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Paul trips her and she hits her head on a typewriter."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the movie Misery first hit the movie theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1990"
+            },
+            {
+              "id": "1",
+              "text": "1993"
+            },
+            {
+              "id": "2",
+              "text": "1994"
+            },
+            {
+              "id": "3",
+              "text": "1992"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1990"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This song won the Academy Award for best song in a movie. What Disney movie did it appear in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snow White and the Seven Dwarfs"
+            },
+            {
+              "id": "1",
+              "text": "The Jungle Book"
+            },
+            {
+              "id": "2",
+              "text": "Pinocchio"
+            },
+            {
+              "id": "3",
+              "text": "Sleeping Beauty"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pinocchio"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the film Misery, Paul leaves his room while Annie is out of the house. How does he find out about her incriminating background?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He finds 12 dead bodies in the basement."
+            },
+            {
+              "id": "1",
+              "text": "He is watching television and sees a story about her on the news."
+            },
+            {
+              "id": "2",
+              "text": "Somebody comes to the house and tells him about her past."
+            },
+            {
+              "id": "3",
+              "text": "He finds an old scrapbook."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He finds an old scrapbook."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the end of the movie Misery, Paul is explaining to his book editor that sometimes he still sees Annie walking around. While he is saying this, he sees Annie walking towards him. Who is actually walking towards him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A limousine driver"
+            },
+            {
+              "id": "1",
+              "text": "A bellhop"
+            },
+            {
+              "id": "2",
+              "text": "a police officer"
+            },
+            {
+              "id": "3",
+              "text": "A waitress in the restaurant"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A waitress in the restaurant"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "profession",
+          "director",
+          "walt",
+          "paul",
+          "film"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Movie and Bears",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, john, judge. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played the tough Judge Chamberlain Haller in the movie My Cousin Vinny?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fred Gwynne"
+            },
+            {
+              "id": "1",
+              "text": "John Astin"
+            },
+            {
+              "id": "2",
+              "text": "Al Lewis"
+            },
+            {
+              "id": "3",
+              "text": "Jackie Coogan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fred Gwynne"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Bad News Bears, Ahmad is an African American boy who plays right field for the Bears and wears uniform #44. He is a big fan of what Hall of Fame baseball player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reggie Jackson"
+            },
+            {
+              "id": "1",
+              "text": "Willey McCovey"
+            },
+            {
+              "id": "2",
+              "text": "Orlando Cepeda"
+            },
+            {
+              "id": "3",
+              "text": "Hank Aaron"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hank Aaron"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The best pitcher on the team in the movie The Bad News Bears was a girl who pitched right handed.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie The Bad News Bears, what is the name of the coach of the Bears, portrayed by Walter Matthau?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fred Eichelberger"
+            },
+            {
+              "id": "1",
+              "text": "Morris Buttermaker"
+            },
+            {
+              "id": "2",
+              "text": "Morris Engelberg"
+            },
+            {
+              "id": "3",
+              "text": "Forest Green"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Morris Buttermaker"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the hilarious movie The Bad News Bears first hit the movie theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1974"
+            },
+            {
+              "id": "1",
+              "text": "1976"
+            },
+            {
+              "id": "2",
+              "text": "1980"
+            },
+            {
+              "id": "3",
+              "text": "1979"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1976"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress played the part of Ferris sister, Jean Bueller, in the comedy movie Ferris Buellers Day Off ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cynthia Rhodes"
+            },
+            {
+              "id": "1",
+              "text": "Jennifer Grey"
+            },
+            {
+              "id": "2",
+              "text": "Kelly Bishop"
+            },
+            {
+              "id": "3",
+              "text": "Buffy Aholic"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jennifer Grey"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the wise cracking shortstop for the Bears in the movie The Bad News Bears?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tanner"
+            },
+            {
+              "id": "1",
+              "text": "Rudi"
+            },
+            {
+              "id": "2",
+              "text": "Roy"
+            },
+            {
+              "id": "3",
+              "text": "Cleveland"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tanner"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the classic John Hughes movie from the 80s Ferris Buellers Day Off first hit the theatres in the U.S.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1982"
+            },
+            {
+              "id": "1",
+              "text": "1987"
+            },
+            {
+              "id": "2",
+              "text": "1983"
+            },
+            {
+              "id": "3",
+              "text": "1986"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1986"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What state do the Bears play in the movie The Bad News Bears?",
+          "options": [
+            {
+              "id": "0",
+              "text": "California"
+            },
+            {
+              "id": "1",
+              "text": "Texas"
+            },
+            {
+              "id": "2",
+              "text": "Philadelphia"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the teams power hitter in The Bad News Bears, who used to ride a motorcycle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kelly"
+            },
+            {
+              "id": "1",
+              "text": "Telly"
+            },
+            {
+              "id": "2",
+              "text": "Rudi"
+            },
+            {
+              "id": "3",
+              "text": "Toby"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kelly"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the classic 80s movie Ferris Buellers Day Off, what is the name of the high school that Ferris and his friends attend?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Cullen Bryant"
+            },
+            {
+              "id": "1",
+              "text": "Crenshaw"
+            },
+            {
+              "id": "2",
+              "text": "Wake Forest"
+            },
+            {
+              "id": "3",
+              "text": "Lake Forest"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lake Forest"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the company that sponsored the Bears in the movie The Bad News Bears?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Just Some Guys Kids"
+            },
+            {
+              "id": "1",
+              "text": "Diplomat Cleaners"
+            },
+            {
+              "id": "2",
+              "text": "Chicos Bail Bonds"
+            },
+            {
+              "id": "3",
+              "text": "Buttermakers Troublemakers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chicos Bail Bonds"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie My Cousin Vinny,  in what field is Mona Lisa considered an expert witness?",
+          "options": [
+            {
+              "id": "0",
+              "text": "automobiles"
+            },
+            {
+              "id": "1",
+              "text": "beauty tips"
+            },
+            {
+              "id": "2",
+              "text": "The New York Yankees"
+            },
+            {
+              "id": "3",
+              "text": "chewing gum"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: automobiles"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie The Bad News Bears, the Bears actually make it to the championship game. What is the name of the team that the Bears play in the championship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Angels"
+            },
+            {
+              "id": "1",
+              "text": "Red Sox"
+            },
+            {
+              "id": "2",
+              "text": "Yankees"
+            },
+            {
+              "id": "3",
+              "text": "Mets"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Yankees"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie The Bad News Bears, Kelly hits a game winning grand slam and leads the Bears to a championship victory.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "john",
+          "judge",
+          "bears",
+          "wise",
+          "part"
+        ]
+      }
+    }
+  ]
+}

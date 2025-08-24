@@ -1,0 +1,2356 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Saturn and Spacecraft",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, pioneer, mirror. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saturn is visible without any optical aid.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pioneer 11 was the first spacecraft to study Saturn in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1976"
+            },
+            {
+              "id": "1",
+              "text": "1975"
+            },
+            {
+              "id": "2",
+              "text": "1979"
+            },
+            {
+              "id": "3",
+              "text": "1973"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1979"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The atmosphere of Saturn consists mainly of what element?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ozone"
+            },
+            {
+              "id": "1",
+              "text": "Hydrogen"
+            },
+            {
+              "id": "2",
+              "text": "Methane"
+            },
+            {
+              "id": "3",
+              "text": "Helium"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hydrogen"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does it take Saturn to complete one orbit around the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "just over 20 years"
+            },
+            {
+              "id": "1",
+              "text": "18 years exactly"
+            },
+            {
+              "id": "2",
+              "text": "about 15 years"
+            },
+            {
+              "id": "3",
+              "text": "just under 30 years"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: just under 30 years"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saturn has more then 80 known moons.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saturns largest moon is known by what name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titan"
+            },
+            {
+              "id": "1",
+              "text": "Europa"
+            },
+            {
+              "id": "2",
+              "text": "Ganymede"
+            },
+            {
+              "id": "3",
+              "text": "Cronus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Titan"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Isaac Newton formulate the famous equation E=mc\u00b2?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the major gap in the ring system around Saturn?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Herschel Gap"
+            },
+            {
+              "id": "1",
+              "text": "The Great Gap"
+            },
+            {
+              "id": "2",
+              "text": "Galileo Division"
+            },
+            {
+              "id": "3",
+              "text": "Cassini Division"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cassini Division"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a convex mirror do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It increases the size"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "It widens the size."
+            },
+            {
+              "id": "3",
+              "text": "It deceases the size"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It deceases the size"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saturn is the Roman name of the Greek Titan Cronus. Who is Cronus son?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zeus"
+            },
+            {
+              "id": "1",
+              "text": "Neptune"
+            },
+            {
+              "id": "2",
+              "text": "Apollo"
+            },
+            {
+              "id": "3",
+              "text": "Hera"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Zeus"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it possible to see around corners?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the spacecraft that entered Saturns orbit in 2004?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pioneer 11"
+            },
+            {
+              "id": "1",
+              "text": "Cassini"
+            },
+            {
+              "id": "2",
+              "text": "Voyager 2"
+            },
+            {
+              "id": "3",
+              "text": "Galileo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cassini"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Light slows down in this object and causes it to look bent.",
+          "options": [
+            {
+              "id": "0",
+              "text": "glass"
+            },
+            {
+              "id": "1",
+              "text": "lamp"
+            },
+            {
+              "id": "2",
+              "text": "water"
+            },
+            {
+              "id": "3",
+              "text": "gas"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: water"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Light waves travel in a straight line.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a concave mirror do with the object that is reflected?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It widens the size of the object."
+            },
+            {
+              "id": "1",
+              "text": "It increases the size of the object."
+            },
+            {
+              "id": "2",
+              "text": "It decreases the size of the object."
+            },
+            {
+              "id": "3",
+              "text": "Depends on the on the distance between the object and the mirror."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Depends on the on the distance between the object and the mirror."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "pioneer",
+          "mirror",
+          "line",
+          "waves",
+          "convex"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Neptune and Atom",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, nucleus, part. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many moons does Neptune have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "13"
+            },
+            {
+              "id": "2",
+              "text": "None"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 13"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following determines to which chemical element a certain atom belongs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The number of protons"
+            },
+            {
+              "id": "1",
+              "text": "The number of electrons"
+            },
+            {
+              "id": "2",
+              "text": "The number of neutrons"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The number of protons"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The planet Neptune can be seen with the naked eye.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two elements comprise the bulk of the atmosphere of Neptune?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hydrogen and Methane"
+            },
+            {
+              "id": "1",
+              "text": "Helium and Carbon Dioxide"
+            },
+            {
+              "id": "2",
+              "text": "Helium and Methane"
+            },
+            {
+              "id": "3",
+              "text": "Hydrogen and Helium"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hydrogen and Helium"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the first spacecraft that visited Neptune?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Voyager 1"
+            },
+            {
+              "id": "1",
+              "text": "Pioneer 10"
+            },
+            {
+              "id": "2",
+              "text": "Pioneer 11"
+            },
+            {
+              "id": "3",
+              "text": "Voyager 2"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Voyager 2"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the only stable chemical element whose atom can contain no neutrons at all in its nucleus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oxygen-1"
+            },
+            {
+              "id": "1",
+              "text": "Hydrogen-1"
+            },
+            {
+              "id": "2",
+              "text": "There is no such element."
+            },
+            {
+              "id": "3",
+              "text": "Helium-3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hydrogen-1"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part of the atoms mass is concentrated in its nucleus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "90 %"
+            },
+            {
+              "id": "1",
+              "text": "70 %"
+            },
+            {
+              "id": "2",
+              "text": "0,01 %"
+            },
+            {
+              "id": "3",
+              "text": "99.9 %"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 99.9 %"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what date was the planet Neptune discovered?",
+          "options": [
+            {
+              "id": "0",
+              "text": "September 23, 1846."
+            },
+            {
+              "id": "1",
+              "text": "August 19, 1901."
+            },
+            {
+              "id": "2",
+              "text": "May 3, 1865."
+            },
+            {
+              "id": "3",
+              "text": "December 19, 1888."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: September 23, 1846."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long is one day on the planet Neptune?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Just over 23 hours"
+            },
+            {
+              "id": "1",
+              "text": "Just over 16 hours"
+            },
+            {
+              "id": "2",
+              "text": "Just under 17 hours"
+            },
+            {
+              "id": "3",
+              "text": "Just under 10 hours"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Just over 16 hours"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does it take Neptune to orbit the Sun once?",
+          "options": [
+            {
+              "id": "0",
+              "text": "211 years"
+            },
+            {
+              "id": "1",
+              "text": "165 years"
+            },
+            {
+              "id": "2",
+              "text": "89 years"
+            },
+            {
+              "id": "3",
+              "text": "128 years"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 165 years"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the 1997 sci-fi horror movie, starring Sam Neil, that takes place in orbit around the planet Neptune?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Event Horizon"
+            },
+            {
+              "id": "1",
+              "text": "Alien 3"
+            },
+            {
+              "id": "2",
+              "text": "The Black Hole"
+            },
+            {
+              "id": "3",
+              "text": "Red Planet"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Event Horizon"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the number of neutrons in the nucleus of an atom determine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The isotope of the element"
+            },
+            {
+              "id": "1",
+              "text": "The bonds the element forms"
+            },
+            {
+              "id": "2",
+              "text": "The charge of the ions of the element"
+            },
+            {
+              "id": "3",
+              "text": "The element itself"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The isotope of the element"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If an atom loses an electron its electromagnetic balance is disturbed and the atom decays releasing  ionizing particles and a large amount of energy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The word atom comes from the Greek atomos which means what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miniature"
+            },
+            {
+              "id": "1",
+              "text": "Fast"
+            },
+            {
+              "id": "2",
+              "text": "Invisible"
+            },
+            {
+              "id": "3",
+              "text": "Uncuttable"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Uncuttable"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Neptune has rings around it just like Saturn.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "nucleus",
+          "part",
+          "neutrons",
+          "date",
+          "number"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Kind and Statements",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, parasite, diseases. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these does a positive hydrogen ion lack?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neutrons"
+            },
+            {
+              "id": "1",
+              "text": "Electrons"
+            },
+            {
+              "id": "2",
+              "text": "Protons"
+            },
+            {
+              "id": "3",
+              "text": "Electrons and neutrons"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Electrons and neutrons"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of animal is the primary host of the protozoan Toxoplasma gondii which causes toxoplasmosis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pigeon"
+            },
+            {
+              "id": "1",
+              "text": "Cat"
+            },
+            {
+              "id": "2",
+              "text": "Fly"
+            },
+            {
+              "id": "3",
+              "text": "Dog"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cat"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the atomic number of the atom define?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Its number of protons"
+            },
+            {
+              "id": "2",
+              "text": "Its electrical charge"
+            },
+            {
+              "id": "3",
+              "text": "Its number of isotopes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Its number of protons"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the device used to measure the mass of atoms?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Submolecular weighter"
+            },
+            {
+              "id": "1",
+              "text": "Atomometer"
+            },
+            {
+              "id": "2",
+              "text": "Mass detector"
+            },
+            {
+              "id": "3",
+              "text": "Mass spectrometer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mass spectrometer"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about ticks, common ectoparasites and vectors of numerous diseases?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They feed on blood."
+            },
+            {
+              "id": "1",
+              "text": "Young ticks have 6 legs, and mature ticks have 8 legs."
+            },
+            {
+              "id": "2",
+              "text": "They live on mammals, birds, reptiles and amphibians."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of organisms cause the parasitic infection known as ringworm?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Fungi"
+            },
+            {
+              "id": "2",
+              "text": "Mites"
+            },
+            {
+              "id": "3",
+              "text": "Intestinal worms"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fungi"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although it was thought to be the smallest component of matter, physicists discovered that the atom consists of electrons, protons and neutrons. But even some of these subatomic particles can be broken down further.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these diseases is caused by the African tsetse fly?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nagana"
+            },
+            {
+              "id": "1",
+              "text": "Sleeping sickness"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "African trypanosomiasis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This food is rich in omega \u2013 3 fatty acids, magnesium and potassium.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Salmon"
+            },
+            {
+              "id": "1",
+              "text": "Dark Chocolate"
+            },
+            {
+              "id": "2",
+              "text": "Berries"
+            },
+            {
+              "id": "3",
+              "text": "Oatmeal"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Oatmeal"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of animal causes the parasitic Dracunculiasis disease that is endemic to Sub-Saharan Africa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An insect that injects a plasmodium through its bite"
+            },
+            {
+              "id": "1",
+              "text": "A mite that is carried by poultry"
+            },
+            {
+              "id": "2",
+              "text": "A lizard that carries dangerous unicellular parasites"
+            },
+            {
+              "id": "3",
+              "text": "A worm whose eggs are ingested when drinking contaminated water"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A worm whose eggs are ingested when drinking contaminated water"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is not true about the head louse, which is an ectoparasite in humans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It cant fly."
+            },
+            {
+              "id": "1",
+              "text": "It has two antennae on its head."
+            },
+            {
+              "id": "2",
+              "text": "It has eight powerful legs specialized for jumping."
+            },
+            {
+              "id": "3",
+              "text": "It feeds on blood."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It has eight powerful legs specialized for jumping."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about parasites in general?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are usually much smaller that their host."
+            },
+            {
+              "id": "1",
+              "text": "They are highly specialized organisms."
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "They reproduce faster than their host and in much larger quantities."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the flea, a well-known external parasite?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They have laterally compressed bodies."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "They dont have wings."
+            },
+            {
+              "id": "3",
+              "text": "They live on mammals and birds."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the exact meaning of the term epiparasite?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A specific type of parasite that lives in the human skin"
+            },
+            {
+              "id": "1",
+              "text": "A parasite that is actually beneficial for its host"
+            },
+            {
+              "id": "2",
+              "text": "An external parasite that lives on the outside of its hosts body"
+            },
+            {
+              "id": "3",
+              "text": "A parasite whose host is another parasite"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A parasite whose host is another parasite"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of symptoms do parasite infections usually induce in humans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joint pain"
+            },
+            {
+              "id": "1",
+              "text": "Chronic fatigue"
+            },
+            {
+              "id": "2",
+              "text": "Unrestrained hunger"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "parasite",
+          "diseases",
+          "lack",
+          "kind",
+          "food"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Microscope and Specimen",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, salmon, amount. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the microscope part in which the lens is located.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Objectives"
+            },
+            {
+              "id": "1",
+              "text": "Body tube"
+            },
+            {
+              "id": "2",
+              "text": "Ocular or eyepiece"
+            },
+            {
+              "id": "3",
+              "text": "Mirror"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ocular or eyepiece"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Salmon is high in which of these?",
+          "options": [
+            {
+              "id": "0",
+              "text": "protein"
+            },
+            {
+              "id": "1",
+              "text": "omega-3 fatty acids"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "vitamin D"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part of the microscope holds the draw tube in place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Base"
+            },
+            {
+              "id": "1",
+              "text": "Arm"
+            },
+            {
+              "id": "2",
+              "text": "Body tube"
+            },
+            {
+              "id": "3",
+              "text": "Stage clip"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Body tube"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The fine adjustment knob of the microscope is used to move the body tube when focusing the specimen under the low power objective.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Berries are good for the heart.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dark chocolate reduces blood pressure while enhancing circulation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This microscope part supports the glass slide and the specimen.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Revolving nose piece"
+            },
+            {
+              "id": "1",
+              "text": "Stage clip"
+            },
+            {
+              "id": "2",
+              "text": "Draw tube"
+            },
+            {
+              "id": "3",
+              "text": "Arm"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stage clip"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lentils and beans are rich in fiber, omega-3 acids and calcium.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Almonds possess cholesterol-lowering properties.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do avocados contain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Copper and manganese"
+            },
+            {
+              "id": "1",
+              "text": "Vitamins B, vitamin K, vitamin E and vitamin C"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Omega 3 and omega 6 fatty acids"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Olive oil lowers total cholesterol and LDL levels in the blood.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Spinach is extremely rich in antioxidants.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This part allows the tilting of the microscope at various angles.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Inclination joint"
+            },
+            {
+              "id": "1",
+              "text": "Adjustment knob"
+            },
+            {
+              "id": "2",
+              "text": "Stage Clip"
+            },
+            {
+              "id": "3",
+              "text": "Arm"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Inclination joint"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The diaphragm regulates the amount of light reaching the microscope objective.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 650BC the father of medicine, Hippocrates, recommended it to relieve stomach pain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Soy"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Linseed"
+            },
+            {
+              "id": "3",
+              "text": "Oatmeal"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Linseed"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "salmon",
+          "amount",
+          "lens",
+          "part",
+          "reduces"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Light and Body",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, radiation, brain. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of anatomical structures does the Circle of Willis consist of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arteries"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Veins"
+            },
+            {
+              "id": "3",
+              "text": "Neurons"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Arteries"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The so-called McBurneys point is located in this part of the human body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thorax"
+            },
+            {
+              "id": "1",
+              "text": "Foot"
+            },
+            {
+              "id": "2",
+              "text": "Abdomen"
+            },
+            {
+              "id": "3",
+              "text": "Head"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Abdomen"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a property of light?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frequency"
+            },
+            {
+              "id": "1",
+              "text": "Polarization"
+            },
+            {
+              "id": "2",
+              "text": "Intensity"
+            },
+            {
+              "id": "3",
+              "text": "Viscosity"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Viscosity"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which part of the human body is the so-called Pouch of Douglas located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pelvis"
+            },
+            {
+              "id": "1",
+              "text": "Aorta"
+            },
+            {
+              "id": "2",
+              "text": "Stomach"
+            },
+            {
+              "id": "3",
+              "text": "Duodenum"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pelvis"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the properties it exhibits, light is defined as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Electromagnetic wave"
+            },
+            {
+              "id": "1",
+              "text": "Both wave and particles"
+            },
+            {
+              "id": "2",
+              "text": "Living organism"
+            },
+            {
+              "id": "3",
+              "text": "Group of particles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Both wave and particles"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The absence of the protein called Christmas factor, a.k.a. factor IX, from the human body results in this serious disease.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Parkinsons disease"
+            },
+            {
+              "id": "1",
+              "text": "Epilepsy"
+            },
+            {
+              "id": "2",
+              "text": "Diabetes"
+            },
+            {
+              "id": "3",
+              "text": "Hemophilia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hemophilia"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Albert Einstein asserted that the energy of a photon is proportional to what in his study of the photoelectronic effects?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its mass"
+            },
+            {
+              "id": "1",
+              "text": "Its speed"
+            },
+            {
+              "id": "2",
+              "text": "Its volume"
+            },
+            {
+              "id": "3",
+              "text": "Its frequency"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Its frequency"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the occupation of the person after whom the human sideburns were named?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aviator"
+            },
+            {
+              "id": "1",
+              "text": "Painter"
+            },
+            {
+              "id": "2",
+              "text": "Surgeon"
+            },
+            {
+              "id": "3",
+              "text": "Soldier"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Soldier"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The common name of the tendo calcaneus or calcaneal tendon of the human body was derived from the name of this Greek mythological hero.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Odysseus"
+            },
+            {
+              "id": "1",
+              "text": "Hercules"
+            },
+            {
+              "id": "2",
+              "text": "Heracles"
+            },
+            {
+              "id": "3",
+              "text": "Achilles"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Achilles"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where in the human body is the Golgi organ located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In tendons"
+            },
+            {
+              "id": "1",
+              "text": "Within the brain"
+            },
+            {
+              "id": "2",
+              "text": "Within the cell"
+            },
+            {
+              "id": "3",
+              "text": "In the eye"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: In tendons"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately what is the speed of light in vacuum?",
+          "options": [
+            {
+              "id": "0",
+              "text": "250 000 km/s"
+            },
+            {
+              "id": "1",
+              "text": "1 000 000 km/s"
+            },
+            {
+              "id": "2",
+              "text": "12 000 km/s"
+            },
+            {
+              "id": "3",
+              "text": "300 000 km/s"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 300 000 km/s"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which ody part of the human body can the Darwins tubercle be found in some individuals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ear"
+            },
+            {
+              "id": "1",
+              "text": "Tongue"
+            },
+            {
+              "id": "2",
+              "text": "Nose"
+            },
+            {
+              "id": "3",
+              "text": "Eyelid"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ear"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Brocas area is located in the human brain. What is it responsible for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hearing"
+            },
+            {
+              "id": "1",
+              "text": "Sleep patterns"
+            },
+            {
+              "id": "2",
+              "text": "Eyesight"
+            },
+            {
+              "id": "3",
+              "text": "Speech"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Speech"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what part of the human body are the cords of Billroth located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diaphragm"
+            },
+            {
+              "id": "1",
+              "text": "Spleen"
+            },
+            {
+              "id": "2",
+              "text": "Heart"
+            },
+            {
+              "id": "3",
+              "text": "Larynx"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Spleen"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "We call visible light the electromagnetic radiation belonging to the what wave range?",
+          "options": [
+            {
+              "id": "0",
+              "text": "12,000-15,000 nm"
+            },
+            {
+              "id": "1",
+              "text": "1000-1500 nm"
+            },
+            {
+              "id": "2",
+              "text": "100-520"
+            },
+            {
+              "id": "3",
+              "text": "380-750 nm"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 380-750 nm"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "radiation",
+          "brain",
+          "protein",
+          "structures",
+          "point"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Light and Venus",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, jupiter, mercury. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are Mercury, Venus, Earth and Mars mostly made of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "gas"
+            },
+            {
+              "id": "1",
+              "text": "rock"
+            },
+            {
+              "id": "2",
+              "text": "none of these"
+            },
+            {
+              "id": "3",
+              "text": "ice"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: rock"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Marine 1, launched in 1961, was the first probe to visit another planet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the temperature of the core of the sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15,000,000 degrees Celsius"
+            },
+            {
+              "id": "1",
+              "text": "70 degrees Celsius"
+            },
+            {
+              "id": "2",
+              "text": "15,000,000 degrees Fahrenheit"
+            },
+            {
+              "id": "3",
+              "text": "1,000 degrees Kelvin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 15,000,000 degrees Celsius"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these thermal emissions of light is the rarest in nature?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are all equally frequent"
+            },
+            {
+              "id": "1",
+              "text": "Blue thermal emission"
+            },
+            {
+              "id": "2",
+              "text": "Red  thermal emission"
+            },
+            {
+              "id": "3",
+              "text": "White thermal emission"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Blue thermal emission"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jupiter has the largest planetary atmosphere in the Solar System.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Light, just as wind, has the ability to push objects in its path.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Venus is classified as Earths sister planet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is Venus the coldest planet in the Solar System?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many major planets are there in the Solar System?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "11"
+            },
+            {
+              "id": "3",
+              "text": "8"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 8"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "We watch TV thanks to which of these processes forming light?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fiboluuminescence"
+            },
+            {
+              "id": "1",
+              "text": "Bioluminescence"
+            },
+            {
+              "id": "2",
+              "text": "Cathodoluminescence"
+            },
+            {
+              "id": "3",
+              "text": "Sololuminescence"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cathodoluminescence"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In his Theory of Relativity, Albert Einstein discloses that when you multiply the speed of light by the mass you get what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The density"
+            },
+            {
+              "id": "1",
+              "text": "The volume"
+            },
+            {
+              "id": "2",
+              "text": "The frequency"
+            },
+            {
+              "id": "3",
+              "text": "The energy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The energy"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the second planet from the Sun called by the Greeks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aphrodite"
+            },
+            {
+              "id": "1",
+              "text": "Phosphorus"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Hesperus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jupiter has rings.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What property of light might change its value when a beam of light crosses the border between vacuum and another medium or between two different media?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "The polarization"
+            },
+            {
+              "id": "2",
+              "text": "The wavelength"
+            },
+            {
+              "id": "3",
+              "text": "The intensity"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The wavelength"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Venus was mistaken for a UFO.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "jupiter",
+          "mercury",
+          "theory",
+          "tv",
+          "beam"
+        ]
+      }
+    }
+  ]
+}

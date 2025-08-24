@@ -1,0 +1,2460 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Cell and Mail",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, mean, mail. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You can use FTP to download a video file.  It stands for this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "File To Person"
+            },
+            {
+              "id": "1",
+              "text": "File Transfer Protocol"
+            },
+            {
+              "id": "2",
+              "text": "Fast Transfer Protocol"
+            },
+            {
+              "id": "3",
+              "text": "Full Transfer Protocol"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: File Transfer Protocol"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This property of the cell membrane allows allows some particles to cross more easily than others.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Discriminative passage"
+            },
+            {
+              "id": "1",
+              "text": "Semi-permeability"
+            },
+            {
+              "id": "2",
+              "text": "Semi-discriminative"
+            },
+            {
+              "id": "3",
+              "text": "Selective permeability"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Selective permeability"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "POP is used to retrieve e-mail from a mail server.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Performance Oriented Packaging"
+            },
+            {
+              "id": "1",
+              "text": "Primary Outgoing Protocol"
+            },
+            {
+              "id": "2",
+              "text": "Post Office Protocol"
+            },
+            {
+              "id": "3",
+              "text": "Post Office Procedures"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Post Office Protocol"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Do you like listening to MP3s? What does this mystical acronym mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Most Popular Layer-3 Audio"
+            },
+            {
+              "id": "1",
+              "text": "Moving Picture Experts Group Layer-3 Audio"
+            },
+            {
+              "id": "2",
+              "text": "Movable Protocol for Layer-3 Audio"
+            },
+            {
+              "id": "3",
+              "text": "Modern Protocol 3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Moving Picture Experts Group Layer-3 Audio"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Do you know what TCP stands for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Transfer Control Protocol"
+            },
+            {
+              "id": "1",
+              "text": "Time Control Protocol"
+            },
+            {
+              "id": "2",
+              "text": "Turbo Connection Protocol"
+            },
+            {
+              "id": "3",
+              "text": "Transmission Control Protocol"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Transmission Control Protocol"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most of the pages on the Web are written in HTML.  It stands for this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hyper Text Markup Language"
+            },
+            {
+              "id": "1",
+              "text": "Hillarious Text Message Language"
+            },
+            {
+              "id": "2",
+              "text": "Hardened Text Message Language"
+            },
+            {
+              "id": "3",
+              "text": "Hyper Text Make-up Language"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hyper Text Markup Language"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You would use SMTP to send email messages.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snail Mail Transfer Protocol"
+            },
+            {
+              "id": "1",
+              "text": "Simple Mail Transfer Protocol"
+            },
+            {
+              "id": "2",
+              "text": "Super Mail Transfer Procedure"
+            },
+            {
+              "id": "3",
+              "text": "Standard Mail Transfer Protocol"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Simple Mail Transfer Protocol"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Glycolipids in cell membranes are involved in transport, enzymatic activity, intercellular joining, and cell-cell recognition.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the Davson-Danielli cell model look like?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two layers of proteins sandwich a phospholipid bilayer"
+            },
+            {
+              "id": "1",
+              "text": "There are no proteins, only a phospholipid bilayer"
+            },
+            {
+              "id": "2",
+              "text": "Proteins and phospholipids are structured in a checkerboard pattern"
+            },
+            {
+              "id": "3",
+              "text": "Proteins are embedded in a phospholipid bilayer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Two layers of proteins sandwich a phospholipid bilayer"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What animal cell helped prove that membrane proteins drift?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dog"
+            },
+            {
+              "id": "1",
+              "text": "Mouse"
+            },
+            {
+              "id": "2",
+              "text": "Fish"
+            },
+            {
+              "id": "3",
+              "text": "Monkey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mouse"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "IRC lets people all over the world chat in virtual rooms, called channels.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Internet Rough Chat"
+            },
+            {
+              "id": "1",
+              "text": "Internet Reality Chat"
+            },
+            {
+              "id": "2",
+              "text": "Internet Real Chat"
+            },
+            {
+              "id": "3",
+              "text": "Internet Relay Chat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Internet Relay Chat"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "GPRS is a new service designed for digital cellular networks.",
+          "options": [
+            {
+              "id": "0",
+              "text": "General Packet Radio System"
+            },
+            {
+              "id": "1",
+              "text": "General Pocket Radio System"
+            },
+            {
+              "id": "2",
+              "text": "Global Packet Radio Service"
+            },
+            {
+              "id": "3",
+              "text": "General Packet Radio Service"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: General Packet Radio Service"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Use an IMAP server to get advanced mail features.  What does IMAP stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Internet Message Access Protocol"
+            },
+            {
+              "id": "1",
+              "text": "Intelligent Message Account Process"
+            },
+            {
+              "id": "2",
+              "text": "Internet Massive Access Peak"
+            },
+            {
+              "id": "3",
+              "text": "Intelligent Messaging Account Protocol"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Internet Message Access Protocol"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All cell proteins are embedded in the cell membrane.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name given to the current model of a cell membrane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bilayer Phospholipid model"
+            },
+            {
+              "id": "1",
+              "text": "Davson-Danielli model"
+            },
+            {
+              "id": "2",
+              "text": "Fluid Mosaic model"
+            },
+            {
+              "id": "3",
+              "text": "Protein-Lipid model"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fluid Mosaic model"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "mean",
+          "mail",
+          "people",
+          "world",
+          "model"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Body and Water",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, fruits, server/client. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which plant with tasty fruits is also a wireless handheld device?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Strawberry"
+            },
+            {
+              "id": "1",
+              "text": "Blueberry"
+            },
+            {
+              "id": "2",
+              "text": "Gooseberry"
+            },
+            {
+              "id": "3",
+              "text": "Blackberry"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Blackberry"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You are stranded on an island and start drinking water from the ocean because there is no other water source. What state will this put your cells in, and what will happen to you?",
+          "options": [
+            {
+              "id": "0",
+              "text": "hypotonic; rehydrate"
+            },
+            {
+              "id": "1",
+              "text": "isotonic; be in the same state"
+            },
+            {
+              "id": "2",
+              "text": "hypotonic; become sick"
+            },
+            {
+              "id": "3",
+              "text": "hypertonic; dehydrate"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: hypertonic; dehydrate"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of which beautiful flower also refers to an e-mail server/client?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Orchid"
+            },
+            {
+              "id": "1",
+              "text": "Rose"
+            },
+            {
+              "id": "2",
+              "text": "Lotus"
+            },
+            {
+              "id": "3",
+              "text": "Lily"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lotus"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which astronomical phenomenon is also a popular programming environment?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Polar lights"
+            },
+            {
+              "id": "1",
+              "text": "Eclipse"
+            },
+            {
+              "id": "2",
+              "text": "Equinox"
+            },
+            {
+              "id": "3",
+              "text": "Comet"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eclipse"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which art term is also used to refer to dependencies between computer applications or processes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Choreography"
+            },
+            {
+              "id": "1",
+              "text": "Screenplay"
+            },
+            {
+              "id": "2",
+              "text": "Directing"
+            },
+            {
+              "id": "3",
+              "text": "Libretto"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Choreography"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which vehicle can also transport data?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ship"
+            },
+            {
+              "id": "1",
+              "text": "Car"
+            },
+            {
+              "id": "2",
+              "text": "Plane"
+            },
+            {
+              "id": "3",
+              "text": "Bus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bus"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part of your body becomes a connection method when colored?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green tongue"
+            },
+            {
+              "id": "1",
+              "text": "Blond hair"
+            },
+            {
+              "id": "2",
+              "text": "Bluetooth"
+            },
+            {
+              "id": "3",
+              "text": "Red-eye"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bluetooth"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which small software is actually a software giant from Redmond?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Milisoft"
+            },
+            {
+              "id": "1",
+              "text": "Nanosoft"
+            },
+            {
+              "id": "2",
+              "text": "Minisoft"
+            },
+            {
+              "id": "3",
+              "text": "Microsoft"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Microsoft"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does active transport require the energy of the molecule adenosine diphosphate or ADP?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which vegetables come in the Enterprise Java flavour?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beans"
+            },
+            {
+              "id": "1",
+              "text": "Broccoli"
+            },
+            {
+              "id": "2",
+              "text": "Potatoes"
+            },
+            {
+              "id": "3",
+              "text": "Peas"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Beans"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How permeable is the cell membrane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is semi permeable"
+            },
+            {
+              "id": "1",
+              "text": "It varies in permeablity"
+            },
+            {
+              "id": "2",
+              "text": "It is fully permeable"
+            },
+            {
+              "id": "3",
+              "text": "It is not permeable"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It is semi permeable"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which sweets are stored by an Internet browser?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Biscuits"
+            },
+            {
+              "id": "1",
+              "text": "Candy bars"
+            },
+            {
+              "id": "2",
+              "text": "Cookies"
+            },
+            {
+              "id": "3",
+              "text": "Chocolates"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cookies"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of which capital city also refers to an open source project for the Java platform?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rome"
+            },
+            {
+              "id": "1",
+              "text": "Mexico"
+            },
+            {
+              "id": "2",
+              "text": "Jakarta"
+            },
+            {
+              "id": "3",
+              "text": "Cairo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jakarta"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which girls name is also a the name of a computer programming language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ada"
+            },
+            {
+              "id": "1",
+              "text": "Amelia"
+            },
+            {
+              "id": "2",
+              "text": "Anna"
+            },
+            {
+              "id": "3",
+              "text": "Agnes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ada"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When you take a shower or bath for a long time, the skin on your fingertips shrivels.  This happens because your body does this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Loses water in the hypotonic solution"
+            },
+            {
+              "id": "1",
+              "text": "Loses water in the hypertonic solution"
+            },
+            {
+              "id": "2",
+              "text": "Absorbs water in the hypertonic solution"
+            },
+            {
+              "id": "3",
+              "text": "Absorbs water in the hypotonic solution"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Absorbs water in the hypotonic solution"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "fruits",
+          "server/client",
+          "programming",
+          "part",
+          "browser"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Degrees and Solution",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, mean, square. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If we add up all the interior angles of a quadrilateral, what sum do we get?",
+          "options": [
+            {
+              "id": "0",
+              "text": "90 degrees"
+            },
+            {
+              "id": "1",
+              "text": "540 degrees"
+            },
+            {
+              "id": "2",
+              "text": "180 degrees"
+            },
+            {
+              "id": "3",
+              "text": "360 degrees"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 360 degrees"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The equilibrium constant expression for a chemical equation is equal to the product concentrations divided by the reactant concentrations.  For example, A + B = C + D will give an equilibrium constant = [C][D]/[A][B].  According to LeChateliers principle, which of the following will affect the equilibrium of a given reaction?",
+          "options": [
+            {
+              "id": "0",
+              "text": "changing the volume or pressure"
+            },
+            {
+              "id": "1",
+              "text": "all of these will affect equilibrium"
+            },
+            {
+              "id": "2",
+              "text": "increasing the temperature"
+            },
+            {
+              "id": "3",
+              "text": "changing the concentration of a reactant or a product"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: all of these will affect equilibrium"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do we call a triangle that has three unequal sides?",
+          "options": [
+            {
+              "id": "0",
+              "text": "heronian"
+            },
+            {
+              "id": "1",
+              "text": "equilateral"
+            },
+            {
+              "id": "2",
+              "text": "scalene"
+            },
+            {
+              "id": "3",
+              "text": "isosceles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: scalene"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which letter of the alphabet is also the name of a popular computer programming language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "E"
+            },
+            {
+              "id": "1",
+              "text": "C"
+            },
+            {
+              "id": "2",
+              "text": "B"
+            },
+            {
+              "id": "3",
+              "text": "A"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: C"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Law of Pythagoras can always be used to find the length of the hypotenuse of an isosceles triangle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hexagon ABCDEF has six equal sides and six equal angles. How many degrees is each angle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "144 degrees"
+            },
+            {
+              "id": "1",
+              "text": "90 degrees"
+            },
+            {
+              "id": "2",
+              "text": "180 degrees"
+            },
+            {
+              "id": "3",
+              "text": "120 degrees"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 120 degrees"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chemistry is defined as the natural science of matter, dealing with the composition of substances and their properties, reactions and interactions.  Which of the following would NOT be an example of a chemical reaction?",
+          "options": [
+            {
+              "id": "0",
+              "text": "mixing vinegar and baking soda together"
+            },
+            {
+              "id": "1",
+              "text": "the burning of a piece of wood"
+            },
+            {
+              "id": "2",
+              "text": "converting liquid water to gaseous steam"
+            },
+            {
+              "id": "3",
+              "text": "the rusting of a nail"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: converting liquid water to gaseous steam"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Bronsted-Lowry acid-base classification, an acid is defined as a proton donor and a base is a proton acceptor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You have a string that is 120 inches. You must use this to enclose a shape of maximum area. What shape should  you form?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A square of 60 inches on each side"
+            },
+            {
+              "id": "1",
+              "text": "A square of 30 inches on each side"
+            },
+            {
+              "id": "2",
+              "text": "A circle of circumference 120 inches"
+            },
+            {
+              "id": "3",
+              "text": "A triangle of 30 inches on each side"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A circle of circumference 120 inches"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two angles of a triangle are 4 degrees and 56 degrees, respectively. How large is the  third angle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "60 degrees"
+            },
+            {
+              "id": "1",
+              "text": "45 degrees"
+            },
+            {
+              "id": "2",
+              "text": "120 degrees"
+            },
+            {
+              "id": "3",
+              "text": "30 degrees"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 120 degrees"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a curve?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A plane shape that  never ends."
+            },
+            {
+              "id": "1",
+              "text": "A plane shape that has no depth."
+            },
+            {
+              "id": "2",
+              "text": "A plane shape that is not straight."
+            },
+            {
+              "id": "3",
+              "text": "Anything that can be drawn in a plane without lifting the writing device."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Anything that can be drawn in a plane without lifting the writing device."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If we are using  regular square graph papers, what do we call the point where the x-axis meets the y-axis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the abscissa"
+            },
+            {
+              "id": "1",
+              "text": "the quadrant"
+            },
+            {
+              "id": "2",
+              "text": "the ordinate"
+            },
+            {
+              "id": "3",
+              "text": "the origin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: the origin"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term describes the concentration of a solution in moles per liter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "molarity"
+            },
+            {
+              "id": "1",
+              "text": "osmosis"
+            },
+            {
+              "id": "2",
+              "text": "diffusion"
+            },
+            {
+              "id": "3",
+              "text": "molality"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: molarity"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "pH, or the negative log of the H3O+ (hydronium ion) concentration, is the measure of acidity or basicity of an aqueous solution.  Which solution would have the lowest pH at room temperature?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a weak base such as ammonium hydroxide"
+            },
+            {
+              "id": "1",
+              "text": "a weak acid such as acetic acid"
+            },
+            {
+              "id": "2",
+              "text": "a strong acid such as sulfuric acid"
+            },
+            {
+              "id": "3",
+              "text": "a strong base such as sodium hydroxide solution"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: a strong acid such as sulfuric acid"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the  word geometry mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "width and length"
+            },
+            {
+              "id": "1",
+              "text": "earth measure"
+            },
+            {
+              "id": "2",
+              "text": "shapes and sizes"
+            },
+            {
+              "id": "3",
+              "text": "size and measurement"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: earth measure"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "mean",
+          "square",
+          "ph",
+          "acid",
+          "solution"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Minerals and Vitamin",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, nutrients, technique. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin C and Vitamins of the B group are crucial for the proper functioning of the body.  Are they considered to be complex, fat-soluble substances?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Labeling of nutrition contents is required for most prepared foods. In the US, the Food and Drug Administration, the government agency responsible for regulating food, drugs, and cosmetic products, requires that a product labeled low fat contain what maximum amount of fats?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No more than 3 grams per serving"
+            },
+            {
+              "id": "1",
+              "text": "Less than 1 gram per serving"
+            },
+            {
+              "id": "2",
+              "text": "Less than 5 grams per serving"
+            },
+            {
+              "id": "3",
+              "text": "No more than 15% of the servings calories from fat"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No more than 3 grams per serving"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which cooking technique is considered to be best for preserving vitamins and minerals in meat and fish, during heat processing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Deep frying"
+            },
+            {
+              "id": "1",
+              "text": "Braising"
+            },
+            {
+              "id": "2",
+              "text": "Sauteing"
+            },
+            {
+              "id": "3",
+              "text": "Roasting"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Roasting"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Along with the minerals extracted from nutrients, the human body also produces minerals of its own, essential for maintaining it in good condition.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This mineral, an important component of all living creatures cellular membranes, is one of the major minerals required in the structural composition of bones and teeth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phosphorus"
+            },
+            {
+              "id": "1",
+              "text": "Iron"
+            },
+            {
+              "id": "2",
+              "text": "Potassium"
+            },
+            {
+              "id": "3",
+              "text": "Fluoride"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Phosphorus"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the first geometry textbook which was written by the ancient Greek Euclid?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Stoia"
+            },
+            {
+              "id": "1",
+              "text": "The Principia"
+            },
+            {
+              "id": "2",
+              "text": "The Elements"
+            },
+            {
+              "id": "3",
+              "text": "The Academy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Elements"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Carbohydrates can be found in breads, cereals, fruits, and vegetables. Which of these compounds is not a carbohydrate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fructose"
+            },
+            {
+              "id": "1",
+              "text": "Cellulose"
+            },
+            {
+              "id": "2",
+              "text": "Starch"
+            },
+            {
+              "id": "3",
+              "text": "Glycerol"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Glycerol"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin A plays an important role in vision, growth, healthy skin and hair, immune function, and reproduction. Which of these is not a significant source of Vitamin A?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Egg yolks"
+            },
+            {
+              "id": "1",
+              "text": "Nuts and grains"
+            },
+            {
+              "id": "2",
+              "text": "Dark leafy greens"
+            },
+            {
+              "id": "3",
+              "text": "Sweet potatoes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nuts and grains"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vegetarians can get all the proteins they need through non-meat food sources.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do we call an angle of less than 90 degrees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "reflex"
+            },
+            {
+              "id": "1",
+              "text": "oblique"
+            },
+            {
+              "id": "2",
+              "text": "acute"
+            },
+            {
+              "id": "3",
+              "text": "obtuse"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: acute"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The parallel sides of a trapezoid are 5 inches and 11 inches long. The height of the trapezoid is 4 inches. What is the area of the trapezoid?",
+          "options": [
+            {
+              "id": "0",
+              "text": "32 square inches"
+            },
+            {
+              "id": "1",
+              "text": "256 inches"
+            },
+            {
+              "id": "2",
+              "text": "64 square inches"
+            },
+            {
+              "id": "3",
+              "text": "20 square inches"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 32 square inches"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saturated fats have proven to be the main dietary cause of high blood LDL cholesterol levels.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The group of nutrients at the base of the Food Pyramid contains breads, grains, cereals, and pastas, so these foods should predominate in our diet. Which of these represents one serving from this group?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1 donut"
+            },
+            {
+              "id": "1",
+              "text": "1/2 cup cooked cereal"
+            },
+            {
+              "id": "2",
+              "text": "2 slices of bread"
+            },
+            {
+              "id": "3",
+              "text": "4 cookies"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1/2 cup cooked cereal"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fats are a highly concentrated source of energy. It is estimated that one gram of fat provides how many calories?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7 kcal"
+            },
+            {
+              "id": "1",
+              "text": "20 kcal"
+            },
+            {
+              "id": "2",
+              "text": "4 kcal"
+            },
+            {
+              "id": "3",
+              "text": "9 kcal"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 9 kcal"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is a major problem concerning nutrition value of food, served at restaurants?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Foods lacking whole grains and fibers"
+            },
+            {
+              "id": "1",
+              "text": "Oversized meals"
+            },
+            {
+              "id": "2",
+              "text": "Excess protein contents"
+            },
+            {
+              "id": "3",
+              "text": "Excess sodium contents"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oversized meals"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "nutrients",
+          "technique",
+          "food",
+          "vegetarians",
+          "angle"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Economics and Following",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, opportunity, process. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In economics, opportunity cost is the difference between the yield that funds and resources earn in one use and the yield they could have earned had they been placed in an alternative investment.  Which of these factors has the most impact on opportunity cost?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Poverty"
+            },
+            {
+              "id": "1",
+              "text": "Unemployment"
+            },
+            {
+              "id": "2",
+              "text": "Scarcity"
+            },
+            {
+              "id": "3",
+              "text": "Consumer spending"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Scarcity"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a function of the pericardium?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Keeps the heart contained in the chest cavity"
+            },
+            {
+              "id": "1",
+              "text": "Limits heart motion"
+            },
+            {
+              "id": "2",
+              "text": "Prevents the heart from over-expanding when blood volume increases"
+            },
+            {
+              "id": "3",
+              "text": "Receives blood returning to the heart from the superior and inferior vena cava"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Receives blood returning to the heart from the superior and inferior vena cava"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the two largest veins in the body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vena cavae"
+            },
+            {
+              "id": "1",
+              "text": "Pulmonary veins"
+            },
+            {
+              "id": "2",
+              "text": "Coronary veins"
+            },
+            {
+              "id": "3",
+              "text": "Atria"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vena cavae"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In economics, the marginal concept refers to producing or consuming a good at the margin of the total produced or consumed amount. Which question does not involve a marginal decision?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Is it worth $2 to buy this extra slice of pizza?"
+            },
+            {
+              "id": "1",
+              "text": "If I drive slightly faster, what will be the change in my gasoline consumption?"
+            },
+            {
+              "id": "2",
+              "text": "If I hire ten workers to produce tables, what will be the average cost per table?"
+            },
+            {
+              "id": "3",
+              "text": "If I study for one more hour, by how much will it raise my grade?"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: If I hire ten workers to produce tables, what will be the average cost per table?"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The epicardium is also known as the visceral pericardium.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It may be stated that the process of thinking like an economist involves three basic issues. Which of the following is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Economists explore the relationships between two variables, which hold other variables fixed."
+            },
+            {
+              "id": "1",
+              "text": "Economists consider opportunity costs."
+            },
+            {
+              "id": "2",
+              "text": "Economists think in marginal terms."
+            },
+            {
+              "id": "3",
+              "text": "Economists deal only with items with explicit prices"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Economists deal only with items with explicit prices"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement about the problem of scarcity, a central issue in economics, is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is present when human wants exceed available resources."
+            },
+            {
+              "id": "1",
+              "text": "It exists only in market economies."
+            },
+            {
+              "id": "2",
+              "text": "It could be eliminated if we could force prices to fall."
+            },
+            {
+              "id": "3",
+              "text": "It is present when there is monopoly on the market."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It is present when human wants exceed available resources."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is the heart located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "On top of the lungs, behind and slightly to the left of your breastbone."
+            },
+            {
+              "id": "1",
+              "text": "Beneath the lungs, behind and slightly to the left of your breastbone."
+            },
+            {
+              "id": "2",
+              "text": "To the right of the lungs, behind and slightly to the left of your breastbone."
+            },
+            {
+              "id": "3",
+              "text": "Between the lungs, behind and slightly to the left of your breastbone."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Between the lungs, behind and slightly to the left of your breastbone."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many types of blood vessels are there?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5"
+            },
+            {
+              "id": "1",
+              "text": "6"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The spillover effect (or externality effect) is a concept in economics related to the impact of a certain decision and the respective action. Which situation would involve a spillover effect?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The hardware store gets an extra shipment of snow shovels, so they offer a buy one, get one free deal."
+            },
+            {
+              "id": "1",
+              "text": "A neighbour of yours repairs the sidewalk in front of his house, so the overall state of the neighbourhood pavement improves."
+            },
+            {
+              "id": "2",
+              "text": "The cost of magazines rises, so fewer and fewer people subscribe."
+            },
+            {
+              "id": "3",
+              "text": "Termites cause excessive damage to your house, so you must pay to replace the adversely affected areas."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A neighbour of yours repairs the sidewalk in front of his house, so the overall state of the neighbourhood pavement improves."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does the myocardium receive stimulation from the nervous system for its contractions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many phases are there in a human cardiac cycle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a heart valve?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carotid Valve"
+            },
+            {
+              "id": "1",
+              "text": "Tricuspid valve"
+            },
+            {
+              "id": "2",
+              "text": "Mitral Valve"
+            },
+            {
+              "id": "3",
+              "text": "Pulmonary Valve"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Carotid Valve"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the largest artery in the body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aorta"
+            },
+            {
+              "id": "1",
+              "text": "Carotid artery"
+            },
+            {
+              "id": "2",
+              "text": "Epicardium"
+            },
+            {
+              "id": "3",
+              "text": "Pulmonary artery"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Aorta"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are cardiac arrhythmias?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abnormal rhythms of the heart"
+            },
+            {
+              "id": "1",
+              "text": "Whistling or swishing sounds"
+            },
+            {
+              "id": "2",
+              "text": "How fast your heart is beating"
+            },
+            {
+              "id": "3",
+              "text": "Normal rhythms of the heart"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Abnormal rhythms of the heart"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "opportunity",
+          "process",
+          "cost",
+          "arrhythmias",
+          "following"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Pepsi and Oils",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, opportunity, specialization. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Malaleuca alternifolia is the Latin name of this plant.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sandalwood"
+            },
+            {
+              "id": "1",
+              "text": "Tea tree"
+            },
+            {
+              "id": "2",
+              "text": "Peppermint"
+            },
+            {
+              "id": "3",
+              "text": "Lavender"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tea tree"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is generally accepted, that economic market systems have proved to be so stable and efficient for which of these reasons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Everyone pays the same amount in taxes."
+            },
+            {
+              "id": "1",
+              "text": "People cannot be self-sufficient."
+            },
+            {
+              "id": "2",
+              "text": "They facilitate exchange and specialization."
+            },
+            {
+              "id": "3",
+              "text": "Producers cannot specialize without markets."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They facilitate exchange and specialization."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements about the effect of specialization and trade on the market is most accurate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It causes an increase in production."
+            },
+            {
+              "id": "1",
+              "text": "It boosts purchasing ability of the consumers."
+            },
+            {
+              "id": "2",
+              "text": "It causes the consumption of more and better goods."
+            },
+            {
+              "id": "3",
+              "text": "It affects World economics as a whole."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It causes the consumption of more and better goods."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "More than 2000 years ago this famous philosopher and founder of medicine stated that The way to health is an aromatic bath and scented oils massage every day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Homer"
+            },
+            {
+              "id": "1",
+              "text": "Hippocrates"
+            },
+            {
+              "id": "2",
+              "text": "Anaximander"
+            },
+            {
+              "id": "3",
+              "text": "Pythagoras"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hippocrates"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Antiseptic oils are used to treat these.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Poor circulation and listlessness"
+            },
+            {
+              "id": "1",
+              "text": "Heartburn and indigestion"
+            },
+            {
+              "id": "2",
+              "text": "Colds and congestion"
+            },
+            {
+              "id": "3",
+              "text": "Cuts and insect bites"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cuts and insect bites"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color are the eggs in the popular Dr. Suess book with the character Sam-I-am that was published in 1960?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green"
+            },
+            {
+              "id": "1",
+              "text": "Yellow"
+            },
+            {
+              "id": "2",
+              "text": "Blue"
+            },
+            {
+              "id": "3",
+              "text": "Red"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Green"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do we call the type of economy, where the government has an exclusive control over the production and distribution of goods and services?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Communal economy"
+            },
+            {
+              "id": "1",
+              "text": "Market economy"
+            },
+            {
+              "id": "2",
+              "text": "Transitional economy"
+            },
+            {
+              "id": "3",
+              "text": "Centrally planned economy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Centrally planned economy"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These substances, present in some essential oils, slow down the development of bacteria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bacterising"
+            },
+            {
+              "id": "1",
+              "text": "Bacteriostopping"
+            },
+            {
+              "id": "2",
+              "text": "Bacteriostatic"
+            },
+            {
+              "id": "3",
+              "text": "Bactericidal"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bacteriostatic"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The oldest known aromatherapy text describes a medical practice which relied on aromatics. It is from the Sumerian period and approximately this old.",
+          "options": [
+            {
+              "id": "0",
+              "text": "2000 BC"
+            },
+            {
+              "id": "1",
+              "text": "3500 BC"
+            },
+            {
+              "id": "2",
+              "text": "2500 BC"
+            },
+            {
+              "id": "3",
+              "text": "1000 BC"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 3500 BC"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Add 20 to 30 drops of essential oil to a 100ml bottle of spring or deionized water and leave it in a dark space for a few days. Then filter it to make this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bath oil"
+            },
+            {
+              "id": "1",
+              "text": "Flower water"
+            },
+            {
+              "id": "2",
+              "text": "Skin oil"
+            },
+            {
+              "id": "3",
+              "text": "Cold compress"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Flower water"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bergamot oil was discovered by this great explorer, born in Genoa, the son of a wool merchant and weaver.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Christopher Columbus"
+            },
+            {
+              "id": "1",
+              "text": "Amerigo Vespucci"
+            },
+            {
+              "id": "2",
+              "text": "Fernando Magelan"
+            },
+            {
+              "id": "3",
+              "text": "Marco Polo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Christopher Columbus"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In economics, the concept of opportunity cost is related to both the alternatives and decision-making. A friend offers you a Coke, a Pepsi, or a Diet Coke. You dont like Diet Coke, so after some thought, you take the Pepsi. In this case, what is the opportunity cost of your choice?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Pepsi"
+            },
+            {
+              "id": "1",
+              "text": "The Diet Coke"
+            },
+            {
+              "id": "2",
+              "text": "The Coke plus the Diet Coke"
+            },
+            {
+              "id": "3",
+              "text": "The Coke"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Coke"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These compounds are emitted by plants and form gasses, which can be smelled.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vapors"
+            },
+            {
+              "id": "1",
+              "text": "Odors"
+            },
+            {
+              "id": "2",
+              "text": "Aromatics"
+            },
+            {
+              "id": "3",
+              "text": "Oils"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Aromatics"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You should dilute this amount of essential oil into 100ml (3.25 fl oz.) of base oil.",
+          "options": [
+            {
+              "id": "0",
+              "text": "100 - 150 drops"
+            },
+            {
+              "id": "1",
+              "text": "50 - 70 drops"
+            },
+            {
+              "id": "2",
+              "text": "30 - 80 drops"
+            },
+            {
+              "id": "3",
+              "text": "20 - 60 drops"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 20 - 60 drops"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The physicians in this country can opt for education in aromatherapy, which would allow them to prescribe essential oils in their medical practice.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Switzerland"
+            },
+            {
+              "id": "2",
+              "text": "France"
+            },
+            {
+              "id": "3",
+              "text": "Greece"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "opportunity",
+          "specialization",
+          "country",
+          "amount",
+          "efficient"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2340 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Number and Ncaa",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, college, players. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What number did the Babe wear for the New York Yankees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In both the NBA and the NCAA you can choose any number you want for your jersey.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Both college and professional basketball have four quarters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "NBA and NCAA have the same number of players lined up along the lane while a free throw is being attempted.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was Babe Ruth born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1901"
+            },
+            {
+              "id": "1",
+              "text": "1902"
+            },
+            {
+              "id": "2",
+              "text": "1899"
+            },
+            {
+              "id": "3",
+              "text": "1895"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1895"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The number of timeouts for non-televised and televised college basketball games is the same.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When there is a held ball between two players, there is no jump ball in NCAA basketball.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is no overtime period in NCAA basketball.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "NBA and NCAA regulation courts are the same size.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Babe Ruth died in 1948.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Babe Ruths second wife?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cindy"
+            },
+            {
+              "id": "1",
+              "text": "Cloris"
+            },
+            {
+              "id": "2",
+              "text": "Claire"
+            },
+            {
+              "id": "3",
+              "text": "Clara"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Claire"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 8-second rule exists in both NBA and NCAA hoops.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Babe Ruth batted from the left side in the batters box.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many major league baseball teams did Babe Ruth play for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Babe Ruths birth name was George Henry Ruth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "college",
+          "players",
+          "period",
+          "hoops",
+          "ruth"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: League and Major League Baseball",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, charm, actor. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many home runs did the Babe hit while playing major league baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "714"
+            },
+            {
+              "id": "1",
+              "text": "716"
+            },
+            {
+              "id": "2",
+              "text": "715"
+            },
+            {
+              "id": "3",
+              "text": "713"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 714"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which sport would you find Bay Matuka, Blue Charm, Green Highlander, Silver Stoat, and Logie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harness Racing"
+            },
+            {
+              "id": "1",
+              "text": "Thoroughbred  Horse racing"
+            },
+            {
+              "id": "2",
+              "text": "Salmon Fishing"
+            },
+            {
+              "id": "3",
+              "text": "Trout Fishing"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Salmon Fishing"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is generally accepted that the phrase red herring, which has been in popular parlance for many years, is derived from which sport?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fencing"
+            },
+            {
+              "id": "1",
+              "text": "Golf"
+            },
+            {
+              "id": "2",
+              "text": "Bowling"
+            },
+            {
+              "id": "3",
+              "text": "Fox hunting"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fox hunting"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A pair of comedians neither of whom played pro baseball are enshrined in the Baseball Hall of Fame because of one of their routines.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who has the highest ranking in an NFL game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Backfield Judge"
+            },
+            {
+              "id": "1",
+              "text": "The Referee"
+            },
+            {
+              "id": "2",
+              "text": "The Head Linesman"
+            },
+            {
+              "id": "3",
+              "text": "The Umpire"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Referee"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement about athlete Danuta Rosani is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was the first Italian female athlete to win an Olympic gold medal."
+            },
+            {
+              "id": "1",
+              "text": "She was the first female athlete found to be technically a male."
+            },
+            {
+              "id": "2",
+              "text": "She was the first Russian athlete to escape to the USA."
+            },
+            {
+              "id": "3",
+              "text": "She was the first athlete in the track and field events to be disqualified in the Olympics for a banned  substance."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: She was the first athlete in the track and field events to be disqualified in the Olympics for a banned  substance."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Cleveland Tigers, the Muncie Flyers, the Hammond Pros, and the Dayton Triangles were some of the original teams in which league?",
+          "options": [
+            {
+              "id": "0",
+              "text": "NBA"
+            },
+            {
+              "id": "1",
+              "text": "NHL"
+            },
+            {
+              "id": "2",
+              "text": "NFL"
+            },
+            {
+              "id": "3",
+              "text": "Major League Baseball"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: NFL"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the first two losing teams in the Super Bowl?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rams and Eagles"
+            },
+            {
+              "id": "1",
+              "text": "Chiefs and Raiders"
+            },
+            {
+              "id": "2",
+              "text": "Falcons and Colts"
+            },
+            {
+              "id": "3",
+              "text": "Chiefs and Packers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chiefs and Raiders"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The actor who played Oddjob in the Bond movie Goldfinger won an Olympic Medal. Which statement is true about him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "His name was Toshiyuki Harold Sakata."
+            },
+            {
+              "id": "1",
+              "text": "He won an Olympic Gold Medal in karate in the 1960 Olympics."
+            },
+            {
+              "id": "2",
+              "text": "He won an Olympic Gold Medal in weightlifting  in the 1956 Olympics."
+            },
+            {
+              "id": "3",
+              "text": "He was born in Japan and died in Los Angeles, California."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: His name was Toshiyuki Harold Sakata."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What trophy is awarded to the Super Bowl-winning team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vince Lombardi Trophy"
+            },
+            {
+              "id": "1",
+              "text": "Heisman Trophy"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Don Vamdo Trophy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vince Lombardi Trophy"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What quarter back led in passing yards in 2002?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rich Gannon"
+            },
+            {
+              "id": "1",
+              "text": "Donovan McNabb"
+            },
+            {
+              "id": "2",
+              "text": "Brett Farve"
+            },
+            {
+              "id": "3",
+              "text": "Payton Manning"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rich Gannon"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Babe played his first game in major league baseball in 1914.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Baseball Hall of Famer is credited with throwing the first curveball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Martyn Stephen Darrow"
+            },
+            {
+              "id": "1",
+              "text": "Harold Joseph Chandler"
+            },
+            {
+              "id": "2",
+              "text": "William Arthur Cummings"
+            },
+            {
+              "id": "3",
+              "text": "Denton True Young"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: William Arthur Cummings"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "With what team did Babe Ruth finish his major league baseball playing career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Yankees"
+            },
+            {
+              "id": "1",
+              "text": "St. Louis Cardinals"
+            },
+            {
+              "id": "2",
+              "text": "None Of These"
+            },
+            {
+              "id": "3",
+              "text": "Boston Braves"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Boston Braves"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What distinction does Masanori Murakami hold?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The first player to steal a base in the Olympics."
+            },
+            {
+              "id": "1",
+              "text": "The first player to hit a home run in an international competition."
+            },
+            {
+              "id": "2",
+              "text": "The first Japanese-born major league baseball player."
+            },
+            {
+              "id": "3",
+              "text": "The first player to hit a home run in the Olympics."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The first Japanese-born major league baseball player."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "charm",
+          "actor",
+          "pair",
+          "phrase",
+          "parlance"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Muhammad Ali and Season",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, suns, ace. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Suns traded Shaun Marion and a package of prospects to the struggling Miami Heat for Shaquille ONeal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what city and year did Muhammad Ali win the Olympic gold medal for the United States of America in the boxing light heavyweight division?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rome 1960"
+            },
+            {
+              "id": "1",
+              "text": "Tokyo 1964"
+            },
+            {
+              "id": "2",
+              "text": "Melbourne 1956"
+            },
+            {
+              "id": "3",
+              "text": "Mexico City 1968"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rome 1960"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who had the most touchdown passes in a season before Payton Manning set a new record?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Vick"
+            },
+            {
+              "id": "1",
+              "text": "Dan Marino"
+            },
+            {
+              "id": "2",
+              "text": "Dauntee Coulpper"
+            },
+            {
+              "id": "3",
+              "text": "Steve Macnair"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dan Marino"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these NFL players played the most career games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerry Rice"
+            },
+            {
+              "id": "1",
+              "text": "They played the same number of games."
+            },
+            {
+              "id": "2",
+              "text": "Dan Marino"
+            },
+            {
+              "id": "3",
+              "text": "George Blanda"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: George Blanda"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first NFL kicker to finish the regular season with a 100% success rate on field goals and extra points?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Young"
+            },
+            {
+              "id": "1",
+              "text": "Trey Vickrey"
+            },
+            {
+              "id": "2",
+              "text": "Gary Anderson"
+            },
+            {
+              "id": "3",
+              "text": "Jerry Rice"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gary Anderson"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who had the most home runs in the 2007 Major League Baseball season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alex Rodriguez"
+            },
+            {
+              "id": "1",
+              "text": "David Ortiz"
+            },
+            {
+              "id": "2",
+              "text": "Vladimir Guerrero"
+            },
+            {
+              "id": "3",
+              "text": "Troy Glaus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Alex Rodriguez"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Boston Celtics of 2007-2008 started out with the best start in Boston Celtic franchise history.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was drafted by the Cleveland Browns first overall in the 2000 NFL draft?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Courtney Brown"
+            },
+            {
+              "id": "1",
+              "text": "Michael Vick"
+            },
+            {
+              "id": "2",
+              "text": "Warrick Dunn"
+            },
+            {
+              "id": "3",
+              "text": "Alge Crumpler"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Courtney Brown"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2007, the Minnesota Twins traded their ace Johan Santana to the Red Soxs for third baseman Mike Lowell.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What uniform number did Walter Payton wear when he played for the Bears?",
+          "options": [
+            {
+              "id": "0",
+              "text": "29"
+            },
+            {
+              "id": "1",
+              "text": "34"
+            },
+            {
+              "id": "2",
+              "text": "54"
+            },
+            {
+              "id": "3",
+              "text": "99"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 34"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the score of the 2008 Super Bowl?",
+          "options": [
+            {
+              "id": "0",
+              "text": "21-17"
+            },
+            {
+              "id": "1",
+              "text": "17-14"
+            },
+            {
+              "id": "2",
+              "text": "32-28"
+            },
+            {
+              "id": "3",
+              "text": "42-24"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 17-14"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the first team to both play in and lose four Super Bowls.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Falcons"
+            },
+            {
+              "id": "1",
+              "text": "Vikings"
+            },
+            {
+              "id": "2",
+              "text": "Colts"
+            },
+            {
+              "id": "3",
+              "text": "Rams"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vikings"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Red Sox swept the Colorado Rockies in the 2007 World Series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Muhammad Ali took up boxing as a result of someone stealing his bicycle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What team did Tony Dorsett play for after he left the Cowboys?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Broncons"
+            },
+            {
+              "id": "1",
+              "text": "Falcons"
+            },
+            {
+              "id": "2",
+              "text": "Vikings"
+            },
+            {
+              "id": "3",
+              "text": "Colts"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Broncons"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "suns",
+          "ace",
+          "package",
+          "players",
+          "kicker"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Muhammad Ali and Fight",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, defeat, bronze. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During a fight, Muhammad Ali kept asking this boxer, What is my name?.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ernie Terrell"
+            },
+            {
+              "id": "1",
+              "text": "Floyd Patterson"
+            },
+            {
+              "id": "2",
+              "text": "Zora Folley"
+            },
+            {
+              "id": "3",
+              "text": "Clevland Williams"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ernie Terrell"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe Frazier defeated Muhammad Ali in the first of their 3 fights.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Muhammad Alis last opponent before his boxing license was suspended in 1967?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zora Folley"
+            },
+            {
+              "id": "1",
+              "text": "Ernie Terell"
+            },
+            {
+              "id": "2",
+              "text": "Cleveland Williams"
+            },
+            {
+              "id": "3",
+              "text": "George Chuvalo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Zora Folley"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Muhammad Ali get his jaw broken in a fight against Ken Norton in 1973?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who did Muhammad Ali fight against in his come-back match in 1970?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zora Folley"
+            },
+            {
+              "id": "1",
+              "text": "Jerry Quarry"
+            },
+            {
+              "id": "2",
+              "text": "Oscar Bonavena"
+            },
+            {
+              "id": "3",
+              "text": "Jimmy Ellis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jerry Quarry"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although Muhammad Ali was from Louisville, Kentucky he represented this major American city as a junior in the Golden Gloves.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York"
+            },
+            {
+              "id": "1",
+              "text": "Chicago"
+            },
+            {
+              "id": "2",
+              "text": "Washington"
+            },
+            {
+              "id": "3",
+              "text": "Dallas"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1978, Muhammad Ali lost to this boxer but then defeated him later that year, thus regaining the heavyweight championship title for a record 3rd time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leon Spinks"
+            },
+            {
+              "id": "1",
+              "text": "Ken Norton"
+            },
+            {
+              "id": "2",
+              "text": "Joe Frazier"
+            },
+            {
+              "id": "3",
+              "text": "Joe Bugner"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Leon Spinks"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the fight referred to as The Thrilla in Manila?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ali won by a technical knock out after 14 rounds."
+            },
+            {
+              "id": "1",
+              "text": "Ali won on points"
+            },
+            {
+              "id": "2",
+              "text": "Ali knocked out Frazier after 14 rounds."
+            },
+            {
+              "id": "3",
+              "text": "Ali knocked out Frazier in the final round."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ali won by a technical knock out after 14 rounds."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What name was given to the tactic that Muhammad Ali used to defeat George Foreman?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rope a Dope"
+            },
+            {
+              "id": "1",
+              "text": "Run and Hide"
+            },
+            {
+              "id": "2",
+              "text": "Rope and Hope"
+            },
+            {
+              "id": "3",
+              "text": "Hope and Pray"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rope a Dope"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On his way to fighting George Foreman, Muhammad Ali lost a fight against this boxer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ken Norton"
+            },
+            {
+              "id": "1",
+              "text": "Jergin Blin"
+            },
+            {
+              "id": "2",
+              "text": "Alvin Lewis"
+            },
+            {
+              "id": "3",
+              "text": "Mac Foster"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ken Norton"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Muhammad Alis first professional fight and victory against?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Archie Moore"
+            },
+            {
+              "id": "1",
+              "text": "Tunney Hunsacker"
+            },
+            {
+              "id": "2",
+              "text": "Joe Louis"
+            },
+            {
+              "id": "3",
+              "text": "Alonzo Johnson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tunney Hunsacker"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which African country did Muhammad Ali fight George Foreman in a match referred to as The Rumble in the Jungle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ghana"
+            },
+            {
+              "id": "1",
+              "text": "Cameroon"
+            },
+            {
+              "id": "2",
+              "text": "Zaire"
+            },
+            {
+              "id": "3",
+              "text": "Egypt"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Zaire"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did Muhammad Ali defeat Sonny Liston to win the World Heavyweight Championship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "December 1963"
+            },
+            {
+              "id": "1",
+              "text": "October 1964"
+            },
+            {
+              "id": "2",
+              "text": "February 1964"
+            },
+            {
+              "id": "3",
+              "text": "May 1964"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: February 1964"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the 1988 Olympics, this lady earned a bronze medal, thus becoming the first African-American to win an Olympic medal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rory Flack"
+            },
+            {
+              "id": "1",
+              "text": "Debi Thomas"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Jill Trenary"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Debi Thomas"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of his boxing opponents did Muhammad Ali label The Washer Woman?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Chuvalo"
+            },
+            {
+              "id": "1",
+              "text": "Clevland Williams"
+            },
+            {
+              "id": "2",
+              "text": "Ernie Terrell"
+            },
+            {
+              "id": "3",
+              "text": "Zora Folley"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: George Chuvalo"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "defeat",
+          "bronze",
+          "country",
+          "way",
+          "opponents"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Nfl and Lady",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, college, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these ladies has 10 Figure Skating World Championship Gold Medals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peggy Flemming"
+            },
+            {
+              "id": "1",
+              "text": "Michelle Kwan"
+            },
+            {
+              "id": "2",
+              "text": "Sonja Hennie"
+            },
+            {
+              "id": "3",
+              "text": "Dorothy Hamill"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sonja Hennie"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1936, the NFL instituted the first ever draft of college players. Who was the first player ever drafted into the NFL?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Halas"
+            },
+            {
+              "id": "1",
+              "text": "Woody Strode"
+            },
+            {
+              "id": "2",
+              "text": "Jay Berwanger"
+            },
+            {
+              "id": "3",
+              "text": "Red Grange"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jay Berwanger"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Detroit Lions entered the NFL in 1929 as the Detroit Lions.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1994 in Lilihammer, this lady became the first Chinese skater to win a medal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Caroline Zhang"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Dan Fang"
+            },
+            {
+              "id": "3",
+              "text": "Lu Chen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lu Chen"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first Ladies Figure Skating World Champion was crowned in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1896"
+            },
+            {
+              "id": "1",
+              "text": "1912"
+            },
+            {
+              "id": "2",
+              "text": "1904"
+            },
+            {
+              "id": "3",
+              "text": "1906"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1906"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1989, the Figure Skating World Championships had a new nation as a contender for possible glory. Who was the first Japanese female skater to win the World Championships?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Midori Ito"
+            },
+            {
+              "id": "2",
+              "text": "Yuka Sato"
+            },
+            {
+              "id": "3",
+              "text": "Shizuka Arakawa"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Midori Ito"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1999, the reigning World Champion Michelle Kwan lost to a Russian who became the first woman from her country to win a Figure Skating World Championship. Who is she?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Irina Slutskaya"
+            },
+            {
+              "id": "1",
+              "text": "Maria Butyrskaya"
+            },
+            {
+              "id": "2",
+              "text": "Ekaterina Gordeeva"
+            },
+            {
+              "id": "3",
+              "text": "Oksana Baiul"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Maria Butyrskaya"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Art Shell of the Oakland Raiders was the first African American head coach in the NFL.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the 1992 Olympics in Albertville, this figure skater became the first Asian-American to medal at the Winter Olympics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kristi Yamaguchi"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Michelle Kwan"
+            },
+            {
+              "id": "3",
+              "text": "Karen Kwan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kristi Yamaguchi"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first lady to perform a successful triple Axel in a figure skating competition?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tonya Harding"
+            },
+            {
+              "id": "1",
+              "text": "Midori Ito"
+            },
+            {
+              "id": "2",
+              "text": "Nancy Kerrigan"
+            },
+            {
+              "id": "3",
+              "text": "Oksana Baiul"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Midori Ito"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first lady to win the Figure Skating World Championships?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maribel Vinson Owen"
+            },
+            {
+              "id": "1",
+              "text": "Sonja Hennie"
+            },
+            {
+              "id": "2",
+              "text": "Herma Szabo"
+            },
+            {
+              "id": "3",
+              "text": "Madge Syers-Cave"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Madge Syers-Cave"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The NFL started out as the Ohio League.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2005, Michelle Kwan won her 9th US title, tying the record set by what other American female skater?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maribel Vinson Owen"
+            },
+            {
+              "id": "1",
+              "text": "Kristi Yamaguchi"
+            },
+            {
+              "id": "2",
+              "text": "Dorothy Hamill"
+            },
+            {
+              "id": "3",
+              "text": "Carol Heiss"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Maribel Vinson Owen"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two of the founding members of the NFL are in existence today. What are their original names?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Racine Cardinals and Green Bay Packers"
+            },
+            {
+              "id": "1",
+              "text": "Decatur Staleys and Racine Cardinals"
+            },
+            {
+              "id": "2",
+              "text": "Dayton Triangles and Canton Bulldogs"
+            },
+            {
+              "id": "3",
+              "text": "Canton Bulldogs and Akron Pros"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Decatur Staleys and Racine Cardinals"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Japanese dynamo became the first lady to land a quadruple jump in competition. It was a junior competition, but it still counts as a figure skating first.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miki Ando"
+            },
+            {
+              "id": "1",
+              "text": "Shizuka Arakawa"
+            },
+            {
+              "id": "2",
+              "text": "Mao Asada"
+            },
+            {
+              "id": "3",
+              "text": "Mai Asada"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Miki Ando"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "college",
+          "title",
+          "lions",
+          "shell",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Bob Gibson and Athletes",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, country, athletes. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of pitcher was Bob Gibson?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Righthanded reliever"
+            },
+            {
+              "id": "1",
+              "text": "Starting lefthander"
+            },
+            {
+              "id": "2",
+              "text": "Starting righthander"
+            },
+            {
+              "id": "3",
+              "text": "Lefthanded reliever"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Starting righthander"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As Bob Gibson was primarily a relief pitcher, he has not been voted into the Major League Baseball Hall of Fame.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Bob Gibsons primary uniform number?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7"
+            },
+            {
+              "id": "1",
+              "text": "10"
+            },
+            {
+              "id": "2",
+              "text": "44"
+            },
+            {
+              "id": "3",
+              "text": "45"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 45"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What university did Bob Gibson attend?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Missouri"
+            },
+            {
+              "id": "1",
+              "text": "Creighton University"
+            },
+            {
+              "id": "2",
+              "text": "University of Kansas"
+            },
+            {
+              "id": "3",
+              "text": "University of Colorado"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Creighton University"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1960 after being refused entry into the NFL as an owner, Lamar Hunt formed the rival AFL.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There was a team in the NFL named the Carpets.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Cy Young Awards did Bob Gibson win?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was the NFL Players Association formed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1945"
+            },
+            {
+              "id": "1",
+              "text": "1972"
+            },
+            {
+              "id": "2",
+              "text": "1956"
+            },
+            {
+              "id": "3",
+              "text": "1964"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1956"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country was represented by the highest number of athletes at the Olympic Games of 2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "USA"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "China"
+            },
+            {
+              "id": "3",
+              "text": "Russia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Athletes representing which discipline were the first to compete during the 2008 Olympic Games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Field  Track"
+            },
+            {
+              "id": "1",
+              "text": "Gymnastics"
+            },
+            {
+              "id": "2",
+              "text": "Swimming"
+            },
+            {
+              "id": "3",
+              "text": "Football / Soccer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Football / Soccer"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Michael Phelps (USA, swimming) declared he would set a record by winning 8 gold medals at the Olympic Games in Beijing. How many did he actually win?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "9"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 8"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who became the fastest man by setting a world record of 9.69s at the 2008 Olympics 100m run?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Asafa Powell (Jamaica)"
+            },
+            {
+              "id": "1",
+              "text": "Richard Thompson (Trinidad  Tobago)"
+            },
+            {
+              "id": "2",
+              "text": "Usain Bolt (Jamaica)"
+            },
+            {
+              "id": "3",
+              "text": "Walter Dix (USA)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Usain Bolt (Jamaica)"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bob Gibson was the second pitcher to strikeout 3,000 batters. Who was the first?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walter Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Christy Mathewson"
+            },
+            {
+              "id": "2",
+              "text": "Cy Young"
+            },
+            {
+              "id": "3",
+              "text": "Red Ruffing"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Walter Johnson"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times did Bob Gibson win a Golden Glove Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "9"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "7"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 9"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the only Major League Baseball team Bob Gibson played for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rockies"
+            },
+            {
+              "id": "1",
+              "text": "Dodgers"
+            },
+            {
+              "id": "2",
+              "text": "Yankees"
+            },
+            {
+              "id": "3",
+              "text": "Cardinals"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cardinals"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "country",
+          "athletes",
+          "players",
+          "world",
+          "awards"
+        ]
+      }
+    }
+  ]
+}

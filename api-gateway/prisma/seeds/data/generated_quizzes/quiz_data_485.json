@@ -1,0 +1,2316 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Nature Quiz: Following and Type",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, people, breed. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It has been estimated that in Australia, there are about twice as many kangaroos as there are people.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a type of chipmunk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bushy-tailed"
+            },
+            {
+              "id": "1",
+              "text": "Long-eared"
+            },
+            {
+              "id": "2",
+              "text": "Eastern"
+            },
+            {
+              "id": "3",
+              "text": "Sonoma"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bushy-tailed"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the fastest animal on 6 legs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ladybug"
+            },
+            {
+              "id": "1",
+              "text": "Cockroach"
+            },
+            {
+              "id": "2",
+              "text": "Beetle"
+            },
+            {
+              "id": "3",
+              "text": "Ant"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cockroach"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a type of spider?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Glass spider"
+            },
+            {
+              "id": "1",
+              "text": "Trapdoor spider"
+            },
+            {
+              "id": "2",
+              "text": "Brown recluse spider"
+            },
+            {
+              "id": "3",
+              "text": "Bird-dropping spider"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Glass spider"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sheep are similar to cows in that they have a stomach which contains four chambers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the white tigers scientific name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pantha"
+            },
+            {
+              "id": "1",
+              "text": "Panthera tigis"
+            },
+            {
+              "id": "2",
+              "text": "Panthera tiger"
+            },
+            {
+              "id": "3",
+              "text": "Panthera tigris"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Panthera tigris"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a female sheep called or known as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ewe"
+            },
+            {
+              "id": "1",
+              "text": "colt"
+            },
+            {
+              "id": "2",
+              "text": "fleece"
+            },
+            {
+              "id": "3",
+              "text": "ram"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: ewe"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a type of beetle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Long-horn beetle"
+            },
+            {
+              "id": "1",
+              "text": "Stag beetle"
+            },
+            {
+              "id": "2",
+              "text": "Flea beetle"
+            },
+            {
+              "id": "3",
+              "text": "Burrowing beetle"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Burrowing beetle"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Can tigers live to be 20 years old?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not an actual breed of sheep?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scottish black-face"
+            },
+            {
+              "id": "1",
+              "text": "Dakota"
+            },
+            {
+              "id": "2",
+              "text": "Hampshire"
+            },
+            {
+              "id": "3",
+              "text": "Merino"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dakota"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a breed of dog?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pom-a-poo"
+            },
+            {
+              "id": "1",
+              "text": "Lakeland terrier"
+            },
+            {
+              "id": "2",
+              "text": "Fox terrier"
+            },
+            {
+              "id": "3",
+              "text": "Ferret terrier"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ferret terrier"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All but one of the following are true types of bears. Which is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moon bear"
+            },
+            {
+              "id": "1",
+              "text": "Brown bear"
+            },
+            {
+              "id": "2",
+              "text": "Black bear"
+            },
+            {
+              "id": "3",
+              "text": "Sun bear"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Moon bear"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of these is not a true breed of cat. Which one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pixie-bob"
+            },
+            {
+              "id": "1",
+              "text": "Maine coon"
+            },
+            {
+              "id": "2",
+              "text": "Ragdoll"
+            },
+            {
+              "id": "3",
+              "text": "French Twist"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: French Twist"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not an actual breed of horse?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sioux"
+            },
+            {
+              "id": "1",
+              "text": "Russian Trotter"
+            },
+            {
+              "id": "2",
+              "text": "Belgian"
+            },
+            {
+              "id": "3",
+              "text": "Murgese"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sioux"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All tigers have stripes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "people",
+          "breed",
+          "bears",
+          "tigers",
+          "following"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Knowledge Quiz: Breed and Lions",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, males, chicken. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the breed of animal created from the crossing of a female lion and a male tiger?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tigen"
+            },
+            {
+              "id": "1",
+              "text": "Liger"
+            },
+            {
+              "id": "2",
+              "text": "Tigon"
+            },
+            {
+              "id": "3",
+              "text": "Liges"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tigon"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are more males then females in a pride.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of these is not a true breed of chicken. Which one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hamburg"
+            },
+            {
+              "id": "1",
+              "text": "Plymouth Rock"
+            },
+            {
+              "id": "2",
+              "text": "Leghorn"
+            },
+            {
+              "id": "3",
+              "text": "Red-tailed"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Red-tailed"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the average lifespan of a lion living in the wild?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20 - 30 years"
+            },
+            {
+              "id": "1",
+              "text": "Less than 10 years"
+            },
+            {
+              "id": "2",
+              "text": "10 -15 years"
+            },
+            {
+              "id": "3",
+              "text": "Greater than 30 years"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 10 -15 years"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cats twitch the tips of their tails slightly when hunting or when angry, while stronger twitching indicates what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stress"
+            },
+            {
+              "id": "1",
+              "text": "Displeasure"
+            },
+            {
+              "id": "2",
+              "text": "Boredom"
+            },
+            {
+              "id": "3",
+              "text": "Playfulness"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Displeasure"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many different vocalization sounds does a cat make?",
+          "options": [
+            {
+              "id": "0",
+              "text": "100"
+            },
+            {
+              "id": "1",
+              "text": "200"
+            },
+            {
+              "id": "2",
+              "text": "50"
+            },
+            {
+              "id": "3",
+              "text": "150"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 100"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cats generally purr when they are happy, but they can also be heard purring in what other situation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "When they are distressed or in pain"
+            },
+            {
+              "id": "1",
+              "text": "When they are hunting or playing"
+            },
+            {
+              "id": "2",
+              "text": "When they are hungry or thirsty"
+            },
+            {
+              "id": "3",
+              "text": "When they are lonely or angry"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: When they are distressed or in pain"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Generally, how many times in an interval of 5 hours do lions mate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "20"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 10"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a cat pushes its face against your head, this means what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Impatience"
+            },
+            {
+              "id": "1",
+              "text": "Submission"
+            },
+            {
+              "id": "2",
+              "text": "Acceptance"
+            },
+            {
+              "id": "3",
+              "text": "Aggression"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Acceptance"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do male lions have which females do not possess?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An extra tooth"
+            },
+            {
+              "id": "1",
+              "text": "A mane"
+            },
+            {
+              "id": "2",
+              "text": "Longer nails"
+            },
+            {
+              "id": "3",
+              "text": "Distinguished eyes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A mane"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Female lions hunt in a group.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a group of lions called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Family"
+            },
+            {
+              "id": "1",
+              "text": "Group"
+            },
+            {
+              "id": "2",
+              "text": "School"
+            },
+            {
+              "id": "3",
+              "text": "Pride"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pride"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a breed of pig?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Norwegian Yorkshire"
+            },
+            {
+              "id": "1",
+              "text": "Vietnamese pot-belly"
+            },
+            {
+              "id": "2",
+              "text": "Ridgeback"
+            },
+            {
+              "id": "3",
+              "text": "Tokyo-X"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ridgeback"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the breed of animal created from the crossing of a male lion and a female tiger?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tigon"
+            },
+            {
+              "id": "1",
+              "text": "Tiges"
+            },
+            {
+              "id": "2",
+              "text": "Ligon"
+            },
+            {
+              "id": "3",
+              "text": "Liger"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Liger"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are male lions are generally stronger then female lions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "males",
+          "chicken",
+          "breed",
+          "females",
+          "lions"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Nature Quiz: Pound and Cats",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, people, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A cats front paws have 5 toes and their back paws have 4.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Human beings have 23 pairs of  chromosomes. Which animal has the most chromosomes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "minke whale"
+            },
+            {
+              "id": "1",
+              "text": "millipedes"
+            },
+            {
+              "id": "2",
+              "text": "elephants"
+            },
+            {
+              "id": "3",
+              "text": "hermit crabs"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: hermit crabs"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these animals has the largest paws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An average mountain lion"
+            },
+            {
+              "id": "1",
+              "text": "An average nematode"
+            },
+            {
+              "id": "2",
+              "text": "An average lynx"
+            },
+            {
+              "id": "3",
+              "text": "An average lichen"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: An average lynx"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How do scientists calculate the age of a fish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They count all the teeth in the fishs mouth."
+            },
+            {
+              "id": "1",
+              "text": "They measure the size of the fish and compare that to the average size of that type of  fish."
+            },
+            {
+              "id": "2",
+              "text": "They count the growth rings on the ear bone."
+            },
+            {
+              "id": "3",
+              "text": "They count the teeth in the fishs lower lip."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They count the growth rings on the ear bone."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the first book by Darwin that directly dealt with evolution?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Essay on the Principles of Population"
+            },
+            {
+              "id": "1",
+              "text": "Totem and Taboo"
+            },
+            {
+              "id": "2",
+              "text": "On the Origins of the Species"
+            },
+            {
+              "id": "3",
+              "text": "The Descent of Man and the Selection in Relation to Sex"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: On the Origins of the Species"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All pigs are classified as un-Kosher meaning they can not be eaten by Jewish people.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pound for pound, humans are not the strongest animals. What is considered the strongest species, pound for pound?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Hercules beetle"
+            },
+            {
+              "id": "1",
+              "text": "The leaf-cutting ant"
+            },
+            {
+              "id": "2",
+              "text": "The red ant"
+            },
+            {
+              "id": "3",
+              "text": "The atlas roach"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Hercules beetle"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the largest  eagle ever found on Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golden Eagle"
+            },
+            {
+              "id": "1",
+              "text": "Haasts Eagle"
+            },
+            {
+              "id": "2",
+              "text": "Harpy Eagle"
+            },
+            {
+              "id": "3",
+              "text": "Bald Eagle"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Haasts Eagle"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term refers to the group formed by frogs and amphibians?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Drosophillia"
+            },
+            {
+              "id": "1",
+              "text": "Herps"
+            },
+            {
+              "id": "2",
+              "text": "Mollusks"
+            },
+            {
+              "id": "3",
+              "text": "Nematodes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Herps"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sharks can only be found in salt water.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of animal is a lamprey?",
+          "options": [
+            {
+              "id": "0",
+              "text": "worm"
+            },
+            {
+              "id": "1",
+              "text": "fish"
+            },
+            {
+              "id": "2",
+              "text": "insect"
+            },
+            {
+              "id": "3",
+              "text": "amphibian"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: fish"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement about elephants is untrue?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elephants sleep standing up"
+            },
+            {
+              "id": "1",
+              "text": "Elephants cry"
+            },
+            {
+              "id": "2",
+              "text": "There are some pink elephants in India"
+            },
+            {
+              "id": "3",
+              "text": "Elephants do not have great memories"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Elephants do not have great memories"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All cats are born with green eyes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The smallest species of shark in the world is the Dwarf Lanternfish.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is alektorophobia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The unreasonable fear of birds of prey"
+            },
+            {
+              "id": "1",
+              "text": "The unreasonable fear of roaches"
+            },
+            {
+              "id": "2",
+              "text": "The unreasonable fear of chickens"
+            },
+            {
+              "id": "3",
+              "text": "The unreasonable fear of sharks"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The unreasonable fear of chickens"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "people",
+          "world",
+          "sharks",
+          "cats",
+          "type"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Chihuahuas and Sharks",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, chihuahuas, rays. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chihuahuas are the only dogs to be born with what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An extra leg tendon"
+            },
+            {
+              "id": "1",
+              "text": "Hairless inner ears"
+            },
+            {
+              "id": "2",
+              "text": "An incomplete skull"
+            },
+            {
+              "id": "3",
+              "text": "Two extra canine teeth"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: An incomplete skull"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Chihuahua is the smallest dog breed in the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sharks are immune to cancer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The dogfish is actually a common species of small shark.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Despite the myth that Chihuahuas were descendants of the royal dog of the Aztecs, it is also believed that Spanish trade merchants brought Chihuahuas to which of these countries?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Venezuela"
+            },
+            {
+              "id": "1",
+              "text": "United States"
+            },
+            {
+              "id": "2",
+              "text": "Brazil"
+            },
+            {
+              "id": "3",
+              "text": "Mexico"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mexico"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sharks have poor vision.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "More shark attacks occur during the day than at night.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What maximum height at the withers can Chihuahuas reach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "24 inches (60 cm)"
+            },
+            {
+              "id": "1",
+              "text": "15 inches (38 cm)"
+            },
+            {
+              "id": "2",
+              "text": "12 inches (30 cm)"
+            },
+            {
+              "id": "3",
+              "text": "9 inches (22 cm)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 15 inches (38 cm)"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rays and Skates are types of sharks.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the average lifespan of Chihuahuas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8 - 12 years"
+            },
+            {
+              "id": "1",
+              "text": "8- 18 years"
+            },
+            {
+              "id": "2",
+              "text": "8 - 26 years"
+            },
+            {
+              "id": "3",
+              "text": "8 - 15 years"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 8- 18 years"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sharks can have up to nine gills on each side of their body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If attacked by a shark it is recommended that you punch the shark in the nose.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Chihuahua Gidget is famous for what reason?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paris Hilton has it as a pet."
+            },
+            {
+              "id": "1",
+              "text": "It was a fill-in mascot for the Georgia Bulldogs."
+            },
+            {
+              "id": "2",
+              "text": "It was a mascot for Taco Bell."
+            },
+            {
+              "id": "3",
+              "text": "It was a mascot for Taco John."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It was a mascot for Taco Bell."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chihuahuas come in three colors: brindle, black, and camel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sharks must eat continually in order to survive.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "chihuahuas",
+          "rays",
+          "breed",
+          "gidget",
+          "sharks"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Nature Quiz: Sea and Worms",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, chihuahuas, pincers. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These worms are not in fact worms, but bivalves. They enter wood as larvae, where they remain and grow, burrowing through the wood.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sea Mice"
+            },
+            {
+              "id": "1",
+              "text": "Ribbon Worms"
+            },
+            {
+              "id": "2",
+              "text": "Lugworms"
+            },
+            {
+              "id": "3",
+              "text": "Shipworms"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Shipworms"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Pacific lobster has large pincers and a spiny shell.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Spectacled bear makes its habitat around the Andes tropical basin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Squid and octopus are mollusks.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long in years is the life span of an average wild hippopotamus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10-20"
+            },
+            {
+              "id": "1",
+              "text": "40-50"
+            },
+            {
+              "id": "2",
+              "text": "30-40"
+            },
+            {
+              "id": "3",
+              "text": "20-30"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 40-50"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the basic food of the sea. Billions upon billions of these organisms live in the sea.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seaweed"
+            },
+            {
+              "id": "1",
+              "text": "Plankton"
+            },
+            {
+              "id": "2",
+              "text": "Crabs"
+            },
+            {
+              "id": "3",
+              "text": "Shrimp"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Plankton"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hippos are related to cetaceans (whales and porpoises).",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the word \u201chippopotamus\u201d mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Water pig"
+            },
+            {
+              "id": "1",
+              "text": "Fat horse"
+            },
+            {
+              "id": "2",
+              "text": "River horse"
+            },
+            {
+              "id": "3",
+              "text": "River pig"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: River horse"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This crab is not really a crab, but an arthropod. Its closest relative is the spider.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fiddler Crab"
+            },
+            {
+              "id": "1",
+              "text": "Horseshoe crab"
+            },
+            {
+              "id": "2",
+              "text": "Spider Crab"
+            },
+            {
+              "id": "3",
+              "text": "Rock Crab"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Horseshoe crab"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the result of the gravitational pull from the moon and sun.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Migration of certain species of whales"
+            },
+            {
+              "id": "1",
+              "text": "Tides"
+            },
+            {
+              "id": "2",
+              "text": "Shoreline"
+            },
+            {
+              "id": "3",
+              "text": "Waves"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tides"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chihuahuas are prone to hypoglycemia (low blood sugar).",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hippos secrete a red substance known as blood sweat that protects them from the sun.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For their size hippos are pretty fast runners and are much faster than humans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This sea animal, widely considered the most valuable shellfish, is common in shallow, warmer waters of all oceans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oyster"
+            },
+            {
+              "id": "1",
+              "text": "Shrimp"
+            },
+            {
+              "id": "2",
+              "text": "Scallop"
+            },
+            {
+              "id": "3",
+              "text": "Lobster"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Oyster"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These creatures look like flowers as they grow attached to rocks. Their tentacles open like fleshy petals and contract whenever danger is near.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kelp"
+            },
+            {
+              "id": "1",
+              "text": "Jellyfish"
+            },
+            {
+              "id": "2",
+              "text": "Sponges"
+            },
+            {
+              "id": "3",
+              "text": "Sea Anemones"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sea Anemones"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "chihuahuas",
+          "pincers",
+          "creatures",
+          "hippopotamus",
+          "food"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Nature Quiz: Australia and Animal",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, weight, kangaroo. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Australian monotreme lays eggs and has a remarkable sense of electroception.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Platypus"
+            },
+            {
+              "id": "1",
+              "text": "Red kangaroo"
+            },
+            {
+              "id": "2",
+              "text": "Dingo"
+            },
+            {
+              "id": "3",
+              "text": "Emu"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Platypus"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Also called Sea Biscuit, this animal lives in deeper water half-buried in the sand.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sand Dollar"
+            },
+            {
+              "id": "1",
+              "text": "Star Fish"
+            },
+            {
+              "id": "2",
+              "text": "Scallop"
+            },
+            {
+              "id": "3",
+              "text": "Mussel"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sand Dollar"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The diet of the koala consists mainly of what plant species?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eucalyptus"
+            },
+            {
+              "id": "1",
+              "text": "Bamboo"
+            },
+            {
+              "id": "2",
+              "text": "Willow"
+            },
+            {
+              "id": "3",
+              "text": "Cork Oak"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eucalyptus"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The venomous lizard Gila monster was named after what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Gila River basin"
+            },
+            {
+              "id": "1",
+              "text": "The Gila Expedition 1857"
+            },
+            {
+              "id": "2",
+              "text": "Alberto Gilardino"
+            },
+            {
+              "id": "3",
+              "text": "Gilligans Island"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Gila River basin"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the average weight of the Tasmanian Pygmy Possum?",
+          "options": [
+            {
+              "id": "0",
+              "text": "About 250g"
+            },
+            {
+              "id": "1",
+              "text": "About 50g"
+            },
+            {
+              "id": "2",
+              "text": "About 100g"
+            },
+            {
+              "id": "3",
+              "text": "About 7g"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: About 7g"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these mammals was brought to Australia by humans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The echidna"
+            },
+            {
+              "id": "1",
+              "text": "The dingo"
+            },
+            {
+              "id": "2",
+              "text": "The koala"
+            },
+            {
+              "id": "3",
+              "text": "The Tasmanian tiger"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The dingo"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Komodo dragon, the largest living lizard on Earth, lives in which part of the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "North America"
+            },
+            {
+              "id": "1",
+              "text": "Indonesia"
+            },
+            {
+              "id": "2",
+              "text": "South-western China"
+            },
+            {
+              "id": "3",
+              "text": "Madagascar"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Indonesia"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements about echidnas, mammals native to Australia, is wrong?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Echidnas are covered with spines."
+            },
+            {
+              "id": "1",
+              "text": "Echidnas have snouts."
+            },
+            {
+              "id": "2",
+              "text": "Echidnas lay eggs."
+            },
+            {
+              "id": "3",
+              "text": "Echidnas are marsupials."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Echidnas are marsupials."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which lizard can squirt blood from the corners of its eyes in order to confuse and drive back its enemies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anole"
+            },
+            {
+              "id": "1",
+              "text": "Gila monster"
+            },
+            {
+              "id": "2",
+              "text": "Horned lizard"
+            },
+            {
+              "id": "3",
+              "text": "Komodo dragon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Horned lizard"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Qantas, Australias largest airline company, has what Australian animal on its red-and-white logo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Koala"
+            },
+            {
+              "id": "1",
+              "text": "Kangaroo"
+            },
+            {
+              "id": "2",
+              "text": "Emu"
+            },
+            {
+              "id": "3",
+              "text": "Tasmanian devil"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kangaroo"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The red kangaroo appears on the Coat of Arms of Australia together with what other endemic Australian animal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emu"
+            },
+            {
+              "id": "1",
+              "text": "Platypus"
+            },
+            {
+              "id": "2",
+              "text": "Dingo"
+            },
+            {
+              "id": "3",
+              "text": "Koala"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Emu"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Australian animal is the largest living carnivorous marsupial on Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Tasmanian tiger"
+            },
+            {
+              "id": "1",
+              "text": "The Tasmanian devil"
+            },
+            {
+              "id": "2",
+              "text": "The platypus"
+            },
+            {
+              "id": "3",
+              "text": "The red kangaroo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Tasmanian devil"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these Australian reptiles is the largest living crocodile in the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The thorny devil"
+            },
+            {
+              "id": "1",
+              "text": "The weedy sea dragon"
+            },
+            {
+              "id": "2",
+              "text": "The blue-tongued skink"
+            },
+            {
+              "id": "3",
+              "text": "The saltwater crocodile"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The saltwater crocodile"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term refers to the self-defense mechanism which allows lizards to break off their tails when captured?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apotemnophilia"
+            },
+            {
+              "id": "1",
+              "text": "Autonomy"
+            },
+            {
+              "id": "2",
+              "text": "Autotomy"
+            },
+            {
+              "id": "3",
+              "text": "Autism"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Autotomy"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the difference between the male and the female Galah, a cockatoo bird native to Australia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "There is no difference between them."
+            },
+            {
+              "id": "1",
+              "text": "Males and females have different eye colour."
+            },
+            {
+              "id": "2",
+              "text": "Galah males are crested."
+            },
+            {
+              "id": "3",
+              "text": "Galah females have shorter tails."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Males and females have different eye colour."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "weight",
+          "kangaroo",
+          "koala",
+          "monotreme",
+          "dragon"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2484 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Geography Quiz: Team and Player",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, people, yankees. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Star Wars character is an immense, fur-covered warrior of great strength and loyalty, and a sophisticated being with exceptional skills in starship piloting and repairing.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boba Fet"
+            },
+            {
+              "id": "1",
+              "text": "Admiral Ackbar"
+            },
+            {
+              "id": "2",
+              "text": "Ewok"
+            },
+            {
+              "id": "3",
+              "text": "Chewbacca"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chewbacca"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although his real name Georgios Kyriacos Panayiotou sounds Greek, he was born in London. He gained popularity with his band Wham!.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Michael"
+            },
+            {
+              "id": "1",
+              "text": "Ray Charles"
+            },
+            {
+              "id": "2",
+              "text": "Garry Oldman"
+            },
+            {
+              "id": "3",
+              "text": "Boy George"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: George Michael"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "George Lucas directed all episodes of the first trilogy of Star Wars.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What team defeated the New York Yankees in the 1960 World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Los Angeles Dodgers"
+            },
+            {
+              "id": "1",
+              "text": "San Francisco Giants"
+            },
+            {
+              "id": "2",
+              "text": "Pittsburgh Pirates"
+            },
+            {
+              "id": "3",
+              "text": "St. Louis Cardinals"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pittsburgh Pirates"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What National League pitcher threw a perfect game against the New York Mets on Fathers day in 1964?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bob Gibson"
+            },
+            {
+              "id": "1",
+              "text": "Warren Spahn"
+            },
+            {
+              "id": "2",
+              "text": "Sandy Koufax"
+            },
+            {
+              "id": "3",
+              "text": "Jim Bunning"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jim Bunning"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What player was widely regarded as the best left-handed pitcher in the American League before he was switched to playing the outfield?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Dimaggio"
+            },
+            {
+              "id": "1",
+              "text": "Babe Ruth"
+            },
+            {
+              "id": "2",
+              "text": "Al Simmons"
+            },
+            {
+              "id": "3",
+              "text": "Ty Cobb"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Babe Ruth"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Her career started in the 50s when she was only 18. She joined Ike Turners touring show as an 18-year-old backup vocalist. Her real name is Annie Mae Bullock.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tina Turner"
+            },
+            {
+              "id": "1",
+              "text": "Whitney Houston"
+            },
+            {
+              "id": "2",
+              "text": "Aretha Franklyn"
+            },
+            {
+              "id": "3",
+              "text": "Kim Wilde"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tina Turner"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city did the Baltimore Orioles play in before moving to Baltimore?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Milwaukee Wisconsin"
+            },
+            {
+              "id": "1",
+              "text": "Washington D.C."
+            },
+            {
+              "id": "2",
+              "text": "St. Louis Missouri"
+            },
+            {
+              "id": "3",
+              "text": "Detroit Michigan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: St. Louis Missouri"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Episode V The Empire Strikes Back, the second film of the Star Wars saga, won which Academy Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Best movie"
+            },
+            {
+              "id": "1",
+              "text": "Best sound"
+            },
+            {
+              "id": "2",
+              "text": "Best actor in leading role"
+            },
+            {
+              "id": "3",
+              "text": "Best music, original score"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Best sound"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Episode IV A New Hope the droids R2-D2 and C-3PO, were sold to whom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Empire"
+            },
+            {
+              "id": "1",
+              "text": "Owen Lars"
+            },
+            {
+              "id": "2",
+              "text": "Jaba The Hutt"
+            },
+            {
+              "id": "3",
+              "text": "Obi-wan Kenobi"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Owen Lars"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What long time American League manager was known for wearing street clothes on the bench?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miller Huggins"
+            },
+            {
+              "id": "1",
+              "text": "Joe McCarthy"
+            },
+            {
+              "id": "2",
+              "text": "Casey Stengel"
+            },
+            {
+              "id": "3",
+              "text": "Connie Mack"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Connie Mack"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This team won its first World Series title in 1980.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Philadelphia Phillies"
+            },
+            {
+              "id": "1",
+              "text": "Colorado Rockies"
+            },
+            {
+              "id": "2",
+              "text": "Houston Astros"
+            },
+            {
+              "id": "3",
+              "text": "Kansas City Royals"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Philadelphia Phillies"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the Dodgers move to Los Angeles breaking Brooklyns collective heart?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1957"
+            },
+            {
+              "id": "1",
+              "text": "1955"
+            },
+            {
+              "id": "2",
+              "text": "1952"
+            },
+            {
+              "id": "3",
+              "text": "1960"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1957"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What old time great player bragged of injuring and possibly killing a man who tried to mug him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rogers Hornsby"
+            },
+            {
+              "id": "1",
+              "text": "Shoeless Joe Jackson"
+            },
+            {
+              "id": "2",
+              "text": "Ty Cobb"
+            },
+            {
+              "id": "3",
+              "text": "Honus Wagner"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ty Cobb"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Return of the Jedi, the burgundy-wearing people who accompany Emperor Palpatine are his bodyguards.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "people",
+          "yankees",
+          "jedi",
+          "world",
+          "sounds"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "History Quiz: Mummy and Stone",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, john, discovery. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Simon Ritchie was only 19 when his band, The Sex Pistols made it to the top.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Muddy Waters"
+            },
+            {
+              "id": "1",
+              "text": "Sid Vicious"
+            },
+            {
+              "id": "2",
+              "text": "Ritchie Valens"
+            },
+            {
+              "id": "3",
+              "text": "Bobby Vinton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sid Vicious"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Amesbury Archer, an early Bronze Age man dating to around 2300 BC, was nicknamed the King of Stonehenge by the British press.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "\u00d6tzi the Iceman is a well-preserved natural mummy of a man who lived about 5300 years ago. It rivals an Egyptian mummy as the oldest known human mummy in the world. What is the name of the Egyptian mummy in question?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ginger"
+            },
+            {
+              "id": "1",
+              "text": "Desert Light"
+            },
+            {
+              "id": "2",
+              "text": "Bubba"
+            },
+            {
+              "id": "3",
+              "text": "Tutankhamen"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ginger"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Paul Hewson is the lead singer of a famous Irish band.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Will Smith"
+            },
+            {
+              "id": "1",
+              "text": "Enrique Iglesias"
+            },
+            {
+              "id": "2",
+              "text": "Paul Van Dyk"
+            },
+            {
+              "id": "3",
+              "text": "Bono"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bono"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born Reginald Dwight, this person sang Candle in the Wind, which was originally dedicated to Marilyn Monroe.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richie Blackmore"
+            },
+            {
+              "id": "1",
+              "text": "Elton John"
+            },
+            {
+              "id": "2",
+              "text": "Bon Jovi"
+            },
+            {
+              "id": "3",
+              "text": "Ray Charles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Elton John"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Norma Jean was the blond craze of Hollywood in 1950s. She starred in Some Like it Hot.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grady Sutton"
+            },
+            {
+              "id": "1",
+              "text": "Barbara Drew"
+            },
+            {
+              "id": "2",
+              "text": "Marilyn Monroe"
+            },
+            {
+              "id": "3",
+              "text": "Alexandra Heilweil"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Marilyn Monroe"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "William Bailey was the frontman of the great rock band Guns and Roses.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Axl Rose"
+            },
+            {
+              "id": "1",
+              "text": "Bon Jovi"
+            },
+            {
+              "id": "2",
+              "text": "Meat Loaf"
+            },
+            {
+              "id": "3",
+              "text": "Bono"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Axl Rose"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1898, near Kensington, Minnesota, a farmer found a roughly rectangular piece of stone covered in runes (this is true). Scientists are still unable to translate any of the runes on it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "David Robert Jones was one of the main characters in the Labyrinth movie.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stevie Wonder"
+            },
+            {
+              "id": "1",
+              "text": "Ozzy Osbourne"
+            },
+            {
+              "id": "2",
+              "text": "David Bowie"
+            },
+            {
+              "id": "3",
+              "text": "Billy Ocean"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: David Bowie"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Siberian Ice Maiden is a rare example of a single woman given a ceremonial burial in her wooden tomb. She was even accompanied by six horses.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Rosetta Stone was the key to deciphering Egyptian hieroglyphs. What kind of stone was it made of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gneiss"
+            },
+            {
+              "id": "1",
+              "text": "Andesite"
+            },
+            {
+              "id": "2",
+              "text": "Granite"
+            },
+            {
+              "id": "3",
+              "text": "Basalt"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Granite"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Dead Sea Scrolls, an important archaeological discovery of the XX century, comprise about 850 ancient documents. Among the most important of the texts are the Isaiah Scroll, the earliest version of the Damascus Document and the Copper Scroll. Do you know what is listed in the Copper Scroll?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Enemies of the Essenes sect"
+            },
+            {
+              "id": "1",
+              "text": "Members of the Essenes sect"
+            },
+            {
+              "id": "2",
+              "text": "Secret places where gold, scrolls, and weapons are hidden"
+            },
+            {
+              "id": "3",
+              "text": "Holy rituals"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Secret places where gold, scrolls, and weapons are hidden"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1826 Rev. William Buckland discovered Red Lady of Paviland - a human skeleton dyed in red ochre.  Where did he make his discovery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scotland"
+            },
+            {
+              "id": "1",
+              "text": "Wales"
+            },
+            {
+              "id": "2",
+              "text": "France"
+            },
+            {
+              "id": "3",
+              "text": "Mexico"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wales"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "James Jewell Osterberg, Jr. is famous as the father of punk rock. He appeared in The Crow: The City of Angels.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phil Collins"
+            },
+            {
+              "id": "1",
+              "text": "Rot Steward"
+            },
+            {
+              "id": "2",
+              "text": "Iggy Pop"
+            },
+            {
+              "id": "3",
+              "text": "Prince"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Iggy Pop"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Farouk Bulsara was born in Zanzibar. He was the lead singer of  Queen.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bruce Dickinson"
+            },
+            {
+              "id": "1",
+              "text": "Lee Michaels"
+            },
+            {
+              "id": "2",
+              "text": "Van Morrison"
+            },
+            {
+              "id": "3",
+              "text": "Freddie Mercury"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Freddie Mercury"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "john",
+          "discovery",
+          "example",
+          "scrolls",
+          "hewson"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Study and Airplane",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, john, keratin. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the monk and scientist, who laid the foundation for the study of genetics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Menken"
+            },
+            {
+              "id": "1",
+              "text": "Mendel"
+            },
+            {
+              "id": "2",
+              "text": "Mendeleev"
+            },
+            {
+              "id": "3",
+              "text": "Mankowitz"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mendel"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many of each type of animal did Moses bring into the ark?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "0"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 0"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Counting those of Guam, Puerto Rico, Washington D.C. and the U.S. Virgin Islands , how many senators are there in the U.S. Senate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "104"
+            },
+            {
+              "id": "1",
+              "text": "100"
+            },
+            {
+              "id": "2",
+              "text": "108"
+            },
+            {
+              "id": "3",
+              "text": "635"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 100"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Depending on the species, male deer are called all of these except one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harts"
+            },
+            {
+              "id": "1",
+              "text": "Stags"
+            },
+            {
+              "id": "2",
+              "text": "Does"
+            },
+            {
+              "id": "3",
+              "text": "Bucks"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Does"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A cows only sweat glands are located in this organ.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nose"
+            },
+            {
+              "id": "1",
+              "text": "Back"
+            },
+            {
+              "id": "2",
+              "text": "Neck"
+            },
+            {
+              "id": "3",
+              "text": "Mouth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nose"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is there a difference between a ram and a wether?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a Mohel do ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Perform wedding ceremonies"
+            },
+            {
+              "id": "1",
+              "text": "Sing in Synagogues"
+            },
+            {
+              "id": "2",
+              "text": "Perform circumcisions"
+            },
+            {
+              "id": "3",
+              "text": "Slaughter animals"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Perform circumcisions"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Forbes Nash, the anti-hero of A Beautiful Mind , won the Nobel Prize in Mathematics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Criticisms of the F-15s close combat maneuverability, large size and this major factor, led to the development of the F-16, an airplane that complements the F-15 by having strengths in those areas.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cost"
+            },
+            {
+              "id": "1",
+              "text": "Payload"
+            },
+            {
+              "id": "2",
+              "text": "Speed"
+            },
+            {
+              "id": "3",
+              "text": "Range"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cost"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Pope before Pope John XXIII ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John XXII"
+            },
+            {
+              "id": "1",
+              "text": "Pius XII"
+            },
+            {
+              "id": "2",
+              "text": "John Paul II"
+            },
+            {
+              "id": "3",
+              "text": "Spellman"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pius XII"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color is the black box on an airplane ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "black"
+            },
+            {
+              "id": "1",
+              "text": "orange"
+            },
+            {
+              "id": "2",
+              "text": "striped"
+            },
+            {
+              "id": "3",
+              "text": "white"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: orange"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The horns of these animals consist of keratin, densely compacted hair.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Giraffes"
+            },
+            {
+              "id": "1",
+              "text": "Rhinos"
+            },
+            {
+              "id": "2",
+              "text": "Deer"
+            },
+            {
+              "id": "3",
+              "text": "Cows"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rhinos"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An elephants tusks are actually its horns.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the plural of  the word genus, coined by Carl Linnaeus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "genii"
+            },
+            {
+              "id": "1",
+              "text": "genera"
+            },
+            {
+              "id": "2",
+              "text": "genus is the plural"
+            },
+            {
+              "id": "3",
+              "text": "genuses"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: genera"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the study of pistology focus on?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Faith"
+            },
+            {
+              "id": "1",
+              "text": "Sewage"
+            },
+            {
+              "id": "2",
+              "text": "Guns"
+            },
+            {
+              "id": "3",
+              "text": "Anatomy of flowers"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Faith"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "john",
+          "keratin",
+          "puerto",
+          "pistology",
+          "glands"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Michael and Number",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, actor, players. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Choose the correct spelling for a noun meaning strict attention to minute details.",
+          "options": [
+            {
+              "id": "0",
+              "text": "meticolosity"
+            },
+            {
+              "id": "1",
+              "text": "meticolocity"
+            },
+            {
+              "id": "2",
+              "text": "meticulocity"
+            },
+            {
+              "id": "3",
+              "text": "meticulosity"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: meticulosity"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor shares the same birthday with his second wife, Catherine - September 25th. However, he is 25 years older than her.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Bolton"
+            },
+            {
+              "id": "1",
+              "text": "Michael Richards"
+            },
+            {
+              "id": "2",
+              "text": "Michael Palin"
+            },
+            {
+              "id": "3",
+              "text": "Michael Douglas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Douglas"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Michael has sold over 170 million albums worldwide.  He is the godfather of the Bee Gees frontmans son Michael Gibb.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Jackson"
+            },
+            {
+              "id": "1",
+              "text": "Michael Bolton"
+            },
+            {
+              "id": "2",
+              "text": "Michael Green"
+            },
+            {
+              "id": "3",
+              "text": "Michael Jordan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Jackson"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of these statements concerning giraffes is wrong.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Giraffes give birth standing up."
+            },
+            {
+              "id": "1",
+              "text": "Giraffes always sleep upright."
+            },
+            {
+              "id": "2",
+              "text": "Giraffes have only seven vertebrae in their neck."
+            },
+            {
+              "id": "3",
+              "text": "Giraffes can run at speeds of up to 50kph."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Giraffes always sleep upright."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Michael acts and finished Culinary School of America while working as a chef before becoming a model. He also appeared in Japanese commercials.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Bolton"
+            },
+            {
+              "id": "1",
+              "text": "Mike Tyson"
+            },
+            {
+              "id": "2",
+              "text": "Michael Pare"
+            },
+            {
+              "id": "3",
+              "text": "Michael Johnson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Pare"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1996 this Michael was chosen as one of the 50 greatest players of all time and then in 1999 ESPN voted him as the greatest athlete of the twentieth century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Brashnikov"
+            },
+            {
+              "id": "1",
+              "text": "Mike Tyson"
+            },
+            {
+              "id": "2",
+              "text": "Michael Owen"
+            },
+            {
+              "id": "3",
+              "text": "Michael Jordan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Jordan"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Michael is nicknamed The Big Man.  Although he is a film director, he proved to be a very good writer. His book Stupid White Men...and Other Sorry Excuses for the State of the Nation reached number 1 on the New York Times non-fiction list.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Bolton"
+            },
+            {
+              "id": "1",
+              "text": "Michael Moore"
+            },
+            {
+              "id": "2",
+              "text": "Michael Jackson"
+            },
+            {
+              "id": "3",
+              "text": "Michael Barishnikov"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Moore"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American singer and song-writer has sold over 52 million albums and singles worldwide. He is mostly known for singing other artists songs, but he has written songs for  Barbra Streisand, KISS, Kenny Rogers, Kenny G, Cher, etc.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Jordan"
+            },
+            {
+              "id": "1",
+              "text": "Michael Barishnikov"
+            },
+            {
+              "id": "2",
+              "text": "Michael Bolton"
+            },
+            {
+              "id": "3",
+              "text": "George Michael"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Bolton"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Michael made his career as a football player for Liverpool. He was named European Footballer of the Year in December 2001.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Owen"
+            },
+            {
+              "id": "1",
+              "text": "Michael Bolton"
+            },
+            {
+              "id": "2",
+              "text": "Mike Tyson"
+            },
+            {
+              "id": "3",
+              "text": "Michael Johnson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Owen"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Michael is a member of the Monty Python comedy group. He was named a Commander of the Order of British Empire by Queen Elizabeth II.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Moore"
+            },
+            {
+              "id": "1",
+              "text": "Michael Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Michael Jackson"
+            },
+            {
+              "id": "3",
+              "text": "Michael Palin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Palin"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the number of teats for milking that a goat has.",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "4"
+            },
+            {
+              "id": "3",
+              "text": "6"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the case of this pop singer the name Michael is an artificial one.  His original name is Georgios Kyriacos Panayiotou. He was the first ever white male artist to record with Aretha Franklyn.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Bolton"
+            },
+            {
+              "id": "1",
+              "text": "Michael Pare"
+            },
+            {
+              "id": "2",
+              "text": "George Michael"
+            },
+            {
+              "id": "3",
+              "text": "Michael Palin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: George Michael"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the largest terrestrial mammal in North America.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Domestic Cow"
+            },
+            {
+              "id": "1",
+              "text": "Bighorn Sheep"
+            },
+            {
+              "id": "2",
+              "text": "American Deer"
+            },
+            {
+              "id": "3",
+              "text": "American Bison"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: American Bison"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the correct spelling for an adjective meaning grossly irreverent toward what is or is held to be sacred?",
+          "options": [
+            {
+              "id": "0",
+              "text": "sacrilegious"
+            },
+            {
+              "id": "1",
+              "text": "sacreligious"
+            },
+            {
+              "id": "2",
+              "text": "sacralegeous"
+            },
+            {
+              "id": "3",
+              "text": "sacriligious"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: sacrilegious"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This famous sporty Michael weighed 200 pounds when he was 13.  He was the prototype of the character Blood from Vendetta (1991).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Jackson"
+            },
+            {
+              "id": "1",
+              "text": "George Michael"
+            },
+            {
+              "id": "2",
+              "text": "Mike Tyson"
+            },
+            {
+              "id": "3",
+              "text": "Michael Douglas"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mike Tyson"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "actor",
+          "players",
+          "sporty",
+          "pop",
+          "america"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Word and Note",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This word is defined as a stone coffin, often inscribed or decorated with sculpture.",
+          "options": [
+            {
+              "id": "0",
+              "text": "sarcaphogus"
+            },
+            {
+              "id": "1",
+              "text": "sarcophagas"
+            },
+            {
+              "id": "2",
+              "text": "sarcophagus"
+            },
+            {
+              "id": "3",
+              "text": "sarcaphigus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: sarcophagus"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which actor does not portray a Taylor son on Home Improvement?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zachary Ty Bryan"
+            },
+            {
+              "id": "1",
+              "text": "Jonathan Taylor Thomas"
+            },
+            {
+              "id": "2",
+              "text": "Jake Thomas"
+            },
+            {
+              "id": "3",
+              "text": "Taran Noah Smith"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jake Thomas"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which actress doesnt belong with the Brady clan? Heres a story of a lovely lady, who was bringing up three very lovely girls, all of them had hair of gold, like their mother, the youngest one in curls",
+          "options": [
+            {
+              "id": "0",
+              "text": "Susan Olsen"
+            },
+            {
+              "id": "1",
+              "text": "Maureen McCormick"
+            },
+            {
+              "id": "2",
+              "text": "Ashley Johnson"
+            },
+            {
+              "id": "3",
+              "text": "Eve Plumb"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ashley Johnson"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In music this term refers to an embellishing note, usually one step above or below the note it precedes and indicated by a small note or special sign.",
+          "options": [
+            {
+              "id": "0",
+              "text": "appoggiatura"
+            },
+            {
+              "id": "1",
+              "text": "apogiatura"
+            },
+            {
+              "id": "2",
+              "text": "appogiatora"
+            },
+            {
+              "id": "3",
+              "text": "appoggatora"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: appoggiatura"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term means a noncontagious inflammation of the skin, characterized chiefly by redness, itching, and the outbreak of lesions that may discharge serous matter and become encrusted and scaly.",
+          "options": [
+            {
+              "id": "0",
+              "text": "exema"
+            },
+            {
+              "id": "1",
+              "text": "ezema"
+            },
+            {
+              "id": "2",
+              "text": "eczema"
+            },
+            {
+              "id": "3",
+              "text": "eczama"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: eczema"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Debuted in the 1979 remake of the movie The Champ. He became well-known as the star of Silver Spoons.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ricky Schroder"
+            },
+            {
+              "id": "1",
+              "text": "Todd Bridges"
+            },
+            {
+              "id": "2",
+              "text": "Kirk Cameron"
+            },
+            {
+              "id": "3",
+              "text": "Jonathan Taylor Thomas"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ricky Schroder"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Choose the proper spelling for the word which means an abnormal yellow discoloration of the skin often observed in cancerous tumors.",
+          "options": [
+            {
+              "id": "0",
+              "text": "zanthosis"
+            },
+            {
+              "id": "1",
+              "text": "xanthosis"
+            },
+            {
+              "id": "2",
+              "text": "zanthocis"
+            },
+            {
+              "id": "3",
+              "text": "xanthocis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: xanthosis"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This word is used to denote a Japanese pilot trained in World War II to make a suicidal crash attack, especially upon a ship.",
+          "options": [
+            {
+              "id": "0",
+              "text": "kamikaze"
+            },
+            {
+              "id": "1",
+              "text": "kamakaze"
+            },
+            {
+              "id": "2",
+              "text": "kamikazy"
+            },
+            {
+              "id": "3",
+              "text": "kamacaze"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: kamikaze"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This word is defined as a medication that reduces fever.",
+          "options": [
+            {
+              "id": "0",
+              "text": "antipyretic"
+            },
+            {
+              "id": "1",
+              "text": "antepiretic"
+            },
+            {
+              "id": "2",
+              "text": "antepyretic"
+            },
+            {
+              "id": "3",
+              "text": "antipiretic"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: antipyretic"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of his first appearances was in Lucas, alongside Charlie Sheen. In 2001, he auctioned one of his teeth and clumps of his hair on eBay.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emmanuel Lewis"
+            },
+            {
+              "id": "1",
+              "text": "Corey Feldman"
+            },
+            {
+              "id": "2",
+              "text": "Corey Haim"
+            },
+            {
+              "id": "3",
+              "text": "Macaulay Culkin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Corey Haim"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This adjective means capable of being understood or comprehended.",
+          "options": [
+            {
+              "id": "0",
+              "text": "intellagible"
+            },
+            {
+              "id": "1",
+              "text": "intelligeble"
+            },
+            {
+              "id": "2",
+              "text": "intelligible"
+            },
+            {
+              "id": "3",
+              "text": "intelligable"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: intelligible"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An actor, film director and producer, he has starred in popular sitcoms.  His brother often has a cameo in the movies he directs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron Howard"
+            },
+            {
+              "id": "1",
+              "text": "Joey Lawrence"
+            },
+            {
+              "id": "2",
+              "text": "Danny Bonaduce"
+            },
+            {
+              "id": "3",
+              "text": "Mark-Paul Gosselaar"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ron Howard"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the word which refers to any of a group of green pigments that are found in the chloroplasts of plants and in other photosynthetic organisms.",
+          "options": [
+            {
+              "id": "0",
+              "text": "chlorophyll"
+            },
+            {
+              "id": "1",
+              "text": "chlorophill"
+            },
+            {
+              "id": "2",
+              "text": "chlorofill"
+            },
+            {
+              "id": "3",
+              "text": "cholorphyle"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: chlorophyll"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born February 22, 1975, she shot to fame when she co-starred in  E.T. the Extra-Terrestrial.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Drew Barrymore"
+            },
+            {
+              "id": "1",
+              "text": "Thora Birch"
+            },
+            {
+              "id": "2",
+              "text": "Jodie Foster"
+            },
+            {
+              "id": "3",
+              "text": "Brooke Shields"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Drew Barrymore"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Died at age 23 from a drug overdose in a Hollywood night club outside the Viper Room.",
+          "options": [
+            {
+              "id": "0",
+              "text": "River Phoenix"
+            },
+            {
+              "id": "1",
+              "text": "Brandon Cruz"
+            },
+            {
+              "id": "2",
+              "text": "Jonathan Brandis"
+            },
+            {
+              "id": "3",
+              "text": "Edward Furlong"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: River Phoenix"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "world",
+          "director",
+          "note",
+          "charlie"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Actor and Canada",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, mohawk. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor, born in Vancouver, Canada, is famous for the role of Pacey Witter in the TV series, Dawsons Creek.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michelle Williams"
+            },
+            {
+              "id": "1",
+              "text": "James Van der Beek"
+            },
+            {
+              "id": "2",
+              "text": "Katie Holmes"
+            },
+            {
+              "id": "3",
+              "text": "Joshua Jackson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Joshua Jackson"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Canadian comedian, who hosted the ABC Comedy Hour in 1972, is best known for his celebrity impersonations.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dan Aykroyd"
+            },
+            {
+              "id": "1",
+              "text": "Tommy Chong"
+            },
+            {
+              "id": "2",
+              "text": "Rich Little"
+            },
+            {
+              "id": "3",
+              "text": "Jim Belushi"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rich Little"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a haunting film starring this stunning beauty, her husband -- a pianist, progressively makes her feel she is going insane, by walking around in the attic of their house. The role won her an Oscar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Greta Garbo"
+            },
+            {
+              "id": "1",
+              "text": "Vivian Leigh"
+            },
+            {
+              "id": "2",
+              "text": "Joan Crawford"
+            },
+            {
+              "id": "3",
+              "text": "Ingrid Berman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ingrid Berman"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who said this memorable movie line: You know how to whistle dont you Steve?-- Just put your lips together and blow.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lauren Bacall"
+            },
+            {
+              "id": "1",
+              "text": "Marilyn Monroe"
+            },
+            {
+              "id": "2",
+              "text": "Mae West"
+            },
+            {
+              "id": "3",
+              "text": "Joan Crawford"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lauren Bacall"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Known for his work on many movies, such as  The Women, Gaslight, and My Fair lady, this director is well known for being fired from Gone With The Wind.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Cukor"
+            },
+            {
+              "id": "1",
+              "text": "David O. Selznick"
+            },
+            {
+              "id": "2",
+              "text": "Orson Wells"
+            },
+            {
+              "id": "3",
+              "text": "Cecil B. DeMille"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: George Cukor"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Spencer Tracy and Katharine Hepburn were one of Hollywoods best known couples. How many movies did this couple do together?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 9"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Canadian-born actor, singer and sportscaster, who received a star on the Hollywood Walk of Fame in 1973, was the host of the long-running game show Lets Make a Deal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Simon James"
+            },
+            {
+              "id": "1",
+              "text": "William Hutt"
+            },
+            {
+              "id": "2",
+              "text": "Monty Hall"
+            },
+            {
+              "id": "3",
+              "text": "David Gunn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Monty Hall"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2005, this Toronto-born actor, who appeared in the TV series SCTV, released an album entitled, The Agoraphobic Cowboy, featuring country songs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eugene Levy"
+            },
+            {
+              "id": "1",
+              "text": "Leslie Nielsen"
+            },
+            {
+              "id": "2",
+              "text": "Jim Gaffigan"
+            },
+            {
+              "id": "3",
+              "text": "Rick Moranis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rick Moranis"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Canadian Mohawk Indian actor, who was inducted into the Western Performers Hall of Fame in 1993, is best known for his many appearances as the Lone Rangers friend, Tonto.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wes Studi"
+            },
+            {
+              "id": "1",
+              "text": "Iron Eyes Cody"
+            },
+            {
+              "id": "2",
+              "text": "John Two Eagles"
+            },
+            {
+              "id": "3",
+              "text": "Jay Silverheels"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jay Silverheels"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This siren, known for wearing mens clothes, studied to be a violinist until a wrist injury caused her to switch to acting.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Audrey Hepburn"
+            },
+            {
+              "id": "1",
+              "text": "Greta Garbo"
+            },
+            {
+              "id": "2",
+              "text": "Katherine Hepburn"
+            },
+            {
+              "id": "3",
+              "text": "Marlene Dietrich"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Marlene Dietrich"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Canadian-American actor is best known for his slapstick performances in comedy films, such as The Mask and Liar, Liar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dave Foley"
+            },
+            {
+              "id": "1",
+              "text": "John Candy"
+            },
+            {
+              "id": "2",
+              "text": "Howie Mandel"
+            },
+            {
+              "id": "3",
+              "text": "Jim Carrey"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jim Carrey"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Canadian actor, who started his career as a radio broadcaster, got the nickname The Voice of Doom because he delivered distressing war news during World War II.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Monty Hall"
+            },
+            {
+              "id": "1",
+              "text": "Art Linkletter"
+            },
+            {
+              "id": "2",
+              "text": "Lorne Greene"
+            },
+            {
+              "id": "3",
+              "text": "Glenn Ford"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lorne Greene"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The movie line, Im ready for my closeup Mr. De Mille was spoken by this actress.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paulette Goddard"
+            },
+            {
+              "id": "1",
+              "text": "Gloria Swanson"
+            },
+            {
+              "id": "2",
+              "text": "Olivia De Havilland"
+            },
+            {
+              "id": "3",
+              "text": "Marilyn Monroe"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gloria Swanson"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This stage and film actor, born in London, Ontario, Canada, starred in Alfred Hitchcocks movie, Shadow of a Doubt.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hume Cronyn"
+            },
+            {
+              "id": "1",
+              "text": "Leonard Nimoy"
+            },
+            {
+              "id": "2",
+              "text": "Tony Randall"
+            },
+            {
+              "id": "3",
+              "text": "Marlon Brando"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hume Cronyn"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Academy did not acknowledge this tall, dark and handsome actor until 1970, but Hitchcock adored him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cary Grant"
+            },
+            {
+              "id": "1",
+              "text": "Jimmy Stewart"
+            },
+            {
+              "id": "2",
+              "text": "Clark Cable"
+            },
+            {
+              "id": "3",
+              "text": "Sir Laurence Olivier"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cary Grant"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "mohawk",
+          "sportscaster",
+          "line",
+          "siren"
+        ]
+      }
+    }
+  ]
+}

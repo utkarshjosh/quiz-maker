@@ -1,0 +1,2492 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Wimbledon and Title",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, title, players. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "With whom of these tennis players has Martina Navratilova not won a Wimbledon Ladies doubles title?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chris Evert"
+            },
+            {
+              "id": "1",
+              "text": "Pam Shriver"
+            },
+            {
+              "id": "2",
+              "text": "Billie Jean King"
+            },
+            {
+              "id": "3",
+              "text": "Gigi Fernandez"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gigi Fernandez"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the official colors of the Wimbledon tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "yellow and purple"
+            },
+            {
+              "id": "1",
+              "text": "purple and green"
+            },
+            {
+              "id": "2",
+              "text": "blue and yellow"
+            },
+            {
+              "id": "3",
+              "text": "green and blue"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: purple and green"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Romanian gymnastics team won the all around team gold at the 1976 Olympic Games in Montreal, Canada.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what surface is the Wimbledon tournament played?",
+          "options": [
+            {
+              "id": "0",
+              "text": "grass"
+            },
+            {
+              "id": "1",
+              "text": "clay"
+            },
+            {
+              "id": "2",
+              "text": "hard"
+            },
+            {
+              "id": "3",
+              "text": "carpet"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: grass"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these former gymnasts is the most decorated male gymnast in the Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alexander Dityatin (USSR)"
+            },
+            {
+              "id": "1",
+              "text": "Sawao Kato (japan)"
+            },
+            {
+              "id": "2",
+              "text": "Kurt Thomas (USA)"
+            },
+            {
+              "id": "3",
+              "text": "Xiaopeng Li (China)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sawao Kato (japan)"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first US female gymnast to win the all around gold at a fully-attended Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shawn Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Mary Lou Retton"
+            },
+            {
+              "id": "2",
+              "text": "Carly Patterson"
+            },
+            {
+              "id": "3",
+              "text": "Shannon Miller"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Carly Patterson"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1985, this tennis player, only 17-years-old at the time, became the first unseeded contestant to win the Mens singles title at Wimbledon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Stich"
+            },
+            {
+              "id": "1",
+              "text": "Boris Becker"
+            },
+            {
+              "id": "2",
+              "text": "Goran Ivani\u0161evi\u0107"
+            },
+            {
+              "id": "3",
+              "text": "Stefan Edberg"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Boris Becker"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Between which two tournaments is Wimbledon played?",
+          "options": [
+            {
+              "id": "0",
+              "text": "German Open and Australian Open"
+            },
+            {
+              "id": "1",
+              "text": "Australian Open and French Open"
+            },
+            {
+              "id": "2",
+              "text": "French Open and US Open"
+            },
+            {
+              "id": "3",
+              "text": "US Open and Australian Open"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: French Open and US Open"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The winner of the Ladies singles title at Wimbledon is awarded a silver plate with beautiful motifs. What is its nickname?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Silverstone Dish"
+            },
+            {
+              "id": "1",
+              "text": "Rosewater Dish"
+            },
+            {
+              "id": "2",
+              "text": "Satellite Dish"
+            },
+            {
+              "id": "3",
+              "text": "Wimbledon Dish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rosewater Dish"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In its very first year, 1877, Wimbledon began with 22 contestants, competing for this title.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mens singles title"
+            },
+            {
+              "id": "1",
+              "text": "Ladies singles title"
+            },
+            {
+              "id": "2",
+              "text": "Mens doubles title"
+            },
+            {
+              "id": "3",
+              "text": "Ladies doubles title"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mens singles title"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Grand Slam winner won her first out of a total of seven Ladies singles Wimbledon titles in 1988.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chris Evert"
+            },
+            {
+              "id": "1",
+              "text": "Steffi Graf"
+            },
+            {
+              "id": "2",
+              "text": "Jana Novotna"
+            },
+            {
+              "id": "3",
+              "text": "Martina Navratilova"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Steffi Graf"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these former gymnasts won the most medals in the Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Larissa Latynina (Russia)"
+            },
+            {
+              "id": "1",
+              "text": "Olga Korbut (Soviet Union)"
+            },
+            {
+              "id": "2",
+              "text": "Nadia Comaneci (Romania)"
+            },
+            {
+              "id": "3",
+              "text": "Shannon Miller (USA)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Larissa Latynina (Russia)"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first lady to win 6 consecutive Ladies singles titles at Wimbledon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Martina Navratilova"
+            },
+            {
+              "id": "1",
+              "text": "Arantxa Sanchez Vicario"
+            },
+            {
+              "id": "2",
+              "text": "Steffi Graf"
+            },
+            {
+              "id": "3",
+              "text": "Martina Hingis"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Martina Navratilova"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What gymnastics team won the all around gold medal at the 2008 Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "USA"
+            },
+            {
+              "id": "1",
+              "text": "Japan"
+            },
+            {
+              "id": "2",
+              "text": "Russia"
+            },
+            {
+              "id": "3",
+              "text": "China"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2001 this player became the first ever wild card entry to win the Wimbledon tournament.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pat Rafter"
+            },
+            {
+              "id": "1",
+              "text": "Andy Roddick"
+            },
+            {
+              "id": "2",
+              "text": "Boris Becker"
+            },
+            {
+              "id": "3",
+              "text": "Goran Ivani\u0161evi\u0107"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Goran Ivani\u0161evi\u0107"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "title",
+          "players",
+          "gold",
+          "entry",
+          "slam"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Steelers and Pitcher",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, stadium, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was  the first pitcher to earn the Triple Crown four times?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hippo Vaughan"
+            },
+            {
+              "id": "1",
+              "text": "Grover Cleveland Alexander"
+            },
+            {
+              "id": "2",
+              "text": "Cy Young"
+            },
+            {
+              "id": "3",
+              "text": "Ed Cicotte"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Grover Cleveland Alexander"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Steelers lost their first playoff game against this team in 1947.",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Louis Cardinals"
+            },
+            {
+              "id": "1",
+              "text": "Cleveland Browns."
+            },
+            {
+              "id": "2",
+              "text": "Philadelphia Eagles"
+            },
+            {
+              "id": "3",
+              "text": "New York Giants"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Philadelphia Eagles"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During World War II, the Steelers merged with these two other teams because of a shortage of war time players.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cardinals and Giants"
+            },
+            {
+              "id": "1",
+              "text": "Browns and Cardinals"
+            },
+            {
+              "id": "2",
+              "text": "Cardinals and Eagles"
+            },
+            {
+              "id": "3",
+              "text": "Giants and Eagles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cardinals and Eagles"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who became head coach of the Steelers in 1992?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Green"
+            },
+            {
+              "id": "1",
+              "text": "Tom Landry"
+            },
+            {
+              "id": "2",
+              "text": "Joe Montana"
+            },
+            {
+              "id": "3",
+              "text": "Bill Cowher"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Cowher"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Steelers lost their bid for a fifth Championship in Super Bowl XXX to this team in January 1996.",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Francisco 49ers"
+            },
+            {
+              "id": "1",
+              "text": "Philadelphia Eagles"
+            },
+            {
+              "id": "2",
+              "text": "San Diego Chargers"
+            },
+            {
+              "id": "3",
+              "text": "Dallas Cowboys"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dallas Cowboys"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Hall of Fame Quarterback led the Steelers to 4 Super Bowl victories in the 1970s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim Thorpe"
+            },
+            {
+              "id": "1",
+              "text": "John Macenroe"
+            },
+            {
+              "id": "2",
+              "text": "Terry Bradshaw"
+            },
+            {
+              "id": "3",
+              "text": "Joe Montana"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Terry Bradshaw"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Steelers finally won their 5th Championship in Super Bowl XL against the Seattle Seahawks in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "2004"
+            },
+            {
+              "id": "1",
+              "text": "2006"
+            },
+            {
+              "id": "2",
+              "text": "2003"
+            },
+            {
+              "id": "3",
+              "text": "2005"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2006"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tommy Bond was the first pitcher to qualify as a Triple Crown winner, but this great pitcher was the first to win it in the 20th century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walter Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Christy Mathewson"
+            },
+            {
+              "id": "2",
+              "text": "Cy Young"
+            },
+            {
+              "id": "3",
+              "text": "Tim Keefe"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cy Young"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player, drafted by The Steelers in 1969, is widely known for being mean and a for Coke commercial with a little kid.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cy Young"
+            },
+            {
+              "id": "1",
+              "text": "Dick Night Train Lane"
+            },
+            {
+              "id": "2",
+              "text": "Lynn Swan"
+            },
+            {
+              "id": "3",
+              "text": "Joe Green"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Green"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This left-handed pitcher, who was also a basketball player, won the National  League Triple Crown for the Dodgers in 1963, 1965, and 1966.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don Drysdale"
+            },
+            {
+              "id": "1",
+              "text": "Lou Alcindor"
+            },
+            {
+              "id": "2",
+              "text": "Juan Marichal"
+            },
+            {
+              "id": "3",
+              "text": "Sandy Koufax"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sandy Koufax"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Steelers began playing at this Stadium in the 2001 season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heinz Field"
+            },
+            {
+              "id": "1",
+              "text": "Three Rivers Stadium"
+            },
+            {
+              "id": "2",
+              "text": "Texas Stadium"
+            },
+            {
+              "id": "3",
+              "text": "Forbes Field"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Heinz Field"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Pittsburgh Steelers are the oldest team in the American Conference. What year were they formed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1943"
+            },
+            {
+              "id": "1",
+              "text": "1953"
+            },
+            {
+              "id": "2",
+              "text": "1923"
+            },
+            {
+              "id": "3",
+              "text": "1933"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1933"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This man was the head coach of the Pittsburgh Steelers from 1969 through 1991.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chuck Nocks"
+            },
+            {
+              "id": "1",
+              "text": "Chuck Noll"
+            },
+            {
+              "id": "2",
+              "text": "Chuck Knoll"
+            },
+            {
+              "id": "3",
+              "text": "Chuck Knoks"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chuck Noll"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To win the pitching Triple Crown, a pitcher must lead his league in these categories.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wins or saves, ERA, strikeouts"
+            },
+            {
+              "id": "1",
+              "text": "Wins, ERA, Saves"
+            },
+            {
+              "id": "2",
+              "text": "Win-loss percentage, saves, strikeouts"
+            },
+            {
+              "id": "3",
+              "text": "Wins, ERA, strikeouts"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wins, ERA, strikeouts"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1930s two American League pitchers won the Triple Crown twice each. They both had the same nickname. What were their last names?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vance and Dean"
+            },
+            {
+              "id": "1",
+              "text": "Grove and Gomez"
+            },
+            {
+              "id": "2",
+              "text": "Dean and Gomez"
+            },
+            {
+              "id": "3",
+              "text": "Gomez and Addams"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Grove and Gomez"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "stadium",
+          "world",
+          "coach",
+          "game",
+          "quarterback"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Basketball and Nba",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, college, coach. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the first televised basketball game air?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1944"
+            },
+            {
+              "id": "1",
+              "text": "1956"
+            },
+            {
+              "id": "2",
+              "text": "1948"
+            },
+            {
+              "id": "3",
+              "text": "1940"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1940"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the original name for basketball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "YMCA-ball"
+            },
+            {
+              "id": "1",
+              "text": "Courtball"
+            },
+            {
+              "id": "2",
+              "text": "Roundball"
+            },
+            {
+              "id": "3",
+              "text": "Naismithball"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Naismithball"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the very first basketball game each team comprised of this many players.",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "11"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 9"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He won the Triple Crown in 2006 and was traded after the next season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jake Peavy"
+            },
+            {
+              "id": "1",
+              "text": "Roger Clemens"
+            },
+            {
+              "id": "2",
+              "text": "Johan Santana"
+            },
+            {
+              "id": "3",
+              "text": "John Clarkson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Johan Santana"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What team was formed by Abe Saperstein?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harlem Globetrotters"
+            },
+            {
+              "id": "1",
+              "text": "New York Liberty"
+            },
+            {
+              "id": "2",
+              "text": "Washington generals"
+            },
+            {
+              "id": "3",
+              "text": "Boston Celtics"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Harlem Globetrotters"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what state was the first college basketball game played?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Minnesota"
+            },
+            {
+              "id": "1",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "2",
+              "text": "Maine"
+            },
+            {
+              "id": "3",
+              "text": "Missouri"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Minnesota"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During modern baseball (i.e. since 1877) this is the first decade in which no pitcher could earn the Triple Crown.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1950s"
+            },
+            {
+              "id": "1",
+              "text": "1880s"
+            },
+            {
+              "id": "2",
+              "text": "1940s"
+            },
+            {
+              "id": "3",
+              "text": "1890s"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1950s"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is given credit for taking the first jump shot in college basketball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Fulks"
+            },
+            {
+              "id": "1",
+              "text": "Ken Sailors"
+            },
+            {
+              "id": "2",
+              "text": "Maurice Stokes"
+            },
+            {
+              "id": "3",
+              "text": "Terry Joe Barker"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ken Sailors"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Glory Road is a movie about the first NCAA basketball team with an all African-American starting lineup. Which university is the movie about?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Western Kentucky"
+            },
+            {
+              "id": "1",
+              "text": "Rutgers University"
+            },
+            {
+              "id": "2",
+              "text": "Kansas"
+            },
+            {
+              "id": "3",
+              "text": "Texas Western"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Texas Western"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who scored the first basket in the NBA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chris Ford"
+            },
+            {
+              "id": "1",
+              "text": "Ozzie Schectman"
+            },
+            {
+              "id": "2",
+              "text": "Maurice Stokes"
+            },
+            {
+              "id": "3",
+              "text": "Amos Alonzo Stagg"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ozzie Schectman"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first NBA player to score 60 points in a game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wilt Chamberlain"
+            },
+            {
+              "id": "1",
+              "text": "Joe Fulks"
+            },
+            {
+              "id": "2",
+              "text": "Frank Selvy"
+            },
+            {
+              "id": "3",
+              "text": "Joe Marasovich"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Fulks"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Philadelphia Warriors became the first NBA champions in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1943"
+            },
+            {
+              "id": "1",
+              "text": "1947"
+            },
+            {
+              "id": "2",
+              "text": "1939"
+            },
+            {
+              "id": "3",
+              "text": "1950"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1947"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first college coach of a five-man basketball team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Duke Maas"
+            },
+            {
+              "id": "1",
+              "text": "Joe Fulks"
+            },
+            {
+              "id": "2",
+              "text": "Adolph Rupp"
+            },
+            {
+              "id": "3",
+              "text": "Amos Alonzo Stagg"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Amos Alonzo Stagg"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This movie tells the story of a woman who becomes the coach of the New York Knicks.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie"
+            },
+            {
+              "id": "1",
+              "text": "White Men Cant Jump"
+            },
+            {
+              "id": "2",
+              "text": "Drive , She Said"
+            },
+            {
+              "id": "3",
+              "text": "Rebound"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great NBA guard played from 1958\u20131967 for the Boston Celtics. For many years he was the best defensive guard in the NBA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Havlichek"
+            },
+            {
+              "id": "1",
+              "text": "Mike Farmer"
+            },
+            {
+              "id": "2",
+              "text": "K.C. Jones"
+            },
+            {
+              "id": "3",
+              "text": "Sam Jones"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: K.C. Jones"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "college",
+          "coach",
+          "game",
+          "champions",
+          "warriors"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: College and Football",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, basketball, leslie. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the score of Penn State Nittany Lions in the first game of the 2008-2009 season vs. Coastal Carolina?",
+          "options": [
+            {
+              "id": "0",
+              "text": "55-14, Penn State won"
+            },
+            {
+              "id": "1",
+              "text": "24-21, Penn State lost"
+            },
+            {
+              "id": "2",
+              "text": "66-10, Penn State won"
+            },
+            {
+              "id": "3",
+              "text": "66-17, Penn State lost"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 66-10, Penn State won"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1992, 1984, and 2005, who was Penn State Nittany Lions football teams head coach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Galen Hall"
+            },
+            {
+              "id": "1",
+              "text": "Rip Engle"
+            },
+            {
+              "id": "2",
+              "text": "Tim Curley"
+            },
+            {
+              "id": "3",
+              "text": "Joe Paterno"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Paterno"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Michael Fred Phelps born and raised?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bethesda, Md"
+            },
+            {
+              "id": "1",
+              "text": "Baltimore, Md"
+            },
+            {
+              "id": "2",
+              "text": "Washington D.C."
+            },
+            {
+              "id": "3",
+              "text": "Silver Spring, Md"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Baltimore, Md"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did Michael Phelps attend college?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ohio State"
+            },
+            {
+              "id": "1",
+              "text": "Georgetown University"
+            },
+            {
+              "id": "2",
+              "text": "University of Michigan in Ann Arbor"
+            },
+            {
+              "id": "3",
+              "text": "Iowa State"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: University of Michigan in Ann Arbor"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What conference is the Penn State Nittany Lions football team in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "SEC"
+            },
+            {
+              "id": "1",
+              "text": "Big East"
+            },
+            {
+              "id": "2",
+              "text": "Pac-10"
+            },
+            {
+              "id": "3",
+              "text": "Big Ten"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Big Ten"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following players has won a Heisman Trophy in 1973 while in the Pennsylvania State University?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Robinson"
+            },
+            {
+              "id": "1",
+              "text": "Ki-Jana Carter"
+            },
+            {
+              "id": "2",
+              "text": "John Cappelletti"
+            },
+            {
+              "id": "3",
+              "text": "Tony Hunt"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Cappelletti"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first college to win both the NCAA championship and the National Invitation Tournament in the same year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Francisco City College"
+            },
+            {
+              "id": "1",
+              "text": "University of Kentucky"
+            },
+            {
+              "id": "2",
+              "text": "City College of New York"
+            },
+            {
+              "id": "3",
+              "text": "San Francisco University"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: City College of New York"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what state was the first womens college basketball game played?",
+          "options": [
+            {
+              "id": "0",
+              "text": "California"
+            },
+            {
+              "id": "1",
+              "text": "New York"
+            },
+            {
+              "id": "2",
+              "text": "Missouri"
+            },
+            {
+              "id": "3",
+              "text": "Massachusetts"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first college to win the NCAA championship in basketball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ohio State"
+            },
+            {
+              "id": "1",
+              "text": "Kansas"
+            },
+            {
+              "id": "2",
+              "text": "Oregon"
+            },
+            {
+              "id": "3",
+              "text": "Kentucky"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oregon"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Penn State Nittany Lions American football players wear a blue jersey at home.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "By which team was former Penn State Nittany Lions player Michael Robinson chosen in the NFL Draft in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pittsburgh Steelers"
+            },
+            {
+              "id": "1",
+              "text": "San Francisco 49ers"
+            },
+            {
+              "id": "2",
+              "text": "Seattle Seahawks"
+            },
+            {
+              "id": "3",
+              "text": "Oakland raiders"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: San Francisco 49ers"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In1986 the Penn State Nittany Lions football team won their which National Championship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Second"
+            },
+            {
+              "id": "1",
+              "text": "Third"
+            },
+            {
+              "id": "2",
+              "text": "First"
+            },
+            {
+              "id": "3",
+              "text": "Fifth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Second"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Find the true statement about Lisa Leslie.",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was the first leading scorer in the WNBA."
+            },
+            {
+              "id": "1",
+              "text": "She was the first woman to play in the NBA."
+            },
+            {
+              "id": "2",
+              "text": "She was the first woman to dunk a basketball in the WNBA."
+            },
+            {
+              "id": "3",
+              "text": "She was the first woman to score 60 points in a WNBA game."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: She was the first woman to dunk a basketball in the WNBA."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Penn State Nittany Lions football team have unbeaten, untied seasons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Penn State Nittany Lions football teams annual scrimmage game called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blue and White Game"
+            },
+            {
+              "id": "1",
+              "text": "Lions vs. Lions Game"
+            },
+            {
+              "id": "2",
+              "text": "Scrimmage At the Beaver"
+            },
+            {
+              "id": "3",
+              "text": "Useless Pre-Season Game that is Fun to Go to"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blue and White Game"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "basketball",
+          "leslie",
+          "college",
+          "heisman",
+          "championship"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Michael Phelps and Sport",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, athlete, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 2004 Olympic Games, Michael Phelps set a number of world records, Olympic records, and American records. How many of each did he set?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4 WR, 1 OR, and 2 AR"
+            },
+            {
+              "id": "1",
+              "text": "1 WR, 4 OR, and 2 AR"
+            },
+            {
+              "id": "2",
+              "text": "3 WR, 2 OR, and 2 AR"
+            },
+            {
+              "id": "3",
+              "text": "2 WR, 3 OR, and 2 AR"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 2 WR, 3 OR, and 2 AR"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first switch hitter in the Baseball Hall of Fame?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mickey Mantle"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Murray"
+            },
+            {
+              "id": "2",
+              "text": "Rogers Hornsby"
+            },
+            {
+              "id": "3",
+              "text": "Frankie Frisch"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Frankie Frisch"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 2004 Athens Summer Olympic Games, how many gold and bronze medals did Michael Phelps win?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5 gold, 3 bronze"
+            },
+            {
+              "id": "1",
+              "text": "6 gold, 1 bronze"
+            },
+            {
+              "id": "2",
+              "text": "6 gold, 2 bronze"
+            },
+            {
+              "id": "3",
+              "text": "5 gold, 2 bronze"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 6 gold, 2 bronze"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Michael Phelps first competed in Olympic Games in 2004.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A street in Michael Phelps hometown was renamed this to honor him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Phelps Way"
+            },
+            {
+              "id": "1",
+              "text": "Michael Phelps Drive"
+            },
+            {
+              "id": "2",
+              "text": "Phelps Street"
+            },
+            {
+              "id": "3",
+              "text": "Phelps Drive"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Phelps Way"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 100 m butterfly at  the 2008 Olympic Games, Michael Phelps beat Milorad \u010cavi\u0107 by this much.",
+          "options": [
+            {
+              "id": "0",
+              "text": "2/10ths of a second"
+            },
+            {
+              "id": "1",
+              "text": "1/10th of a second"
+            },
+            {
+              "id": "2",
+              "text": "2/100ths of a second"
+            },
+            {
+              "id": "3",
+              "text": "1/100th of a second"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1/100th of a second"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Stella Walsh was a Polish-born athlete residing in Cleveland, Ohio. She won an Olympic gold medal in  the 1932 Olympic (100 meters) and a silver medal in the 1936 Olympics (100 meters). Which statement is untrue about Stella Walsh?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She had female genitalia"
+            },
+            {
+              "id": "1",
+              "text": "She had male genitalia"
+            },
+            {
+              "id": "2",
+              "text": "She had XY-chromosomes"
+            },
+            {
+              "id": "3",
+              "text": "She had XX-chromosomes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: She had female genitalia"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The  sport of noodling has become very popular in the USA. What does it involve?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Catching catfish barehanded"
+            },
+            {
+              "id": "1",
+              "text": "Pushing an enormous plastic ball into your opponents goal"
+            },
+            {
+              "id": "2",
+              "text": "Outdoor bowling on ice"
+            },
+            {
+              "id": "3",
+              "text": "A form of mixed martial arts with no rules"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Catching catfish barehanded"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There was  a sport called face-slapping.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first NFL Super Bowl MVP who was not born in the USA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kurt Warner"
+            },
+            {
+              "id": "1",
+              "text": "Len Dawson"
+            },
+            {
+              "id": "2",
+              "text": "Mark Rypien"
+            },
+            {
+              "id": "3",
+              "text": "Fred Biletnikoff"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mark Rypien"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement regarding the 1959 season is false?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank Robinson was the American League manager."
+            },
+            {
+              "id": "1",
+              "text": "Orlando Cepeda and Stan Musial were the starting All-Star first basemen."
+            },
+            {
+              "id": "2",
+              "text": "The American League lost the All-Star Game on July 7 5 to 4."
+            },
+            {
+              "id": "3",
+              "text": "The National League lost the All Star Game on August 3  5 to 3."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Frank Robinson was the American League manager."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 2008 Olympic Games, Michael Phelps swam in 8 events. How many world records did Phelps and/or his team set?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which was the first NFL team to have an insignia put on its helmets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bears"
+            },
+            {
+              "id": "1",
+              "text": "Redskins"
+            },
+            {
+              "id": "2",
+              "text": "Rams"
+            },
+            {
+              "id": "3",
+              "text": "Eagles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rams"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the  people on the first cover of Sports Illustrated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Mathews, Wes Westrum and Augie Donatelli"
+            },
+            {
+              "id": "1",
+              "text": "Ben Hogan, Bobby Jones, and Sam Snead"
+            },
+            {
+              "id": "2",
+              "text": "Ted Williams and Joe DiMaggiio"
+            },
+            {
+              "id": "3",
+              "text": "President Dwight David Eisenhower and his caddy, Mitch MacKenzie"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Mathews, Wes Westrum and Augie Donatelli"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eddie Feigner, Cat Osterman, and Lisa Fernandez became well known for practicing this sport.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Canopying"
+            },
+            {
+              "id": "1",
+              "text": "Billiards"
+            },
+            {
+              "id": "2",
+              "text": "Golf"
+            },
+            {
+              "id": "3",
+              "text": "Softball"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Softball"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "athlete",
+          "people",
+          "summer",
+          "face-slapping",
+          "games"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Charlotte Bobcats and Yards",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, coach, one. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the first person to hold the worlds record for running 50 yards, 75 yards and 100 yards backwards.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bob Hayes"
+            },
+            {
+              "id": "1",
+              "text": "Jim Thorpe"
+            },
+            {
+              "id": "2",
+              "text": "Bill Robinson"
+            },
+            {
+              "id": "3",
+              "text": "R.P. Williams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Robinson"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When the Charlotte Bobcats first came into the NBA, how many NBA players did they pick to be on the inaugural roster in their expansion draft?",
+          "options": [
+            {
+              "id": "0",
+              "text": "17"
+            },
+            {
+              "id": "1",
+              "text": "19"
+            },
+            {
+              "id": "2",
+              "text": "21"
+            },
+            {
+              "id": "3",
+              "text": "15"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 19"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1952 Pete and Jerry Cusimano did this at a hockey game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "They were the first fans to jump onto the ice to protest a penalty on their team."
+            },
+            {
+              "id": "1",
+              "text": "They were the first to place plexiglass to separate the fans from the players and ice rink."
+            },
+            {
+              "id": "2",
+              "text": "They were the first to throw their hats onto the ice when a player scored three goals in one game."
+            },
+            {
+              "id": "3",
+              "text": "They threw an octopus on the ice at an NHL game."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They threw an octopus on the ice at an NHL game."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "With the 2nd overall pick in the 2004 NBA draft, the Charlotte Bobcats selected what former UConn player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emeka Okafor"
+            },
+            {
+              "id": "1",
+              "text": "Jahidi White"
+            },
+            {
+              "id": "2",
+              "text": "Bernard Robinson"
+            },
+            {
+              "id": "3",
+              "text": "Dwight Howard"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Emeka Okafor"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the last Negro League baseball player to play in the major leagues.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don Newcombe"
+            },
+            {
+              "id": "1",
+              "text": "Willie Mays"
+            },
+            {
+              "id": "2",
+              "text": "Hank Aaron"
+            },
+            {
+              "id": "3",
+              "text": "Vic Power"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hank Aaron"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Find the incorrect statement about sportsman Yuichiro Miura.",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was the first seventy-year old person to climb Mount Fuji."
+            },
+            {
+              "id": "1",
+              "text": "He skied Mount Everest."
+            },
+            {
+              "id": "2",
+              "text": "He climbed Mount Everest at the age of 75 years 7 months."
+            },
+            {
+              "id": "3",
+              "text": "He was the first seventy-year old person to climb Mount Everest."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He was the first seventy-year old person to climb Mount Fuji."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Select the one who does not  fit.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lance Allred (NBA)"
+            },
+            {
+              "id": "1",
+              "text": "Bonnie Sloan (NFL)"
+            },
+            {
+              "id": "2",
+              "text": "Brian Leetch (NHL)"
+            },
+            {
+              "id": "3",
+              "text": "William E. Hoy (MLB)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Brian Leetch (NHL)"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Charlotte Bobcats first head coach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dan Scwartzer"
+            },
+            {
+              "id": "1",
+              "text": "Lou Hollins"
+            },
+            {
+              "id": "2",
+              "text": "Bernie Bickerstaff"
+            },
+            {
+              "id": "3",
+              "text": "Michael Jordan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bernie Bickerstaff"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the Charlotte Bobcats record for their very 1st season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "18-64"
+            },
+            {
+              "id": "1",
+              "text": "25-57"
+            },
+            {
+              "id": "2",
+              "text": "23-59"
+            },
+            {
+              "id": "3",
+              "text": "14-68"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 18-64"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Besides basketball, is there any other type of sport played at the Charlotte Arena?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Before the Bobcats, what NBA team played in Charlotte?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Miami Heat"
+            },
+            {
+              "id": "1",
+              "text": "Dallas Mavericks"
+            },
+            {
+              "id": "2",
+              "text": "New York Knicks"
+            },
+            {
+              "id": "3",
+              "text": "New Orleans Hornets"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New Orleans Hornets"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jerome Holtzman was a sports journalist of some repute. Which statement is true about him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He and Bill James wrote many books using statistics to evaluate players."
+            },
+            {
+              "id": "1",
+              "text": "He was the writer who wrote the original expose on steroids in baseball."
+            },
+            {
+              "id": "2",
+              "text": "He was President of the Baseball Hall of Fame from 1999 to his death in 2008."
+            },
+            {
+              "id": "3",
+              "text": "He invented the statistic Saves by a relief pitcher."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He invented the statistic Saves by a relief pitcher."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who built the tennis court that is in the Hampton Court in England?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Winston Churchill"
+            },
+            {
+              "id": "1",
+              "text": "Christopher Wren"
+            },
+            {
+              "id": "2",
+              "text": "Ben Franklin"
+            },
+            {
+              "id": "3",
+              "text": "King Henry VIII"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: King Henry VIII"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Charlotte Bobcats lost their very first regular season game to what team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Washington Wizards"
+            },
+            {
+              "id": "1",
+              "text": "Detroit Pistons"
+            },
+            {
+              "id": "2",
+              "text": "Atlanta Hawks"
+            },
+            {
+              "id": "3",
+              "text": "Miami Heat"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Washington Wizards"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Besides the Charlotte Bobcats, there is another professional basketball team in Charlotte.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "coach",
+          "one",
+          "very",
+          "pete",
+          "type"
+        ]
+      }
+    }
+  ]
+}

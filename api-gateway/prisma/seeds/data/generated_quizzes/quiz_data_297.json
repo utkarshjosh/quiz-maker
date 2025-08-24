@@ -1,0 +1,2468 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Knowledge Quiz: Movie and Actor",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, actor, pop. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does Billy Costigan tell Sullivans girlfriend (the criminal psychiatrist) that he is an informant for the Irish mob?",
+          "options": [
+            {
+              "id": "0",
+              "text": "meets her in an alley and divulges the information"
+            },
+            {
+              "id": "1",
+              "text": "sends her a tape/dvd in the mail"
+            },
+            {
+              "id": "2",
+              "text": "calls her on the phone"
+            },
+            {
+              "id": "3",
+              "text": "leaves her a note"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: sends her a tape/dvd in the mail"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Emmy Award-winning comedy series was based on the lives of four women living together in Miami Beach, Florida.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golden Girls"
+            },
+            {
+              "id": "1",
+              "text": "Maude"
+            },
+            {
+              "id": "2",
+              "text": "Empty Nest"
+            },
+            {
+              "id": "3",
+              "text": "The Facts of Life"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Golden Girls"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Michael J. Fox won three consecutive Emmy Awards for Outstanding Actor in a Comedy Series for his role as Alex Keaton in the hit comedy series Family Ties.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actor plays the part of Simon Bishops agent and friend, Frank Sachs, in the great movie As Good As It Gets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cuba Gooding Jr."
+            },
+            {
+              "id": "1",
+              "text": "Jaheim Hoagland"
+            },
+            {
+              "id": "2",
+              "text": "Abuc Gnidoog"
+            },
+            {
+              "id": "3",
+              "text": "Cuba Gooding Sr."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cuba Gooding Jr."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This comedy starring Don Adams won two Emmy Awards for Outstanding Comedy Series in 1968 and 1969.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Get Smart"
+            },
+            {
+              "id": "1",
+              "text": "The Fugitive"
+            },
+            {
+              "id": "2",
+              "text": "Mission: Impossible"
+            },
+            {
+              "id": "3",
+              "text": "Rowan  Martins Laugh-In"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Get Smart"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 60s pop band The Monkees starred in their own show of the same name and won two Emmy Awards for Outstanding Comedy Series in 1966 and 1967.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who kills Sgt. Colin Sullivan at the end of the movie The Deprated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank Costello"
+            },
+            {
+              "id": "1",
+              "text": "Billy Costigan"
+            },
+            {
+              "id": "2",
+              "text": "Capt. George Ellerby"
+            },
+            {
+              "id": "3",
+              "text": "Staff Sgt. Sean Dignam"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Staff Sgt. Sean Dignam"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actor plays the part of the homosexual artist Simon Bishop in the hit movie As Good As It Gets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cuba Gooding Jr."
+            },
+            {
+              "id": "1",
+              "text": "Jack Nicholson"
+            },
+            {
+              "id": "2",
+              "text": "Skeet Ulrich"
+            },
+            {
+              "id": "3",
+              "text": "Greg Kinnear"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Greg Kinnear"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Shelley Long and Kirstie Alley both won Emmy Awards for Outstanding Lead Actress in a Comedy Series for this perennial Emmy nominee.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cheers"
+            },
+            {
+              "id": "1",
+              "text": "Murphy Brown"
+            },
+            {
+              "id": "2",
+              "text": "Frasier"
+            },
+            {
+              "id": "3",
+              "text": "Mad About You"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cheers"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor won the Emmy Award for Outstanding Lead Actor in a Comedy Series for his part as the bumbling Jack Tripper in Threes Company.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Ritter"
+            },
+            {
+              "id": "1",
+              "text": "Alan Alda"
+            },
+            {
+              "id": "2",
+              "text": "Judd Hirsch"
+            },
+            {
+              "id": "3",
+              "text": "Richard Mulligan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: John Ritter"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the Academy Award-nominated film As Good As It Gets first hit the theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1997"
+            },
+            {
+              "id": "1",
+              "text": "1995"
+            },
+            {
+              "id": "2",
+              "text": "1998"
+            },
+            {
+              "id": "3",
+              "text": "1999"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1997"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the sensational movie Rocky first hit the movie theatres?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1975"
+            },
+            {
+              "id": "1",
+              "text": "1976"
+            },
+            {
+              "id": "2",
+              "text": "1977"
+            },
+            {
+              "id": "3",
+              "text": "1978"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1976"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The last scene in the movie The Departed shows a rodent crawling on Sullivans balcony railing. The rodent appears after Sullivan was shot in the head. What type of rodent was it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a castoroides"
+            },
+            {
+              "id": "1",
+              "text": "a mouse"
+            },
+            {
+              "id": "2",
+              "text": "a capybara"
+            },
+            {
+              "id": "3",
+              "text": "a rat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: a rat"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Melvin Udall do for a living in the great movie As Good As It Gets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Writer"
+            },
+            {
+              "id": "1",
+              "text": "Doorman"
+            },
+            {
+              "id": "2",
+              "text": "Doctor"
+            },
+            {
+              "id": "3",
+              "text": "Software Engineer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Writer"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Despite its immense popularity during its entire ten-year run, this show won its only Emmy Award for Outstanding Comedy Series in 2002.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Friends"
+            },
+            {
+              "id": "1",
+              "text": "Frasier"
+            },
+            {
+              "id": "2",
+              "text": "Will and Grace"
+            },
+            {
+              "id": "3",
+              "text": "Everybody Loves Raymond"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Friends"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "actor",
+          "pop",
+          "awards",
+          "scene",
+          "sullivan"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Movie and Major League",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, actor, inc.. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Willie Mays Hayes was not invited to the teams spring tryouts in the movie Major League.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Monsters Inc. was a story set in the town of Minneapolis .",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the team of misfits in the film Major league?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Mets"
+            },
+            {
+              "id": "1",
+              "text": "Philadelphia Phillies"
+            },
+            {
+              "id": "2",
+              "text": "Cleveland Indians"
+            },
+            {
+              "id": "3",
+              "text": "Los Angeles Dodgers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cleveland Indians"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did Monsters, Inc. come out in the movie theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2004"
+            },
+            {
+              "id": "1",
+              "text": "2002"
+            },
+            {
+              "id": "2",
+              "text": "2001"
+            },
+            {
+              "id": "3",
+              "text": "2000"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2001"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Monsters, Inc., which actor provided the voice of the mean Randall Boggs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Buscemi"
+            },
+            {
+              "id": "1",
+              "text": "George Wendt"
+            },
+            {
+              "id": "2",
+              "text": "Gilbert Gottfried"
+            },
+            {
+              "id": "3",
+              "text": "John Ratzenberger"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Steve Buscemi"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Mike and Sulleys boss in the great animated feature, Monsters, Inc.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerry"
+            },
+            {
+              "id": "1",
+              "text": "Roz"
+            },
+            {
+              "id": "2",
+              "text": "Randall"
+            },
+            {
+              "id": "3",
+              "text": "Mr. Waternoose"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Waternoose"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the movie Major League first hit theaters in the U.S.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1989"
+            },
+            {
+              "id": "1",
+              "text": "1990"
+            },
+            {
+              "id": "2",
+              "text": "1988"
+            },
+            {
+              "id": "3",
+              "text": "1987"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1989"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Monsters, Inc., Mike Wazowski takes his girlfriend Celia Mae out to dinner in what type of restaurant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sushi"
+            },
+            {
+              "id": "1",
+              "text": "Sbarros"
+            },
+            {
+              "id": "2",
+              "text": "Bulgarian"
+            },
+            {
+              "id": "3",
+              "text": "McDonalds"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sushi"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the end of the movie Major League, the team of misfits beats the New York Yankees to win the World Series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Monsters, Inc., Mr. Waternoose sends both Mike and Sulley to the Himalayas. Who do they stay with while they are there?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Frost"
+            },
+            {
+              "id": "1",
+              "text": "Mikes cousin Ike"
+            },
+            {
+              "id": "2",
+              "text": "Frosty the Snowman"
+            },
+            {
+              "id": "3",
+              "text": "Abominable Snowman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Abominable Snowman"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pedro Cerrano, played by actor Dennis Haysbert in the movie Major League, came to the U.S. as a defector from Cuba. He escaped for the purposes of religious freedom. What was his religion?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Voodooism"
+            },
+            {
+              "id": "1",
+              "text": "Christianity"
+            },
+            {
+              "id": "2",
+              "text": "Judaism"
+            },
+            {
+              "id": "3",
+              "text": "Catholicism"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Voodooism"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Major League, the team started winning and were asked to do a TV commercial for a credit card company. For which company did they do this commercial that included the line, dont steal home without it, a variation of the companys actual slogan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Visa"
+            },
+            {
+              "id": "1",
+              "text": "Discover"
+            },
+            {
+              "id": "2",
+              "text": "American Express"
+            },
+            {
+              "id": "3",
+              "text": "Master Card"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: American Express"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the scare floor secretary in the animated movie Monsters, Inc.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scary Mary"
+            },
+            {
+              "id": "1",
+              "text": "Mary"
+            },
+            {
+              "id": "2",
+              "text": "Roz"
+            },
+            {
+              "id": "3",
+              "text": "Celia Mae"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Roz"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the end of the movie As Good As It Gets, Carol and Melvin who start a relationship together are walking somewhere. Where are they going to so early in the morning?",
+          "options": [
+            {
+              "id": "0",
+              "text": "airport"
+            },
+            {
+              "id": "1",
+              "text": "diner"
+            },
+            {
+              "id": "2",
+              "text": "DMV"
+            },
+            {
+              "id": "3",
+              "text": "bakery"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: bakery"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why does Carol Connelly quit her job as a waitress in the restaurant in the movie As Good As It Gets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She wants to go to Hawaii but her boss wont give her time off."
+            },
+            {
+              "id": "1",
+              "text": "She needed a break from Melvin and his antics."
+            },
+            {
+              "id": "2",
+              "text": "She asked for a raise but didnt get it."
+            },
+            {
+              "id": "3",
+              "text": "to take care of her chronically ill son"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: to take care of her chronically ill son"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "actor",
+          "inc.",
+          "job",
+          "misfits",
+          "willie"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Color and Fatal Attraction",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, attraction, clouds. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Fatal Attraction, what is the name of Alex Forrests favorite opera of all time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Merry Widow"
+            },
+            {
+              "id": "1",
+              "text": "Madame Butterfly"
+            },
+            {
+              "id": "2",
+              "text": "Porgy  Bess"
+            },
+            {
+              "id": "3",
+              "text": "Swan Lake"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Madame Butterfly"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Clouds that are not storm clouds are usually this color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "white"
+            },
+            {
+              "id": "1",
+              "text": "orange"
+            },
+            {
+              "id": "2",
+              "text": "red"
+            },
+            {
+              "id": "3",
+              "text": "black"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: white"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Water is most often considered this color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "orange"
+            },
+            {
+              "id": "1",
+              "text": "brown"
+            },
+            {
+              "id": "2",
+              "text": "yellow"
+            },
+            {
+              "id": "3",
+              "text": "blue"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: blue"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Dan Gallagher do for a living in the hit movie Fatal Attraction?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Car Salesman"
+            },
+            {
+              "id": "1",
+              "text": "Tax Preparer"
+            },
+            {
+              "id": "2",
+              "text": "Mgr. of Home Depot"
+            },
+            {
+              "id": "3",
+              "text": "Attorney"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Attorney"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does Dan Gallagher meet Alex Forrest in the great movie Fatal Attraction?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He meets her through work."
+            },
+            {
+              "id": "1",
+              "text": "He meets at the supermarket."
+            },
+            {
+              "id": "2",
+              "text": "He meets her at the Department of Motor Vehicles."
+            },
+            {
+              "id": "3",
+              "text": "He meets her at the gym."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He meets her through work."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most fire engines and fire trucks are this color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "red"
+            },
+            {
+              "id": "1",
+              "text": "green"
+            },
+            {
+              "id": "2",
+              "text": "white"
+            },
+            {
+              "id": "3",
+              "text": "blue"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: red"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color is Barney the dinosaur from the childrens program?",
+          "options": [
+            {
+              "id": "0",
+              "text": "purple"
+            },
+            {
+              "id": "1",
+              "text": "yellow"
+            },
+            {
+              "id": "2",
+              "text": "green"
+            },
+            {
+              "id": "3",
+              "text": "white"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: purple"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This color is neither white nor black but somewhere in between.",
+          "options": [
+            {
+              "id": "0",
+              "text": "orange"
+            },
+            {
+              "id": "1",
+              "text": "gray"
+            },
+            {
+              "id": "2",
+              "text": "green"
+            },
+            {
+              "id": "3",
+              "text": "brown"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: gray"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the thriller Fatal Attraction first hit the movie theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1984"
+            },
+            {
+              "id": "1",
+              "text": "1987"
+            },
+            {
+              "id": "2",
+              "text": "1988"
+            },
+            {
+              "id": "3",
+              "text": "1991"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1987"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Grass under normal weather conditions is this color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "tan"
+            },
+            {
+              "id": "1",
+              "text": "orange"
+            },
+            {
+              "id": "2",
+              "text": "yellow"
+            },
+            {
+              "id": "3",
+              "text": "green"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: green"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This color is usually associated with girls.",
+          "options": [
+            {
+              "id": "0",
+              "text": "yellow"
+            },
+            {
+              "id": "1",
+              "text": "brown"
+            },
+            {
+              "id": "2",
+              "text": "red"
+            },
+            {
+              "id": "3",
+              "text": "pink"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: pink"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Black is the most popular color of dress shoes for men and boys. What is the second most popular color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "red"
+            },
+            {
+              "id": "1",
+              "text": "brown"
+            },
+            {
+              "id": "2",
+              "text": "blue"
+            },
+            {
+              "id": "3",
+              "text": "green"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: brown"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This word is the name of a fruit and a color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "apple"
+            },
+            {
+              "id": "1",
+              "text": "banana"
+            },
+            {
+              "id": "2",
+              "text": "pear"
+            },
+            {
+              "id": "3",
+              "text": "orange"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: orange"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A ready to eat banana is this color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "brown"
+            },
+            {
+              "id": "1",
+              "text": "black"
+            },
+            {
+              "id": "2",
+              "text": "yellow"
+            },
+            {
+              "id": "3",
+              "text": "green"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: yellow"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the end of Monsters, Inc., the monsters change their format at the power plant. They realize that instead of scaring children, they can generate more energy for the monster world by doing what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "making children laugh"
+            },
+            {
+              "id": "1",
+              "text": "taking children to the movies"
+            },
+            {
+              "id": "2",
+              "text": "taking children to the park"
+            },
+            {
+              "id": "3",
+              "text": "taking children out for ice cream"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: making children laugh"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "attraction",
+          "clouds",
+          "engines",
+          "inc.",
+          "dinosaur"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Movie and League",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, field, john. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Fatal Attraction, Alex Forrest kidnaps Ellen Gallagher (Dans daughter) from school.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the sensational movie A League of Their Own first hit the movie theatres?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1988"
+            },
+            {
+              "id": "1",
+              "text": "1992"
+            },
+            {
+              "id": "2",
+              "text": "1994"
+            },
+            {
+              "id": "3",
+              "text": "1990"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1992"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why was the All American Girls Professional Baseball League (AAGPBL) created in the first place in the great movie A League of Their Own?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The women were bored and wanted to play ball."
+            },
+            {
+              "id": "1",
+              "text": "JustSomeGuy was bored and felt like starting his own Baseball League."
+            },
+            {
+              "id": "2",
+              "text": "World War ll was going to shut down Major League Baseball due to the fact that many of the players were in the military."
+            },
+            {
+              "id": "3",
+              "text": "The powerful Womens Lib Movement struck a deal with Major League Baseball."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: World War ll was going to shut down Major League Baseball due to the fact that many of the players were in the military."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Fatal Attraction, Alex kills Dans daughters pet by boiling it in water. She leaves it on the stove for Dan and the family to see. What kind of pet was it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cat"
+            },
+            {
+              "id": "1",
+              "text": "Fish"
+            },
+            {
+              "id": "2",
+              "text": "Rabbit"
+            },
+            {
+              "id": "3",
+              "text": "Hamster"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rabbit"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what city is the movie Fatal Attraction set?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "1",
+              "text": "Coplay"
+            },
+            {
+              "id": "2",
+              "text": "Chicago"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New York"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these appetizing bands had a 1971 hit with Baby, Im- a Want You?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Strawberry Alarm Clock"
+            },
+            {
+              "id": "1",
+              "text": "Hot Chocolate"
+            },
+            {
+              "id": "2",
+              "text": "Bread"
+            },
+            {
+              "id": "3",
+              "text": "Vanilla Fudge"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bread"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pop star Madonna was in the movie A League of Their Own.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Dottie Hinsons sister and teammate who also played ball in the movie A League of Their Own?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kat"
+            },
+            {
+              "id": "1",
+              "text": "Kit"
+            },
+            {
+              "id": "2",
+              "text": "Millie"
+            },
+            {
+              "id": "3",
+              "text": "Pat"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kit"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What role did Geena Davis play in the movie A League of Their Own?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dottie Hinson"
+            },
+            {
+              "id": "1",
+              "text": "Vada Pinson"
+            },
+            {
+              "id": "2",
+              "text": "Bobbi Stinson"
+            },
+            {
+              "id": "3",
+              "text": "Dorothy Hansen"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dottie Hinson"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie A League of Their Own, there was an obnoxious little kid who used to go to all of his mothers baseball games. He always sat in the dugout and bothered all of the players. What was the name of this kid?",
+          "options": [
+            {
+              "id": "0",
+              "text": "T.J."
+            },
+            {
+              "id": "1",
+              "text": "Anthony"
+            },
+            {
+              "id": "2",
+              "text": "Harvey"
+            },
+            {
+              "id": "3",
+              "text": "Stillwell"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Stillwell"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nickname of Betty Horn who played left field for the Rockford Peaches in the movie A League of Their Own?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Betty Machete"
+            },
+            {
+              "id": "1",
+              "text": "Betty Shoe Horn"
+            },
+            {
+              "id": "2",
+              "text": "Betty Spaghetti"
+            },
+            {
+              "id": "3",
+              "text": "Betty Confetti"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Betty Spaghetti"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who provided the vocals for the song Now and Forever, that was featured in the movie A League of Their Own?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cyndi Lauper"
+            },
+            {
+              "id": "1",
+              "text": "Carly Simon"
+            },
+            {
+              "id": "2",
+              "text": "Carole King"
+            },
+            {
+              "id": "3",
+              "text": "Judy Collins"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Carole King"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the thriller Fatal Attraction, while Beth is in the bathroom, she looks in the mirror and sees a reflection of Alex Forrest. At this point, Alex comes charging towards her with a weapon. What type of weapon is Alex holding in her hand?",
+          "options": [
+            {
+              "id": "0",
+              "text": "axe"
+            },
+            {
+              "id": "1",
+              "text": "knife"
+            },
+            {
+              "id": "2",
+              "text": "hammer"
+            },
+            {
+              "id": "3",
+              "text": "gun"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: knife"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Travolta was considered for the part of Dan Gallagher in Fatal Attraction.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the former major league baseball great who managed the Rockford Peaches in the movie A League of Their Own?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billy McIntyre"
+            },
+            {
+              "id": "1",
+              "text": "Jackie Coogan"
+            },
+            {
+              "id": "2",
+              "text": "Honus Wagner"
+            },
+            {
+              "id": "3",
+              "text": "Jimmy Dugan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jimmy Dugan"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "field",
+          "john",
+          "vocals",
+          "attraction",
+          "pop"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Movie and Wedding Singer",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, actor. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this movie, Al Pacino played a junkie named Bobby.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scarface"
+            },
+            {
+              "id": "1",
+              "text": "The Panic In Needle Park"
+            },
+            {
+              "id": "2",
+              "text": "Bobby Deerfield"
+            },
+            {
+              "id": "3",
+              "text": "Dog Day Afternoon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Panic In Needle Park"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If Julia would have married her fiance Glen in the movie The Wedding Singer, what would her name have become?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Julia Gulia"
+            },
+            {
+              "id": "1",
+              "text": "Julia Schumilia"
+            },
+            {
+              "id": "2",
+              "text": "Julia OToolia"
+            },
+            {
+              "id": "3",
+              "text": "Julia Bulia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Julia Gulia"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What song is being played as Robbie and Julia are getting married at the end of the movie The Wedding Singer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Set Adrift On Memory Bliss by P.M. Dawn"
+            },
+            {
+              "id": "1",
+              "text": "Relax by Frankie Goes To Hollywood"
+            },
+            {
+              "id": "2",
+              "text": "True by Spandau Ballet"
+            },
+            {
+              "id": "3",
+              "text": "Do You Really Want To Hurt Me by Culture Club"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: True by Spandau Ballet"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Robbies best friend in the movie The Wedding Singer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Junior"
+            },
+            {
+              "id": "1",
+              "text": "Sammy"
+            },
+            {
+              "id": "2",
+              "text": "Davis"
+            },
+            {
+              "id": "3",
+              "text": "Allen"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sammy"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the waitress, played by Drew Barrymore in the comedy movie The Wedding Singer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Christina Pickles"
+            },
+            {
+              "id": "1",
+              "text": "Julia Sullivan"
+            },
+            {
+              "id": "2",
+              "text": "Cindy Licious"
+            },
+            {
+              "id": "3",
+              "text": "Rhonda Relish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Julia Sullivan"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This movie is about an undercover cop who exposes the NYC Police Department for corruption, a move that isolates him from the force. What is the name of this Al Pacino movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Revolution"
+            },
+            {
+              "id": "1",
+              "text": "N.Y.P.D"
+            },
+            {
+              "id": "2",
+              "text": "Serpico"
+            },
+            {
+              "id": "3",
+              "text": "And Justice for All"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Serpico"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the movie The Wedding Singer first hit the movie theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1998"
+            },
+            {
+              "id": "1",
+              "text": "2000"
+            },
+            {
+              "id": "2",
+              "text": "1994"
+            },
+            {
+              "id": "3",
+              "text": "1997"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1998"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Papa John Creach played the fiddle for which  edible 60s band?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Humble Pie"
+            },
+            {
+              "id": "1",
+              "text": "Canned Heat"
+            },
+            {
+              "id": "2",
+              "text": "Hot Chocolate"
+            },
+            {
+              "id": "3",
+              "text": "Hot Tuna"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hot Tuna"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Robbie Hart gets stood up at the altar by his fiance in the movie The Wedding Singer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Robbies girlfriend/fiance in the hit movie The Wedding Singer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lucy"
+            },
+            {
+              "id": "1",
+              "text": "Linda"
+            },
+            {
+              "id": "2",
+              "text": "Christina"
+            },
+            {
+              "id": "3",
+              "text": "Olivia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Linda"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this movie, Al Pacino plays a Cuban refugee who turns into a drug dealer. What is the name of this classic Pacino movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carlitos Way"
+            },
+            {
+              "id": "1",
+              "text": "Serpico"
+            },
+            {
+              "id": "2",
+              "text": "Heat"
+            },
+            {
+              "id": "3",
+              "text": "Scarface"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Scarface"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Francis Ford Coppola movie earned Al Pacino his first Academy Award nomination?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Out of It"
+            },
+            {
+              "id": "1",
+              "text": "The Godfather"
+            },
+            {
+              "id": "2",
+              "text": "Serpico"
+            },
+            {
+              "id": "3",
+              "text": "Scarface"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Godfather"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The movie The Wedding Singer takes place in the 80s, but what year is actually depicted in this great romantic comedy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1983"
+            },
+            {
+              "id": "1",
+              "text": "1987"
+            },
+            {
+              "id": "2",
+              "text": "1982"
+            },
+            {
+              "id": "3",
+              "text": "1985"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1985"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actor played the role of the drunk best man in the movie The Wedding Singer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Allen Covert"
+            },
+            {
+              "id": "1",
+              "text": "Alexis Arquette"
+            },
+            {
+              "id": "2",
+              "text": "Matthew Glave"
+            },
+            {
+              "id": "3",
+              "text": "Steve Buscemi"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Steve Buscemi"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the 80s music icon that appears in the great movie The Wedding Singer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billy Idol"
+            },
+            {
+              "id": "1",
+              "text": "Jon Bon Jovi"
+            },
+            {
+              "id": "2",
+              "text": "Sting"
+            },
+            {
+              "id": "3",
+              "text": "Boy George"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Billy Idol"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "actor",
+          "al",
+          "julia",
+          "pacino"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Movie and Risky Business",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, college, joels. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the movie Risky Business first hit the theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1983"
+            },
+            {
+              "id": "1",
+              "text": "1981"
+            },
+            {
+              "id": "2",
+              "text": "1984"
+            },
+            {
+              "id": "3",
+              "text": "1982"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1983"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this movie, Pacino plays the role of Charlie Brigante. He was a Puerto Rican who just served a 5 year prison term. He has a sleazy lawyer played by actor Sean Penn. What was the name of this Pacino movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carlitos Way"
+            },
+            {
+              "id": "1",
+              "text": "Glengarry Glen Ross"
+            },
+            {
+              "id": "2",
+              "text": "Revolution"
+            },
+            {
+              "id": "3",
+              "text": "Serpico"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Carlitos Way"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Tom Cruises character in the movie Risky Business?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joel Goodsen"
+            },
+            {
+              "id": "1",
+              "text": "Bill Toddson"
+            },
+            {
+              "id": "2",
+              "text": "Shimon Bentzvi"
+            },
+            {
+              "id": "3",
+              "text": "Joe L. Goodman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Joel Goodsen"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Lanas pimp in the movie Risky Business?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Angelo"
+            },
+            {
+              "id": "1",
+              "text": "Vito"
+            },
+            {
+              "id": "2",
+              "text": "Leno"
+            },
+            {
+              "id": "3",
+              "text": "Guido"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Guido"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What college is Joel trying to get into in the movie Risky Business?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Temple"
+            },
+            {
+              "id": "1",
+              "text": "Princeton"
+            },
+            {
+              "id": "2",
+              "text": "Harvard"
+            },
+            {
+              "id": "3",
+              "text": "Boston College"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Princeton"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the movie in which Pacino plays the role of an obsessive, L.A detective in search of a high-tech, high-precision robber and his tight knit gang.",
+          "options": [
+            {
+              "id": "0",
+              "text": "City Hall"
+            },
+            {
+              "id": "1",
+              "text": "The Insider"
+            },
+            {
+              "id": "2",
+              "text": "Two Bits"
+            },
+            {
+              "id": "3",
+              "text": "Heat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Heat"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this movie, Pacino holds up a bank in Brooklyn, New York to pay for his lovers sex change operation. What was the name of this classic Pacino flick?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dog Day Afternoon"
+            },
+            {
+              "id": "1",
+              "text": "Serpico"
+            },
+            {
+              "id": "2",
+              "text": "Take the Money And Run"
+            },
+            {
+              "id": "3",
+              "text": "Stick Em Up!"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dog Day Afternoon"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Al Pacino star in \u201cThe Godfather III,\u201d reprising his role as Don Michael Corleone?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Mick Jaggers middle name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Winston"
+            },
+            {
+              "id": "1",
+              "text": "Curtis"
+            },
+            {
+              "id": "2",
+              "text": "Phillip"
+            },
+            {
+              "id": "3",
+              "text": "Rufus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Phillip"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year were the English rock band Rolling Stones formed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1958"
+            },
+            {
+              "id": "1",
+              "text": "1955"
+            },
+            {
+              "id": "2",
+              "text": "1962"
+            },
+            {
+              "id": "3",
+              "text": "1964"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1962"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this movie Al Pacino plays a lawyer who single-handedly battles Marylands judicial system. What is the name of this Pacino movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scent of a Woman"
+            },
+            {
+              "id": "1",
+              "text": "Cruising"
+            },
+            {
+              "id": "2",
+              "text": "The Insider"
+            },
+            {
+              "id": "3",
+              "text": "And Justice For All"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: And Justice For All"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what movie does Pacino play a blind, hard drinking ex army colonel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scent of a Woman"
+            },
+            {
+              "id": "1",
+              "text": "Donnie Brasco"
+            },
+            {
+              "id": "2",
+              "text": "Blind Rage"
+            },
+            {
+              "id": "3",
+              "text": "Two Bits"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Scent of a Woman"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress played Lana, the call girl, in the popular movie Risky Business?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rebecca De Mornay"
+            },
+            {
+              "id": "1",
+              "text": "Megan Mullaly"
+            },
+            {
+              "id": "2",
+              "text": "Susan Sarandon"
+            },
+            {
+              "id": "3",
+              "text": "Cindy Williams"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rebecca De Mornay"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Risky Business, Joels mom has something very special to her on the mantelpiece. It almost falls to the ground but Joel dives in the air to save it from breaking. What is it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a crystal egg"
+            },
+            {
+              "id": "1",
+              "text": "a family portrait"
+            },
+            {
+              "id": "2",
+              "text": "an urn of her grandmothers ashes"
+            },
+            {
+              "id": "3",
+              "text": "a grandfathers clock"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: a crystal egg"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city is the hit movie Risky Business set in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "1",
+              "text": "Chicago"
+            },
+            {
+              "id": "2",
+              "text": "Philadelphia"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "college",
+          "joels",
+          "star",
+          "cruises",
+          "pacino"
+        ]
+      }
+    }
+  ]
+}

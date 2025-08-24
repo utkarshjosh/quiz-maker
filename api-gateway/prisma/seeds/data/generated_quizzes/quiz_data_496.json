@@ -1,0 +1,2292 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Nature Quiz: Cat and Cats",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, phrase, cats. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Male turkeys are monogamous and will stay with one female for life.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what continent can aardvarks be found?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Africa"
+            },
+            {
+              "id": "1",
+              "text": "Asia"
+            },
+            {
+              "id": "2",
+              "text": "South America"
+            },
+            {
+              "id": "3",
+              "text": "Australia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Africa"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A cats sense of hearing is much more sensitive than that of a human or a dog.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Indoor cats tend to live longer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was the very first cat show held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1895"
+            },
+            {
+              "id": "1",
+              "text": "1926"
+            },
+            {
+              "id": "2",
+              "text": "1877"
+            },
+            {
+              "id": "3",
+              "text": "1901"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1895"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are aardvarks an endangered species?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish this old phrase:",
+          "options": [
+            {
+              "id": "0",
+              "text": "climbs the curtains"
+            },
+            {
+              "id": "1",
+              "text": "takes a message"
+            },
+            {
+              "id": "2",
+              "text": "thinks its dinner time"
+            },
+            {
+              "id": "3",
+              "text": "runs away from you"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: takes a message"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did all Indian tribes of North America eat turkeys or consider them to be edible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not one of the most popular names for female cats in the USA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Missy"
+            },
+            {
+              "id": "1",
+              "text": "Pumpkin"
+            },
+            {
+              "id": "2",
+              "text": "Socks"
+            },
+            {
+              "id": "3",
+              "text": "Tigger"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Socks"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which type of cat is almost always female?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Calico"
+            },
+            {
+              "id": "1",
+              "text": "White"
+            },
+            {
+              "id": "2",
+              "text": "Persian"
+            },
+            {
+              "id": "3",
+              "text": "Siamese"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Calico"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How fast can a domestic cat sprint?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15 MPG"
+            },
+            {
+              "id": "1",
+              "text": "30 MPH"
+            },
+            {
+              "id": "2",
+              "text": "17 MPH"
+            },
+            {
+              "id": "3",
+              "text": "25 MPH"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 30 MPH"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cats have 517 of these in their entire body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Claws"
+            },
+            {
+              "id": "1",
+              "text": "Whiskers"
+            },
+            {
+              "id": "2",
+              "text": "Muscles"
+            },
+            {
+              "id": "3",
+              "text": "Bones"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Muscles"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements if true about a cat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Their urine glows under a black light."
+            },
+            {
+              "id": "1",
+              "text": "Normal body temperature for a a cat is 95 degrees Fahrenheit."
+            },
+            {
+              "id": "2",
+              "text": "They take about 50 breaths per minute."
+            },
+            {
+              "id": "3",
+              "text": "They walk on the bottoms of their feet."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Their urine glows under a black light."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The nose pad of a cat is unique like the human fingerprint.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to a survey, what percentage of American cat owners admit to blow drying their feline after giving it a bath?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15%"
+            },
+            {
+              "id": "1",
+              "text": "70%"
+            },
+            {
+              "id": "2",
+              "text": "25%"
+            },
+            {
+              "id": "3",
+              "text": "5%"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 25%"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "phrase",
+          "cats",
+          "female",
+          "show",
+          "pad"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Nature Quiz: Aardvark and Dolphin",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, pink, period. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was named by the United Nations as the Year of the Dolphin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1985"
+            },
+            {
+              "id": "1",
+              "text": "2007"
+            },
+            {
+              "id": "2",
+              "text": "2000"
+            },
+            {
+              "id": "3",
+              "text": "1999"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2007"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are all dolphins considered whales?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Aardvark is a word coming from the Afrikaans/Dutch that literally translates as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Long Nose"
+            },
+            {
+              "id": "1",
+              "text": "Ant Eater"
+            },
+            {
+              "id": "2",
+              "text": "Pig Like"
+            },
+            {
+              "id": "3",
+              "text": "Earth Pig"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Earth Pig"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Orca (Killer Whale) is the largest species of dolphin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many young can an adult aardvark have at one time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "up to one dozen"
+            },
+            {
+              "id": "2",
+              "text": "only 1"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: only 1"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the scientific name for an aardvark?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Troglodytes pan"
+            },
+            {
+              "id": "1",
+              "text": "Orycteropus afer"
+            },
+            {
+              "id": "2",
+              "text": "Loxodonta aficanus"
+            },
+            {
+              "id": "3",
+              "text": "Muscous domesticus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Orycteropus afer"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the gestation period of a dolphin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Varies by species"
+            },
+            {
+              "id": "1",
+              "text": "16 months"
+            },
+            {
+              "id": "2",
+              "text": "9 months"
+            },
+            {
+              "id": "3",
+              "text": "12 months"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Varies by species"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Aardvarks have more olfactory nerves than other mammals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are aardvarks nocturnal animals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these statements about aardvarks is false?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aardvarks are hunted for meat."
+            },
+            {
+              "id": "1",
+              "text": "Aardvarks are color blind."
+            },
+            {
+              "id": "2",
+              "text": "Aardvarks are nocturnal."
+            },
+            {
+              "id": "3",
+              "text": "Aardvarks only eat termites."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Aardvarks only eat termites."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is NOT a species of dolphin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eastern Dolphin"
+            },
+            {
+              "id": "1",
+              "text": "Orca"
+            },
+            {
+              "id": "2",
+              "text": "Pilot whale"
+            },
+            {
+              "id": "3",
+              "text": "False Killer Whale"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eastern Dolphin"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color was the aardvark from the Pink Panther cartoon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red"
+            },
+            {
+              "id": "1",
+              "text": "Blue"
+            },
+            {
+              "id": "2",
+              "text": "Pink"
+            },
+            {
+              "id": "3",
+              "text": "Gray"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Blue"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the gestation period for an aardvark?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1 full year"
+            },
+            {
+              "id": "1",
+              "text": "9 months"
+            },
+            {
+              "id": "2",
+              "text": "3 months"
+            },
+            {
+              "id": "3",
+              "text": "7 months"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 7 months"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dolphins are only found in the ocean.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately, how many species of dolphins exist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20"
+            },
+            {
+              "id": "1",
+              "text": "40"
+            },
+            {
+              "id": "2",
+              "text": "30"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 40"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "pink",
+          "period",
+          "nations",
+          "adult",
+          "species"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Badgers and Raccoon",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, world, part. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Can you find badgers in Europe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many young can an adult badger have at one time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1-8"
+            },
+            {
+              "id": "1",
+              "text": "just 1"
+            },
+            {
+              "id": "2",
+              "text": "1-5"
+            },
+            {
+              "id": "3",
+              "text": "1-2"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1-5"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a part of the badgers diet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Insects"
+            },
+            {
+              "id": "1",
+              "text": "Birds"
+            },
+            {
+              "id": "2",
+              "text": "Ground squirrels"
+            },
+            {
+              "id": "3",
+              "text": "Rattlesnakes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Insects"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following octopuses could most easily kill a human?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Common Octopus"
+            },
+            {
+              "id": "1",
+              "text": "The Blue Ringed Octopus"
+            },
+            {
+              "id": "2",
+              "text": "The Giant Pacific Octopus"
+            },
+            {
+              "id": "3",
+              "text": "Seven Armed Octopus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Blue Ringed Octopus"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Badgers like to use one den all year round.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are badgers the largest native carnivores found in the UK?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the scientific name of the Common Raccoon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Procyon cancrivorus"
+            },
+            {
+              "id": "1",
+              "text": "Procyon nelus"
+            },
+            {
+              "id": "2",
+              "text": "Procyon lotor"
+            },
+            {
+              "id": "3",
+              "text": "Procyon insularis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Procyon lotor"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where in the world can you find the dolphin known as the Boto?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Asia"
+            },
+            {
+              "id": "1",
+              "text": "Australia"
+            },
+            {
+              "id": "2",
+              "text": "South America"
+            },
+            {
+              "id": "3",
+              "text": "North America"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: South America"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is the raccoon native to Europe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many hearts do most octopi have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "0"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Toronto, Canada the raccoon has become a great urban pest, only exceeded by the Gray Squirrel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these in NOT a species of raccoon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Common Raccoon"
+            },
+            {
+              "id": "1",
+              "text": "Tree Raccoon"
+            },
+            {
+              "id": "2",
+              "text": "Tres Marias Raccoon"
+            },
+            {
+              "id": "3",
+              "text": "Crab Eating Raccoon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tree Raccoon"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The badger can be found in every part of the lower 48 states.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The expression badgering someone\u201d came from the cruel sport of badger baiting.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are badgers related to weasels?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "world",
+          "part",
+          "boto",
+          "badger",
+          "states"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Nature Quiz: Smilodon and Octopus",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, frog, best. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tomato Frogs existence is threatened due to what reason?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Habitat destruction"
+            },
+            {
+              "id": "1",
+              "text": "Their legs are used for food in fine dining restaurants."
+            },
+            {
+              "id": "2",
+              "text": "They are hunted for their oils that are used as a skin moisturizer."
+            },
+            {
+              "id": "3",
+              "text": "Flooding"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Habitat destruction"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What king of habitat do Tomato Frogs live in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "in the snowy mountain tops"
+            },
+            {
+              "id": "1",
+              "text": "in marshes, shallow pools, flooded meadows, and wetlands"
+            },
+            {
+              "id": "2",
+              "text": "in dessert areas that are very arid and dry"
+            },
+            {
+              "id": "3",
+              "text": "in the salty ocean"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: in marshes, shallow pools, flooded meadows, and wetlands"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following words is NOT related to the octopus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chemoreceptors"
+            },
+            {
+              "id": "1",
+              "text": "Chromatophores"
+            },
+            {
+              "id": "2",
+              "text": "Ambush"
+            },
+            {
+              "id": "3",
+              "text": "Tentacles"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tentacles"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following octopi has the scientific name Enteroctopus Dofleini?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Giant Pacific Octopus"
+            },
+            {
+              "id": "2",
+              "text": "Common Octopus"
+            },
+            {
+              "id": "3",
+              "text": "Blue Ringed Octopus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Giant Pacific Octopus"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The octopus is considered the smartest invertebrate.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it believed that Smilodon was a social animal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following best defines the octopus related word midden?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a pile of shells"
+            },
+            {
+              "id": "1",
+              "text": "a burrow in the sand used as a den"
+            },
+            {
+              "id": "2",
+              "text": "a hole in the rock face or corral used as a den"
+            },
+            {
+              "id": "3",
+              "text": "a chemical in the ink sprayed from an octopus siphon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: a pile of shells"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is the name for an octopuss tongue?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Siphon"
+            },
+            {
+              "id": "1",
+              "text": "Hemetoy"
+            },
+            {
+              "id": "2",
+              "text": "Mantle"
+            },
+            {
+              "id": "3",
+              "text": "Radula"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Radula"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which species of Smilodon was the largest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Smilodon fatalis"
+            },
+            {
+              "id": "1",
+              "text": "Smilodon populator"
+            },
+            {
+              "id": "2",
+              "text": "Smilodon locor"
+            },
+            {
+              "id": "3",
+              "text": "Smilodon gracilis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Smilodon populator"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Octopi live alone all their lives except when mating.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Octopuses have excellent vision. Which of the following statements about an octopuss vision is NOT true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They can see well at night."
+            },
+            {
+              "id": "1",
+              "text": "They can see in depth."
+            },
+            {
+              "id": "2",
+              "text": "They can make out size and shape very well."
+            },
+            {
+              "id": "3",
+              "text": "They can see in color."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They can see in color."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much could a full-grown Smilodon weigh?",
+          "options": [
+            {
+              "id": "0",
+              "text": "525 lbs."
+            },
+            {
+              "id": "1",
+              "text": "350 lbs."
+            },
+            {
+              "id": "2",
+              "text": "450 lbs."
+            },
+            {
+              "id": "3",
+              "text": "400 lbs."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 450 lbs."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What two continents did Smilodon inhabit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "North and South America"
+            },
+            {
+              "id": "1",
+              "text": "Europe and Asia"
+            },
+            {
+              "id": "2",
+              "text": "Europe and Africa"
+            },
+            {
+              "id": "3",
+              "text": "Asia and Africa"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: North and South America"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Tomato Frog is native to the eastern coast of Madagascar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how long ago did Smilodon become extinct?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5,000 years"
+            },
+            {
+              "id": "1",
+              "text": "20,000 years"
+            },
+            {
+              "id": "2",
+              "text": "10,000 years"
+            },
+            {
+              "id": "3",
+              "text": "15,000 years"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 10,000 years"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "frog",
+          "best",
+          "tomato",
+          "following",
+          "octopi"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Nature Quiz: Manatees and Tomato Frogs",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, frog, weight. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Some animals have an inborn instinct to swallow gastroliths in order to improve the breaking down of food inside their stomachs. What kind of objects are gastroliths?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rocks"
+            },
+            {
+              "id": "1",
+              "text": "Plants that are rich in digestive enzymes"
+            },
+            {
+              "id": "2",
+              "text": "Insects"
+            },
+            {
+              "id": "3",
+              "text": "Excrements"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rocks"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tomato Frogs lay their eggs in the water during rainy seasons.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Male Tomato Frogs are bright red.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these do manatees use to communicate with their calves and other manatees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sounds"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Touch"
+            },
+            {
+              "id": "3",
+              "text": "Movement"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tomato Frogs tend to hit sexual maturity in about 9-14 months.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The manatee is a marine mammal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Tomato Frogs are in captivity at a zoo, what kind of food are they fed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grass, seaweed, and other vegetation"
+            },
+            {
+              "id": "1",
+              "text": "Small fish, such as minnows and guppies"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin-dusted crickets and mealworms."
+            },
+            {
+              "id": "3",
+              "text": "The same food they would eat in the wild"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin-dusted crickets and mealworms."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The life span of a Tomato Frog is 15-35 years.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Parthenogenesis (from Greek - virgin creation), an asexual way of reproduction without the need of fertilization, occurs naturally in these animals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Birds"
+            },
+            {
+              "id": "2",
+              "text": "Reptiles"
+            },
+            {
+              "id": "3",
+              "text": "Fish"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The manatee has a tail similar in shape to that of the dolphin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When the Tomato Frog is threatened its skin secretes a thick substance containing a toxin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Manatees range in weight from 900 to 1200 pounds (400-550 kg.)",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Female Tomato Frogs are larger than male Tomato Frogs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Manatees are found more commonly in Caribbean, Mexico, and Florida waters. Why?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The water is cool."
+            },
+            {
+              "id": "1",
+              "text": "There is a better food variety."
+            },
+            {
+              "id": "2",
+              "text": "The water is warm."
+            },
+            {
+              "id": "3",
+              "text": "The water is salty."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The water is warm."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Due to the presence of a specific protein in the blood plasma octopuses have this unusual blood color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blue"
+            },
+            {
+              "id": "1",
+              "text": "Black"
+            },
+            {
+              "id": "2",
+              "text": "Bright green"
+            },
+            {
+              "id": "3",
+              "text": "Fluorescent pink"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blue"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "frog",
+          "weight",
+          "protein",
+          "tomato",
+          "calves"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Fish and Air",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, kind, creatures. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of respiratory organs do lungfish have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They have both lungs and gills."
+            },
+            {
+              "id": "1",
+              "text": "Lungfish do not have any respiratory organs. They absorb oxygen through their skin."
+            },
+            {
+              "id": "2",
+              "text": "They breathe only with gills."
+            },
+            {
+              "id": "3",
+              "text": "They do not have gills, they use their lungs for respiration."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They have both lungs and gills."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This fish, which resembles the Angel fish, is recognized by its brightly coloured and patterned body, as well as by the dark band across its eyes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Butterfly fish"
+            },
+            {
+              "id": "1",
+              "text": "Purple queen"
+            },
+            {
+              "id": "2",
+              "text": "Cichlid"
+            },
+            {
+              "id": "3",
+              "text": "Clown fish"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Butterfly fish"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of  the following statements is true about mosquitoes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Only female mosquitoes suck blood."
+            },
+            {
+              "id": "1",
+              "text": "Only male mosquitoes suck blood."
+            },
+            {
+              "id": "2",
+              "text": "All mosquitoes on the planet drink blood."
+            },
+            {
+              "id": "3",
+              "text": "Only baby mosquitoes drink blood."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Only female mosquitoes suck blood."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The zebrafish (Girella zebra), which can be recognised by its pale body and yellow fins, is endemic to which region?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amazon River Basin"
+            },
+            {
+              "id": "1",
+              "text": "Australian waters"
+            },
+            {
+              "id": "2",
+              "text": "The Caribbean"
+            },
+            {
+              "id": "3",
+              "text": "Japan waters"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Australian waters"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cockroaches are among the most resilient creatures on our planet. But how long can they survive without air?",
+          "options": [
+            {
+              "id": "0",
+              "text": "60 minutes"
+            },
+            {
+              "id": "1",
+              "text": "45 minutes"
+            },
+            {
+              "id": "2",
+              "text": "10 minutes"
+            },
+            {
+              "id": "3",
+              "text": "2 hours"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 45 minutes"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This primitive shark, with a brown thin eel-like body, has six pairs of gill slits and trident-like teeth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frilled shark"
+            },
+            {
+              "id": "1",
+              "text": "Tiger shark"
+            },
+            {
+              "id": "2",
+              "text": "Bull shark"
+            },
+            {
+              "id": "3",
+              "text": "Sharpnose seven-gill shark"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Frilled shark"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Human skin has the unique ability to acquire a darker shade when exposed to UV-rays. What animals share this ability with us?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dolphins and seals"
+            },
+            {
+              "id": "1",
+              "text": "Chimpanzees and gorillas"
+            },
+            {
+              "id": "2",
+              "text": "Pigs and hammerhead sharks"
+            },
+            {
+              "id": "3",
+              "text": "All reptiles and anthropoid apes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pigs and hammerhead sharks"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Koalas almost exclusively feed on this type of food.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bottle tree leaves"
+            },
+            {
+              "id": "1",
+              "text": "Tea tree leaves"
+            },
+            {
+              "id": "2",
+              "text": "Eucalyptus leaves"
+            },
+            {
+              "id": "3",
+              "text": "Bamboo leaves"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eucalyptus leaves"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the other name of Mola mola, a fish generally considered to be the most massive bony fish in the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Filefish"
+            },
+            {
+              "id": "1",
+              "text": "Ocean Sunfish"
+            },
+            {
+              "id": "2",
+              "text": "Pufferfish"
+            },
+            {
+              "id": "3",
+              "text": "Triggerfish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ocean Sunfish"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements is true about snails?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Snails do have tooth-like formations."
+            },
+            {
+              "id": "2",
+              "text": "Snails do not have any teeth or tooth-like formations."
+            },
+            {
+              "id": "3",
+              "text": "Snails have real teeth very similar to those of mammals."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Snails do have tooth-like formations."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Parrot fish, found in the Atlantic Indian and Pacific Ocean reefs, was given its name for what reason?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Because of the shape of its body"
+            },
+            {
+              "id": "1",
+              "text": "Because it can fly a few metres above water"
+            },
+            {
+              "id": "2",
+              "text": "Because its body is in different flashy colours"
+            },
+            {
+              "id": "3",
+              "text": "Because of its beak-like mouth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Because of its beak-like mouth"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When threatened, this fish, also known as balloonfish, increases in size by swallowing water or air.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bowfin"
+            },
+            {
+              "id": "1",
+              "text": "Porcupinefish"
+            },
+            {
+              "id": "2",
+              "text": "Bichir"
+            },
+            {
+              "id": "3",
+              "text": "Oar fish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Porcupinefish"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Mimic Leatherjacket, found in the tropical marine waters throughout the Indo-Pacific, mimics which poisonous fish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Bass"
+            },
+            {
+              "id": "1",
+              "text": "Hogfish"
+            },
+            {
+              "id": "2",
+              "text": "Saddled Puffer"
+            },
+            {
+              "id": "3",
+              "text": "Stonefish"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Saddled Puffer"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Flashlight fish, has a light-producing organ, which contains luminescent bacteria. Where is this organ located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "On the dorsal fin of the fish"
+            },
+            {
+              "id": "1",
+              "text": "Below the eye of the fish"
+            },
+            {
+              "id": "2",
+              "text": "Above the eye of the fish"
+            },
+            {
+              "id": "3",
+              "text": "Between the eyes of the fish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Below the eye of the fish"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Some sharks hardly ever stop swimming during their whole existence. What is the reason for this?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Some sharks are very desirable hosts for small parasitic creatures. Those sharks are constantly trying to escape from them by incessant swimming."
+            },
+            {
+              "id": "1",
+              "text": "Sharks are highly anxious and easily agitated animals. They cannot stay in the same place for more than a few seconds."
+            },
+            {
+              "id": "2",
+              "text": "Sharks are cold-blooded animals. If they stop moving their body temperature will decrease too much and will cause hypothermia, which can be lethal."
+            },
+            {
+              "id": "3",
+              "text": "Some sharks have lost the ability to pump water through their gills, so they need to keep moving in order to stay alive"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Some sharks have lost the ability to pump water through their gills, so they need to keep moving in order to stay alive"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "kind",
+          "creatures",
+          "zebra",
+          "food",
+          "sharks"
+        ]
+      }
+    }
+  ]
+}

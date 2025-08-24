@@ -1,0 +1,2420 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: Resort and Home",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, john, otago. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What fortified town was located on Mt. Taygetos, near ancient Sparta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Sparti"
+            },
+            {
+              "id": "2",
+              "text": "Magoula"
+            },
+            {
+              "id": "3",
+              "text": "Mystras"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mystras"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Greek island is the home of the monastery of \u201cNea Moni\u201d, which is a UNESCO World Heritage Site?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rhodes"
+            },
+            {
+              "id": "1",
+              "text": "Chios"
+            },
+            {
+              "id": "2",
+              "text": "Limnos"
+            },
+            {
+              "id": "3",
+              "text": "Santorini"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chios"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Monastery of Saint John the Theologian and the Cave of the Apocalypse are located on the Greek island of Patmos.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the Seven Wonders of the World was located on this Greek island.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lemnos"
+            },
+            {
+              "id": "1",
+              "text": "Thasos"
+            },
+            {
+              "id": "2",
+              "text": "Rhodes"
+            },
+            {
+              "id": "3",
+              "text": "Lesbos"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rhodes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the name of the Brazilian resort Jericoacoara mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hole of the Lizards"
+            },
+            {
+              "id": "1",
+              "text": "Hole of the Turtles"
+            },
+            {
+              "id": "2",
+              "text": "Hole of the Sneaks"
+            },
+            {
+              "id": "3",
+              "text": "Hole of the Crocodiles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hole of the Turtles"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Queenstown, a resort town in Otago, New Zealand was the base for filming E.T.: The Extra Terrestrial.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "South Beach is a neighborhood in the city of Miami Beach, Florida, United States.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following animals spend the winter in the warm waters of the Mexican area Los Cabos?",
+          "options": [
+            {
+              "id": "0",
+              "text": "sharks"
+            },
+            {
+              "id": "1",
+              "text": "whales"
+            },
+            {
+              "id": "2",
+              "text": "dolphins"
+            },
+            {
+              "id": "3",
+              "text": "turtles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: whales"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This resort was the setting of the movie And God Created Woman, starring Brigitte Bardot.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buzios"
+            },
+            {
+              "id": "1",
+              "text": "Cinque Terre"
+            },
+            {
+              "id": "2",
+              "text": "Amalfi"
+            },
+            {
+              "id": "3",
+              "text": "Saint Tropez"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Saint Tropez"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What mountain was regarded as the home of the gods in Greek mythology?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mount Agrafa"
+            },
+            {
+              "id": "1",
+              "text": "Mount Pelion"
+            },
+            {
+              "id": "2",
+              "text": "Mount Olympus"
+            },
+            {
+              "id": "3",
+              "text": "Mount Helicon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mount Helicon"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Portofino is located on the Italian Riviera.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This area in Slovenia within the Julian Alps, is a popular tourist destination.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dubrovnik"
+            },
+            {
+              "id": "1",
+              "text": "Bled"
+            },
+            {
+              "id": "2",
+              "text": "Karlovi Vari"
+            },
+            {
+              "id": "3",
+              "text": "Balaton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bled"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Australian beachside town has several beaches that are very popular for surfing.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Booty Bay"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Byron Bay"
+            },
+            {
+              "id": "3",
+              "text": "Bengal Bay"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Byron Bay"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Alpbach is a resort in Western Austria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is known as the \u201cPearl of the Adriatic\u201d and is located at the southern tip of Croatia on the coast of Southern Dalmatia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bled"
+            },
+            {
+              "id": "1",
+              "text": "Dubrovnik"
+            },
+            {
+              "id": "2",
+              "text": "Zakopane"
+            },
+            {
+              "id": "3",
+              "text": "Taormina"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dubrovnik"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "john",
+          "otago",
+          "world",
+          "neighborhood",
+          "wonders"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Us and Bill",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, bills, summer. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All US bills feature a president on the front.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mutilated currency is defined as money that is very badly damaged due to fire, water, chemicals, explosives, animals or extended damage from burying. Can you get reimbursed for damaged money in the US?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was scheduled to occur in Guyana in 2010 for the first time in over a decade?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An international music festival"
+            },
+            {
+              "id": "1",
+              "text": "Municipal elections"
+            },
+            {
+              "id": "2",
+              "text": "A national brewery opening"
+            },
+            {
+              "id": "3",
+              "text": "A solar eclipse"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Municipal elections"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one is not a nickname for the $10 US bill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "X-note"
+            },
+            {
+              "id": "1",
+              "text": "Yellow"
+            },
+            {
+              "id": "2",
+              "text": "Sawbuck"
+            },
+            {
+              "id": "3",
+              "text": "Double sawbuck"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Double sawbuck"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happened to US currency in 1928?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Latin writing was replaced by English words."
+            },
+            {
+              "id": "1",
+              "text": "Oval frames were placed around each image."
+            },
+            {
+              "id": "2",
+              "text": "Silver certificates were added to each bill."
+            },
+            {
+              "id": "3",
+              "text": "All bills were re-sized to be the same size."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All bills were re-sized to be the same size."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did banknotes over $100 stop being printed in the US?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1958"
+            },
+            {
+              "id": "1",
+              "text": "1946"
+            },
+            {
+              "id": "2",
+              "text": "1969"
+            },
+            {
+              "id": "3",
+              "text": "1934"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1946"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the beginning of the 21st Century, Ecuador changed its official currency to what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Escudo"
+            },
+            {
+              "id": "1",
+              "text": "Sucre"
+            },
+            {
+              "id": "2",
+              "text": "US dollar"
+            },
+            {
+              "id": "3",
+              "text": "Peseta"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: US dollar"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these US bills remains in circulation the least amount of time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "$5"
+            },
+            {
+              "id": "1",
+              "text": "$20"
+            },
+            {
+              "id": "2",
+              "text": "$1"
+            },
+            {
+              "id": "3",
+              "text": "$10"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: $5"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is odd about the face on the $10 bill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its the only US bill which does not feature a President."
+            },
+            {
+              "id": "1",
+              "text": "Its the only US bill where the portrait faces to the right."
+            },
+            {
+              "id": "2",
+              "text": "The image is tinted with red lines."
+            },
+            {
+              "id": "3",
+              "text": "Its the only US bill where the portrait faces to the left."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Its the only US bill where the portrait faces to the left."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does the US one-dollar bill have the oldest design of all modern U.S. currency?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the redeemable in gold clause removed from Federal Reserve Notes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1928"
+            },
+            {
+              "id": "1",
+              "text": "1934"
+            },
+            {
+              "id": "2",
+              "text": "1914"
+            },
+            {
+              "id": "3",
+              "text": "1942"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1934"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which bill represents the majority of US money printed nowadays?",
+          "options": [
+            {
+              "id": "0",
+              "text": "$20"
+            },
+            {
+              "id": "1",
+              "text": "$10"
+            },
+            {
+              "id": "2",
+              "text": "$5"
+            },
+            {
+              "id": "3",
+              "text": "$1"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: $1"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2007, Venezuelan president Hugo Chavez did something that made his country unique. What was it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He declared a new time zone."
+            },
+            {
+              "id": "1",
+              "text": "He created a new currency, the Orinoco."
+            },
+            {
+              "id": "2",
+              "text": "He disbanded the Venezuelan Parliament."
+            },
+            {
+              "id": "3",
+              "text": "He created an art museum for children only."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He declared a new time zone."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2008, Chile established a partnership on trade, environment and agriculture with what US state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ohio"
+            },
+            {
+              "id": "1",
+              "text": "Illinois"
+            },
+            {
+              "id": "2",
+              "text": "New York"
+            },
+            {
+              "id": "3",
+              "text": "California"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rio de Janeiro won its bid to host the 2016 Summer Olympics. What other cities were on the short list?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chicago, Baku, and London"
+            },
+            {
+              "id": "1",
+              "text": "Chicago, Madrid and Tokyo"
+            },
+            {
+              "id": "2",
+              "text": "Baku, Prague and London"
+            },
+            {
+              "id": "3",
+              "text": "Prague, Tokyo, and Toronto"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago, Madrid and Tokyo"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "bills",
+          "summer",
+          "face",
+          "world",
+          "amount"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Malta and Country",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, title, origin. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the official language of Malta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maltese and English"
+            },
+            {
+              "id": "1",
+              "text": "Maltese and Italian"
+            },
+            {
+              "id": "2",
+              "text": "Italian"
+            },
+            {
+              "id": "3",
+              "text": "Maltese"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Maltese and English"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of the national anthem of Malta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Glorious Island"
+            },
+            {
+              "id": "2",
+              "text": "Dear Motherland"
+            },
+            {
+              "id": "3",
+              "text": "Queen of the Seas"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This happened for the first time in 1913 in the United States and in 2001 in Argentina.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Professional baseball played"
+            },
+            {
+              "id": "1",
+              "text": "Direct election of senators"
+            },
+            {
+              "id": "2",
+              "text": "Income tax collected"
+            },
+            {
+              "id": "3",
+              "text": "Fluoride added to water supply"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Direct election of senators"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What nickname has been given to Malta, partly because of the possible Greek origin of its name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Island of the bees"
+            },
+            {
+              "id": "1",
+              "text": "The buzzing island"
+            },
+            {
+              "id": "2",
+              "text": "Land of honey"
+            },
+            {
+              "id": "3",
+              "text": "The beehive island"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Land of honey"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What form of government does Malta have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Absolute monarchy"
+            },
+            {
+              "id": "1",
+              "text": "Presidential republic"
+            },
+            {
+              "id": "2",
+              "text": "Democratic republic"
+            },
+            {
+              "id": "3",
+              "text": "Constitutional monarchy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Democratic republic"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Alberto Fujimori, President of Peru from 1990-2000, was convicted in the 21st century of these crimes alleged to have been committed during his presidency.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abuse of power, bribery, and corruption"
+            },
+            {
+              "id": "1",
+              "text": "Human rights abuses, murder and kidnapping"
+            },
+            {
+              "id": "2",
+              "text": "Embezzlement"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Bolivia become an independent republic?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1857"
+            },
+            {
+              "id": "1",
+              "text": "1825"
+            },
+            {
+              "id": "2",
+              "text": "1812"
+            },
+            {
+              "id": "3",
+              "text": "1910"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1825"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the colors of the national flag of Malta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red and white"
+            },
+            {
+              "id": "1",
+              "text": "Green and yellow"
+            },
+            {
+              "id": "2",
+              "text": "White and blue"
+            },
+            {
+              "id": "3",
+              "text": "Green and orange"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Red and white"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In April, 2009, Bolivia and Paraguay ended something that began in the 1930s. What was it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diplomatic relations"
+            },
+            {
+              "id": "1",
+              "text": "A free trade agreement"
+            },
+            {
+              "id": "2",
+              "text": "Their football rivalry"
+            },
+            {
+              "id": "3",
+              "text": "The Chaco War"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Chaco War"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When is the traditional Maltese Carnival held every year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Before Ash Wednesday"
+            },
+            {
+              "id": "1",
+              "text": "After Easter"
+            },
+            {
+              "id": "2",
+              "text": "On April 1"
+            },
+            {
+              "id": "3",
+              "text": "On Christmas Eve"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Before Ash Wednesday"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Oyapock River Bridge, built in 2010, is the first land connection between Brazil and what other country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Guyana"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "Bolivia"
+            },
+            {
+              "id": "3",
+              "text": "Paraguay"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the capital city of Malta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Birkirkara"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Lisbon"
+            },
+            {
+              "id": "3",
+              "text": "Valletta"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Valletta"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Lost City of the Incas, Machu Picchu, was featured prominently in what 21st century movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Motorcycle Diaries"
+            },
+            {
+              "id": "1",
+              "text": "Signs"
+            },
+            {
+              "id": "2",
+              "text": "2012"
+            },
+            {
+              "id": "3",
+              "text": "The Forbidden Kingdom"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Motorcycle Diaries"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What plant has been traditionally associated with Malta, and is featured on the national coat of arms of the country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lily"
+            },
+            {
+              "id": "1",
+              "text": "Rose"
+            },
+            {
+              "id": "2",
+              "text": "Olive"
+            },
+            {
+              "id": "3",
+              "text": "Cactus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Olive"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The cuisine of Malta has been influenced by the cuisine of this European country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "the United Kingdom"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Spain"
+            },
+            {
+              "id": "3",
+              "text": "Italy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "title",
+          "origin",
+          "world",
+          "alberto",
+          "colors"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Bolivia and Pipeline",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, country, route. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is more difficult to plan a pipeline route in the North Sea than it is in the Gulf of Mexico due to the North Seas highly uneven topography.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these movies ended in Bolivia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "True Grit"
+            },
+            {
+              "id": "1",
+              "text": "Butch Cassidy and the Sundance Kid"
+            },
+            {
+              "id": "2",
+              "text": "Exodus"
+            },
+            {
+              "id": "3",
+              "text": "The Godfather Part II"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Butch Cassidy and the Sundance Kid"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When a pipeline begins and terminates in the same country, but a section crosses into a neighboring country, the neighboring federal authorities and local governments have jurisdiction over that part of the pipeline.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not true about the Bolivian city of Potosi?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was founded because of the local silver mine."
+            },
+            {
+              "id": "1",
+              "text": "It is the highest city in the world."
+            },
+            {
+              "id": "2",
+              "text": "Its population has grown steadily since 1900."
+            },
+            {
+              "id": "3",
+              "text": "It is renowned for its colonial architecture."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Its population has grown steadily since 1900."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city is the seat of government of Bolivia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cochabamba"
+            },
+            {
+              "id": "1",
+              "text": "LaPaz"
+            },
+            {
+              "id": "2",
+              "text": "Oruro"
+            },
+            {
+              "id": "3",
+              "text": "Cobija"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: LaPaz"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is unusual about Bolivias navy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bolivia has no navy."
+            },
+            {
+              "id": "1",
+              "text": "Its the second-largest navy in the world."
+            },
+            {
+              "id": "2",
+              "text": "Bolivia is landlocked and the navy patrols Lake Titicaca."
+            },
+            {
+              "id": "3",
+              "text": "It is actually run by the Peruvian government."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bolivia is landlocked and the navy patrols Lake Titicaca."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The deep ocean floor is void of life and environmental issues are not a concern when designing a pipeline route there.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Against which country did Bolivia fight in the Chaco War?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uruguay"
+            },
+            {
+              "id": "1",
+              "text": "Paraguay"
+            },
+            {
+              "id": "2",
+              "text": "Brazil"
+            },
+            {
+              "id": "3",
+              "text": "Peru"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Paraguay"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is always easier to plan a pipeline route at landfall, where the pipeline approaches the shore, than in very deep water.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bolivia is unusual in that the official capital is not the seat of government. What city is the official capital?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sucre"
+            },
+            {
+              "id": "1",
+              "text": "Potosi"
+            },
+            {
+              "id": "2",
+              "text": "Santa Cruz"
+            },
+            {
+              "id": "3",
+              "text": "Trinidad"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sucre"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a factor to be taken into account when selecting a marine pipeline route?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Politics"
+            },
+            {
+              "id": "1",
+              "text": "Fishing activities"
+            },
+            {
+              "id": "2",
+              "text": "Iceberg plow marks"
+            },
+            {
+              "id": "3",
+              "text": "Danger from sharks"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Danger from sharks"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these countries does not border Bolivia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uruguay"
+            },
+            {
+              "id": "1",
+              "text": "Chile"
+            },
+            {
+              "id": "2",
+              "text": "Argentina"
+            },
+            {
+              "id": "3",
+              "text": "Brazil"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Uruguay"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Due to its irregular and significant movement of sediment, this seabed feature should be avoided for pipelaying.",
+          "options": [
+            {
+              "id": "0",
+              "text": "sand wave field"
+            },
+            {
+              "id": "1",
+              "text": "soft mud bottom"
+            },
+            {
+              "id": "2",
+              "text": "medium clay flat"
+            },
+            {
+              "id": "3",
+              "text": "hard coral reef"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: sand wave field"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the colonial period, Bolivia was known as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Asuncion"
+            },
+            {
+              "id": "1",
+              "text": "Pachacamac"
+            },
+            {
+              "id": "2",
+              "text": "Alto Peru"
+            },
+            {
+              "id": "3",
+              "text": "Incana"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Alto Peru"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these languages is not spoken in Bolivia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aymara"
+            },
+            {
+              "id": "1",
+              "text": "Guarani"
+            },
+            {
+              "id": "2",
+              "text": "All these languages are spoken in Bolivia."
+            },
+            {
+              "id": "3",
+              "text": "Quechua"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All these languages are spoken in Bolivia."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "country",
+          "route",
+          "world",
+          "period",
+          "following"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: Nobel Peace Prize and United States",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, deltas, colonies. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Second Continental Congress approved the Declaration of Independence on July 4, 1776. What politician had written a day earlier to his wife Abigail that The second day of July, 1776, will be the most memorable epoch in the history of America.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Monroe"
+            },
+            {
+              "id": "1",
+              "text": "Richard Henry Lee"
+            },
+            {
+              "id": "2",
+              "text": "John Adams"
+            },
+            {
+              "id": "3",
+              "text": "Thomas Jefferson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Adams"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Dalai Lama was awarded a Nobel Peace Prize in 1989 for his struggle for the liberation of Tibet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "14th Dalai Lama"
+            },
+            {
+              "id": "1",
+              "text": "12th Dalai Lama"
+            },
+            {
+              "id": "2",
+              "text": "16th Dalai Lama"
+            },
+            {
+              "id": "3",
+              "text": "10th Dalai Lama"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 14th Dalai Lama"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What President of the United States was honored with the Nobel Prize for Peace in 2002?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Carter"
+            },
+            {
+              "id": "1",
+              "text": "Gerald Ford"
+            },
+            {
+              "id": "2",
+              "text": "Bill Clinton"
+            },
+            {
+              "id": "3",
+              "text": "Ronald Reagan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jimmy Carter"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What President of the United States was Awarded the Nobel Peace Prize in 1906, mainly for his contribution to ending the Russo-Japanese war?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grover Cleveland"
+            },
+            {
+              "id": "1",
+              "text": "William Howard Taft"
+            },
+            {
+              "id": "2",
+              "text": "Theodore Roosevelt"
+            },
+            {
+              "id": "3",
+              "text": "William McKinley"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Theodore Roosevelt"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What civil rights advocate received the Nobel Peace Prize in 1964?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Howard Thurman"
+            },
+            {
+              "id": "1",
+              "text": "Malcolm X"
+            },
+            {
+              "id": "2",
+              "text": "Martin Luther King, Jr."
+            },
+            {
+              "id": "3",
+              "text": "Mahatma Gandhi"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Martin Luther King, Jr."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nelson Mandela, the 1993 Nobel Peace Prize laureate, was President of this African country from 10 May 1994 to 14 June 1999.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Botswana"
+            },
+            {
+              "id": "1",
+              "text": "Somalia"
+            },
+            {
+              "id": "2",
+              "text": "South Africa"
+            },
+            {
+              "id": "3",
+              "text": "Sudan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: South Africa"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Secretary-General of the United Nations was awarded the Nobel Peace Prize in 2001?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Javier Perez de Cuellar"
+            },
+            {
+              "id": "1",
+              "text": "Kofi Annan"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Boutros Boutros-Ghali"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kofi Annan"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the first woman to be awarded the Nobel Peace Prize in 1905?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emily Greene Balch"
+            },
+            {
+              "id": "1",
+              "text": "Betty Williams"
+            },
+            {
+              "id": "2",
+              "text": "Bertha von Suttner"
+            },
+            {
+              "id": "3",
+              "text": "Jane Addams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bertha von Suttner"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mother Teresa, the honorary winner of the 1979 Nobel Peace Prize, was of what descent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Indian"
+            },
+            {
+              "id": "1",
+              "text": "Italian"
+            },
+            {
+              "id": "2",
+              "text": "Albanian"
+            },
+            {
+              "id": "3",
+              "text": "Macedonian"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Albanian"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Submarine landslides are prevalent in deltas such as North Americas Mississippi and Fraser deltas.  When the sediment slides across a pipe it can cause significant movement, so that this type of force can actually break it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "compressive"
+            },
+            {
+              "id": "1",
+              "text": "bending"
+            },
+            {
+              "id": "2",
+              "text": "sideways"
+            },
+            {
+              "id": "3",
+              "text": "tensile"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: tensile"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What United States Secretary of State received the Nobel Peace Prize in 1973?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William P. Rogers"
+            },
+            {
+              "id": "1",
+              "text": "Cyrus Vance"
+            },
+            {
+              "id": "2",
+              "text": "Christian Herter"
+            },
+            {
+              "id": "3",
+              "text": "Henry Kissinger"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Henry Kissinger"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did the legal separation of the American colonies from Great Britain occur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "July 2, 1776"
+            },
+            {
+              "id": "1",
+              "text": "July 4, 1776"
+            },
+            {
+              "id": "2",
+              "text": "July 5, 1776"
+            },
+            {
+              "id": "3",
+              "text": "July 4, 1777"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: July 2, 1776"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two countries had to reconcile in the 1980s before a gas pipeline route spanning the Strait of Gibraltar from Algeria to Spain was possible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morocco and Spain"
+            },
+            {
+              "id": "1",
+              "text": "Britain and Algeria"
+            },
+            {
+              "id": "2",
+              "text": "Spain and Britain"
+            },
+            {
+              "id": "3",
+              "text": "Algeria and Morocco"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Algeria and Morocco"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these United States citizens received the Nobel Prize for Peace in 2009?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Whoopi Goldberg"
+            },
+            {
+              "id": "1",
+              "text": "Angelina Jolie"
+            },
+            {
+              "id": "2",
+              "text": "Barack Obama"
+            },
+            {
+              "id": "3",
+              "text": "Michael Jackson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Barack Obama"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are many users of the sea bed, including fishermen, the military, commercial shippers and mineral dredgers. What is the most common problem for pipeline designers when selecting a route?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Protection from anchors"
+            },
+            {
+              "id": "1",
+              "text": "Disturbance of nuclear and chemical waste"
+            },
+            {
+              "id": "2",
+              "text": "Crossing existing pipelines"
+            },
+            {
+              "id": "3",
+              "text": "Avoiding mine fields"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Crossing existing pipelines"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "deltas",
+          "colonies",
+          "independence",
+          "world",
+          "nations"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Independence and Worlds",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, giza, june. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What treaty signed in signed on September 3, 1783 formally ended the American Revolutionary War?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Treaty of London"
+            },
+            {
+              "id": "1",
+              "text": "Treaty of Madrid"
+            },
+            {
+              "id": "2",
+              "text": "Treaty of Amsterdam"
+            },
+            {
+              "id": "3",
+              "text": "Treaty of Paris"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Treaty of Paris"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this country, New Year marks everyone\u2019s birthday and adults congratulate children on becoming a year older by giving them Lucky Money.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Iran"
+            },
+            {
+              "id": "1",
+              "text": "Vietnam"
+            },
+            {
+              "id": "2",
+              "text": "Burma"
+            },
+            {
+              "id": "3",
+              "text": "USA"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vietnam"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who portrayed an anti-war activist and veteran, born July 4, 1946?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom Cruise"
+            },
+            {
+              "id": "1",
+              "text": "John Travolta"
+            },
+            {
+              "id": "2",
+              "text": "Ben Affleck"
+            },
+            {
+              "id": "3",
+              "text": "Tom Hanks"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tom Cruise"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Upon completion, the Washington Monument, built to commemorate the first US President, became the worlds tallest structure. What is the name of the architect who designed it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charles Bulfinch"
+            },
+            {
+              "id": "1",
+              "text": "James Hoban"
+            },
+            {
+              "id": "2",
+              "text": "Jorn Utzon"
+            },
+            {
+              "id": "3",
+              "text": "Robert Mills"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Mills"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do Presidents John Adams, Thomas Jefferson and James Monroe have in common?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They all died on 2 July."
+            },
+            {
+              "id": "1",
+              "text": "They were all born on 4 July."
+            },
+            {
+              "id": "2",
+              "text": "They all died on 4 July."
+            },
+            {
+              "id": "3",
+              "text": "They all signed the Declaration of Independence."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They all died on 4 July."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In June 1776, this statesman from Virginia proposed a resolution of independence which led to the United States Declaration of Independence.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Jay"
+            },
+            {
+              "id": "1",
+              "text": "John Witherspoon"
+            },
+            {
+              "id": "2",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "3",
+              "text": "Richard Henry Lee"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Henry Lee"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Red is a predominant color in Chinese New Year decorations.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Great Pyramid of Giza claimed to be the worlds tallest man-made structure for around four millennia. Along which river is the monument located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Volga"
+            },
+            {
+              "id": "1",
+              "text": "Amazon"
+            },
+            {
+              "id": "2",
+              "text": "Mississippi"
+            },
+            {
+              "id": "3",
+              "text": "Nile"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nile"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the first sentence of the Declaration of Independence, which has been called one of the best-known sentences in the English language:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dreams"
+            },
+            {
+              "id": "1",
+              "text": "Happiness"
+            },
+            {
+              "id": "2",
+              "text": "Truth"
+            },
+            {
+              "id": "3",
+              "text": "Fulfilment"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Happiness"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Founding Fathers did not sign the Declaration of Independence?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Washington"
+            },
+            {
+              "id": "1",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "2",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: George Washington"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In India, New Years Day is celebrated in different times of the year at different places.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to a tradition in Poland, during Christmas Eve dinner the host must serve 24 dishes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many of the men who signed the Declaration of Independence would later become US Presidents?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At Christmas, girls in the Czech Republic and Slovakia throw a shoe over their shoulders.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded the 1973 ballad 4th of July, Asbury Park (Sandy) which opens with the lyrics,",
+          "options": [
+            {
+              "id": "0",
+              "text": "U2"
+            },
+            {
+              "id": "1",
+              "text": "Beach Boys"
+            },
+            {
+              "id": "2",
+              "text": "Bruce Springsteen"
+            },
+            {
+              "id": "3",
+              "text": "Soundgarden"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bruce Springsteen"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "giza",
+          "june",
+          "presidents",
+          "country",
+          "independence"
+        ]
+      }
+    }
+  ]
+}

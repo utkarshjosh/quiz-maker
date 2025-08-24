@@ -1,0 +1,2260 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Cats and Movie",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, condition. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This famous actress and producer was born on June 10, 1965 in Hampshire, England.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anna Friel"
+            },
+            {
+              "id": "1",
+              "text": "Kate Winslet"
+            },
+            {
+              "id": "2",
+              "text": "Elizabeth Hurley"
+            },
+            {
+              "id": "3",
+              "text": "Catherine Zeta \u2013 Jones"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Hurley"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kate Hudsons breakthrough came with this movie in which she played Penny Lane.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bride Wars"
+            },
+            {
+              "id": "1",
+              "text": "My Best Friends Girl"
+            },
+            {
+              "id": "2",
+              "text": "How to Lose a Guy in 10 Days"
+            },
+            {
+              "id": "3",
+              "text": "Almost Famous"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Almost Famous"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American actress of Spanish origin became known for her role in the TV series Desperate Housewives.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eva Longoria"
+            },
+            {
+              "id": "1",
+              "text": "Silvia Mars\u00f3"
+            },
+            {
+              "id": "2",
+              "text": "Salma Hayak"
+            },
+            {
+              "id": "3",
+              "text": "Penelope Cruz"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eva Longoria"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Angelina Jolie won an Academy Award for Best Actress in 2005.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Every cats nose pad has unique characteristics and no two cats nose pads are alike.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cats were once associated with witchcraft.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actress broke two ribs while filming a scene in which she falls on the wedding cake in the movie \u201cDesperate Housewives\u201d.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nicole Kidman"
+            },
+            {
+              "id": "1",
+              "text": "Renee Zellweger"
+            },
+            {
+              "id": "2",
+              "text": "Teri Hatcher"
+            },
+            {
+              "id": "3",
+              "text": "Eva Longoria"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Teri Hatcher"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cats can transmit toxoplasmosis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Scarlett Johansson plays the leading role in the 2005 film Black Dahlia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these TV series has Paris Hilton appeared?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Orange County"
+            },
+            {
+              "id": "2",
+              "text": "Veronica Mars"
+            },
+            {
+              "id": "3",
+              "text": "Las Vegas"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these movies has Katherine Holmes appeared?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Go"
+            },
+            {
+              "id": "1",
+              "text": "The Ice Storm"
+            },
+            {
+              "id": "2",
+              "text": "Disturbing Behavior"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who composed the famous musical Cats?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leonard Bernstein"
+            },
+            {
+              "id": "1",
+              "text": "Andrew Lloyd Webber"
+            },
+            {
+              "id": "2",
+              "text": "Stephen Sondheim"
+            },
+            {
+              "id": "3",
+              "text": "Irving Berlin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Andrew Lloyd Webber"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In early 2001 she began a three-year relationship with actor Tom Cruise, soon before he and  Nicole Kidman split up.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pen\u00e9lope Cruz"
+            },
+            {
+              "id": "1",
+              "text": "Uma Thurman"
+            },
+            {
+              "id": "2",
+              "text": "Elizabeth Hurley"
+            },
+            {
+              "id": "3",
+              "text": "Lindsay Lohan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pen\u00e9lope Cruz"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Beckoning Cat, also known as Welcoming Cat, is a common sculpture which originated in this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Japan"
+            },
+            {
+              "id": "1",
+              "text": "Korea"
+            },
+            {
+              "id": "2",
+              "text": "USA"
+            },
+            {
+              "id": "3",
+              "text": "China"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Japan"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What medical condition can be improved due to interactions with cats?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Osteoporosis"
+            },
+            {
+              "id": "1",
+              "text": "Diabetes"
+            },
+            {
+              "id": "2",
+              "text": "Epilepsy"
+            },
+            {
+              "id": "3",
+              "text": "High blood pressure"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: High blood pressure"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "condition",
+          "witchcraft",
+          "june",
+          "origin"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Eva Longoria and Tony Parker",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, rays, medici. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eva Longoria was listed #1 in Maxim magazines Hottest Female Stars of 2005 and 2006.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2006, Eva Longoria was nominated for this award for her performance on Desperate Housewives?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golden Globe Award"
+            },
+            {
+              "id": "1",
+              "text": "Imagen Foundation Awards"
+            },
+            {
+              "id": "2",
+              "text": "Screen Actors Guild Awards"
+            },
+            {
+              "id": "3",
+              "text": "DVD Exclusive Awards"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Golden Globe Award"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dante Alighieri was an Italian poet from Florence. What was his other occupation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pharmacist"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Doctor"
+            },
+            {
+              "id": "3",
+              "text": "Politician"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these films has Eva Longoria appeared?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Foodfight 2009"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Over Her Dead Body 2008"
+            },
+            {
+              "id": "3",
+              "text": "Without Men 2010"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did Ren\u00e9e Zellweger receive an Academy Award nomination for Bridget Jones\u2019s Diary?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2009"
+            },
+            {
+              "id": "1",
+              "text": "2001"
+            },
+            {
+              "id": "2",
+              "text": "2005"
+            },
+            {
+              "id": "3",
+              "text": "1997"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2001"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What statement concerning Eva Longorias birth date and birth place is correct?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was born on March 15, 1975 in the USA"
+            },
+            {
+              "id": "1",
+              "text": "She was born on March 15, 1975 Mexico."
+            },
+            {
+              "id": "2",
+              "text": "She was born on March 15, 1970 in the USA."
+            },
+            {
+              "id": "3",
+              "text": "She was born on March 15, 1970 in Mexico."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: She was born on March 15, 1975 in the USA"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eva Longoria is not related to Tampa Bay Rays third baseman Evan Longoria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When she was younger Eva Longoria wanted to become a professional model, but she was rejected because of her height.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2002 Eva Longoria married French basketball player Tony Parker.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements is true about the Medici family?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "They founded the Medici Bank."
+            },
+            {
+              "id": "2",
+              "text": "In the 16th century the family became hereditary Dukes of Florence."
+            },
+            {
+              "id": "3",
+              "text": "Four Popes of the Catholic Church and two regent Queens of France belonged to the Medici family."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eva Jacqueline Longoria is famous for portraying Gabrielle Solis on this ABC television series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beverly Hills 90210"
+            },
+            {
+              "id": "1",
+              "text": "Desperate Housewives"
+            },
+            {
+              "id": "2",
+              "text": "How I met you mother"
+            },
+            {
+              "id": "3",
+              "text": "Friends"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Desperate Housewives"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eva Longoria stated in an interview that she grew up as an ugly duckling.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was one of the first Europeans to travel through China and to visit Kublai Khan (grandson of Genghis Khan).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marco Polo"
+            },
+            {
+              "id": "1",
+              "text": "Christopher Columbus"
+            },
+            {
+              "id": "2",
+              "text": "Leonardo Da Vinci"
+            },
+            {
+              "id": "3",
+              "text": "Amerigo Vespucci"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Marco Polo"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Italian painter Sandro Botticelli belonged to the Florentine school.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eva Longoria divorced her husband Tony Parker at the end of 2010.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "rays",
+          "medici",
+          "model",
+          "botticelli",
+          "poet"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Movie and Remake",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, john, boheme. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The movie Seven Chances, made in 1925, was remade into what 1999 movie starring Chris ODonnell and Renee Zellweger?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Bachelor"
+            },
+            {
+              "id": "1",
+              "text": "Batman"
+            },
+            {
+              "id": "2",
+              "text": "Honey"
+            },
+            {
+              "id": "3",
+              "text": "Bridget Jones Diary"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Bachelor"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He ruled Italy from 1922 to 1943 and imposed a fascist regime through state terror and propaganda.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mussolini"
+            },
+            {
+              "id": "1",
+              "text": "Jozef Stalin"
+            },
+            {
+              "id": "2",
+              "text": "Franco"
+            },
+            {
+              "id": "3",
+              "text": "Tito"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mussolini"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This movie, originally made in 1957, was adapted from a teleplay by Reginald Rose and directed by Sidney Lumet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "12 Angry Men"
+            },
+            {
+              "id": "1",
+              "text": "Death of a Salesman"
+            },
+            {
+              "id": "2",
+              "text": "Halloween"
+            },
+            {
+              "id": "3",
+              "text": "Lilies of the Field"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 12 Angry Men"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1993 Jeff Bridges, Kiefer Sutherland and Nancy Travis starred in this remake of a 1988 Dutch film of the same name.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Vanishing"
+            },
+            {
+              "id": "1",
+              "text": "Point of No Return"
+            },
+            {
+              "id": "2",
+              "text": "Starman"
+            },
+            {
+              "id": "3",
+              "text": "Hot Shots"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Vanishing"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1982 John Carpenter horror film was remade in 2011?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Omen"
+            },
+            {
+              "id": "1",
+              "text": "Alien"
+            },
+            {
+              "id": "2",
+              "text": "Carrie"
+            },
+            {
+              "id": "3",
+              "text": "The Thing"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Thing"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 2008 movie Prom Night is a remake.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "His three great works, \u201cLa Boheme\u201d, \u201cMadam Butterfly\u201d and \u201cTurandot\u201d, became standard for writing for  many generations of composers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Puccini"
+            },
+            {
+              "id": "1",
+              "text": "Vivaldi"
+            },
+            {
+              "id": "2",
+              "text": "Bellini"
+            },
+            {
+              "id": "3",
+              "text": "Verdi"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Puccini"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2002 George Clooney starred in this remake of what 1972 science fiction movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Attack of the Killer Tomatoes"
+            },
+            {
+              "id": "1",
+              "text": "Solaris"
+            },
+            {
+              "id": "2",
+              "text": "I Am Legend"
+            },
+            {
+              "id": "3",
+              "text": "Alien"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Solaris"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What designer is famous for doing a cartwheel at the end of her fashion shows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vivienne Westwood"
+            },
+            {
+              "id": "1",
+              "text": "Issey Miyake"
+            },
+            {
+              "id": "2",
+              "text": "Stella McCartney"
+            },
+            {
+              "id": "3",
+              "text": "Betsey Johnson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Betsey Johnson"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pavarottis last performance on stage was at the 2006 Winter Olympics in Turin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gianni Versace was murdered in 1997.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following movies was directed by Sergio Leone?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Dollars Trilogy"
+            },
+            {
+              "id": "1",
+              "text": "Once Upon a Time in the West"
+            },
+            {
+              "id": "2",
+              "text": "The Colossus of Rhodes"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1990s, American fashion designer Marc Jacobs became the creative director of the French fashion house Louis Vuitton.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This scientist, called the father of modern physics, improved the telescope and discovered the four largest satellites of Jupiter.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michelangelo"
+            },
+            {
+              "id": "1",
+              "text": "Raphael"
+            },
+            {
+              "id": "2",
+              "text": "Alberti"
+            },
+            {
+              "id": "3",
+              "text": "Galileo"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Galileo"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1984 movie Against All Odds starring Rachel Ward, Jeff Bridges and James Woods is a remake.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "john",
+          "boheme",
+          "cartwheel",
+          "clooney",
+          "designer"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Designer and Movie",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, stars, genius. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these celebrities has modelled for the Calvin Klein brand?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Brooke Shields"
+            },
+            {
+              "id": "2",
+              "text": "Eva Mendes"
+            },
+            {
+              "id": "3",
+              "text": "Scarlett Johansson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ralph Lauren came to prominence after designing the notable short sleeve mesh shirt with the Polo logo.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jet Li stars in the 2008 remake of Death Race.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kate Spade is a designer of handbags.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Genius Jeans, which in 1998 were cited by Guinness World Records as the most expensive jeans, are a product of this fashion house.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dolce  Gabbana"
+            },
+            {
+              "id": "1",
+              "text": "Gucci"
+            },
+            {
+              "id": "2",
+              "text": "Chanel"
+            },
+            {
+              "id": "3",
+              "text": "Calvin Klein"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gucci"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 2005 movie is loosely based on the film The Sons of Katie Elder.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Bachelor"
+            },
+            {
+              "id": "1",
+              "text": "12"
+            },
+            {
+              "id": "2",
+              "text": "Idlewild"
+            },
+            {
+              "id": "3",
+              "text": "Four Brothers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Four Brothers"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nicknamed The Emperor, this fashion designer became known for his red dresses.",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Georgiou Armani"
+            },
+            {
+              "id": "2",
+              "text": "Gianni Versace"
+            },
+            {
+              "id": "3",
+              "text": "Valentino Garavani"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Valentino Garavani"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Giorgio Armani was the first designer to ban models with a body mass index under 18.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Julia Stiles, Liev Schreiber and Seamus Davey-Fitzpatrick starred in the 2006 remake of what 1976 movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Children of the Corn"
+            },
+            {
+              "id": "1",
+              "text": "The Omen"
+            },
+            {
+              "id": "2",
+              "text": "Amytiille Horror"
+            },
+            {
+              "id": "3",
+              "text": "Scream"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Omen"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the original movie named Cape Fear come out?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1973"
+            },
+            {
+              "id": "1",
+              "text": "1965"
+            },
+            {
+              "id": "2",
+              "text": "1962"
+            },
+            {
+              "id": "3",
+              "text": "1991"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1962"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Donatella Versace uses A-List celebrities such as Beyonce, Madonna, Britney Spears to advertise her clothing.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Boudu Saved from Drowning (1932) was remade in 1982 under the name Down and Out in Beverly Hills.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1997 Spanish movie Abre los ojos was remade in 2001 and starred this actress in both releases.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Penelope Cruz"
+            },
+            {
+              "id": "1",
+              "text": "Salma Hayek"
+            },
+            {
+              "id": "2",
+              "text": "Nancy Wilson"
+            },
+            {
+              "id": "3",
+              "text": "Cameron Diaz"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Penelope Cruz"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What prominent fashion designer is credited with popularizing the little black dress?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vivienne Westwood"
+            },
+            {
+              "id": "1",
+              "text": "Coco Chanel"
+            },
+            {
+              "id": "2",
+              "text": "Donatella Versace"
+            },
+            {
+              "id": "3",
+              "text": "Betsey Johnson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Coco Chanel"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1998 movie Youve Got Mail is not a remake.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "stars",
+          "genius",
+          "cape",
+          "mail",
+          "klein"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Sophia Loren and Vienna",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, books, awards. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What soccer club does Italian actress Sophia Loren support?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Napoli"
+            },
+            {
+              "id": "1",
+              "text": "Juventus"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Milan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Napoli"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sophia Loren won a beauty contest at the age of 15.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Marie Antoinette, the Queen of France and Navarre, born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Belvedere Palace"
+            },
+            {
+              "id": "2",
+              "text": "Hofburg Imperial Palace"
+            },
+            {
+              "id": "3",
+              "text": "Schonbrunn Palace"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hofburg Imperial Palace"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The worlds oldest zoo is in the imperial palace complex at Sch\u00f6nbrunn, Vienna.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sophia Loren is the author of the books \u201cLiving and Loving\u201d and \u201cWomen  Beauty\u201d.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did Sophia Loren pose for the Pirelli Calendar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1996"
+            },
+            {
+              "id": "1",
+              "text": "2007"
+            },
+            {
+              "id": "2",
+              "text": "1976"
+            },
+            {
+              "id": "3",
+              "text": "1986"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2007"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following awards did Sophia Loren receive?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grammy Award"
+            },
+            {
+              "id": "1",
+              "text": "BAFTA Award"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Golden Globe Award"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sophia Lorens mother was an aspiring actress.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The movie Thirteen Ghosts is a remake.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these movies does not star Sophia Loren?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beauty and the Beast"
+            },
+            {
+              "id": "1",
+              "text": "Countess from Hong Kong"
+            },
+            {
+              "id": "2",
+              "text": "Millionaire"
+            },
+            {
+              "id": "3",
+              "text": "Prisoners of Altona"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Beauty and the Beast"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement is true about Carlo Ponti?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was a film producer."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "He was Sophia Lorens husband."
+            },
+            {
+              "id": "3",
+              "text": "He and Sophia Loren had two sons together."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What language does Sophia Loren speak in the movies \u201cMillionaire\u201d and \u201cThe Fall of the Roman Empire\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "English"
+            },
+            {
+              "id": "1",
+              "text": "French"
+            },
+            {
+              "id": "2",
+              "text": "Spanish"
+            },
+            {
+              "id": "3",
+              "text": "Italian"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: English"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Prater is a large building in Vienna, Austria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sophia Loren is the artistic name of Sofia Villani Scicolone.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this cathedral composer Ludwig van Beethoven discovered he was completely deaf when he saw birds flying out of the bell tower but could not hear the bells.",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Sofia Cathedral"
+            },
+            {
+              "id": "1",
+              "text": "St. Peter and St. Mary Cathedral"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "St. Stephen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: St. Stephen"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "books",
+          "awards",
+          "language",
+          "soccer",
+          "sofia"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Bluestars Prophecy and Vienna",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, snowfurs, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sachertorte is a chocolate cake invented in Vienna, Austria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Riverclan cat does Bluepaw befriend at a gathering in Bluestars Prophecy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crookedpaw"
+            },
+            {
+              "id": "1",
+              "text": "Brambleberry"
+            },
+            {
+              "id": "2",
+              "text": "Ottersplash"
+            },
+            {
+              "id": "3",
+              "text": "Oakheart"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Crookedpaw"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An Iron Knight stands on the top of the central tower of the Vienna City Hall.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who does Snowfur choose as a mate in the Bluestars Prophecy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sunfall"
+            },
+            {
+              "id": "1",
+              "text": "Patchpelt"
+            },
+            {
+              "id": "2",
+              "text": "Thistleclaw"
+            },
+            {
+              "id": "3",
+              "text": "Sparrowpelt"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Thistleclaw"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Bluestars Prophecy, why was there a battle between Windclan and Thunderclan, in which Moonflower lost her life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Because those fox-heated Windclan cats had been prey-stealing"
+            },
+            {
+              "id": "1",
+              "text": "Because of Goosefeathers prophecy"
+            },
+            {
+              "id": "2",
+              "text": "Because Thunderclan needed more land"
+            },
+            {
+              "id": "3",
+              "text": "Because Thunderclan needed herbs"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Because of Goosefeathers prophecy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who trains Bluepaw in her apprenticeship in Bluestars Prophecy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stormtail"
+            },
+            {
+              "id": "1",
+              "text": "Thrushpelt"
+            },
+            {
+              "id": "2",
+              "text": "Sunfall"
+            },
+            {
+              "id": "3",
+              "text": "Adderfang"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sunfall"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Vienna State Opera was first known as the Vienna Court Opera.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vienna lies in the east of Austria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Riverclan cat does Bluepaw sneak out to meet after the gathering in Bluestars Prophecy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ottersplash"
+            },
+            {
+              "id": "1",
+              "text": "Oakheart"
+            },
+            {
+              "id": "2",
+              "text": "Brambleberry"
+            },
+            {
+              "id": "3",
+              "text": "Crookedpaw"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oakheart"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does Snowfur die in Bluestars Prophecy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shadowclan attacks her."
+            },
+            {
+              "id": "1",
+              "text": "She was attacked by a fox."
+            },
+            {
+              "id": "2",
+              "text": "She falls into a gorge."
+            },
+            {
+              "id": "3",
+              "text": "Shes hit by a monster."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Shes hit by a monster."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who prophesies that Bluepaw is destined for greatness in Bluestars Prophecy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Featherwhisker"
+            },
+            {
+              "id": "1",
+              "text": "Pinestar"
+            },
+            {
+              "id": "2",
+              "text": "Goosefeather"
+            },
+            {
+              "id": "3",
+              "text": "Sunfall"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Goosefeather"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the Warrior name of Bluestars sister in Bluestars Prophecy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snowfall"
+            },
+            {
+              "id": "1",
+              "text": "Snowfur"
+            },
+            {
+              "id": "2",
+              "text": "Snowpelt"
+            },
+            {
+              "id": "3",
+              "text": "Snowtail"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Snowfur"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these famous people was not born in Vienna, Austria?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wolfgang Amadeus Mozart"
+            },
+            {
+              "id": "1",
+              "text": "Sigmund Freud"
+            },
+            {
+              "id": "2",
+              "text": "Johann Strauss I"
+            },
+            {
+              "id": "3",
+              "text": "Maria Theresia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Wolfgang Amadeus Mozart"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Belvedere is a building complex in Vienna, Austria, built in the 20th century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Snowfurs kit in Bluestars Prophecy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stormkit"
+            },
+            {
+              "id": "1",
+              "text": "Snowkit"
+            },
+            {
+              "id": "2",
+              "text": "Moonkit"
+            },
+            {
+              "id": "3",
+              "text": "Whitekit"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Whitekit"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "snowfurs",
+          "people",
+          "mate",
+          "windclan",
+          "apprenticeship"
+        ]
+      }
+    }
+  ]
+}

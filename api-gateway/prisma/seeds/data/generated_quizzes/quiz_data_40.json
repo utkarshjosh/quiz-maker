@@ -1,0 +1,2556 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Album and Group",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, sunrise, kind. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What artist recorded Blood on the Tracks, the #16 album on Rolling Stones list of the 500 Greatest Albums of All Time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Bowie"
+            },
+            {
+              "id": "1",
+              "text": "Elton John"
+            },
+            {
+              "id": "2",
+              "text": "Bob Dylan"
+            },
+            {
+              "id": "3",
+              "text": "Stevie Wonder"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Dylan"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This one hit wonder had a hit song in 1990 called Black Velvet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Martika"
+            },
+            {
+              "id": "1",
+              "text": "Alannah Myles"
+            },
+            {
+              "id": "2",
+              "text": "Jane Child"
+            },
+            {
+              "id": "3",
+              "text": "Tracy Chapman"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Alannah Myles"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who released Sunrise, the #11 album on Rolling Stones list of the 500 Greatest Albums of All Time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elvis Presley"
+            },
+            {
+              "id": "1",
+              "text": "David Bowie"
+            },
+            {
+              "id": "2",
+              "text": "Stevie Wonder"
+            },
+            {
+              "id": "3",
+              "text": "Bob Dylan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Elvis Presley"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded Never Mind, the #17 album on Rolling Stone magazines list of the 500 Greatest Albums of All Time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pearl Jam"
+            },
+            {
+              "id": "1",
+              "text": "The Smyths"
+            },
+            {
+              "id": "2",
+              "text": "Nirvana"
+            },
+            {
+              "id": "3",
+              "text": "The Clash"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nirvana"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This group had a huge hit song in 1972 with Black and White.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steely Dan"
+            },
+            {
+              "id": "1",
+              "text": "Three Dog Night"
+            },
+            {
+              "id": "2",
+              "text": "Grass Roots"
+            },
+            {
+              "id": "3",
+              "text": "Manassas"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Three Dog Night"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which artist recorded Kind of Blue, the #12 album on Rolling Stones list of greatest albums?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marvin Gaye"
+            },
+            {
+              "id": "1",
+              "text": "Elton John"
+            },
+            {
+              "id": "2",
+              "text": "Miles Davis"
+            },
+            {
+              "id": "3",
+              "text": "Stevie Wonder"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Miles Davis"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This British group had a big hit song in 1972 called Long Cool Woman in a Black Dress.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Searchers"
+            },
+            {
+              "id": "1",
+              "text": "The Hollies"
+            },
+            {
+              "id": "2",
+              "text": "The Byrds"
+            },
+            {
+              "id": "3",
+              "text": "The Kingston Trio"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Hollies"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This group had lots of hit songs during their very successful career. They had a minor hit with the song Black Friday which came off their 1975 album called Katy Lied.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steely Dan"
+            },
+            {
+              "id": "1",
+              "text": "Supertramp"
+            },
+            {
+              "id": "2",
+              "text": "Styx"
+            },
+            {
+              "id": "3",
+              "text": "The Scorpions"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Steely Dan"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which group recorded Abbey Road, the #14 album on Rolling Stone magazines list of greatest albums of all time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Doors"
+            },
+            {
+              "id": "1",
+              "text": "The Who"
+            },
+            {
+              "id": "2",
+              "text": "The Eagles"
+            },
+            {
+              "id": "3",
+              "text": "The Beatles"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Beatles"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Velvet Underground, which was ranked as the #13 album of all time by Rolling Stone magazine, was recorded by this group.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Velvet Underground and Nico"
+            },
+            {
+              "id": "1",
+              "text": "Pink Floyd"
+            },
+            {
+              "id": "2",
+              "text": "The Doors"
+            },
+            {
+              "id": "3",
+              "text": "The Rolling Stones"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Velvet Underground and Nico"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded Thriller, the #20 album on Rolling Stones list of top albums?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Michael Jackson"
+            },
+            {
+              "id": "2",
+              "text": "John Lennon"
+            },
+            {
+              "id": "3",
+              "text": "Marvin Gaye"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Jackson"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This group had a huge hit song in 1975 called Black Water.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steely Dan"
+            },
+            {
+              "id": "1",
+              "text": "The Four Tops"
+            },
+            {
+              "id": "2",
+              "text": "The Doobie Brothers"
+            },
+            {
+              "id": "3",
+              "text": "The Rolling Stones"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Doobie Brothers"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This artist released the album Born to Run, ranked as the #18 album on Rolling Stones list of the 500 Greatest Albums of All Time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Bowie"
+            },
+            {
+              "id": "1",
+              "text": "Miles Davis"
+            },
+            {
+              "id": "2",
+              "text": "Bruce Springsteen"
+            },
+            {
+              "id": "3",
+              "text": "Bob Dylan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bruce Springsteen"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded the album Are You Experienced, ranked #15 on Rolling Stones list of the 500 Greatest Albums of All Time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "R.E.M"
+            },
+            {
+              "id": "1",
+              "text": "Jimi Hendrix"
+            },
+            {
+              "id": "2",
+              "text": "The Doors"
+            },
+            {
+              "id": "3",
+              "text": "Pink Floyd"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jimi Hendrix"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Astral Weeks, the #19 album on Rolling Stones list of greatest albums, was released by this artist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paul Robinson"
+            },
+            {
+              "id": "1",
+              "text": "Roy Orbison"
+            },
+            {
+              "id": "2",
+              "text": "Chuck Berry"
+            },
+            {
+              "id": "3",
+              "text": "Van Morrison"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Van Morrison"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "sunrise",
+          "kind",
+          "velvet",
+          "weeks",
+          "hit"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Song and Animal Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, bird. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elvis Presley recorded this dog song in 1956.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hound Dog"
+            },
+            {
+              "id": "1",
+              "text": "Stray Dog"
+            },
+            {
+              "id": "2",
+              "text": "Black Dog"
+            },
+            {
+              "id": "3",
+              "text": "White Dog"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hound Dog"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This flower song was recorded in 1978 by by Neil Diamond and Barbra Streisand.",
+          "options": [
+            {
+              "id": "0",
+              "text": "You Dont Bring Me Flowers"
+            },
+            {
+              "id": "1",
+              "text": "You Dont Bring Me Roses"
+            },
+            {
+              "id": "2",
+              "text": "You Dont Bring Me Daffodils"
+            },
+            {
+              "id": "3",
+              "text": "You Dont Bring Me Magnolias"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: You Dont Bring Me Flowers"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This animal song was co-written and recorded by American country singer Taylor Swift in 2008.",
+          "options": [
+            {
+              "id": "0",
+              "text": "White Horse"
+            },
+            {
+              "id": "1",
+              "text": "White Lion"
+            },
+            {
+              "id": "2",
+              "text": "White Cow"
+            },
+            {
+              "id": "3",
+              "text": "White Dove"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: White Horse"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What female musician recorded the song Where the Wild Roses Grow with Nick Cave in 1995?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mariah Carey"
+            },
+            {
+              "id": "1",
+              "text": "Kylie Minogue"
+            },
+            {
+              "id": "2",
+              "text": "Barbra Streisand"
+            },
+            {
+              "id": "3",
+              "text": "Sheryl Crow"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kylie Minogue"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What bird song has been covered by artists like Josephine Baker, Frank Sinatra, Judy Garland, Liza Minnelli, Dean Martin, Joe Cocker?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bye Bye Lovebird"
+            },
+            {
+              "id": "1",
+              "text": "Bye Bye Mockingbird"
+            },
+            {
+              "id": "2",
+              "text": "Bye Bye Bluebird"
+            },
+            {
+              "id": "3",
+              "text": "Bye Bye Blackbird"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bye Bye Blackbird"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What carnivorous song did Duran Duran release in May 1982 from their second studio album Rio?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hungry Like the Dog"
+            },
+            {
+              "id": "1",
+              "text": "Hungry Like the Wolf"
+            },
+            {
+              "id": "2",
+              "text": "Hungry Like the Bear"
+            },
+            {
+              "id": "3",
+              "text": "Hungry Like the Lion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hungry Like the Wolf"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What bird song did Prince include in his 1984 album Purple Rain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "When Chicks Cry"
+            },
+            {
+              "id": "1",
+              "text": "When Doves Fly"
+            },
+            {
+              "id": "2",
+              "text": "When Birds Cry"
+            },
+            {
+              "id": "3",
+              "text": "When Doves Cry"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: When Doves Cry"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This reggae song was co-written and recorded by Bob Marley in 1980, and was released in 1983.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buffalo Soldier"
+            },
+            {
+              "id": "1",
+              "text": "Bull Soldier"
+            },
+            {
+              "id": "2",
+              "text": "Scavenger Soldier"
+            },
+            {
+              "id": "3",
+              "text": "Horse Soldier"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Buffalo Soldier"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What animal song was written and recorded by Elton John in in June 1972?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crocodile Rock"
+            },
+            {
+              "id": "1",
+              "text": "Donkey Rock"
+            },
+            {
+              "id": "2",
+              "text": "Monkey Rock"
+            },
+            {
+              "id": "3",
+              "text": "Alligator Rock"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Crocodile Rock"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular flower song was recorded by Nick Lucas in 1929?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tiptoe Through the Snowdrops"
+            },
+            {
+              "id": "1",
+              "text": "Tiptoe Through the Flowers"
+            },
+            {
+              "id": "2",
+              "text": "Tiptoe Through the Sunflowers"
+            },
+            {
+              "id": "3",
+              "text": "Tiptoe Through the Tulips"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tiptoe Through the Tulips"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What male musician recorded the 1994 song Kiss from a Rose?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seal"
+            },
+            {
+              "id": "1",
+              "text": "Meatloaf"
+            },
+            {
+              "id": "2",
+              "text": "Babyface"
+            },
+            {
+              "id": "3",
+              "text": "R. Kelly"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Seal"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Lennon wrote this animal song for The Beatles in 1967.",
+          "options": [
+            {
+              "id": "0",
+              "text": "I Am the Seagull"
+            },
+            {
+              "id": "1",
+              "text": "I Am the Elephant"
+            },
+            {
+              "id": "2",
+              "text": "I Am the Walrus"
+            },
+            {
+              "id": "3",
+              "text": "I Am the Seal"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: I Am the Walrus"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Michael Jackson recorded this bird song in 1971, and released it in 1972 from his debut solo album Got to Be There.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rockin Canary"
+            },
+            {
+              "id": "1",
+              "text": "Rockin Hummingbird"
+            },
+            {
+              "id": "2",
+              "text": "Rockin Parrot"
+            },
+            {
+              "id": "3",
+              "text": "Rockin Robin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rockin Robin"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This animal song was written by Nelly Furtado and was the first single from her 2000 debut album Whoa, Nelly!.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Im like a Bird"
+            },
+            {
+              "id": "1",
+              "text": "Im like a Horse"
+            },
+            {
+              "id": "2",
+              "text": "Im like a Butterfly"
+            },
+            {
+              "id": "3",
+              "text": "Im like a Dove"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Im like a Bird"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What rock band originally recorded the song Dead Flowers, released in 1971?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Beatles"
+            },
+            {
+              "id": "1",
+              "text": "Guns N Roses"
+            },
+            {
+              "id": "2",
+              "text": "The Rolling Stones"
+            },
+            {
+              "id": "3",
+              "text": "Deep Purple"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Rolling Stones"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "bird",
+          "reggae",
+          "elvis",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Song and Singer",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, mama, oklahoma. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 2005 song Blue Orchid by The White Stripes was rumored to have been inspired by the breakup between band member Jack White and this Hollywood actress.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kate Hudson"
+            },
+            {
+              "id": "1",
+              "text": "Renee Zellweger"
+            },
+            {
+              "id": "2",
+              "text": "Drew Barrymore"
+            },
+            {
+              "id": "3",
+              "text": "Scarlet Johansson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Renee Zellweger"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born in Oklahoma in 1903, this jazz singer nicknamed Mr. Five by Five was best known for his work with the Basie Band from 1935-1950.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny Hammond"
+            },
+            {
+              "id": "1",
+              "text": "Jimmy Rushing"
+            },
+            {
+              "id": "2",
+              "text": "Jackie Layne"
+            },
+            {
+              "id": "3",
+              "text": "Arnie Ross"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jimmy Rushing"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the most important American jazz singers of the 20th century, she was discovered by Teddy Wilson. She was famous for her behind the beat type of phrasing and for her renditions of Thelonius Monk songs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billy Holiday"
+            },
+            {
+              "id": "1",
+              "text": "Dinah Washington"
+            },
+            {
+              "id": "2",
+              "text": "Abbey Lincoln"
+            },
+            {
+              "id": "3",
+              "text": "Carmen McRae"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Carmen McRae"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular flower song from 1962 won the Academy Award for Best Original Song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Days of Wine and Flowers"
+            },
+            {
+              "id": "1",
+              "text": "Days of Wine and Orchids"
+            },
+            {
+              "id": "2",
+              "text": "Days of Wine and Posies"
+            },
+            {
+              "id": "3",
+              "text": "Days of Wine and Roses"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Days of Wine and Roses"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Orson Welles called this singer the most exciting girl in the world.\u201d Her signature songs include: CEst Si Bon, Mink Schmink, and the very sexy Santa Baby. Her criticism of the Vietnam War made Lady Bird Johnson cry. What is her name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eartha Kitt"
+            },
+            {
+              "id": "1",
+              "text": "Diane Schur"
+            },
+            {
+              "id": "2",
+              "text": "Abbey Lincoln"
+            },
+            {
+              "id": "3",
+              "text": "Jane Fonda"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eartha Kitt"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What jazz singer better known as Mama Corleone from The Godfather first hit the big time with her 1964 album A Taste of Honey?\u201d",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morgana King"
+            },
+            {
+              "id": "1",
+              "text": "Helen Morgan"
+            },
+            {
+              "id": "2",
+              "text": "Diana King"
+            },
+            {
+              "id": "3",
+              "text": "J. P. Morgan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Morgana King"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What female musician wrote the song A Rose Is Still a Rose for Aretha Franklin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chaka Khan"
+            },
+            {
+              "id": "1",
+              "text": "Lauryn Hill"
+            },
+            {
+              "id": "2",
+              "text": "Diana Ross"
+            },
+            {
+              "id": "3",
+              "text": "Whitney Houston"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lauryn Hill"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born in the UK, this this singing beauty was discovered by her husband John Dankworth. She sang and acted on the British stage with Robert Morley and Ruth Gordon. She recorded Porgy and Bess\u201d with Ray Charles.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Betty Carter"
+            },
+            {
+              "id": "1",
+              "text": "Betsy Everett"
+            },
+            {
+              "id": "2",
+              "text": "Cleo Laine"
+            },
+            {
+              "id": "3",
+              "text": "Peggy Lee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cleo Laine"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What male musician recorded the song Desert Rose in 1999?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ricky Martin"
+            },
+            {
+              "id": "1",
+              "text": "Sting"
+            },
+            {
+              "id": "2",
+              "text": "Bryan Adams"
+            },
+            {
+              "id": "3",
+              "text": "Eric Clapton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sting"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great singer and actress who lived from 1896-1977 was the first African-American to star on a national radio show. She was sometimes called Sweet Mama Stringbean.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abbey Lincoln"
+            },
+            {
+              "id": "1",
+              "text": "Ethel Waters"
+            },
+            {
+              "id": "2",
+              "text": "Sarah Vaughan"
+            },
+            {
+              "id": "3",
+              "text": "Billie Holiday"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ethel Waters"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This real beauty was born in Brooklyn in 1917. Her first mentors were Cab Calloway and Duke Ellington. A great singer and actress, she appeared in Panama Hattie, Cabin in the Sky\u201d and Show Boat. Her signature song is Stormy Weather.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billie Holiday"
+            },
+            {
+              "id": "1",
+              "text": "Ella Fitzgerald"
+            },
+            {
+              "id": "2",
+              "text": "Sarah Vaughan"
+            },
+            {
+              "id": "3",
+              "text": "Lena Horne"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lena Horne"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What flower song was released by Bon Jovi in 1992?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bed of Poppies"
+            },
+            {
+              "id": "1",
+              "text": "Bed of Roses"
+            },
+            {
+              "id": "2",
+              "text": "Bed of Daisies"
+            },
+            {
+              "id": "3",
+              "text": "Bed of Lilies"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bed of Roses"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Michigan-born jazz great was never as popular as other vocalists but was admired by her peers. Her signature song was \u201cOpen the Door, her own composition and a song featured in the movie American Beauty. She died in 1998 at the age of 69.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Etta James"
+            },
+            {
+              "id": "1",
+              "text": "Betty Carter"
+            },
+            {
+              "id": "2",
+              "text": "Diane Schuur"
+            },
+            {
+              "id": "3",
+              "text": "Etta Jones"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Betty Carter"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This soft -voiced Dakota-born singer was discovered by Benny Goodman. Her most famous song is Fever.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Betty Carter"
+            },
+            {
+              "id": "1",
+              "text": "Peggy Lee"
+            },
+            {
+              "id": "2",
+              "text": "Morgana King"
+            },
+            {
+              "id": "3",
+              "text": "Cleo Laine"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Peggy Lee"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great Chicago-born singer was married to Max Roach and sang on his famous We Insist!-Freedom Now Suite. She appeared in such movies as For the Love of Ivy\u201d and Nothing but a Man. One of her signature songs is Buddy Can You Spare a Dime?.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billie Homiday"
+            },
+            {
+              "id": "1",
+              "text": "Carmen McRae"
+            },
+            {
+              "id": "2",
+              "text": "Dinah Washington"
+            },
+            {
+              "id": "3",
+              "text": "Abbey Lincoln"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Abbey Lincoln"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "mama",
+          "oklahoma",
+          "orchid",
+          "roach",
+          "musician"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Band and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, vocalist, welsh. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress portrayed real-life author Betty Mahmoody in the 1991 drama movie Not Without My Daughter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Susan Sarandon"
+            },
+            {
+              "id": "1",
+              "text": "Meryl Streep"
+            },
+            {
+              "id": "2",
+              "text": "Diane Keaton"
+            },
+            {
+              "id": "3",
+              "text": "Sally Field"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sally Field"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This singer was called The Queen of the blues. She was born Ruth Lee Jones in Alabama in 1924 and her career began at age 15. She changed her name and developed a distinctive singing style. Her most popular hit was What a Difference a Day Made.\u201d",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billie Holiday"
+            },
+            {
+              "id": "1",
+              "text": "Dinah Washington"
+            },
+            {
+              "id": "2",
+              "text": "Etta James"
+            },
+            {
+              "id": "3",
+              "text": "Ella Fitzgerald"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dinah Washington"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rhiannon was not just a woman, she was a mythological Welsh Goddess. What band had a big hit with the song Rhiannon (Will You Ever Win)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Heartbeats"
+            },
+            {
+              "id": "1",
+              "text": "The Mama  the Pappas"
+            },
+            {
+              "id": "2",
+              "text": "Fleetwood Mac"
+            },
+            {
+              "id": "3",
+              "text": "Peter, Paul, and Mary"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fleetwood Mac"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although Lola walked like a woman, she did talk like a man, in a hit by this band.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Kinks"
+            },
+            {
+              "id": "1",
+              "text": "The Grateful Dead"
+            },
+            {
+              "id": "2",
+              "text": "BTO"
+            },
+            {
+              "id": "3",
+              "text": "The Cars"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Kinks"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fill in the blank with this Elvis Costello song title from his first album.  ______________, I know this world is killing you.  Oh, ____________, my aim is true.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rachel"
+            },
+            {
+              "id": "1",
+              "text": "Christine"
+            },
+            {
+              "id": "2",
+              "text": "Anna"
+            },
+            {
+              "id": "3",
+              "text": "Alison"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alison"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular band performed the 1977 song Ma Baker?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ABBA"
+            },
+            {
+              "id": "1",
+              "text": "Eruption"
+            },
+            {
+              "id": "2",
+              "text": "The Supremes"
+            },
+            {
+              "id": "3",
+              "text": "Boney M."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Boney M."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This band sang about wanting Opheila to come back home on their 1978 album The Last Waltz. The song was also featured on their Greatest Hits album released in 2000.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Eagles"
+            },
+            {
+              "id": "1",
+              "text": "The Nitty Gritty Dirt Band"
+            },
+            {
+              "id": "2",
+              "text": "The Band"
+            },
+            {
+              "id": "3",
+              "text": "Five Man Electrical Band"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Band"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "My Sharona was released in 1979 and became a huge hit for this band.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Kinks"
+            },
+            {
+              "id": "1",
+              "text": "Depeche Mode"
+            },
+            {
+              "id": "2",
+              "text": "The Ramones"
+            },
+            {
+              "id": "3",
+              "text": "The Knack"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Knack"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which vocalist with a remarkably smooth baritone voice was known for the songs I Apologize, Prisoner of Love, and My Foolish Heart?\u201d",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny Hammond"
+            },
+            {
+              "id": "1",
+              "text": "Jimmy Rushing"
+            },
+            {
+              "id": "2",
+              "text": "Mel Torme"
+            },
+            {
+              "id": "3",
+              "text": "Billy Eckstine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Billy Eckstine"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What great musician appeared in the 1980 movie The Blues Brothers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Aretha Franklin"
+            },
+            {
+              "id": "2",
+              "text": "James Brown"
+            },
+            {
+              "id": "3",
+              "text": "Ray Charles"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What huge action movie star starred as the twin brother of Danny DeVito in the 1988 comedy movie Twins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Denzel Washington"
+            },
+            {
+              "id": "1",
+              "text": "Arnold Schwarzenegger"
+            },
+            {
+              "id": "2",
+              "text": "Sylvester Stallone"
+            },
+            {
+              "id": "3",
+              "text": "Bruce Willis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Arnold Schwarzenegger"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What comedian starred as Sonny Koufax in the 1999 comedy movie Big Daddy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim Carrey"
+            },
+            {
+              "id": "1",
+              "text": "Ben Stiller"
+            },
+            {
+              "id": "2",
+              "text": "Robin Williams"
+            },
+            {
+              "id": "3",
+              "text": "Adam Sandler"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Adam Sandler"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country would you hear the tuva singing of Buddhist monks of the Dalai Lama?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Singapore"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "Japan"
+            },
+            {
+              "id": "3",
+              "text": "Tibet"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tibet"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following actresses portrayed the American Presidents daughter in the 2004 movie First Daughter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amerie"
+            },
+            {
+              "id": "1",
+              "text": "Katie Holmes"
+            },
+            {
+              "id": "2",
+              "text": "Natalie Portman"
+            },
+            {
+              "id": "3",
+              "text": "Scarlett Johansson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Katie Holmes"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Solomon Linda, an African Zulu, wrote and recorded this song in 1939 that The Tokens took to the top of the Billboard Hot 100 in 1961.  Can you name the African lullaby and Broadway tune that begins  A-Wimoweh, a-wimoweh?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Graceland"
+            },
+            {
+              "id": "1",
+              "text": "The Lion Sleeps Tonight"
+            },
+            {
+              "id": "2",
+              "text": "Kum-By-Yah"
+            },
+            {
+              "id": "3",
+              "text": "Kookaburra"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Lion Sleeps Tonight"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "vocalist",
+          "welsh",
+          "blues",
+          "presidents",
+          "elvis"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Song and Singer",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, diva, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This singer had a hit song in 1977 with Lovely Day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Benson"
+            },
+            {
+              "id": "1",
+              "text": "Stevie Wonder"
+            },
+            {
+              "id": "2",
+              "text": "Brook Benton"
+            },
+            {
+              "id": "3",
+              "text": "Bill Withers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Withers"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This highway bisects the entire country.  It is where Route 45 crosses this highway that blues great , Robert Johnson,  sold his soul to the devil.  Elvis Presley was born along this highway and Bessie Smith died on this highway.  Bob Dylan wrote that on this highway you could find Georgia Sam, Mack the finger, Louie the king and the second mother with the seventh son.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Highway 61"
+            },
+            {
+              "id": "1",
+              "text": "Route 66"
+            },
+            {
+              "id": "2",
+              "text": "U.S. 1"
+            },
+            {
+              "id": "3",
+              "text": "I-95"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Highway 61"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This diva had a huge #1 U.S. hit in 1990 with Love Takes Time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Whitney Houston"
+            },
+            {
+              "id": "1",
+              "text": "Maria H. Carey"
+            },
+            {
+              "id": "2",
+              "text": "Madonna"
+            },
+            {
+              "id": "3",
+              "text": "Mariah Carey"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mariah Carey"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Day Dreaming was a big hit song for this RB diva in the 1970s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Etta James"
+            },
+            {
+              "id": "1",
+              "text": "Aretha Franklin"
+            },
+            {
+              "id": "2",
+              "text": "Diana Ross"
+            },
+            {
+              "id": "3",
+              "text": "Martha Reeves"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Aretha Franklin"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tall and tan and young and lovely introduces The Girl from Ipanema.  One can picture the beaches of Brazil as each one she passes goes aahhh.  The Girl from Ipanema was an international hit and introduced the bossa nova to a world audience.  However, in the lyrics of the song, what dance does the singer compare her to as she swings so cool and sways so gentle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Samba"
+            },
+            {
+              "id": "1",
+              "text": "Rumba"
+            },
+            {
+              "id": "2",
+              "text": "Tango"
+            },
+            {
+              "id": "3",
+              "text": "Waltz"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Samba"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Now for the U.S.A.  Mr. Farber writes  razor sharp guitar riffs, driving beat and snarling vocal makes this 1969 Steppenwolf song the  biker rallying cry .  When I hear this song, I think of the movie  Easy Rider  as Captain America and Billy ride their bikes towards New Orleans and their destiny.   What is the name of the song that  listening to can make anyone feel like an outlaw?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Evil Ways"
+            },
+            {
+              "id": "1",
+              "text": "Magic Carpet Ride"
+            },
+            {
+              "id": "2",
+              "text": "Born in the USA"
+            },
+            {
+              "id": "3",
+              "text": "Born to be Wild"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Born to be Wild"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Wasted Days and Wasted Nights was one of the biggest songs ever for this singer in 1975.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Holman"
+            },
+            {
+              "id": "1",
+              "text": "Joe Lagalante"
+            },
+            {
+              "id": "2",
+              "text": "Mac Davis"
+            },
+            {
+              "id": "3",
+              "text": "Freddy Fender"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Freddy Fender"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The instrument is the bouzouki.  The song is Kritikos Horos.  What is the name of the movie that finds Anthony Quinn dancing on the beach at Stavros",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zorba the Greek"
+            },
+            {
+              "id": "1",
+              "text": "Viva Zapata"
+            },
+            {
+              "id": "2",
+              "text": "Never on a Sunday"
+            },
+            {
+              "id": "3",
+              "text": "Fiddler on the Roof"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Zorba the Greek"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Little cable cars climb halfway to the stars croons the singer of  I Left My Heart in San Francisco.  Who is the singer most closely identified with the city by the bay?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dean Martin"
+            },
+            {
+              "id": "1",
+              "text": "Jim Nabors"
+            },
+            {
+              "id": "2",
+              "text": "Tony Bennett"
+            },
+            {
+              "id": "3",
+              "text": "Andy Williams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tony Bennett"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1972 song Day By Day was a huge hit from this musical.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Badfinger"
+            },
+            {
+              "id": "1",
+              "text": "Jesus Christ Superstar"
+            },
+            {
+              "id": "2",
+              "text": "Grease"
+            },
+            {
+              "id": "3",
+              "text": "Godspell"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Godspell"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This female group from the 1990s had a #1 hit in the U.S. with Youre in Love.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Divinyls"
+            },
+            {
+              "id": "1",
+              "text": "Wilson Phillips"
+            },
+            {
+              "id": "2",
+              "text": "SWV"
+            },
+            {
+              "id": "3",
+              "text": "En Vogue"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wilson Phillips"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One Love, One Heart.  Lets get together and feel alright.  The lyrics and music of this song brings to ones inner eye the beauty of the island of Jamaica.  Yet examine closely the lyrics of  One Love ,  and you will find the concern this artist had for the poor and repressed people of Jamaica.  Who is this artist that helped bring reggae music to the attention of the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Al Anderson"
+            },
+            {
+              "id": "1",
+              "text": "Peter Tosh"
+            },
+            {
+              "id": "2",
+              "text": "Bunny Wailer"
+            },
+            {
+              "id": "3",
+              "text": "Bob Marley"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Marley"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Daydream was a big hit song for this 1960s band from NYC.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Lovin Spoonful"
+            },
+            {
+              "id": "1",
+              "text": "Peter, Paul  Mary"
+            },
+            {
+              "id": "2",
+              "text": "Simon and Garfunkel"
+            },
+            {
+              "id": "3",
+              "text": "The Ramones"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Lovin Spoonful"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This singer had a mammoth #1 hit in the U.S. with Love Will Lead You Back.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Taylor Dayne"
+            },
+            {
+              "id": "1",
+              "text": "Janet Jackson"
+            },
+            {
+              "id": "2",
+              "text": "Mariah Carey"
+            },
+            {
+              "id": "3",
+              "text": "Madonna"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Taylor Dayne"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Domenico Modugno wrote Nel blu dipinto di blu.  Dean Martin sings, Volare, oh oh.  E Contare, oh, oh. oh oh.  In America we know this breezy song as  Volare .  What does Volare mean in Italian?",
+          "options": [
+            {
+              "id": "0",
+              "text": "To dance"
+            },
+            {
+              "id": "1",
+              "text": "To fly"
+            },
+            {
+              "id": "2",
+              "text": "To love"
+            },
+            {
+              "id": "3",
+              "text": "To sing"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: To fly"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "diva",
+          "stars",
+          "domenico",
+          "country",
+          "daydream"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Song and Hit",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, reggae, chemical. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lola was a big hit song for this British Invasion band in the 1970s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Byrds"
+            },
+            {
+              "id": "1",
+              "text": "The Rolling Stones"
+            },
+            {
+              "id": "2",
+              "text": "The Animals"
+            },
+            {
+              "id": "3",
+              "text": "The Kinks"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Kinks"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Brandy (Youre a Fine Girl) was a big hit for this one hit wonder in 1972.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Looking Glass"
+            },
+            {
+              "id": "1",
+              "text": "The Reflections"
+            },
+            {
+              "id": "2",
+              "text": "First Class"
+            },
+            {
+              "id": "3",
+              "text": "Three Dog Night"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Looking Glass"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This band had a hit song in 1973 called Aubrey.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Miller Band"
+            },
+            {
+              "id": "1",
+              "text": "Pure Prairie League"
+            },
+            {
+              "id": "2",
+              "text": "Marshall Tucker Band"
+            },
+            {
+              "id": "3",
+              "text": "Bread"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bread"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of the following singers had a huge hit song in 1991 with Justify My Love?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Janet Jackson"
+            },
+            {
+              "id": "1",
+              "text": "Mariah Carey"
+            },
+            {
+              "id": "2",
+              "text": "Cyndi Lauper"
+            },
+            {
+              "id": "3",
+              "text": "Madonna"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Madonna"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What song by punk group Valencia opens with the following lines:",
+          "options": [
+            {
+              "id": "0",
+              "text": "What Are You Doing, Man? Thats Weird!"
+            },
+            {
+              "id": "1",
+              "text": "Away We Go"
+            },
+            {
+              "id": "2",
+              "text": "Capital H"
+            },
+            {
+              "id": "3",
+              "text": "Three Thousand Miles"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: What Are You Doing, Man? Thats Weird!"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jungle Boogie was a hit song for this popular RB band in the early 1970s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kool  the Gang"
+            },
+            {
+              "id": "1",
+              "text": "Earth, Wind  Fire"
+            },
+            {
+              "id": "2",
+              "text": "T-Rex"
+            },
+            {
+              "id": "3",
+              "text": "Mott the Hoople"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kool  the Gang"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Im Your Boogie Man was a big hit song for this group in 1977.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Chi-Lites"
+            },
+            {
+              "id": "1",
+              "text": "KC and the Sunshine Band"
+            },
+            {
+              "id": "2",
+              "text": "Mott the Hoople"
+            },
+            {
+              "id": "3",
+              "text": "Earth, Wind  Fire"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: KC and the Sunshine Band"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bernadette was a big hit single in 1967 for this RB group.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Temptations"
+            },
+            {
+              "id": "1",
+              "text": "The Four Tops"
+            },
+            {
+              "id": "2",
+              "text": "The OJays"
+            },
+            {
+              "id": "3",
+              "text": "The Spinners"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Four Tops"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Boogie Wonderland was just a colossal hit for this  band in the 1970s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kool and the Gang"
+            },
+            {
+              "id": "1",
+              "text": "The Delfonics"
+            },
+            {
+              "id": "2",
+              "text": "Earth, Wind  Fire"
+            },
+            {
+              "id": "3",
+              "text": "The Main Ingredient"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Earth, Wind  Fire"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This singer had a huge hit in the 90s with Id Do Anything for Love (But I Wont Do That).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Bolton"
+            },
+            {
+              "id": "1",
+              "text": "Meat Loaf"
+            },
+            {
+              "id": "2",
+              "text": "Peter Cetera"
+            },
+            {
+              "id": "3",
+              "text": "Bryan Adams"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Meat Loaf"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Boogie on Reggae Woman was a hit song for this ultra talented performer in 1975.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny Taylor"
+            },
+            {
+              "id": "1",
+              "text": "Philip Bailey"
+            },
+            {
+              "id": "2",
+              "text": "Jeffrey Osborne"
+            },
+            {
+              "id": "3",
+              "text": "Stevie Wonder"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Stevie Wonder"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The group Toto had a big hit in 1982 with this girl song",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gloria"
+            },
+            {
+              "id": "1",
+              "text": "Rosanna"
+            },
+            {
+              "id": "2",
+              "text": "Joanna"
+            },
+            {
+              "id": "3",
+              "text": "Donna"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rosanna"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What song by My Chemical Romance are these lyrics from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "d I think Ill blow my brains against the ceiling"
+            },
+            {
+              "id": "1",
+              "text": "d as the fragments of my skull begin to fall"
+            },
+            {
+              "id": "2",
+              "text": "Headfirst For Halos"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            },
+            {
+              "id": "4",
+              "text": "Helena"
+            },
+            {
+              "id": "5",
+              "text": "Headfirst For Holes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Headfirst For Halos"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What group recorded the song Boogie Shoes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kool  the Gang"
+            },
+            {
+              "id": "1",
+              "text": "The Sylvers"
+            },
+            {
+              "id": "2",
+              "text": "Earth, Wind  Fire"
+            },
+            {
+              "id": "3",
+              "text": "KC and the Sunshine Band"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: KC and the Sunshine Band"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete these lyrics from the song I Caught Fire (In Your Eyes), recorded by The Used:",
+          "options": [
+            {
+              "id": "0",
+              "text": "waiting to be brave"
+            },
+            {
+              "id": "1",
+              "text": "waiting to cave In"
+            },
+            {
+              "id": "2",
+              "text": "running from your mom"
+            },
+            {
+              "id": "3",
+              "text": "waiting to blow chunks"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: waiting to cave In"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "reggae",
+          "chemical",
+          "punk",
+          "brandy",
+          "id"
+        ]
+      }
+    }
+  ]
+}
