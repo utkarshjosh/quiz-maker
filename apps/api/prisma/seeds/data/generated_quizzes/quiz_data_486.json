@@ -1,0 +1,2300 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Nature Quiz: Giraffes and Giraffe",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, brain, stingray. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two thirds of a sharks brain is dedicated to its sense of smell.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The zebra shark is very small and gentle and can be kept close to other fish.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Giraffes were once thought to be a cross between a camel and a leopard.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many pounds of leaves can a giraffe consume daily?",
+          "options": [
+            {
+              "id": "0",
+              "text": "60 pounds"
+            },
+            {
+              "id": "1",
+              "text": "100 pounds"
+            },
+            {
+              "id": "2",
+              "text": "140 pounds"
+            },
+            {
+              "id": "3",
+              "text": "210 pounds"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 140 pounds"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these sharks has a flat body like a stingray?",
+          "options": [
+            {
+              "id": "0",
+              "text": "basking shark"
+            },
+            {
+              "id": "1",
+              "text": "blue shark"
+            },
+            {
+              "id": "2",
+              "text": "blacktip reef shark"
+            },
+            {
+              "id": "3",
+              "text": "angel shark"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: angel shark"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "About how many years have beagles been around?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2,000"
+            },
+            {
+              "id": "1",
+              "text": "5,000"
+            },
+            {
+              "id": "2",
+              "text": "4,000"
+            },
+            {
+              "id": "3",
+              "text": "3,000"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 2,000"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a subspecies of giraffe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Somali Giraffe"
+            },
+            {
+              "id": "1",
+              "text": "Rothschilds Giraffe"
+            },
+            {
+              "id": "2",
+              "text": "Kordofan Giraffe"
+            },
+            {
+              "id": "3",
+              "text": "East African Giraffe"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: East African Giraffe"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This shark was believed to be extinct, until it was found on the coast of Japan in 1898.",
+          "options": [
+            {
+              "id": "0",
+              "text": "cookie cutter shark"
+            },
+            {
+              "id": "1",
+              "text": "mako shark"
+            },
+            {
+              "id": "2",
+              "text": "goblin shark"
+            },
+            {
+              "id": "3",
+              "text": "angel shark"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: goblin shark"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which shark is the fastest swimmer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "goblin shark"
+            },
+            {
+              "id": "1",
+              "text": "mako shark"
+            },
+            {
+              "id": "2",
+              "text": "nurse shark"
+            },
+            {
+              "id": "3",
+              "text": "sandtiger shark"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: mako shark"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The beagle was developed mainly for tracking what animal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "squirrels"
+            },
+            {
+              "id": "1",
+              "text": "rabbits"
+            },
+            {
+              "id": "2",
+              "text": "raccoons"
+            },
+            {
+              "id": "3",
+              "text": "coyotes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: rabbits"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What group of dogs does the beagle belong to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "retrievers"
+            },
+            {
+              "id": "1",
+              "text": "setters"
+            },
+            {
+              "id": "2",
+              "text": "hound"
+            },
+            {
+              "id": "3",
+              "text": "terriers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: hound"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Giraffes need less sleep than nearly every other animal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the common name for baby sharks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "calves"
+            },
+            {
+              "id": "1",
+              "text": "pecks"
+            },
+            {
+              "id": "2",
+              "text": "cubs"
+            },
+            {
+              "id": "3",
+              "text": "pups"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: pups"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many recognized giraffe subspecies exist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "9"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 9"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long is a giraffes gestation period?",
+          "options": [
+            {
+              "id": "0",
+              "text": "18 - 20 months"
+            },
+            {
+              "id": "1",
+              "text": "10 months"
+            },
+            {
+              "id": "2",
+              "text": "14- 15 months"
+            },
+            {
+              "id": "3",
+              "text": "9 months"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 14- 15 months"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "brain",
+          "stingray",
+          "period",
+          "zebra",
+          "sharks"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Goldfish and Beagle",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, weight, cartoon. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A goldfish can reach a weight of almost 10 lbs (4.5 kg)",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Goldfish can die from overeating.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Beagles are sometimes used for termite detection in Australia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long can a goldfish live in optimal conditions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5 years"
+            },
+            {
+              "id": "1",
+              "text": "8 years"
+            },
+            {
+              "id": "2",
+              "text": "10 years"
+            },
+            {
+              "id": "3",
+              "text": "20 years"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 20 years"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of coat do beagles have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "long"
+            },
+            {
+              "id": "1",
+              "text": "short"
+            },
+            {
+              "id": "2",
+              "text": "medium"
+            },
+            {
+              "id": "3",
+              "text": "depends on the dog"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: medium"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country was the goldfish first domesticated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Egypt"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "Japan"
+            },
+            {
+              "id": "3",
+              "text": "India"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following cartoon dogs was a beagle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Courage"
+            },
+            {
+              "id": "1",
+              "text": "Scooby Doo"
+            },
+            {
+              "id": "2",
+              "text": "Snoopy"
+            },
+            {
+              "id": "3",
+              "text": "Clifford"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Snoopy"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color goldfish were most prized by the Chinese royalty several centuries ago?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Silver"
+            },
+            {
+              "id": "1",
+              "text": "Yellow"
+            },
+            {
+              "id": "2",
+              "text": "Orange"
+            },
+            {
+              "id": "3",
+              "text": "Red"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yellow"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Europe goldfish were first introduced to what country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "England"
+            },
+            {
+              "id": "2",
+              "text": "Italy"
+            },
+            {
+              "id": "3",
+              "text": "Portugal"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Portugal"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are beagles easy to housebreak?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The beagle is not a good choice for a childrens pet because it is aggressive.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the typical lifespan of the beagle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20 years"
+            },
+            {
+              "id": "1",
+              "text": "15 years"
+            },
+            {
+              "id": "2",
+              "text": "7 years"
+            },
+            {
+              "id": "3",
+              "text": "12 years"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 12 years"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The world record for the oldest goldfish is 49 years.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it true that goldfish only have a 3-second memory?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The puggle is a mix between a beagle and what dog?",
+          "options": [
+            {
+              "id": "0",
+              "text": "papillion"
+            },
+            {
+              "id": "1",
+              "text": "puli"
+            },
+            {
+              "id": "2",
+              "text": "poodle"
+            },
+            {
+              "id": "3",
+              "text": "pug"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: pug"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "weight",
+          "cartoon",
+          "kg",
+          "country",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Nature Quiz: North America and Animal",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, bird, silvertip. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The coyote lives in North America and also goes by this name.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Desert Dog"
+            },
+            {
+              "id": "1",
+              "text": "Prairie Wolf"
+            },
+            {
+              "id": "2",
+              "text": "Prairie Dog"
+            },
+            {
+              "id": "3",
+              "text": "Small Wolf"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Prairie Wolf"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This creature belongs to the rodent family and is covered in sharp spines or quills.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nutria"
+            },
+            {
+              "id": "1",
+              "text": "Armadillo"
+            },
+            {
+              "id": "2",
+              "text": "Kiwi"
+            },
+            {
+              "id": "3",
+              "text": "Porcupine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Porcupine"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This bear, also known as a Silvertip bear, is native to North America.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Panda Bear"
+            },
+            {
+              "id": "1",
+              "text": "Polar Bear"
+            },
+            {
+              "id": "2",
+              "text": "Red Panda Bear"
+            },
+            {
+              "id": "3",
+              "text": "Grizzly Bear"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Grizzly Bear"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of animal is the cottonmouth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mouse"
+            },
+            {
+              "id": "1",
+              "text": "Snake"
+            },
+            {
+              "id": "2",
+              "text": "Bat"
+            },
+            {
+              "id": "3",
+              "text": "Lizard"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Snake"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color are wild goldfish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Silver"
+            },
+            {
+              "id": "1",
+              "text": "Orange"
+            },
+            {
+              "id": "2",
+              "text": "Yellow"
+            },
+            {
+              "id": "3",
+              "text": "Green"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Green"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These raptors are known for their unusually social behavior. They even hunt in groups while the majority of raptors are solitary hunters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golden Eagle"
+            },
+            {
+              "id": "1",
+              "text": "Turkey Vulture"
+            },
+            {
+              "id": "2",
+              "text": "Spotted Owl"
+            },
+            {
+              "id": "3",
+              "text": "Harris Hawk"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Harris Hawk"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This animal is the largest of the deer family and can be found in the northern parts of North America.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gazelle"
+            },
+            {
+              "id": "1",
+              "text": "Moose"
+            },
+            {
+              "id": "2",
+              "text": "White Tailed Deer"
+            },
+            {
+              "id": "3",
+              "text": "Elk"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Moose"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This mammal is known for its black fur with a white stripe and for its apparent odor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sloth"
+            },
+            {
+              "id": "1",
+              "text": "Ferret"
+            },
+            {
+              "id": "2",
+              "text": "Skunk"
+            },
+            {
+              "id": "3",
+              "text": "Weasel"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Skunk"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This North American animal is at the top of the food chain in the arctic region.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walrus"
+            },
+            {
+              "id": "1",
+              "text": "Polar Bear"
+            },
+            {
+              "id": "2",
+              "text": "Arctic Fox"
+            },
+            {
+              "id": "3",
+              "text": "Penguin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Polar Bear"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these animals cannot be found in North America?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Flamingo"
+            },
+            {
+              "id": "1",
+              "text": "Walrus"
+            },
+            {
+              "id": "2",
+              "text": "Dingo"
+            },
+            {
+              "id": "3",
+              "text": "Beaver"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dingo"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This bird is the fastest animal on the planet in its hunting method, the stoop.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bald Eagle"
+            },
+            {
+              "id": "1",
+              "text": "Red-tailed Hawk"
+            },
+            {
+              "id": "2",
+              "text": "Peregrine Falcon"
+            },
+            {
+              "id": "3",
+              "text": "Golden Eagle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Peregrine Falcon"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Barn Owl likes to sleep all day long.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many species of skunk exist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "13"
+            },
+            {
+              "id": "3",
+              "text": "11"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 11"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Red-tailed Hawks are hunted in the USA because of their frequent attacks on domestic animals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Goldfish are good parents. They nurse and protect their young until they grow up enough to defend themselves.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "bird",
+          "silvertip",
+          "food",
+          "america",
+          "stripe"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Red Fox and Skunks",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, parts, period. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these coat colors is not found in wild Red Fox populations?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golden"
+            },
+            {
+              "id": "1",
+              "text": "Spotted"
+            },
+            {
+              "id": "2",
+              "text": "Red"
+            },
+            {
+              "id": "3",
+              "text": "Black"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Black"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many young skunks can be born in one litter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1-10"
+            },
+            {
+              "id": "1",
+              "text": "1-5"
+            },
+            {
+              "id": "2",
+              "text": "1-7"
+            },
+            {
+              "id": "3",
+              "text": "1-4"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1-7"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how long is a Red Foxs gestation period?",
+          "options": [
+            {
+              "id": "0",
+              "text": "89 days"
+            },
+            {
+              "id": "1",
+              "text": "55 days"
+            },
+            {
+              "id": "2",
+              "text": "40 days"
+            },
+            {
+              "id": "3",
+              "text": "34 days"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 55 days"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fox hunting was made illegal in the U.K. in 2005.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much of an effective range do skunks odor glands have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15 feet"
+            },
+            {
+              "id": "1",
+              "text": "10 feet"
+            },
+            {
+              "id": "2",
+              "text": "8 feet"
+            },
+            {
+              "id": "3",
+              "text": "20 feet"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 15 feet"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Do foxes hibernate in winter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the top speed that the Red Fox can reach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "25 mph"
+            },
+            {
+              "id": "1",
+              "text": "35 mph"
+            },
+            {
+              "id": "2",
+              "text": "45 mph"
+            },
+            {
+              "id": "3",
+              "text": "55 mph"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 45 mph"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do skunks eat in the wild?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Insects"
+            },
+            {
+              "id": "2",
+              "text": "Meat"
+            },
+            {
+              "id": "3",
+              "text": "Fruit"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is an adult male rooster known as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rooster"
+            },
+            {
+              "id": "1",
+              "text": "Buck"
+            },
+            {
+              "id": "2",
+              "text": "Hen"
+            },
+            {
+              "id": "3",
+              "text": "Foul"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rooster"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long is the Red Foxs lifespan in the wild?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3 years"
+            },
+            {
+              "id": "1",
+              "text": "8 years"
+            },
+            {
+              "id": "2",
+              "text": "6 years"
+            },
+            {
+              "id": "3",
+              "text": "10 years"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 3 years"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many subspecies of Red Fox are found in India?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "None. Red Fox are not native to India."
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these are eaten by the Red Fox?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Insects"
+            },
+            {
+              "id": "1",
+              "text": "worms"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "eggs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sometimes skunks kill domestic animals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Can skunks be trained to make good pets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is the Red Fox a protected species in most parts of the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "parts",
+          "period",
+          "glands",
+          "lifespan",
+          "pets"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Nature Quiz: Lions and Lion",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, chicken, breed. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following characters is a chicken?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dori"
+            },
+            {
+              "id": "1",
+              "text": "Foghorn Leghorn"
+            },
+            {
+              "id": "2",
+              "text": "Daffy"
+            },
+            {
+              "id": "3",
+              "text": "Kermit"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Foghorn Leghorn"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lions are inactive about 20 hours per day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately what amount of meat does an adult male lion\u2019s diet require per day?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10 lbs. (4.5 kg)"
+            },
+            {
+              "id": "1",
+              "text": "5 lbs. (2.2 kg)"
+            },
+            {
+              "id": "2",
+              "text": "15 lbs. (6.8 kg)"
+            },
+            {
+              "id": "3",
+              "text": "25 lbs. (11 kg)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 15 lbs. (6.8 kg)"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how long is a lions gestation period?",
+          "options": [
+            {
+              "id": "0",
+              "text": "200 days"
+            },
+            {
+              "id": "1",
+              "text": "30 days"
+            },
+            {
+              "id": "2",
+              "text": "120 days"
+            },
+            {
+              "id": "3",
+              "text": "60 days"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 120 days"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the average lifespan of a lion in the wild?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6-9 years"
+            },
+            {
+              "id": "1",
+              "text": "20-24 years"
+            },
+            {
+              "id": "2",
+              "text": "10-14 years"
+            },
+            {
+              "id": "3",
+              "text": "15-20 years"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 10-14 years"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Silkie chicken is the newest known breed.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many beats per minute does a chickens heart usually beat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "100-234"
+            },
+            {
+              "id": "1",
+              "text": "147-189"
+            },
+            {
+              "id": "2",
+              "text": "280-315"
+            },
+            {
+              "id": "3",
+              "text": "95-124"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 280-315"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All domestic chickens can be traced back to which bird?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Wild Turkey"
+            },
+            {
+              "id": "1",
+              "text": "The Macaw"
+            },
+            {
+              "id": "2",
+              "text": "The Red Jungle Fowl"
+            },
+            {
+              "id": "3",
+              "text": "The Amazon Rain Forest Chicken"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Red Jungle Fowl"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following color of egg is incorrect for a chicken egg?",
+          "options": [
+            {
+              "id": "0",
+              "text": "black"
+            },
+            {
+              "id": "1",
+              "text": "white"
+            },
+            {
+              "id": "2",
+              "text": "pink"
+            },
+            {
+              "id": "3",
+              "text": "blue"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: black"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Like most mammals lions can only breed with one male ensuring that the offspring belong to just one male.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most lions only survive in Africa. But a population of the much endangered Asiatic lion lives in India. How many estimated lions live in India as of 2007?",
+          "options": [
+            {
+              "id": "0",
+              "text": "300"
+            },
+            {
+              "id": "1",
+              "text": "550"
+            },
+            {
+              "id": "2",
+              "text": "1,500"
+            },
+            {
+              "id": "3",
+              "text": "3,000"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 300"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The lion is the largest member of the cat species.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a breed of chicken?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australorp"
+            },
+            {
+              "id": "1",
+              "text": "Cubalaya"
+            },
+            {
+              "id": "2",
+              "text": "Houdan"
+            },
+            {
+              "id": "3",
+              "text": "Chinese Crested"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chinese Crested"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the average maximal speed a lion can reach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "35 mph / 56 km/h"
+            },
+            {
+              "id": "1",
+              "text": "45 mph / 72 km/h"
+            },
+            {
+              "id": "2",
+              "text": "20 mph / 32 km/h"
+            },
+            {
+              "id": "3",
+              "text": "40 mph / 64 km/h"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 35 mph / 56 km/h"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the word used for someone that is afraid of chickens?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xenophobic"
+            },
+            {
+              "id": "1",
+              "text": "Chickopobic"
+            },
+            {
+              "id": "2",
+              "text": "Alektorphobic"
+            },
+            {
+              "id": "3",
+              "text": "Avianphobic"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Alektorphobic"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "chicken",
+          "breed",
+          "bird",
+          "lions",
+          "period"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Nature Quiz: Penguins and Species",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, mean, bears. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The larger the penguin species, the colder the region in which it is found.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All penguins are found exclusively in the Southern Hemisphere.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A polar bear has white fur.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many species of penguins live in warm or even tropical environments?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Do white lions exsist in the wild?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where can the polar bear be found?",
+          "options": [
+            {
+              "id": "0",
+              "text": "South Pole"
+            },
+            {
+              "id": "1",
+              "text": "Antartica"
+            },
+            {
+              "id": "2",
+              "text": "Arctic"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Arctic"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Polar bears are among penguins\u2019 most dangerous natural enemies.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the word penguin mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fat"
+            },
+            {
+              "id": "1",
+              "text": "Black and White"
+            },
+            {
+              "id": "2",
+              "text": "Swimmer"
+            },
+            {
+              "id": "3",
+              "text": "Bird"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fat"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Large penguins can dive nearly 2,000 feet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color is a polar bears skin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Black"
+            },
+            {
+              "id": "1",
+              "text": "White"
+            },
+            {
+              "id": "2",
+              "text": "Pink"
+            },
+            {
+              "id": "3",
+              "text": "Yellow"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Black"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Penguins secrete salt from their nostrils.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fossil records have shown a species of giant penguin that once stood 4 feet high.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how many wild polar bears are estimated to live across the Arctic?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20,000"
+            },
+            {
+              "id": "1",
+              "text": "100,000"
+            },
+            {
+              "id": "2",
+              "text": "150,000"
+            },
+            {
+              "id": "3",
+              "text": "60,000"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 20,000"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the largest species of penguins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "King Penguin"
+            },
+            {
+              "id": "1",
+              "text": "Giant Penguin"
+            },
+            {
+              "id": "2",
+              "text": "Emperor Penguin"
+            },
+            {
+              "id": "3",
+              "text": "Royal Penguin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Emperor Penguin"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these animals is NOT a natural predator of penguins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leopard Seal"
+            },
+            {
+              "id": "1",
+              "text": "Polar Bear"
+            },
+            {
+              "id": "2",
+              "text": "Stellars Sea Eagle"
+            },
+            {
+              "id": "3",
+              "text": "Orca (Killer Whale)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Polar Bear"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "mean",
+          "bears",
+          "lions",
+          "warm",
+          "predator"
+        ]
+      }
+    }
+  ]
+}

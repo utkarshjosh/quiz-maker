@@ -1,0 +1,2356 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: Bible and Jesus",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, mary, revelation. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "David, the famous ancient King of Israel, was the oldest child in the family.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Many of King Solomons wise sayings are recorded in Book 10 of Proverbs.  Which of these is NOT found there?",
+          "options": [
+            {
+              "id": "0",
+              "text": "When you see trouble coming, dont be stupid and walk right into it--be smart and hide."
+            },
+            {
+              "id": "1",
+              "text": "Good people are remembered long after they are gone, but the wicked are soon forgotten."
+            },
+            {
+              "id": "2",
+              "text": "Children with good sense make their parents happy, but foolish children make them sad."
+            },
+            {
+              "id": "3",
+              "text": "You will say the wrong thing if you talk too much--so be sensible and watch what you say."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: When you see trouble coming, dont be stupid and walk right into it--be smart and hide."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the following quote from Matthew 5:3: Blessed are the poor in spirit, for ________",
+          "options": [
+            {
+              "id": "0",
+              "text": "they shall be comforted."
+            },
+            {
+              "id": "1",
+              "text": "shall be called children of God."
+            },
+            {
+              "id": "2",
+              "text": "they shall see Heaven."
+            },
+            {
+              "id": "3",
+              "text": "theirs is the Kindgom of Heaven."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: theirs is the Kindgom of Heaven."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these animals did the Israelites worship while Moses was on the mountain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "bull"
+            },
+            {
+              "id": "1",
+              "text": "calf"
+            },
+            {
+              "id": "2",
+              "text": "duck"
+            },
+            {
+              "id": "3",
+              "text": "ram"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: calf"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote most of the books in the New Testament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David"
+            },
+            {
+              "id": "1",
+              "text": "John"
+            },
+            {
+              "id": "2",
+              "text": "Peter"
+            },
+            {
+              "id": "3",
+              "text": "Paul"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Paul"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote the first five books of the Bible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Adam"
+            },
+            {
+              "id": "1",
+              "text": "Joseph"
+            },
+            {
+              "id": "2",
+              "text": "Moses"
+            },
+            {
+              "id": "3",
+              "text": "Abraham"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Moses"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mary was visited by this angel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uriel"
+            },
+            {
+              "id": "1",
+              "text": "Raphael"
+            },
+            {
+              "id": "2",
+              "text": "Gabriel"
+            },
+            {
+              "id": "3",
+              "text": "Michael"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gabriel"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jesus was fond of using parables to give his messages.  Which of these was NOT one he used?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Parable of the Mustard Seed"
+            },
+            {
+              "id": "1",
+              "text": "The Parable of the Old Men and the Young"
+            },
+            {
+              "id": "2",
+              "text": "The Parable of the Prodigal Son"
+            },
+            {
+              "id": "3",
+              "text": "The Parable of the Ten Servants"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Parable of the Old Men and the Young"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Bible, how many wives and concubines did Solomon have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2000"
+            },
+            {
+              "id": "1",
+              "text": "500"
+            },
+            {
+              "id": "2",
+              "text": "1000"
+            },
+            {
+              "id": "3",
+              "text": "100"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1000"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the New Testament, who obtained permission to take Jesus Christs body down from the cross and place it in the tomb?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joseph of Arimathea"
+            },
+            {
+              "id": "1",
+              "text": "Joseph of Antioch"
+            },
+            {
+              "id": "2",
+              "text": "Mary Magdalene"
+            },
+            {
+              "id": "3",
+              "text": "Apostle Peter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Joseph of Arimathea"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the accepted theory, how old was Jesus when He was crucified?",
+          "options": [
+            {
+              "id": "0",
+              "text": "33"
+            },
+            {
+              "id": "1",
+              "text": "27"
+            },
+            {
+              "id": "2",
+              "text": "40"
+            },
+            {
+              "id": "3",
+              "text": "30"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 33"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the Horsemen of the Apocalypse is the first to be called out?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Black Horse (Famine)"
+            },
+            {
+              "id": "1",
+              "text": "Red Horse (War)"
+            },
+            {
+              "id": "2",
+              "text": "White Horse (Conquest )"
+            },
+            {
+              "id": "3",
+              "text": "Pale/Green Horse (Death)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: White Horse (Conquest )"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is stated in the Bible that God told Moses to build the Temple in Jerusalem.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote the Book of Revelation while in exile?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paul"
+            },
+            {
+              "id": "1",
+              "text": "Peter"
+            },
+            {
+              "id": "2",
+              "text": "James"
+            },
+            {
+              "id": "3",
+              "text": "John"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: John"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How old was Jesus when He performed His first miracle (Biblical, not Apocriphal)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "40"
+            },
+            {
+              "id": "1",
+              "text": "33"
+            },
+            {
+              "id": "2",
+              "text": "27"
+            },
+            {
+              "id": "3",
+              "text": "30"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 30"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "mary",
+          "revelation",
+          "theory",
+          "books",
+          "sayings"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Knowledge Quiz: Bible and Method",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, people, profession. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Apostle Paul was a kind, friendly and peace-loving man who always helped Christians even before his conversion to Christianity.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This method of divination uses a set of 24 alphabet letters that are usually carved on small tiles, so that the person could extract one of all 24 and to interpret its meaning. They were also carved and drawn building walls for protection.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Runes"
+            },
+            {
+              "id": "1",
+              "text": "Tarot"
+            },
+            {
+              "id": "2",
+              "text": "Palm reading"
+            },
+            {
+              "id": "3",
+              "text": "Shell scrying"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Runes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the angel that God sent to tell Mary she was to conceive Jesus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abraham"
+            },
+            {
+              "id": "1",
+              "text": "Gabriel"
+            },
+            {
+              "id": "2",
+              "text": "Michael"
+            },
+            {
+              "id": "3",
+              "text": "Peter"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gabriel"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Jesus earthly father according to the Bible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Solomon"
+            },
+            {
+              "id": "1",
+              "text": "Joseph"
+            },
+            {
+              "id": "2",
+              "text": "no one"
+            },
+            {
+              "id": "3",
+              "text": "David"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Joseph"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Can a deacon get married?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to Matthew and Luke, in what city was Jesus born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerusalem"
+            },
+            {
+              "id": "1",
+              "text": "Bethlehem"
+            },
+            {
+              "id": "2",
+              "text": "Babylon"
+            },
+            {
+              "id": "3",
+              "text": "Nazareth"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bethlehem"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Seven people went on the ark with Noah according to the Bible, Genesis, chapters 6 to 9.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a deck of 78 cards with pictures and inscriptions on them. They are divided into several suits and the person extracts cards that the reader interprets.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tarot"
+            },
+            {
+              "id": "1",
+              "text": "Cartopedy"
+            },
+            {
+              "id": "2",
+              "text": "Belote"
+            },
+            {
+              "id": "3",
+              "text": "Cledonism"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tarot"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Gods son according to the Bible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John"
+            },
+            {
+              "id": "1",
+              "text": "Peter"
+            },
+            {
+              "id": "2",
+              "text": "Solomon"
+            },
+            {
+              "id": "3",
+              "text": "Jesus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jesus"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not generally considered one of the seven deadly sins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "obfuscation"
+            },
+            {
+              "id": "1",
+              "text": "hatred"
+            },
+            {
+              "id": "2",
+              "text": "lust"
+            },
+            {
+              "id": "3",
+              "text": "envy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: obfuscation"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the profession of Luke the Apostle according to the New Testament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tax collector"
+            },
+            {
+              "id": "1",
+              "text": "Carpenter"
+            },
+            {
+              "id": "2",
+              "text": "Physician"
+            },
+            {
+              "id": "3",
+              "text": "Boat builder"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Physician"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who committed the first murder in the Bible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cain"
+            },
+            {
+              "id": "1",
+              "text": "Solomon"
+            },
+            {
+              "id": "2",
+              "text": "Adam"
+            },
+            {
+              "id": "3",
+              "text": "Abel"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cain"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This method of divination uses air and water. The person covers their head with a cloth, fill a vase with water and expose it to the air.  They whisper a wish over the vase. If bubbles show on the water surface, this is considered a positive sign and the wish will probably come true.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Water scrying"
+            },
+            {
+              "id": "1",
+              "text": "Critomancy"
+            },
+            {
+              "id": "2",
+              "text": "Dowsing"
+            },
+            {
+              "id": "3",
+              "text": "Eromancy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eromancy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This method includes hexagrams which consist of six lines either solid or broken. Solid lines are considered strong and active, and broken lines stand for weak and acquiescent. These lines define the meaning of the hexagrams. Each hexagram has a different meaning. You determine your own hexagram by tossing 3 coins 3 times.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tarot"
+            },
+            {
+              "id": "1",
+              "text": "I Ching"
+            },
+            {
+              "id": "2",
+              "text": "Aura information"
+            },
+            {
+              "id": "3",
+              "text": "Astrology"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: I Ching"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You drink the coffee and turn the cup upside down.  The reader predicts the future, deciphering various patterns formed inside the cup.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hakata"
+            },
+            {
+              "id": "1",
+              "text": "Scrying"
+            },
+            {
+              "id": "2",
+              "text": "I Ching"
+            },
+            {
+              "id": "3",
+              "text": "Tasseomancy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tasseomancy"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "people",
+          "profession",
+          "kind",
+          "ark",
+          "coffee"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "History Quiz: Exorcism and Future",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, birds, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Exorcism is related to ASC. What does ASC stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Affecting Spirit of Cataclysm"
+            },
+            {
+              "id": "1",
+              "text": "Affected Soul by Craziness"
+            },
+            {
+              "id": "2",
+              "text": "Affected Soul by Cabala"
+            },
+            {
+              "id": "3",
+              "text": "Altered State Of Consciousness"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Altered State Of Consciousness"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ancient Babylonian priests were one of the first exorcists. They meant to destroy the evil spirit, possessing the victim, by performing this ritual.",
+          "options": [
+            {
+              "id": "0",
+              "text": "They killed the possessed person by stabbing them with a sacrificial knife."
+            },
+            {
+              "id": "1",
+              "text": "They destroyed a wax or clay image of a demon."
+            },
+            {
+              "id": "2",
+              "text": "They drew mighty symbols on the forehead of the victim."
+            },
+            {
+              "id": "3",
+              "text": "They drilled a hole in the skull of the possessed."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They destroyed a wax or clay image of a demon."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This method uses birds to predict the future. The divinator scatters grains and then he carefully observes the way the birds peck at the grain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Austromancy"
+            },
+            {
+              "id": "1",
+              "text": "Captopromancy"
+            },
+            {
+              "id": "2",
+              "text": "Botanomancy"
+            },
+            {
+              "id": "3",
+              "text": "Alectryomancy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alectryomancy"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jesus Christ is considered to be an exorcist. One of the legends tells of Jesus casting out multiple demons from a madman. The spirits then entered the bodies of some animals. What kind of animals were they?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vultures"
+            },
+            {
+              "id": "1",
+              "text": "Pigs"
+            },
+            {
+              "id": "2",
+              "text": "Crows"
+            },
+            {
+              "id": "3",
+              "text": "Cows"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pigs"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Judaism the evil spirit that possesses the soul of its victim is called dybbuk. It is exorcised through this part of the body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mouth"
+            },
+            {
+              "id": "1",
+              "text": "Chest"
+            },
+            {
+              "id": "2",
+              "text": "Small toe"
+            },
+            {
+              "id": "3",
+              "text": "Left Arm"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Small toe"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During Christian exorcism, the victim is to hold a crucifix and the exorcist is encouraged to use holy water and relics. These  two other objects should also be present.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Skull and Bones"
+            },
+            {
+              "id": "1",
+              "text": "Salt and Wine"
+            },
+            {
+              "id": "2",
+              "text": "Feather and Ink-pot"
+            },
+            {
+              "id": "3",
+              "text": "Sword and Shield"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Salt and Wine"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The exorcist must feel as free of sin as possible. Why?",
+          "options": [
+            {
+              "id": "0",
+              "text": "So the exorcist does not die"
+            },
+            {
+              "id": "1",
+              "text": "So the exorcist can easily absorb the demons"
+            },
+            {
+              "id": "2",
+              "text": "So demons cannot easily possess the exorcist"
+            },
+            {
+              "id": "3",
+              "text": "So the possessed victim does not die"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: So demons cannot easily possess the exorcist"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This way of divination uses onion sprouts. First a ritual is held in order to state what the divination is about. Then the onion sprouts are put on an altar. It is thought that onion sprouts can tell you about friends and relatives who are far away, give love advice and answer yes or no questions about the future.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cromniomancy"
+            },
+            {
+              "id": "1",
+              "text": "Crystallomancy"
+            },
+            {
+              "id": "2",
+              "text": "Chirognomy"
+            },
+            {
+              "id": "3",
+              "text": "Cyclomancy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cromniomancy"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This method uses books for predicting ones future. The person should take a book, open to a random page and read a passage. Then he should interpret it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Geomancy"
+            },
+            {
+              "id": "1",
+              "text": "Bibliomancy"
+            },
+            {
+              "id": "2",
+              "text": "Hydromancy"
+            },
+            {
+              "id": "3",
+              "text": "Chiromancy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bibliomancy"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the careful screening of your palm, its shapes and lines in order to guess some events from the past and see events in the future.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Palmistry"
+            },
+            {
+              "id": "1",
+              "text": "Cledonism"
+            },
+            {
+              "id": "2",
+              "text": "Tasseomancy"
+            },
+            {
+              "id": "3",
+              "text": "Cartopedy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Palmistry"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jesus Christ gave the power to exorcise demons to his disciples.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In ancient times people thought that illnesses were caused by demons, possessing the soul of a person. So they cured those illnesses with exorcism. Exorcism is derived from the Greek word  exorkizein. What does this word mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "To kill the soul"
+            },
+            {
+              "id": "1",
+              "text": "To kill the ghost"
+            },
+            {
+              "id": "2",
+              "text": "To expel the demon"
+            },
+            {
+              "id": "3",
+              "text": "To bind by oath"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: To bind by oath"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Exorcism is not popular among religions nowadays.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although all exorcisms proceed differently, some stages are common. There are five common stages - The Presence, Break-point, The Voice, The Clash and this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Expatriation"
+            },
+            {
+              "id": "1",
+              "text": "Expulsion"
+            },
+            {
+              "id": "2",
+              "text": "Deportation"
+            },
+            {
+              "id": "3",
+              "text": "Redemption"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Expulsion"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This method uses climate conditions to predict the future. It was considered that climate is the attitude of gods towards men, and that each atmospheric event had its own meaning.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cephalomancy"
+            },
+            {
+              "id": "1",
+              "text": "Aeromancy"
+            },
+            {
+              "id": "2",
+              "text": "Graphology"
+            },
+            {
+              "id": "3",
+              "text": "Bibliomancy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Aeromancy"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "birds",
+          "people",
+          "priests",
+          "nowadays",
+          "soul"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Knowledge Quiz: Bible and God",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, witchcraft, line. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Every new witch receives a special craft name, which they only disclose to coven members and keep a secret from everyone else.  Why?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It would bring ill fate upon the person"
+            },
+            {
+              "id": "1",
+              "text": "It would take away the magical powers of the coven"
+            },
+            {
+              "id": "2",
+              "text": "It would kill the person who knows the secret name"
+            },
+            {
+              "id": "3",
+              "text": "Knowing the craft name gives magical powers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Knowing the craft name gives magical powers"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bible texts, Jesus earthly father Joseph was sheep herder.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bible, Gods laws were given to Moses on Mount Rushmore.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is when the spell casting powers are at their fullest.  It is the hour of midnight on a full moon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Midnight Hour"
+            },
+            {
+              "id": "1",
+              "text": "The Power Hour"
+            },
+            {
+              "id": "2",
+              "text": "The Witching Hour"
+            },
+            {
+              "id": "3",
+              "text": "The Moon Hour"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Witching Hour"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Bible texts, \u201cAm I my brother\u2019s keeper?\u201d was a question asked by Cain to God.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Ten Commandments can be found in the book of Exodus, New Testament.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is one of the most widely used religious symbols. It is generally used for protection. Even though it is often associated with witchcraft, it was also used in Christianity, symbolizing the five wounds of Christ.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hazel"
+            },
+            {
+              "id": "1",
+              "text": "Sword"
+            },
+            {
+              "id": "2",
+              "text": "Pentagram"
+            },
+            {
+              "id": "3",
+              "text": "Chalice"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pentagram"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Genesis, we can read that Joseph was sold into slavery by his brothers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Adam was the first human made by God according to the Bible texts.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This line from the Bible is from an address by God to Noah: \u201cAnd the bow shall be in the cloud and I will look upon it that I may remember the everlasting covenant between God and every living creature of all flesh that is upon the earth.\u201d",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The magic wand is a must have accessory of every witch, if she wants to work wonders. What is the wand is made of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Glass"
+            },
+            {
+              "id": "1",
+              "text": "Metal"
+            },
+            {
+              "id": "2",
+              "text": "Chestnut"
+            },
+            {
+              "id": "3",
+              "text": "Hazel"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hazel"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Incense is often used in witchcraft.  What is the meaning of jasmine scented incense?",
+          "options": [
+            {
+              "id": "0",
+              "text": "To ease hurt caused by love"
+            },
+            {
+              "id": "1",
+              "text": "Luck in love"
+            },
+            {
+              "id": "2",
+              "text": "True love"
+            },
+            {
+              "id": "3",
+              "text": "Intense desire"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Luck in love"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bible, Judas Iscariot was paid 30 pieces of gold to betray Jesus.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Moses talked to God on the mountain and received the Ten Commandments in 40 days.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Moses broke the tablets on which the Ten Commandments were written when he slipped on the rocky mountainside.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "witchcraft",
+          "line",
+          "jesus",
+          "commandments",
+          "incense"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "History Quiz: Death and Couple",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, mary, prayer. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A schism in the Christian church culminated in two bishops excommunicating each other in 1054, resulting in what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the division between Catholicism and Orthodoxy"
+            },
+            {
+              "id": "1",
+              "text": "the Protestant Reformation"
+            },
+            {
+              "id": "2",
+              "text": "the ecumenical movement"
+            },
+            {
+              "id": "3",
+              "text": "the Crusades"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the division between Catholicism and Orthodoxy"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the Catholic term for a person who, after death, goes to heaven?",
+          "options": [
+            {
+              "id": "0",
+              "text": "saint"
+            },
+            {
+              "id": "1",
+              "text": "cherub"
+            },
+            {
+              "id": "2",
+              "text": "seraph"
+            },
+            {
+              "id": "3",
+              "text": "angel"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: saint"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the Catholic church teach about Mary, Jesus mother?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was a virgin when Jesus was born, but not necessarily after."
+            },
+            {
+              "id": "1",
+              "text": "Joseph divorced her quietly after Jesus was born."
+            },
+            {
+              "id": "2",
+              "text": "She was a virgin when Jesus was conceived, but not necessarily after."
+            },
+            {
+              "id": "3",
+              "text": "She was a virgin until her death."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: She was a virgin until her death."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Every Catholic can receive any of the seven sacraments, but no one can receive all seven.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This ancient pagan ritual was practiced in Scotland until the end of the 19th century. It allows a couple to make a commitment to each other within their own spiritual path. This commitment lasts for one year and a day. After that the couple can go their own way or renew their bond.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Handfasting"
+            },
+            {
+              "id": "1",
+              "text": "Faerie"
+            },
+            {
+              "id": "2",
+              "text": "Anam cara"
+            },
+            {
+              "id": "3",
+              "text": "A prayer of passage"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Handfasting"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When you collect flowers or herbs for magical purposes you should have in mind the hour at which you gather them. What are the magical hours?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3, 6, 9 and 12"
+            },
+            {
+              "id": "1",
+              "text": "4, 6, 8 and 11"
+            },
+            {
+              "id": "2",
+              "text": "1, 7, 9 and 11"
+            },
+            {
+              "id": "3",
+              "text": "1, 4, 5 and 10"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 3, 6, 9 and 12"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is this spell used for?  Dear Father, tsar fire, be gentle and kind to me.  Burn away all my aches  pains, tears  worries.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Love"
+            },
+            {
+              "id": "1",
+              "text": "Happiness"
+            },
+            {
+              "id": "2",
+              "text": "Wealth"
+            },
+            {
+              "id": "3",
+              "text": "Faith"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Happiness"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are ten holy days of obligation, days other than Sunday on which all the worlds Catholics are required to attend mass.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the church council that revised the prayers used in the Catholic mass and authorized masses to be said in the language of the local people?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nicea"
+            },
+            {
+              "id": "1",
+              "text": "Vatican II"
+            },
+            {
+              "id": "2",
+              "text": "Vatican I"
+            },
+            {
+              "id": "3",
+              "text": "Trent"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vatican II"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An ancient tradition was to distinguish witches by their color. There were white, red, green, etc. witches. The tradition doesnt exist any more but the meaning of the colors is still applied in various practices. What is the color for these magical uses: divination, spirituality, protection, psychic powers, healing, truth, peace?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green"
+            },
+            {
+              "id": "1",
+              "text": "Pink"
+            },
+            {
+              "id": "2",
+              "text": "White"
+            },
+            {
+              "id": "3",
+              "text": "Yellow"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: White"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Hail Mary is a biblical prayer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the Catholic term describing a place of purification after bodily death, but before the soul enters heaven?",
+          "options": [
+            {
+              "id": "0",
+              "text": "apocalypse"
+            },
+            {
+              "id": "1",
+              "text": "limbo"
+            },
+            {
+              "id": "2",
+              "text": "purgatory"
+            },
+            {
+              "id": "3",
+              "text": "apocrypha"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: purgatory"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This part of the Catholic mass, in which the priest asks God to change the bread and wine into Jesus body and blood, is called what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "invocation"
+            },
+            {
+              "id": "1",
+              "text": "consecration"
+            },
+            {
+              "id": "2",
+              "text": "offertory"
+            },
+            {
+              "id": "3",
+              "text": "communion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: consecration"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bibles description of the creation of the world, on what day of the week were the sun, moon, and stars formed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Second"
+            },
+            {
+              "id": "1",
+              "text": "Third"
+            },
+            {
+              "id": "2",
+              "text": "Fifth"
+            },
+            {
+              "id": "3",
+              "text": "Fourth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fourth"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is  the magical power of this herb: In the event of some kind of troublesome misfortune, gather the root with care during the descent of the lions cub and hang it around your neck.  It will drive away cares and cause a merry heart. - Syrenius (1540 - 1611).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wormwood"
+            },
+            {
+              "id": "1",
+              "text": "Barberry"
+            },
+            {
+              "id": "2",
+              "text": "Betony"
+            },
+            {
+              "id": "3",
+              "text": "Angelica"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Angelica"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "mary",
+          "prayer",
+          "hail",
+          "priest",
+          "death"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Bible and Egypt",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, beliefs, egypt. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bibles interpretation of Moses life, who ran along the bank to make sure that Moses was alright in his basket after he was set adrift on the Nile river?",
+          "options": [
+            {
+              "id": "0",
+              "text": "His brother"
+            },
+            {
+              "id": "1",
+              "text": "His mother"
+            },
+            {
+              "id": "2",
+              "text": "His sister"
+            },
+            {
+              "id": "3",
+              "text": "His father"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: His sister"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to Exodus, what was the ninth plague that God inflicted on Egypt in order to convince Pharaoh to let the Israelite slaves leave?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Death of First Born Child"
+            },
+            {
+              "id": "1",
+              "text": "Lice"
+            },
+            {
+              "id": "2",
+              "text": "Darkness"
+            },
+            {
+              "id": "3",
+              "text": "Frogs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Darkness"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bible, Ruth was the great grandmother of David.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote Epistle to the Romans, included in the New Testament canon of the Christian Bible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peter"
+            },
+            {
+              "id": "1",
+              "text": "Paul"
+            },
+            {
+              "id": "2",
+              "text": "Mark"
+            },
+            {
+              "id": "3",
+              "text": "Luke"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Paul"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did Moses have to flee out of Egypt and settle on the Sinai Peninsula according to the Bible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He killed an Egyptian"
+            },
+            {
+              "id": "1",
+              "text": "He was banned for disrespectable behaviour towards the Pharaoh."
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "He killed the Pharaoh"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He killed an Egyptian"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Mosess brother according to the Bible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Clive"
+            },
+            {
+              "id": "1",
+              "text": "Aaron"
+            },
+            {
+              "id": "2",
+              "text": "Peter"
+            },
+            {
+              "id": "3",
+              "text": "John"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Aaron"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the biblical texts, whom do these words belong to: Thou shalt have no other gods before me!?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moses"
+            },
+            {
+              "id": "1",
+              "text": "Aaron"
+            },
+            {
+              "id": "2",
+              "text": "Miriam"
+            },
+            {
+              "id": "3",
+              "text": "God"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: God"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bible, did the Pharaoh\u2019s wife find little Moses who was drifting along the Nile in a basket.",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the name Moses mean according to the Biblical texts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Found"
+            },
+            {
+              "id": "1",
+              "text": "Child of the river"
+            },
+            {
+              "id": "2",
+              "text": "Conceived by a Hebrew"
+            },
+            {
+              "id": "3",
+              "text": "Drawn out"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Drawn out"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first of the 10 commandments that also contains a promise was Honor thy Father and Mother.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What scripture of the King James Bible is most noted for the story of the birth of Jesus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luke, Chapter 1"
+            },
+            {
+              "id": "1",
+              "text": "Luke, Chapter 3"
+            },
+            {
+              "id": "2",
+              "text": "Luke, Chapter 2"
+            },
+            {
+              "id": "3",
+              "text": "Matthew, Chapter 2"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Luke, Chapter 2"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Bible, Sarah and Abraham have a common relative by blood.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who begged for the body of Jesus to give it a proper burial?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joseph of Arimathaea"
+            },
+            {
+              "id": "1",
+              "text": "Peter"
+            },
+            {
+              "id": "2",
+              "text": "Mark"
+            },
+            {
+              "id": "3",
+              "text": "Matthew"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Joseph of Arimathaea"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Ruths mother-in-law according to biblical texts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mara"
+            },
+            {
+              "id": "1",
+              "text": "Naomi"
+            },
+            {
+              "id": "2",
+              "text": "Orpah"
+            },
+            {
+              "id": "3",
+              "text": "Boaz"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Naomi"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to Christian beliefs, what was the nature of the first sin man ever committed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Greed"
+            },
+            {
+              "id": "1",
+              "text": "Murder"
+            },
+            {
+              "id": "2",
+              "text": "Disobedience"
+            },
+            {
+              "id": "3",
+              "text": "Blasphemy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Disobedience"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "beliefs",
+          "egypt",
+          "sinai",
+          "pharaoh",
+          "commandments"
+        ]
+      }
+    }
+  ]
+}

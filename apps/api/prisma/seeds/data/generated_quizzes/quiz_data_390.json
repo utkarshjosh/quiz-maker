@@ -1,0 +1,2412 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Knowledge Quiz: Character and Words",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, john, spies. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This character, known for roaming the depths of the sea in his submarine, the Nautilus, dies saying God and my country!",
+          "options": [
+            {
+              "id": "0",
+              "text": "Captain Nemo"
+            },
+            {
+              "id": "1",
+              "text": "Captain Hook"
+            },
+            {
+              "id": "2",
+              "text": "Captain Ahab"
+            },
+            {
+              "id": "3",
+              "text": "Captain Aardvark"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Captain Nemo"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This spy for the Soviet Union worked as a journalist in both Germany and Japan during WWII.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kim Philby"
+            },
+            {
+              "id": "1",
+              "text": "Richard Sorge"
+            },
+            {
+              "id": "2",
+              "text": "Guy Burgess"
+            },
+            {
+              "id": "3",
+              "text": "Donald Duart Maclean"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Sorge"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bella Boyd was a confederate spy in the American Civil War.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Im cold were the last words uttered by this Catch-22 character after he was mortally injured by antiaircraft fire.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snowden"
+            },
+            {
+              "id": "1",
+              "text": "Yossarian"
+            },
+            {
+              "id": "2",
+              "text": "Major Major"
+            },
+            {
+              "id": "3",
+              "text": "Milo Minderbinder"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Snowden"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Andre was a French officer hanged as a spy during the American Revolutionary War.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These were the last words spoken by Oscar Wildes character Dorian Grey, before the servants found his body, stabbed in the heart and suddenly aged.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Me. . .Ethan. . .All of the unclaimed. . .Dont let it happen again."
+            },
+            {
+              "id": "1",
+              "text": "Thanks. Youve been my friend, Garraty... another time, another place."
+            },
+            {
+              "id": "2",
+              "text": "Very well. I shall be here at eleven. Good night, Harry."
+            },
+            {
+              "id": "3",
+              "text": "Fix my hair, Jack."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Very well. I shall be here at eleven. Good night, Harry."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The horror! The horror! were the last words of this character from Joseph Conrads novel Heart of Darkness.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charles Marlow"
+            },
+            {
+              "id": "1",
+              "text": "Fresleven"
+            },
+            {
+              "id": "2",
+              "text": "Helmsman"
+            },
+            {
+              "id": "3",
+              "text": "Mr. Kurz"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Kurz"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This character from the Harry Potter series said Come on, you can do better than that! after Bellatrix Lestrange fired a curse at him and missed.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cedric Diggory"
+            },
+            {
+              "id": "1",
+              "text": "Sirius Black"
+            },
+            {
+              "id": "2",
+              "text": "Albus Dumbledore"
+            },
+            {
+              "id": "3",
+              "text": "Severus Snape"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sirius Black"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A horse, a horse, my kingdom for a horse! shouts this Shakespearean character before being killed by Richmond in the final duel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "King Lear"
+            },
+            {
+              "id": "1",
+              "text": "Henry V"
+            },
+            {
+              "id": "2",
+              "text": "Richard III"
+            },
+            {
+              "id": "3",
+              "text": "Henry VI"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Richard III"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This captain during the American Revolutionary War is widely considered to be America\u2019s first spy. Before being hanged he said \u201cI only regret that I have but one life to lose for my country\u201d.",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Nathan Hale"
+            },
+            {
+              "id": "2",
+              "text": "John Andre"
+            },
+            {
+              "id": "3",
+              "text": "William Hull"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nathan Hale"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bad form, said this character and fell into the jaws of a crocodile after being kicked by the boy who wouldnt grow up.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Captain Ahab"
+            },
+            {
+              "id": "1",
+              "text": "Popeye"
+            },
+            {
+              "id": "2",
+              "text": "Captain Nemo"
+            },
+            {
+              "id": "3",
+              "text": "Captain Hook"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Captain Hook"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what Ernest Hemingway novel does nurse Catherine Barkley say Dont worry, darling. Im not a bit afraid. Its just a dirty trick before dying during childbirth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Old Man and the Sea"
+            },
+            {
+              "id": "1",
+              "text": "The Sun Also Rises"
+            },
+            {
+              "id": "2",
+              "text": "A Farewell to Arms"
+            },
+            {
+              "id": "3",
+              "text": "For Whom the Bell Tolls"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A Farewell to Arms"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Cambridge Five was a ring of Soviet spies based in the UK.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This character, depicted by Mario Puzo in a famous crime novel, dies of a heart attack while playing with his grandson. His last words are Life is so beautiful.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vito Corleone"
+            },
+            {
+              "id": "1",
+              "text": "Peter Clemenza"
+            },
+            {
+              "id": "2",
+              "text": "Michael Corleone"
+            },
+            {
+              "id": "3",
+              "text": "Tommy DeVito"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vito Corleone"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This young, mysterious millionaire, later revealed to be a bootlegger, said, Well, good-by before being shot by George Wilson.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Yossarian"
+            },
+            {
+              "id": "1",
+              "text": "Jay Gatsby"
+            },
+            {
+              "id": "2",
+              "text": "Jordan Baker"
+            },
+            {
+              "id": "3",
+              "text": "Nick Carraway"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jay Gatsby"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "john",
+          "spies",
+          "wildes",
+          "jaws",
+          "barkley"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Title and Norman Birdwell",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, title, rangers. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What big red dog, created in 1963 by Norman Birdwell, is owned by Emily Elizabeth Howard?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Clifford"
+            },
+            {
+              "id": "1",
+              "text": "Abraham"
+            },
+            {
+              "id": "2",
+              "text": "Duke"
+            },
+            {
+              "id": "3",
+              "text": "Hastings"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Clifford"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the Teenage Mutant Ninja Turtles wears a red mask and red cloth around his knees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Donatello"
+            },
+            {
+              "id": "1",
+              "text": "Raphael"
+            },
+            {
+              "id": "2",
+              "text": "Leonardo"
+            },
+            {
+              "id": "3",
+              "text": "Michaelangelo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Raphael"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the title of this 1983 song by Prince:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Impala"
+            },
+            {
+              "id": "1",
+              "text": "Malibu"
+            },
+            {
+              "id": "2",
+              "text": "Corvette"
+            },
+            {
+              "id": "3",
+              "text": "Camaro"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Corvette"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these countries does NOT touch the Red Sea?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Egypt"
+            },
+            {
+              "id": "1",
+              "text": "Sudan"
+            },
+            {
+              "id": "2",
+              "text": "Saudi Arabia"
+            },
+            {
+              "id": "3",
+              "text": "Iraq"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Iraq"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What little girl had to face The Red Room in the second chapter of a famous novel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elizabeth Bennet"
+            },
+            {
+              "id": "1",
+              "text": "Jane Eyre"
+            },
+            {
+              "id": "2",
+              "text": "Elinor Dashwood"
+            },
+            {
+              "id": "3",
+              "text": "Matilda Wormwood"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jane Eyre"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why were red MMs banned from 1976 to 1986?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was randomly chosen because Mars Inc. needed to reduce production of one color due to a market decline."
+            },
+            {
+              "id": "1",
+              "text": "They were voted to be taken out."
+            },
+            {
+              "id": "2",
+              "text": "They didnt go well with the color scheme of a new brand."
+            },
+            {
+              "id": "3",
+              "text": "The amaranth dye was thought to be a carcinogen."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The amaranth dye was thought to be a carcinogen."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are both the solid red ball and the striped red ball in pool on odd numbers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is NOT true about these movies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In the 2002 Tamil film Red, Red stands for Revolution, Education, Development."
+            },
+            {
+              "id": "1",
+              "text": "In the 2010 film RED, starring Bruce Willis, Morgan Freeman and Helen Mirren, RED stands for Retired, Extremely Dangerous."
+            },
+            {
+              "id": "2",
+              "text": "In the 1984 movie Reds, directed and produced by Warren Beatty, the Reds are members of the American Communist Party."
+            },
+            {
+              "id": "3",
+              "text": "In the 2008 film Red, starring Brian Cox, Red is the nickname of the main characters wife."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: In the 2008 film Red, starring Brian Cox, Red is the nickname of the main characters wife."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many red coins did Mario have to collect in Super Mario 64 in order to gain a star?",
+          "options": [
+            {
+              "id": "0",
+              "text": "100"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "50"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 8"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of the 4 original male power rangers was the Red Ranger?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billy Cranston"
+            },
+            {
+              "id": "1",
+              "text": "Zach Taylor"
+            },
+            {
+              "id": "2",
+              "text": "Jason Lee Scott"
+            },
+            {
+              "id": "3",
+              "text": "Tommy Oliver"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jason Lee Scott"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the original Pac-Man ghosts is red?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blinky"
+            },
+            {
+              "id": "1",
+              "text": "Pinky"
+            },
+            {
+              "id": "2",
+              "text": "Clyde"
+            },
+            {
+              "id": "3",
+              "text": "Inky"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blinky"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Second Red Scare, which dealt with negative communistic influence in the U.S., was spurred by  former Wisconsin senator Joseph McCarthy after which war?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Gulf War"
+            },
+            {
+              "id": "1",
+              "text": "WWII"
+            },
+            {
+              "id": "2",
+              "text": "The Vietnam War"
+            },
+            {
+              "id": "3",
+              "text": "WWI"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: WWII"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these pigments is dominantly found in red hair?",
+          "options": [
+            {
+              "id": "0",
+              "text": "melanin"
+            },
+            {
+              "id": "1",
+              "text": "neuromelanin"
+            },
+            {
+              "id": "2",
+              "text": "pheomelanin"
+            },
+            {
+              "id": "3",
+              "text": "eumelanin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: pheomelanin"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which colour of the rainbow comes immediately after red?",
+          "options": [
+            {
+              "id": "0",
+              "text": "green"
+            },
+            {
+              "id": "1",
+              "text": "yellow"
+            },
+            {
+              "id": "2",
+              "text": "blue"
+            },
+            {
+              "id": "3",
+              "text": "orange"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: orange"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Do the red candy in the original Skilttles and the original Starburst in the red wrapper have the same flavor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "title",
+          "rangers",
+          "chapter",
+          "prince",
+          "coins"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Atlantis and Novel",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, fiction, descendants. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "New Atlantis is a novel by Sir Francis Bacon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The possible existence of Atlantis was never discussed throughout classical antiquity.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who thought that Atlantis was a naval power lying in front of the Pillars of Hercules and that it sank into the ocean in a single day and night of misfortune.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aristotle"
+            },
+            {
+              "id": "1",
+              "text": "Plato"
+            },
+            {
+              "id": "2",
+              "text": "Homer"
+            },
+            {
+              "id": "3",
+              "text": "Pythagoras"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Plato"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following movies makes references to Atlantis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Indiana Jones and the Fate of Atlantis (1992)"
+            },
+            {
+              "id": "1",
+              "text": "10,000 BC (2008)"
+            },
+            {
+              "id": "2",
+              "text": "Journey to the Center of the Earth (1959)"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the planets in the solar system has a storm on it that scientists have dubbed the Big Red Spot?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jupiter"
+            },
+            {
+              "id": "1",
+              "text": "Neptune"
+            },
+            {
+              "id": "2",
+              "text": "Uranus"
+            },
+            {
+              "id": "3",
+              "text": "Saturn"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jupiter"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jules Verne wrote the science fiction novel The Maracot Deep which describes the discovery of the sunken remains of Atlantis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In his work The Chronology of the Ancient Kingdoms Amended this scholar studied a variety of mythological links to Atlantis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Isaak Newton"
+            },
+            {
+              "id": "1",
+              "text": "Marie Curie"
+            },
+            {
+              "id": "2",
+              "text": "Albert Einstein"
+            },
+            {
+              "id": "3",
+              "text": "Socrates"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Isaak Newton"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Reichsf\u00fchrer-SS Heinrich Himmler organized a German expedition to Tibet to search for Aryan Atlanteans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In hospitals, what does a code red usually signify?",
+          "options": [
+            {
+              "id": "0",
+              "text": "earthquake"
+            },
+            {
+              "id": "1",
+              "text": "bomb"
+            },
+            {
+              "id": "2",
+              "text": "mass infection"
+            },
+            {
+              "id": "3",
+              "text": "fire"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: fire"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Greek philosopher mentioned Atlantis for the first time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Aristotle"
+            },
+            {
+              "id": "2",
+              "text": "Plato"
+            },
+            {
+              "id": "3",
+              "text": "Socrates"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Plato"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Cincinnati Reds were once called the Cincinnati Red Stockings. The Red Sox, with a name (Sox) thats a plural of sock, is from what U.S. city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boston"
+            },
+            {
+              "id": "1",
+              "text": "Atlanta"
+            },
+            {
+              "id": "2",
+              "text": "New York"
+            },
+            {
+              "id": "3",
+              "text": "Cleveland"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Boston"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are the Washington Redskins, an NFL team, closer to Washington state than they are to Washington D.C.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does hemoglobin make red blood cells red?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Swedish scholar published the book Atland in several volumes, starting in 1679?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bernhard Helander"
+            },
+            {
+              "id": "1",
+              "text": "Olaus Rudbeck"
+            },
+            {
+              "id": "2",
+              "text": "Ronald Stade"
+            },
+            {
+              "id": "3",
+              "text": "Anders Retzius"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Olaus Rudbeck"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Theosophists consider themselves spiritual and even genetic descendants of the inhabitants of the lost Atlantis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "fiction",
+          "descendants",
+          "scholar",
+          "state",
+          "bacon"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Movie and Dalmatians",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, cruella, evans. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie High School Musical, Taylor is portrayed by Raven Symone.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Sharpays twin brother in the movie High School Musical?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ryan"
+            },
+            {
+              "id": "1",
+              "text": "Brandon"
+            },
+            {
+              "id": "2",
+              "text": "Jerry"
+            },
+            {
+              "id": "3",
+              "text": "Tyler"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ryan"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is the Evans dog in High School Musical played by the movie directors dog?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie One Hundred and One Dalmatians, what does Cruella do to convince the Dearlys that shes innocent of the kidnapping?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Drives around Regents Park looking for them"
+            },
+            {
+              "id": "1",
+              "text": "Calls them to console with them"
+            },
+            {
+              "id": "2",
+              "text": "Writes them a letter expressing her sorrow for them"
+            },
+            {
+              "id": "3",
+              "text": "Comes over to their house to console them for their loss"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Calls them to console with them"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the animated film One Hundred and One Dalmatians, what distracts the Baduns long enough to allow Sergeant Tibbs to flee with the puppies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A television show called Whats My Crime"
+            },
+            {
+              "id": "1",
+              "text": "A video game called Whats My Crime"
+            },
+            {
+              "id": "2",
+              "text": "A board game called Whats My Crime"
+            },
+            {
+              "id": "3",
+              "text": "A radio chat segment called Whats My Crime"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A television show called Whats My Crime"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie One Hundred and One Dalmatians, who goes into Hell Hall in order to rescue the puppies before Pongo and Perdita arrive there?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colonel"
+            },
+            {
+              "id": "1",
+              "text": "Lieutenant Pussywillow"
+            },
+            {
+              "id": "2",
+              "text": "Sergeant Tibbs"
+            },
+            {
+              "id": "3",
+              "text": "Captain"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sergeant Tibbs"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the first High School Musical movie, is the final basketball game interrupted?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the main antagonist/villainess in the animated feature One Hundred and One Dalmatians?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Estella"
+            },
+            {
+              "id": "1",
+              "text": "Drizella"
+            },
+            {
+              "id": "2",
+              "text": "Anastasia"
+            },
+            {
+              "id": "3",
+              "text": "Cruella"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cruella"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Dalmatian puppies were stolen by Cruella, Jasper and Horace in the movie One Hundred and One Dalmatians?",
+          "options": [
+            {
+              "id": "0",
+              "text": "99"
+            },
+            {
+              "id": "1",
+              "text": "101"
+            },
+            {
+              "id": "2",
+              "text": "15"
+            },
+            {
+              "id": "3",
+              "text": "97"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 15"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what month were Pongo and Perditas 15 puppies born in the animated film One Hundred and One Dalmatians?",
+          "options": [
+            {
+              "id": "0",
+              "text": "April"
+            },
+            {
+              "id": "1",
+              "text": "January"
+            },
+            {
+              "id": "2",
+              "text": "October"
+            },
+            {
+              "id": "3",
+              "text": "July"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: October"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A character in the movie High School Musical is named Sharpay. Is there a dog breed with the same name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In High School Musical, Troys father is the coach of the East High football team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these was the only trick that succeeded in completely eluding Jasper, Horace, and Cruella in the movie One Hundred and One Dalmatians?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sergeant Tibbs escape through the hole in the wall"
+            },
+            {
+              "id": "1",
+              "text": "Pongo disguising the Dalmatians as Labradors"
+            },
+            {
+              "id": "2",
+              "text": "Pongo erasing the pawprints from the road"
+            },
+            {
+              "id": "3",
+              "text": "The puppies hiding under the bridge"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The puppies hiding under the bridge"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country does the movie One Hundred and One Dalmatians take place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The United States of America"
+            },
+            {
+              "id": "1",
+              "text": "Great Britain"
+            },
+            {
+              "id": "2",
+              "text": "France"
+            },
+            {
+              "id": "3",
+              "text": "Australia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Great Britain"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie One Hundred and One Dalmatians, what is the occupation of Pongos owner Roger Radcliffe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "writer"
+            },
+            {
+              "id": "1",
+              "text": "actor"
+            },
+            {
+              "id": "2",
+              "text": "painter"
+            },
+            {
+              "id": "3",
+              "text": "songwriter"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: songwriter"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "cruella",
+          "evans",
+          "country",
+          "coach",
+          "dearlys"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Words and Man",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, holbrooke, producers. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This man gave us Tom Thumb and Jumbo the Elephant . His last words were: How were the receipts at Madison Square Garden?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marcus Dupree"
+            },
+            {
+              "id": "1",
+              "text": "P.T. Barnum"
+            },
+            {
+              "id": "2",
+              "text": "Flo Ziegfield"
+            },
+            {
+              "id": "3",
+              "text": "Oscar Hammerstein II"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: P.T. Barnum"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where do Troy and Gabriela first meet in the movie High School Musical?",
+          "options": [
+            {
+              "id": "0",
+              "text": "at a ski lodge"
+            },
+            {
+              "id": "1",
+              "text": "during a basketball game"
+            },
+            {
+              "id": "2",
+              "text": "at the airport"
+            },
+            {
+              "id": "3",
+              "text": "at the library"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: at a ski lodge"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although he was never President, this man had a great influence on American history. His last words were A dying man can do nothing easy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Harrison"
+            },
+            {
+              "id": "1",
+              "text": "Ben Franklin"
+            },
+            {
+              "id": "2",
+              "text": "Franklin Pierce"
+            },
+            {
+              "id": "3",
+              "text": "Zachary Taylor"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ben Franklin"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What were the last words of Richard Holbrooke, a top level US diplomat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "We must bomb Cuba out of existence."
+            },
+            {
+              "id": "1",
+              "text": "We must get our troops out of San Marino."
+            },
+            {
+              "id": "2",
+              "text": "We should back the Bolivians in the Falklands War."
+            },
+            {
+              "id": "3",
+              "text": "Weve got to stop this war in Afghanistan."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Weve got to stop this war in Afghanistan."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What film studio cancelled Elizabeth Taylors contract after its production chief stated that She cant sing, she cant dance, she cant perform.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Metro-Goldwyn-Mayer"
+            },
+            {
+              "id": "1",
+              "text": "Universal"
+            },
+            {
+              "id": "2",
+              "text": "20th Century Fox"
+            },
+            {
+              "id": "3",
+              "text": "Warner Bros."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Universal"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "While he was driving his car down a California highway, this star said : This guys got to stop...hell see us.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Olsen"
+            },
+            {
+              "id": "1",
+              "text": "Jimmy Stewart"
+            },
+            {
+              "id": "2",
+              "text": "James Mason"
+            },
+            {
+              "id": "3",
+              "text": "James Dean"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James Dean"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What statement regarding Elizabeth Taylors marriages is NOT correct?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was married eight times to seven husbands."
+            },
+            {
+              "id": "1",
+              "text": "All her marriages ended in divorce."
+            },
+            {
+              "id": "2",
+              "text": "She had four children with three different husbands."
+            },
+            {
+              "id": "3",
+              "text": "She married twice one and the same person."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All her marriages ended in divorce."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which great minds last words were: I have offended God and mankind because my work did not reach the quality it should.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Landon"
+            },
+            {
+              "id": "1",
+              "text": "Leonardo Da Vinci"
+            },
+            {
+              "id": "2",
+              "text": "Dan Quayle"
+            },
+            {
+              "id": "3",
+              "text": "Dan Blocker"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Leonardo Da Vinci"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elizabeth Rosemond Taylor was born in 1932 in a wealthy district of this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York City"
+            },
+            {
+              "id": "1",
+              "text": "Paris"
+            },
+            {
+              "id": "2",
+              "text": "Boston"
+            },
+            {
+              "id": "3",
+              "text": "London"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: London"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is very beautiful over there. were the last words of this famous American. I hope a light bulb goes on and your phonograph is off when you get the  answer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Alva Edison"
+            },
+            {
+              "id": "1",
+              "text": "Tony Trabert"
+            },
+            {
+              "id": "2",
+              "text": "Thaddeus Martin"
+            },
+            {
+              "id": "3",
+              "text": "John Baresford Tipton"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Alva Edison"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was one of the great show producers in America. His last words were: Curtain! Fast music! Light! Ready for the last finale! Great! The show looks  good, the show looks good!",
+          "options": [
+            {
+              "id": "0",
+              "text": "Damon Runyon"
+            },
+            {
+              "id": "1",
+              "text": "Flo Ziegfeld"
+            },
+            {
+              "id": "2",
+              "text": "Jackie Gleason"
+            },
+            {
+              "id": "3",
+              "text": "Noble Sisley"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Flo Ziegfeld"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Her last radio message was KHAQQ calling Itasca. We must be on you. Gas is running low.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wilona Post"
+            },
+            {
+              "id": "1",
+              "text": "Margaret Mitchell"
+            },
+            {
+              "id": "2",
+              "text": "Amelia Earhart"
+            },
+            {
+              "id": "3",
+              "text": "Leonia Carroll"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Amelia Earhart"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Id hate to die twice. It is so boring. were the last words of this great scientist, famous for finding the cause of the Challenger tragedy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom Ricketts"
+            },
+            {
+              "id": "1",
+              "text": "Dale Evans"
+            },
+            {
+              "id": "2",
+              "text": "John Baresford  Tipton"
+            },
+            {
+              "id": "3",
+              "text": "Richard Feynman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Feynman"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1950 comedy movie starring Elizabeth Taylor, Spencer Tracy and Joan Bennett was remade in 1991?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Place in the Sun"
+            },
+            {
+              "id": "1",
+              "text": "Whos Afraid of Virginia Woolf?"
+            },
+            {
+              "id": "2",
+              "text": "Father of the Bride"
+            },
+            {
+              "id": "3",
+              "text": "The Taming of the Shrew"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Father of the Bride"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "His nine symphonies are still studied and played today. His last words were Friends applaud, the comedy is finished.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mozart"
+            },
+            {
+              "id": "1",
+              "text": "Giotto"
+            },
+            {
+              "id": "2",
+              "text": "Hayden"
+            },
+            {
+              "id": "3",
+              "text": "Beethoven"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Beethoven"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "holbrooke",
+          "producers",
+          "message",
+          "thumb",
+          "america"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Words and Elizabeth Taylor",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, leader, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elizabeth Taylor played the passionate, sexually-frustrated Maggie in the movie Cat On A Hot Tin Roof. Who wrote the Pulitzer Prize-wining play on which the movie is based?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eugene ONeill"
+            },
+            {
+              "id": "1",
+              "text": "Sam Shepard"
+            },
+            {
+              "id": "2",
+              "text": "Tennessee Williams"
+            },
+            {
+              "id": "3",
+              "text": "Arthur Miller"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tennessee Williams"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What famous pearl did Richard Burton purchase in 1969 as a Valentines Day present for his then-wife Elizabeth Taylor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Pearl of Allah"
+            },
+            {
+              "id": "1",
+              "text": "La Peregrina"
+            },
+            {
+              "id": "2",
+              "text": "The Huerfana"
+            },
+            {
+              "id": "3",
+              "text": "The Margarita Pearl"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: La Peregrina"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1960 movie stars Elizabeth Taylor as a fashion model and party girl who lives a wild and promiscuous life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "BUtterfield 8"
+            },
+            {
+              "id": "1",
+              "text": "The V.I.P.s"
+            },
+            {
+              "id": "2",
+              "text": "Whos Afraid of Virginia Woolf?"
+            },
+            {
+              "id": "3",
+              "text": "Suddenly, Last Summer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: BUtterfield 8"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are no other worlds to conquer were the last words of this great leader as he finished his conquests from Macedonia through what is now  Pakistan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hannibal"
+            },
+            {
+              "id": "1",
+              "text": "Napoleon Bonaparte"
+            },
+            {
+              "id": "2",
+              "text": "Charles DeGaulle"
+            },
+            {
+              "id": "3",
+              "text": "Alexander the Great"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alexander the Great"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Get my swan costume ready were the last words, not of Natalie Portman but of this great dancer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marcella Thompkins"
+            },
+            {
+              "id": "1",
+              "text": "Karin Alneski"
+            },
+            {
+              "id": "2",
+              "text": "Lillian Gish"
+            },
+            {
+              "id": "3",
+              "text": "Anna Pavlova"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Anna Pavlova"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was one of Americas greatest dramatists. His daughter, Oona, married Charlie Chaplin. His last words were: I knew it! I knew it! Born in a hotel room and damn it, died in a hotel room.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tennessee Williams"
+            },
+            {
+              "id": "1",
+              "text": "Clifford Odets"
+            },
+            {
+              "id": "2",
+              "text": "William Saroyan"
+            },
+            {
+              "id": "3",
+              "text": "Eugene ONeil"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eugene ONeil"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lets cool it brothers were his last words, not those of Denzel Washington.",
+          "options": [
+            {
+              "id": "0",
+              "text": "H.Rap Brown"
+            },
+            {
+              "id": "1",
+              "text": "Malcolm X"
+            },
+            {
+              "id": "2",
+              "text": "James Brown"
+            },
+            {
+              "id": "3",
+              "text": "Joe Tex"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Malcolm X"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When a priest asked him to denounce the Devil, the last words of this leader of the French Enlightenment were: This is no time to make new enemies.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Voltaire"
+            },
+            {
+              "id": "1",
+              "text": "Charles DeGaulle"
+            },
+            {
+              "id": "2",
+              "text": "Moliere"
+            },
+            {
+              "id": "3",
+              "text": "Francois Villon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Voltaire"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was an American writer who was born in Fresno, California. He wrote the song Come on to My House with his cousin Ross Bagdarian of Chipmunk fame. He also wrote Golden Boy and The Time of  Your Life. His last words were Everybodys got to die, but I have always believed an exception would be made in my case. Now what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Saroyan"
+            },
+            {
+              "id": "1",
+              "text": "Clifford Odets"
+            },
+            {
+              "id": "2",
+              "text": "James Garfield"
+            },
+            {
+              "id": "3",
+              "text": "Russ Trian"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: William Saroyan"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Relax, this wont hurt. were the last words of this inventor of Gonzo journalism.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hunter Thompson"
+            },
+            {
+              "id": "1",
+              "text": "Ben Bradley"
+            },
+            {
+              "id": "2",
+              "text": "James Fenimore Cooper"
+            },
+            {
+              "id": "3",
+              "text": "William Randolph Hearst"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hunter Thompson"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elizabeth Taylor gained 30 pounds (13.5kg) for the role of the frumpy, hard-drinking Martha and her performance earned her an Academy Award for Best Actress. Name the movie in which Marthas husband was portrayed by Taylors then-husband Richard Burton.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Whos Afraid of Virginia Woolf?"
+            },
+            {
+              "id": "1",
+              "text": "The Taming of the Shrew"
+            },
+            {
+              "id": "2",
+              "text": "Cat on a Hot Tin Roof"
+            },
+            {
+              "id": "3",
+              "text": "Butterfield 8"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Whos Afraid of Virginia Woolf?"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elizabeth Taylor was awarded a record-setting contract of $1 million for playing the leading female role in this movie which nearly bankrupted 20th Century Fox?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Place in the Sun"
+            },
+            {
+              "id": "1",
+              "text": "The Last Time I Saw Paris"
+            },
+            {
+              "id": "2",
+              "text": "Cleopatra"
+            },
+            {
+              "id": "3",
+              "text": "Doctor Faustus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cleopatra"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is NOT a perfume launched by Elizabeth Taylor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "White Diamonds"
+            },
+            {
+              "id": "1",
+              "text": "Midnight Poison"
+            },
+            {
+              "id": "2",
+              "text": "Passion"
+            },
+            {
+              "id": "3",
+              "text": "Black Pearls"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Midnight Poison"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kill me now or you are a murderer. were the last words of this great writer from Prague.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Franz Lehar"
+            },
+            {
+              "id": "1",
+              "text": "Heinrich Heine"
+            },
+            {
+              "id": "2",
+              "text": "Hermann Hesse"
+            },
+            {
+              "id": "3",
+              "text": "Franz Kafka"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Franz Kafka"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This philosophers last words were not his Manifesto but Go on get out. Last words are for fools who havent said enough. Who was this writing partner of Engels?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Karl Marx"
+            },
+            {
+              "id": "1",
+              "text": "Walter de la Mare"
+            },
+            {
+              "id": "2",
+              "text": "Vladimir Kosinski"
+            },
+            {
+              "id": "3",
+              "text": "Ivan Pushkin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Karl Marx"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "leader",
+          "stars",
+          "priest",
+          "swan",
+          "manifesto"
+        ]
+      }
+    }
+  ]
+}

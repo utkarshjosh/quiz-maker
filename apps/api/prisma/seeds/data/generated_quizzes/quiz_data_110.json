@@ -1,0 +1,2388 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Sugar and Science",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, nowadays, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the inventor of Tupperware?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Earl Tupper"
+            },
+            {
+              "id": "1",
+              "text": "John Smith"
+            },
+            {
+              "id": "2",
+              "text": "David Silas"
+            },
+            {
+              "id": "3",
+              "text": "Janis Tupperware"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Earl Tupper"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Overconsumption of sugar causes hyperactivity in children, manifested by increased movement, impulsiveness, distractibility, and mood swings.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress played the role of a transgender man in the movie Boys Dont Cry?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helen Hunt"
+            },
+            {
+              "id": "1",
+              "text": "Hilary Swank"
+            },
+            {
+              "id": "2",
+              "text": "Hally Berry"
+            },
+            {
+              "id": "3",
+              "text": "Heather Graham"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hilary Swank"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Making sugar by evaporating cane juice was developed in about 500 BC, in what country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "China"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "Egypt"
+            },
+            {
+              "id": "3",
+              "text": "Greece"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: India"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Brown sugar, a type of unrefined or partially refined soft sugar, generally has a lower caloric value than white sugar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens to a goldfish when it is kept in the dark?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It turns white."
+            },
+            {
+              "id": "1",
+              "text": "It goes blind."
+            },
+            {
+              "id": "2",
+              "text": "It dies."
+            },
+            {
+              "id": "3",
+              "text": "It turns a paler color."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It turns a paler color."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nowadays, sugar is used in science and manufacturing as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Preservative"
+            },
+            {
+              "id": "1",
+              "text": "Bulking agent"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Sweetener"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the largest country by area in Africa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sudan"
+            },
+            {
+              "id": "1",
+              "text": "South Africa"
+            },
+            {
+              "id": "2",
+              "text": "Algeria"
+            },
+            {
+              "id": "3",
+              "text": "Egypt"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sudan"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sugar, a naturally occurring nutrient that makes food taste sweet, is classified in chemistry as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nucleic acid"
+            },
+            {
+              "id": "1",
+              "text": "Protein"
+            },
+            {
+              "id": "2",
+              "text": "Lipid"
+            },
+            {
+              "id": "3",
+              "text": "Carbohydrate"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Carbohydrate"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Apart from its culinary properties, sugar has many uses in science and manufacturing. It is used for all of the following, except one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "To tan leather, printer inks and dyes."
+            },
+            {
+              "id": "1",
+              "text": "To harden asphalt."
+            },
+            {
+              "id": "2",
+              "text": "To increase ice creams freezing point"
+            },
+            {
+              "id": "3",
+              "text": "To help grow penicillin."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: To increase ice creams freezing point"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sugar is important for the proper function of which of these bodily systems?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cardiovascular system"
+            },
+            {
+              "id": "1",
+              "text": "Endocrine system"
+            },
+            {
+              "id": "2",
+              "text": "Nervous system"
+            },
+            {
+              "id": "3",
+              "text": "Digestive system"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nervous system"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following materials is the densest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gold"
+            },
+            {
+              "id": "1",
+              "text": "Aluminum"
+            },
+            {
+              "id": "2",
+              "text": "Platinum"
+            },
+            {
+              "id": "3",
+              "text": "Iridium"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Iridium"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lactose is a type of sugar consisting of two subunits (galactose and glucose), found primarily in what food?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Milk"
+            },
+            {
+              "id": "1",
+              "text": "Fruits"
+            },
+            {
+              "id": "2",
+              "text": "Vegetables"
+            },
+            {
+              "id": "3",
+              "text": "Honey"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Milk"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Scientists have proved that one of the health dangers, which ingesting sugar on a habitual basis involves, is the suppression of the activity of which system of the human body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sensory system"
+            },
+            {
+              "id": "1",
+              "text": "Immune system"
+            },
+            {
+              "id": "2",
+              "text": "Reproductive system"
+            },
+            {
+              "id": "3",
+              "text": "Cardiovascular system"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Immune system"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Blue litmus paper turns red when it comes in contact with alkalines.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "nowadays",
+          "country",
+          "uses",
+          "food",
+          "function"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Nature Quiz: Title and Water",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, title, martin. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is no water found on any other planet besides Earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city did the Indianapolis Colts move from in 1984?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boston"
+            },
+            {
+              "id": "1",
+              "text": "New England"
+            },
+            {
+              "id": "2",
+              "text": "Baltimore"
+            },
+            {
+              "id": "3",
+              "text": "Los Angeles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Baltimore"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Martin Lewis Perl, Riccardo Giacconi, and Georges Charpak all received the Nobel Prize in ....?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Physics"
+            },
+            {
+              "id": "1",
+              "text": "Literature"
+            },
+            {
+              "id": "2",
+              "text": "Chemistry"
+            },
+            {
+              "id": "3",
+              "text": "Medicine"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Physics"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a tort?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A kind of pie"
+            },
+            {
+              "id": "1",
+              "text": "A type of computer"
+            },
+            {
+              "id": "2",
+              "text": "A law"
+            },
+            {
+              "id": "3",
+              "text": "A type of car"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A law"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of these gadgets belong to James Bond except one.  Can you spot it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Batarang"
+            },
+            {
+              "id": "1",
+              "text": "Cigarette lighter (a disguised timed explosive)"
+            },
+            {
+              "id": "2",
+              "text": "Polarizing Sunglasses"
+            },
+            {
+              "id": "3",
+              "text": "Phone Booth Trap"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Batarang"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Michael Ballack, Franz Beckenbauer, Oliver Kahn, and J\u00fcrgen Klinsmann all played for this team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wolfsburg"
+            },
+            {
+              "id": "1",
+              "text": "Bayern Munich"
+            },
+            {
+              "id": "2",
+              "text": "Schalke 04"
+            },
+            {
+              "id": "3",
+              "text": "Bayer Leverkusen"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bayern Munich"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The acetic acid, the acetylene and the ethene have an equal number of this atom in their molecules.",
+          "options": [
+            {
+              "id": "0",
+              "text": "C"
+            },
+            {
+              "id": "1",
+              "text": "H"
+            },
+            {
+              "id": "2",
+              "text": "Fe"
+            },
+            {
+              "id": "3",
+              "text": "O"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: C"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of these French writers were born before 1900 except one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alexandre Dumas"
+            },
+            {
+              "id": "1",
+              "text": "Simone de Beauvoir"
+            },
+            {
+              "id": "2",
+              "text": "Marcel Proust"
+            },
+            {
+              "id": "3",
+              "text": "Gustave Flaubert"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Simone de Beauvoir"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Antigua and Barbuda, Belize, and Zimbabwe are three countries which share just one of these four items.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Population less than 30,000 people"
+            },
+            {
+              "id": "1",
+              "text": "Independence gained from the UK"
+            },
+            {
+              "id": "2",
+              "text": "Currency"
+            },
+            {
+              "id": "3",
+              "text": "Border"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Independence gained from the UK"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these Al Pacino movies were released in the 1970s. Which one was not?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Godfather: Part II"
+            },
+            {
+              "id": "1",
+              "text": "The Godfather"
+            },
+            {
+              "id": "2",
+              "text": "Scarface"
+            },
+            {
+              "id": "3",
+              "text": "Serpico"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Scarface"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many US states were there in 1800?",
+          "options": [
+            {
+              "id": "0",
+              "text": "22"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "30"
+            },
+            {
+              "id": "3",
+              "text": "16"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 16"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the title of an 80s song by Duran Duran:",
+          "options": [
+            {
+              "id": "0",
+              "text": "... Thursday"
+            },
+            {
+              "id": "1",
+              "text": "... Monday"
+            },
+            {
+              "id": "2",
+              "text": "... Friday"
+            },
+            {
+              "id": "3",
+              "text": "... See ya soon!"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: ... Monday"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of the following animals are herbivorous. Which is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Guinea pig"
+            },
+            {
+              "id": "1",
+              "text": "Beaver"
+            },
+            {
+              "id": "2",
+              "text": "Capybara"
+            },
+            {
+              "id": "3",
+              "text": "Opossum"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Opossum"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2004 the United States elected their _____ President.",
+          "options": [
+            {
+              "id": "0",
+              "text": "42nd"
+            },
+            {
+              "id": "1",
+              "text": "30th"
+            },
+            {
+              "id": "2",
+              "text": "43rd"
+            },
+            {
+              "id": "3",
+              "text": "40th"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 43rd"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish the title of a 1988 movie starring Richard Dreyfuss:  Moon Over _____",
+          "options": [
+            {
+              "id": "0",
+              "text": "Middlesburg"
+            },
+            {
+              "id": "1",
+              "text": "Paraguay"
+            },
+            {
+              "id": "2",
+              "text": "Miami"
+            },
+            {
+              "id": "3",
+              "text": "Parador"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Parador"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "title",
+          "martin",
+          "al",
+          "acid",
+          "president"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Title and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, composers, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Barents Sea is named after a Norwegian god.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The official currency of Israel is the New Israeli sheqel (NIS).",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two Moon Junction is the title to a 1988 Robert  Zemeckis film.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Union of Burma changed its name in 1989 to the Union of Myanmar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the title to this Credence Clearwater Revival tune: Bad Moon ____.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Falling"
+            },
+            {
+              "id": "1",
+              "text": "Rising"
+            },
+            {
+              "id": "2",
+              "text": "Setting"
+            },
+            {
+              "id": "3",
+              "text": "in Aquarius"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rising"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following composers wrote the Moonlight Sonata  for piano?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ludwig von Beethoven"
+            },
+            {
+              "id": "1",
+              "text": "Claude DeBussey"
+            },
+            {
+              "id": "2",
+              "text": "Wolfgang Amadeus Mozart"
+            },
+            {
+              "id": "3",
+              "text": "Igor Stravinsky"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ludwig von Beethoven"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Moonriver is featured in the musical Grease, starring John Travolta.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The French Revolution broke out in 1789.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the title of a 1979 James Bond film.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moonspinners"
+            },
+            {
+              "id": "1",
+              "text": "Moonshadow"
+            },
+            {
+              "id": "2",
+              "text": "Moonraker"
+            },
+            {
+              "id": "3",
+              "text": "Moondogs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Moonraker"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Frank Zappas daughter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dweezil"
+            },
+            {
+              "id": "1",
+              "text": "Moon Beam"
+            },
+            {
+              "id": "2",
+              "text": "Elektra Moon"
+            },
+            {
+              "id": "3",
+              "text": "Moon Unit"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Moon Unit"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Frank Sinatra write the classic tune Moonlight Becomes You?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "1973 Pink Floyd album,entitled Dark Side of _____.",
+          "options": [
+            {
+              "id": "0",
+              "text": "... the Sun"
+            },
+            {
+              "id": "1",
+              "text": "... Darkness."
+            },
+            {
+              "id": "2",
+              "text": "... the Moon"
+            },
+            {
+              "id": "3",
+              "text": "... Parapsychology"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: ... the Moon"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish the title of a 1903 clasic tune:  Shine on...",
+          "options": [
+            {
+              "id": "0",
+              "text": "...Chrome Fenders"
+            },
+            {
+              "id": "1",
+              "text": "...You Crazy Diamond"
+            },
+            {
+              "id": "2",
+              "text": "...Harvest Moon"
+            },
+            {
+              "id": "3",
+              "text": "...In  The Sunshine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: ...Harvest Moon"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish the title of a song from the Hit TV Series, The Drew Carey Show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pittsburgh"
+            },
+            {
+              "id": "1",
+              "text": "Shaker Heights"
+            },
+            {
+              "id": "2",
+              "text": "Parma"
+            },
+            {
+              "id": "3",
+              "text": "Miamisburg"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Parma"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the title of a 1996 Tom DiCillo film starring John Turturro.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sun, Moon and Stars"
+            },
+            {
+              "id": "1",
+              "text": "Lunar Landings"
+            },
+            {
+              "id": "2",
+              "text": "Box of Moonbeams"
+            },
+            {
+              "id": "3",
+              "text": "Box of Moonlight"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Box of Moonlight"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "composers",
+          "title",
+          "pink",
+          "tune",
+          "barents"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "History Quiz: Bustard and Frog",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, frog, bustard. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The bustard is a frog.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This notable army officer and renowned general of the Confederate forces during the American Civil War, was the first person to graduate from the oldest military academy in the United States, West Point, with no demerits.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert E. Lee"
+            },
+            {
+              "id": "1",
+              "text": "George Patton"
+            },
+            {
+              "id": "2",
+              "text": "Omar Bradley"
+            },
+            {
+              "id": "3",
+              "text": "Dwight D. Eisenhower"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Robert E. Lee"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An average man inhales about 56,000 liters of air per day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Aurora was the ancient Roman equivalent of Eos.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these religious organisations are notorious for their suicides motivated by religious and spiritual beliefs. Mark the odd one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Order of the Solar Temple"
+            },
+            {
+              "id": "1",
+              "text": "Peoples Temple"
+            },
+            {
+              "id": "2",
+              "text": "THC Ministry"
+            },
+            {
+              "id": "3",
+              "text": "Heavens Gate"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: THC Ministry"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of this chemical compound, coined by German-Swiss chemist Christian Friedrich Sch\u00f6nbein in 1840, comes from the Greek word for smell.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Silicone"
+            },
+            {
+              "id": "1",
+              "text": "Ozone"
+            },
+            {
+              "id": "2",
+              "text": "Osmium"
+            },
+            {
+              "id": "3",
+              "text": "Aroclor"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ozone"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The husband of Catherine the Great was Peter I.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Europe and Latin America, a league is a measurement unit of what physical quantity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Volume"
+            },
+            {
+              "id": "1",
+              "text": "Weight"
+            },
+            {
+              "id": "2",
+              "text": "Distance"
+            },
+            {
+              "id": "3",
+              "text": "Speed"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Distance"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The original name of which city is translated as The Great City of Angels\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vadodara"
+            },
+            {
+              "id": "1",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "2",
+              "text": "Bangkok"
+            },
+            {
+              "id": "3",
+              "text": "Bogot\u00e1"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bangkok"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Polar bears possess extremely good eyesight, compared to most land animal species.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first automatic electric traffic light with 3 colors was installed in Detroit, Michigan in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1920"
+            },
+            {
+              "id": "1",
+              "text": "1885"
+            },
+            {
+              "id": "2",
+              "text": "1850"
+            },
+            {
+              "id": "3",
+              "text": "1942"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1920"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Leather can bring out the best in some females.  Which feline fatale said  Youre the second man who killed me this week but Ive got seven lives left.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Catwoman"
+            },
+            {
+              "id": "1",
+              "text": "Storm"
+            },
+            {
+              "id": "2",
+              "text": "Daredevil"
+            },
+            {
+              "id": "3",
+              "text": "Miss Kitty"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Catwoman"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 800 Philip IV the Fair of France was coronated by the Pope.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Charles Johnson was a pioneering United States aviator famous for piloting the first solo non-stop flight across the Atlantic Ocean in 1927.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Because of his notable achievements as a poet, writer, and independence movement leader, Jose Marti is considered the greatest hero of which country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spain"
+            },
+            {
+              "id": "1",
+              "text": "Mexico"
+            },
+            {
+              "id": "2",
+              "text": "Cuba"
+            },
+            {
+              "id": "3",
+              "text": "Argentina"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cuba"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "frog",
+          "bustard",
+          "beliefs",
+          "catherine",
+          "bears"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: Milk and Evidence",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, john, land. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Both male and female mammals have the ability to produce milk.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the largest crop for the Americas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Corn"
+            },
+            {
+              "id": "1",
+              "text": "Wheat"
+            },
+            {
+              "id": "2",
+              "text": "Soybeans"
+            },
+            {
+              "id": "3",
+              "text": "Milo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Corn"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Red fescue is a type of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snake"
+            },
+            {
+              "id": "1",
+              "text": "Tree"
+            },
+            {
+              "id": "2",
+              "text": "Grass"
+            },
+            {
+              "id": "3",
+              "text": "Kangaroo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Grass"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was meant by spring chickens in the early 1900s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "young male chickens"
+            },
+            {
+              "id": "1",
+              "text": "old male chickens"
+            },
+            {
+              "id": "2",
+              "text": "young female chickens"
+            },
+            {
+              "id": "3",
+              "text": "old female chickens"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: young male chickens"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When should corn (maize) be planted?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spring"
+            },
+            {
+              "id": "1",
+              "text": "Winter"
+            },
+            {
+              "id": "2",
+              "text": "Fall"
+            },
+            {
+              "id": "3",
+              "text": "Summer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Spring"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cute little Gertie from E. T.  was no where in evidence when this actress played a evil Lolita",
+          "options": [
+            {
+              "id": "0",
+              "text": "Drew Barrymore"
+            },
+            {
+              "id": "1",
+              "text": "Brooke Shields"
+            },
+            {
+              "id": "2",
+              "text": "Sara Gilbert"
+            },
+            {
+              "id": "3",
+              "text": "Tatum ONeil"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Drew Barrymore"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how many pounds of food should a normal adult horse consume in a day?",
+          "options": [
+            {
+              "id": "0",
+              "text": "40-50"
+            },
+            {
+              "id": "1",
+              "text": "15-25"
+            },
+            {
+              "id": "2",
+              "text": "5-10"
+            },
+            {
+              "id": "3",
+              "text": "30-35"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 15-25"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many square yards are there in an acre of land?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4,350"
+            },
+            {
+              "id": "1",
+              "text": "4,520"
+            },
+            {
+              "id": "2",
+              "text": "4,840"
+            },
+            {
+              "id": "3",
+              "text": "4,130"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 4,840"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Goats milk is the most consumed milk in the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the correct name for a horse of either sex under the age of one year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colt"
+            },
+            {
+              "id": "1",
+              "text": "Yearling"
+            },
+            {
+              "id": "2",
+              "text": "Mare"
+            },
+            {
+              "id": "3",
+              "text": "Foal"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Foal"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color is a John Deere tractor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red"
+            },
+            {
+              "id": "1",
+              "text": "Blue"
+            },
+            {
+              "id": "2",
+              "text": "Green"
+            },
+            {
+              "id": "3",
+              "text": "Black"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Green"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a bo diddley?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A sandwich common to poor people"
+            },
+            {
+              "id": "1",
+              "text": "A rock and roll band"
+            },
+            {
+              "id": "2",
+              "text": "A home-made microphone"
+            },
+            {
+              "id": "3",
+              "text": "A home-made guitar"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A home-made guitar"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why are Charles Dickens books so wordy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He knew he had a short life and wanted to get everything on paper"
+            },
+            {
+              "id": "1",
+              "text": "He got paid by the word"
+            },
+            {
+              "id": "2",
+              "text": "That was the style of the day"
+            },
+            {
+              "id": "3",
+              "text": "He didnt want anyone to say Please Sir! More gruel!"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He got paid by the word"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Willem J. Kolff credited for inventing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Artificial kidneys and artificial heart"
+            },
+            {
+              "id": "1",
+              "text": "Computer"
+            },
+            {
+              "id": "2",
+              "text": "Heart-Lung machine"
+            },
+            {
+              "id": "3",
+              "text": "CAT scan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Artificial kidneys and artificial heart"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many compartments are in a cows stomach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "john",
+          "land",
+          "books",
+          "food",
+          "evidence"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Trip and Country",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, armonica. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the last name of the man credited with inventing the modern bicycle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bremen"
+            },
+            {
+              "id": "1",
+              "text": "Michaux"
+            },
+            {
+              "id": "2",
+              "text": "Wright"
+            },
+            {
+              "id": "3",
+              "text": "Turnbull"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Michaux"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1957 Major John Glenn, Jr. set an air speed record for the trip from California to New York. How long did the trip take?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3 hours 23 minutes 8.4 seconds"
+            },
+            {
+              "id": "1",
+              "text": "2 hours 19 minutes 4.8 seconds"
+            },
+            {
+              "id": "2",
+              "text": "1 hours 21 minutes 4.8 seconds"
+            },
+            {
+              "id": "3",
+              "text": "1 hour 56 minutes 8.4 seconds"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 3 hours 23 minutes 8.4 seconds"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who invented the armonica, a musical instrument made up of a series of tuned spinning  bowls?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sir Edward Elgar"
+            },
+            {
+              "id": "1",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "2",
+              "text": "Dean Shostak"
+            },
+            {
+              "id": "3",
+              "text": "Thomas Edison"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Benjamin Franklin"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which mass murderer was the inspiration for the movie character Norman Bates in Psycho and  for Buffalo Bill in Silence of the Lambs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ed Gein"
+            },
+            {
+              "id": "1",
+              "text": "Ted Bundy"
+            },
+            {
+              "id": "2",
+              "text": "Rickie Sperko"
+            },
+            {
+              "id": "3",
+              "text": "Jeffrey Dahmer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ed Gein"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Wilhelm Kolff invented what device?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dialysis machine"
+            },
+            {
+              "id": "1",
+              "text": "Football helmet"
+            },
+            {
+              "id": "2",
+              "text": "Linotype machine"
+            },
+            {
+              "id": "3",
+              "text": "PET scan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dialysis machine"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which US state is the city of Truth or Consequences located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mexico"
+            },
+            {
+              "id": "1",
+              "text": "Utah"
+            },
+            {
+              "id": "2",
+              "text": "New Mexico"
+            },
+            {
+              "id": "3",
+              "text": "Texas"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: New Mexico"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many bones does a shark have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0"
+            },
+            {
+              "id": "1",
+              "text": "103"
+            },
+            {
+              "id": "2",
+              "text": "206"
+            },
+            {
+              "id": "3",
+              "text": "100"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 0"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did  engineer James Wright  invent in 1943?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The oral polio vaccine"
+            },
+            {
+              "id": "1",
+              "text": "Silly Putty"
+            },
+            {
+              "id": "2",
+              "text": "The first chemical to repel sharks"
+            },
+            {
+              "id": "3",
+              "text": "Acetate cartoon cells"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Silly Putty"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which woodwind instrument is not made of wood and has no reeds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Flute"
+            },
+            {
+              "id": "1",
+              "text": "Clarinet"
+            },
+            {
+              "id": "2",
+              "text": "Oboe"
+            },
+            {
+              "id": "3",
+              "text": "Accordion"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Flute"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these events happened on April 7, 1927?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The first  long distance Television image was sent."
+            },
+            {
+              "id": "1",
+              "text": "Adolph Hitler made his infamous first attempt to take over Germany."
+            },
+            {
+              "id": "2",
+              "text": "The New York Stock Exchange fell 67 points (29% then)"
+            },
+            {
+              "id": "3",
+              "text": "The first Easter Parade in was held in New York  City."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The first  long distance Television image was sent."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what island does King Kong live?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Island of no Return"
+            },
+            {
+              "id": "1",
+              "text": "The Forbidden Island"
+            },
+            {
+              "id": "2",
+              "text": "Skull  Island"
+            },
+            {
+              "id": "3",
+              "text": "Crater Island"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Skull  Island"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is General George Patton buried?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Normandy, France"
+            },
+            {
+              "id": "1",
+              "text": "Arlington National Cemetery"
+            },
+            {
+              "id": "2",
+              "text": "Washington, D.C."
+            },
+            {
+              "id": "3",
+              "text": "Luxembourg"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Luxembourg"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Katie Hnida?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The first female to be a  professional boxer"
+            },
+            {
+              "id": "1",
+              "text": "The first female to play NCAA Division 1 football"
+            },
+            {
+              "id": "2",
+              "text": "The first  American female to ride on the Space Shuttle"
+            },
+            {
+              "id": "3",
+              "text": "The first female Prime Minister of Ecuador"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The first female to play NCAA Division 1 football"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Ghana before the country gained its independence?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Belgian Congo"
+            },
+            {
+              "id": "1",
+              "text": "Ivory Coast"
+            },
+            {
+              "id": "2",
+              "text": "The Gold Coast"
+            },
+            {
+              "id": "3",
+              "text": "Limpopo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Gold Coast"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the oldest  symphony  orchestra  in the USA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Symphony Orchestra of New   Orleans"
+            },
+            {
+              "id": "1",
+              "text": "The New York Philharmonic"
+            },
+            {
+              "id": "2",
+              "text": "The Boston Philharmonic"
+            },
+            {
+              "id": "3",
+              "text": "The Philadelphia  Philharmonic"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The New York Philharmonic"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "armonica",
+          "country",
+          "glenn",
+          "symphony"
+        ]
+      }
+    }
+  ]
+}

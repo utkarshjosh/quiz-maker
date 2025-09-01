@@ -1,0 +1,2476 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Season and Player",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, world, gold. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Major League baseball player to win the MVP Award two years in a row?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmie Foxx"
+            },
+            {
+              "id": "1",
+              "text": "Barry Bonds"
+            },
+            {
+              "id": "2",
+              "text": "Bobby Bonds"
+            },
+            {
+              "id": "3",
+              "text": "Babe Ruth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jimmie Foxx"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Major Leaguer to get more than 160 walks in a season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mark McGwire"
+            },
+            {
+              "id": "1",
+              "text": "Ted Williams"
+            },
+            {
+              "id": "2",
+              "text": "Barry Bonds"
+            },
+            {
+              "id": "3",
+              "text": "Hank Aaron"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ted Williams"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first pitcher to hit a home run in a World Series game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cy Young"
+            },
+            {
+              "id": "1",
+              "text": "Walter Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Jim Bagby"
+            },
+            {
+              "id": "3",
+              "text": "Jim Sebring"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jim Bagby"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the first Major League baseball franchise to lose more than 9,000 games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chicago Cubs"
+            },
+            {
+              "id": "1",
+              "text": "Philadelphia Phillies"
+            },
+            {
+              "id": "2",
+              "text": "Cincinnati Reds"
+            },
+            {
+              "id": "3",
+              "text": "Brooklyn/Los Angeles Dodgers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Philadelphia Phillies"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Iliad, Homer tells of a wrestling match between Odysseus and whom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Achilles"
+            },
+            {
+              "id": "1",
+              "text": "Paris"
+            },
+            {
+              "id": "2",
+              "text": "Telamonian Ajax"
+            },
+            {
+              "id": "3",
+              "text": "Priam"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Telamonian Ajax"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "World Heavyweight Champion Mike Tyson said that he wore black trunks to symbolize the death of this person.",
+          "options": [
+            {
+              "id": "0",
+              "text": "His trainer, Angelo Dundee"
+            },
+            {
+              "id": "1",
+              "text": "His trainer, Cus DAmato"
+            },
+            {
+              "id": "2",
+              "text": "His step mother"
+            },
+            {
+              "id": "3",
+              "text": "His father"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: His trainer, Cus DAmato"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three Alou brothers played for the Giants. What were their first names?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hullub, Bob, Goto"
+            },
+            {
+              "id": "1",
+              "text": "Felipe, Matty, Jesus"
+            },
+            {
+              "id": "2",
+              "text": "Matty, Moises, Edgardo"
+            },
+            {
+              "id": "3",
+              "text": "Felipe, Moises, Ozzie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Felipe, Matty, Jesus"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name for the first Most Valuable Player Award in Major League baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chalmers Award"
+            },
+            {
+              "id": "1",
+              "text": "The Most Valuable Player Award"
+            },
+            {
+              "id": "2",
+              "text": "The MVP"
+            },
+            {
+              "id": "3",
+              "text": "The Chadwick Award"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Chalmers Award"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Babe Ruth hit 60 home runs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1919"
+            },
+            {
+              "id": "1",
+              "text": "1927"
+            },
+            {
+              "id": "2",
+              "text": "1921"
+            },
+            {
+              "id": "3",
+              "text": "1923"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1927"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a 1942 fight, Tommy Cross entered the ring and then had to suddenly leave. Why?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He came out for the wrong fight."
+            },
+            {
+              "id": "1",
+              "text": "The ring was out in the open and it began to rain terribly."
+            },
+            {
+              "id": "2",
+              "text": "He was not wearing his trunks."
+            },
+            {
+              "id": "3",
+              "text": "He was in the wrong boxing ring."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He was not wearing his trunks."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first player to hit a home run in a World Series game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim Bagby"
+            },
+            {
+              "id": "1",
+              "text": "Jim Sebring"
+            },
+            {
+              "id": "2",
+              "text": "Honus Wagner"
+            },
+            {
+              "id": "3",
+              "text": "Home Run Baker"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jim Sebring"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first baseball player to hit more than 40 home runs in a season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Home Run Baker"
+            },
+            {
+              "id": "1",
+              "text": "Lou Gehrig"
+            },
+            {
+              "id": "2",
+              "text": "Nap Lajoie"
+            },
+            {
+              "id": "3",
+              "text": "Babe Ruth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Babe Ruth"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great Ultimate Fighting champion played Gaft in the pilot episode of Blade: The Series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Matt Hughes"
+            },
+            {
+              "id": "1",
+              "text": "Rich Franklin"
+            },
+            {
+              "id": "2",
+              "text": "Chuck Lidell"
+            },
+            {
+              "id": "3",
+              "text": "Tito Sanchez"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chuck Lidell"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who became the first wrestler to win a gold medal in three different Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aleksandr Medved"
+            },
+            {
+              "id": "1",
+              "text": "Dan Gable"
+            },
+            {
+              "id": "2",
+              "text": "Dan Saunderson"
+            },
+            {
+              "id": "3",
+              "text": "Chris Taylor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Aleksandr Medved"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which boxer became the youngest world champion in 1976?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sugar Ray Leonard"
+            },
+            {
+              "id": "1",
+              "text": "Roberto Duran"
+            },
+            {
+              "id": "2",
+              "text": "Wilfredo Benitez"
+            },
+            {
+              "id": "3",
+              "text": "Carlos Palomino"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wilfredo Benitez"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "world",
+          "gold",
+          "ruth",
+          "run",
+          "medal"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Pga Championship and Golfer",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, throwback, newman. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the nickname of H.A. Wheeler, the former track promoter at Lowes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Humpy"
+            },
+            {
+              "id": "1",
+              "text": "Hurricane"
+            },
+            {
+              "id": "2",
+              "text": "Silverfox"
+            },
+            {
+              "id": "3",
+              "text": "Happy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Humpy"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Junior Nation is the affectionate term applied to all NASCAR fans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The PGA Championship is the championship of The PGA Tour Players Association.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In April 1987, this boxer went on a hunger strike for over a month to protest against the conditions for a certain category of boxers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lady Tyger Trimiar"
+            },
+            {
+              "id": "1",
+              "text": "Hector  de la Concha"
+            },
+            {
+              "id": "2",
+              "text": "Harvey Katowicz"
+            },
+            {
+              "id": "3",
+              "text": "Ray Boom Boom Mancini"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lady Tyger Trimiar"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This golf course, the venue for the 2007 PGA Championship, was established in 1936.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Southern Hills, Tulsa Oklahoma"
+            },
+            {
+              "id": "1",
+              "text": "Sahalee, Redmond Washington"
+            },
+            {
+              "id": "2",
+              "text": "Inverness, Toledo Ohio"
+            },
+            {
+              "id": "3",
+              "text": "Crooked Stick, Carmel Indiana"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Southern Hills, Tulsa Oklahoma"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ray Floyd won the PGA Championship two times, the second time at Southern Hills in Tulsa. When and where did this steely-eyed short game master win his first PGA Championship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Southern Hills Country Club, 1970"
+            },
+            {
+              "id": "1",
+              "text": "Pebble Beach, 1977"
+            },
+            {
+              "id": "2",
+              "text": "Canterbury Golf Club, 1973"
+            },
+            {
+              "id": "3",
+              "text": "NCR Country Club, 1969"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: NCR Country Club, 1969"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times did Tiger Woods win the PGA Championship prior to 2007?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "4"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first PGA championship was held at Siwonay in New York in 1916 and won by this golfer. The 2006 Championship was conducted at Medinah, and won by this golfer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Francis Ouimet/Tiger Woods"
+            },
+            {
+              "id": "1",
+              "text": "Jim Barnes/Phil Mickelson"
+            },
+            {
+              "id": "2",
+              "text": "Jim Barnes/Tiger Woods"
+            },
+            {
+              "id": "3",
+              "text": "Francis Ouimet/Phil Mickelson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jim Barnes/Tiger Woods"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After many unsuccessful tries, this man in black, also known as The Intimidator, finally won The Daytona 500 in 1998 which was also the track we lost him at.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Denny Hamlin"
+            },
+            {
+              "id": "1",
+              "text": "Cale Yarborough"
+            },
+            {
+              "id": "2",
+              "text": "Dale Earnhardt"
+            },
+            {
+              "id": "3",
+              "text": "Dale Earnhardt Jr."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dale Earnhardt"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Long before Kevin Harvick won both million dollar events in one season, he was know as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Money"
+            },
+            {
+              "id": "1",
+              "text": "Hardwin"
+            },
+            {
+              "id": "2",
+              "text": "Happy"
+            },
+            {
+              "id": "3",
+              "text": "Trucker"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Happy"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great golfer never won the PGA Championship, though he came close a couple of times.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lanny Wadkins"
+            },
+            {
+              "id": "1",
+              "text": "Greg Norman"
+            },
+            {
+              "id": "2",
+              "text": "Dave Marr"
+            },
+            {
+              "id": "3",
+              "text": "Nick Price"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Greg Norman"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The golfer who wins the PGA Championship is presented with what trophy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Wilkinson Sword"
+            },
+            {
+              "id": "1",
+              "text": "The Wanamaker Trophy"
+            },
+            {
+              "id": "2",
+              "text": "The Claret Jug"
+            },
+            {
+              "id": "3",
+              "text": "A Green Jacket"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Wanamaker Trophy"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the nickname of Ryan Newman, the winner of the 50th annual Daytona 500, who also has a degree in vehicle structure engineering from Purdue University?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rocket Man"
+            },
+            {
+              "id": "1",
+              "text": "Rayne Man"
+            },
+            {
+              "id": "2",
+              "text": "June Bug"
+            },
+            {
+              "id": "3",
+              "text": "Flyin Ryan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rocket Man"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a throwback nickname to Denny Hamlin, the driver of the #11 FedEx Toyota.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Young Buck"
+            },
+            {
+              "id": "1",
+              "text": "Cyclone"
+            },
+            {
+              "id": "2",
+              "text": "Hurricane"
+            },
+            {
+              "id": "3",
+              "text": "Dynamite"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hurricane"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This legendary golfer won the PGA Championship a record-tying 5 times and is third in total major wins behind Jack Nicklaus and Tiger Woods.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arnold Palmer"
+            },
+            {
+              "id": "1",
+              "text": "Gene Sarazen"
+            },
+            {
+              "id": "2",
+              "text": "Ben Hogan"
+            },
+            {
+              "id": "3",
+              "text": "Walter Hagen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Walter Hagen"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "throwback",
+          "newman",
+          "nascar",
+          "floyd",
+          "golfer"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Player and World Cup",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, stadium, didnt. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This basketball player helped the Knicks win the NBA championship during the 1969-1970 season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Jackson"
+            },
+            {
+              "id": "1",
+              "text": "Willis Reed"
+            },
+            {
+              "id": "2",
+              "text": "Fred Lynn"
+            },
+            {
+              "id": "3",
+              "text": "Otis Taylor"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Willis Reed"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the 2006 FIFA World Cup, Italy had a goal disallowed for off side.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At which stadium was the 2006 FIFA World Cup final held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aol Arena (Hamburg)"
+            },
+            {
+              "id": "1",
+              "text": "Allianz Stadium (Munich)"
+            },
+            {
+              "id": "2",
+              "text": "Signal Iduna Park (Dortmund)"
+            },
+            {
+              "id": "3",
+              "text": "Olympiastadium (Berlin)"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Olympiastadium (Berlin)"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This major league baseball player is among the greatest players to ever don a Kansas City Royals uniform.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ken Brett"
+            },
+            {
+              "id": "1",
+              "text": "Chris James"
+            },
+            {
+              "id": "2",
+              "text": "George Brett"
+            },
+            {
+              "id": "3",
+              "text": "Fred Lynn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: George Brett"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This football player was a running back for the New England Patriots in the 1980s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerome James"
+            },
+            {
+              "id": "1",
+              "text": "Greg Brock"
+            },
+            {
+              "id": "2",
+              "text": "Craig James"
+            },
+            {
+              "id": "3",
+              "text": "Thomas James"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Craig James"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "We all know that at the 2006 FIFA World Cup, Italy defeated France in a penalty shoot out, but which Italian player had the honour of holding the World Cup aloft as the winning captain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Francesco Totti"
+            },
+            {
+              "id": "1",
+              "text": "Fabio Cannavaro"
+            },
+            {
+              "id": "2",
+              "text": "Andrea Pirlo"
+            },
+            {
+              "id": "3",
+              "text": "Gianluigi Buffon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fabio Cannavaro"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This NBA player was the 5th player chosen in the 2003 NBA Draft.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carmelo Anthony"
+            },
+            {
+              "id": "1",
+              "text": "Randolph Scott"
+            },
+            {
+              "id": "2",
+              "text": "Lebron James"
+            },
+            {
+              "id": "3",
+              "text": "Dwayne Wade"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dwayne Wade"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which player received the Golden Ball award at the 2006 FIFA World Cup finals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gianluigi Buffon"
+            },
+            {
+              "id": "1",
+              "text": "Wayne Rooney"
+            },
+            {
+              "id": "2",
+              "text": "Zinadine Zidane"
+            },
+            {
+              "id": "3",
+              "text": "Fabio Cannavarro"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Zinadine Zidane"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Women are not eligible to play in the PGA Championship.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which player broke the dead lock with only 2 minutes left of extra time in the Germany v Italy 2006 World Cup semi final?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luca Toni"
+            },
+            {
+              "id": "1",
+              "text": "Alberto Gilardino"
+            },
+            {
+              "id": "2",
+              "text": "Fabio Grosso"
+            },
+            {
+              "id": "3",
+              "text": "Alessandro Delpiero"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fabio Grosso"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which player was sent off in the 2006 FIFA World Cup quarter final match between England and Portugal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Beckham"
+            },
+            {
+              "id": "1",
+              "text": "Owen Hargreves"
+            },
+            {
+              "id": "2",
+              "text": "Wayne Rooney"
+            },
+            {
+              "id": "3",
+              "text": "Michael Owen"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wayne Rooney"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From 1958, when the PGA tournament became a stroke play event, until 2006, only one person defended successfully his PGA Championship title.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which nation defeated Brazil, the defending champions, in the quarter finals of the 2006 FIFA World Cup?",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "Italy"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "Portugal"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which player top scored at the 2006 FIFA World Cup?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luca Toni"
+            },
+            {
+              "id": "1",
+              "text": "Michael Owen"
+            },
+            {
+              "id": "2",
+              "text": "Zinadine Zidane"
+            },
+            {
+              "id": "3",
+              "text": "Miroslav Klose"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Miroslav Klose"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which nation didnt concede a goal in the entire 2006 FIFA World tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "Switzerland"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Switzerland"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "stadium",
+          "didnt",
+          "world",
+          "defending",
+          "champions"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Tony Hawk and Game",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, pioneer, game. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first NFL player to get 200 sacks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bruce Smith"
+            },
+            {
+              "id": "1",
+              "text": "Kevin Greene"
+            },
+            {
+              "id": "2",
+              "text": "Michael Strahan"
+            },
+            {
+              "id": "3",
+              "text": "Reggie White"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bruce Smith"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the second Major League Baseball switch-hitter to hit 500 home runs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harmon Killebrew"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Mathews"
+            },
+            {
+              "id": "2",
+              "text": "Mickey Mantle"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Murray"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Murray"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1992, Tony Hawk started what skateboard company together with Per Welinder?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Flip"
+            },
+            {
+              "id": "1",
+              "text": "Blind"
+            },
+            {
+              "id": "2",
+              "text": "Alien Workshop"
+            },
+            {
+              "id": "3",
+              "text": "Birdhouse Projects"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Birdhouse Projects"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the first African-American to play in the NBA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nate Sweetwater Clifton"
+            },
+            {
+              "id": "1",
+              "text": "Earl Lloyd"
+            },
+            {
+              "id": "2",
+              "text": "Chuck Cooper"
+            },
+            {
+              "id": "3",
+              "text": "Chuck Connors"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Earl Lloyd"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tony Hawk wrote an autobiography, titled Tony Hawk - the Birdman.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tony Hawk is considered the pioneer of what style of skating?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vertical skating"
+            },
+            {
+              "id": "1",
+              "text": "Grind skating"
+            },
+            {
+              "id": "2",
+              "text": "Air skating"
+            },
+            {
+              "id": "3",
+              "text": "Street skating"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vertical skating"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tony Hawk landed the first ever 900 (two and a half mid-air turns) at the 1999 X Games.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Danny Biasone is often credited with financially saving this professional sport.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Football"
+            },
+            {
+              "id": "1",
+              "text": "Soccer"
+            },
+            {
+              "id": "2",
+              "text": "Basketball"
+            },
+            {
+              "id": "3",
+              "text": "Hockey"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Basketball"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Tony Hawks father?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank Hawk"
+            },
+            {
+              "id": "1",
+              "text": "Steve Hawk"
+            },
+            {
+              "id": "2",
+              "text": "Spencer Hawk"
+            },
+            {
+              "id": "3",
+              "text": "Riley Hawk"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Frank Hawk"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tony Hawk started skate boarding when he was nine years old.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Scoring a safety is a rare occurrence in an NFL game. This defensive end, who played for the Rams, was the first NFLer to score two safeties in one game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Youngblood"
+            },
+            {
+              "id": "1",
+              "text": "Fred Dryer"
+            },
+            {
+              "id": "2",
+              "text": "Ted Hendricks"
+            },
+            {
+              "id": "3",
+              "text": "Doug English"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fred Dryer"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Today in Major League Baseball a ground rule double is when a ball is hit fair, bounces and then goes over the outfield. Which statement is  true about this rule?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It became a rule when the baseball rules were canonized in 1886."
+            },
+            {
+              "id": "1",
+              "text": "It was always a rule in the National League but became an American League rule in 1927."
+            },
+            {
+              "id": "2",
+              "text": "It wasnt a rule until 1930."
+            },
+            {
+              "id": "3",
+              "text": "It was made a rule in both leagues in 1919."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It wasnt a rule until 1930."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This major league baseball player was easily the best pitcher in the National League in 1986.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Clark"
+            },
+            {
+              "id": "1",
+              "text": "Mike Scott"
+            },
+            {
+              "id": "2",
+              "text": "J.R. Richard"
+            },
+            {
+              "id": "3",
+              "text": "Matt Clark"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mike Scott"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Tony Hawks son, who was born in 1992?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tony Hawk Jr."
+            },
+            {
+              "id": "1",
+              "text": "Chad Hawk"
+            },
+            {
+              "id": "2",
+              "text": "Riley Hawk"
+            },
+            {
+              "id": "3",
+              "text": "Frank Hawk"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Riley Hawk"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This NFL great was the first player to get 14 interceptions in one season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Herb Adderly"
+            },
+            {
+              "id": "1",
+              "text": "Jimmy Marsalis"
+            },
+            {
+              "id": "2",
+              "text": "Dick Lane"
+            },
+            {
+              "id": "3",
+              "text": "Cornell Green"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dick Lane"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "pioneer",
+          "game",
+          "skateboard",
+          "father",
+          "style"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Baseball and Major Leaguer",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, harris, oneill. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Major Leaguer to win the All-Star Game MVP Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mickey Mantle"
+            },
+            {
+              "id": "1",
+              "text": "Babe Ruth"
+            },
+            {
+              "id": "2",
+              "text": "Jimmie Foxx"
+            },
+            {
+              "id": "3",
+              "text": "Maury Wills"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Maury Wills"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year were numbers first put on baseball uniforms?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1921"
+            },
+            {
+              "id": "1",
+              "text": "1935"
+            },
+            {
+              "id": "2",
+              "text": "1923"
+            },
+            {
+              "id": "3",
+              "text": "1929"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1929"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What baseball player had the first unassisted triple play in a World Series game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Wambsganss"
+            },
+            {
+              "id": "1",
+              "text": "Lou Skisas"
+            },
+            {
+              "id": "2",
+              "text": "Gus Zernial"
+            },
+            {
+              "id": "3",
+              "text": "Harry Chiti"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Wambsganss"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Major Leaguer to hit 500 homeruns in his career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmie Foxx"
+            },
+            {
+              "id": "1",
+              "text": "Lou Gehrig"
+            },
+            {
+              "id": "2",
+              "text": "Tris Speaker"
+            },
+            {
+              "id": "3",
+              "text": "Babe Ruth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Babe Ruth"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1918 regular baseball season was shortened because of  World War I. What happened in the 1918 World Series, played in September?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Chicago Cubs were accused of  throwing the game to the Boston Red Sox."
+            },
+            {
+              "id": "1",
+              "text": "The Star Spangled Banner was sung for the first time at a sporting event."
+            },
+            {
+              "id": "2",
+              "text": "The Chicago White Sox were accused of throwing the series."
+            },
+            {
+              "id": "3",
+              "text": "It was the first World Series that was a best 4 out of 7 series of games."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Star Spangled Banner was sung for the first time at a sporting event."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1998 this pitcher wore a baseball cap that Babe Ruth had worn in 1920.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Keys"
+            },
+            {
+              "id": "1",
+              "text": "David Wells"
+            },
+            {
+              "id": "2",
+              "text": "Dan Wetteland"
+            },
+            {
+              "id": "3",
+              "text": "Roger Clemens"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: David Wells"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Greg Harris and Tony Mullane were both pitchers in Major League Baseball. Why are they significant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They were actually the same person."
+            },
+            {
+              "id": "1",
+              "text": "Babe Ruth hit his first homer off Mullane and Barry Bonds hit his first homer off Harris."
+            },
+            {
+              "id": "2",
+              "text": "Each one pitched both lefty and righty."
+            },
+            {
+              "id": "3",
+              "text": "They pitched in the first extra-innings World Series game."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Each one pitched both lefty and righty."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whether fortunately or unfortunately, strikes and work stoppages are a fact of life in professional sports. When was the first NHL player strike?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1925"
+            },
+            {
+              "id": "1",
+              "text": "1995"
+            },
+            {
+              "id": "2",
+              "text": "1985"
+            },
+            {
+              "id": "3",
+              "text": "1955"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1925"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1945 catcher Harry ONeill was killed on Iwo Jima. In 1979 catcher Thurmond Munson died in a plane crash. How did catcher Bo Diaz die in 1990?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fishing boat accident"
+            },
+            {
+              "id": "1",
+              "text": "Drowned in his bath tub"
+            },
+            {
+              "id": "2",
+              "text": "Hunting accident"
+            },
+            {
+              "id": "3",
+              "text": "Crushed by a cable TV dish"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Crushed by a cable TV dish"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the first baseball box score written?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1853"
+            },
+            {
+              "id": "1",
+              "text": "1940"
+            },
+            {
+              "id": "2",
+              "text": "1951"
+            },
+            {
+              "id": "3",
+              "text": "1923"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1853"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Major Leaguer was the college roommate of the great wide receiver Lynn Swann.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Randy Flores"
+            },
+            {
+              "id": "1",
+              "text": "Fred Lynn"
+            },
+            {
+              "id": "2",
+              "text": "Tom Seaver"
+            },
+            {
+              "id": "3",
+              "text": "Aaron Boone"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fred Lynn"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first team to put players names on their uniforms?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dodgers"
+            },
+            {
+              "id": "1",
+              "text": "Indians"
+            },
+            {
+              "id": "2",
+              "text": "Yankees"
+            },
+            {
+              "id": "3",
+              "text": "White Sox"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: White Sox"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which basketball league was the first to institute a three-point shot?",
+          "options": [
+            {
+              "id": "0",
+              "text": "NCAA"
+            },
+            {
+              "id": "1",
+              "text": "ABA"
+            },
+            {
+              "id": "2",
+              "text": "ABL"
+            },
+            {
+              "id": "3",
+              "text": "NBA"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: NCAA"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Major Leaguer to hit a grand slam home run in a Major League All-Star game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Piersall"
+            },
+            {
+              "id": "1",
+              "text": "Roberto Clemente"
+            },
+            {
+              "id": "2",
+              "text": "Fred Lynn"
+            },
+            {
+              "id": "3",
+              "text": "Jackie Robinson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fred Lynn"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A player once hit a home run off Jose Cansecos head.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "harris",
+          "oneill",
+          "college",
+          "world",
+          "players"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Olympic and Jump",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, sets, stadium. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which score is impossible in a tennis tie-break set?",
+          "options": [
+            {
+              "id": "0",
+              "text": "99-97"
+            },
+            {
+              "id": "1",
+              "text": "8-5"
+            },
+            {
+              "id": "2",
+              "text": "8-6"
+            },
+            {
+              "id": "3",
+              "text": "7-5"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 8-5"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a red flag signal during athletic events that involve a jump?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The result is not valid because there was too strong back wind."
+            },
+            {
+              "id": "1",
+              "text": "The result is valid."
+            },
+            {
+              "id": "2",
+              "text": "The athlete is disqualified."
+            },
+            {
+              "id": "3",
+              "text": "The result is not valid because the athlete bounced off pass the measure bar."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The result is not valid because the athlete bounced off pass the measure bar."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In high jump, how must the bar be attacked for a valid result?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Feet first"
+            },
+            {
+              "id": "1",
+              "text": "It doesnt matter"
+            },
+            {
+              "id": "2",
+              "text": "Butt first"
+            },
+            {
+              "id": "3",
+              "text": "Head first"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: It doesnt matter"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many parts are in a basketball game during the Olympic tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is a libero in a volleyball team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its the 7th player, allowed to join only if his team trails by more than 8 points"
+            },
+            {
+              "id": "1",
+              "text": "A player that always stands by the net"
+            },
+            {
+              "id": "2",
+              "text": "A player who cannot attack nor block"
+            },
+            {
+              "id": "3",
+              "text": "The play-maker, who passes balls to attacking players"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A player who cannot attack nor block"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is some debate as to which city was the first to serve hot dogs at baseball games, but it seems  that one of these two cities was the first.",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Louis or Chicago"
+            },
+            {
+              "id": "1",
+              "text": "Chicago or Cincinnati"
+            },
+            {
+              "id": "2",
+              "text": "Cincinnati or New York"
+            },
+            {
+              "id": "3",
+              "text": "St. Louis or New York"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: St. Louis or New York"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times must athletes circle the stadium in the Olympic 10km run?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20"
+            },
+            {
+              "id": "1",
+              "text": "50"
+            },
+            {
+              "id": "2",
+              "text": "25"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 25"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In soccer, what happens to a goalkeeper who goes outside of his penalty box?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He is allowed only if his team is defending."
+            },
+            {
+              "id": "1",
+              "text": "He is allowed to, but he cannot touch the ball with his hands."
+            },
+            {
+              "id": "2",
+              "text": "He gets a red card."
+            },
+            {
+              "id": "3",
+              "text": "His team is penalized by a free kick."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He is allowed to, but he cannot touch the ball with his hands."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long is the Olympic cycling race?",
+          "options": [
+            {
+              "id": "0",
+              "text": "200km"
+            },
+            {
+              "id": "1",
+              "text": "It is not set"
+            },
+            {
+              "id": "2",
+              "text": "189.5km"
+            },
+            {
+              "id": "3",
+              "text": "200miles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: It is not set"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long is a handball Olympic game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "48min wall clock"
+            },
+            {
+              "id": "1",
+              "text": "48min, breaks excluded"
+            },
+            {
+              "id": "2",
+              "text": "60min, breaks excluded"
+            },
+            {
+              "id": "3",
+              "text": "60min wall clock"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 60min, breaks excluded"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is part of the result calculation in ski-jumping?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Style only"
+            },
+            {
+              "id": "1",
+              "text": "Distance only"
+            },
+            {
+              "id": "2",
+              "text": "Distance, but if the jumpers jumped the same distance, style is taken into account"
+            },
+            {
+              "id": "3",
+              "text": "Distance and style"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Distance and style"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In butterfly swimming, how must the athlete finish the race to have a valid result?",
+          "options": [
+            {
+              "id": "0",
+              "text": "By touching the pools ending wall with both hands simultaneously"
+            },
+            {
+              "id": "1",
+              "text": "By stepping out of the pool"
+            },
+            {
+              "id": "2",
+              "text": "By touching the pools ending wall with his/her feet"
+            },
+            {
+              "id": "3",
+              "text": "By touching the pools ending wall with with one hand only"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: By touching the pools ending wall with both hands simultaneously"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What object is tossed into the air in the Olympic event Hammer Throw?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A screw driver"
+            },
+            {
+              "id": "1",
+              "text": "An iron ball attached to a wire"
+            },
+            {
+              "id": "2",
+              "text": "A hammer"
+            },
+            {
+              "id": "3",
+              "text": "A chain saw"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: An iron ball attached to a wire"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many sets are played in male table tennis at the Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Up to 3"
+            },
+            {
+              "id": "1",
+              "text": "Up to 7"
+            },
+            {
+              "id": "2",
+              "text": "Up to 5"
+            },
+            {
+              "id": "3",
+              "text": "Always 3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Up to 7"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the difference between the Olympic and the World Cup soccer tournaments?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In the Olympic tournament only players under 23 years old are allowed."
+            },
+            {
+              "id": "1",
+              "text": "Red cards are not used during the Olympic games."
+            },
+            {
+              "id": "2",
+              "text": "The ball used at the Olympic Games is oval, more like the one used in American Football."
+            },
+            {
+              "id": "3",
+              "text": "In the Olympic tournament there are no penalty shoot-outs when a play-off match ends in a tie."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: In the Olympic tournament only players under 23 years old are allowed."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "sets",
+          "stadium",
+          "parts",
+          "calculation",
+          "world"
+        ]
+      }
+    }
+  ]
+}

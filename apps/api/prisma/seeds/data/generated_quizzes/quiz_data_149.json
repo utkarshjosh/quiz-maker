@@ -1,0 +1,2468 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Person and Ratings",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, people, nascar. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This sportsman has been a great NHL player and head coach and part-owner of the Phoenix Coyotes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bobby Hull"
+            },
+            {
+              "id": "1",
+              "text": "Scotty Bowman"
+            },
+            {
+              "id": "2",
+              "text": "Gordie Howe"
+            },
+            {
+              "id": "3",
+              "text": "Wayne Gretzky"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wayne Gretzky"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The ratings for the Beijing Olympics were far above those of the Athens Olympics. This is due, in part, to this man, the Chairman of Sports at NBC in 2008.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dick Ebersol"
+            },
+            {
+              "id": "1",
+              "text": "Jim Collins"
+            },
+            {
+              "id": "2",
+              "text": "Phil Knight"
+            },
+            {
+              "id": "3",
+              "text": "Tony Ponturro"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dick Ebersol"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bill Bowerman and this man co-founded the sports line Nike.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tony  Ponturro"
+            },
+            {
+              "id": "1",
+              "text": "Phil Knight"
+            },
+            {
+              "id": "2",
+              "text": "Jim Collins"
+            },
+            {
+              "id": "3",
+              "text": "Steve Prontier"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Phil Knight"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When he was made the Commissioner of the NHL in 1993, he was asked to bring it back to popularity in the USA. Who is this person?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gordie Howe"
+            },
+            {
+              "id": "1",
+              "text": "Gary Bettman"
+            },
+            {
+              "id": "2",
+              "text": "Tony  Donovan"
+            },
+            {
+              "id": "3",
+              "text": "Tim Leiweke"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gary Bettman"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person was a great basketball player, a poor outfielder, and a minority stockholder in the Charlotte Bobcats of the NBA. Who is he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Del Rice"
+            },
+            {
+              "id": "1",
+              "text": "Deion Sanders"
+            },
+            {
+              "id": "2",
+              "text": "Bo Jackson"
+            },
+            {
+              "id": "3",
+              "text": "Michael Jordan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Jordan"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American businessman is one of the founders of Home Depot and owner of the NFL Atlanta Falcons.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arthur Tisch"
+            },
+            {
+              "id": "1",
+              "text": "Pat Bowlen"
+            },
+            {
+              "id": "2",
+              "text": "Arthur Blank"
+            },
+            {
+              "id": "3",
+              "text": "Jim Nash"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Arthur Blank"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these people has been a Commissioner of the NBA for over 24 years?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pete Rozelle"
+            },
+            {
+              "id": "1",
+              "text": "David Stern"
+            },
+            {
+              "id": "2",
+              "text": "Marques Haynes"
+            },
+            {
+              "id": "3",
+              "text": "Rick Barry"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: David Stern"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the owner of the Denver Broncos?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jon  Litner"
+            },
+            {
+              "id": "1",
+              "text": "Pat Bowlen"
+            },
+            {
+              "id": "2",
+              "text": "Coin Baden"
+            },
+            {
+              "id": "3",
+              "text": "Kevin Plank"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pat Bowlen"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person was one of the first great skateboarders and a video game icon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom Condon"
+            },
+            {
+              "id": "1",
+              "text": "Tony Hawk"
+            },
+            {
+              "id": "2",
+              "text": "John Walsh"
+            },
+            {
+              "id": "3",
+              "text": "Sid Crosby"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tony Hawk"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these men is not associated with NASCAR?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eric Grubman"
+            },
+            {
+              "id": "1",
+              "text": "Jack Roush"
+            },
+            {
+              "id": "2",
+              "text": "Brian France"
+            },
+            {
+              "id": "3",
+              "text": "Dale Earnhardt, Jr."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eric Grubman"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The presence of two members of this sports family raises the TV ratings at tennis tournaments even when they are not winning.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Williams"
+            },
+            {
+              "id": "1",
+              "text": "Clooney"
+            },
+            {
+              "id": "2",
+              "text": "Sharpe"
+            },
+            {
+              "id": "3",
+              "text": "Nastasee"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Williams"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person is considered the most important man in the world of golf. Without him, PGA Tour events get very low TV ratings.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim Collins"
+            },
+            {
+              "id": "1",
+              "text": "Jack Nicklaus"
+            },
+            {
+              "id": "2",
+              "text": "Arnold Palmer"
+            },
+            {
+              "id": "3",
+              "text": "Tiger Woods"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tiger Woods"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which family owns the Pitsburgh Steelers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mara"
+            },
+            {
+              "id": "1",
+              "text": "Rooney"
+            },
+            {
+              "id": "2",
+              "text": "Davis"
+            },
+            {
+              "id": "3",
+              "text": "Belicheck"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rooney"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the President of Entertainment and Sports Programming Network (ESPN) in 2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peter Ubberofft"
+            },
+            {
+              "id": "1",
+              "text": "George Bodenheimer"
+            },
+            {
+              "id": "2",
+              "text": "Phil Knight"
+            },
+            {
+              "id": "3",
+              "text": "Jim Collins"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George Bodenheimer"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This giant company owns The Home Depot center, The Los Angeles Kings, The L.A. Galaxy, the Houston Dynamo, the David Beckham Academy, ATP London, the Los Angeles Riptides, the Staples Center, and almost one-eighth of the Los Angeles Lakers. What is the name of this company?",
+          "options": [
+            {
+              "id": "0",
+              "text": "International Sporting Management"
+            },
+            {
+              "id": "1",
+              "text": "WMG Management"
+            },
+            {
+              "id": "2",
+              "text": "The Southern Cal Sporting Group"
+            },
+            {
+              "id": "3",
+              "text": "Anschutz Entertainment Group"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Anschutz Entertainment Group"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "people",
+          "nascar",
+          "world",
+          "president",
+          "men"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "History Quiz: Southern California and Player",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, field, bush. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the home field of the Southern California Trojans football team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Westwood Field"
+            },
+            {
+              "id": "1",
+              "text": "Los Angeles Memorial Coliseum"
+            },
+            {
+              "id": "2",
+              "text": "Tustin Memorial Stadium"
+            },
+            {
+              "id": "3",
+              "text": "Astro Dome"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Los Angeles Memorial Coliseum"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement describes best the University of Southern California?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is a state school located in Westwood, California"
+            },
+            {
+              "id": "1",
+              "text": "It is a state school located in Los Angeles, California."
+            },
+            {
+              "id": "2",
+              "text": "It is a private school located in Los Angeles, California."
+            },
+            {
+              "id": "3",
+              "text": "It is a private school located in Palo Alto, California."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It is a private school located in Los Angeles, California."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first player form the University of Southern California to win the Outland Trophy (for best college lineman) became a solid left offensive tackle for the Minnesota Vikings. Who is he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Winston Justice"
+            },
+            {
+              "id": "1",
+              "text": "Shaun Cody"
+            },
+            {
+              "id": "2",
+              "text": "Sam Baker"
+            },
+            {
+              "id": "3",
+              "text": "Ron Yary"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ron Yary"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former University of Southern California Trojans player became an All-Star offensive tackle in the old AFL.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Del Rio"
+            },
+            {
+              "id": "1",
+              "text": "Lynn Swann"
+            },
+            {
+              "id": "2",
+              "text": "Ron Mix"
+            },
+            {
+              "id": "3",
+              "text": "Jeff Fisher"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ron Mix"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Marcus Allen from the Southern California Trojans win the Heisman award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1981"
+            },
+            {
+              "id": "1",
+              "text": "1971"
+            },
+            {
+              "id": "2",
+              "text": "1988"
+            },
+            {
+              "id": "3",
+              "text": "1978"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1981"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He founded \u201eLittle Caesars Pizza\u201d in 1959. He is the owner of the Detroit Red Wings of the NHL and the Detroit Tigers of Major League Baseball. Who i sthies person?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Clay Ford, Jr."
+            },
+            {
+              "id": "1",
+              "text": "Kenneth Richards"
+            },
+            {
+              "id": "2",
+              "text": "Mike Ilitch"
+            },
+            {
+              "id": "3",
+              "text": "Pat Bowlen"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mike Ilitch"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Southern California Trojans player to win the Heisman award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike Garrett"
+            },
+            {
+              "id": "1",
+              "text": "Charles  White"
+            },
+            {
+              "id": "2",
+              "text": "Whizzer  White"
+            },
+            {
+              "id": "3",
+              "text": "Anthony Davis"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mike Garrett"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the colors of the Southern California Trojans football team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gold and white"
+            },
+            {
+              "id": "1",
+              "text": "Cardinal and gold"
+            },
+            {
+              "id": "2",
+              "text": "Cardinal and white"
+            },
+            {
+              "id": "3",
+              "text": "Red and blue"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cardinal and gold"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2005 Reggie Bush from the Southern California Trojans won what individual award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maxwell Award"
+            },
+            {
+              "id": "1",
+              "text": "Walter Camp Award"
+            },
+            {
+              "id": "2",
+              "text": "Dick Butkus Award"
+            },
+            {
+              "id": "3",
+              "text": "Heisman Trophy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Heisman Trophy"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the Southern California Trojans finish the football season untied and undefeated for the fourth time in the teams history?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2000"
+            },
+            {
+              "id": "1",
+              "text": "1990"
+            },
+            {
+              "id": "2",
+              "text": "2004"
+            },
+            {
+              "id": "3",
+              "text": "2002"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2004"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the founder of the group that owns Gillette Stadium, the New England Revolution, Rand-Whitney Container Corp, and the New England Patriots?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barton Parelli"
+            },
+            {
+              "id": "1",
+              "text": "Robert Kraft"
+            },
+            {
+              "id": "2",
+              "text": "Arn Tellem"
+            },
+            {
+              "id": "3",
+              "text": "Arthur Blank"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Kraft"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which athletic conference do the Southern California Trojans teams participate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "PAC-10"
+            },
+            {
+              "id": "1",
+              "text": "WAC-10"
+            },
+            {
+              "id": "2",
+              "text": "Big West"
+            },
+            {
+              "id": "3",
+              "text": "Conference USA"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: PAC-10"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former player from the University of Southern California Trojans was voted to the NFL All Pro Team as both offensive and defensive back. Who is this famous number 16?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Willie Wood"
+            },
+            {
+              "id": "1",
+              "text": "Sammy Baugh"
+            },
+            {
+              "id": "2",
+              "text": "Frank Gifford"
+            },
+            {
+              "id": "3",
+              "text": "Ed OBrien"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Frank Gifford"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whhich is the official bank of the NFL and Major League Baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chase Manhattan Bank"
+            },
+            {
+              "id": "1",
+              "text": "CitiCorp"
+            },
+            {
+              "id": "2",
+              "text": "Bank of  America"
+            },
+            {
+              "id": "3",
+              "text": "Grand Caymans National Bank"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bank of  America"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which colleges have been among Southern California Trojans\u2019 bitter rivals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "UCLA and Notre Dame"
+            },
+            {
+              "id": "1",
+              "text": "BYU and Army"
+            },
+            {
+              "id": "2",
+              "text": "Southern Methodist and Penn State"
+            },
+            {
+              "id": "3",
+              "text": "Alabama and Air Force"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: UCLA and Notre Dame"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "field",
+          "bush",
+          "founder",
+          "conference",
+          "trojans"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Baseball and World Series",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, cubs, philip. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which slugger from the Chicago Cubs had the most career Home Runs playing for his team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron Santo"
+            },
+            {
+              "id": "1",
+              "text": "Billy Willams"
+            },
+            {
+              "id": "2",
+              "text": "Sammy Sosa"
+            },
+            {
+              "id": "3",
+              "text": "Ernie Banks"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sammy Sosa"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former player of the Southern California Trojans also played DB for the New York Giants but is perhaps more famous for proposing to actress Angie Harmon on The Tonight Show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reggie Bush"
+            },
+            {
+              "id": "1",
+              "text": "Kori Dickson"
+            },
+            {
+              "id": "2",
+              "text": "Jason Sehorn"
+            },
+            {
+              "id": "3",
+              "text": "Champ Bailey"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jason Sehorn"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the two Chicago baseball teams, Cubs and Sox play each other in the World Series and who won?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1908 and the Cubs Winning"
+            },
+            {
+              "id": "1",
+              "text": "1919 and the Cubs winning."
+            },
+            {
+              "id": "2",
+              "text": "1906 and the Sox winning"
+            },
+            {
+              "id": "3",
+              "text": "It never happened."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1906 and the Sox winning"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which former University of Southern California Trojans member lost the race for Governor of Pennsylvania?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Willie Wood"
+            },
+            {
+              "id": "1",
+              "text": "Chris Cash"
+            },
+            {
+              "id": "2",
+              "text": "Justin Fargas"
+            },
+            {
+              "id": "3",
+              "text": "Lynn Swann"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lynn Swann"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first All Star games of baseball were played in Chicago but at which ball park and in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Comiskey Park, 1935"
+            },
+            {
+              "id": "1",
+              "text": "Wrigley Field, 1935"
+            },
+            {
+              "id": "2",
+              "text": "Wrigley Field, 1933"
+            },
+            {
+              "id": "3",
+              "text": "Comiskey Park, 1933"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Comiskey Park, 1933"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first night baseball game to be played at Wrigley Field in Chicago happened on which date?",
+          "options": [
+            {
+              "id": "0",
+              "text": "August 9, 1988"
+            },
+            {
+              "id": "1",
+              "text": "July 8, 1977"
+            },
+            {
+              "id": "2",
+              "text": "August 8, 1988"
+            },
+            {
+              "id": "3",
+              "text": "July 7, 1977"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: August 9, 1988"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which White Sox hitter had the highest career batting average?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luke Appling"
+            },
+            {
+              "id": "1",
+              "text": "Joe Jackson"
+            },
+            {
+              "id": "2",
+              "text": "Frank Thomas"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Collins"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Jackson"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Former baseball player and radio/television sports announcer Philip Rizzuto can be heard on a  Meatloaf song .",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As of 2007, when was the last time that the White Sox won the World Series of baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1917"
+            },
+            {
+              "id": "1",
+              "text": "2003"
+            },
+            {
+              "id": "2",
+              "text": "2004"
+            },
+            {
+              "id": "3",
+              "text": "2005"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 2005"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What former football player from the University of Southern California was a first round draft choice of the New York Jets but caused so much turmoil that the Jets soon traded him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dwayne Jarrett"
+            },
+            {
+              "id": "1",
+              "text": "Keyshawn Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Terrell Owens"
+            },
+            {
+              "id": "3",
+              "text": "Randy Moss"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Keyshawn Johnson"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a former Southern California Trojans football player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Art Shell"
+            },
+            {
+              "id": "1",
+              "text": "Jim Fassell"
+            },
+            {
+              "id": "2",
+              "text": "Mike Holmgren"
+            },
+            {
+              "id": "3",
+              "text": "Jack Del Rio"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Art Shell"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following was invented before the last time that the Chicago Cubs won The World Series of baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Invention of the Radio"
+            },
+            {
+              "id": "1",
+              "text": "The Invention of instant coffee"
+            },
+            {
+              "id": "2",
+              "text": "The invention of Corn Flakes"
+            },
+            {
+              "id": "3",
+              "text": "The Invention of Television"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The invention of Corn Flakes"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As of 2007, which team has been the winner of the most World Series of baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its a Tie"
+            },
+            {
+              "id": "1",
+              "text": "Cubs"
+            },
+            {
+              "id": "2",
+              "text": "Bulls"
+            },
+            {
+              "id": "3",
+              "text": "White Sox"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: White Sox"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement about Philip Rizzutos birth is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was born Fiero Francis Rizzuto on 25 September, 1917 in Brooklyn, N.Y."
+            },
+            {
+              "id": "1",
+              "text": "He  was born Philip Francis Rizzuto on 25 September, 1916 in Hillside, New Jersey."
+            },
+            {
+              "id": "2",
+              "text": "He was born Carlo Philip Rizzuto on 25  September, 1915 in The Bronx, N.Y."
+            },
+            {
+              "id": "3",
+              "text": "He was  born Francisco Philip Rizzuto on 25 September, 1920 in Newark, New Jersey."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He was born Fiero Francis Rizzuto on 25 September, 1917 in Brooklyn, N.Y."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As of 2007, when was the last time the Chicago Cubs won the World Series of baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2005"
+            },
+            {
+              "id": "1",
+              "text": "1906"
+            },
+            {
+              "id": "2",
+              "text": "1908"
+            },
+            {
+              "id": "3",
+              "text": "1945"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1908"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "cubs",
+          "philip",
+          "slugger",
+          "rizzutos",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Phil Rizzuto and Gilbert Arenas",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, gilbert, yankees. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gilbert Arenas was selected in the NBA 2006 All-Star game despite his poor averages that season thanks to the many fans that voted for him to be included.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gilbert Arenas is famous for doing what before taking a foul shot?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He dribbles the ball 0 times."
+            },
+            {
+              "id": "1",
+              "text": "He spins the ball around his waist 3 times and then dribbles the ball 3 times."
+            },
+            {
+              "id": "2",
+              "text": "He kisses a tattoo of his baby on his left hand and of his babys mama on his right hand."
+            },
+            {
+              "id": "3",
+              "text": "He makes the sign of the cross with his hand and looks up in the air with his eyes closed."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He spins the ball around his waist 3 times and then dribbles the ball 3 times."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gilbert Arenas was drafted into the NBA by what team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Orlando Magic"
+            },
+            {
+              "id": "1",
+              "text": "The Golden State Warriors"
+            },
+            {
+              "id": "2",
+              "text": "The Washington Wizards"
+            },
+            {
+              "id": "3",
+              "text": "The Indianapolis Jets"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Golden State Warriors"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gilbert Arenas wore the number 0 on his jersey because nobody could beat him in a one-on-one basketball game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Phil Rizzuto often said I gotta get over that  bridge. To what did this phrase refer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was worried about getting through the seventh inning when he got an inning off."
+            },
+            {
+              "id": "1",
+              "text": "He was worried about getting through to the sixth inning when Bill White would take over the announcing, making  White his bridge to relaxing."
+            },
+            {
+              "id": "2",
+              "text": "He  was worried about  getting home late because of  traffic on the George Washington Bridge to NJ."
+            },
+            {
+              "id": "3",
+              "text": "He worried  bout the game having to go to extra innings so hed have to work overtime."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He  was worried about  getting home late because of  traffic on the George Washington Bridge to NJ."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did Phil Rizzuto play for the Yankees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1929-1945"
+            },
+            {
+              "id": "1",
+              "text": "1947-1962"
+            },
+            {
+              "id": "2",
+              "text": "1937-1950"
+            },
+            {
+              "id": "3",
+              "text": "1941-1953"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1941-1953"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On which TV show did Phil Rizzuto appear as the first mystery guest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beat the Clock!"
+            },
+            {
+              "id": "1",
+              "text": "Whats My Line?"
+            },
+            {
+              "id": "2",
+              "text": "Whom Do You trust?"
+            },
+            {
+              "id": "3",
+              "text": "Truth or Consequences"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Whats My Line?"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Phil Rizzutos forte?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hitting home runs"
+            },
+            {
+              "id": "1",
+              "text": "Knocking in runners from second and third"
+            },
+            {
+              "id": "2",
+              "text": "Getting extra base hits (doubles and triples)"
+            },
+            {
+              "id": "3",
+              "text": "Bunting and defense"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bunting and defense"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On February 25, 2006, Gilbert Arenas scored 46 points in less than 30 minutes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Phil Rizzuto had his number 2 retired by the New York Yankees.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these expressions was not commonly said by Phil Rizzuto as an announcer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Unbelievable!"
+            },
+            {
+              "id": "1",
+              "text": "Holy Cow!"
+            },
+            {
+              "id": "2",
+              "text": "High enough, deep enough, gone!"
+            },
+            {
+              "id": "3",
+              "text": "Huckleberry"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: High enough, deep enough, gone!"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2006, it  was announced that Phil Rizzuto had what medical problems?",
+          "options": [
+            {
+              "id": "0",
+              "text": "muscle atrophy andesophageal problems"
+            },
+            {
+              "id": "1",
+              "text": "Lou Gehrigs Disease"
+            },
+            {
+              "id": "2",
+              "text": "skin cancer"
+            },
+            {
+              "id": "3",
+              "text": "cerebral palsy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: muscle atrophy andesophageal problems"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not one of Gilbert Arenas nicknames?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Assassin"
+            },
+            {
+              "id": "1",
+              "text": "Agent Zero"
+            },
+            {
+              "id": "2",
+              "text": "G.A."
+            },
+            {
+              "id": "3",
+              "text": "Gilly-Willy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gilly-Willy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Phil Rizzuto won the Hickok Belt which is awarded to whom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The best announcer of the year"
+            },
+            {
+              "id": "1",
+              "text": "The best baseball player of the  year"
+            },
+            {
+              "id": "2",
+              "text": "The best defensive player in baseball"
+            },
+            {
+              "id": "3",
+              "text": "The best professional athlete of the year"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The best professional athlete of the year"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Phil Rizzuto got death threats from a Boston Red Sox fan, what did manager Casey Stengel do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He had Rizzuto play second base instead of  shortstop."
+            },
+            {
+              "id": "1",
+              "text": "Nothing"
+            },
+            {
+              "id": "2",
+              "text": "He sat Rizzuto so he  would be safe."
+            },
+            {
+              "id": "3",
+              "text": "He had him change uniform numbers with another player."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He had him change uniform numbers with another player."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "gilbert",
+          "yankees",
+          "forte",
+          "rizzutos",
+          "death"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Season and University",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, college, gilbert. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the University of Georgia win a national title in football?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1982"
+            },
+            {
+              "id": "1",
+              "text": "1983"
+            },
+            {
+              "id": "2",
+              "text": "1981"
+            },
+            {
+              "id": "3",
+              "text": "1980"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1980"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which quarterback did not play at the University of Georgia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Todd Blackledge"
+            },
+            {
+              "id": "1",
+              "text": "Mike Bobo"
+            },
+            {
+              "id": "2",
+              "text": "Buck Belue"
+            },
+            {
+              "id": "3",
+              "text": "Fran Tarkington"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Todd Blackledge"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As of 2007, the Toronto Maple Leafs have had 3 different names during their history.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Boston Bruins head coach during their 1971-1972 Stanley Cup winning season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harry Sinden"
+            },
+            {
+              "id": "1",
+              "text": "Tom Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Bep Guidolin"
+            },
+            {
+              "id": "3",
+              "text": "Don Cherry"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tom Johnson"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As of 2007, of the Original Six Teams the Montreal Canadiens have the most Stanley Cup wins.  Which two Original Six teams are tied for the most Stanley Cup losses with 12?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Wings  Canadiens"
+            },
+            {
+              "id": "1",
+              "text": "Red Wings  Bruins"
+            },
+            {
+              "id": "2",
+              "text": "Rangers  Blackhawks"
+            },
+            {
+              "id": "3",
+              "text": "Blackhawks  Toronto"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Red Wings  Bruins"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As a freshman, Herschel Walker headed toward stardom when he ran completely over a linebacker from the University of Tennessee to score a touchdown. This linebacker picked himself up from the turf and went on to be a star defensive player with the Dallas Cowboys. Who is this defensive player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Bates"
+            },
+            {
+              "id": "1",
+              "text": "Charlie Waters"
+            },
+            {
+              "id": "2",
+              "text": "Brian Bosworth"
+            },
+            {
+              "id": "3",
+              "text": "Cornelius Bennett"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bill Bates"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As is common practice in todays NHL, most of the Original Six teams have moved into a new building over the years.  As of 2007, which of the Original Six teams has been playing in the same building the longest without moving?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit Red Wings - Joe Louis Arena"
+            },
+            {
+              "id": "1",
+              "text": "Montreal Canadiens - Bell Centre"
+            },
+            {
+              "id": "2",
+              "text": "Toronto Maple Leafs - ACC"
+            },
+            {
+              "id": "3",
+              "text": "New York Rangers - Madison Square Gardens"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New York Rangers - Madison Square Gardens"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Up to the end of the 2007 NHL season, the Original Six team who has gone the longest without winning the Stanley Cup is the Chicago Blackhawks, having last won the cup in the 1960-1961 season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not true about Gilbert Arenas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He officially owns Team Final Boss, a professional Halo 2 gaming team."
+            },
+            {
+              "id": "1",
+              "text": "He has mentored a D.C. boy who lost his family in a fire at age 10."
+            },
+            {
+              "id": "2",
+              "text": "He has a large tent in his house converted to a low oxygen level similar to that of Colorado."
+            },
+            {
+              "id": "3",
+              "text": "His middle name is not Jay."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: His middle name is not Jay."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Detroit Red Wings were the last Original Six team to win the Stanley Cup.  Prior to 2006-2007 season what season was the Red Wings last Stanley Cup winning season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2001-2002"
+            },
+            {
+              "id": "1",
+              "text": "1994-1995"
+            },
+            {
+              "id": "2",
+              "text": "2000-2001"
+            },
+            {
+              "id": "3",
+              "text": "1996-1997"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 2001-2002"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did The Detroit Red Wings play their home games during the Original Six NHL era?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Olympia"
+            },
+            {
+              "id": "1",
+              "text": "The Silver Dome"
+            },
+            {
+              "id": "2",
+              "text": "The Palace"
+            },
+            {
+              "id": "3",
+              "text": "The Gardens"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Olympia"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1980, University of Georgia running back Herschel Walker gained 1616 yards to break the previous record for most yards rushed by a freshman.  What running back held this record before Herschel broke it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Texas Earl Campbell"
+            },
+            {
+              "id": "1",
+              "text": "Penn States Kurt Warner"
+            },
+            {
+              "id": "2",
+              "text": "Oklahomas Billy Sims"
+            },
+            {
+              "id": "3",
+              "text": "Pittsburghs Tony Dorsett"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pittsburghs Tony Dorsett"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following did not serve as a head coach at the University of Georgia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ray Goff"
+            },
+            {
+              "id": "1",
+              "text": "Wally Butts"
+            },
+            {
+              "id": "2",
+              "text": "Vince Dooley"
+            },
+            {
+              "id": "3",
+              "text": "Pat Dye"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pat Dye"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What college did Gilbert Arenas play for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Georgetown"
+            },
+            {
+              "id": "1",
+              "text": "Arizona State"
+            },
+            {
+              "id": "2",
+              "text": "Duke"
+            },
+            {
+              "id": "3",
+              "text": "North Carolina"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Arizona State"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As of 2007, the Original Six team with the most Stanley Cups is The Canadiens with 24, followed by The Maple Leafs with 13.  Who is third with 10 cup wins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Wings"
+            },
+            {
+              "id": "1",
+              "text": "Blackhawks"
+            },
+            {
+              "id": "2",
+              "text": "Rangers"
+            },
+            {
+              "id": "3",
+              "text": "Bruins"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Red Wings"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "college",
+          "gilbert",
+          "coach",
+          "herschel",
+          "following"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Paintball and Paintballs",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, title, land. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the most common gas used in paintball guns propellants?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carbon dioxide"
+            },
+            {
+              "id": "1",
+              "text": "Air"
+            },
+            {
+              "id": "2",
+              "text": "Nitrogen"
+            },
+            {
+              "id": "3",
+              "text": "Nitrous oxide"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Carbon dioxide"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In paintball, you perform a Safe Velocity Test by means of what device?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Velocity detector"
+            },
+            {
+              "id": "1",
+              "text": "A simple stopwatch"
+            },
+            {
+              "id": "2",
+              "text": "Velocity chronograph"
+            },
+            {
+              "id": "3",
+              "text": "Velocity tester"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Velocity chronograph"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the sign CGA on paintball gas tanks stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Compact Gas Association"
+            },
+            {
+              "id": "1",
+              "text": "Compressed Gasoline Alignment"
+            },
+            {
+              "id": "2",
+              "text": "Compact Gas Assertion"
+            },
+            {
+              "id": "3",
+              "text": "Compressed Gas Association"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Compressed Gas Association"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of paint is used in most .68 calibre paintballs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anti-climb paint"
+            },
+            {
+              "id": "1",
+              "text": "Acrylic paints"
+            },
+            {
+              "id": "2",
+              "text": "Latex"
+            },
+            {
+              "id": "3",
+              "text": "Watercolors"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Latex"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In paintball markers, tubes that hold extra paintballs while in a battle are called what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ballholders"
+            },
+            {
+              "id": "1",
+              "text": "Speedloaders"
+            },
+            {
+              "id": "2",
+              "text": "Their is no such tanks."
+            },
+            {
+              "id": "3",
+              "text": "Extraloaders"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Speedloaders"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You can buy paintball guns that feed the paintballs from a clip.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In paintball, everybody in the game except observers is required to wear protective masks while a gun is in use.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens with a paintball if put in water for 24 hours or more?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It contracts"
+            },
+            {
+              "id": "1",
+              "text": "It expands"
+            },
+            {
+              "id": "2",
+              "text": "It explodes"
+            },
+            {
+              "id": "3",
+              "text": "Nothing"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: It expands"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You can buy paintball land mines that are reusable.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When you go paintballing what is the first thing you do before you put the carbon dioxide tank in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Take safety off"
+            },
+            {
+              "id": "1",
+              "text": "Put barrel plug in"
+            },
+            {
+              "id": "2",
+              "text": "Cock it"
+            },
+            {
+              "id": "3",
+              "text": "Load in the paintballs"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Put barrel plug in"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This place kicker, who would later play for the NFL Chicago Bears, kicked a 60 yard game-winning field goal against the Clemson Tigers in 1984.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Van Tiffen"
+            },
+            {
+              "id": "1",
+              "text": "Kevin Butler"
+            },
+            {
+              "id": "2",
+              "text": "Rex Robinson"
+            },
+            {
+              "id": "3",
+              "text": "Al Del Greco"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kevin Butler"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the maximum temperature of a compressed 16-ounce Carbon Dioxide tank fit for a paintball gun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "120 degrees F / 50 degrees Celsius"
+            },
+            {
+              "id": "1",
+              "text": "130 degrees F / 55 degrees Celsius"
+            },
+            {
+              "id": "2",
+              "text": "140 degrees F / 60 degrees Celsius"
+            },
+            {
+              "id": "3",
+              "text": "110 degrees F / 43 degrees Celsius"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 130 degrees F / 55 degrees Celsius"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In paintball, which term refers to the tank that holds the paintballs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dopper"
+            },
+            {
+              "id": "1",
+              "text": "Holding tank"
+            },
+            {
+              "id": "2",
+              "text": "Hopper"
+            },
+            {
+              "id": "3",
+              "text": "Holding tube"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hopper"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Georgia won the Southeastern Conference title in 2005 and in 2003 defeating which two teams?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arkansas and LSU"
+            },
+            {
+              "id": "1",
+              "text": "Auburn and LSU"
+            },
+            {
+              "id": "2",
+              "text": "Alabama and Auburn"
+            },
+            {
+              "id": "3",
+              "text": "Tennessee and Alabama"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Arkansas and LSU"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Georgia is a proud member of the Southeastern Conference - Eastern Division, together with the 2006 National Champions, the Florida Gators. Which team is not a member of the SEC-East?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vanderbilt"
+            },
+            {
+              "id": "1",
+              "text": "Auburn"
+            },
+            {
+              "id": "2",
+              "text": "Tennessee"
+            },
+            {
+              "id": "3",
+              "text": "Kentucky"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Auburn"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "title",
+          "land",
+          "mines",
+          "carbon",
+          "kicker"
+        ]
+      }
+    }
+  ]
+}

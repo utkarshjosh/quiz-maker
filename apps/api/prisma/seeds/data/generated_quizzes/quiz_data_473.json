@@ -1,0 +1,2428 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Teeth and Animals",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, network, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Windows Vista commercials have boasted of the Record Live Television capability of the operating system. What is necessary to use this function?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Optical Drive"
+            },
+            {
+              "id": "1",
+              "text": "Cable Box"
+            },
+            {
+              "id": "2",
+              "text": "Digital Television"
+            },
+            {
+              "id": "3",
+              "text": "TV Tuner Card"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: TV Tuner Card"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these animals have no teeth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "snails"
+            },
+            {
+              "id": "1",
+              "text": "Turtles"
+            },
+            {
+              "id": "2",
+              "text": "Hares"
+            },
+            {
+              "id": "3",
+              "text": "Wombats"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Turtles"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is true about elephant tusks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are highly developed canine teeth."
+            },
+            {
+              "id": "1",
+              "text": "They are not teeth."
+            },
+            {
+              "id": "2",
+              "text": "They are not really made of ivory."
+            },
+            {
+              "id": "3",
+              "text": "They are highly developed incisors."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They are highly developed incisors."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these people was a dentist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Alva Edison"
+            },
+            {
+              "id": "1",
+              "text": "Samuel F.B. Morse"
+            },
+            {
+              "id": "2",
+              "text": "Paul Revere"
+            },
+            {
+              "id": "3",
+              "text": "DeWit Clinton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Paul Revere"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The carbon atom in amino acids has four elements/groups attached to it in all amino acids (except for proline). Which of the following is not among these four?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carboxyl group"
+            },
+            {
+              "id": "1",
+              "text": "R-group (including another hydrogen)"
+            },
+            {
+              "id": "2",
+              "text": "Methyl group"
+            },
+            {
+              "id": "3",
+              "text": "Hydrogen"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Methyl group"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All mammalian amino acids have which Greek letter designating their relation to the carbon atom to which different groups are attached?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Delta"
+            },
+            {
+              "id": "1",
+              "text": "Sigma"
+            },
+            {
+              "id": "2",
+              "text": "Beta"
+            },
+            {
+              "id": "3",
+              "text": "Alpha"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alpha"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is FireWire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a quality mouse by Logitech"
+            },
+            {
+              "id": "1",
+              "text": "a method of transporting data between two digital devices"
+            },
+            {
+              "id": "2",
+              "text": "a peer to peer sharing website for music and file sharing"
+            },
+            {
+              "id": "3",
+              "text": "a movie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: a method of transporting data between two digital devices"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On average, only one baby in 10,000,000 is born with a tooth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A rodents teeth will grow continuously for its entire lifetime.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Microsoft operating system, formerly codenamed Blackcomb and Vienna, is intended to succeed Windows Vista.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mojave"
+            },
+            {
+              "id": "1",
+              "text": "Vista"
+            },
+            {
+              "id": "2",
+              "text": "Mac OS X Leopard"
+            },
+            {
+              "id": "3",
+              "text": "7"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these animals only has molars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Adult penguins"
+            },
+            {
+              "id": "1",
+              "text": "Adult aardvarks"
+            },
+            {
+              "id": "2",
+              "text": "Adult  wolves"
+            },
+            {
+              "id": "3",
+              "text": "Adult minnows"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Adult aardvarks"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a wireless network is set up in a home, yet the signal is weak in certain areas, you may buy one of these to increase the existing signal strength.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Repeater"
+            },
+            {
+              "id": "1",
+              "text": "Modem"
+            },
+            {
+              "id": "2",
+              "text": "Router"
+            },
+            {
+              "id": "3",
+              "text": "Satellite Dish"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Repeater"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these are heterodonts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snails"
+            },
+            {
+              "id": "1",
+              "text": "Humans"
+            },
+            {
+              "id": "2",
+              "text": "Turtles"
+            },
+            {
+              "id": "3",
+              "text": "Sharks"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Humans"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which mammal has the most teeth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The spinner dolphin"
+            },
+            {
+              "id": "1",
+              "text": "The tiger seal"
+            },
+            {
+              "id": "2",
+              "text": "The dingo"
+            },
+            {
+              "id": "3",
+              "text": "The giant armadillo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The spinner dolphin"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the number of amino acids commonly associated with the mammalian protein?",
+          "options": [
+            {
+              "id": "0",
+              "text": "25"
+            },
+            {
+              "id": "1",
+              "text": "23"
+            },
+            {
+              "id": "2",
+              "text": "20"
+            },
+            {
+              "id": "3",
+              "text": "46"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 20"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "network",
+          "people",
+          "average",
+          "protein",
+          "carbon"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Egg and Following",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, weight, bird. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does it take for a platypus egg to develop completely and hatch?",
+          "options": [
+            {
+              "id": "0",
+              "text": "28 days of internal formation and 10 days of external incubation"
+            },
+            {
+              "id": "1",
+              "text": "15 days of internal formation and 35 days of external incubation"
+            },
+            {
+              "id": "2",
+              "text": "24 hours of internal formation and 15 days of incubation"
+            },
+            {
+              "id": "3",
+              "text": "The eggs develop within 7 days in the mothers uterus and the babies are hatched almost immediately after laying"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 28 days of internal formation and 10 days of external incubation"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the main protein found in the egg white?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ovalbumin"
+            },
+            {
+              "id": "1",
+              "text": "Fibrin"
+            },
+            {
+              "id": "2",
+              "text": "Gluten"
+            },
+            {
+              "id": "3",
+              "text": "Phosphoprotein"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ovalbumin"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not true about the bird eggshell?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The normal bird eggshell is porous."
+            },
+            {
+              "id": "1",
+              "text": "The eggshell does not contain protein."
+            },
+            {
+              "id": "2",
+              "text": "The eggshell consists of roughly 95% calcium carbonate crystals."
+            },
+            {
+              "id": "3",
+              "text": "The bird eggshell is covered by a structure called cuticle."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The eggshell does not contain protein."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these expression does not refer to a yolkless egg?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vain egg"
+            },
+            {
+              "id": "1",
+              "text": "Wind egg"
+            },
+            {
+              "id": "2",
+              "text": "Dwarf egg"
+            },
+            {
+              "id": "3",
+              "text": "Cock egg"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vain egg"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is the Latin word for egg?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ovum"
+            },
+            {
+              "id": "1",
+              "text": "Avis"
+            },
+            {
+              "id": "2",
+              "text": "Cancer"
+            },
+            {
+              "id": "3",
+              "text": "Rana"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ovum"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Select the incorrect statement.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Over 80 % of an elephants tusk is visible-the rest lies inside the gums."
+            },
+            {
+              "id": "1",
+              "text": "Aside from the elephant, the walrus has the largest tusks."
+            },
+            {
+              "id": "2",
+              "text": "The tusks of a male elephant grow about 18 cm a year."
+            },
+            {
+              "id": "3",
+              "text": "Biologists have found that the tooths weight and its need for muscular development has greatly influenced the development of the mammalian skull."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Over 80 % of an elephants tusk is visible-the rest lies inside the gums."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The egg of this animal contains the largest existing single cell.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ostrich"
+            },
+            {
+              "id": "1",
+              "text": "Komodo dragon"
+            },
+            {
+              "id": "2",
+              "text": "Platypus"
+            },
+            {
+              "id": "3",
+              "text": "Emu"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ostrich"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Consider all animals that ever lived. Which animal had the longest teeth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Malaysian elephant."
+            },
+            {
+              "id": "1",
+              "text": "The straight-tusked elephant"
+            },
+            {
+              "id": "2",
+              "text": "The mammoth"
+            },
+            {
+              "id": "3",
+              "text": "The Asian elephant"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The straight-tusked elephant"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many hours approximately does an eggshell formation take in an average laying hen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "About 48 hours"
+            },
+            {
+              "id": "1",
+              "text": "About 5 hours"
+            },
+            {
+              "id": "2",
+              "text": "About 20 hours"
+            },
+            {
+              "id": "3",
+              "text": "Less than 2 hours"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: About 20 hours"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eggs have a very high nutrition value. Which of the following substances is not present within an egg?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chlorophyll"
+            },
+            {
+              "id": "1",
+              "text": "Phosphorus"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin D"
+            },
+            {
+              "id": "3",
+              "text": "Choline"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Chlorophyll"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not true about the egg yolk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It contains 75% of the protein of the egg."
+            },
+            {
+              "id": "1",
+              "text": "It is placed in a yolk sac."
+            },
+            {
+              "id": "2",
+              "text": "Its usual color varies from pale yellow to deep orange."
+            },
+            {
+              "id": "3",
+              "text": "It contains almost 100% of total amount of fat and cholesterol in the egg."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It contains 75% of the protein of the egg."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the weight of the smallest known bird egg on the planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2,5 grams"
+            },
+            {
+              "id": "1",
+              "text": "5 grams"
+            },
+            {
+              "id": "2",
+              "text": "0,5 grams"
+            },
+            {
+              "id": "3",
+              "text": "1 gram"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 0,5 grams"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Every mammal has teeth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The narwhale has two teeth in its upper jaw, one of which develops into a horn-like protrusion (this is true).",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The most common  fossil is the tooth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "weight",
+          "bird",
+          "protein",
+          "following",
+          "hours"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Skin and Water",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, computers, diseases. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which was the first version of Microsoft Windows to support Plug and Play?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Windows 3.11"
+            },
+            {
+              "id": "1",
+              "text": "Windows 95"
+            },
+            {
+              "id": "2",
+              "text": "Windows XP"
+            },
+            {
+              "id": "3",
+              "text": "Windows 3.0"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Windows 95"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is correct?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Primates include Gorillas, Monkeys and Humans.  Monkeys include Pro-Simians and Chimpanzees."
+            },
+            {
+              "id": "1",
+              "text": "Primates include Monkeys, Pro-Simians, and Apes.  Apes include Orangutans, Gorillas, Chimpanzees and Humans."
+            },
+            {
+              "id": "2",
+              "text": "Primates include Apes and Pro-Simians.  Pro-Simians include Humans.  Apes include Gorillas, Orangutans and Monkeys."
+            },
+            {
+              "id": "3",
+              "text": "Primates include Humans, Pro-Simians and Apes.  Apes include Orangutans, Gorillas, and Monkeys."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Primates include Monkeys, Pro-Simians, and Apes.  Apes include Orangutans, Gorillas, Chimpanzees and Humans."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In their third generation computers flourished, thanks Jack St. Clair Kilbys and Robert Noyces independent invention.  What did they invent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the transistor"
+            },
+            {
+              "id": "1",
+              "text": "the first computer program"
+            },
+            {
+              "id": "2",
+              "text": "integrated circuit (or microchip)"
+            },
+            {
+              "id": "3",
+              "text": "computer memory"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: integrated circuit (or microchip)"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If the optimal body habitus for hot climates is tall and slender, what is one possible condition explaining pygmies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ice ages"
+            },
+            {
+              "id": "1",
+              "text": "Humidity"
+            },
+            {
+              "id": "2",
+              "text": "Rain"
+            },
+            {
+              "id": "3",
+              "text": "Low atmospheric preasure"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Humidity"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Arecibo Observatory, located approximately 12 miles south-southwest from Arecibo, Puerto Rico, is notable for owning the worlds largest single-aperture telescope of this type.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dioptric telescope"
+            },
+            {
+              "id": "1",
+              "text": "Radio telescope"
+            },
+            {
+              "id": "2",
+              "text": "Catadioptric telescope"
+            },
+            {
+              "id": "3",
+              "text": "Catoptric telescope"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Radio telescope"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following modern diseases evolved as a protection against malaria?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Asthma"
+            },
+            {
+              "id": "1",
+              "text": "Sickle Cell Anemia"
+            },
+            {
+              "id": "2",
+              "text": "Lactose Intolerance"
+            },
+            {
+              "id": "3",
+              "text": "Tay Sachs"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sickle Cell Anemia"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This English mathematician, logician and cryptographer is widely regarded as the father of modern computer science.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alan Turing"
+            },
+            {
+              "id": "1",
+              "text": "Max Newman"
+            },
+            {
+              "id": "2",
+              "text": "Ada Lovelace"
+            },
+            {
+              "id": "3",
+              "text": "John Atanasoff"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Alan Turing"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which was the first implemented high-level general purpose programming language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cobol"
+            },
+            {
+              "id": "1",
+              "text": "BASIC"
+            },
+            {
+              "id": "2",
+              "text": "Fortran"
+            },
+            {
+              "id": "3",
+              "text": "Pascal"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fortran"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following primates is the closest related to humans?  (That is, this primate has more DNA in common with humans than any other living creature does.)",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lemur"
+            },
+            {
+              "id": "1",
+              "text": "Chimpanzee"
+            },
+            {
+              "id": "2",
+              "text": "Gorilla"
+            },
+            {
+              "id": "3",
+              "text": "Orangutan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chimpanzee"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One famous analog computer was the water integrator, which functioned by manipulation of water through a room of pipes and pumps, where the water levels represented numbers, and the rate of flow represented mathematical operations.  Which country built the water integrator?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Soviet Union"
+            },
+            {
+              "id": "1",
+              "text": "Great Britain"
+            },
+            {
+              "id": "2",
+              "text": "USA"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Soviet Union"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mitochondrial DNA has been analyzed to estimate the ancestral lineage of various species around the world, including primates.  Which of the following statements about mitochondria is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mitochondrial DNA does not mutate."
+            },
+            {
+              "id": "1",
+              "text": "Mitochondria function in the cell to break down waste products."
+            },
+            {
+              "id": "2",
+              "text": "Mitochondria are descended from once-separate, single-celled organisms which invaded a cell, stuck around, then lost their ability to live independently."
+            },
+            {
+              "id": "3",
+              "text": "Mitochondrial DNA is only inherited by males."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mitochondria are descended from once-separate, single-celled organisms which invaded a cell, stuck around, then lost their ability to live independently."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dark skin contains melanin, which is a dark pigment in the skin.  The purpose for melanin is to protect the skin from harmful effects of ultraviolet sunlight, which include skin cancer.  What evolutionary advantage does light skin have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Light skin lets in more sunlight, which allows a person in colder climates to get warm more easily."
+            },
+            {
+              "id": "1",
+              "text": "Light skin lets in more sunlight.  Sunlight catalyzes the formation of Vitamin D."
+            },
+            {
+              "id": "2",
+              "text": "Light skin tans more easily.  This makes the person more attractive and therefore facilitates mating."
+            },
+            {
+              "id": "3",
+              "text": "Light skin is more attractive, which makes the person better able to attract a mate."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Light skin lets in more sunlight.  Sunlight catalyzes the formation of Vitamin D."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This computer engineer and co-founder of Apple Computer is often credited with developing the first mass-market home computers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Jobs"
+            },
+            {
+              "id": "1",
+              "text": "Bill Gates"
+            },
+            {
+              "id": "2",
+              "text": "John Vincent Atanasoff"
+            },
+            {
+              "id": "3",
+              "text": "Steve Woz Wozniak"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Steve Woz Wozniak"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "African Americans are more likely to suffer from hypertension (high blood pressure) than European Americans.  Why?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Enslaved individuals were transported from Africa in the holds of ships, and given very little water.  Those whose bodies conserved salt were more likely to survive the journey.  Salt exacerbates high blood pressure."
+            },
+            {
+              "id": "1",
+              "text": "Rap music raises blood pressure."
+            },
+            {
+              "id": "2",
+              "text": "African Americans eat more salty food than European Americans do."
+            },
+            {
+              "id": "3",
+              "text": "In tropical climates, one sweats a lot.  This results in water loss, which lowers blood pressure.  Africans therefore conserve salt more efficiently than Europeans.  In the United States, however, where it is cooler, this characteristic leads to high bloo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Enslaved individuals were transported from Africa in the holds of ships, and given very little water.  Those whose bodies conserved salt were more likely to survive the journey.  Salt exacerbates high blood pressure."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1950s, these electronic components replaced vacuum tubes in the production of computers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "diodes"
+            },
+            {
+              "id": "1",
+              "text": "chips"
+            },
+            {
+              "id": "2",
+              "text": "transistors"
+            },
+            {
+              "id": "3",
+              "text": "processors"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: transistors"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "computers",
+          "diseases",
+          "primate",
+          "dna",
+          "components"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Sun and Observatory",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, kind, space. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these islands is known as the location of numerous important world observatories?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Okinawa"
+            },
+            {
+              "id": "1",
+              "text": "Cyprus"
+            },
+            {
+              "id": "2",
+              "text": "Hawaii"
+            },
+            {
+              "id": "3",
+              "text": "Madagascar"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hawaii"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sun is located at the center of our galaxy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Yerkes Observatory in Williams Bay, Wisconsin, established in 1897 by George Ellery Hale, works with a 102 cm (40 inch) refracting telescope.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "NASAs Chandra space observatory launched on July 23, 1999 uses what type of telescopes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Optical telescopes"
+            },
+            {
+              "id": "1",
+              "text": "Infrared telescopes"
+            },
+            {
+              "id": "2",
+              "text": "X-ray telescopes"
+            },
+            {
+              "id": "3",
+              "text": "Radio telescopes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: X-ray telescopes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All planets, comets and asteroids orbit around the Sun.  What percentage of the Solar Systems mass does the Sun account for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "around one-half"
+            },
+            {
+              "id": "1",
+              "text": "99.8%"
+            },
+            {
+              "id": "2",
+              "text": "86.2%"
+            },
+            {
+              "id": "3",
+              "text": "around 10%"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 99.8%"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The main purpose of the observatory located on the north shore of Big Bear Lake in the San Bernardino Mountains, California is studying what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pulsars"
+            },
+            {
+              "id": "1",
+              "text": "Black holes"
+            },
+            {
+              "id": "2",
+              "text": "The Moon"
+            },
+            {
+              "id": "3",
+              "text": "The Sun"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Sun"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Hubble Space Telescope in orbit around the Earth has become one of the most important telescopes in the history of astronomy since its launch in 1990. It doesnt work in which one of these wavelength regimes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Optical"
+            },
+            {
+              "id": "1",
+              "text": "Ultraviolet"
+            },
+            {
+              "id": "2",
+              "text": "Near-infrared"
+            },
+            {
+              "id": "3",
+              "text": "Radio"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Radio"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The surface temperature of the Sun is 5,780 K, which makes it white.  Why does the Sun appear yellow from the surface of the Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "due to the electromagnetic radiation"
+            },
+            {
+              "id": "1",
+              "text": "because of the distance the light travels"
+            },
+            {
+              "id": "2",
+              "text": "because of the blue color of the sky"
+            },
+            {
+              "id": "3",
+              "text": "because of our eyes inability to see light  in that range"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: because of the blue color of the sky"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cerro Tololo Inter-American Observatory is a complex of astronomical telescopes and instruments, located on the territory of which country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peru"
+            },
+            {
+              "id": "1",
+              "text": "Chile"
+            },
+            {
+              "id": "2",
+              "text": "Spain"
+            },
+            {
+              "id": "3",
+              "text": "Brazil"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chile"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Very Large Array (VLA) is a radio astronomy observatory located on the Plains of San Augustin, USA, consisting of what number of separate radio antennae?",
+          "options": [
+            {
+              "id": "0",
+              "text": "35"
+            },
+            {
+              "id": "1",
+              "text": "12"
+            },
+            {
+              "id": "2",
+              "text": "27"
+            },
+            {
+              "id": "3",
+              "text": "19"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 27"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following historical sites did not serve as a kind of observatory in the past?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abu Simbel, Egypt"
+            },
+            {
+              "id": "1",
+              "text": "The Great Sphinx of Giza, Egypt"
+            },
+            {
+              "id": "2",
+              "text": "Stonehenge, Great Britain"
+            },
+            {
+              "id": "3",
+              "text": "Kokino, Republic of Macedonia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Great Sphinx of Giza, Egypt"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sun was once regarded as a small and insignificant star, but is now believed to be brighter than approximately 85% of the stars in the galaxy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sun is a main sequence star and as such generates energy by this process, joining hydrogen nuclei together into helium.",
+          "options": [
+            {
+              "id": "0",
+              "text": "nuclear spallation"
+            },
+            {
+              "id": "1",
+              "text": "isomerisation"
+            },
+            {
+              "id": "2",
+              "text": "nuclear fusion"
+            },
+            {
+              "id": "3",
+              "text": "induced gamma emission"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: nuclear fusion"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This observatory, located at Mauna Kea, Hawaii, uses two telescopes equipped with adaptive optics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paranal Observatory"
+            },
+            {
+              "id": "1",
+              "text": "W. M. Keck Observatory"
+            },
+            {
+              "id": "2",
+              "text": "Observatorio Nacional de Llano del Hato"
+            },
+            {
+              "id": "3",
+              "text": "Roque de los Muchachos Observatory"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: W. M. Keck Observatory"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This tasteless, colorless and odorless chemical element makes up most of the Suns volume (approx. 92%).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chromium"
+            },
+            {
+              "id": "1",
+              "text": "Magnesium"
+            },
+            {
+              "id": "2",
+              "text": "Oxygen"
+            },
+            {
+              "id": "3",
+              "text": "Hydrogen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hydrogen"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "kind",
+          "space",
+          "world",
+          "mauna",
+          "telescope"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Members and Body",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, cartilages, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the most diverse and abundant group of organisms on Earth. Its members reproduce so fast that they can double their number as quickly as every 10 minutes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bacteria"
+            },
+            {
+              "id": "1",
+              "text": "Viruses"
+            },
+            {
+              "id": "2",
+              "text": "Algae"
+            },
+            {
+              "id": "3",
+              "text": "Fungi"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bacteria"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the longest bone in the body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Femur"
+            },
+            {
+              "id": "1",
+              "text": "Fibula"
+            },
+            {
+              "id": "2",
+              "text": "Tibia"
+            },
+            {
+              "id": "3",
+              "text": "Humerus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Femur"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most cultures have a solar diety, someone who represents the Sun.  Who is the chief solar diety in Hinduism?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Krishna"
+            },
+            {
+              "id": "1",
+              "text": "Brahman"
+            },
+            {
+              "id": "2",
+              "text": "Ishvara"
+            },
+            {
+              "id": "3",
+              "text": "Surya"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Surya"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The members of only one of these types of microorganisms have a cell nucleus. Which are they?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Algae"
+            },
+            {
+              "id": "1",
+              "text": "Viruses"
+            },
+            {
+              "id": "2",
+              "text": "Archaea"
+            },
+            {
+              "id": "3",
+              "text": "Bacteria"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Algae"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is the natural habitat of the bacteria?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The air and sea water"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Earths surface and fresh water"
+            },
+            {
+              "id": "3",
+              "text": "Underground and the icebergs"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The scapula is part of the spine near the hip.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is referred to as the solar apex?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the highest point the Sun reaches during the day"
+            },
+            {
+              "id": "1",
+              "text": "the warmest day of the year as measured on the equator"
+            },
+            {
+              "id": "2",
+              "text": "the direction the Sun travels through space"
+            },
+            {
+              "id": "3",
+              "text": "the highest UV reading taken from the earths surface"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: the direction the Sun travels through space"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is an efficient way to save trees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Using the washing machine"
+            },
+            {
+              "id": "1",
+              "text": "Using less water"
+            },
+            {
+              "id": "2",
+              "text": "Killing animals instead"
+            },
+            {
+              "id": "3",
+              "text": "Using less electricity"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Using less electricity"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In an average household, on a daily basis most people forget the fan or lights on?",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ancient Greek astronomer Aristarchus was the first person to present the theory that the sun is at the center of the solar system (heliocentrism).  However in the 16th century, this Polish astronomer was first to formulate a scientifically based heliocentric study.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Giovanni Cassini"
+            },
+            {
+              "id": "1",
+              "text": "Thomas Harriot"
+            },
+            {
+              "id": "2",
+              "text": "Nicolaus Copernicus"
+            },
+            {
+              "id": "3",
+              "text": "Galileo Galilei"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nicolaus Copernicus"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A virus is a unicellular infectious agent consisting of genetic material encapsulated in a protective protein coat.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The largest semilunar cartilages, also called the menisci, are located in this part of the body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Knee"
+            },
+            {
+              "id": "1",
+              "text": "Jaw"
+            },
+            {
+              "id": "2",
+              "text": "Shoulder"
+            },
+            {
+              "id": "3",
+              "text": "Hip"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Knee"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the most common reason for water waste?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Washing Machines"
+            },
+            {
+              "id": "1",
+              "text": "Showers"
+            },
+            {
+              "id": "2",
+              "text": "Dish Washers"
+            },
+            {
+              "id": "3",
+              "text": "Brushing your teeth"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Showers"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This commercially available non-toxic gas makes up 25% of the Suns mass.  It is used in deep diving to reduce the effects of narcosis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "nitrogen"
+            },
+            {
+              "id": "1",
+              "text": "hydrogen"
+            },
+            {
+              "id": "2",
+              "text": "helium"
+            },
+            {
+              "id": "3",
+              "text": "carbon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: helium"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the ligament that attaches to the head of the femur and the acetabulum.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ligamentus Trigemini"
+            },
+            {
+              "id": "1",
+              "text": "Ligamentum Tores"
+            },
+            {
+              "id": "2",
+              "text": "Ligamentus Iliopsoas"
+            },
+            {
+              "id": "3",
+              "text": "Ligamentum Teres"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ligamentum Teres"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "cartilages",
+          "people",
+          "astronomer",
+          "cultures",
+          "aristarchus"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Mars and Surface",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, astronomer, valles. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Can you donate any electrical items to a recycling dump place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Located along the Martian equator, Valles Marineris is a canyon much bigger than the Grand Canyon on Earth. How long is it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4,000 km long."
+            },
+            {
+              "id": "1",
+              "text": "750 km long."
+            },
+            {
+              "id": "2",
+              "text": "Just under 500 km long."
+            },
+            {
+              "id": "3",
+              "text": "2,500 km long."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 4,000 km long."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The atmosphere of Mars is mostly composed of what element?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Methane"
+            },
+            {
+              "id": "1",
+              "text": "Oxygen"
+            },
+            {
+              "id": "2",
+              "text": "Hydrogen"
+            },
+            {
+              "id": "3",
+              "text": "Carbon Dioxide"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Carbon Dioxide"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What astronomer was the first to see canali on the surface of Mars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sir Isaac Newton"
+            },
+            {
+              "id": "1",
+              "text": "Giovanni Shiaparelli"
+            },
+            {
+              "id": "2",
+              "text": "Galileo"
+            },
+            {
+              "id": "3",
+              "text": "Percival Lowell"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Giovanni Shiaparelli"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The water bottle is the most popular type of drink container found in garbage cans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fibromyalgia is most common in women.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mars has the tallest known mountain in the Solar System. What is its name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arsia Mons"
+            },
+            {
+              "id": "1",
+              "text": "Syrtis Major"
+            },
+            {
+              "id": "2",
+              "text": "Olympus Mons"
+            },
+            {
+              "id": "3",
+              "text": "Tharsis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Olympus Mons"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the first spacecraft to study Mars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Viking 1"
+            },
+            {
+              "id": "1",
+              "text": "Mars 2"
+            },
+            {
+              "id": "2",
+              "text": "Viking 2"
+            },
+            {
+              "id": "3",
+              "text": "Mariner 4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mariner 4"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Can you recycle food scraps?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The planet Mars is named after which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Candy Bar"
+            },
+            {
+              "id": "1",
+              "text": "Roman God of Peace"
+            },
+            {
+              "id": "2",
+              "text": "Roman God of War"
+            },
+            {
+              "id": "3",
+              "text": "Greek God of the Sea"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Roman God of War"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these can help produce pencils, without cutting down trees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "leaves"
+            },
+            {
+              "id": "1",
+              "text": "benches"
+            },
+            {
+              "id": "2",
+              "text": "jeans"
+            },
+            {
+              "id": "3",
+              "text": "branches"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: jeans"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was fibromyalgia recognized as an illness by the American Medical Association?",
+          "options": [
+            {
+              "id": "0",
+              "text": "in the 1990s"
+            },
+            {
+              "id": "1",
+              "text": "in the 1960s"
+            },
+            {
+              "id": "2",
+              "text": "in the 1970s"
+            },
+            {
+              "id": "3",
+              "text": "in the 1980s"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: in the 1980s"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of weather pattern on Mars can obscure the surface from view?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thunder Storms"
+            },
+            {
+              "id": "1",
+              "text": "Dust Storms"
+            },
+            {
+              "id": "2",
+              "text": "Hurricanes"
+            },
+            {
+              "id": "3",
+              "text": "Snow Storms"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dust Storms"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mars takes about how many Earth days to travel once around the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "243"
+            },
+            {
+              "id": "1",
+              "text": "687"
+            },
+            {
+              "id": "2",
+              "text": "466"
+            },
+            {
+              "id": "3",
+              "text": "890"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 687"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mars has two natural satellites. What are their names?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phobos and Deimos"
+            },
+            {
+              "id": "1",
+              "text": "Vulcan and Apollo"
+            },
+            {
+              "id": "2",
+              "text": "Tom and Jerry"
+            },
+            {
+              "id": "3",
+              "text": "Zeus and Hara"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Phobos and Deimos"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "astronomer",
+          "valles",
+          "food",
+          "following",
+          "equator"
+        ]
+      }
+    }
+  ]
+}

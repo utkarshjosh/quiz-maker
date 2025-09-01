@@ -1,0 +1,2532 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Literature Quiz: Book and Novel",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, seinfeld, books. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote Uncle Toms Cabin, a book which was banned in most of the southern United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Clara Barton"
+            },
+            {
+              "id": "1",
+              "text": "Harriet Beecher Stowe"
+            },
+            {
+              "id": "2",
+              "text": "Thaddeus Stevens"
+            },
+            {
+              "id": "3",
+              "text": "Ambroise Beirce"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Harriet Beecher Stowe"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This famous anti-war novel by Erik Marie Remarque was banned in Nazi Germany.",
+          "options": [
+            {
+              "id": "0",
+              "text": "To Hell and Back"
+            },
+            {
+              "id": "1",
+              "text": "1984"
+            },
+            {
+              "id": "2",
+              "text": "Dr. Caligari"
+            },
+            {
+              "id": "3",
+              "text": "All Quiet on the Western Front"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All Quiet on the Western Front"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote the novel The Satanic Verses which was banned in Bangladesh, Iran, Singapore and Indonesia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sameer Mousheff"
+            },
+            {
+              "id": "1",
+              "text": "Kharam Patel"
+            },
+            {
+              "id": "2",
+              "text": "David Beck"
+            },
+            {
+              "id": "3",
+              "text": "Salmon Rushdie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Salmon Rushdie"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the missile crisis of the 1960s, this book was banned in the USA and the UK.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Lotus Eaters"
+            },
+            {
+              "id": "1",
+              "text": "1984"
+            },
+            {
+              "id": "2",
+              "text": "Brave New World"
+            },
+            {
+              "id": "3",
+              "text": "Down and Out in London and Paris"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1984"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1931 the Province of Hunan, China banned this book.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1984"
+            },
+            {
+              "id": "1",
+              "text": "Go Ask Alice"
+            },
+            {
+              "id": "2",
+              "text": "Alices Adventures in Wonderland"
+            },
+            {
+              "id": "3",
+              "text": "Alices Restaurant"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Alices Adventures in Wonderland"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When the Nazis came to power they banned this short novel by Franz Kafka.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Metamorphosis"
+            },
+            {
+              "id": "1",
+              "text": "The Rights  of  All men"
+            },
+            {
+              "id": "2",
+              "text": "The Satanic Verses"
+            },
+            {
+              "id": "3",
+              "text": "All Quiet on the Western Front"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Metamorphosis"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote the novel Dr. Zhivago which was banned in the Soviet Union until 1988?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ivan Gogol"
+            },
+            {
+              "id": "1",
+              "text": "Boris Pasternak"
+            },
+            {
+              "id": "2",
+              "text": "William F. Buckley"
+            },
+            {
+              "id": "3",
+              "text": "Leon Trotsky"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Boris Pasternak"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these poems was written by Lord George Gordon Byron?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ode To A Grecian Urn"
+            },
+            {
+              "id": "1",
+              "text": "My Lost Youth"
+            },
+            {
+              "id": "2",
+              "text": "She Was A Phantom Of Delight"
+            },
+            {
+              "id": "3",
+              "text": "She Walks In Beauty"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: She Walks In Beauty"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This work was banned in Lebanon for showing Jews, Zionism, and Israel in a favorable light.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Grapes of Wrath"
+            },
+            {
+              "id": "1",
+              "text": "The Diary of a Young  Girl"
+            },
+            {
+              "id": "2",
+              "text": "The Kite Runner"
+            },
+            {
+              "id": "3",
+              "text": "The Rubiyat of Omar Khayyam"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Diary of a Young  Girl"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Seinfeld, Jerry was accused of having this book overdue at the New York Public Library for over 15  years. It was banned in the USA from the 1930s until the 1950s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lady Chatterleys Lover"
+            },
+            {
+              "id": "1",
+              "text": "Moll Flanders"
+            },
+            {
+              "id": "2",
+              "text": "O"
+            },
+            {
+              "id": "3",
+              "text": "The Tropic of Cancer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Tropic of Cancer"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nadine Gordimer won the 1991 Nobel Prize in Literature but many of her works were banned in her  native country. What is her native country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Romania"
+            },
+            {
+              "id": "1",
+              "text": "Belgium"
+            },
+            {
+              "id": "2",
+              "text": "The Soviet Union"
+            },
+            {
+              "id": "3",
+              "text": "The Union of South Africa"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Union of South Africa"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This book by D. H. Lawrence was banned in the USA, the UK and Australia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Great Gatsby"
+            },
+            {
+              "id": "1",
+              "text": "Lady Chatterleys Lover"
+            },
+            {
+              "id": "2",
+              "text": "The Sun Also Rises"
+            },
+            {
+              "id": "3",
+              "text": "The Day of the Locust"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lady Chatterleys Lover"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 18th century erotic novel is one of the most prosecuted and banned books in history.",
+          "options": [
+            {
+              "id": "0",
+              "text": "O"
+            },
+            {
+              "id": "1",
+              "text": "Stella Dallas"
+            },
+            {
+              "id": "2",
+              "text": "Memoirs of a Woman of Pleasure"
+            },
+            {
+              "id": "3",
+              "text": "I Was Curious Yellow"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Memoirs of a Woman of Pleasure"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This book, which was in part the basis for the play Pippin, was banned in the USA for obscenity.",
+          "options": [
+            {
+              "id": "0",
+              "text": "O"
+            },
+            {
+              "id": "1",
+              "text": "Madame Was Not a Lady"
+            },
+            {
+              "id": "2",
+              "text": "Candide"
+            },
+            {
+              "id": "3",
+              "text": "Madame  Bovary"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Candide"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Many communities in California banned this Pulitzer Prize-winning novel and labeled it communist propaganda.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Old Man and the Sea"
+            },
+            {
+              "id": "1",
+              "text": "The Pearl"
+            },
+            {
+              "id": "2",
+              "text": "L.A. Land"
+            },
+            {
+              "id": "3",
+              "text": "The Grapes of Wrath"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Grapes of Wrath"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "seinfeld",
+          "books",
+          "part",
+          "missile",
+          "literature"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Literature Quiz: Hans Christian Andersen and Break",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, deacons, hans. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Edgar Allan Poe write the poem The City in the Sea?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edgar Allan Poe never wrote The City in the Sea"
+            },
+            {
+              "id": "1",
+              "text": "1825"
+            },
+            {
+              "id": "2",
+              "text": "1831"
+            },
+            {
+              "id": "3",
+              "text": "1829"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1831"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From which Hans Christian Andersens fairy tale are the characters Kai and Gerda?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Steadfast Tin Soldier"
+            },
+            {
+              "id": "1",
+              "text": "The Red Shoes"
+            },
+            {
+              "id": "2",
+              "text": "The Little Mermaid"
+            },
+            {
+              "id": "3",
+              "text": "The Snow Queen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Snow Queen"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What present did Hans Christian Andersen receive from King Frederick VI in 1833?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A scholarship"
+            },
+            {
+              "id": "1",
+              "text": "A mansion"
+            },
+            {
+              "id": "2",
+              "text": "A traveling grant"
+            },
+            {
+              "id": "3",
+              "text": "A boat"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A traveling grant"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Hans Christian Andersens first story which was published in 1822?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Tinder Box"
+            },
+            {
+              "id": "1",
+              "text": "A Journey on Foot from Holmens Canal to the East Point of Amager"
+            },
+            {
+              "id": "2",
+              "text": "The Ghost at Palnatokes Grave"
+            },
+            {
+              "id": "3",
+              "text": "The Princess and the Pea"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Ghost at Palnatokes Grave"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which poet wrote the poem beginning with the words-Success is counted sweetest...?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elizabeth Browning"
+            },
+            {
+              "id": "1",
+              "text": "Carol Channing"
+            },
+            {
+              "id": "2",
+              "text": "Emily Bronte"
+            },
+            {
+              "id": "3",
+              "text": "Emily Dickinson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Emily Dickinson"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote the poem Break, Break, Break?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emily Bronte"
+            },
+            {
+              "id": "1",
+              "text": "Oliver Wendell Holmes"
+            },
+            {
+              "id": "2",
+              "text": "Elizabeth Browning"
+            },
+            {
+              "id": "3",
+              "text": "Alfred, Lord Tennyson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alfred, Lord Tennyson"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of literary works did Hans Christian Andersen enjoy reading when he was a child?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Love stories"
+            },
+            {
+              "id": "1",
+              "text": "Gothic novels"
+            },
+            {
+              "id": "2",
+              "text": "Dramatic works"
+            },
+            {
+              "id": "3",
+              "text": "Poems"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dramatic works"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these poems was written by Lord Alfred Tennyson?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Musical Instrument"
+            },
+            {
+              "id": "1",
+              "text": "Peter, Peter, Pumpkin Eater"
+            },
+            {
+              "id": "2",
+              "text": "Ulysses"
+            },
+            {
+              "id": "3",
+              "text": "Calvary Crossing A Ford"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ulysses"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Oliver Wendell Holmes wrote The Chambered Nautilus and The Deacons Masterpiece in the same year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these fairy tales by Hans Christian Andersen starts with a woman who longs to have a child and is given a magic seed by a witch?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Angel"
+            },
+            {
+              "id": "1",
+              "text": "The Wild Swans"
+            },
+            {
+              "id": "2",
+              "text": "The Princess and the Pea"
+            },
+            {
+              "id": "3",
+              "text": "Thumbelina"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Thumbelina"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the author of the poems Meeting at Midnight and Parting in Morning?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emily Bronte"
+            },
+            {
+              "id": "1",
+              "text": "Walt Whitman"
+            },
+            {
+              "id": "2",
+              "text": "Robert Browning"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth Browning"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Browning"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hans Christian Andersen was born on April 2, 1805. What was his nationality?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Swiss"
+            },
+            {
+              "id": "1",
+              "text": "German"
+            },
+            {
+              "id": "2",
+              "text": "Flemish"
+            },
+            {
+              "id": "3",
+              "text": "Danish"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Danish"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Victorian poets Elizabeth Browning and Robert Browning were brother and sister.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What unforgettable character from the novel David Copperfield by Charles Dickens is believed to be based on Hans Christian Andersens personality and appearance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edward Murdstone"
+            },
+            {
+              "id": "1",
+              "text": "David Copperfield"
+            },
+            {
+              "id": "2",
+              "text": "James Steerforth"
+            },
+            {
+              "id": "3",
+              "text": "Uriah Heep"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Uriah Heep"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the childhood of Hans Christian Andersen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He wasnt a very good student."
+            },
+            {
+              "id": "1",
+              "text": "He suffered from dyslexia."
+            },
+            {
+              "id": "2",
+              "text": "He was often abused."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "deacons",
+          "hans",
+          "kind",
+          "meeting",
+          "literature"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Wolves and Shakespearean",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, hans, priest. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Shakespearean tragic heroine is advised by her father to lock herself from Hamlets resort?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gertrude"
+            },
+            {
+              "id": "1",
+              "text": "Viola"
+            },
+            {
+              "id": "2",
+              "text": "Rosaline"
+            },
+            {
+              "id": "3",
+              "text": "Ophelia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ophelia"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Having survived a shipwreck, this character from the comedy Twelfth Night poses as a boy, named Cesario, and enters the service of Duke Orsino.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Viola"
+            },
+            {
+              "id": "1",
+              "text": "Bianca"
+            },
+            {
+              "id": "2",
+              "text": "Cordelia"
+            },
+            {
+              "id": "3",
+              "text": "Olivia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Viola"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Calla Bryn Sturgis, in the book Wolves of the Calla, the ka-tet meet a priest who, together with most of the townsfolk, asks them to protect them against the Wolves. What is the priests name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Father Brautigan"
+            },
+            {
+              "id": "1",
+              "text": "Father Callahan"
+            },
+            {
+              "id": "2",
+              "text": "Father ONeill"
+            },
+            {
+              "id": "3",
+              "text": "Father Ted"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Father Callahan"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The priest in the novel Wolves of the Calla has appeared previously in which Stephen King novel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cujo"
+            },
+            {
+              "id": "1",
+              "text": "Pet Sematary"
+            },
+            {
+              "id": "2",
+              "text": "Salems Lot"
+            },
+            {
+              "id": "3",
+              "text": "Carrie"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Salems Lot"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Shakespearean heroine is not correctly matched with the play in which she appears?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titania - Twelfth Night"
+            },
+            {
+              "id": "1",
+              "text": "The Three Witches - Macbeth"
+            },
+            {
+              "id": "2",
+              "text": "Beatrice - Much Ado About Nothing"
+            },
+            {
+              "id": "3",
+              "text": "Lady Capulet - Romeo and Juliet"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Titania - Twelfth Night"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Shakespearean character, who is the epitome of honesty and loyalty, is disinherited by her father, King Lear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Goneril"
+            },
+            {
+              "id": "1",
+              "text": "Regan"
+            },
+            {
+              "id": "2",
+              "text": "Cordelia"
+            },
+            {
+              "id": "3",
+              "text": "MIranda"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cordelia"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does young Juliet Capulet die in Shakespeares tragedy Romeo and Juliet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She swallows poison."
+            },
+            {
+              "id": "1",
+              "text": "She drowns herself."
+            },
+            {
+              "id": "2",
+              "text": "She stabs herself with a dagger."
+            },
+            {
+              "id": "3",
+              "text": "She is poisoned by Rosaline."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: She stabs herself with a dagger."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Shakespearean heroine elopes with a man of a different race and later becomes an innocent victim of his wrath?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Imogen"
+            },
+            {
+              "id": "1",
+              "text": "Ophelia"
+            },
+            {
+              "id": "2",
+              "text": "Anne"
+            },
+            {
+              "id": "3",
+              "text": "Desdemona"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Desdemona"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The crystal ball in the novel Wolves of the Calla is used by Roland and his ka-tet to travel to 1977 to a borough of New York. Which Borough did they travel to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Queens"
+            },
+            {
+              "id": "1",
+              "text": "New Jersey"
+            },
+            {
+              "id": "2",
+              "text": "Brooklyn"
+            },
+            {
+              "id": "3",
+              "text": "Manhattan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Manhattan"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these fairy tales by Hans Christian Andersen ends with the death of a poor girl in the streets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Little Match Girl"
+            },
+            {
+              "id": "1",
+              "text": "The Shadow"
+            },
+            {
+              "id": "2",
+              "text": "The Happy Family"
+            },
+            {
+              "id": "3",
+              "text": "The Story of a Mother"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Little Match Girl"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a sleepwalking scene, depicted in one of the most popular Shakespearean tragedies, this Queen of Scotland, suffering from a guilty conscience, cries Out, damned spot!",
+          "options": [
+            {
+              "id": "0",
+              "text": "Queen Gertrude"
+            },
+            {
+              "id": "1",
+              "text": "Imogen"
+            },
+            {
+              "id": "2",
+              "text": "Isabel"
+            },
+            {
+              "id": "3",
+              "text": "Lady Macbeth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lady Macbeth"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Shakespearean character is resented by her son for marrying her husbands brother, Claudius?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lady Macbeth"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth Woodville"
+            },
+            {
+              "id": "2",
+              "text": "Lady Anne Neville"
+            },
+            {
+              "id": "3",
+              "text": "Queen Gertrude"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Queen Gertrude"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Shakespeares history play Richard III, this lady asked Richard, Did you not kill my husband? and got the following reply: Your beauty which did haunt me in my sleep could make me undertake the death of all the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Margaret of Anjou"
+            },
+            {
+              "id": "1",
+              "text": "Queen Elizabeth"
+            },
+            {
+              "id": "2",
+              "text": "The Duchess of York"
+            },
+            {
+              "id": "3",
+              "text": "Lady Anne"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lady Anne"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the headstrong and sharp-tongued woman whose feisty spirit is tamed by Petruccio in Shakespeares comedy The Taming of the Shrew?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ophelia"
+            },
+            {
+              "id": "1",
+              "text": "Bianca"
+            },
+            {
+              "id": "2",
+              "text": "Cordelia"
+            },
+            {
+              "id": "3",
+              "text": "Katherina (Kate)"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Katherina (Kate)"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the harbor of Copenhagen there is a statue of this enchanting character created by Hans Christian Andersen.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Little Mermaid"
+            },
+            {
+              "id": "1",
+              "text": "The Little Match Girl"
+            },
+            {
+              "id": "2",
+              "text": "The Ugly Duckling"
+            },
+            {
+              "id": "3",
+              "text": "The Snow Queen"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Little Mermaid"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "hans",
+          "priest",
+          "elopes",
+          "scene",
+          "woman"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Literature Quiz: Wolves and Poem",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, people, parts. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This  type of  poem is usually a long poem that tells the story of a significant event or a significant persons life.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hokku"
+            },
+            {
+              "id": "1",
+              "text": "Lyric Poetry"
+            },
+            {
+              "id": "2",
+              "text": "Epic Poetry"
+            },
+            {
+              "id": "3",
+              "text": "Iamb"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Epic Poetry"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of poem is one that is relatively short and tells a story.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Prosdic poem"
+            },
+            {
+              "id": "1",
+              "text": "Lyric poem"
+            },
+            {
+              "id": "2",
+              "text": "Narrative poem"
+            },
+            {
+              "id": "3",
+              "text": "Epode"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Narrative poem"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Wolves in the novel The Wolves of the Calla have an arsenal of weapons, including hand-grenades called what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Landies"
+            },
+            {
+              "id": "1",
+              "text": "Starbombs"
+            },
+            {
+              "id": "2",
+              "text": "Sneetches"
+            },
+            {
+              "id": "3",
+              "text": "Loopers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sneetches"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Wolves of the Calla, Roland and the ka-tet team travelled to New York to protect what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddies brother, Henry, from a drug dealer"
+            },
+            {
+              "id": "1",
+              "text": "The headquarters of the Tet Corporation"
+            },
+            {
+              "id": "2",
+              "text": "Prevent Jake from being killed by Jack Mort"
+            },
+            {
+              "id": "3",
+              "text": "A single red rose growing in a vacant lot"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A single red rose growing in a vacant lot"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Susannah begins to undergo yet another change of character in Wolves of the Calla. What is this characters name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Coral"
+            },
+            {
+              "id": "1",
+              "text": "Rhea"
+            },
+            {
+              "id": "2",
+              "text": "Mia"
+            },
+            {
+              "id": "3",
+              "text": "Susan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mia"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why are the Wolves such a problem to the people of Calla Bryn Sturgis in the novel Wolves of the Calla?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They always beat the Bryn Sturgis soccer team when they visit."
+            },
+            {
+              "id": "1",
+              "text": "They have awful table manners."
+            },
+            {
+              "id": "2",
+              "text": "They come down from the mountains and kill all of the sheep, which are the main livestock in the area."
+            },
+            {
+              "id": "3",
+              "text": "They abduct one twin of a pair from a family whenever they appear."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They abduct one twin of a pair from a family whenever they appear."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this type of poem, the first letters of each line help give the meaning of the poem.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Iamb"
+            },
+            {
+              "id": "1",
+              "text": "Ode"
+            },
+            {
+              "id": "2",
+              "text": "Lyric"
+            },
+            {
+              "id": "3",
+              "text": "Acrostic"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Acrostic"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which book by Mark Twain does the following phrase appear:  Lead us into temptation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Prince and the Pauper"
+            },
+            {
+              "id": "1",
+              "text": "A Connecticut Yankee in King Arthurs Court"
+            },
+            {
+              "id": "2",
+              "text": "The Man That Corrupted Hadleyburg"
+            },
+            {
+              "id": "3",
+              "text": "The Mysterious Stranger"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Man That Corrupted Hadleyburg"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of poem consists of 14 lines with this rhyme pattern: abba cddc effe gg",
+          "options": [
+            {
+              "id": "0",
+              "text": "Acrostic"
+            },
+            {
+              "id": "1",
+              "text": "Sonnet"
+            },
+            {
+              "id": "2",
+              "text": "Ode"
+            },
+            {
+              "id": "3",
+              "text": "Strophe"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sonnet"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which word means a set of two lines in a poem?",
+          "options": [
+            {
+              "id": "0",
+              "text": "iamb"
+            },
+            {
+              "id": "1",
+              "text": "caesura"
+            },
+            {
+              "id": "2",
+              "text": "bisody"
+            },
+            {
+              "id": "3",
+              "text": "couplet"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: couplet"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This expression means an audible pause that breaks up a line of poetry.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rubiyat"
+            },
+            {
+              "id": "1",
+              "text": "Hokku"
+            },
+            {
+              "id": "2",
+              "text": "Shwa"
+            },
+            {
+              "id": "3",
+              "text": "Caesura"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Caesura"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a type of Japanese poem that is made of three parts; the first has five syllables, the second seven and the third have five.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hokku"
+            },
+            {
+              "id": "1",
+              "text": "Haiku"
+            },
+            {
+              "id": "2",
+              "text": "Jintishi"
+            },
+            {
+              "id": "3",
+              "text": "Basho"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Haiku"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When the priest first appeared near Calla Bryn Sturgis in the book Wolves of the Calla, he was found by a religious group. What is their name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wolves"
+            },
+            {
+              "id": "1",
+              "text": "Taheen"
+            },
+            {
+              "id": "2",
+              "text": "Manni"
+            },
+            {
+              "id": "3",
+              "text": "Crimson Acolytes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Manni"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a type of Chinese poetry .",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rubiyat"
+            },
+            {
+              "id": "1",
+              "text": "Hokku"
+            },
+            {
+              "id": "2",
+              "text": "Haiku"
+            },
+            {
+              "id": "3",
+              "text": "Jintishi"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jintishi"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This  type of poem is typified by a great poem by Omar Khayyam",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jintishi"
+            },
+            {
+              "id": "1",
+              "text": "Haiku"
+            },
+            {
+              "id": "2",
+              "text": "Hokku"
+            },
+            {
+              "id": "3",
+              "text": "Rubiyat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rubiyat"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "people",
+          "parts",
+          "line",
+          "wolves",
+          "letters"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Literature Quiz: Book and Mark Twain",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, halleys, papas. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This poet wrote the poems Moss Gathering and My Papas Waltz in 1948 and Elegy for Jane in 1953.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Theodore Roethke"
+            },
+            {
+              "id": "1",
+              "text": "Gwendolyn Brooks"
+            },
+            {
+              "id": "2",
+              "text": "Robert Hayden"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth Bishop"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Theodore Roethke"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Mark Twain book is the following quote from: Tom lost his temper.  I notice a person most always does that\u2019s got laid out in an argument. He told us to shut up.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Innocents Abroad"
+            },
+            {
+              "id": "1",
+              "text": "Captain Stormfield Visists Heaven"
+            },
+            {
+              "id": "2",
+              "text": "Tom Sawyer Abroad"
+            },
+            {
+              "id": "3",
+              "text": "The Adventures of Tom Sawyer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tom Sawyer Abroad"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which poet wrote the poems The Germ, Listen, A Word to Husbands, and Very Like a Whale?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ogden Nash"
+            },
+            {
+              "id": "1",
+              "text": "W. H. Auden"
+            },
+            {
+              "id": "2",
+              "text": "C. Day Lewis"
+            },
+            {
+              "id": "3",
+              "text": "Langston Hughes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ogden Nash"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gwendolyn Brooks wrote all of the following poems except one. Can you find the odd one out?",
+          "options": [
+            {
+              "id": "0",
+              "text": "We Real Cool"
+            },
+            {
+              "id": "1",
+              "text": "The Ballad of Sue Ellen Westerfield"
+            },
+            {
+              "id": "2",
+              "text": "Way Out Morgan"
+            },
+            {
+              "id": "3",
+              "text": "The Chicago Defender Sends A Man To Little Rock"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Ballad of Sue Ellen Westerfield"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these poems was not written by Robert Lowell?",
+          "options": [
+            {
+              "id": "0",
+              "text": "For the Union Dead"
+            },
+            {
+              "id": "1",
+              "text": "The Mouth of the Hudson"
+            },
+            {
+              "id": "2",
+              "text": "Grandparents"
+            },
+            {
+              "id": "3",
+              "text": "Digging for China"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Digging for China"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The difference between a cat and a lie is that the cat only has nine lives. Which book by Mark Twain is this quote from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pudd nhead Willson"
+            },
+            {
+              "id": "1",
+              "text": "Tom Sawyer"
+            },
+            {
+              "id": "2",
+              "text": "Roughing It"
+            },
+            {
+              "id": "3",
+              "text": "The Innocents Abroad"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pudd nhead Willson"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of these poems were written by Allen Ginsberg except one. Which one was written by poet James Dickey?",
+          "options": [
+            {
+              "id": "0",
+              "text": "My Sad Self"
+            },
+            {
+              "id": "1",
+              "text": "Howl"
+            },
+            {
+              "id": "2",
+              "text": "The Beholders"
+            },
+            {
+              "id": "3",
+              "text": "A Supermarket in California"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Beholders"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What book by Mark Twain does this quote come from: In mans heaven...it shall contain each and every thing that is repulsive to a man, and not a single thing he likes....it pays no compliment to the intellect...in fact never even mentions it. ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Letters From the Earth"
+            },
+            {
+              "id": "1",
+              "text": "Roughing It"
+            },
+            {
+              "id": "2",
+              "text": "The Innocents Abroad"
+            },
+            {
+              "id": "3",
+              "text": "Huckleberry Finn"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Letters From the Earth"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I came in with Halleys Comet...it will be the greatest disappointment of my life if I dont go out with it. is a quote from what book by Mark Twain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Autobiography of Mark Twain"
+            },
+            {
+              "id": "1",
+              "text": "Tom Sawyer"
+            },
+            {
+              "id": "2",
+              "text": "The Gilded Age"
+            },
+            {
+              "id": "3",
+              "text": "Letters From the Earth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Autobiography of Mark Twain"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Mark Twain book is the following line from: All right, then, Ill go to hell!?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Life on the Mississippi"
+            },
+            {
+              "id": "1",
+              "text": "Huckleberry Finn"
+            },
+            {
+              "id": "2",
+              "text": "Captain Stormfield Visits Heaven"
+            },
+            {
+              "id": "3",
+              "text": "The Diary of Adam and Eve"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Huckleberry Finn"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following poems was not written by C. Day Lewis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Almost Human"
+            },
+            {
+              "id": "1",
+              "text": "The Unknown Citizen"
+            },
+            {
+              "id": "2",
+              "text": "Newsreel"
+            },
+            {
+              "id": "3",
+              "text": "Come, Live With Me And Be My Love"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Unknown Citizen"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What book does the following quote come from: You dont know me without you have read a book by the name of The Adventures of Tom Sawyer, but that aint no matter. ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Huckleberry Finn"
+            },
+            {
+              "id": "1",
+              "text": "The Gilded Age"
+            },
+            {
+              "id": "2",
+              "text": "Letters From the Earth"
+            },
+            {
+              "id": "3",
+              "text": "Life on the Mississippi"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Huckleberry Finn"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What book by Mark Twain is the following excerpt from: If man could be crossed with a cat - it would improve man - but it would deteriorate the cat.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Autobiography of Mark Twain"
+            },
+            {
+              "id": "1",
+              "text": "Puddnhead Wilson"
+            },
+            {
+              "id": "2",
+              "text": "Life on the Mississippi"
+            },
+            {
+              "id": "3",
+              "text": "Huckleberry Finn"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Autobiography of Mark Twain"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From which Mark Twain book does the following line come: \u201cI never felt so filled with a blessed peace as I did yesterday - when I learned that Michangelo was dead.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Prince and the Pauper"
+            },
+            {
+              "id": "1",
+              "text": "Roughing it"
+            },
+            {
+              "id": "2",
+              "text": "Life on the Mississippi"
+            },
+            {
+              "id": "3",
+              "text": "The Innocents Abroad"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Innocents Abroad"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I wish I owned half of that dog.  Why? somebody asked.  Because I would kill my half is a conversation from what book by Mark Twain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Puddnhead Wilson"
+            },
+            {
+              "id": "1",
+              "text": "The Adventures of Tom Sawyer."
+            },
+            {
+              "id": "2",
+              "text": "The Autobiography of Mark Twain"
+            },
+            {
+              "id": "3",
+              "text": "Life on the Mississippi"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Puddnhead Wilson"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "halleys",
+          "papas",
+          "poet",
+          "quote",
+          "germ"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: John Steinbeck and Book",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, john, massachusetts. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the sequel to John Steinbecks 1945 book Cannery Row.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Pearl"
+            },
+            {
+              "id": "1",
+              "text": "The Wayward Bus"
+            },
+            {
+              "id": "2",
+              "text": "East of Eden"
+            },
+            {
+              "id": "3",
+              "text": "Sweet Thursday"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sweet Thursday"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During World War II John Steinbeck worked as a war correspondent for this newspaper.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Herald Tribune"
+            },
+            {
+              "id": "1",
+              "text": "San Francisco Chronicle"
+            },
+            {
+              "id": "2",
+              "text": "The New York Times"
+            },
+            {
+              "id": "3",
+              "text": "Los Angeles Times"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: New York Herald Tribune"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1960 John Steinbeck set off on a trip around America, which he described in a book. What name did Steinbeck give to the vehicle he used during the trip?",
+          "options": [
+            {
+              "id": "0",
+              "text": "America"
+            },
+            {
+              "id": "1",
+              "text": "Rocinante"
+            },
+            {
+              "id": "2",
+              "text": "Charley"
+            },
+            {
+              "id": "3",
+              "text": "Don Quihote"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rocinante"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He graduated from Harvard in 1916. He wrote The Enormous Room (1922) about a prison camp during WWI.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gary Porter"
+            },
+            {
+              "id": "1",
+              "text": "e.e. cummings"
+            },
+            {
+              "id": "2",
+              "text": "Robert Frost"
+            },
+            {
+              "id": "3",
+              "text": "Ernest Hemingway"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: e.e. cummings"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He is largely considered to be the most popular American poet of the 19th century as well as the first professional American poet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nathaniel Hawthorne"
+            },
+            {
+              "id": "1",
+              "text": "Edgar Allen Poe"
+            },
+            {
+              "id": "2",
+              "text": "Robert Frost"
+            },
+            {
+              "id": "3",
+              "text": "Henry Wadsworth Longfellow"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Henry Wadsworth Longfellow"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What prize did John Steinbeck receive in 1962?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Drama Critics Circle Award"
+            },
+            {
+              "id": "1",
+              "text": "Nobel Prize for Literature"
+            },
+            {
+              "id": "2",
+              "text": "Commonwealth Club of California Gold Medal for Best Novel by a Californian"
+            },
+            {
+              "id": "3",
+              "text": "Pulitzer Prize Fiction Award"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nobel Prize for Literature"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Upon its publishing in 1939 this book by John Steinbeck was banned from public schools and libraries in a lot of places in America.",
+          "options": [
+            {
+              "id": "0",
+              "text": "To a God Unknown"
+            },
+            {
+              "id": "1",
+              "text": "In Dubious Battle"
+            },
+            {
+              "id": "2",
+              "text": "The Moon Is Down"
+            },
+            {
+              "id": "3",
+              "text": "The Grapes of Wrath"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Grapes of Wrath"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She was born in 1830 in Amherst, Massachusetts, and bore the same first name as her mother.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jane Austin"
+            },
+            {
+              "id": "1",
+              "text": "Emily Dickinson"
+            },
+            {
+              "id": "2",
+              "text": "Sylvia Plath"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth Barrett Browning"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Emily Dickinson"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which 20th century poet wrote the phrase Candy is Dandy, But Liquor is Quicker?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ogden Nash"
+            },
+            {
+              "id": "1",
+              "text": "James Dickey"
+            },
+            {
+              "id": "2",
+              "text": "Dylan Thomas"
+            },
+            {
+              "id": "3",
+              "text": "Allen Ginsberg"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ogden Nash"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following women was not married to John Steinbeck?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carol Henning Steinbeck Brown"
+            },
+            {
+              "id": "1",
+              "text": "Elaine Anderson Scott Steinbeck"
+            },
+            {
+              "id": "2",
+              "text": "Gwyndolyn Conger Steinbeck"
+            },
+            {
+              "id": "3",
+              "text": "Mary Steinbeck Dekker"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mary Steinbeck Dekker"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following books by John Steinbeck won a Pulitzer prize?",
+          "options": [
+            {
+              "id": "0",
+              "text": "East of Eden"
+            },
+            {
+              "id": "1",
+              "text": "none of these"
+            },
+            {
+              "id": "2",
+              "text": "Of Mice and Men"
+            },
+            {
+              "id": "3",
+              "text": "The Grapes of Wrath"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Grapes of Wrath"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "George Milton and Lennie Small were characters in which book by John Steinbeck?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Wayward Bus"
+            },
+            {
+              "id": "1",
+              "text": "Of Mice and Men"
+            },
+            {
+              "id": "2",
+              "text": "The Pearl"
+            },
+            {
+              "id": "3",
+              "text": "Cannery Row"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Of Mice and Men"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was John Steinbecks first published novel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tortilla Flat"
+            },
+            {
+              "id": "1",
+              "text": "The Red Pony"
+            },
+            {
+              "id": "2",
+              "text": "Cup of Gold"
+            },
+            {
+              "id": "3",
+              "text": "The Pastures of Heaven"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cup of Gold"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which poet wrote the poems Still I Rise, I Know Why the Caged Bird Sings, and Remembrance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elizabeth Bishop"
+            },
+            {
+              "id": "1",
+              "text": "Gwendolyn Brooks"
+            },
+            {
+              "id": "2",
+              "text": "Anne Sexton"
+            },
+            {
+              "id": "3",
+              "text": "Maya Angelou"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Maya Angelou"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Steinbeck was born in 1902 in this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York City"
+            },
+            {
+              "id": "1",
+              "text": "Salinas, California"
+            },
+            {
+              "id": "2",
+              "text": "Moscow, Soviet Union"
+            },
+            {
+              "id": "3",
+              "text": "Heiligenhaus, Germany"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Salinas, California"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "john",
+          "massachusetts",
+          "phrase",
+          "books",
+          "world"
+        ]
+      }
+    }
+  ]
+}

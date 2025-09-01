@@ -1,0 +1,2524 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: World and Films",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, cartoon, books. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If I were to visit the wrist-wrestling capital of the world, where would I go?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Riga, Latvia"
+            },
+            {
+              "id": "1",
+              "text": "Sofia, Bulgaria"
+            },
+            {
+              "id": "2",
+              "text": "Norman, Oklahoma"
+            },
+            {
+              "id": "3",
+              "text": "Petaluma, California."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Petaluma, California."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Shreks sidekick in the films Shrek, Shrek 2, and Shrek the Third?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Puss in Boots"
+            },
+            {
+              "id": "1",
+              "text": "The Frog King"
+            },
+            {
+              "id": "2",
+              "text": "Fairy Godmother"
+            },
+            {
+              "id": "3",
+              "text": "Donkey"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Donkey"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following are old time cartoon characters?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fibber McGee and Molly"
+            },
+            {
+              "id": "1",
+              "text": "Amos and Andy"
+            },
+            {
+              "id": "2",
+              "text": "Mutt and Jeff"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mutt and Jeff"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Disney characters go together?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Mickey and Minnie"
+            },
+            {
+              "id": "2",
+              "text": "Cinderella and Charming"
+            },
+            {
+              "id": "3",
+              "text": "Lady and Tramp"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the Latin terms that refer to plant and animal life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "etcetera and et alia"
+            },
+            {
+              "id": "1",
+              "text": "flora and fauna"
+            },
+            {
+              "id": "2",
+              "text": "habeas and corpus"
+            },
+            {
+              "id": "3",
+              "text": "ipso and facto"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: flora and fauna"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the original name of the melodramatic musical, West Side Story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "War and Love"
+            },
+            {
+              "id": "1",
+              "text": "East Side Story"
+            },
+            {
+              "id": "2",
+              "text": "The Gangs of New York"
+            },
+            {
+              "id": "3",
+              "text": "Jets and Sharks"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: East Side Story"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these great books was first published in 1771?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Encyclopedia Britannica"
+            },
+            {
+              "id": "1",
+              "text": "Gullivers Travels"
+            },
+            {
+              "id": "2",
+              "text": "Roberts Rules of Order"
+            },
+            {
+              "id": "3",
+              "text": "Paradise Lost"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Encyclopedia Britannica"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which word goes with the Oriental symbol Yang?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tao"
+            },
+            {
+              "id": "1",
+              "text": "Yin"
+            },
+            {
+              "id": "2",
+              "text": "Sutra"
+            },
+            {
+              "id": "3",
+              "text": "Ying"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yin"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whose real name was Leonard Sly?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roy Rogers"
+            },
+            {
+              "id": "1",
+              "text": "Leonardo DiCaprio"
+            },
+            {
+              "id": "2",
+              "text": "Gerald Ford"
+            },
+            {
+              "id": "3",
+              "text": "Leonard Nimoy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Roy Rogers"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is the Henry Ford museum located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit"
+            },
+            {
+              "id": "1",
+              "text": "Taos"
+            },
+            {
+              "id": "2",
+              "text": "Greenfield Village"
+            },
+            {
+              "id": "3",
+              "text": "Dearborn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Greenfield Village"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Harry Potters best friend and schoolmate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neville Longbottom"
+            },
+            {
+              "id": "1",
+              "text": "Sirius Black"
+            },
+            {
+              "id": "2",
+              "text": "Albus Dumbledore"
+            },
+            {
+              "id": "3",
+              "text": "Ron Weasley"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ron Weasley"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The student Rosencrantz is coupled with what fellow student?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hamlet"
+            },
+            {
+              "id": "1",
+              "text": "Waskowitcz"
+            },
+            {
+              "id": "2",
+              "text": "Rabinowski"
+            },
+            {
+              "id": "3",
+              "text": "Guildenstern"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Guildenstern"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the legendary founders of  the city of Rome?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Romulus and Remus"
+            },
+            {
+              "id": "1",
+              "text": "Castor and Pollux"
+            },
+            {
+              "id": "2",
+              "text": "Troilus and Cressida"
+            },
+            {
+              "id": "3",
+              "text": "Damon and Pythias"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Romulus and Remus"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Nero Wolfs legman and confidant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dr. Watson"
+            },
+            {
+              "id": "1",
+              "text": "Coleman his butler"
+            },
+            {
+              "id": "2",
+              "text": "Rex Stout"
+            },
+            {
+              "id": "3",
+              "text": "Archie Goodwin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Archie Goodwin"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the only US state to have two Ivy League colleges in it ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Connecticut"
+            },
+            {
+              "id": "1",
+              "text": "New Jersey"
+            },
+            {
+              "id": "2",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New York"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "cartoon",
+          "books",
+          "world",
+          "ford",
+          "legman"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "History Quiz: Word and Type",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, period, language. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Orange River is the longest river in which country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Canada"
+            },
+            {
+              "id": "1",
+              "text": "Republic of South Africa"
+            },
+            {
+              "id": "2",
+              "text": "Chile"
+            },
+            {
+              "id": "3",
+              "text": "Australia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Republic of South Africa"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is no word in the English language that rhymes with orange.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the two famous streets that were the heart of the hippie movement.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Haight and Ashbury"
+            },
+            {
+              "id": "1",
+              "text": "Hollywood and Vine"
+            },
+            {
+              "id": "2",
+              "text": "Times Square and 42nd Street"
+            },
+            {
+              "id": "3",
+              "text": "Washington Square and Alphabet City"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Haight and Ashbury"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of insect is the Orange Tip?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grasshopper"
+            },
+            {
+              "id": "1",
+              "text": "Ladybug"
+            },
+            {
+              "id": "2",
+              "text": "Moth"
+            },
+            {
+              "id": "3",
+              "text": "Butterfly"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Butterfly"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What two colors are mixed together to get orange?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yellow and green"
+            },
+            {
+              "id": "1",
+              "text": "Blue and red"
+            },
+            {
+              "id": "2",
+              "text": "White and blue"
+            },
+            {
+              "id": "3",
+              "text": "Red and yellow"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Red and yellow"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 7-year-old pilot trainee died in her attempt to become the youngest person to fly a plane across the United States.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lisa Blair Hathaway"
+            },
+            {
+              "id": "1",
+              "text": "Lisa Dubroff"
+            },
+            {
+              "id": "2",
+              "text": "Jessica Dubroff"
+            },
+            {
+              "id": "3",
+              "text": "Jane Hathaway"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jessica Dubroff"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which word refers to a specialized type of building in a garden that is used for the growing of citrus trees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Orange garden"
+            },
+            {
+              "id": "1",
+              "text": "Orangeton"
+            },
+            {
+              "id": "2",
+              "text": "Orangery"
+            },
+            {
+              "id": "3",
+              "text": "Orange-greenhouse"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Orangery"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This word refers to the ancient art of aerodynamically stabilizing arrows from materials, such as feathers or modern plastics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Feathereting"
+            },
+            {
+              "id": "1",
+              "text": "Fletching"
+            },
+            {
+              "id": "2",
+              "text": "Cooperring"
+            },
+            {
+              "id": "3",
+              "text": "Chancelloring"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fletching"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Suleiman the Magnificent personally led Ottoman armies to conquer Belgrade, Rhodes, and most of Hungary.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the essential oil made from the blossom of the bitter orange?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lavender"
+            },
+            {
+              "id": "1",
+              "text": "Natterdum"
+            },
+            {
+              "id": "2",
+              "text": "Neroli"
+            },
+            {
+              "id": "3",
+              "text": "Orange oilscent"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Neroli"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which famous painter, a representative of the romantic period, delivered the following words: Artists who seek perfection in everything are those who cannot attain it in anything.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Picasso"
+            },
+            {
+              "id": "1",
+              "text": "Modigliani"
+            },
+            {
+              "id": "2",
+              "text": "Renoir"
+            },
+            {
+              "id": "3",
+              "text": "Delacroix"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Delacroix"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Stanley Kubrick direct his Oscar-nominated film A Clockwork Orange?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1971"
+            },
+            {
+              "id": "1",
+              "text": "1970"
+            },
+            {
+              "id": "2",
+              "text": "1972"
+            },
+            {
+              "id": "3",
+              "text": "1969"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1971"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1927 Austrian baker and confectioner, Eduard Haas invented what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The electric mixer"
+            },
+            {
+              "id": "1",
+              "text": "AM radio"
+            },
+            {
+              "id": "2",
+              "text": "The CAT scan"
+            },
+            {
+              "id": "3",
+              "text": "PEZ candy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: PEZ candy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Orange Pekoe is a type of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tropical Fish"
+            },
+            {
+              "id": "1",
+              "text": "Gemstone"
+            },
+            {
+              "id": "2",
+              "text": "Tea"
+            },
+            {
+              "id": "3",
+              "text": "Wildflower"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tea"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nationality of William III of England who was often called William of Orange?",
+          "options": [
+            {
+              "id": "0",
+              "text": "French"
+            },
+            {
+              "id": "1",
+              "text": "Spanish"
+            },
+            {
+              "id": "2",
+              "text": "English"
+            },
+            {
+              "id": "3",
+              "text": "Dutch"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dutch"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "period",
+          "language",
+          "blossom",
+          "film",
+          "river"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Award and Maryland",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, john, sergeant. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Chinese city, the capital of Hubei province, lies at the confluence of the Yangtze River and Han River.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xia Jong"
+            },
+            {
+              "id": "1",
+              "text": "Fujian"
+            },
+            {
+              "id": "2",
+              "text": "Wuhan"
+            },
+            {
+              "id": "3",
+              "text": "Shanghai"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wuhan"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do American Presidents John Quincy Adams, Rutherford B. Hayes, Benjamin Harrison and George W. Bush all have in common?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They all were re-elected."
+            },
+            {
+              "id": "1",
+              "text": "They won the electoral vote but not the popular vote."
+            },
+            {
+              "id": "2",
+              "text": "They all were senators."
+            },
+            {
+              "id": "3",
+              "text": "They all served as vice-presidents."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They won the electoral vote but not the popular vote."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This island, which is a French territory, is located in the Indian Ocean, east of Madagascar, about 200 km southwest of Mauritius.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saint Denis"
+            },
+            {
+              "id": "1",
+              "text": "Cilaos"
+            },
+            {
+              "id": "2",
+              "text": "Reunion"
+            },
+            {
+              "id": "3",
+              "text": "San Guadalupe"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Reunion"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This prion disease is also known as laughing sickness due to the outbursts of laughter that mark its second phase.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Creutzfeldt-Jakob Disease"
+            },
+            {
+              "id": "1",
+              "text": "Kuru"
+            },
+            {
+              "id": "2",
+              "text": "Scrapie"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kuru"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1968 song, recorded by the Beatles, was written by Paul McCartney, who wanted to cheer up Lennons son, Julian.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lucy in the Sky with Diamonds"
+            },
+            {
+              "id": "1",
+              "text": "While My Guitar Gently Weeps"
+            },
+            {
+              "id": "2",
+              "text": "Hey Jude"
+            },
+            {
+              "id": "3",
+              "text": "Happy Birthday"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hey Jude"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did President Franklin Roosevelt give the approval for dropping the first atom bomb on Japan?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He never did"
+            },
+            {
+              "id": "1",
+              "text": "1946"
+            },
+            {
+              "id": "2",
+              "text": "1945"
+            },
+            {
+              "id": "3",
+              "text": "1944"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He never did"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What award was given to President George W. Bush in 2004?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Stillman Award for Leadership"
+            },
+            {
+              "id": "1",
+              "text": "The Raspberry Award for worst leading actor"
+            },
+            {
+              "id": "2",
+              "text": "The Hendley Award for Great Americans"
+            },
+            {
+              "id": "3",
+              "text": "The Thurbridge Award  for Freedom"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Raspberry Award for worst leading actor"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This US President granted a posthumous pardon to Robert Edward Lee, a general of the Confederate forces during the American Civil War.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Nixon"
+            },
+            {
+              "id": "1",
+              "text": "John Kennedy"
+            },
+            {
+              "id": "2",
+              "text": "Gerald Ford"
+            },
+            {
+              "id": "3",
+              "text": "Lyndon Johnson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gerald Ford"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gunnery sergeant John Basilone of the US Marine Corps, was awarded the Medal of Honor for what reason?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Outstanding heroism during the attack on Pearl Harbour"
+            },
+            {
+              "id": "1",
+              "text": "Outstanding heroism during the Vietnam War"
+            },
+            {
+              "id": "2",
+              "text": "Outstanding heroism at Guadalcanal during World War II"
+            },
+            {
+              "id": "3",
+              "text": "Outstanding heroism during the Gulf Wars"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Outstanding heroism at Guadalcanal during World War II"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The world-class hospital in Maryland was named after a person whose last name was Hopkins. What was his first name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johns"
+            },
+            {
+              "id": "1",
+              "text": "Reed"
+            },
+            {
+              "id": "2",
+              "text": "John"
+            },
+            {
+              "id": "3",
+              "text": "James"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Johns"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city, nicknamed The Mile-High City, is located on the plains east of the Rocky Mountains?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aurora, Colorado"
+            },
+            {
+              "id": "1",
+              "text": "Aspen, Colorado"
+            },
+            {
+              "id": "2",
+              "text": "Phoenix, Arizona"
+            },
+            {
+              "id": "3",
+              "text": "Denver, Colorado"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Denver, Colorado"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This movie, directed by Bo Welch, won the 2003 Raspberry award in the category, Worst Excuse for an Actual Movie.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charlies Angels:Full Throttle"
+            },
+            {
+              "id": "1",
+              "text": "Gigli"
+            },
+            {
+              "id": "2",
+              "text": "Cat in the Hat"
+            },
+            {
+              "id": "3",
+              "text": "From Justin to Kelly"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cat in the Hat"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Warren Commission, was established on November 29, 1963 by Lyndon B. Johnson to investigate what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The war crimes in Vietnam"
+            },
+            {
+              "id": "1",
+              "text": "The shooting at Kensington University"
+            },
+            {
+              "id": "2",
+              "text": "The assassination of John F. Kennedy"
+            },
+            {
+              "id": "3",
+              "text": "The Watergate Scandal"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The assassination of John F. Kennedy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This annual plant, also called brinjal, is native to southern India and Sri Lanka.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eggplant"
+            },
+            {
+              "id": "1",
+              "text": "Tomato"
+            },
+            {
+              "id": "2",
+              "text": "Cucumber"
+            },
+            {
+              "id": "3",
+              "text": "Yam"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eggplant"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2004, this famous show business family became the second clan to have three generations of Oscar winners.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Douglases"
+            },
+            {
+              "id": "1",
+              "text": "The Coppolas"
+            },
+            {
+              "id": "2",
+              "text": "The Howards"
+            },
+            {
+              "id": "3",
+              "text": "The Weavers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Coppolas"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "john",
+          "sergeant",
+          "presidents",
+          "maryland",
+          "commission"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Following and Letters",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, table, following. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following are well known English puppets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kukla Fran and Ollie"
+            },
+            {
+              "id": "1",
+              "text": "Chip and Dale"
+            },
+            {
+              "id": "2",
+              "text": "Thomas and Gerald"
+            },
+            {
+              "id": "3",
+              "text": "Punch and Judy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Punch and Judy"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Regardless of its size, approximately this much of an iceberg is visible above the waterline.",
+          "options": [
+            {
+              "id": "0",
+              "text": "3/4"
+            },
+            {
+              "id": "1",
+              "text": "1/3"
+            },
+            {
+              "id": "2",
+              "text": "1/9"
+            },
+            {
+              "id": "3",
+              "text": "1/25"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1/9"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following are among the top female comedy writers in British television?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edie and Patsy"
+            },
+            {
+              "id": "1",
+              "text": "Judi Dench and Patricia Rutledge"
+            },
+            {
+              "id": "2",
+              "text": "Saunders and French"
+            },
+            {
+              "id": "3",
+              "text": "Stephanie and Holly Blue"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Saunders and French"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Teams in the NHL and the NBA both usually play this many regular season games.",
+          "options": [
+            {
+              "id": "0",
+              "text": "82"
+            },
+            {
+              "id": "1",
+              "text": "104"
+            },
+            {
+              "id": "2",
+              "text": "55"
+            },
+            {
+              "id": "3",
+              "text": "96"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 82"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the star-crossed lovers from West Side Story ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nardo and Anita"
+            },
+            {
+              "id": "1",
+              "text": "Juan and Juanita"
+            },
+            {
+              "id": "2",
+              "text": "Tony and Maria"
+            },
+            {
+              "id": "3",
+              "text": "Jose and Jorge"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tony and Maria"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the name of the company that manufactures several first aid remedies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnson and Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Proctor and Gamble"
+            },
+            {
+              "id": "2",
+              "text": "Clark and Lewis"
+            },
+            {
+              "id": "3",
+              "text": "Black and Decker"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Johnson and Johnson"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Over the course of the complete works of William Shakespeare, the bard uses this many different words.",
+          "options": [
+            {
+              "id": "0",
+              "text": "29,066"
+            },
+            {
+              "id": "1",
+              "text": "101,009"
+            },
+            {
+              "id": "2",
+              "text": "3030"
+            },
+            {
+              "id": "3",
+              "text": "15,400"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 29,066"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Before making the change to a decimal based monetary system, one English guinea was comprised of this many shillings.  Coincidentally, it is also the number of letters in the Italian alphabet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "18"
+            },
+            {
+              "id": "2",
+              "text": "29"
+            },
+            {
+              "id": "3",
+              "text": "21"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 21"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following are usually part of every restaurant table setting?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Salt and pepper"
+            },
+            {
+              "id": "1",
+              "text": "Bread and butter"
+            },
+            {
+              "id": "2",
+              "text": "Ketchup and mustard"
+            },
+            {
+              "id": "3",
+              "text": "Olive oil and vinegar"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Salt and pepper"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the game of Scrabble, if a player uses all seven of their letters in a turn, they receive a bonus of how many points?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "100"
+            },
+            {
+              "id": "2",
+              "text": "50"
+            },
+            {
+              "id": "3",
+              "text": "25"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 50"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the name of the American printmaking firm that produced prints by hand-colored lithography: ........... and Ives.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crasnston"
+            },
+            {
+              "id": "1",
+              "text": "Cuttler"
+            },
+            {
+              "id": "2",
+              "text": "Commings"
+            },
+            {
+              "id": "3",
+              "text": "Currier"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Currier"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these comedy teams consists of a husband and wife, whose son is an Emmy Award-winning actor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bergen and McCarthy"
+            },
+            {
+              "id": "1",
+              "text": "Burns and Allen"
+            },
+            {
+              "id": "2",
+              "text": "Shields and Yarnell"
+            },
+            {
+              "id": "3",
+              "text": "Stiller and Meara"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Stiller and Meara"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following were an old-time radio duo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Benny and Dennis Day"
+            },
+            {
+              "id": "1",
+              "text": "George Burns and Gracie Allen"
+            },
+            {
+              "id": "2",
+              "text": "Jack Benny and Mary Livingston"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the two teenagers who were transported into various time periods in a series of movies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George and Henry"
+            },
+            {
+              "id": "1",
+              "text": "Bill and Ted"
+            },
+            {
+              "id": "2",
+              "text": "Joe and Tom"
+            },
+            {
+              "id": "3",
+              "text": "Archie and Reggie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bill and Ted"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the U.S., the maximum term of an issued patent is this many years, from the earliest claimed filing date.",
+          "options": [
+            {
+              "id": "0",
+              "text": "20"
+            },
+            {
+              "id": "1",
+              "text": "17"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 20"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "table",
+          "following",
+          "female",
+          "game",
+          "part"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Book and Price",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, blues, phillips. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This tall actress is famous for her portrayal of Ripley in the film Alien.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sigourney Weaver"
+            },
+            {
+              "id": "1",
+              "text": "Heather Graham"
+            },
+            {
+              "id": "2",
+              "text": "Laura Dern"
+            },
+            {
+              "id": "3",
+              "text": "Sarah Silverman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sigourney Weaver"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the reign of George III, this British politician held the position of Prime Minister from 1783 to 1801, and again from 1804 until his death.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pitt the Younger"
+            },
+            {
+              "id": "1",
+              "text": "Pitt the Elder"
+            },
+            {
+              "id": "2",
+              "text": "Thatcher"
+            },
+            {
+              "id": "3",
+              "text": "Churchill"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pitt the Younger"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Solve for X:",
+          "options": [
+            {
+              "id": "0",
+              "text": "8"
+            },
+            {
+              "id": "1",
+              "text": "24"
+            },
+            {
+              "id": "2",
+              "text": "72"
+            },
+            {
+              "id": "3",
+              "text": "0"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 0"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the end of his historic performance at the Monterey Pop Festival in 1967, this musician set his guitar Fender Stratocaster on fire.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Little Richard"
+            },
+            {
+              "id": "1",
+              "text": "Janis Joplin"
+            },
+            {
+              "id": "2",
+              "text": "Jimi Hendrix"
+            },
+            {
+              "id": "3",
+              "text": "Peter Townsend"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jimi Hendrix"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This rhythm and blues song from 1951 is claimed by the owner of Sun Records, Sam Phillips, to be the first rock and roll song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roll With me Henry"
+            },
+            {
+              "id": "1",
+              "text": "Rocket 88"
+            },
+            {
+              "id": "2",
+              "text": "Rock Around the Clock"
+            },
+            {
+              "id": "3",
+              "text": "Its All Right Baby"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rocket 88"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Greek word, used in Homers works, means virtue or being the best you can be.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Terre firma"
+            },
+            {
+              "id": "1",
+              "text": "Cantus firmus"
+            },
+            {
+              "id": "2",
+              "text": "Hamartia"
+            },
+            {
+              "id": "3",
+              "text": "Arete"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Arete"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This author wrote a book in which the story is told from the view poin of the mulatto slave Cynara, born on the plantation Tata.  The book is a parody of  the novel Gone with the Wind.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maya Angelu"
+            },
+            {
+              "id": "1",
+              "text": "Toni Morrisson"
+            },
+            {
+              "id": "2",
+              "text": "Valerie Drew Pierce"
+            },
+            {
+              "id": "3",
+              "text": "Alice Randall"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alice Randall"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term derives from a Latin word meaning rods bundled around an axe ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fascism"
+            },
+            {
+              "id": "1",
+              "text": "Despot"
+            },
+            {
+              "id": "2",
+              "text": "Caesar"
+            },
+            {
+              "id": "3",
+              "text": "Sovereign"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fascism"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The top price for a ticket to the Super Bowl I in 1967.",
+          "options": [
+            {
+              "id": "0",
+              "text": "$27"
+            },
+            {
+              "id": "1",
+              "text": "$55"
+            },
+            {
+              "id": "2",
+              "text": "$100"
+            },
+            {
+              "id": "3",
+              "text": "$12"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: $12"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Alban W. Phillips is the discoverer of the Phillips Curve. What does this curve show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rising wages favor capital-intensive investments."
+            },
+            {
+              "id": "1",
+              "text": "Inflation is inversely proportional to unemployment."
+            },
+            {
+              "id": "2",
+              "text": "Rising wages favor labor-intensive investments."
+            },
+            {
+              "id": "3",
+              "text": "Property is the real basis for wealth in a capitalistic society."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Inflation is inversely proportional to unemployment."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Homers epic poems, The Iliad and The Odyssey, are made up of this many books each.",
+          "options": [
+            {
+              "id": "0",
+              "text": "24"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "61"
+            },
+            {
+              "id": "3",
+              "text": "15"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 24"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The number of weeks the Barenaked Ladies hit, One Week was #1 on the U.S. Billboard pop chart in 1998.",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1839, while spending the winter with George Sand in Majorca, this composer completed a work  consisting of 24 short preludes. Each prelude was in a different major or minor key.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Schubert"
+            },
+            {
+              "id": "1",
+              "text": "Schumann"
+            },
+            {
+              "id": "2",
+              "text": "Chopin"
+            },
+            {
+              "id": "3",
+              "text": "Lizst"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chopin"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American state, known also as the Silver State, is named after a weather condition?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wyoming"
+            },
+            {
+              "id": "1",
+              "text": "Colorado"
+            },
+            {
+              "id": "2",
+              "text": "Oklahoma"
+            },
+            {
+              "id": "3",
+              "text": "Nevada"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nevada"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Nicolas Cugnot invent the first successful steam-powered road vehicle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1842"
+            },
+            {
+              "id": "1",
+              "text": "1645"
+            },
+            {
+              "id": "2",
+              "text": "1769"
+            },
+            {
+              "id": "3",
+              "text": "1816"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1769"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "blues",
+          "phillips",
+          "pop",
+          "weeks",
+          "price"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Literature Quiz: Year and Organization",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, bach, steve. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Virginia General Assembly was founded in Jamestown in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1774"
+            },
+            {
+              "id": "1",
+              "text": "1719"
+            },
+            {
+              "id": "2",
+              "text": "1819"
+            },
+            {
+              "id": "3",
+              "text": "1619"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1619"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which list contains four of the five basic ballet moves?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cabriole, Arabesque, Pirouettem, Atimitudes"
+            },
+            {
+              "id": "1",
+              "text": "Pirouette, Arabesque, Pas des deux, Grande cabriole"
+            },
+            {
+              "id": "2",
+              "text": "Cabriole, Pirouette, Arabesque , Atimitudes"
+            },
+            {
+              "id": "3",
+              "text": "Fouette, Attitude, Pirouette, Arabesque"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fouette, Attitude, Pirouette, Arabesque"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is true about all objects that emit heat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are all composed of plasmas."
+            },
+            {
+              "id": "1",
+              "text": "They all emit infra-red waves."
+            },
+            {
+              "id": "2",
+              "text": "They all emit ultraviolet rays."
+            },
+            {
+              "id": "3",
+              "text": "They obey Snells Law"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They all emit infra-red waves."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "SMERSH, the organization mentioned in the James Bond film, From Russia with Love, was a real Russian organization.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The USA owns a territory in the Pacific called  The Commonwealth of the Northern Mariana Islands. What is its capital city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pago Pago"
+            },
+            {
+              "id": "1",
+              "text": "Saipan"
+            },
+            {
+              "id": "2",
+              "text": "Agana"
+            },
+            {
+              "id": "3",
+              "text": "Charlotte Amalie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Saipan"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did  Wilhelm Schickard invent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the first automatic calculator"
+            },
+            {
+              "id": "1",
+              "text": "the pneumatic drill"
+            },
+            {
+              "id": "2",
+              "text": "celluloid"
+            },
+            {
+              "id": "3",
+              "text": "the integrated circuit"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the first automatic calculator"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to a study published in the Annals of Neurology, people who regularly come into contact with pesticides are 70 % more likely to develop what disease?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brain Cancer"
+            },
+            {
+              "id": "1",
+              "text": "Alzheimers disease"
+            },
+            {
+              "id": "2",
+              "text": "Jakob-Brezlov disease"
+            },
+            {
+              "id": "3",
+              "text": "Parkinsons disease"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Parkinsons disease"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the last name of Italian brothers Carlo, Bindo, Alfieri, Ettore, and Ernesto who were all in the automobile business?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Romeo"
+            },
+            {
+              "id": "1",
+              "text": "Peugeot"
+            },
+            {
+              "id": "2",
+              "text": "Ferrari"
+            },
+            {
+              "id": "3",
+              "text": "Maserati"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Maserati"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The dram is the monetary unit of this country whose capital city is Yerevan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moldova"
+            },
+            {
+              "id": "1",
+              "text": "Azerbaijan"
+            },
+            {
+              "id": "2",
+              "text": "Armenia"
+            },
+            {
+              "id": "3",
+              "text": "Andorra"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Armenia"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This city state, also called Ragusa, was first to recognize the independence of the newly formed United States of America.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vatican"
+            },
+            {
+              "id": "1",
+              "text": "Dubrovnik"
+            },
+            {
+              "id": "2",
+              "text": "Monaco"
+            },
+            {
+              "id": "3",
+              "text": "Malta"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dubrovnik"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the correct definition for oxter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the armpit"
+            },
+            {
+              "id": "1",
+              "text": "having much snow"
+            },
+            {
+              "id": "2",
+              "text": "walrus ivory"
+            },
+            {
+              "id": "3",
+              "text": "to polish"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the armpit"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Handel, Bach and  Scarlatti were all born in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1685"
+            },
+            {
+              "id": "1",
+              "text": "1789"
+            },
+            {
+              "id": "2",
+              "text": "1785"
+            },
+            {
+              "id": "3",
+              "text": "1613"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1685"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Kojiki and the Nihon Shoki are the sacred texts of which religion?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Taoism"
+            },
+            {
+              "id": "1",
+              "text": "Sikhism"
+            },
+            {
+              "id": "2",
+              "text": "Shinto"
+            },
+            {
+              "id": "3",
+              "text": "Zoroastrianism"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Shinto"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these books was not  written by Steve Allen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Murder Game"
+            },
+            {
+              "id": "1",
+              "text": "Murder in Manhattan"
+            },
+            {
+              "id": "2",
+              "text": "The Talk Show Murders"
+            },
+            {
+              "id": "3",
+              "text": "Murder in the Valley"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Murder in the Valley"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the currency of the Netherlands, before the adoption of the euro?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gulden"
+            },
+            {
+              "id": "1",
+              "text": "Dinar"
+            },
+            {
+              "id": "2",
+              "text": "Krona"
+            },
+            {
+              "id": "3",
+              "text": "Florin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Gulden"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "bach",
+          "steve",
+          "country",
+          "neurology",
+          "definition"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2492 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Gin and Meld",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, discard, making. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of seafood is used in the making of the Korean salad Golbaengi muchim?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Squid"
+            },
+            {
+              "id": "1",
+              "text": "Fish"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Sea snails"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the gin rummy game you should never pick up a speculative discard. That is, you should never pick up a discard without using it in a meld.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If your opponent in the game gin rummy picked up the jack of spades and discarded the queen of spades, what could you conclude?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She probably is collecting jacks."
+            },
+            {
+              "id": "1",
+              "text": "She is about to gin."
+            },
+            {
+              "id": "2",
+              "text": "She doesnt know how to play gin."
+            },
+            {
+              "id": "3",
+              "text": "She most certainly is collecting jacks."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: She probably is collecting jacks."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All other things being equal, which 3-card meld is more likely to be increased to a 4-card meld in the game gin rummy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Queen King of Hearts"
+            },
+            {
+              "id": "1",
+              "text": "Eight Nine Ten of Diamonds"
+            },
+            {
+              "id": "2",
+              "text": "Three Kings"
+            },
+            {
+              "id": "3",
+              "text": "Ace Two Three of Spades"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eight Nine Ten of Diamonds"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The best gin rummy players remember every card played.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are several variations of gin rummy commonly played. Which of the following is INCORRECT?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In Knock Rummy, all face cards are worth 10, and all other cards are worth their face value."
+            },
+            {
+              "id": "1",
+              "text": "In Oklahoma Gin the first up card determines the maximum knock value."
+            },
+            {
+              "id": "2",
+              "text": "In Knock Rummy you can go out even though not all of your cards are used in melds."
+            },
+            {
+              "id": "3",
+              "text": "In conventional Gin Rummy a Queen-King-Ace meld is worth more than a 4-5-6 meld."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: In conventional Gin Rummy a Queen-King-Ace meld is worth more than a 4-5-6 meld."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the gin rummy game which of the following is a triangle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7 of hearts, 8 of clubs, 7 of spades"
+            },
+            {
+              "id": "1",
+              "text": "7 of hearts, 8 of hearts, 6 of hearts"
+            },
+            {
+              "id": "2",
+              "text": "7 of hearts, 8 of hearts, 7 of spades"
+            },
+            {
+              "id": "3",
+              "text": "7 of hearts, 8 of clubs, 8 of diamonds"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 7 of hearts, 8 of hearts, 7 of spades"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the card game gin rummy, it is sometimes necessary to break a meld in order to keep your opponent from winning the hand.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Larb meat salad belongs to the cuisine of what Asian country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Laos"
+            },
+            {
+              "id": "1",
+              "text": "Cambodia"
+            },
+            {
+              "id": "2",
+              "text": "India"
+            },
+            {
+              "id": "3",
+              "text": "China"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Laos"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If my opponent in gin rummy has picked up the 8 of diamonds, and I know nothing else about my opponents hand, which of the following cards should I discard?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8 of spades"
+            },
+            {
+              "id": "1",
+              "text": "7 of spades"
+            },
+            {
+              "id": "2",
+              "text": "9 of diamonds"
+            },
+            {
+              "id": "3",
+              "text": "10 of diamonds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 7 of spades"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of cheese is one of the ingredients of the Insalata Caprese salad?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brie"
+            },
+            {
+              "id": "1",
+              "text": "Buffalo mozzarella"
+            },
+            {
+              "id": "2",
+              "text": "Cheddar cheese"
+            },
+            {
+              "id": "3",
+              "text": "Ricotta cheese"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Buffalo mozzarella"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In knock rummy, deciding whether to knock or go for gin can be difficult. Which of the following is INCORRECT?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sometimes it makes sense to knock even if theres a strong possibility that your opponent will undercut you."
+            },
+            {
+              "id": "1",
+              "text": "If you wait for gin and your opponent knocks, you might be able to undercut her."
+            },
+            {
+              "id": "2",
+              "text": "If you have reason to believe that your opponents unused cards are low cards, you should probably knock if you can."
+            },
+            {
+              "id": "3",
+              "text": "If its early in the hand and you can knock, you probably should do so."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: If you have reason to believe that your opponents unused cards are low cards, you should probably knock if you can."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the name of the Chinese salad Yusheng mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sweet salad"
+            },
+            {
+              "id": "1",
+              "text": "Slimy shrimp"
+            },
+            {
+              "id": "2",
+              "text": "Raw fish"
+            },
+            {
+              "id": "3",
+              "text": "Sour salad"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Raw fish"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why is the popular US salad Crab Louie called so?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The dressing includes crab sauce."
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "It was named after its creator."
+            },
+            {
+              "id": "3",
+              "text": "It includes crab meat."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It includes crab meat."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the main ingredient of the Ambrosia salad?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Fruits"
+            },
+            {
+              "id": "2",
+              "text": "Seafood"
+            },
+            {
+              "id": "3",
+              "text": "Pickles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fruits"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "discard",
+          "making",
+          "knock",
+          "kind",
+          "players"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Knowledge Quiz: Hairstyle and Card",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, mohawk, brazil. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the other common name of the punk Mohawk hairstyle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pompadour"
+            },
+            {
+              "id": "1",
+              "text": "Mop-Top"
+            },
+            {
+              "id": "2",
+              "text": "Mohican"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mohican"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a variety of ring-shaped pasta, typically stuffed with a mix of meat and usually served in broth, with cream, or sometimes with a rag\u00f9. It originated in the Italian region of Emilia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "cannelloni"
+            },
+            {
+              "id": "1",
+              "text": "tortellini"
+            },
+            {
+              "id": "2",
+              "text": "ravioli"
+            },
+            {
+              "id": "3",
+              "text": "gnocchi"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: tortellini"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Brazil, Argentina, Chile, Paraguay, Uruguay, and Venezuela, where Italian cuisine is especially popular, there is a custom to eat this traditional Italian pasta on the 29th day of each month.",
+          "options": [
+            {
+              "id": "0",
+              "text": "gnocchi"
+            },
+            {
+              "id": "1",
+              "text": "stelline"
+            },
+            {
+              "id": "2",
+              "text": "agnolotti"
+            },
+            {
+              "id": "3",
+              "text": "pastina"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: gnocchi"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these hairstyles the sides and back of the hair are kept short, while the front is kept long and combed forward?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hi-top fade"
+            },
+            {
+              "id": "1",
+              "text": "Ducktail"
+            },
+            {
+              "id": "2",
+              "text": "Devilock"
+            },
+            {
+              "id": "3",
+              "text": "Bangs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Devilock"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the popular Buzz haircut commonly called in Australia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gl number"
+            },
+            {
+              "id": "1",
+              "text": "Skinhead"
+            },
+            {
+              "id": "2",
+              "text": "Crew cut"
+            },
+            {
+              "id": "3",
+              "text": "Semi"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Crew cut"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This pastas name is the Italian word for little bell. It has fluted, petal-like edges and a hollow center for capturing sauce. It is usually found in a casserole or served with a thick sauce.",
+          "options": [
+            {
+              "id": "0",
+              "text": "ditalini"
+            },
+            {
+              "id": "1",
+              "text": "campanelle"
+            },
+            {
+              "id": "2",
+              "text": "elicoidali"
+            },
+            {
+              "id": "3",
+              "text": "pennette"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: campanelle"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What other common name is used to refer to the hairstyle known as a Croydon facelift?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Council house facelift"
+            },
+            {
+              "id": "1",
+              "text": "Essex facelift"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Millie Facelift"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Chonmage is a mans hairstyle traditional for this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Japan"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "Korea"
+            },
+            {
+              "id": "3",
+              "text": "India"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Japan"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This female artists signature beehive hairdo is widely spoofed and copied.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beyonce"
+            },
+            {
+              "id": "1",
+              "text": "Amy Winehouse"
+            },
+            {
+              "id": "2",
+              "text": "Janet Jackson"
+            },
+            {
+              "id": "3",
+              "text": "Christina Aguilera"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Amy Winehouse"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What hairstyle combines the 1950s pompadour, the 50s flattop, and sometimes a mohawk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Quiff"
+            },
+            {
+              "id": "1",
+              "text": "Shag"
+            },
+            {
+              "id": "2",
+              "text": "Induction cut"
+            },
+            {
+              "id": "3",
+              "text": "High and tight"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Quiff"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of hairstyle is the so-called Fofa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A hairdo with sideburns"
+            },
+            {
+              "id": "1",
+              "text": "A frizzy perm"
+            },
+            {
+              "id": "2",
+              "text": "A tight bun"
+            },
+            {
+              "id": "3",
+              "text": "A hairstyle for balding men"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A hairstyle for balding men"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All other things being equal, if you had a triangle, a 3-card meld and a 4-card meld, and drew a card which could expand the 3-card meld into a 4-card meld, you should expand the meld and discard one card of the triangle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This small shell shaped pasta with slightly rolled-in edges is very popular in the Avellino province of Italy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "fregula"
+            },
+            {
+              "id": "1",
+              "text": "orzo"
+            },
+            {
+              "id": "2",
+              "text": "cavatelli"
+            },
+            {
+              "id": "3",
+              "text": "ditali"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: cavatelli"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular man is also known as the king of the comb over due to his hairstyle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Donald Trump"
+            },
+            {
+              "id": "1",
+              "text": "Bobby Charlton"
+            },
+            {
+              "id": "2",
+              "text": "Robert Robinson"
+            },
+            {
+              "id": "3",
+              "text": "Lou Henson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Robinson"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the literal meaning of the Japanese word hime which refers to a popular cut?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Flower"
+            },
+            {
+              "id": "1",
+              "text": "Tail"
+            },
+            {
+              "id": "2",
+              "text": "Dragon"
+            },
+            {
+              "id": "3",
+              "text": "Princess"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Princess"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "mohawk",
+          "brazil",
+          "country",
+          "shell",
+          "chonmage"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Tomatoes and Type",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, festival, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tomato juice is the official beverage of this state in the USA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colorado"
+            },
+            {
+              "id": "1",
+              "text": "Ohio"
+            },
+            {
+              "id": "2",
+              "text": "Texas"
+            },
+            {
+              "id": "3",
+              "text": "California"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ohio"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tomatoes can be refrigerated and they will continue to ripen after they reach room temperature.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of  flat pasta, representing medallion or coin, stamped with various patterns originated in Liguria, Northern Italy during the Middle Ages. It was made by local peasants and used by aristocratic families as a display of wealth and status.",
+          "options": [
+            {
+              "id": "0",
+              "text": "corzetti"
+            },
+            {
+              "id": "1",
+              "text": "croxetti"
+            },
+            {
+              "id": "2",
+              "text": "fiori"
+            },
+            {
+              "id": "3",
+              "text": "fiorentine"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: croxetti"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of macaroni is formed in a spiral tube shape an typically has lines on the outside surface.",
+          "options": [
+            {
+              "id": "0",
+              "text": "lumache"
+            },
+            {
+              "id": "1",
+              "text": "lumaconi"
+            },
+            {
+              "id": "2",
+              "text": "cavatelli"
+            },
+            {
+              "id": "3",
+              "text": "cavatappi"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: cavatappi"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These are rectangular pasta sheets rolled with a savory stuffing and then covered with a sauce.",
+          "options": [
+            {
+              "id": "0",
+              "text": "manicotti"
+            },
+            {
+              "id": "1",
+              "text": "pantalone"
+            },
+            {
+              "id": "2",
+              "text": "pipe"
+            },
+            {
+              "id": "3",
+              "text": "cannelloni"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: cannelloni"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a corkscrew-shaped pasta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "cavatappi"
+            },
+            {
+              "id": "1",
+              "text": "farfalle"
+            },
+            {
+              "id": "2",
+              "text": "rotini"
+            },
+            {
+              "id": "3",
+              "text": "fusilli"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: farfalle"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to some studies, lycopene, which is found in tomatoes, prevents this disease.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diabetes"
+            },
+            {
+              "id": "1",
+              "text": "Thrombosis"
+            },
+            {
+              "id": "2",
+              "text": "Cancer"
+            },
+            {
+              "id": "3",
+              "text": "Heart attack"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cancer"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of this thick noodle made of egg and flour means little ribbon in Italian. It is very popular in Rome and is similar to what is called tagliatelle elsewhere in Italy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "farfallone"
+            },
+            {
+              "id": "1",
+              "text": "fiorentine"
+            },
+            {
+              "id": "2",
+              "text": "fettuccine"
+            },
+            {
+              "id": "3",
+              "text": "orecchiette"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: fettuccine"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country is the popular tomato festival called La Tomatina celebrated annually?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chile"
+            },
+            {
+              "id": "1",
+              "text": "Mexico"
+            },
+            {
+              "id": "2",
+              "text": "Ecuador"
+            },
+            {
+              "id": "3",
+              "text": "Spain"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Spain"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country was the largest producer of tomatoes in the world in 2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "India"
+            },
+            {
+              "id": "1",
+              "text": "United States"
+            },
+            {
+              "id": "2",
+              "text": "Turkey"
+            },
+            {
+              "id": "3",
+              "text": "China"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of this is the general name for the type of pasta shaped as swirls?",
+          "options": [
+            {
+              "id": "0",
+              "text": "macaroni"
+            },
+            {
+              "id": "1",
+              "text": "lasagne"
+            },
+            {
+              "id": "2",
+              "text": "fusilli"
+            },
+            {
+              "id": "3",
+              "text": "spaghetti"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: fusilli"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most tomato cultivars produce fruit that is red when ripe, but some produce unusual colors such as this one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Black"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Striped"
+            },
+            {
+              "id": "3",
+              "text": "Multicolored"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What chemical is used to trigger the ripening of tomatoes that have been picked unripe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "1",
+              "text": "Lycopene"
+            },
+            {
+              "id": "2",
+              "text": "Glucose"
+            },
+            {
+              "id": "3",
+              "text": "Ethylene"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ethylene"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What continent did tomatoes originate from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "South America"
+            },
+            {
+              "id": "1",
+              "text": "Asia"
+            },
+            {
+              "id": "2",
+              "text": "North America"
+            },
+            {
+              "id": "3",
+              "text": "Europe"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: South America"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1994 Calgene introduced this genetically modified tomato cultivar which could be vine ripened without shortening the shelf life of the tomatoes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ruby Ruth"
+            },
+            {
+              "id": "1",
+              "text": "Oxheart"
+            },
+            {
+              "id": "2",
+              "text": "FlavrSavr"
+            },
+            {
+              "id": "3",
+              "text": "The Hardy Jerry"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: FlavrSavr"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "festival",
+          "country",
+          "tomato",
+          "chemical",
+          "stuffing"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Nature Quiz: Year and Animals",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, confucius, tomato. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you were born in the year 1976, 1988 or 2000, what would your lunar sign be?",
+          "options": [
+            {
+              "id": "0",
+              "text": "horse"
+            },
+            {
+              "id": "1",
+              "text": "snake"
+            },
+            {
+              "id": "2",
+              "text": "rabbit"
+            },
+            {
+              "id": "3",
+              "text": "dragon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: dragon"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to Chinese astrology, why is it considered to be a poor match, if your partner is six years older or younger than you?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "The signs are not a part of a perfect triangle creating balance."
+            },
+            {
+              "id": "2",
+              "text": "The signs are directly opposite each other."
+            },
+            {
+              "id": "3",
+              "text": "The years you were born in are represented by the same animal."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The signs are directly opposite each other."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you were born in 1982, 1994 or 2006, what would your lunar sign be?",
+          "options": [
+            {
+              "id": "0",
+              "text": "dog"
+            },
+            {
+              "id": "1",
+              "text": "rabbit"
+            },
+            {
+              "id": "2",
+              "text": "snake"
+            },
+            {
+              "id": "3",
+              "text": "ram"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: dog"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the only insects that are allowed to be consumed according to Jewish dietary laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crickets"
+            },
+            {
+              "id": "1",
+              "text": "Cockroaches"
+            },
+            {
+              "id": "2",
+              "text": "Locusts"
+            },
+            {
+              "id": "3",
+              "text": "Ants"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Locusts"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Members of the Special Air Service of the British Army are forbidden to eat only this type of meat.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eagle"
+            },
+            {
+              "id": "1",
+              "text": "Rat"
+            },
+            {
+              "id": "2",
+              "text": "Snake"
+            },
+            {
+              "id": "3",
+              "text": "Pigeon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rat"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you were born in 1972, with the current year being 2008, the next time your year in the Chinese Zodiac will come around, is 2020.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Chinese Zodiac, the year of the cat occurred in 2000.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is considered that the consumption of these animals transmitted a predecessor of HIV to humans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Primates"
+            },
+            {
+              "id": "1",
+              "text": "Birds of prey"
+            },
+            {
+              "id": "2",
+              "text": "Rats"
+            },
+            {
+              "id": "3",
+              "text": "Wild animals"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Primates"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to legend, what year is the luckiest year to be born in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the year of the rooster"
+            },
+            {
+              "id": "1",
+              "text": "the year of the boar"
+            },
+            {
+              "id": "2",
+              "text": "the year of the dragon"
+            },
+            {
+              "id": "3",
+              "text": "the year of the dog"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: the year of the dragon"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part of the tomato plant does not contain Solanine, a poison toxic to humans and animals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Leaves"
+            },
+            {
+              "id": "2",
+              "text": "Unripe fruit"
+            },
+            {
+              "id": "3",
+              "text": "Ripe fruit"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ripe fruit"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to a legend, when Confucius died, twelve animals rushed to his bedside. The order of the Chinese Horoscope is the order in which they arrived. What was the first animal to arrive at Confucius bedside?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the horse"
+            },
+            {
+              "id": "1",
+              "text": "the rat"
+            },
+            {
+              "id": "2",
+              "text": "the dragon"
+            },
+            {
+              "id": "3",
+              "text": "the tiger"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: the rat"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you were born in 1980, 1992 or 2004, what would your lunar sign be?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ox"
+            },
+            {
+              "id": "1",
+              "text": "dog"
+            },
+            {
+              "id": "2",
+              "text": "ram"
+            },
+            {
+              "id": "3",
+              "text": "monkey"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: monkey"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Chinese Zodiac, what is the last year in the twelve-year cycle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the year of the boar"
+            },
+            {
+              "id": "1",
+              "text": "the year of the ox"
+            },
+            {
+              "id": "2",
+              "text": "the year of the snake"
+            },
+            {
+              "id": "3",
+              "text": "the year of the tiger"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the year of the boar"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you were born in 1978, 1990 or 2002, what would your lunar sign be?",
+          "options": [
+            {
+              "id": "0",
+              "text": "snake"
+            },
+            {
+              "id": "1",
+              "text": "sheep"
+            },
+            {
+              "id": "2",
+              "text": "rat"
+            },
+            {
+              "id": "3",
+              "text": "horse"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: horse"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you were born in 1981, 1993 or 2005, what would your lunar sign be?",
+          "options": [
+            {
+              "id": "0",
+              "text": "rooster"
+            },
+            {
+              "id": "1",
+              "text": "rabbit"
+            },
+            {
+              "id": "2",
+              "text": "monkey"
+            },
+            {
+              "id": "3",
+              "text": "dragon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: rooster"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "confucius",
+          "tomato",
+          "twelve",
+          "insects",
+          "part"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Beer and Broccoli",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, kind, shots. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1953, this New Zealander developed the technique of continuous fermentation, which is applied in the production of the famous beer brand Guinness.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charlie Mopps"
+            },
+            {
+              "id": "1",
+              "text": "Morton W. Coutts"
+            },
+            {
+              "id": "2",
+              "text": "James Death"
+            },
+            {
+              "id": "3",
+              "text": "Daniel Wheeler"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Morton W. Coutts"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The most common type of broccoli is sometimes referred to with this term in the United Kingdom.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Calabrese"
+            },
+            {
+              "id": "1",
+              "text": "Romanesco broccoli"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Cafiolli"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Calabrese"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This kind of beer, produced from wild yeast through a process called spontaneous fermentation, has a distinctive, cidery flavour with slightly sour aftertaste.",
+          "options": [
+            {
+              "id": "0",
+              "text": "cantillon beer"
+            },
+            {
+              "id": "1",
+              "text": "boon beer"
+            },
+            {
+              "id": "2",
+              "text": "lambic beer"
+            },
+            {
+              "id": "3",
+              "text": "chapeau beer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: lambic beer"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Broccoli looks very similar to this vegetable and is often confused with it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brussels sprouts"
+            },
+            {
+              "id": "1",
+              "text": "Lettuce"
+            },
+            {
+              "id": "2",
+              "text": "Cauliflower"
+            },
+            {
+              "id": "3",
+              "text": "Cabbage"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cauliflower"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Broccoli originated in this country about 2000 years ago.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Belgium"
+            },
+            {
+              "id": "1",
+              "text": "Spain"
+            },
+            {
+              "id": "2",
+              "text": "Greece"
+            },
+            {
+              "id": "3",
+              "text": "Italy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Italy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a drinking game played with 1 oz shots of beer and cards. The player must guess the rank that was dealt to another players card. At the end, one of the players has to drink many beer shots.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bortok"
+            },
+            {
+              "id": "1",
+              "text": "Hi-Lo"
+            },
+            {
+              "id": "2",
+              "text": "FizzBuzz"
+            },
+            {
+              "id": "3",
+              "text": "Bizu-Bizu"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hi-Lo"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of a traditional German wheat beer glass?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heifeweizenbier glass"
+            },
+            {
+              "id": "1",
+              "text": "Weizenstarkbier glass"
+            },
+            {
+              "id": "2",
+              "text": "Witbier glass"
+            },
+            {
+              "id": "3",
+              "text": "Weizenbier glass"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Weizenbier glass"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Malt, one of the main ingredients of beer, undergoes a process in which the grain kernels are crushed and later the smaller pieces are separated from the husk. What is the name of the resulting product?",
+          "options": [
+            {
+              "id": "0",
+              "text": "zymurgy"
+            },
+            {
+              "id": "1",
+              "text": "vermiculite"
+            },
+            {
+              "id": "2",
+              "text": "grist"
+            },
+            {
+              "id": "3",
+              "text": "wort"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: grist"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of Belgian beer contains alcohol by volume, ranging between 8 an 11 percent. A commercial example for this kind of beer is Unibroue la Fin du Monde.",
+          "options": [
+            {
+              "id": "0",
+              "text": "aetbier"
+            },
+            {
+              "id": "1",
+              "text": "uerige"
+            },
+            {
+              "id": "2",
+              "text": "dunkel"
+            },
+            {
+              "id": "3",
+              "text": "tripel"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: tripel"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following brands of beer is not German and is manufactured in an Asian country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jever"
+            },
+            {
+              "id": "1",
+              "text": "Veltins"
+            },
+            {
+              "id": "2",
+              "text": "Holsten"
+            },
+            {
+              "id": "3",
+              "text": "Kirin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kirin"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of an alcoholic beverage consisting of equal parts of lager beer and lemonade?",
+          "options": [
+            {
+              "id": "0",
+              "text": "mazout"
+            },
+            {
+              "id": "1",
+              "text": "spavola"
+            },
+            {
+              "id": "2",
+              "text": "radler"
+            },
+            {
+              "id": "3",
+              "text": "russ"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: radler"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What two positive adjectives best describe the snake, the 6th animal in the Chinese Zodiac?",
+          "options": [
+            {
+              "id": "0",
+              "text": "frugal, passionate"
+            },
+            {
+              "id": "1",
+              "text": "wise, graceful"
+            },
+            {
+              "id": "2",
+              "text": "determined, vigorous"
+            },
+            {
+              "id": "3",
+              "text": "sly, powerful"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: wise, graceful"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The word broccoli comes from the Italian expression piccoli bracci. What does this mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green meat"
+            },
+            {
+              "id": "1",
+              "text": "Little arms"
+            },
+            {
+              "id": "2",
+              "text": "Little trees"
+            },
+            {
+              "id": "3",
+              "text": "Green curls"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Little arms"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is a Polish beer brand, established in 1629?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saku"
+            },
+            {
+              "id": "1",
+              "text": "Tyskie"
+            },
+            {
+              "id": "2",
+              "text": "Kalnapilis"
+            },
+            {
+              "id": "3",
+              "text": "A. Le Coq"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tyskie"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This term refers to a kind of unfiltered beer, conditioned and served from the cask without additional pressure.",
+          "options": [
+            {
+              "id": "0",
+              "text": "cask draught beer"
+            },
+            {
+              "id": "1",
+              "text": "cask lager beer"
+            },
+            {
+              "id": "2",
+              "text": "cask rye beer"
+            },
+            {
+              "id": "3",
+              "text": "cask ale beer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: cask ale beer"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "kind",
+          "shots",
+          "country",
+          "technique",
+          "parts"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Broccoli and Statements",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, content, kind. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are several types of broccoli that are very common around the world. Which of these is one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Romanesco broccoli"
+            },
+            {
+              "id": "1",
+              "text": "Sprouting broccoli"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Purple cauliflower"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "99% of the broccoli crop in U.S.A. is produced in these two states.",
+          "options": [
+            {
+              "id": "0",
+              "text": "California and Arizona"
+            },
+            {
+              "id": "1",
+              "text": "Ohio and Maryland"
+            },
+            {
+              "id": "2",
+              "text": "Florida and Texas"
+            },
+            {
+              "id": "3",
+              "text": "Kansas and Nebraska"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: California and Arizona"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements about the fat content of the coconut is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It contains about 25% saturated fat."
+            },
+            {
+              "id": "1",
+              "text": "90% of its fat is saturated."
+            },
+            {
+              "id": "2",
+              "text": "It contains high amounts of fat, but it does not contain saturated fats."
+            },
+            {
+              "id": "3",
+              "text": "It doesnt contain any fat at all."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 90% of its fat is saturated."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The cashew nutshell liquid, a by-product of cashew processing, contains anacardic acids, which are beneficial for the treatment of this medical problem.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tooth abscesses"
+            },
+            {
+              "id": "1",
+              "text": "Rashes"
+            },
+            {
+              "id": "2",
+              "text": "Hair loss"
+            },
+            {
+              "id": "3",
+              "text": "Varicose veins"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tooth abscesses"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about almonds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The sweet almond contains no carbohydrates."
+            },
+            {
+              "id": "1",
+              "text": "They lower LDL cholesterol, the bad cholesterol."
+            },
+            {
+              "id": "2",
+              "text": "They are very rich in vitamin E."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of disturbance can pine nuts cause in about 1 to 3 days following their consumption?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fever and vomiting"
+            },
+            {
+              "id": "1",
+              "text": "Unusual taste in the mouth"
+            },
+            {
+              "id": "2",
+              "text": "Migraine"
+            },
+            {
+              "id": "3",
+              "text": "Partial blindness"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Unusual taste in the mouth"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Broccoli is known for its cancer-fighting properties. Which of these compounds found in broccoli has an anti-cancer effect?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Glucoraphanin"
+            },
+            {
+              "id": "1",
+              "text": "3,3-Diindolylmethane"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Selenium"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Walnuts are proven to lower the bad cholesterol due to this chemical compound found in them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Capsaicin"
+            },
+            {
+              "id": "1",
+              "text": "Omega-6 fatty acids"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Omega-3 fatty acids"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Omega-3 fatty acids"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Broccoli is very rich in vitamins and other essential nutrients. Which of these vitamins does broccoli contain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin C"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin E"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these names is used as an alternative name of hazelnuts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cherry nut"
+            },
+            {
+              "id": "1",
+              "text": "Brown pea"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Cobnut"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cobnut"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What other use does the Brazil nut oil have, apart from being used for food?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In cosmetics"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "In clocks as lubricant"
+            },
+            {
+              "id": "3",
+              "text": "In making paint for artists"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To which of these countries is the pistachio tree native?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Turkey"
+            },
+            {
+              "id": "2",
+              "text": "Turkmenistan"
+            },
+            {
+              "id": "3",
+              "text": "Iran"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these vegetables is not a type of broccoli?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chinese broccoli"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Romanesco broccoli"
+            },
+            {
+              "id": "3",
+              "text": "Purple cauliflower"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Chinese broccoli"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Boiling broccoli for more than ten minutes reduces its beneficial properties. Which of these cooking methods is more appropriate for preserving its ingredients?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Stir-frying"
+            },
+            {
+              "id": "2",
+              "text": "Steaming"
+            },
+            {
+              "id": "3",
+              "text": "Microwaving"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the chestnut fruit, which is not actually a nut?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Their starch content is equal to that of the potato."
+            },
+            {
+              "id": "1",
+              "text": "It is the only nut that contains vitamin C."
+            },
+            {
+              "id": "2",
+              "text": "It contains bad cholesterol."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: It is the only nut that contains vitamin C."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "content",
+          "kind",
+          "walnuts",
+          "brazil",
+          "nuts"
+        ]
+      }
+    }
+  ]
+}

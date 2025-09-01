@@ -1,0 +1,2436 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Nature Quiz: Pandas and Panda",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, starfish, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does a panda usually live in captivity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10 - 15 years"
+            },
+            {
+              "id": "1",
+              "text": "80 - 90 years"
+            },
+            {
+              "id": "2",
+              "text": "20 - 30 years"
+            },
+            {
+              "id": "3",
+              "text": "55 - 65 years"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 20 - 30 years"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is TRUE about pandas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They belong to the raccoon family."
+            },
+            {
+              "id": "1",
+              "text": "They are poor climbers."
+            },
+            {
+              "id": "2",
+              "text": "They were unknown to the Western world until the 1600s."
+            },
+            {
+              "id": "3",
+              "text": "They are carnivores."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They are carnivores."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All starfish have 5 arms.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1930s movie King Kong, the giant ape battles a pterodactyl.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Starfish are capable of both asexual and sexual reproduction.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many stomachs does a starfish have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "0"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The panda has an enlarged wristbone that works as an opposable thumb.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When a panda is born, it is impossible to tell if it is male or female. How old is the panda before its gender is known?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3 months"
+            },
+            {
+              "id": "1",
+              "text": "1 year"
+            },
+            {
+              "id": "2",
+              "text": "4 years"
+            },
+            {
+              "id": "3",
+              "text": "6 months"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 4 years"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pandas spend 10-16 hours a day eating, the rest of the time they are usually resting. When are pandas most active?",
+          "options": [
+            {
+              "id": "0",
+              "text": "at dusk and at dawn"
+            },
+            {
+              "id": "1",
+              "text": "between 10am and 2pm"
+            },
+            {
+              "id": "2",
+              "text": "between 2p and 10pm"
+            },
+            {
+              "id": "3",
+              "text": "only at night"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: at dusk and at dawn"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pandas are known to roar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pandas live and travel together.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pandas do not hibernate.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which country is the Gohongaze Starfish considered an edible delicacy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "China"
+            },
+            {
+              "id": "1",
+              "text": "Italy"
+            },
+            {
+              "id": "2",
+              "text": "New Zealand"
+            },
+            {
+              "id": "3",
+              "text": "Japan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Japan"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A starfish cannot regenerate a lost arm.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The panda is the symbol of this conservation organization, formed in 1961.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leave It Wild"
+            },
+            {
+              "id": "1",
+              "text": "The Conservation Society"
+            },
+            {
+              "id": "2",
+              "text": "The African Conservation Foundation"
+            },
+            {
+              "id": "3",
+              "text": "The World Wildlife Fund"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The World Wildlife Fund"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "starfish",
+          "country",
+          "eating",
+          "thumb",
+          "kong"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Nature Quiz: Starfish and Food",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, starfish, cottontail. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Catfish are bony fish that are active in the nighttime. How did they get their interesting name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They have barbels that remind of cat whiskers."
+            },
+            {
+              "id": "1",
+              "text": "They like to rub against objects like cats do."
+            },
+            {
+              "id": "2",
+              "text": "They have cat eyes."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They have barbels that remind of cat whiskers."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Scorpions are active at night in order to avoid which of their predators?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mice"
+            },
+            {
+              "id": "1",
+              "text": "Lizards"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Centipedes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Ocelot is a nocturnal cat that is also called by this name in certain regions.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "McKenneys Wildcat"
+            },
+            {
+              "id": "2",
+              "text": "Jaguarete"
+            },
+            {
+              "id": "3",
+              "text": "Painted Leopard"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mink are mainly active at night and they do not hibernate. Which of these animals is a predator of the American Mink?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Wolf"
+            },
+            {
+              "id": "2",
+              "text": "Owl"
+            },
+            {
+              "id": "3",
+              "text": "Coyote"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Starfish are fast moving creatures.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What animal is the largest nocturnal prosimian on the planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gorilla"
+            },
+            {
+              "id": "1",
+              "text": "Mantled Guereza"
+            },
+            {
+              "id": "2",
+              "text": "Aye-aye"
+            },
+            {
+              "id": "3",
+              "text": "Olive Baboon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Aye-aye"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tapeti is a nocturnal cottontail rabbit that is indigenous to these areas.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Central and South America"
+            },
+            {
+              "id": "1",
+              "text": "Australia and Tasmania"
+            },
+            {
+              "id": "2",
+              "text": "South Asia"
+            },
+            {
+              "id": "3",
+              "text": "South Africa and Madagascar"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Central and South America"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are two classes of starfish. Name them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Salt Stars and Fresh Stars"
+            },
+            {
+              "id": "1",
+              "text": "Soft Stars and Hard Stars"
+            },
+            {
+              "id": "2",
+              "text": "Sea Star and Brittle Stars"
+            },
+            {
+              "id": "3",
+              "text": "Common Stars and Rare Stars"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sea Star and Brittle Stars"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What sense helps kiwis find food in the dark?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Sense of smell"
+            },
+            {
+              "id": "2",
+              "text": "Eyesight"
+            },
+            {
+              "id": "3",
+              "text": "Hearing"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sense of smell"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kakapo is a nocturnal parrot indigenous to New Zealand. Due to its resemblance to this nocturnal animal, it is also called by its name.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Raccoon"
+            },
+            {
+              "id": "1",
+              "text": "Cat"
+            },
+            {
+              "id": "2",
+              "text": "Rat"
+            },
+            {
+              "id": "3",
+              "text": "Owl"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Owl"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a relative of the starfish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sea Urchin"
+            },
+            {
+              "id": "1",
+              "text": "Sea Cucumber"
+            },
+            {
+              "id": "2",
+              "text": "Sand Dollar"
+            },
+            {
+              "id": "3",
+              "text": "Sea Horse"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sea Horse"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fireflies are known for their ability to produce light of this color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yellow"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Pale red"
+            },
+            {
+              "id": "3",
+              "text": "Green"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A starfish is a type of fish.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Raccoons are usually nocturnal animals, and they are famous for dousing their food before eating it. This is actually an activity that imitates foraging for food at shores. What is the term for such an activity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vacuum activity"
+            },
+            {
+              "id": "1",
+              "text": "Vain activity"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "False activity"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vacuum activity"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is located on the end of every arm of a starfish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ear"
+            },
+            {
+              "id": "1",
+              "text": "Whisker"
+            },
+            {
+              "id": "2",
+              "text": "Eye"
+            },
+            {
+              "id": "3",
+              "text": "Mouth"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eye"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "starfish",
+          "cottontail",
+          "classes",
+          "mink",
+          "kakapo"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Statements and Dolphins",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, kind, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the diet of Green iguanas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Young iguanas are known to eat the feces of mature iguanas."
+            },
+            {
+              "id": "2",
+              "text": "Wild iguanas sometimes eat bird eggs."
+            },
+            {
+              "id": "3",
+              "text": "They are primarily herbivorous."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is dolphins sense of hearing superior to that of humans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many different species of dolphins are there in the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15"
+            },
+            {
+              "id": "1",
+              "text": "48"
+            },
+            {
+              "id": "2",
+              "text": "32"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 32"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of herbivorous animals are the granivores?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Animals that feed on buds"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Animals that feed on seeds"
+            },
+            {
+              "id": "3",
+              "text": "Animals that feed on fruit"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Animals that feed on seeds"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the tongue of the giraffe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The animal uses it as a tool to remove insects from its face."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "It is about 18 inches (45 centimeters) long."
+            },
+            {
+              "id": "3",
+              "text": "It is tough."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about squirrels?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Some squirrel species are omnivorous."
+            },
+            {
+              "id": "1",
+              "text": "Most squirrels are active in the daytime."
+            },
+            {
+              "id": "2",
+              "text": "They cannot digest cellulose."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the term graminivore?",
+          "options": [
+            {
+              "id": "0",
+              "text": "an animal that feeds on fruit"
+            },
+            {
+              "id": "1",
+              "text": "an animal that feeds on seaweed"
+            },
+            {
+              "id": "2",
+              "text": "an animal that feeds on grass"
+            },
+            {
+              "id": "3",
+              "text": "an animal that feeds on tree leaves"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: an animal that feeds on grass"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the smallest species of dolphin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maui Dolphin/Hectors Dolphin"
+            },
+            {
+              "id": "1",
+              "text": "The Spinner Dolphin"
+            },
+            {
+              "id": "2",
+              "text": "The Pacific White-Sided Dolphin"
+            },
+            {
+              "id": "3",
+              "text": "The Bottlenose Dolphin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Maui Dolphin/Hectors Dolphin"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How do dolphins generally sleep if they are in the wild?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "like land mammals"
+            },
+            {
+              "id": "2",
+              "text": "They dont sleep at all."
+            },
+            {
+              "id": "3",
+              "text": "with only one brain hemisphere in slow-wave sleep"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: with only one brain hemisphere in slow-wave sleep"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the average speed dolphins can reach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "25.5 km/hr"
+            },
+            {
+              "id": "1",
+              "text": "14.5 km/hr"
+            },
+            {
+              "id": "2",
+              "text": "16.5 km/hr"
+            },
+            {
+              "id": "3",
+              "text": "38.5 km/hr"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 16.5 km/hr"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these foods does the Canada goose include in its diet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green vegetation"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Grains"
+            },
+            {
+              "id": "3",
+              "text": "Seaweeds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the digestive system of the Hoatzin, a herbivorous tropical bird?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "It has teeth that it uses for mastication."
+            },
+            {
+              "id": "2",
+              "text": "It has four stomachs."
+            },
+            {
+              "id": "3",
+              "text": "It breaks down its food through bacterial fermentation."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It breaks down its food through bacterial fermentation."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about grasshoppers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They have salivary glands."
+            },
+            {
+              "id": "1",
+              "text": "Their digestive tract secretes digestive enzymes."
+            },
+            {
+              "id": "2",
+              "text": "They have two antennae on their heads."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How deep can a bottlenose dolphin dive?",
+          "options": [
+            {
+              "id": "0",
+              "text": "300 meters"
+            },
+            {
+              "id": "1",
+              "text": "800 meters"
+            },
+            {
+              "id": "2",
+              "text": "1250 meters"
+            },
+            {
+              "id": "3",
+              "text": "700 meters"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 300 meters"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about elephants?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Their diet consists of 80% tree leaves."
+            },
+            {
+              "id": "2",
+              "text": "They are able to digest 40% of their food."
+            },
+            {
+              "id": "3",
+              "text": "They spend 8-10 hours a day eating."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They are able to digest 40% of their food."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "kind",
+          "world",
+          "canada",
+          "squirrels",
+          "speed"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Jaguars and Jaguar",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, regions, bite. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jaguars closely resemble which other big cats in physical appearance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tiger"
+            },
+            {
+              "id": "1",
+              "text": "Cheetah"
+            },
+            {
+              "id": "2",
+              "text": "Puma"
+            },
+            {
+              "id": "3",
+              "text": "Leopard"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Leopard"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The jaguar is the national animal of which of the following countries?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brasil"
+            },
+            {
+              "id": "1",
+              "text": "Nicaragua"
+            },
+            {
+              "id": "2",
+              "text": "Peru"
+            },
+            {
+              "id": "3",
+              "text": "Costa Rica"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Brasil"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In nature adult jaguars are apex predators in the food chain. What does this mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are not preyed on by other predators."
+            },
+            {
+              "id": "1",
+              "text": "They feed only on other predators."
+            },
+            {
+              "id": "2",
+              "text": "They do not hunt on other predators."
+            },
+            {
+              "id": "3",
+              "text": "Besides hunting they also feed on plants."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They are not preyed on by other predators."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What common name is used to refer to the scavenging animals, representatives of the order Opiliones?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Waterbugs"
+            },
+            {
+              "id": "1",
+              "text": "Sweepers"
+            },
+            {
+              "id": "2",
+              "text": "Bumblebees"
+            },
+            {
+              "id": "3",
+              "text": "Harvestmen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Harvestmen"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which continents does the natural habitat of the jaguar span upon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Europe and Africa"
+            },
+            {
+              "id": "1",
+              "text": "South America and Africa"
+            },
+            {
+              "id": "2",
+              "text": "Africa and Asia"
+            },
+            {
+              "id": "3",
+              "text": "North and South America"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: North and South America"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All but one of the following activities are generally untypical for jaguars. Choose the one most natural to them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Starting to eat their prey from the fleshy abdominal area"
+            },
+            {
+              "id": "1",
+              "text": "Stalking and ambushing their prey"
+            },
+            {
+              "id": "2",
+              "text": "Chasing their prey"
+            },
+            {
+              "id": "3",
+              "text": "Attacking humans"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stalking and ambushing their prey"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the diet of the Sumatran rhinoceros?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It feeds mainly in the morning and before dusk."
+            },
+            {
+              "id": "1",
+              "text": "It consumes about 220 lb (100 kg) of food daily."
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Its diet is rich in protein and poor in fiber."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It feeds mainly in the morning and before dusk."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The jaguars extremely powerful bite, which can pierce through a turtles shell, makes it the mammal with the strongest jaw in the animal kingdom.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term is mainly used in literature to refer to a group of crows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A mug"
+            },
+            {
+              "id": "1",
+              "text": "A plunder"
+            },
+            {
+              "id": "2",
+              "text": "A gaggle"
+            },
+            {
+              "id": "3",
+              "text": "A murder"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A murder"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements is not true about the reproduction of jaguars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jaguars gestation period is 93 - 105 days."
+            },
+            {
+              "id": "1",
+              "text": "Female jaguars reach maturity earlier than males."
+            },
+            {
+              "id": "2",
+              "text": "Both males and females provide parenting of the cubs."
+            },
+            {
+              "id": "3",
+              "text": "Jaguars mate throughout the whole year."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Both males and females provide parenting of the cubs."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the literal meaning of the word raccoon, which originates from the Algonquin word ahrah-koon-em and denotes a scavenging mammal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "One who grasps with their hand just like a human"
+            },
+            {
+              "id": "1",
+              "text": "One who rubs, scrubs and scratches with its hands"
+            },
+            {
+              "id": "2",
+              "text": "One who eats whatever is in front of them"
+            },
+            {
+              "id": "3",
+              "text": "One who washes their hands and their food before eating"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: One who rubs, scrubs and scratches with its hands"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What continent does the large Griffon Vulture inhabit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Asia"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Europe"
+            },
+            {
+              "id": "3",
+              "text": "Africa"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How can jaguars be described in terms of social activity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Solitary"
+            },
+            {
+              "id": "1",
+              "text": "Sociable"
+            },
+            {
+              "id": "2",
+              "text": "Group animals"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Solitary"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In jaguars society only male animals hunt while females look after the cubs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jaguars appearance seems to vary across regions and habitats. How do forest jaguars differ from the jaguars in open areas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Forest jaguars are generally darker and larger"
+            },
+            {
+              "id": "1",
+              "text": "Forest jaguars are generally and more spotted"
+            },
+            {
+              "id": "2",
+              "text": "Forest jaguars are generally darker and smaller"
+            },
+            {
+              "id": "3",
+              "text": "Forest jaguars are generally larger and lighter in fur color"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Forest jaguars are generally darker and smaller"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "regions",
+          "bite",
+          "appearance",
+          "cats",
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Nature Quiz: Parrots and Planet",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, birds, kind. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the color of the eggs of all parrot species?",
+          "options": [
+            {
+              "id": "0",
+              "text": "White"
+            },
+            {
+              "id": "1",
+              "text": "Green"
+            },
+            {
+              "id": "2",
+              "text": "Multicolored"
+            },
+            {
+              "id": "3",
+              "text": "Blue"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: White"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What hyena species is the largest surviving on the planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aardwolf"
+            },
+            {
+              "id": "1",
+              "text": "Spotted Hyena"
+            },
+            {
+              "id": "2",
+              "text": "Striped Hyena"
+            },
+            {
+              "id": "3",
+              "text": "Brown Hyena"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Spotted Hyena"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the predominant color in Amazon Parrots plumage?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yellow"
+            },
+            {
+              "id": "1",
+              "text": "White"
+            },
+            {
+              "id": "2",
+              "text": "Green"
+            },
+            {
+              "id": "3",
+              "text": "Blue"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Green"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the parrots breeding habits?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Parrots are polygamous."
+            },
+            {
+              "id": "2",
+              "text": "Parrots are polyandrous."
+            },
+            {
+              "id": "3",
+              "text": "Parrots are monogamous."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Parrots are monogamous."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these makes Cockatoos different from other parrot species?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They have a gall bladder."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "They are not so colorful as other parrots."
+            },
+            {
+              "id": "3",
+              "text": "They have a headcrest."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Larger parrot species have longer life spans than smaller ones. What is the average life span of a large parrot?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Up to 80 years"
+            },
+            {
+              "id": "1",
+              "text": "20-25 years"
+            },
+            {
+              "id": "2",
+              "text": "Up to 50 years"
+            },
+            {
+              "id": "3",
+              "text": "14-15 years"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Up to 80 years"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term refers to the animal that is the result of crossbreeding between a male coyote and a female dog?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Coypup"
+            },
+            {
+              "id": "2",
+              "text": "Coydog"
+            },
+            {
+              "id": "3",
+              "text": "Dogote"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Coydog"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Parrots are considered the most intelligent birds on the planet along with these birds.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ravens"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Jays"
+            },
+            {
+              "id": "3",
+              "text": "Crows"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The heaviest parrot species on the planet is the Kakapo. What is the average weight that a normal mature Kakapo can reach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1.5 to 2 kg"
+            },
+            {
+              "id": "1",
+              "text": "2 to 4 kg"
+            },
+            {
+              "id": "2",
+              "text": "2.5 to 3 kg"
+            },
+            {
+              "id": "3",
+              "text": "2 to 2.5 kg"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2 to 4 kg"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These parrots are believed to be the best at imitating sounds and human speech.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lory"
+            },
+            {
+              "id": "1",
+              "text": "Amazon Parrot"
+            },
+            {
+              "id": "2",
+              "text": "Cockatoo"
+            },
+            {
+              "id": "3",
+              "text": "African Grey Parrot"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: African Grey Parrot"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of animals are the Yellow jackets, the scavenging and predatory animals belonging to the genera Vespula and Dolichovespula?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Flies"
+            },
+            {
+              "id": "1",
+              "text": "Wasps"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Bees"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wasps"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these names is commonly used for the carrion flies, belonging to the family Calliphoridae?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Greenbottle"
+            },
+            {
+              "id": "2",
+              "text": "Blow-flies"
+            },
+            {
+              "id": "3",
+              "text": "Cluster flies"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do the beetles from the genus Nicrophorus do after finding a carcass?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They remain right next to it and protect it violently."
+            },
+            {
+              "id": "1",
+              "text": "They bury it."
+            },
+            {
+              "id": "2",
+              "text": "They wait for it to decompose."
+            },
+            {
+              "id": "3",
+              "text": "They tear it into small pieces."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They bury it."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The diet of most parrots consists of this type of food.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buds"
+            },
+            {
+              "id": "1",
+              "text": "Fruit"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Seeds"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lions may be skilled predators, but they would also eat carrion. What animal is the lions preferred food?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rhinoceros"
+            },
+            {
+              "id": "1",
+              "text": "Hippopotamus"
+            },
+            {
+              "id": "2",
+              "text": "Elephant"
+            },
+            {
+              "id": "3",
+              "text": "Wildebeest"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wildebeest"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "birds",
+          "kind",
+          "lions",
+          "sounds",
+          "speech"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Nature Quiz: Cat and Breed",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, breed, cecotropes. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This large cat was is the result of crossbreeding between a domestic cat and a Jungle Cat.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Jungle Curl"
+            },
+            {
+              "id": "2",
+              "text": "Chausie"
+            },
+            {
+              "id": "3",
+              "text": "Mountain Cougar"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What cat breed, also called the Greyhound of the cats, has no hair except for down?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don Sphynx"
+            },
+            {
+              "id": "1",
+              "text": "Oriental Bicolour"
+            },
+            {
+              "id": "2",
+              "text": "Cornish Rex"
+            },
+            {
+              "id": "3",
+              "text": "Sokoke"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cornish Rex"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This old breed of cat has long fur. It originated in the Middle East, and some of its representatives have a flat face.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Siamese"
+            },
+            {
+              "id": "1",
+              "text": "Chinchilla"
+            },
+            {
+              "id": "2",
+              "text": "Himalayan"
+            },
+            {
+              "id": "3",
+              "text": "Persian"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Persian"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This cat breed originated in Russia and has a short fluffy tail.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kurilian Bobtail"
+            },
+            {
+              "id": "1",
+              "text": "Siberian"
+            },
+            {
+              "id": "2",
+              "text": "Russian Blue"
+            },
+            {
+              "id": "3",
+              "text": "Manx"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kurilian Bobtail"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the common name of cecotropes, products of the cecum which rabbits reingest to get nutrients?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rabbit pellets"
+            },
+            {
+              "id": "1",
+              "text": "False feces"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Night feces"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Night feces"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What cat breed has very thick short fur, large round eyes, round head and chubby cheeks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colorpoint Shorthair"
+            },
+            {
+              "id": "1",
+              "text": "British Shorthair"
+            },
+            {
+              "id": "2",
+              "text": "Selkirk Rex"
+            },
+            {
+              "id": "3",
+              "text": "European Shorthair"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: British Shorthair"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the communities formed by rabbits living together?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Herds"
+            },
+            {
+              "id": "1",
+              "text": "Schools"
+            },
+            {
+              "id": "2",
+              "text": "Flocks"
+            },
+            {
+              "id": "3",
+              "text": "Warrens"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Warrens"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lories and lorikeets have special tongues with brush-like tips for feeding on very small insects.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This cat breed is believed to have developed naturally in China. It has short golden brown fur with the so-called broken striped pattern and a large strong body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dragon Li"
+            },
+            {
+              "id": "1",
+              "text": "Oriental Bicolour"
+            },
+            {
+              "id": "2",
+              "text": "Korat"
+            },
+            {
+              "id": "3",
+              "text": "Cymric"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dragon Li"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This cat breed has a wild markings and is a crossbreed between an Asian Leopard Cat and a domestic cat.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bengal"
+            },
+            {
+              "id": "1",
+              "text": "Ocicat"
+            },
+            {
+              "id": "2",
+              "text": "Savannah"
+            },
+            {
+              "id": "3",
+              "text": "California Spangled Cat"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bengal"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This breed of cat has a round head, large round eyes and very small ears bended forward and downward.",
+          "options": [
+            {
+              "id": "0",
+              "text": "American Curl"
+            },
+            {
+              "id": "1",
+              "text": "Scottish Fold"
+            },
+            {
+              "id": "2",
+              "text": "Toyger"
+            },
+            {
+              "id": "3",
+              "text": "Ussuri"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Scottish Fold"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the difference between rabbits and hares?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hares live above the ground."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Unlike rabbits, hares are born with hair and are able to see."
+            },
+            {
+              "id": "3",
+              "text": "Hares have longer ears than rabbits."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This hairless cat has a dog-like face and folded ears.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sphynx"
+            },
+            {
+              "id": "1",
+              "text": "Donskoy"
+            },
+            {
+              "id": "2",
+              "text": "Peterbald"
+            },
+            {
+              "id": "3",
+              "text": "Ukrainian Levkoy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ukrainian Levkoy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This old large cat breed occurred naturally in Europe. It has waterproof thick fluffy fur and can survive very cold weather.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Norwegian Forest Cat"
+            },
+            {
+              "id": "1",
+              "text": "Persian"
+            },
+            {
+              "id": "2",
+              "text": "Squitten"
+            },
+            {
+              "id": "3",
+              "text": "Ragamuffin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Norwegian Forest Cat"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the digestive tract of rabbits?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Their cecum, together with the large intestine, comprises about 25-30% of rabbits digestive tract."
+            },
+            {
+              "id": "1",
+              "text": "They are hindgut digesters."
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Their cecum is about 5 times bigger than their stomach."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They are hindgut digesters."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "breed",
+          "cecotropes",
+          "products",
+          "face",
+          "lories"
+        ]
+      }
+    }
+  ]
+}

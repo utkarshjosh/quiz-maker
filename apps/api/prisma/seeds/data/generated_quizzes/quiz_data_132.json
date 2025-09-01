@@ -1,0 +1,2412 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Usa and Group",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, people, size. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Woody Allen movie depicts a future with robot butlers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Match Point"
+            },
+            {
+              "id": "1",
+              "text": "Stardust Memories"
+            },
+            {
+              "id": "2",
+              "text": "Cassandras Dream"
+            },
+            {
+              "id": "3",
+              "text": "Sleeper"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sleeper"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was in total eclipse according to Bonnie Tylers 1983 hit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The soul"
+            },
+            {
+              "id": "1",
+              "text": "The moon"
+            },
+            {
+              "id": "2",
+              "text": "The Sun"
+            },
+            {
+              "id": "3",
+              "text": "The heart"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The heart"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What group was popular in the 1960s with the hits Yummy Yummy Yummy and Chewy Chewy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Velvet Underground"
+            },
+            {
+              "id": "1",
+              "text": "The Rolling Stones"
+            },
+            {
+              "id": "2",
+              "text": "The Ohio Express"
+            },
+            {
+              "id": "3",
+              "text": "The Beatles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Ohio Express"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What disease do the following famous people share: Menachem Begin, Halle Berry, Carol Channing, Miles Davis, Ella Fitzgerald, Ray Kroc, Arthur Ashe, and Ty Cobb?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rheumatic fever"
+            },
+            {
+              "id": "1",
+              "text": "Irritated  bowel syndrome"
+            },
+            {
+              "id": "2",
+              "text": "Dyslexia"
+            },
+            {
+              "id": "3",
+              "text": "Diabetes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Diabetes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nixon received a higher percentage of the popular vote during his losing bid for the presidency than when he won in 1968.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two of these musicians were born in Lafayette, Indiana?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Axl Rose and Shannon Hoon"
+            },
+            {
+              "id": "1",
+              "text": "Michael Stipe and Curt Cobain"
+            },
+            {
+              "id": "2",
+              "text": "Kurt Cobain and Shannon Hoon"
+            },
+            {
+              "id": "3",
+              "text": "Axl Rose and Michael Stipe"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Axl Rose and Shannon Hoon"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which list is in increasing order regarding size?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Squad, Platoon, Company, Brigade"
+            },
+            {
+              "id": "1",
+              "text": "Squad, Platoon, Battalion, Company"
+            },
+            {
+              "id": "2",
+              "text": "Platoon, Company, Regiment , Battalion"
+            },
+            {
+              "id": "3",
+              "text": "Platoon, Squad, Company, Regiment"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Squad, Platoon, Company, Brigade"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The USA is divided into states. England is divided into counties. Which country is divided into departments?",
+          "options": [
+            {
+              "id": "0",
+              "text": "India"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "Ireland"
+            },
+            {
+              "id": "3",
+              "text": "Taiwan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which 1955 movie won four Academy Awards?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marty"
+            },
+            {
+              "id": "1",
+              "text": "Forrest Gump"
+            },
+            {
+              "id": "2",
+              "text": "Crash"
+            },
+            {
+              "id": "3",
+              "text": "The Wizard of Oz"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Marty"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1995 movie Mr. Hollands Opus, Mr. Holland teaches young Gertrude Lang to play the clarinet piece Stranger on the Shore. Who wrote this famous piece?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Byars"
+            },
+            {
+              "id": "1",
+              "text": "Donald Byron"
+            },
+            {
+              "id": "2",
+              "text": "Acker Bilk"
+            },
+            {
+              "id": "3",
+              "text": "Toots Thielman"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Acker Bilk"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What nations gas group, PEMEX, made headlines in 1974?",
+          "options": [
+            {
+              "id": "0",
+              "text": "United Arab Emirates"
+            },
+            {
+              "id": "1",
+              "text": "Venezuela"
+            },
+            {
+              "id": "2",
+              "text": "Mexico"
+            },
+            {
+              "id": "3",
+              "text": "Panama"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mexico"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which actress and dancer appeared in Bon Jovis video Always?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kiersten Dunst"
+            },
+            {
+              "id": "1",
+              "text": "Katie Holmes"
+            },
+            {
+              "id": "2",
+              "text": "Claire Danes"
+            },
+            {
+              "id": "3",
+              "text": "Keri Russell"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Keri Russell"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1920 Edward P. Eddie Eagan won the first Olympic boxing gold medal for the USA. In 1932, he won a second gold Olympic medal in which sport?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wrestling"
+            },
+            {
+              "id": "1",
+              "text": "Bobsledding"
+            },
+            {
+              "id": "2",
+              "text": "Greco-Roman Wrestling"
+            },
+            {
+              "id": "3",
+              "text": "The Shot Put"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bobsledding"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Select the year in which these vents took place: Petroleum production began in the Middle East, the Cubs beat the Tigers in the World Series, and the Montreal Wanderers won the Stanley Cup.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1924"
+            },
+            {
+              "id": "1",
+              "text": "1916"
+            },
+            {
+              "id": "2",
+              "text": "1932"
+            },
+            {
+              "id": "3",
+              "text": "1908"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1908"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which state is famous for being the site of a series of major earthquakes in 1811 and 1812?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hilo, Hawaii"
+            },
+            {
+              "id": "1",
+              "text": "New Madrid, Missouri"
+            },
+            {
+              "id": "2",
+              "text": "San Francisco, California"
+            },
+            {
+              "id": "3",
+              "text": "Trenton, New Jersey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: New Madrid, Missouri"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "people",
+          "size",
+          "woody",
+          "awards",
+          "share"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Countries and Country",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, denmark, magazine. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the beginning of the new millennium New Zealand, Australia and the UK were among the countries with highest consumption of cannabis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What magazine selects The Person of the Year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Newsweek"
+            },
+            {
+              "id": "1",
+              "text": "Sports Illustrated"
+            },
+            {
+              "id": "2",
+              "text": "Time"
+            },
+            {
+              "id": "3",
+              "text": "Rolling Stones"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Time"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Usually more than 10 million tourists visit three of these countries annually. Which is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Poland"
+            },
+            {
+              "id": "1",
+              "text": "Belgium"
+            },
+            {
+              "id": "2",
+              "text": "Mexico"
+            },
+            {
+              "id": "3",
+              "text": "Italy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Belgium"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What TV cat had the motto I hate meeces to pieces?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mr. Jinks"
+            },
+            {
+              "id": "1",
+              "text": "Miss Puss"
+            },
+            {
+              "id": "2",
+              "text": "Sonja"
+            },
+            {
+              "id": "3",
+              "text": "Katz"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Jinks"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This country is not a federal republic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Laos"
+            },
+            {
+              "id": "1",
+              "text": "Austria"
+            },
+            {
+              "id": "2",
+              "text": "Ethiopia"
+            },
+            {
+              "id": "3",
+              "text": "Pakistan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Laos"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ireland and Nigeria are considered to be among the countries with most adults, regularly attending church services. The citizens of one of this country also go to church regularly.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Finland"
+            },
+            {
+              "id": "1",
+              "text": "Russia"
+            },
+            {
+              "id": "2",
+              "text": "Poland"
+            },
+            {
+              "id": "3",
+              "text": "Japan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Poland"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "San Marino, Denmark and Norway are among the countries with most _____  per capita.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Personal computers"
+            },
+            {
+              "id": "1",
+              "text": "Television sets"
+            },
+            {
+              "id": "2",
+              "text": "Credit cards"
+            },
+            {
+              "id": "3",
+              "text": "Cell phones"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Personal computers"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In three of these countries corruption is widely spread. Which is the odd country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Romania"
+            },
+            {
+              "id": "1",
+              "text": "Russia"
+            },
+            {
+              "id": "2",
+              "text": "Iceland"
+            },
+            {
+              "id": "3",
+              "text": "Ukraine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Iceland"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first vice president from the Republican Party?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "1",
+              "text": "John Tyler"
+            },
+            {
+              "id": "2",
+              "text": "Hannibal Hamlin"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hannibal Hamlin"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Christianity is not the main religion in this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Armenia"
+            },
+            {
+              "id": "1",
+              "text": "Uruguay"
+            },
+            {
+              "id": "2",
+              "text": "Sri Lanka"
+            },
+            {
+              "id": "3",
+              "text": "East Timor"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sri Lanka"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What future senator was the first Ph.D. on the moon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John W. Young"
+            },
+            {
+              "id": "1",
+              "text": "David Scott"
+            },
+            {
+              "id": "2",
+              "text": "Alan Shepard"
+            },
+            {
+              "id": "3",
+              "text": "Harrison H. Schmitt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Harrison H. Schmitt"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Malawi, Nigeria and Botswana, the official language is this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "English"
+            },
+            {
+              "id": "1",
+              "text": "French"
+            },
+            {
+              "id": "2",
+              "text": "Portuguese"
+            },
+            {
+              "id": "3",
+              "text": "Spanish"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: English"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ireland, New Zealand and Japan are three countries with very high consumption of this drink.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brandy"
+            },
+            {
+              "id": "1",
+              "text": "Coffee"
+            },
+            {
+              "id": "2",
+              "text": "Coca-cola"
+            },
+            {
+              "id": "3",
+              "text": "Tea"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tea"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What company introduced the Radarange, the first countertop home microwave oven, in 1967?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amana"
+            },
+            {
+              "id": "1",
+              "text": "Kennmore"
+            },
+            {
+              "id": "2",
+              "text": "GE"
+            },
+            {
+              "id": "3",
+              "text": "Tappan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Amana"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Czech Republic, Luxembourg and the UK were among the countries with most obese people in the beginning of the new century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "denmark",
+          "magazine",
+          "country",
+          "tv",
+          "president"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Diamond and Earth",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, john, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The original name of the Beatles song, Eleanor Rigby, was Miss Daisy Hawkins.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did the US government buy for the Native Alaskans in 1891?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Motorized sleds"
+            },
+            {
+              "id": "1",
+              "text": "The basis of their caribou herd"
+            },
+            {
+              "id": "2",
+              "text": "A fire truck"
+            },
+            {
+              "id": "3",
+              "text": "Ice boxes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The basis of their caribou herd"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In order for a natural diamond to form, it must be exposed to what specific conditions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "High pressure and high temperature"
+            },
+            {
+              "id": "1",
+              "text": "High pressure and absence of light"
+            },
+            {
+              "id": "2",
+              "text": "Comparatively low pressure and high temperature"
+            },
+            {
+              "id": "3",
+              "text": "High pressure and comparatively low temperature"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: High pressure and comparatively low temperature"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Travis Metcalfe, an astronomer at the Harvard-Smithsonian Center for Astrophysics, has presented a fascinating theory: he believes the largest diamond known is located where?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In Earth\u2019s core"
+            },
+            {
+              "id": "1",
+              "text": "On the moon\u2019s dark side"
+            },
+            {
+              "id": "2",
+              "text": "At the bottom of the Mariana Trench"
+            },
+            {
+              "id": "3",
+              "text": "In a near star\u2019s core"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: In a near star\u2019s core"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What physical property of the diamond do carats measure?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Purity"
+            },
+            {
+              "id": "1",
+              "text": "Mass"
+            },
+            {
+              "id": "2",
+              "text": "Cut"
+            },
+            {
+              "id": "3",
+              "text": "Color"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mass"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the sitcom Third Rock  from the Sun, John Lithgow plays Dick Solomon. What is his occupation on Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Advertising writer"
+            },
+            {
+              "id": "1",
+              "text": "Professor of Anthropology"
+            },
+            {
+              "id": "2",
+              "text": "Professor of Physics"
+            },
+            {
+              "id": "3",
+              "text": "Unemployed"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Professor of Physics"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Diamonds\u2019 properties are commonly measured by the so called \u201cfour Cs.\u201d What do the four Cs stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chemical balance, color, clarity and carat"
+            },
+            {
+              "id": "1",
+              "text": "Carat, capacity, color and clarity"
+            },
+            {
+              "id": "2",
+              "text": "Cut, calcification, carat, and cut"
+            },
+            {
+              "id": "3",
+              "text": "Carat, clarity, color, and cut"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Carat, clarity, color, and cut"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The word diamond comes from the ancient Greek word \u201cadamas\u201d meaning what translated in English?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Everlasting"
+            },
+            {
+              "id": "1",
+              "text": "Powerful"
+            },
+            {
+              "id": "2",
+              "text": "Brilliant"
+            },
+            {
+              "id": "3",
+              "text": "Invincible"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Invincible"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Alaska, Texas and California are the three largest states in the USA. Which are the next two largest states?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Montana and New Mexico"
+            },
+            {
+              "id": "1",
+              "text": "Georgia and Iowa"
+            },
+            {
+              "id": "2",
+              "text": "Wyoming and Iowa"
+            },
+            {
+              "id": "3",
+              "text": "Montana and Georgia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Montana and New Mexico"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The diamond is the hardest known natural material on Earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1992 there was a petition signed by 30,000 people to change the name of Maui, Hawaii to Gilligan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Diamond formation is a very slow process. It is estimated that most diamonds found in nature are of what approximate age?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1 \u2013 3 billion years old"
+            },
+            {
+              "id": "1",
+              "text": "100 \u2013 200 million years old"
+            },
+            {
+              "id": "2",
+              "text": "30 \u2013 40 billion years old"
+            },
+            {
+              "id": "3",
+              "text": "100 000 \u2013 200 000 years old"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1 \u2013 3 billion years old"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "About half of the 26,000 kg diamonds mined annually originate from which continent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Asia"
+            },
+            {
+              "id": "1",
+              "text": "South America"
+            },
+            {
+              "id": "2",
+              "text": "Europe"
+            },
+            {
+              "id": "3",
+              "text": "Africa"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Africa"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although seemingly different, the diamond and the graphite are both allotropes of one and the same chemical element. Which one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nitrogen"
+            },
+            {
+              "id": "1",
+              "text": "Carbon"
+            },
+            {
+              "id": "2",
+              "text": "Oxygen"
+            },
+            {
+              "id": "3",
+              "text": "Iron"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Carbon"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these musicians was not among the first class inducted into the Jazz Hall of Fame?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ray Charles"
+            },
+            {
+              "id": "1",
+              "text": "Earl Hines"
+            },
+            {
+              "id": "2",
+              "text": "Benny Carter"
+            },
+            {
+              "id": "3",
+              "text": "Art Tatum"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ray Charles"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "john",
+          "people",
+          "astronomer",
+          "process",
+          "kg"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Word and Police",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, harris, fiction. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did Russia declare war against Japan during World  War II?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two days after the bombing of Hiroshima"
+            },
+            {
+              "id": "1",
+              "text": "The day after the Battle of Kursk"
+            },
+            {
+              "id": "2",
+              "text": "The day after the Battle of Stalingrad"
+            },
+            {
+              "id": "3",
+              "text": "Two days after Germany surrendered."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Two days after the bombing of Hiroshima"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How were the dimensions of American battleships determined?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They had to be lower than the Golden Gates bridge and small enough to go through the Panama Canal."
+            },
+            {
+              "id": "1",
+              "text": "They had to be large enough to carry the minimum of 278 people but small enough to go through the Suez Canal."
+            },
+            {
+              "id": "2",
+              "text": "They had to be less than 111 feet tall and less than 11 feet wide."
+            },
+            {
+              "id": "3",
+              "text": "They had to be lower than the Brooklyn Bridge and small enough to go through the Panama  Canal."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They had to be lower than the Brooklyn Bridge and small enough to go through the Panama  Canal."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Thomas Harris created this terrible fictional murderer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael  Everett"
+            },
+            {
+              "id": "1",
+              "text": "Garland  Saunderson"
+            },
+            {
+              "id": "2",
+              "text": "Jason Thomas"
+            },
+            {
+              "id": "3",
+              "text": "Hannibal Lecter"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hannibal Lecter"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1994 film, Pulp Fiction, these actors portray Jules Winfield and Vincent  Vega.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ving Rhames and John Travolta"
+            },
+            {
+              "id": "1",
+              "text": "Bruce Willis and Phil Lamarr"
+            },
+            {
+              "id": "2",
+              "text": "Samuel L. Jackson and John Travolta"
+            },
+            {
+              "id": "3",
+              "text": "Ving Rhames and Samuel L. Jackson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Samuel L. Jackson and John Travolta"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which famous writer is not paired with the correct pseudonym?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ellery Queen-Erle Stanley Gardner"
+            },
+            {
+              "id": "1",
+              "text": "Ellis Bell-Emily Bronte"
+            },
+            {
+              "id": "2",
+              "text": "Richard Bachman-Stephen King"
+            },
+            {
+              "id": "3",
+              "text": "Ernest V. Trueblood-William Faulkner"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ellery Queen-Erle Stanley Gardner"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first US police force to buy a police car was also the first to have a police motorcycle squad.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As a protest to the British Tea Tax, colonial Americans used this for making tea.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hay"
+            },
+            {
+              "id": "1",
+              "text": "Goldenrod"
+            },
+            {
+              "id": "2",
+              "text": "Persian Root"
+            },
+            {
+              "id": "3",
+              "text": "Strawberries"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Goldenrod"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many continents are owned by only one nation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first rock group to play at New Yorks Carnegie Hall?",
+          "options": [
+            {
+              "id": "0",
+              "text": "America"
+            },
+            {
+              "id": "1",
+              "text": "The Who"
+            },
+            {
+              "id": "2",
+              "text": "The Beatles"
+            },
+            {
+              "id": "3",
+              "text": "Chicago"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these famous buildings is located on the Quai dOrsay, in Paris?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The French Ministry of Foreign Affairs"
+            },
+            {
+              "id": "1",
+              "text": "The Tomb of Napoleon"
+            },
+            {
+              "id": "2",
+              "text": "The Picasso Museum of Paris"
+            },
+            {
+              "id": "3",
+              "text": "The Eiffel Tower"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The French Ministry of Foreign Affairs"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which US President signed the law, which established the Congressional Medal of Honor - the highest military decoration awarded by the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lincoln"
+            },
+            {
+              "id": "1",
+              "text": "Grant"
+            },
+            {
+              "id": "2",
+              "text": "A. Johnson"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lincoln"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first woman to have a gold record?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Teresa Brewer"
+            },
+            {
+              "id": "1",
+              "text": "Connie  Francis"
+            },
+            {
+              "id": "2",
+              "text": "Judy Garland"
+            },
+            {
+              "id": "3",
+              "text": "Shirley Temple"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Judy Garland"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The moves in this sport include Barani, Triffus, Miller, and Randy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Figure Skating"
+            },
+            {
+              "id": "1",
+              "text": "Ballroom Dancing"
+            },
+            {
+              "id": "2",
+              "text": "Trampoline"
+            },
+            {
+              "id": "3",
+              "text": "BMX"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Trampoline"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This word can mean a social upstart or a social climber.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Selcouth"
+            },
+            {
+              "id": "1",
+              "text": "Zabern"
+            },
+            {
+              "id": "2",
+              "text": "Pronk"
+            },
+            {
+              "id": "3",
+              "text": "Rastaquouere"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rastaquouere"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the Hindu word Krishna mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the lord"
+            },
+            {
+              "id": "1",
+              "text": "dark or dark blue"
+            },
+            {
+              "id": "2",
+              "text": "daylight"
+            },
+            {
+              "id": "3",
+              "text": "my lord"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: dark or dark blue"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "harris",
+          "fiction",
+          "world",
+          "gold",
+          "president"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "History Quiz: Bride and Groom",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, jethro, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The kiss at the end of the wedding ceremony expresses a Christian belief and symbolizes the swapping of souls between the bride and the groom.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The wedding cake originated in ancient Rome where it was thrown at the bride or broken over her head as a sign of fertility.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Jethro Tull invent in 1701, while he was living in Crowmarsh Gifford, a village in Oxfordshire, England?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The combine machine"
+            },
+            {
+              "id": "1",
+              "text": "The telescope"
+            },
+            {
+              "id": "2",
+              "text": "The first modern rifle"
+            },
+            {
+              "id": "3",
+              "text": "The seed drill"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The seed drill"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these was introduced in Britain by Lady Mary Wortley, who was a prolific writer of diaries, essays and poems?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The piano playing"
+            },
+            {
+              "id": "1",
+              "text": "Musical modulation"
+            },
+            {
+              "id": "2",
+              "text": "Smallpox innoculation"
+            },
+            {
+              "id": "3",
+              "text": "The literary salon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Smallpox innoculation"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This island was originally called Van Diemens Land in honor of Anthony van Diemen.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "Indonesia"
+            },
+            {
+              "id": "2",
+              "text": "Tasmania"
+            },
+            {
+              "id": "3",
+              "text": "New Zealand"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tasmania"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The custom of all bridesmaids dressing alike was started to ensure that bride would stand out and be the center of attention on the alter.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This book, which bears the printed date 11th May 868, is known as the oldest-dated printed book.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Gutenburg Bible"
+            },
+            {
+              "id": "1",
+              "text": "The Diamond Sutra scroll"
+            },
+            {
+              "id": "2",
+              "text": "The first history of China"
+            },
+            {
+              "id": "3",
+              "text": "The Book of the Dead"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Diamond Sutra scroll"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The tradition of proposing with a diamond engagement ring can be dated back to 1477 when the Archduke Maximilian of Hamburg gave one to Mary of Burgundy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person, who was High King of Ireland from 1002 to 1014, is popular as the ruler who managed to unify the regional leaders of Ireland, in order to free the land from Danish occupation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brian Boru"
+            },
+            {
+              "id": "1",
+              "text": "Henry II"
+            },
+            {
+              "id": "2",
+              "text": "Campbell of Munster"
+            },
+            {
+              "id": "3",
+              "text": "Patrick of Kearney"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Brian Boru"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After three unsuccessful runs, this socialist was elected President in 1970.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Salvador Allende"
+            },
+            {
+              "id": "1",
+              "text": "Miquel Noriega"
+            },
+            {
+              "id": "2",
+              "text": "Dmitri Kerensky"
+            },
+            {
+              "id": "3",
+              "text": "Ivan Beria"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Salvador Allende"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At weddings it is common for people to toast the bride or groom. The term toast originates from Italy where it was common to place a piece of bread in the bottom of a wine cup for flavor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The tradition of placing the wedding ring on the third finger of the left hand originates from ancient Egypt, where they believed that a vein in this finger ran directly to the heart.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This statesman, born in Houghton Hall, Norfolk in 1676, is generally regarded as the first Prime Minister of Great Britain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Gladstone"
+            },
+            {
+              "id": "1",
+              "text": "Henry Cavendish"
+            },
+            {
+              "id": "2",
+              "text": "Benjamin Disraeli"
+            },
+            {
+              "id": "3",
+              "text": "Robert Walpole"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Walpole"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The tradition of the white wedding dress dates back hundreds of years. It was worn to symbolize the virginity of the bride.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Anglo-Saxon times the bride stood on the left of the groom to allow him to keep his right sword hand free so that he could fight off anyone trying to kidnap the bride.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "jethro",
+          "people",
+          "left",
+          "finger",
+          "president"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Bride and Groom",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, superfood, hitman. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the second most important vegetable fibre after cotton that is woven to make coarse cloth and sacks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Juniper"
+            },
+            {
+              "id": "1",
+              "text": "Jade"
+            },
+            {
+              "id": "2",
+              "text": "Jet"
+            },
+            {
+              "id": "3",
+              "text": "Jute"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jute"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If bactrian equals two, what equals one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dromedary"
+            },
+            {
+              "id": "1",
+              "text": "Diamond"
+            },
+            {
+              "id": "2",
+              "text": "Daschund"
+            },
+            {
+              "id": "3",
+              "text": "Dynasty"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dromedary"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which World War One battles were the first ever fought by the Australian and New Zealand Army Corps (ANZAC) as a joint force?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Galicia battles"
+            },
+            {
+              "id": "1",
+              "text": "Gallipoli battles"
+            },
+            {
+              "id": "2",
+              "text": "Ghent battles"
+            },
+            {
+              "id": "3",
+              "text": "Georgetown battles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gallipoli battles"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What O-word can be added to each of the following to make a new meaningful word:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Old"
+            },
+            {
+              "id": "1",
+              "text": "Oaf"
+            },
+            {
+              "id": "2",
+              "text": "Oat"
+            },
+            {
+              "id": "3",
+              "text": "Out"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Out"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which 1968 film starred Jane Fonda as a scantily-clad sci-fi heroine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bambi Meets Godzilla"
+            },
+            {
+              "id": "1",
+              "text": "Bandolero!"
+            },
+            {
+              "id": "2",
+              "text": "Bullitt"
+            },
+            {
+              "id": "3",
+              "text": "Barbarella"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Barbarella"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In May 2008, this painter set a new world record for sale value of a painting by a living artist when Benefits Supervisor Sleeping was sold for $33.6 million. What is his/her name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lucian Freud"
+            },
+            {
+              "id": "1",
+              "text": "Simon Francis"
+            },
+            {
+              "id": "2",
+              "text": "Clinton Ford"
+            },
+            {
+              "id": "3",
+              "text": "Brian Froud"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lucian Freud"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In ancient times, it was common for the groom to abduct his bride. The honeymoon originated as a way for the bride and groom to go into hiding after the wedding, to keep the brides family from finding her.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which actress played the part of Teresa di Vicenzo in the James Bond film On Her Majestys Secret Service?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nadja Regin"
+            },
+            {
+              "id": "1",
+              "text": "Diana Rigg"
+            },
+            {
+              "id": "2",
+              "text": "Denise Richards"
+            },
+            {
+              "id": "3",
+              "text": "Tanya Roberts"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Diana Rigg"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which 1994 film featured Jean Reno as a hitman who worked out of Little Italy in New York City and offered sanctuary to a young girl when her family was murdered by corrupt Drug Enforcement Agency agents?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leo"
+            },
+            {
+              "id": "1",
+              "text": "L\u00e9on"
+            },
+            {
+              "id": "2",
+              "text": "Lenny"
+            },
+            {
+              "id": "3",
+              "text": "L\u00e9olo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: L\u00e9on"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The fruit of this deciduous shrub or small tree is a berry 5 - 12 cm (2 \u2013 4.7 inches) in diameter, with thick red skin and about 600 seeds.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pear"
+            },
+            {
+              "id": "1",
+              "text": "Pomegranate"
+            },
+            {
+              "id": "2",
+              "text": "Persimmon"
+            },
+            {
+              "id": "3",
+              "text": "Pawpaw"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pomegranate"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the anvil-shaped bone in the middle ear that along with the malleus and stapes allow us to hear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Incense"
+            },
+            {
+              "id": "1",
+              "text": "Inca"
+            },
+            {
+              "id": "2",
+              "text": "Inuit"
+            },
+            {
+              "id": "3",
+              "text": "Incus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Incus"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For which hobby would you need frames, hoops and canvas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Needlepoint"
+            },
+            {
+              "id": "1",
+              "text": "Nudism"
+            },
+            {
+              "id": "2",
+              "text": "Newsletter printing"
+            },
+            {
+              "id": "3",
+              "text": "Netball"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Needlepoint"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name for a vocal musical composition for between two and eight singers, written in the Renaissance and early Baroque eras and often performed without musical accompaniment?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Magnificat"
+            },
+            {
+              "id": "1",
+              "text": "Mass"
+            },
+            {
+              "id": "2",
+              "text": "Madrigal"
+            },
+            {
+              "id": "3",
+              "text": "Mambo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Madrigal"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The bride traditionally wears a veil, because it is considered bad luck for the groom to see the bride before the wedding.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the more common name for the superfood Vaccinium oxycoccos?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cranberry"
+            },
+            {
+              "id": "1",
+              "text": "Cauliflower"
+            },
+            {
+              "id": "2",
+              "text": "Courgette"
+            },
+            {
+              "id": "3",
+              "text": "Cress"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cranberry"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "superfood",
+          "hitman",
+          "cotton",
+          "world",
+          "hoops"
+        ]
+      }
+    }
+  ]
+}

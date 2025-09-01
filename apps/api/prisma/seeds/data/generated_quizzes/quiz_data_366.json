@@ -1,0 +1,2372 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Wine and Toy",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, process, grape. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nationality of Erno Rubik, the inventor of the 3-D mechanical puzzle, known as the Rubiks Cube?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hungarian"
+            },
+            {
+              "id": "1",
+              "text": "American"
+            },
+            {
+              "id": "2",
+              "text": "Polish"
+            },
+            {
+              "id": "3",
+              "text": "French"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hungarian"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of grape, native to Europe, was devastated by a pest in the middle 1800s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "vitis aestivalis"
+            },
+            {
+              "id": "1",
+              "text": "vitis sylvestris"
+            },
+            {
+              "id": "2",
+              "text": "vitis vinifera"
+            },
+            {
+              "id": "3",
+              "text": "vitis labrusca"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: vitis vinifera"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What plastic toy, invented by George Lerner in 1949, has the distinction of being the first toy advertised on television?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Raggedy Ann Doll"
+            },
+            {
+              "id": "1",
+              "text": "Barbie"
+            },
+            {
+              "id": "2",
+              "text": "Mr. Potato Head"
+            },
+            {
+              "id": "3",
+              "text": "Mrs. Potato Head"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Potato Head"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these toys is seen in Chandler and Joeys apartment on the TV show Friends?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Silly Puty"
+            },
+            {
+              "id": "1",
+              "text": "LEGO Building Blocks"
+            },
+            {
+              "id": "2",
+              "text": "Magna Doodle"
+            },
+            {
+              "id": "3",
+              "text": "Draughts"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Magna Doodle"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Used to measure the concentration of sugar in wine, this scale was developed by a French pharmacist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "beaufort scale"
+            },
+            {
+              "id": "1",
+              "text": "baume scale"
+            },
+            {
+              "id": "2",
+              "text": "brix scale"
+            },
+            {
+              "id": "3",
+              "text": "scoville scale"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: baume scale"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What science deals with fermentation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "cytology"
+            },
+            {
+              "id": "1",
+              "text": "virology"
+            },
+            {
+              "id": "2",
+              "text": "zymology"
+            },
+            {
+              "id": "3",
+              "text": "limnology"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: zymology"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This substance is a product of volcanic activity and is used as preservative in wine making.",
+          "options": [
+            {
+              "id": "0",
+              "text": "hydrogen sulfide"
+            },
+            {
+              "id": "1",
+              "text": "sulfurous acid"
+            },
+            {
+              "id": "2",
+              "text": "sulfur trioxide"
+            },
+            {
+              "id": "3",
+              "text": "sulfur dioxide"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: sulfur dioxide"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What term is used to denote a trained and knowledgeable wine professional?",
+          "options": [
+            {
+              "id": "0",
+              "text": "cuvee"
+            },
+            {
+              "id": "1",
+              "text": "salmanazar"
+            },
+            {
+              "id": "2",
+              "text": "negociant"
+            },
+            {
+              "id": "3",
+              "text": "sommelier"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: sommelier"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Teddy Bear was named in honor of President Theodore Roosevelt, who refused to shoot a bear while on a hunting trip in this state.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Florida"
+            },
+            {
+              "id": "1",
+              "text": "Alaska"
+            },
+            {
+              "id": "2",
+              "text": "Mississippi"
+            },
+            {
+              "id": "3",
+              "text": "California"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mississippi"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This term denotes the process of adding sugar to the must, the juice of the freshly pressed grapes, in order to increase alcohol content in wine.",
+          "options": [
+            {
+              "id": "0",
+              "text": "crackling"
+            },
+            {
+              "id": "1",
+              "text": "maceration"
+            },
+            {
+              "id": "2",
+              "text": "fining"
+            },
+            {
+              "id": "3",
+              "text": "chaptalization"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: chaptalization"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which word refers to the water soluble pigments that give wine its red color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ionons"
+            },
+            {
+              "id": "1",
+              "text": "anthocyanins"
+            },
+            {
+              "id": "2",
+              "text": "damascones"
+            },
+            {
+              "id": "3",
+              "text": "phycobilins"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: anthocyanins"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a mixture of red and white sparkling wine, that has a high sugar content.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barique"
+            },
+            {
+              "id": "1",
+              "text": "Bodega"
+            },
+            {
+              "id": "2",
+              "text": "Cold Duck"
+            },
+            {
+              "id": "3",
+              "text": "Claret"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cold Duck"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the beneficial mold that develops on grapes under moist conditions and leaves grape crops partially raisined?",
+          "options": [
+            {
+              "id": "0",
+              "text": "methuselah"
+            },
+            {
+              "id": "1",
+              "text": "noble rot"
+            },
+            {
+              "id": "2",
+              "text": "fizzante"
+            },
+            {
+              "id": "3",
+              "text": "phylloxera"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: noble rot"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What science studies all aspects of wine and wine making?",
+          "options": [
+            {
+              "id": "0",
+              "text": "oology"
+            },
+            {
+              "id": "1",
+              "text": "aetology"
+            },
+            {
+              "id": "2",
+              "text": "oenology"
+            },
+            {
+              "id": "3",
+              "text": "oenophilia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: oenology"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What toy did Apollo 8 astronauts carry into space in 1968?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yo-Yo"
+            },
+            {
+              "id": "1",
+              "text": "Rubiks Cube"
+            },
+            {
+              "id": "2",
+              "text": "Lincoln Logs"
+            },
+            {
+              "id": "3",
+              "text": "Silly Putty"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Silly Putty"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "process",
+          "grape",
+          "space",
+          "plastic",
+          "president"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Ingredient and Syrup",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, algae, agents. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This agent was patented by LOreal.  It is stated to be the only sure UVA sun filter as its molecule remains unaffected by solar energy. Thus, it provides effective and long-lasting sun protection.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aminexil"
+            },
+            {
+              "id": "1",
+              "text": "Mexoryl SX"
+            },
+            {
+              "id": "2",
+              "text": "Adenosinetriphosphate"
+            },
+            {
+              "id": "3",
+              "text": "Ceramides"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mexoryl SX"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Canada is by far the worlds largest maple syrup producer. Approximately what part of the worlds maple syrup is produced in Canada?",
+          "options": [
+            {
+              "id": "0",
+              "text": "80%"
+            },
+            {
+              "id": "1",
+              "text": "65%"
+            },
+            {
+              "id": "2",
+              "text": "95%"
+            },
+            {
+              "id": "3",
+              "text": "70%"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 80%"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This ingredient is often used in anti-cellulite lotions and slim gels because it enhances the micro-circulation and easily dissolves body fat.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chocolate"
+            },
+            {
+              "id": "1",
+              "text": "Nicotine"
+            },
+            {
+              "id": "2",
+              "text": "THC"
+            },
+            {
+              "id": "3",
+              "text": "Caffeine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Caffeine"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These agents are used to transport active ingredients through the skin and take them where they would be most effective.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nanosomes"
+            },
+            {
+              "id": "1",
+              "text": "UV"
+            },
+            {
+              "id": "2",
+              "text": "Ceramides"
+            },
+            {
+              "id": "3",
+              "text": "THC"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nanosomes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These substances are added to lotions and creams because they smooth and soften the skin.  There are several hundred different kinds.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Humectants"
+            },
+            {
+              "id": "1",
+              "text": "Solvents"
+            },
+            {
+              "id": "2",
+              "text": "Emollients"
+            },
+            {
+              "id": "3",
+              "text": "Lubricants"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Emollients"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This component produces adenosinetriphosphate, which increases the cells vitality and enables the body to release quick burst of energy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Estrogen"
+            },
+            {
+              "id": "1",
+              "text": "Creatine"
+            },
+            {
+              "id": "2",
+              "text": "Glutamine"
+            },
+            {
+              "id": "3",
+              "text": "Adrenaline"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Creatine"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These substances act as moisturisers by attracting water to themselves, even from the air.  They are also used to prevent creams from drying out.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Surfactants"
+            },
+            {
+              "id": "1",
+              "text": "Preservatives"
+            },
+            {
+              "id": "2",
+              "text": "Humectants"
+            },
+            {
+              "id": "3",
+              "text": "Antioxidants"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Humectants"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It takes 40 litres (10 gallons) of maple sap to make 2 litres (a half gallon) of maple syrup.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After 10 years of research LOreal found this molecule, which effectively stops hair loss.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ceramide"
+            },
+            {
+              "id": "1",
+              "text": "Aminexil"
+            },
+            {
+              "id": "2",
+              "text": "THC"
+            },
+            {
+              "id": "3",
+              "text": "Nanozome"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Aminexil"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a term used for the building in which maple syrup is boiled?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sugarhouse"
+            },
+            {
+              "id": "1",
+              "text": "Cabane a sucre"
+            },
+            {
+              "id": "2",
+              "text": "Sugar Barn"
+            },
+            {
+              "id": "3",
+              "text": "Sugar Shanty"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sugar Barn"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This ingredient is used in a lot of cosmetic products.  It is rich in micro-elements and minerals because it comes from the depths of the sea.  It has been said that this ingredient can activate the chemical process typical for youthful skin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Retinol"
+            },
+            {
+              "id": "1",
+              "text": "Nanosomes"
+            },
+            {
+              "id": "2",
+              "text": "Pearl powder"
+            },
+            {
+              "id": "3",
+              "text": "Amino-acids"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pearl powder"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This coenzyme is naturally produced by a specific algae.  It is used for transforming food into energy that the body will use to perform all its activities.  It is also a powerful antioxidant.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Riboflavin"
+            },
+            {
+              "id": "1",
+              "text": "Thiamin"
+            },
+            {
+              "id": "2",
+              "text": "Q 10"
+            },
+            {
+              "id": "3",
+              "text": "Niacin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Q 10"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sugar on snow is a popular New England treat. It is boiled maple syrup cooled in snow and placed on sticks. Which food item is not traditionally served with this candy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yeast risen Donuts"
+            },
+            {
+              "id": "1",
+              "text": "Coffee"
+            },
+            {
+              "id": "2",
+              "text": "Shortbread cookies"
+            },
+            {
+              "id": "3",
+              "text": "Sour Dill Pickle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Shortbread cookies"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The production of maple syrup traditionally starts in what month?",
+          "options": [
+            {
+              "id": "0",
+              "text": "February"
+            },
+            {
+              "id": "1",
+              "text": "July"
+            },
+            {
+              "id": "2",
+              "text": "October"
+            },
+            {
+              "id": "3",
+              "text": "September"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: February"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a protein complex produced by the bacterium, Clostridium botulinum.  It contains a toxin that causes food poisoning.  However, when injected in small doses it smoothens existing lines and wrinkles.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Botox"
+            },
+            {
+              "id": "1",
+              "text": "Dopamnine"
+            },
+            {
+              "id": "2",
+              "text": "Bo-Hylurox"
+            },
+            {
+              "id": "3",
+              "text": "Creatine"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Botox"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "algae",
+          "agents",
+          "products",
+          "protein",
+          "food"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Bread and Usa",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, gustav, ale. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bread is one of the oldest prepared foods.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In mediaeval England, what was an ale-connor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An unscrupulous merchant who sold muddy water flavoured with hops"
+            },
+            {
+              "id": "1",
+              "text": "A wooden ale mug"
+            },
+            {
+              "id": "2",
+              "text": "Ale seller"
+            },
+            {
+              "id": "3",
+              "text": "A beer-tester"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A beer-tester"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was Wonder Bread  first marketed in the USA as pre-sliced bread?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1934"
+            },
+            {
+              "id": "1",
+              "text": "1926"
+            },
+            {
+              "id": "2",
+              "text": "1925"
+            },
+            {
+              "id": "3",
+              "text": "1930"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1930"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How old must a tree be before it can be tapped for maple syrup production?",
+          "options": [
+            {
+              "id": "0",
+              "text": "30 years old"
+            },
+            {
+              "id": "1",
+              "text": "10 years old"
+            },
+            {
+              "id": "2",
+              "text": "40 years old"
+            },
+            {
+              "id": "3",
+              "text": "20 years old"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 40 years old"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the oldest brewery in the USA that is still operating?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brooklyn Brewery"
+            },
+            {
+              "id": "1",
+              "text": "Sierra Nevada Brewery"
+            },
+            {
+              "id": "2",
+              "text": "Boston Beer Company"
+            },
+            {
+              "id": "3",
+              "text": "Yuengling"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Yuengling"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the first loaf of sliced bread sold?",
+          "options": [
+            {
+              "id": "0",
+              "text": "March 29, 1925"
+            },
+            {
+              "id": "1",
+              "text": "June 17, 1921"
+            },
+            {
+              "id": "2",
+              "text": "September 21, 1916"
+            },
+            {
+              "id": "3",
+              "text": "July 7, 1928"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: July 7, 1928"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the years of the Civil War molasses was made using maple syrup because it did not require slave labor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how many commercial maple syrup producers are there in North America?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5,000"
+            },
+            {
+              "id": "1",
+              "text": "16,000"
+            },
+            {
+              "id": "2",
+              "text": "12,000"
+            },
+            {
+              "id": "3",
+              "text": "20,000"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 16,000"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "India Pale Ale was originally made in India.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who prompted the marketing of sliced bread in 1928?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gustav Papendick"
+            },
+            {
+              "id": "1",
+              "text": "Otto Rohwedder"
+            },
+            {
+              "id": "2",
+              "text": "Herbert Dinklebrot"
+            },
+            {
+              "id": "3",
+              "text": "W.E. Long"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: W.E. Long"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The bread-slicing machine was first commercially used by the Chillicothe Baking Company of Chillicothe, Missouri.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which state produces the most maple syrup in New England?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maine"
+            },
+            {
+              "id": "1",
+              "text": "Vermont"
+            },
+            {
+              "id": "2",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "3",
+              "text": "New Hampshire"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vermont"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gustav Papendick bought the second bread-slicer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happened to the first prototype of the bread-slicing machine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was destroyed by its inventor."
+            },
+            {
+              "id": "1",
+              "text": "It was stolen by the people of Battle Creek, Michigan."
+            },
+            {
+              "id": "2",
+              "text": "It was destroyed in a fire."
+            },
+            {
+              "id": "3",
+              "text": "It was destroyed by vandals."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It was destroyed in a fire."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The worlds strongest lager is named after Santa Claus.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "gustav",
+          "ale",
+          "marketing",
+          "producers",
+          "molasses"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Dish and Delicacy",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, brine, endgame. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "First you catch herring, then gut them, and can them in brine. Next you leave them in a warm place for several months. When you see the middle of the can swell you open the can under water and put them on a plate or bowl and serve. What is this dish called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Surstromming"
+            },
+            {
+              "id": "1",
+              "text": "Sylta"
+            },
+            {
+              "id": "2",
+              "text": "Martyred Herring"
+            },
+            {
+              "id": "3",
+              "text": "Skipsol"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Surstromming"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not the equivalent of what Americans often call head cheese?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brawn"
+            },
+            {
+              "id": "1",
+              "text": "Brabant"
+            },
+            {
+              "id": "2",
+              "text": "Sylta"
+            },
+            {
+              "id": "3",
+              "text": "Kumiss"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kumiss"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is an Italian delicacy consisting of raw beef, tuna or veal that has been pounded and cut into very thin slices. It is served with a mustard sauce and is usually placed on a bed of arugula and green with an olive oil/lemon juice dressing.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Retsina"
+            },
+            {
+              "id": "1",
+              "text": "Cibreo"
+            },
+            {
+              "id": "2",
+              "text": "Capi"
+            },
+            {
+              "id": "3",
+              "text": "Carpaccio"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Carpaccio"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A rook is worth more than a bishop.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these descriptions best describes the Scottish product Irn -Bru?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A lamb dish that contains raisins, barley, hops, and cherries"
+            },
+            {
+              "id": "1",
+              "text": "A very strong breakfast tea that is brewed from tea leaves, barley, and seaweed"
+            },
+            {
+              "id": "2",
+              "text": "A type of dessert that is made from an orange marmalade/barley mixture"
+            },
+            {
+              "id": "3",
+              "text": "An orange colored soft drink that contains ammonium ferric citrate and quinnine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: An orange colored soft drink that contains ammonium ferric citrate and quinnine"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "First corn is usually attacked by a parasitic fungal infestation. The kernels swell to as much as 9 times normal size, and then darken. They are collected, canned, and sold to the public as a delicacy. Which one of these is NOT a name for this food?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mexican truffles"
+            },
+            {
+              "id": "1",
+              "text": "Balut"
+            },
+            {
+              "id": "2",
+              "text": "Corn shrooms"
+            },
+            {
+              "id": "3",
+              "text": "Huitlacoche"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Balut"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a Japanese dish made from thinly sliced, pickled ginger which is kept in a solution of sugar and water.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shiokara"
+            },
+            {
+              "id": "1",
+              "text": "Natto"
+            },
+            {
+              "id": "2",
+              "text": "Kapi"
+            },
+            {
+              "id": "3",
+              "text": "Gari"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gari"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The winner of a chess game is usually the player who made the penultimate mistake.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The optimal position for a knight is the edge of the chess board.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This food was not on the Sopranos, but is a Taiwanese dish.",
+          "options": [
+            {
+              "id": "0",
+              "text": "FuFu"
+            },
+            {
+              "id": "1",
+              "text": "Cibreo"
+            },
+            {
+              "id": "2",
+              "text": "Ngapi-jaw"
+            },
+            {
+              "id": "3",
+              "text": "Bao Bing"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bao Bing"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Americas entry into World War Two led to a ban on sliced bread starting in August 1943.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In chess, the king should be used aggressively in the endgame.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The phase Greatest thing since sliced bread derived from a Wonder Bread advertising campaign.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the name of a Danish delicacy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Retsina"
+            },
+            {
+              "id": "1",
+              "text": "Yule Brod"
+            },
+            {
+              "id": "2",
+              "text": "Marmite"
+            },
+            {
+              "id": "3",
+              "text": "Schmaltz"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yule Brod"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is a traditional Japanese breakfast dish?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kapi"
+            },
+            {
+              "id": "1",
+              "text": "No Ko Bashi"
+            },
+            {
+              "id": "2",
+              "text": "Natto"
+            },
+            {
+              "id": "3",
+              "text": "Kimchee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Natto"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "brine",
+          "endgame",
+          "world",
+          "breakfast",
+          "delicacy"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: Chess and Carrot",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, festival, mean. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a combination in chess?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A sequence of moves leading to zugzwang"
+            },
+            {
+              "id": "1",
+              "text": "A sequence of moves leading to an advantage"
+            },
+            {
+              "id": "2",
+              "text": "A sequence of moves leading to checkmate"
+            },
+            {
+              "id": "3",
+              "text": "A sequence of moves involving a sacrifice"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A sequence of moves leading to an advantage"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which vitamin is the orange pigment beta-carotene converted to by the human body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin C"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin B12"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin E"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin A"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is an example of underpromotion in chess?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Giving your opponent knight odds"
+            },
+            {
+              "id": "1",
+              "text": "Telling your opponent you are a duffer when you are really an expert"
+            },
+            {
+              "id": "2",
+              "text": "Taking your opponents pawn with your knight instead of your queen"
+            },
+            {
+              "id": "3",
+              "text": "Converting your pawn into a knight"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Converting your pawn into a knight"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In chess a backwards move is almost always a bad move.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Parsley is a close relative of the carrot",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is usually a disadvantage in chess?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A castled king in the opening"
+            },
+            {
+              "id": "1",
+              "text": "A passed pawn"
+            },
+            {
+              "id": "2",
+              "text": "An isolated pawn"
+            },
+            {
+              "id": "3",
+              "text": "A centralized king in the ending"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: An isolated pawn"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The loss of a single pawn is not enough to lose a chess game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As well as oranges, carrots come in white and pink varieties.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Carrot tops are poisonous to humans, even in small quantities.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which US state hosts a carrot festival in the town that calls itself Carrot Capital of the World?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Texas"
+            },
+            {
+              "id": "1",
+              "text": "Florida"
+            },
+            {
+              "id": "2",
+              "text": "California"
+            },
+            {
+              "id": "3",
+              "text": "Utah"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the scientific (Latin) name of the wild carrot?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neee wassupdoc"
+            },
+            {
+              "id": "1",
+              "text": "Noctus viseus"
+            },
+            {
+              "id": "2",
+              "text": "Carota carota"
+            },
+            {
+              "id": "3",
+              "text": "Daucus carota"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Daucus carota"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The carrot is thought to have originated from this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "India"
+            },
+            {
+              "id": "1",
+              "text": "Afghanistan"
+            },
+            {
+              "id": "2",
+              "text": "China"
+            },
+            {
+              "id": "3",
+              "text": "Brazil"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Afghanistan"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the chess term zugzwang mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moving very quickly"
+            },
+            {
+              "id": "1",
+              "text": "Running out of time"
+            },
+            {
+              "id": "2",
+              "text": "Being almost out of time on your clock"
+            },
+            {
+              "id": "3",
+              "text": "Being unable to move without making your position worse than it already is"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Being unable to move without making your position worse than it already is"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eating carrots can improve a persons night vision.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The carrot was outlawed in Holland in the 16th century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "festival",
+          "mean",
+          "example",
+          "country",
+          "underpromotion"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Champagne and Process",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, developed, process. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which process involves rotating of champagne bottles and gradually moving them to a neck-down orientation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "none of these"
+            },
+            {
+              "id": "1",
+              "text": "riddling"
+            },
+            {
+              "id": "2",
+              "text": "secondary fermentation"
+            },
+            {
+              "id": "3",
+              "text": "disgorging"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: riddling"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these words is not a term referring to sparkling wine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "cava"
+            },
+            {
+              "id": "1",
+              "text": "All of these refer to sparkling wine."
+            },
+            {
+              "id": "2",
+              "text": "spumante"
+            },
+            {
+              "id": "3",
+              "text": "sekt"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these refer to sparkling wine."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a grape variety used for producing Champagne?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pinot Meunier"
+            },
+            {
+              "id": "1",
+              "text": "White Chardonnay"
+            },
+            {
+              "id": "2",
+              "text": "Red Pinot Noir"
+            },
+            {
+              "id": "3",
+              "text": "Cabernet Franc"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cabernet Franc"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was Pepsi first made?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1780"
+            },
+            {
+              "id": "1",
+              "text": "1870"
+            },
+            {
+              "id": "2",
+              "text": "1890"
+            },
+            {
+              "id": "3",
+              "text": "1980"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1890"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who directed the movie Champagne, which tells the story of a young woman forced to get a job after her father tells her he has lost all his money?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ingmar Bergman"
+            },
+            {
+              "id": "1",
+              "text": "Alfred Hitchcock"
+            },
+            {
+              "id": "2",
+              "text": "Martin Scorsese"
+            },
+            {
+              "id": "3",
+              "text": "Woody Allen"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Alfred Hitchcock"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Champagne is usually served in a champagne flute at what temperature?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7 to 9 \u00b0C"
+            },
+            {
+              "id": "1",
+              "text": "13 to 15 \u00b0C"
+            },
+            {
+              "id": "2",
+              "text": "10 to 12 \u00b0C"
+            },
+            {
+              "id": "3",
+              "text": "1 to 5 \u00b0C"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 7 to 9 \u00b0C"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these remarks about Champagne was made by Sir Winston Churchill in 1918?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gentlemen, in the little moment that remains to us between the crisis and the catastrophe, we may as well drink a glass of champagne."
+            },
+            {
+              "id": "1",
+              "text": "Remember gentlemen, it\u2019s not just France we are fighting for, it\u2019s Champagne!"
+            },
+            {
+              "id": "2",
+              "text": "In victory, you deserve Champagne, in defeat, you need it."
+            },
+            {
+              "id": "3",
+              "text": "Some people wanted Champagne and caviar when they should have had beer and hot dogs."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Remember gentlemen, it\u2019s not just France we are fighting for, it\u2019s Champagne!"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country had the highest production of carrots in 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Egypt"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "Russia"
+            },
+            {
+              "id": "3",
+              "text": "USA"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Champagne, featured in at least eight Bond movies, does fictional spy James Bond prefer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bollinger"
+            },
+            {
+              "id": "1",
+              "text": "Ruinart"
+            },
+            {
+              "id": "2",
+              "text": "Dom P\u00e9rignon"
+            },
+            {
+              "id": "3",
+              "text": "Moet et Chandon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bollinger"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to her biography, this Hollywood actress once took a bath in 350 bottles of Champagne.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ava Gardner"
+            },
+            {
+              "id": "1",
+              "text": "Katharine Hepburn"
+            },
+            {
+              "id": "2",
+              "text": "Marilyn Monroe"
+            },
+            {
+              "id": "3",
+              "text": "Vivien Leigh"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Marilyn Monroe"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the mid 1980s Dr. Pepper became exclusively a product of the Coca Cola Company.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was Coca-Cola developed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1920"
+            },
+            {
+              "id": "1",
+              "text": "1886"
+            },
+            {
+              "id": "2",
+              "text": "1870"
+            },
+            {
+              "id": "3",
+              "text": "1790"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1886"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these cocktails includes the following ingredients: Champagne, cognac, raspberry liqueur, lemon juice and fresh raspberries?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gimlet"
+            },
+            {
+              "id": "1",
+              "text": "Marilyn Monroe"
+            },
+            {
+              "id": "2",
+              "text": "Manhattan"
+            },
+            {
+              "id": "3",
+              "text": "Rose of the Ritz"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rose of the Ritz"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it true that root beer comes in two forms: alcoholic and soft drink?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which British band performed the song Champagne Supernova that was included in the album (Whats the Story) Morning Glory?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Who"
+            },
+            {
+              "id": "1",
+              "text": "Blur"
+            },
+            {
+              "id": "2",
+              "text": "Oasis"
+            },
+            {
+              "id": "3",
+              "text": "The Police"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oasis"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "developed",
+          "process",
+          "grape",
+          "country",
+          "bottles"
+        ]
+      }
+    }
+  ]
+}

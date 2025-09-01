@@ -1,0 +1,2452 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Movie and Best Actress",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, find, field. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Australian actress to win the Academy Award for Best Actress?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cate Blanchett"
+            },
+            {
+              "id": "1",
+              "text": "Naomi Watts"
+            },
+            {
+              "id": "2",
+              "text": "Nicole Kidman"
+            },
+            {
+              "id": "3",
+              "text": "Judy Davis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nicole Kidman"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Jake find in Hollis pond in the film Chinatown?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A pair of glasses"
+            },
+            {
+              "id": "1",
+              "text": "A wallet"
+            },
+            {
+              "id": "2",
+              "text": "A picture of Evelyn"
+            },
+            {
+              "id": "3",
+              "text": "A gun"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A pair of glasses"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Escobars last line of dialogue in the movie Chinatown?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Forget it Jake, its Chinatown"
+            },
+            {
+              "id": "1",
+              "text": "I dont care"
+            },
+            {
+              "id": "2",
+              "text": "Just get him the hell out of here"
+            },
+            {
+              "id": "3",
+              "text": "Halt!!"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Just get him the hell out of here"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the 71st Academy Awards in 1999, both Judi Dench and Cate Blanchett were nominated for Academy Awards for Best Supporting Actress and Best Actress respectively, for portraying the same character in different movies. Name the character.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joan of Arc"
+            },
+            {
+              "id": "1",
+              "text": "Queen Elizabeth I"
+            },
+            {
+              "id": "2",
+              "text": "Virginia Woolf"
+            },
+            {
+              "id": "3",
+              "text": "Virgin Mary"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Queen Elizabeth I"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress won the Academy Awards for Best Actress for the 1960 movie BUtterfield 8?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bette Davis"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth Taylor"
+            },
+            {
+              "id": "2",
+              "text": "Greta Garbo"
+            },
+            {
+              "id": "3",
+              "text": "Audrey Hepburn"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Elizabeth Taylor"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Chinatown, how did Jakes operatives tell what time Mulray drove away?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They asked his wife."
+            },
+            {
+              "id": "1",
+              "text": "They placed watches under his tires."
+            },
+            {
+              "id": "2",
+              "text": "They put a microphone in his backseat."
+            },
+            {
+              "id": "3",
+              "text": "They kept constant observation."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They placed watches under his tires."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Meryl Streeps performance in this 1982 movie brought her her first Academy Award for Best Actress.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Silkwood"
+            },
+            {
+              "id": "1",
+              "text": "Sophies Choice"
+            },
+            {
+              "id": "2",
+              "text": "Kramer vs. Kramer"
+            },
+            {
+              "id": "3",
+              "text": "Out of Africa"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sophies Choice"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the first African American actress to win the Academy Award for Best Actress.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Halle Berry"
+            },
+            {
+              "id": "1",
+              "text": "Diana Ross"
+            },
+            {
+              "id": "2",
+              "text": "Angela Bassett"
+            },
+            {
+              "id": "3",
+              "text": "Whoopi Goldberg"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Halle Berry"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For what county did Chinatown character Claude Mulvihill serve as sheriff?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Orange"
+            },
+            {
+              "id": "1",
+              "text": "Ventura"
+            },
+            {
+              "id": "2",
+              "text": "Marin"
+            },
+            {
+              "id": "3",
+              "text": "Los Angeles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ventura"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular character did Sally Field portray in the first movie that brought her an Academy Award for Best Actress?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jane Eyre"
+            },
+            {
+              "id": "1",
+              "text": "Erin Brockovich"
+            },
+            {
+              "id": "2",
+              "text": "Mary Jane Kelly"
+            },
+            {
+              "id": "3",
+              "text": "Norma Rae"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Norma Rae"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the last movie for which Katharine Hepburn won an Academy Award for Best Actress?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Guess Whos Coming to Dinner"
+            },
+            {
+              "id": "1",
+              "text": "The Lion in Winter"
+            },
+            {
+              "id": "2",
+              "text": "On Golden Pond"
+            },
+            {
+              "id": "3",
+              "text": "Morning Glory"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: On Golden Pond"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was on the boat in Echo Park with Hollis I. Mulwray in the film Chinatown?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ida Sessions"
+            },
+            {
+              "id": "1",
+              "text": "Sophie"
+            },
+            {
+              "id": "2",
+              "text": "Evelyn Cross Mulwray"
+            },
+            {
+              "id": "3",
+              "text": "Katherine Cross"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Katherine Cross"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What movie brought Kate Winslet her first Academy Award for Best Actress?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titanic"
+            },
+            {
+              "id": "1",
+              "text": "Eternal Sunshine of the Spotless Mind"
+            },
+            {
+              "id": "2",
+              "text": "The Reader"
+            },
+            {
+              "id": "3",
+              "text": "Little Children"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Reader"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress won the Academy Award for Best Actress for her performance in the 1978 drama movie Coming Home?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maggie Smith"
+            },
+            {
+              "id": "1",
+              "text": "Barbra Streisand"
+            },
+            {
+              "id": "2",
+              "text": "Jane Fonda"
+            },
+            {
+              "id": "3",
+              "text": "Sophia Loren"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jane Fonda"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Susan Sarandon won her first Academy Award for Best Actress for this 1995 drama movie.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thelma  Louise"
+            },
+            {
+              "id": "1",
+              "text": "Dead Man Walking"
+            },
+            {
+              "id": "2",
+              "text": "The Client"
+            },
+            {
+              "id": "3",
+              "text": "Lorenzos Oil"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dead Man Walking"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "find",
+          "field",
+          "portray",
+          "line",
+          "county"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Movie and Fire",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, leader, actor. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who plays Alfred in the record breaking 2008 movie, The Dark Knight?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aaron Eckhart"
+            },
+            {
+              "id": "1",
+              "text": "Morgan Freeman"
+            },
+            {
+              "id": "2",
+              "text": "Heath Ledger"
+            },
+            {
+              "id": "3",
+              "text": "Michael Caine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Caine"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What pet did Samuel Ramos and his wife Lisa buy for their daughter in the 2004 movie Man on Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Parrot"
+            },
+            {
+              "id": "1",
+              "text": "Cat"
+            },
+            {
+              "id": "2",
+              "text": "Horse"
+            },
+            {
+              "id": "3",
+              "text": "Dog"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dog"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does John explain the scars on his hand when asked by the little girl in the 2004 action thriller movie Man on Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He says it was a birth defect."
+            },
+            {
+              "id": "1",
+              "text": "He says a shark bit him."
+            },
+            {
+              "id": "2",
+              "text": "He does not answer and remains silent."
+            },
+            {
+              "id": "3",
+              "text": "He tells her he has no idea."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He says it was a birth defect."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Grammy award-winning singer and songwriter played the role of Samuel Ramos in the 2004 action movie Man on Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Enrique Iglesias"
+            },
+            {
+              "id": "1",
+              "text": "Chayanne"
+            },
+            {
+              "id": "2",
+              "text": "Ricky Martin"
+            },
+            {
+              "id": "3",
+              "text": "Marc Anthony"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Marc Anthony"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Harrison Ford did his own stunts for Indiana Jones and the Crystal Skull.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What signature object does Hellboy always have in his mouth in 2008s Hellboy II: The Golden Army?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nothing"
+            },
+            {
+              "id": "1",
+              "text": "A Beer Bottle"
+            },
+            {
+              "id": "2",
+              "text": "A Piece of Wheat"
+            },
+            {
+              "id": "3",
+              "text": "A Cigar"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A Cigar"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the nickname of the leader of the kidnappers in the 2004 action thriller movie Man on Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "El Padre"
+            },
+            {
+              "id": "1",
+              "text": "The Voice"
+            },
+            {
+              "id": "2",
+              "text": "El Caliente"
+            },
+            {
+              "id": "3",
+              "text": "The Fingers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Voice"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what big city is the 2004 action thriller movie Man on Fire set?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "1",
+              "text": "Buenos Aires"
+            },
+            {
+              "id": "2",
+              "text": "Mexico City"
+            },
+            {
+              "id": "3",
+              "text": "Havana"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mexico City"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actor played the role of Paul Rayburn, Johns old CIA sidekick, in the 2004 action movie Man on Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Christopher Walken"
+            },
+            {
+              "id": "1",
+              "text": "Mickey Rourke"
+            },
+            {
+              "id": "2",
+              "text": "Giancarlo Giannini"
+            },
+            {
+              "id": "3",
+              "text": "Mario Zaragoza"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Christopher Walken"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What place did the 2008 movie Iron Man have on the list of all time best opening weekends when it first came out?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11th"
+            },
+            {
+              "id": "1",
+              "text": "10th"
+            },
+            {
+              "id": "2",
+              "text": "9th"
+            },
+            {
+              "id": "3",
+              "text": "8th"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 10th"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An emblem of what saint does the little girl give to John in the 2004 action drama movie Man on Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Luke"
+            },
+            {
+              "id": "1",
+              "text": "St. Jonh"
+            },
+            {
+              "id": "2",
+              "text": "St. Jude"
+            },
+            {
+              "id": "3",
+              "text": "St. Thomas"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: St. Jude"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of competition does Dakota Fannings character win in the 2004 action movie Man on Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A violin contest"
+            },
+            {
+              "id": "1",
+              "text": "A piano contest"
+            },
+            {
+              "id": "2",
+              "text": "A swimming race"
+            },
+            {
+              "id": "3",
+              "text": "A horse race"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A swimming race"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the villain in the 2008 film The Incredible Hulk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Human Torch"
+            },
+            {
+              "id": "1",
+              "text": "Cybor"
+            },
+            {
+              "id": "2",
+              "text": "The Abomination"
+            },
+            {
+              "id": "3",
+              "text": "Dark-Crawler"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Abomination"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Dakota Fannings character in the 2004 movie Man on Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Patricia"
+            },
+            {
+              "id": "1",
+              "text": "Palomita"
+            },
+            {
+              "id": "2",
+              "text": "Paulina"
+            },
+            {
+              "id": "3",
+              "text": "Lupita"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lupita"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What name does the little girl in the 2004 movie Man on Fire give to her favorite teddy bear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "W"
+            },
+            {
+              "id": "1",
+              "text": "Sam"
+            },
+            {
+              "id": "2",
+              "text": "Johnny"
+            },
+            {
+              "id": "3",
+              "text": "Creasy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Creasy"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "leader",
+          "actor",
+          "kind",
+          "villain",
+          "ford"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Plane and Movie",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, stars, snakes. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played flight attendant Claire Miller in the movie Snakes on a plane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sherry Stringfield"
+            },
+            {
+              "id": "1",
+              "text": "Kellie Martin"
+            },
+            {
+              "id": "2",
+              "text": "Jennifer Connelly"
+            },
+            {
+              "id": "3",
+              "text": "Julianna Margulies"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Julianna Margulies"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where do Troy Bolton and Gabriella Montez meet in the film High School Musical?",
+          "options": [
+            {
+              "id": "0",
+              "text": "at a bar"
+            },
+            {
+              "id": "1",
+              "text": "at a New Years Eve party"
+            },
+            {
+              "id": "2",
+              "text": "at school"
+            },
+            {
+              "id": "3",
+              "text": "at a Thanksgiving party"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: at a New Years Eve party"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Zac Efron made his acting debut in High School Musical.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Troy gives Gabriella a necklace in High School Musical 2.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much experience did Troy have, when he volunteered to land the plane in the 2006 movie Snakes on a Plane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He used to fly for the Air Force."
+            },
+            {
+              "id": "1",
+              "text": "He had two thousand hours of video game experience on the PlayStation 2."
+            },
+            {
+              "id": "2",
+              "text": "He was an avid model airplane pilot."
+            },
+            {
+              "id": "3",
+              "text": "None"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He had two thousand hours of video game experience on the PlayStation 2."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What High School Musical character was the head of the science club?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sharpay"
+            },
+            {
+              "id": "1",
+              "text": "Ryan"
+            },
+            {
+              "id": "2",
+              "text": "Taylor"
+            },
+            {
+              "id": "3",
+              "text": "Chad"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Taylor"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the characters in the film Snakes on a Plane was bitten by a snake on the chest but was not harmed because he was wearing a bulletproof vest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Troy"
+            },
+            {
+              "id": "1",
+              "text": "Sean Jones"
+            },
+            {
+              "id": "2",
+              "text": "Neville Flynn"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Kim"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sean Jones"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vanessa Hudgens, one of the stars in High School Musical, made her acting debut in the film Thirteen.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When the producers of the movie Snakes on a Plane wanted to change the title, actor Samuel L. Jackson protested, saying the only reason he took the job was because of the title.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why were the snakes on the plane in the movie Snakes on a Plane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A man wanted to wreck havoc on a plane, as a protest against an air company."
+            },
+            {
+              "id": "1",
+              "text": "They were being smuggled."
+            },
+            {
+              "id": "2",
+              "text": "They had to bring down the plane and kill a witness, who was going to testify about a murder"
+            },
+            {
+              "id": "3",
+              "text": "They were being transported to a zoo."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They had to bring down the plane and kill a witness, who was going to testify about a murder"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hancock is the first movie in which Will Smith plays a superhero.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following was NOT used to kill the snakes in the movie Snakes on a Plane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Axe"
+            },
+            {
+              "id": "1",
+              "text": "Gun"
+            },
+            {
+              "id": "2",
+              "text": "Microwave"
+            },
+            {
+              "id": "3",
+              "text": "Spear Gun"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gun"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was/were the first victim(s) of the snakes in the movie Snakes on a Plane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a man urinating in a bathroom"
+            },
+            {
+              "id": "1",
+              "text": "a flight attendant"
+            },
+            {
+              "id": "2",
+              "text": "a couple having sex in a bathroom"
+            },
+            {
+              "id": "3",
+              "text": "the planes captain"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: a couple having sex in a bathroom"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "High School Musical was released in 2005.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the planes destination in the film Snakes on a Plane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bali"
+            },
+            {
+              "id": "1",
+              "text": "Los Angeles"
+            },
+            {
+              "id": "2",
+              "text": "New York"
+            },
+            {
+              "id": "3",
+              "text": "Hawaii"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Los Angeles"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "stars",
+          "snakes",
+          "producers",
+          "following",
+          "debut"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Movie and Marlon Wayans",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Wayans duo created the television series In Living Color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Damon and Dwayne"
+            },
+            {
+              "id": "1",
+              "text": "Keenen and Damon"
+            },
+            {
+              "id": "2",
+              "text": "Shawn and Marlon"
+            },
+            {
+              "id": "3",
+              "text": "Kim and Nadia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Keenen and Damon"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Marlon Wayans was in Scary Movie 1, 2 and 3.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are a total of 10 siblings in the talented Wayans family.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the Wayans brothers starred in the 1996 movie The Glimmer Man?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Keenen"
+            },
+            {
+              "id": "1",
+              "text": "Damon"
+            },
+            {
+              "id": "2",
+              "text": "Marlon"
+            },
+            {
+              "id": "3",
+              "text": "Dwayne"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Keenen"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elvira Wayans was a writer on what Damon Wayans television show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "My Wife and Kids"
+            },
+            {
+              "id": "1",
+              "text": "In Living Color"
+            },
+            {
+              "id": "2",
+              "text": "House of Payne"
+            },
+            {
+              "id": "3",
+              "text": "My Brothers Keeper"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: My Wife and Kids"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the two main characters in the 2009 comedy The Ugly Truth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andy and Lilly"
+            },
+            {
+              "id": "1",
+              "text": "Rob and Michelle"
+            },
+            {
+              "id": "2",
+              "text": "Abby and Mike"
+            },
+            {
+              "id": "3",
+              "text": "Christopher and Natalie"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Abby and Mike"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 2002 movie was Kim Wayans in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snow Dogs"
+            },
+            {
+              "id": "1",
+              "text": "Juwanna Man"
+            },
+            {
+              "id": "2",
+              "text": "Spiderman"
+            },
+            {
+              "id": "3",
+              "text": "Titanic"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Juwanna Man"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Damon Wayans was not in the 1987 movie Hollywood Shuffle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American actress stars in the 2009 romantic comedy movie The Ugly Truth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ellen Pompeo"
+            },
+            {
+              "id": "1",
+              "text": "Sandra Bullock"
+            },
+            {
+              "id": "2",
+              "text": "Katherine Heigl"
+            },
+            {
+              "id": "3",
+              "text": "Alicia Silverstone"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Katherine Heigl"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of the Wayans family composed the original music for the television series My Wife and Kids?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nadia"
+            },
+            {
+              "id": "1",
+              "text": "Dwayne"
+            },
+            {
+              "id": "2",
+              "text": "Kim"
+            },
+            {
+              "id": "3",
+              "text": "Damon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dwayne"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Wayans brothers teamed up for the 2004 movie White Chicks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Keenen and Dwayne"
+            },
+            {
+              "id": "1",
+              "text": "Damon and Keenen"
+            },
+            {
+              "id": "2",
+              "text": "Shawn and Damon"
+            },
+            {
+              "id": "3",
+              "text": "Marlon and Shawn"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Marlon and Shawn"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nadia Wayans did not appear in the1988 movie Im Gonna Get You Sucka with her siblings.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of the Wayans family starred in the 1996 movie Bulletproof with Adam Sandler?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Damon"
+            },
+            {
+              "id": "1",
+              "text": "Shawn"
+            },
+            {
+              "id": "2",
+              "text": "Kim"
+            },
+            {
+              "id": "3",
+              "text": "Nadia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Damon"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these movies has actor Gerard Butler appeared prior to The Ugly Truth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "RocknRolla"
+            },
+            {
+              "id": "1",
+              "text": "300"
+            },
+            {
+              "id": "2",
+              "text": "The Phantom of the Opera"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Marlon Wayans was in the movie Above the Rim with Tupac.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "stars",
+          "chicks",
+          "truth",
+          "damon"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: The Ugly Truth and Ugly Truth",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, country, over-articulation. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did the first episode of the unforgettable Mr. Bean premiere on ITV channel (changed to Channel 3 soon after)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "January 1, 1990"
+            },
+            {
+              "id": "1",
+              "text": "May 1, 1990"
+            },
+            {
+              "id": "2",
+              "text": "September 1, 1992"
+            },
+            {
+              "id": "3",
+              "text": "February 13, 1989"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: January 1, 1990"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 2009 song was featured in the trailer and TV spots of the comedy movie The Ugly Truth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "So Fine by Sean Paul"
+            },
+            {
+              "id": "1",
+              "text": "Right Round by Flo Rida"
+            },
+            {
+              "id": "2",
+              "text": "Warning/Tornado by Rihanna"
+            },
+            {
+              "id": "3",
+              "text": "Work by Ciara ft. Missy Elliott"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Right Round by Flo Rida"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Because of his visual acting style, Rowan Atkinson is often compared to this legendary actor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert De Niro"
+            },
+            {
+              "id": "1",
+              "text": "Benny Hill"
+            },
+            {
+              "id": "2",
+              "text": "Jim Carrey"
+            },
+            {
+              "id": "3",
+              "text": "Charlie Chaplin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Charlie Chaplin"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rowan Atkinsons movie career started in 1983 with a supporting part in this James Bond movie.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Spy Who Loved Me"
+            },
+            {
+              "id": "1",
+              "text": "Never Say Never Again"
+            },
+            {
+              "id": "2",
+              "text": "Diamonds Are Forever"
+            },
+            {
+              "id": "3",
+              "text": "You Only Live Twice"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Never Say Never Again"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Rowan Atkinson major in at the Newcastle University",
+          "options": [
+            {
+              "id": "0",
+              "text": "Electrical engineering"
+            },
+            {
+              "id": "1",
+              "text": "Economics"
+            },
+            {
+              "id": "2",
+              "text": "Art"
+            },
+            {
+              "id": "3",
+              "text": "Chemistry"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Electrical engineering"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rowan Atkinsons passion for these objects caused him to amass an impressive collection.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stamps"
+            },
+            {
+              "id": "1",
+              "text": "Cars"
+            },
+            {
+              "id": "2",
+              "text": "Bicycles"
+            },
+            {
+              "id": "3",
+              "text": "Coins"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cars"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rowan Atkinson is know for his over-articulation of the sound B. Why does he do that?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In order to sound funnier."
+            },
+            {
+              "id": "1",
+              "text": "To overcome his stuttering."
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Because it allows him to spit while he talks."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: To overcome his stuttering."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rowan Sebastian Atkinson was born on the 6 January 1955, in what country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "England"
+            },
+            {
+              "id": "2",
+              "text": "USA"
+            },
+            {
+              "id": "3",
+              "text": "The Republic of South Africa"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: England"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of professional does the show producer start dating in The Ugly Truth 2009?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lawyer"
+            },
+            {
+              "id": "1",
+              "text": "Journalist"
+            },
+            {
+              "id": "2",
+              "text": "Surgeon"
+            },
+            {
+              "id": "3",
+              "text": "Banker"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Surgeon"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was most of the filming of the 2009 movie The Ugly Truth done?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York"
+            },
+            {
+              "id": "1",
+              "text": "California"
+            },
+            {
+              "id": "2",
+              "text": "Florida"
+            },
+            {
+              "id": "3",
+              "text": "Paris"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the most alluring combination that a woman should represent, according to the sexist correspondent in the 2009 romantic comedy The Ugly Truth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Librarian and stripper"
+            },
+            {
+              "id": "1",
+              "text": "Teacher and prostitute"
+            },
+            {
+              "id": "2",
+              "text": "Angelina Jolie and Pamela Anderson"
+            },
+            {
+              "id": "3",
+              "text": "Housewife and lover"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Librarian and stripper"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What strategy for making a man fall in love works according to Gerard Butlers character in The Ugly Truth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Manipulation"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Seduction"
+            },
+            {
+              "id": "3",
+              "text": "Lust"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Gerard Butlers character in The Ugly Truth promise he would do if his plan fails?",
+          "options": [
+            {
+              "id": "0",
+              "text": "appear naked in his show"
+            },
+            {
+              "id": "1",
+              "text": "start respecting women"
+            },
+            {
+              "id": "2",
+              "text": "quit his job"
+            },
+            {
+              "id": "3",
+              "text": "shave his head"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: quit his job"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1994 Four Weddings and a Funeral Rowan Atkinson had a small but memorable part as this charming inexperienced priest.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reverend George"
+            },
+            {
+              "id": "1",
+              "text": "Father Thomas"
+            },
+            {
+              "id": "2",
+              "text": "Father Gerald"
+            },
+            {
+              "id": "3",
+              "text": "Reverend Mathew"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Father Gerald"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of guy is Gerard Butlers character in The Ugly Truth movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Overconfident"
+            },
+            {
+              "id": "1",
+              "text": "Cynical"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Male chauvinist"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "country",
+          "over-articulation",
+          "truth",
+          "acting",
+          "atkinsons"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Movie and John Dillinger",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the Clark Gable movie that John Dillinger and Anna Sage are watching together in the Biograph Theater in the 2009 Public Enemies movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Men in White"
+            },
+            {
+              "id": "1",
+              "text": "The Call of the Wild"
+            },
+            {
+              "id": "2",
+              "text": "Manhattan Melodrama"
+            },
+            {
+              "id": "3",
+              "text": "Dancing Lady"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Manhattan Melodrama"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the fate of John Dillinger in the 2009 movie Public Enemies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He breaks his girlfriend out of jail and they get married."
+            },
+            {
+              "id": "1",
+              "text": "He manages to escape from the FBI and becomes an honest man."
+            },
+            {
+              "id": "2",
+              "text": "He is shot dead."
+            },
+            {
+              "id": "3",
+              "text": "He commits suicide before the FBI agents could arrest him."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He is shot dead."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1987 movie is this quote from: They can get to anyone, they can kill anybody. You want them to know who you are? Do you??",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dark Tower"
+            },
+            {
+              "id": "1",
+              "text": "The Believers"
+            },
+            {
+              "id": "2",
+              "text": "Hellraiser"
+            },
+            {
+              "id": "3",
+              "text": "The Wind"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Believers"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of character is Anna Sage, played by actress Branka Katic in the Public Enemies movie from 2009?",
+          "options": [
+            {
+              "id": "0",
+              "text": "FBI agent"
+            },
+            {
+              "id": "1",
+              "text": "John Dillingers mother"
+            },
+            {
+              "id": "2",
+              "text": "Prostitute"
+            },
+            {
+              "id": "3",
+              "text": "Murderer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Prostitute"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these charming actors stars in the 2009 movie Public Enemies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnny Depp"
+            },
+            {
+              "id": "1",
+              "text": "John Travolta"
+            },
+            {
+              "id": "2",
+              "text": "Brad Pitt"
+            },
+            {
+              "id": "3",
+              "text": "Tom Cruise"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Johnny Depp"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of John Dillingers girlfriend in the 2009 movie Public Enemies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bobby"
+            },
+            {
+              "id": "1",
+              "text": "Bonnie"
+            },
+            {
+              "id": "2",
+              "text": "Becky"
+            },
+            {
+              "id": "3",
+              "text": "Billie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Billie"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does John Dillingers girlfriend do when she is beaten during the interrogation following her arrest in the 2009 Public Enemies movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She seduces the interrogator and manages to escape."
+            },
+            {
+              "id": "1",
+              "text": "She does not betray John."
+            },
+            {
+              "id": "2",
+              "text": "She kills the interrogator."
+            },
+            {
+              "id": "3",
+              "text": "She decides to speak and discloses Johns location."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: She does not betray John."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these French actresses stars in the Public Enemies movie from 2009 as criminal John Dillingers love interest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ludivine Sagnier"
+            },
+            {
+              "id": "1",
+              "text": "Hafsia Herzi"
+            },
+            {
+              "id": "2",
+              "text": "Marion Cotillard"
+            },
+            {
+              "id": "3",
+              "text": "Emmanuelle Seigner"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Marion Cotillard"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1980 movie contains the following quote: I understand you lost your wife and daughter a little while ago. Maybe it shook you up. Maybe too much... *Maybe*, you need help.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Poltergeist"
+            },
+            {
+              "id": "1",
+              "text": "The Amityville Horror"
+            },
+            {
+              "id": "2",
+              "text": "The Changeling"
+            },
+            {
+              "id": "3",
+              "text": "The Watcher in the Woods"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Changeling"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For the 1994s massive movie hit The Lion King Rowan Atkinson gave his voice to this bird character.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pumbaa"
+            },
+            {
+              "id": "1",
+              "text": "Rafiki"
+            },
+            {
+              "id": "2",
+              "text": "Timon"
+            },
+            {
+              "id": "3",
+              "text": "Zazu"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Zazu"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of criminal was John Dillinger, a historical figure and leading character in the 2009 Public Enemies movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Forger"
+            },
+            {
+              "id": "1",
+              "text": "Rapist"
+            },
+            {
+              "id": "2",
+              "text": "Bank robber"
+            },
+            {
+              "id": "3",
+              "text": "Murderer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bank robber"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Identify the 1980 movie from this quote: Hey, professor! I recognize these teeth. This is Felipe Ocanya. He knew the jungle as well as I do.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Predator"
+            },
+            {
+              "id": "1",
+              "text": "Motel Hell"
+            },
+            {
+              "id": "2",
+              "text": "Bad Taste"
+            },
+            {
+              "id": "3",
+              "text": "Cannibal Holocaust"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cannibal Holocaust"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Actor Christian Bale stars in the 2009 crime movie Public Enemies. What type of character does he play?",
+          "options": [
+            {
+              "id": "0",
+              "text": "FBI agent"
+            },
+            {
+              "id": "1",
+              "text": "Police officer"
+            },
+            {
+              "id": "2",
+              "text": "Wealthy businessman"
+            },
+            {
+              "id": "3",
+              "text": "Criminal"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: FBI agent"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 2003s movie Johnny English Rowan Atkinson starred alongside this beautiful Australian singer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Missy Higgins"
+            },
+            {
+              "id": "1",
+              "text": "Natalie Imbruglia"
+            },
+            {
+              "id": "2",
+              "text": "Kylie Minogue"
+            },
+            {
+              "id": "3",
+              "text": "Dannii Minogue"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Natalie Imbruglia"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the last words that John Dillinger says in the Public Enemies 2009 movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Man should never forget where he comes from, and where hes going."
+            },
+            {
+              "id": "1",
+              "text": "Tell Billie for me Bye bye Blackbird."
+            },
+            {
+              "id": "2",
+              "text": "All is far behind me. I am ready."
+            },
+            {
+              "id": "3",
+              "text": "Crime does not pay, Anna."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tell Billie for me Bye bye Blackbird."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "stars",
+          "actor",
+          "kind",
+          "quote"
+        ]
+      }
+    }
+  ]
+}

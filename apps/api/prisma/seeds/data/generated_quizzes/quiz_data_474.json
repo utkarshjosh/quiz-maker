@@ -1,0 +1,2508 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Sun and Disease",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, people, astronomer. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which transit of planets against the Sun obscures the most of its disk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Transit of Jupiter, viewed from Saturn"
+            },
+            {
+              "id": "1",
+              "text": "Transit of Earth, viewed from Mars"
+            },
+            {
+              "id": "2",
+              "text": "Transit of Uranus, viewed from Neptune"
+            },
+            {
+              "id": "3",
+              "text": "Transit of Saturn, viewed from Uranus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Transit of Jupiter, viewed from Saturn"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1655 the Bubonic Plague hit India and China causing mass casualties.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of Galaxy is the Milky Way?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elliptical"
+            },
+            {
+              "id": "1",
+              "text": "Spiral"
+            },
+            {
+              "id": "2",
+              "text": "Barred Spiral"
+            },
+            {
+              "id": "3",
+              "text": "Irregular"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Barred Spiral"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these most closely describes a Mira Variable?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A variable that is in the constellation of Mensa"
+            },
+            {
+              "id": "1",
+              "text": "A star that suddenly brightens, dims, then is never as bright again"
+            },
+            {
+              "id": "2",
+              "text": "A red variable with an extreme change in brightness with a short pulsation period"
+            },
+            {
+              "id": "3",
+              "text": "A red star that pulsates once more than 100 days and changes by more than a magnitude"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A red star that pulsates once more than 100 days and changes by more than a magnitude"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Spanish Flu took the lives of over 40,000 people between 1918 and 1920.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these objects does Perseus contain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "M45"
+            },
+            {
+              "id": "1",
+              "text": "M101"
+            },
+            {
+              "id": "2",
+              "text": "NGC 1499"
+            },
+            {
+              "id": "3",
+              "text": "PSR 0329+54"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: NGC 1499"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these will our Sun eventually become?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neutron Star"
+            },
+            {
+              "id": "1",
+              "text": "Black Hole"
+            },
+            {
+              "id": "2",
+              "text": "Emission Nebula"
+            },
+            {
+              "id": "3",
+              "text": "Planetary Nebula"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Planetary Nebula"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which quasar is the brightest as seen from Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "PSR0031-07"
+            },
+            {
+              "id": "1",
+              "text": "PKS0405-123"
+            },
+            {
+              "id": "2",
+              "text": "OQ 172"
+            },
+            {
+              "id": "3",
+              "text": "3C 273"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3C 273"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the most distant object you can see unaided under the best possible conditions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Triangulum Galaxy(M33)"
+            },
+            {
+              "id": "1",
+              "text": "Andromeda Galaxy(M31)"
+            },
+            {
+              "id": "2",
+              "text": "The Large Magellanic Cloud"
+            },
+            {
+              "id": "3",
+              "text": "The Whirlpool Galaxy(M51)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Triangulum Galaxy(M33)"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which ancient Greek astronomer cataloged 48 of the constellations?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Plato"
+            },
+            {
+              "id": "1",
+              "text": "Aristotle"
+            },
+            {
+              "id": "2",
+              "text": "Ptolemy"
+            },
+            {
+              "id": "3",
+              "text": "Aristarchus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ptolemy"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From what disease did former U.S. President James K. Polk die in 1849?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cholera"
+            },
+            {
+              "id": "1",
+              "text": "Chicken Pox"
+            },
+            {
+              "id": "2",
+              "text": "Malaria"
+            },
+            {
+              "id": "3",
+              "text": "Flu"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cholera"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a fast-spinning neutron star that emits pulses of radio waves called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Millisecondar"
+            },
+            {
+              "id": "1",
+              "text": "White Dwarf"
+            },
+            {
+              "id": "2",
+              "text": "Pulsar"
+            },
+            {
+              "id": "3",
+              "text": "Magnetar"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pulsar"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ophiuchus is on the ecliptic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which constellation did the brightest (Apparent magnitude -9) supernova occur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crater"
+            },
+            {
+              "id": "1",
+              "text": "Lupus"
+            },
+            {
+              "id": "2",
+              "text": "Antlia"
+            },
+            {
+              "id": "3",
+              "text": "Hydra"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lupus"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1952, this disease struck the U.S. and became the worst epidemic in the nations history at that time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Small Pox"
+            },
+            {
+              "id": "1",
+              "text": "Malaria"
+            },
+            {
+              "id": "2",
+              "text": "Whooping Cough"
+            },
+            {
+              "id": "3",
+              "text": "Polio"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Polio"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "people",
+          "astronomer",
+          "casualties",
+          "kind",
+          "nations"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Tobaccos and Death",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, philip, quarts. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the first US national antismoking coalition, formed in 1964?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Action on Smoking and Health"
+            },
+            {
+              "id": "1",
+              "text": "National Interagency Council on Smoking and Health"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "National Clearinghouse for Smoking and Health"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: National Interagency Council on Smoking and Health"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many eggs are in 1 gross?",
+          "options": [
+            {
+              "id": "0",
+              "text": "144"
+            },
+            {
+              "id": "1",
+              "text": "96"
+            },
+            {
+              "id": "2",
+              "text": "12"
+            },
+            {
+              "id": "3",
+              "text": "48"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 144"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these cigarette brands is produced by Philip Morris International?",
+          "options": [
+            {
+              "id": "0",
+              "text": "LM"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Marlboro"
+            },
+            {
+              "id": "3",
+              "text": "Parliament"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Using the apothecary system, how many grains are in 4 drams?",
+          "options": [
+            {
+              "id": "0",
+              "text": "240"
+            },
+            {
+              "id": "1",
+              "text": "200"
+            },
+            {
+              "id": "2",
+              "text": "180"
+            },
+            {
+              "id": "3",
+              "text": "220"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 240"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet has an apparent magnitude of  -2.8 to -1.6?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Venus"
+            },
+            {
+              "id": "1",
+              "text": "Mercury"
+            },
+            {
+              "id": "2",
+              "text": "Jupiter"
+            },
+            {
+              "id": "3",
+              "text": "Mars"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jupiter"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these smoking devices operates by water-filtration and direct heat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hookah"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Water pipe"
+            },
+            {
+              "id": "3",
+              "text": "Hubble-bubble"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a person bought a 5.05 acre tract, how many square feet would be in the 5.05 acre tract?",
+          "options": [
+            {
+              "id": "0",
+              "text": "217,800"
+            },
+            {
+              "id": "1",
+              "text": "217,500"
+            },
+            {
+              "id": "2",
+              "text": "219,675"
+            },
+            {
+              "id": "3",
+              "text": "219,978"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 219,978"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A woodcutter chopped down enough trees to have 896 cubic feet of firewood. How many cords did he chop?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What caused the death of Wayne McLaren and David McLean, famous for appearing in many Marlboro television and print advertisements?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lung cancer"
+            },
+            {
+              "id": "1",
+              "text": "Car crash"
+            },
+            {
+              "id": "2",
+              "text": "Horse accident"
+            },
+            {
+              "id": "3",
+              "text": "Fire caused by a cigarette"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lung cancer"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many fluid ounces do 48 quarts equal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1,563"
+            },
+            {
+              "id": "1",
+              "text": "1,536"
+            },
+            {
+              "id": "2",
+              "text": "1,635"
+            },
+            {
+              "id": "3",
+              "text": "1,653"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1,536"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The World No Tobacco Day, a global event sponsored by the World Health Organization, is held annually on which day?",
+          "options": [
+            {
+              "id": "0",
+              "text": "May 31"
+            },
+            {
+              "id": "1",
+              "text": "March 31"
+            },
+            {
+              "id": "2",
+              "text": "April 31"
+            },
+            {
+              "id": "3",
+              "text": "January 1"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: May 31"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how many different chemicals does a smoker inhale with one drag on the cigarette?",
+          "options": [
+            {
+              "id": "0",
+              "text": "about 2000"
+            },
+            {
+              "id": "1",
+              "text": "about 200"
+            },
+            {
+              "id": "2",
+              "text": "over 4000"
+            },
+            {
+              "id": "3",
+              "text": "between 500 and 1000"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: over 4000"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This rare, slow burning, strong-tasting tobacco is used as a component of many blended pipe tobaccos, but is too strong to be smoked pure.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Havana"
+            },
+            {
+              "id": "1",
+              "text": "Virginia"
+            },
+            {
+              "id": "2",
+              "text": "Perique"
+            },
+            {
+              "id": "3",
+              "text": "Cavendish"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Perique"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of tobacco is the mildest of all blending tobaccos and has the highest level of natural dextrose.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Perique"
+            },
+            {
+              "id": "1",
+              "text": "Burley"
+            },
+            {
+              "id": "2",
+              "text": "Latakia"
+            },
+            {
+              "id": "3",
+              "text": "Virginia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Virginia"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 2003 independent film, directed by Jim Jarmusch, consists of eleven short stories, which focus on coffee and cigarettes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buttermilk and Cigarettes"
+            },
+            {
+              "id": "1",
+              "text": "200 Cigarettes and Black Coffee"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Coffee and Cigarettes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Coffee and Cigarettes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "philip",
+          "quarts",
+          "death",
+          "inhale",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Body and System",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, korotkoff, measuring. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many pecks are in 8 bushels?",
+          "options": [
+            {
+              "id": "0",
+              "text": "32"
+            },
+            {
+              "id": "1",
+              "text": "16"
+            },
+            {
+              "id": "2",
+              "text": "36"
+            },
+            {
+              "id": "3",
+              "text": "24"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 32"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what internal human organ are the islets of Langerhans located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spleen"
+            },
+            {
+              "id": "1",
+              "text": "Pancreas"
+            },
+            {
+              "id": "2",
+              "text": "Liver"
+            },
+            {
+              "id": "3",
+              "text": "Kidney"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pancreas"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In order to always have exact change (using U.S. currency) and using the least amount of coins but having at least one of each coin, how many pennies, nickels, dimes and quarters do you have to carry? (The 50 cent piece is excluded).",
+          "options": [
+            {
+              "id": "0",
+              "text": "3 quarters, 1 dime, 2 nickels, 4 pennies"
+            },
+            {
+              "id": "1",
+              "text": "2 quarters, 1 dime, 1 nickel, 4 pennies"
+            },
+            {
+              "id": "2",
+              "text": "3 quarters, 2 dimes, 1 nickel, 4 pennies"
+            },
+            {
+              "id": "3",
+              "text": "2 quarters, 3 dimes, 2 nickels, 4 pennies"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 3 quarters, 1 dime, 2 nickels, 4 pennies"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what part of the human body are the Wormian bones, named after Ole Worm, located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thorax"
+            },
+            {
+              "id": "1",
+              "text": "Mandible"
+            },
+            {
+              "id": "2",
+              "text": "Pelvis"
+            },
+            {
+              "id": "3",
+              "text": "Cranium"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cranium"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During what medical procedure can the so-called Korotkoff sounds be perceived?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Examining bowel movements"
+            },
+            {
+              "id": "1",
+              "text": "Taking blood pressure"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Ultrasound examination of the fetus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Taking blood pressure"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what part of the human body is the bundle of His located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heart"
+            },
+            {
+              "id": "1",
+              "text": "Lungs"
+            },
+            {
+              "id": "2",
+              "text": "Testicles"
+            },
+            {
+              "id": "3",
+              "text": "Brain"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Heart"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which unit measuring system do 2,240 pounds equal 1 ton?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Avoirdupois"
+            },
+            {
+              "id": "1",
+              "text": "Both avoirdupois and British"
+            },
+            {
+              "id": "2",
+              "text": "British"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: British"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The organ of Corti, named after Alfonso Corti, is located in this body part of mammals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Forebrain"
+            },
+            {
+              "id": "1",
+              "text": "Inner ear"
+            },
+            {
+              "id": "2",
+              "text": "Mammary gland"
+            },
+            {
+              "id": "3",
+              "text": "Eye"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Inner ear"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A chain is a unit of measure used primarily in profession?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A man in control of letting down the anchor on a ship"
+            },
+            {
+              "id": "1",
+              "text": "Lumberjacker"
+            },
+            {
+              "id": "2",
+              "text": "Fence installer"
+            },
+            {
+              "id": "3",
+              "text": "Surveyor"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Surveyor"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of cells are the Purkinje cells, named after Czech anatomist Jan Evangelista Purkyne?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Epithelial cells"
+            },
+            {
+              "id": "1",
+              "text": "Osteoblasts"
+            },
+            {
+              "id": "2",
+              "text": "Neurons"
+            },
+            {
+              "id": "3",
+              "text": "Smooth muscle cells"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Neurons"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A pharmacist was compounding a mixture for a topical antibiotic. Using the apothecary system, how many pounds did he make if the end product resulted in having twenty-four 3.5 ounce tubes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6.5 pounds"
+            },
+            {
+              "id": "1",
+              "text": "5.25 pounds"
+            },
+            {
+              "id": "2",
+              "text": "6 pounds"
+            },
+            {
+              "id": "3",
+              "text": "7 pounds"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 7 pounds"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The human laryngeal prominence got its common name from this biblical figure.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jacob"
+            },
+            {
+              "id": "1",
+              "text": "Abraham"
+            },
+            {
+              "id": "2",
+              "text": "Joseph"
+            },
+            {
+              "id": "3",
+              "text": "Adam"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Adam"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of glands are the Glands of Montgomery?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lacrimal glands"
+            },
+            {
+              "id": "1",
+              "text": "Sebaceous glands"
+            },
+            {
+              "id": "2",
+              "text": "Sudoriferous glands"
+            },
+            {
+              "id": "3",
+              "text": "Salivary glands"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sebaceous glands"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Clara cells are found in this part of the human body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lungs"
+            },
+            {
+              "id": "1",
+              "text": "Tongue"
+            },
+            {
+              "id": "2",
+              "text": "Inner ear"
+            },
+            {
+              "id": "3",
+              "text": "Eyes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lungs"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Fallopian tubes are part of this system in the human body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Digestive system"
+            },
+            {
+              "id": "1",
+              "text": "Reproductive system"
+            },
+            {
+              "id": "2",
+              "text": "Urinary system"
+            },
+            {
+              "id": "3",
+              "text": "Respiratory system"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Reproductive system"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "korotkoff",
+          "measuring",
+          "glands",
+          "pecks",
+          "part"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Water and Tides",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, people, mean. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "About 95% of fresh water in the USA is underground. What is the name of the biggest source of fresh water in the USA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Lake Superior Aquifer"
+            },
+            {
+              "id": "1",
+              "text": "The Ogallala Aquifer"
+            },
+            {
+              "id": "2",
+              "text": "The Tampa Aquifer"
+            },
+            {
+              "id": "3",
+              "text": "The Columbian Aquifer"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Ogallala Aquifer"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is amazing but true that sometimes hot water can freeze faster than cold water. What is this effect called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Deplembes Effect"
+            },
+            {
+              "id": "1",
+              "text": "Mpemba Effect"
+            },
+            {
+              "id": "2",
+              "text": "Fourier Effect"
+            },
+            {
+              "id": "3",
+              "text": "Torricelli Effect"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mpemba Effect"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 2005 movie Water centered on people from this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morocco"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "Chad"
+            },
+            {
+              "id": "3",
+              "text": "India"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: India"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Water sticks to itself. What is this property called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Delaification"
+            },
+            {
+              "id": "1",
+              "text": "Atomic pedalation"
+            },
+            {
+              "id": "2",
+              "text": "Hydrogenation"
+            },
+            {
+              "id": "3",
+              "text": "Molecular cohesion"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Molecular cohesion"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It has been proved that drinking only bottled water can have this effect on your health.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Increase in body fat"
+            },
+            {
+              "id": "1",
+              "text": "Increase in weight"
+            },
+            {
+              "id": "2",
+              "text": "Increase in dental problems"
+            },
+            {
+              "id": "3",
+              "text": "Increase in heart disease"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Increase in dental problems"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the term for the points in the lunar cycle when the tides range is minimal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ebb Tide"
+            },
+            {
+              "id": "1",
+              "text": "Adoble Tide"
+            },
+            {
+              "id": "2",
+              "text": "Perigean Tide"
+            },
+            {
+              "id": "3",
+              "text": "Neap Tide"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Neap Tide"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is heavy water made of ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two hydrogen atoms and two oxugen atoms"
+            },
+            {
+              "id": "1",
+              "text": "Two deuterium atoms and one oxygen atom"
+            },
+            {
+              "id": "2",
+              "text": "Two oxygen atoms and one hydrogen atom"
+            },
+            {
+              "id": "3",
+              "text": "Three hydrogen atoms and one oxygen molecule."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Two deuterium atoms and one oxygen atom"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the scientific term virga mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The effect on Mars that makes it appear as if water was on Mars"
+            },
+            {
+              "id": "1",
+              "text": "Rain that never hits Earth"
+            },
+            {
+              "id": "2",
+              "text": "The salt that remains after sea water has been desalinated"
+            },
+            {
+              "id": "3",
+              "text": "Water that has undergone desalination"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rain that never hits Earth"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are high tides and low tides in the bigger water bodies on Earth. Which statement is true about tides?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tides are caused by x-rays, not gravity."
+            },
+            {
+              "id": "1",
+              "text": "Tides are caused by the gravitational effect of the Sun only."
+            },
+            {
+              "id": "2",
+              "text": "Tides are caused by the gravitational forces of both the Moon and the Sun."
+            },
+            {
+              "id": "3",
+              "text": "Tides are caused by the gravitational effect of the Moon only."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tides are caused by the gravitational forces of both the Moon and the Sun."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Venus is named after the Roman Goddess of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Truth"
+            },
+            {
+              "id": "1",
+              "text": "Lust"
+            },
+            {
+              "id": "2",
+              "text": "Love"
+            },
+            {
+              "id": "3",
+              "text": "Beauty"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Love"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pure water, if it exists, has this pH.",
+          "options": [
+            {
+              "id": "0",
+              "text": "7"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "14"
+            },
+            {
+              "id": "3",
+              "text": "0"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "We all know that the formula of water is H2O but can you remember this important property of water: in the water molecule at what angle is each of the hydrogen atoms from the oxygen atom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "180 degrees"
+            },
+            {
+              "id": "1",
+              "text": "114.5 degrees"
+            },
+            {
+              "id": "2",
+              "text": "90 degrees"
+            },
+            {
+              "id": "3",
+              "text": "104.45 degrees"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 104.45 degrees"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On which Chinese river is the 2335 meters (7660 ft) long and 185 meters (616 ft) high Three Gorges Dam located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Huang He"
+            },
+            {
+              "id": "1",
+              "text": "The Yangtze"
+            },
+            {
+              "id": "2",
+              "text": "The Pearl River"
+            },
+            {
+              "id": "3",
+              "text": "The Lian"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Yangtze"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The USA leads\u201d the world in per capita consumption of water. Which country is second?",
+          "options": [
+            {
+              "id": "0",
+              "text": "China"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "Canada"
+            },
+            {
+              "id": "3",
+              "text": "Brazil"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Canada"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Control of the Ganges River, sacred to some people, has been much disputed between which two nations?",
+          "options": [
+            {
+              "id": "0",
+              "text": "India and Bangladesh"
+            },
+            {
+              "id": "1",
+              "text": "India and Myanmar"
+            },
+            {
+              "id": "2",
+              "text": "India and Pakistan"
+            },
+            {
+              "id": "3",
+              "text": "India and China"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: India and Bangladesh"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "people",
+          "mean",
+          "ph",
+          "world",
+          "tides"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Venus and Sun",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, zeppelin, greenhouse. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Because of the Greenhouse Effect, Venus has the hottest surface temperature in the Solar System. What is the average temperature on Venus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1,200 Degrees C."
+            },
+            {
+              "id": "1",
+              "text": "135 Degrees C."
+            },
+            {
+              "id": "2",
+              "text": "460 Degrees C."
+            },
+            {
+              "id": "3",
+              "text": "800 Degrees C."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 460 Degrees C."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Paul MacCready designed the first working solar plane. What was its name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Solar Challenger"
+            },
+            {
+              "id": "1",
+              "text": "DaVinci Solar Wind"
+            },
+            {
+              "id": "2",
+              "text": "Solar Impulse"
+            },
+            {
+              "id": "3",
+              "text": "Gossamer Penguin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gossamer Penguin"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the first interplanetary probe to study Venus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mariner 1"
+            },
+            {
+              "id": "1",
+              "text": "Verona 1"
+            },
+            {
+              "id": "2",
+              "text": "Verona 2"
+            },
+            {
+              "id": "3",
+              "text": "Mariner 2"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mariner 2"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first person to fly a balloon that was filled with hydrogen gas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Count Ferdinand Zeppelin"
+            },
+            {
+              "id": "1",
+              "text": "Francois F. DeRozier"
+            },
+            {
+              "id": "2",
+              "text": "Joseph Montgolier"
+            },
+            {
+              "id": "3",
+              "text": "Jacques A.C. Charles"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jacques A.C. Charles"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Venus has no natural satellite or moon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Venus has the densest atmosphere of the Solar System. What gaseous element comprises the bulk of the atmosphere?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oxygen"
+            },
+            {
+              "id": "1",
+              "text": "Neon"
+            },
+            {
+              "id": "2",
+              "text": "Carbon Dioxide"
+            },
+            {
+              "id": "3",
+              "text": "Helium"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Carbon Dioxide"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Venus travels around the Sun at an average distance of how many miles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "120 million miles"
+            },
+            {
+              "id": "1",
+              "text": "67 million miles"
+            },
+            {
+              "id": "2",
+              "text": "1.2 billion miles"
+            },
+            {
+              "id": "3",
+              "text": "38 million miles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 67 million miles"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Schiphol Airport is the main airport of this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brussels"
+            },
+            {
+              "id": "1",
+              "text": "Berlin"
+            },
+            {
+              "id": "2",
+              "text": "Amsterdam"
+            },
+            {
+              "id": "3",
+              "text": "Vienna"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Amsterdam"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Planet Venus orbits the Sun once every how many days?",
+          "options": [
+            {
+              "id": "0",
+              "text": "325"
+            },
+            {
+              "id": "1",
+              "text": "200"
+            },
+            {
+              "id": "2",
+              "text": "125"
+            },
+            {
+              "id": "3",
+              "text": "225"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 225"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1883 Otto Lilienthal became the first person to successfully fly this type of aircraft.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thermaclimber"
+            },
+            {
+              "id": "1",
+              "text": "Glider"
+            },
+            {
+              "id": "2",
+              "text": "Graf Zeppelin"
+            },
+            {
+              "id": "3",
+              "text": "Heavier than air balloon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Glider"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Venus is the third brightest object in the sky after the Sun and what other object?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Proxima Centuri"
+            },
+            {
+              "id": "1",
+              "text": "Aldeberan"
+            },
+            {
+              "id": "2",
+              "text": "Sirius"
+            },
+            {
+              "id": "3",
+              "text": "The Moon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Moon"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which scientist discovered the atmosphere of Venus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Galileo Galilei in 1702 A.D."
+            },
+            {
+              "id": "1",
+              "text": "Pythagoras in 546 B.C."
+            },
+            {
+              "id": "2",
+              "text": "Giovanni Cassini in 1790 A.D."
+            },
+            {
+              "id": "3",
+              "text": "Mikhail Lomonosov in 1761 A.D"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mikhail Lomonosov in 1761 A.D"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the difference between a balloon and a zeppelin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A balloon can only go up and down; it cannot go East-West or left-right."
+            },
+            {
+              "id": "1",
+              "text": "A zeppelin has a pilot or pilots below the gas filled chamber."
+            },
+            {
+              "id": "2",
+              "text": "A zeppelin has a rigid frame around the balloon containing the gases."
+            },
+            {
+              "id": "3",
+              "text": "A zeppelin is filled with specific gases rather than hot air."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A zeppelin has a rigid frame around the balloon containing the gases."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Charles Lindbergh crossed the Atlantic, he had almost no visibility from his front windows.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first privately financed craft to go into outer space?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The SpaceX Dragon"
+            },
+            {
+              "id": "1",
+              "text": "MIR"
+            },
+            {
+              "id": "2",
+              "text": "SpaceHab"
+            },
+            {
+              "id": "3",
+              "text": "SpaceShipOne"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: SpaceShipOne"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "zeppelin",
+          "greenhouse",
+          "lilienthal",
+          "space",
+          "maccready"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Flight and Year",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, actor, magazine. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was the first in-flight meal served?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1969"
+            },
+            {
+              "id": "1",
+              "text": "1949"
+            },
+            {
+              "id": "2",
+              "text": "1919"
+            },
+            {
+              "id": "3",
+              "text": "1959"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1919"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the first in-flight magazine for commercial flights?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Air News"
+            },
+            {
+              "id": "1",
+              "text": "Pan American News"
+            },
+            {
+              "id": "2",
+              "text": "Traveller"
+            },
+            {
+              "id": "3",
+              "text": "Clipper"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Clipper"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first person to fly solo nonstop around the world in a balloon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heinrich Kubis"
+            },
+            {
+              "id": "1",
+              "text": "Steve Fossett"
+            },
+            {
+              "id": "2",
+              "text": "Richard Rutan"
+            },
+            {
+              "id": "3",
+              "text": "John Alcock"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Steve Fossett"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first US Senator to fly on the Space Shuttle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Bradley"
+            },
+            {
+              "id": "1",
+              "text": "Jake Garn"
+            },
+            {
+              "id": "2",
+              "text": "Tom McMillan"
+            },
+            {
+              "id": "3",
+              "text": "John Glenn"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jake Garn"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these particles has a negative charge?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neutron"
+            },
+            {
+              "id": "1",
+              "text": "Electron"
+            },
+            {
+              "id": "2",
+              "text": "Proton"
+            },
+            {
+              "id": "3",
+              "text": "Posititron"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Electron"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What distinction does Dennis Tito hold?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was the first tourist in space."
+            },
+            {
+              "id": "1",
+              "text": "He was the first person to fly the Shuttle, shoot down an enemy  fighter, and fly a balloon across the Atlantic."
+            },
+            {
+              "id": "2",
+              "text": "He was the first person to fly the Shuttle three times."
+            },
+            {
+              "id": "3",
+              "text": "He was the first person to make a space walk."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He was the first tourist in space."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which airlines  introduced  the frequent flyer program?",
+          "options": [
+            {
+              "id": "0",
+              "text": "KLM"
+            },
+            {
+              "id": "1",
+              "text": "Delta Airlines"
+            },
+            {
+              "id": "2",
+              "text": "Pan American Airlines"
+            },
+            {
+              "id": "3",
+              "text": "American Airlines"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: American Airlines"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1938 Doug Corrigan set out on a flight from New York to California. What nickname did he get after the flight?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Day/Night  Corrigan"
+            },
+            {
+              "id": "1",
+              "text": "California DreaminCorrigan"
+            },
+            {
+              "id": "2",
+              "text": "Wrong Way Corrigan"
+            },
+            {
+              "id": "3",
+              "text": "All-the-Way Corrigan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wrong Way Corrigan"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How fast is Mach 1?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1207 kilometers per hour"
+            },
+            {
+              "id": "1",
+              "text": "1207 meters per hour"
+            },
+            {
+              "id": "2",
+              "text": "1207 feet per second"
+            },
+            {
+              "id": "3",
+              "text": "1207 miles per hour"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1207 kilometers per hour"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1956, Tennessee businessman David Flexer had this great idea.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Have airlines transport packages on long  flights"
+            },
+            {
+              "id": "1",
+              "text": "Show movies on airline flights"
+            },
+            {
+              "id": "2",
+              "text": "Build a supersonic airplane"
+            },
+            {
+              "id": "3",
+              "text": "Have floatation devices aboard airline flights"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Show movies on airline flights"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first actor to attain the rank of Brigadier General in the US Air Force?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Bendix"
+            },
+            {
+              "id": "1",
+              "text": "Kirk Douglas"
+            },
+            {
+              "id": "2",
+              "text": "James Stewart"
+            },
+            {
+              "id": "3",
+              "text": "Clark Gable"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: James Stewart"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person is given credit for coining the term surfing the internet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marvin Minsky"
+            },
+            {
+              "id": "1",
+              "text": "Tim Lee-Berniers"
+            },
+            {
+              "id": "2",
+              "text": "Jean Armour  Polly"
+            },
+            {
+              "id": "3",
+              "text": "Gregory Chaitin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jean Armour  Polly"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who helped invent the blender?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carl Sontheimer"
+            },
+            {
+              "id": "1",
+              "text": "Fred Waring"
+            },
+            {
+              "id": "2",
+              "text": "Carl Frederick Winson"
+            },
+            {
+              "id": "3",
+              "text": "Gene Armor Polly"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Fred Waring"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did an airplane first hit 200 miles per hour?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1944"
+            },
+            {
+              "id": "1",
+              "text": "1922"
+            },
+            {
+              "id": "2",
+              "text": "1955"
+            },
+            {
+              "id": "3",
+              "text": "1933"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1922"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the first space station?",
+          "options": [
+            {
+              "id": "0",
+              "text": "MIR"
+            },
+            {
+              "id": "1",
+              "text": "Soyuz"
+            },
+            {
+              "id": "2",
+              "text": "Skylab 1"
+            },
+            {
+              "id": "3",
+              "text": "Salyut"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Salyut"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "actor",
+          "magazine",
+          "brigadier",
+          "space",
+          "world"
+        ]
+      }
+    }
+  ]
+}

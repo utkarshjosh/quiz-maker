@@ -1,0 +1,2412 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Character and Seinfeld",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, nickname. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which That 70s Show character had a regular job at the Foto Hut with Leo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steven Hyde"
+            },
+            {
+              "id": "1",
+              "text": "Michael Kelso"
+            },
+            {
+              "id": "2",
+              "text": "Jackie Burkhart"
+            },
+            {
+              "id": "3",
+              "text": "Eric Forman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Steven Hyde"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the hot girl in season one of the show The Office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mary"
+            },
+            {
+              "id": "1",
+              "text": "Elizabeth"
+            },
+            {
+              "id": "2",
+              "text": "Rachel"
+            },
+            {
+              "id": "3",
+              "text": "Katy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Katy"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character on the show The Office doesnt share the same first name as the actor who plays him/her?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phyllis"
+            },
+            {
+              "id": "1",
+              "text": "Creed"
+            },
+            {
+              "id": "2",
+              "text": "Oscar"
+            },
+            {
+              "id": "3",
+              "text": "Kelly"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kelly"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character in the sitcom That 70s Show worked at the DMV?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fez"
+            },
+            {
+              "id": "1",
+              "text": "Michael Kelso"
+            },
+            {
+              "id": "2",
+              "text": "Eric Forman"
+            },
+            {
+              "id": "3",
+              "text": "Steven Hyde"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fez"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character from That 70s Show wanted to start her own greeting card business?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Midge Pinciotti"
+            },
+            {
+              "id": "1",
+              "text": "Laurie Forman"
+            },
+            {
+              "id": "2",
+              "text": "Kitty Forman"
+            },
+            {
+              "id": "3",
+              "text": "Donna Pinciotti"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Midge Pinciotti"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the first name of Mr. Peterman, Elaine Benes boss on the show Seinfeld?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jay"
+            },
+            {
+              "id": "1",
+              "text": "John"
+            },
+            {
+              "id": "2",
+              "text": "J"
+            },
+            {
+              "id": "3",
+              "text": "Jacopo"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jacopo"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character of That 70s Show became a policeman cadet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eric Forman"
+            },
+            {
+              "id": "1",
+              "text": "Steven Hyde"
+            },
+            {
+              "id": "2",
+              "text": "Michael Kelso"
+            },
+            {
+              "id": "3",
+              "text": "Fez"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Kelso"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character in That 70s Show was afraid of spiders and had a dream sequence with him throwing womens panties in the air?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steven Hyde"
+            },
+            {
+              "id": "1",
+              "text": "Michael Kelso"
+            },
+            {
+              "id": "2",
+              "text": "Eric Forman"
+            },
+            {
+              "id": "3",
+              "text": "Fez"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eric Forman"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these  Seinfeld actors was originally a real life NYC police officer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Larry Thomas"
+            },
+            {
+              "id": "1",
+              "text": "Richard Fancy"
+            },
+            {
+              "id": "2",
+              "text": "Len Lesser"
+            },
+            {
+              "id": "3",
+              "text": "Barney Martin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Barney Martin"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the two SNL characters played by Cheri Oteri and Will Ferrell who seemed to have a lot of extra spirit.",
+          "options": [
+            {
+              "id": "0",
+              "text": "David and Carole"
+            },
+            {
+              "id": "1",
+              "text": "Logan and Nadine"
+            },
+            {
+              "id": "2",
+              "text": "Arianna and Craig"
+            },
+            {
+              "id": "3",
+              "text": "Megan and Shawn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Arianna and Craig"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Julia Louis-Dreyfus win an Emmy Award for her portrayal of Elaine Benes on the TV show Seinfeld?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1989"
+            },
+            {
+              "id": "1",
+              "text": "1990"
+            },
+            {
+              "id": "2",
+              "text": "1998"
+            },
+            {
+              "id": "3",
+              "text": "1996"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1996"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character on Seinfeld was played by an actress whose name was Dizzy Lizzy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Susan"
+            },
+            {
+              "id": "1",
+              "text": "Elaine"
+            },
+            {
+              "id": "2",
+              "text": "Helen"
+            },
+            {
+              "id": "3",
+              "text": "Estelle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Helen"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the only character on the show Seinfeld played by an Israeli-born actor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mr. Pitt"
+            },
+            {
+              "id": "1",
+              "text": "Newman"
+            },
+            {
+              "id": "2",
+              "text": "Estelle Costanza"
+            },
+            {
+              "id": "3",
+              "text": "Babu Bhatt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Babu Bhatt"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What female character got a job at a radio station in That 70s Show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pam Macy"
+            },
+            {
+              "id": "1",
+              "text": "Donna Pinciotti"
+            },
+            {
+              "id": "2",
+              "text": "Midge Pinciotti"
+            },
+            {
+              "id": "3",
+              "text": "Jackie Burkhart"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Donna Pinciotti"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What nickname did Julia Louis-Dreyfus get from her Seinfeld co-stars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Queen of France"
+            },
+            {
+              "id": "1",
+              "text": "Marie Antoinette"
+            },
+            {
+              "id": "2",
+              "text": "Little Yum-Yum"
+            },
+            {
+              "id": "3",
+              "text": "Ms. Hoity-Toidy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Little Yum-Yum"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "nickname",
+          "seinfeld",
+          "job",
+          "spiders"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Winner and Survivor",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, amazon, timmy. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the winner of  Survivor: Cook Islands, the thirteenth season of the reality show Survivor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oscar Lusth"
+            },
+            {
+              "id": "1",
+              "text": "Yul Kwon"
+            },
+            {
+              "id": "2",
+              "text": "Becky Lee"
+            },
+            {
+              "id": "3",
+              "text": "Jonathan Penner"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yul Kwon"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color hat does Timmy, the main character of The Fairly OddParents, wear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Purple"
+            },
+            {
+              "id": "1",
+              "text": "Pink"
+            },
+            {
+              "id": "2",
+              "text": "Blue"
+            },
+            {
+              "id": "3",
+              "text": "White"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pink"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the winner of Survivor: Marquesas, the fourth installment of the reality series Survivor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neleh Dennis"
+            },
+            {
+              "id": "1",
+              "text": "Hunter Ellis"
+            },
+            {
+              "id": "2",
+              "text": "Sarah Jones"
+            },
+            {
+              "id": "3",
+              "text": "Vecepia Towery"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Vecepia Towery"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the winner of Survivor: Palau, which was broadcast in 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom Westman"
+            },
+            {
+              "id": "1",
+              "text": "Jeff Wilson"
+            },
+            {
+              "id": "2",
+              "text": "Jennifer Lyon"
+            },
+            {
+              "id": "3",
+              "text": "Gregg Carey"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tom Westman"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the winner of Survivor: The Amazon, which was filmed in 2002?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rob Cesternino"
+            },
+            {
+              "id": "1",
+              "text": "Alex Bell"
+            },
+            {
+              "id": "2",
+              "text": "Jenna Morasca"
+            },
+            {
+              "id": "3",
+              "text": "Christy Smith"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jenna Morasca"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the winner of Survivor: Pearl Islands, the seventh installment of the reality show Survivor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lillian Morris"
+            },
+            {
+              "id": "1",
+              "text": "Shawn Cohen"
+            },
+            {
+              "id": "2",
+              "text": "Sandra Diaz-Twine"
+            },
+            {
+              "id": "3",
+              "text": "Ryan Opray"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sandra Diaz-Twine"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the winner of Survivor: All-Stars, that was set on the Pearl Islands of Panama?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amber Brkich"
+            },
+            {
+              "id": "1",
+              "text": "Alicia Calaway"
+            },
+            {
+              "id": "2",
+              "text": "Rob Mariano"
+            },
+            {
+              "id": "3",
+              "text": "Rupert Boneham"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Amber Brkich"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won Survivor: Borneo in 2000?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sue Hawk"
+            },
+            {
+              "id": "1",
+              "text": "Jenna Lewis"
+            },
+            {
+              "id": "2",
+              "text": "Rudy Boesch"
+            },
+            {
+              "id": "3",
+              "text": "Richard Hatch"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Hatch"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This SNL on screen couple, often referred to as The Lovers, made everyone uncomfortable with a strange affection for meat and their equally strange love life.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nuni  Nuni"
+            },
+            {
+              "id": "1",
+              "text": "The Zimmermans"
+            },
+            {
+              "id": "2",
+              "text": "The Herkimans"
+            },
+            {
+              "id": "3",
+              "text": "The Klarvins"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Klarvins"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the winner of Survivor: The Australian Outback, which was aired in 2001?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colby Donaldson"
+            },
+            {
+              "id": "1",
+              "text": "Tina Wesson"
+            },
+            {
+              "id": "2",
+              "text": "Keith Famie"
+            },
+            {
+              "id": "3",
+              "text": "Jeff Varner"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tina Wesson"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Adam Sandler did the character named The Richmeister on SNL.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won Survivor: Africa, which was filmed in Kenya?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kim Powers"
+            },
+            {
+              "id": "1",
+              "text": "Tom Buchanan"
+            },
+            {
+              "id": "2",
+              "text": "Kim Johnson"
+            },
+            {
+              "id": "3",
+              "text": "Ethan Zohn"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ethan Zohn"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Timmys evil babysitter in the animated series The Fairly OddParents?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cindy"
+            },
+            {
+              "id": "1",
+              "text": "Tuti"
+            },
+            {
+              "id": "2",
+              "text": "Vicky"
+            },
+            {
+              "id": "3",
+              "text": "Wendy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vicky"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cartoon character Timmy Turner has a crush on a girl named Tuti.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Fairly OddParents, what is the name of Timmys fair-obsessed teacher?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mr. Hathaway"
+            },
+            {
+              "id": "1",
+              "text": "Mr. Gunning"
+            },
+            {
+              "id": "2",
+              "text": "Mr. Stoffer"
+            },
+            {
+              "id": "3",
+              "text": "Mr. Crocker"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Crocker"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "amazon",
+          "timmy",
+          "cartoon",
+          "survivor",
+          "all-stars"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Love and Flavor",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, people, timmy. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was the final episode of Flavor of Love, season 2 filmed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hawaii"
+            },
+            {
+              "id": "1",
+              "text": "Mexico"
+            },
+            {
+              "id": "2",
+              "text": "Belize"
+            },
+            {
+              "id": "3",
+              "text": "Jamaica"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Belize"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The reality game show Flavor of Love has spin-offs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The participants in Flavor of Love, season 2 threw a party for some of Flavs friends. Which of the following celebrities were guests of the party?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Public Enemy  Fat Joe"
+            },
+            {
+              "id": "1",
+              "text": "Steve Tyler  Madonna"
+            },
+            {
+              "id": "2",
+              "text": "Fat Joe  Vanilla Ice"
+            },
+            {
+              "id": "3",
+              "text": "Ying Yang Twins  G-Unit"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ying Yang Twins  G-Unit"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Timmy Turners fictional fairy god parents live as goldfish in Timmys room.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the occupation of Timys mom in the animated series The Fairly OddParents?",
+          "options": [
+            {
+              "id": "0",
+              "text": "dentist"
+            },
+            {
+              "id": "1",
+              "text": "real estate agent"
+            },
+            {
+              "id": "2",
+              "text": "legal secretary"
+            },
+            {
+              "id": "3",
+              "text": "substitute teacher"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: real estate agent"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Flavor of Love, season 2 premiered in September 2006 and was watched by over 3 million viewers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the cartoon series The Fairly OddParents, which of Timmys friends wears braces?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A.J."
+            },
+            {
+              "id": "1",
+              "text": "Chester"
+            },
+            {
+              "id": "2",
+              "text": "Francis"
+            },
+            {
+              "id": "3",
+              "text": "Daltin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chester"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Was dancing to hip-hop a task from episode 4 of Flavor of Love, season 2?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a Greys Anatomy character. Im in love with one of the surgical residents of Seattle Grace. Im very ambitious when it comes to surgery. I think of it like candy, but with blood which is so much cooler. Ive been known to be a slob. My best friend almost died. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Izzie"
+            },
+            {
+              "id": "1",
+              "text": "Addison"
+            },
+            {
+              "id": "2",
+              "text": "Cristina"
+            },
+            {
+              "id": "3",
+              "text": "Meredith"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cristina"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which list contains the names of the five women eliminated at the end of episode one of Flavor of Love, season 2?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nibblz, Bootz, Krazy, Bamma, Buckwild"
+            },
+            {
+              "id": "1",
+              "text": "H-Town, Hood, Deelishis, Nibblz, Somethin"
+            },
+            {
+              "id": "2",
+              "text": "Saaphyri, Bamma, Chocolate, Hood, H-Town"
+            },
+            {
+              "id": "3",
+              "text": "Saaphyri, Krazy, Buckeey, Tiger, Beatuful"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Saaphyri, Bamma, Chocolate, Hood, H-Town"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a character from the TV show Greys Anatomy. I am the resident bad ass of the bunch. Ive been in trouble several times for my bedside manner, as I like to be honest with my patients. Ive slept with one of my fellow interns and also with one of the nurses here at Seattle Grace. Ive had Syphilis. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alex"
+            },
+            {
+              "id": "1",
+              "text": "Preston"
+            },
+            {
+              "id": "2",
+              "text": "Derek"
+            },
+            {
+              "id": "3",
+              "text": "George"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Alex"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the most distinctive feature of cartoon character Timmy Turner?",
+          "options": [
+            {
+              "id": "0",
+              "text": "his orange hair"
+            },
+            {
+              "id": "1",
+              "text": "his big hair"
+            },
+            {
+              "id": "2",
+              "text": "he is very tall"
+            },
+            {
+              "id": "3",
+              "text": "his big teeth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: his big teeth"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What color tie does Timmys dad wear in the cartoon series The Fairly OddParents?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red"
+            },
+            {
+              "id": "1",
+              "text": "Green"
+            },
+            {
+              "id": "2",
+              "text": "Black"
+            },
+            {
+              "id": "3",
+              "text": "Blue"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Black"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the names of Timmy Turners fairy godparents in the popular animated series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cosmo and Glenda"
+            },
+            {
+              "id": "1",
+              "text": "Cosmo and Wanda"
+            },
+            {
+              "id": "2",
+              "text": "Cosmo and Pixie"
+            },
+            {
+              "id": "3",
+              "text": "Wanda and Winslow"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cosmo and Wanda"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these people was not a contestant in Flavor of Love, season 2?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eyez"
+            },
+            {
+              "id": "1",
+              "text": "Nibblz"
+            },
+            {
+              "id": "2",
+              "text": "Bamma"
+            },
+            {
+              "id": "3",
+              "text": "Hood"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eyez"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "people",
+          "timmy",
+          "cartoon",
+          "tie",
+          "game"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Interns and Seattle Grace",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, drama, screen. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Yogi Bear make his screen debut?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1956"
+            },
+            {
+              "id": "1",
+              "text": "1954"
+            },
+            {
+              "id": "2",
+              "text": "1958"
+            },
+            {
+              "id": "3",
+              "text": "1960"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1958"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a character from the popular show Greys Anatomy. Im a surgical attending from New York. I have earned a reputation at Seattle Grace for being good-looking. Although I am a doctor, I prefer to live in my trailer as I have too much land and do not yet know what I want to do with it. I once saved the person I love from certain death. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Preston"
+            },
+            {
+              "id": "1",
+              "text": "Mark"
+            },
+            {
+              "id": "2",
+              "text": "Addison"
+            },
+            {
+              "id": "3",
+              "text": "Derek"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Derek"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a surgical attending on Greys Anatomy who is dating one of the interns. I am very good at my job. I love listening to jazz music. I was shot once by a crazed gunman outside the hospital. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Preston"
+            },
+            {
+              "id": "1",
+              "text": "Derek"
+            },
+            {
+              "id": "2",
+              "text": "Chief Webber"
+            },
+            {
+              "id": "3",
+              "text": "Mark"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Preston"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Mariska Hargitays middle name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Magdolina"
+            },
+            {
+              "id": "1",
+              "text": "Motiva"
+            },
+            {
+              "id": "2",
+              "text": "Madeline"
+            },
+            {
+              "id": "3",
+              "text": "Maureen"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Magdolina"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a Greys Anatomy character. I am one of the more popular interns at Seattle Grace, because everyone seems to know me even if I dont know them. I live in a house with two of my fellow interns. Im in love with one of our surgical residents. My mother was a well known surgeon at Seattle Grace. I almost died. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Izzie"
+            },
+            {
+              "id": "1",
+              "text": "Callie"
+            },
+            {
+              "id": "2",
+              "text": "Meredith"
+            },
+            {
+              "id": "3",
+              "text": "Cristina"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Meredith"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a character from the TV series Greys Anatomy. Im fairly new to Seattle Grace. When I first came here, I didnt have a place to live, so I set up shelter in the hospital basement. Once I got caught by the Chief, I was forced to move into a hotel. My family is very wealthy, but I kept it a secret and it almost cost me the love of my life. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Meredith"
+            },
+            {
+              "id": "1",
+              "text": "Addison"
+            },
+            {
+              "id": "2",
+              "text": "Izzie"
+            },
+            {
+              "id": "3",
+              "text": "Callie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Callie"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Mariska Hargitays mother?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lana Turner"
+            },
+            {
+              "id": "1",
+              "text": "Dorothy Stratton"
+            },
+            {
+              "id": "2",
+              "text": "Jayne Mansfield"
+            },
+            {
+              "id": "3",
+              "text": "Olympia Dukakis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jayne Mansfield"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Mariska Hargitay born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sacramento, California"
+            },
+            {
+              "id": "1",
+              "text": "Paris, France"
+            },
+            {
+              "id": "2",
+              "text": "Santa Monica, California"
+            },
+            {
+              "id": "3",
+              "text": "Mexico City, Mexico"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Santa Monica, California"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mariska Hargitay has two half-sisters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a Greys Anatomy character. I live in a big house with two other interns. I have been known to walk around in my underwear. I love to bake. I once posed for a lingerie ad to help pay my way through medical school. I fell in love with a heart transplant patient who left me millions of dollars when he died. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cristina"
+            },
+            {
+              "id": "1",
+              "text": "Meredith"
+            },
+            {
+              "id": "2",
+              "text": "Addison"
+            },
+            {
+              "id": "3",
+              "text": "Izzie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Izzie"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What character did Mariska Hargitay play on Falcon Crest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carly Fixx"
+            },
+            {
+              "id": "1",
+              "text": "Donna Douglas"
+            },
+            {
+              "id": "2",
+              "text": "Cynthia Hooper"
+            },
+            {
+              "id": "3",
+              "text": "Candy Apple"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Carly Fixx"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a Greys Anatomy character. I am the least spoken of the group of interns here at Seattle Grace. I was secretly in love with one of my fellow interns for a long time. I was part of the Syphilis outbreak at the hospital. I used to live with two women. I once performed a life-saving surgery in an elevator. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Derek"
+            },
+            {
+              "id": "1",
+              "text": "Preston"
+            },
+            {
+              "id": "2",
+              "text": "George"
+            },
+            {
+              "id": "3",
+              "text": "Alex"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: George"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I am a surgical resident on the medical drama Greys Anatomy. I love having the power of authority. Ive earned the nickname the Nazi from fellow doctors and my interns. My son is named after one of my interns, and ever since he was born, Ive been told Ive become more lenient with my interns. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mark"
+            },
+            {
+              "id": "1",
+              "text": "Dr. Bailey"
+            },
+            {
+              "id": "2",
+              "text": "Chief Webber"
+            },
+            {
+              "id": "3",
+              "text": "Addison"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dr. Bailey"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mariska Hargitays father died of cancer in 2006 at the age of 80. Mariska has said her greatest sadness is that she never got to thank him for all that he had done for her in his life.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I was not supposed to stay in Seattle, but I am now a permanent fixture at the hospital on the show Greys Anatomy. I came here from New York to try and rekindle and old relationship. I am one of five people up for the Chiefs job. Im also a very big flirt, and have slept with two of my co-workers. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Preston"
+            },
+            {
+              "id": "1",
+              "text": "Addison"
+            },
+            {
+              "id": "2",
+              "text": "Derek"
+            },
+            {
+              "id": "3",
+              "text": "Mark"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mark"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "drama",
+          "screen",
+          "tv",
+          "hargitays",
+          "show"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Yogi Bear and Series",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, grandpa, mascot. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Yogi Bear was the mascot for Yogis Pancake House, a chain of breakfast restaurants that popped up all over rural America in the 60s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Lieutenant Colonel Custer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dale Robertson"
+            },
+            {
+              "id": "1",
+              "text": "Ronald Reagan"
+            },
+            {
+              "id": "2",
+              "text": "Wayne Maunder"
+            },
+            {
+              "id": "3",
+              "text": "John Wayne"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wayne Maunder"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these voice actors once provided the voice for Yogi Bear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Corey Burton"
+            },
+            {
+              "id": "1",
+              "text": "Mel Blanc"
+            },
+            {
+              "id": "2",
+              "text": "Don Messick"
+            },
+            {
+              "id": "3",
+              "text": "Daws Butler"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Daws Butler"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1950s soap opera actually started on the radio in 1937. It finally ended its run in September of 2009.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ryans Hope"
+            },
+            {
+              "id": "1",
+              "text": "Passions"
+            },
+            {
+              "id": "2",
+              "text": "General Hospital"
+            },
+            {
+              "id": "3",
+              "text": "Guiding Light"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Guiding Light"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Fess Parker play frontiersman Davy Crockett?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Daniel Boone in the self-titled TV series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Ansara"
+            },
+            {
+              "id": "1",
+              "text": "Chuck Connors"
+            },
+            {
+              "id": "2",
+              "text": "Fess Parker"
+            },
+            {
+              "id": "3",
+              "text": "Ed Ames"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fess Parker"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it true that Grandpa in The Real McCoys and Will Sonnett in The Guns of Will Sonnett were played by the same actor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Yogi Bear appeared in an animated musical.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This show made its debut on the radio in 1949 and moved to television in 1954. The pilot show was called Keep It in the Family.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Double Trouble"
+            },
+            {
+              "id": "1",
+              "text": "Bonanza"
+            },
+            {
+              "id": "2",
+              "text": "Father Knows Best"
+            },
+            {
+              "id": "3",
+              "text": "Leave it to Beaver"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Father Knows Best"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who portrayed the Chiricahua Apache chief in the TV series Broken Arrow?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Little Sky"
+            },
+            {
+              "id": "1",
+              "text": "Jay Silverheels"
+            },
+            {
+              "id": "2",
+              "text": "Michael Ansara"
+            },
+            {
+              "id": "3",
+              "text": "Ed Ames"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Ansara"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Yogi Bear get his own animated series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1960"
+            },
+            {
+              "id": "1",
+              "text": "1961"
+            },
+            {
+              "id": "2",
+              "text": "1958"
+            },
+            {
+              "id": "3",
+              "text": "1959"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1961"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many episodes of The Yogi Bear Show were made?",
+          "options": [
+            {
+              "id": "0",
+              "text": "22"
+            },
+            {
+              "id": "1",
+              "text": "27"
+            },
+            {
+              "id": "2",
+              "text": "35"
+            },
+            {
+              "id": "3",
+              "text": "30"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 35"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Walter Brennan played Roy Bean, an eccentric saloon-keeper and Justice of the Peace in the TV series The Westerner.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the animated series Yo Yogi first hit the airwaves?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1995"
+            },
+            {
+              "id": "1",
+              "text": "1984"
+            },
+            {
+              "id": "2",
+              "text": "1991"
+            },
+            {
+              "id": "3",
+              "text": "1989"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1991"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Henry Fonda play the Marshall in the TV series The Deputy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "grandpa",
+          "mascot",
+          "walter",
+          "tv",
+          "debut"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Year and 1970s",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, blake, beaumont. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1950s show starred Barbara Billingsley, Hugh Beaumont and Ken Osmond.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Donna Reed Show"
+            },
+            {
+              "id": "1",
+              "text": "Father Knows Best"
+            },
+            {
+              "id": "2",
+              "text": "Make Room For Daddy"
+            },
+            {
+              "id": "3",
+              "text": "Leave it to Beaver"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Leave it to Beaver"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This soap opera first aired in 1956 on CBS. Some of its main characters are Kim Hughes, Margo Hughes and Lily Snyder.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edge of Night"
+            },
+            {
+              "id": "1",
+              "text": "As the World Turns"
+            },
+            {
+              "id": "2",
+              "text": "General Hospital"
+            },
+            {
+              "id": "3",
+              "text": "Search for Tomorrow"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: As the World Turns"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what 1970s detective series did Buddy Ebsen star?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barnaby Jones"
+            },
+            {
+              "id": "1",
+              "text": "Columbo"
+            },
+            {
+              "id": "2",
+              "text": "Rockford Files"
+            },
+            {
+              "id": "3",
+              "text": "Reno 911"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Barnaby Jones"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Leave It To Beaver hit the airways?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1960"
+            },
+            {
+              "id": "1",
+              "text": "1959"
+            },
+            {
+              "id": "2",
+              "text": "1957"
+            },
+            {
+              "id": "3",
+              "text": "1958"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1957"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1970s show The Six Million Dollar Man was based on a novel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I Love Lucy began on TV in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1953"
+            },
+            {
+              "id": "1",
+              "text": "1951"
+            },
+            {
+              "id": "2",
+              "text": "1954"
+            },
+            {
+              "id": "3",
+              "text": "1952"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1951"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This daytime soap opera debuted in January of 1970. One of its most popular stars is Susan Lucci.",
+          "options": [
+            {
+              "id": "0",
+              "text": "DOL"
+            },
+            {
+              "id": "1",
+              "text": "YNR"
+            },
+            {
+              "id": "2",
+              "text": "GH"
+            },
+            {
+              "id": "3",
+              "text": "AMC"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: AMC"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did The Brady Bunch become a TV family?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1971"
+            },
+            {
+              "id": "1",
+              "text": "1969"
+            },
+            {
+              "id": "2",
+              "text": "1970"
+            },
+            {
+              "id": "3",
+              "text": "1972"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1969"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1950s Western series starred Amanda Blake and James Arness.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Little Texas"
+            },
+            {
+              "id": "1",
+              "text": "Rawhide"
+            },
+            {
+              "id": "2",
+              "text": "Bonanza"
+            },
+            {
+              "id": "3",
+              "text": "Gunsmoke"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gunsmoke"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1970s television had the first never-married, independent career woman as the central character.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Taxi"
+            },
+            {
+              "id": "1",
+              "text": "Rhoda"
+            },
+            {
+              "id": "2",
+              "text": "The Mary Tyler Moore Show"
+            },
+            {
+              "id": "3",
+              "text": "Mary Hartman"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Mary Tyler Moore Show"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This daytime talk show premiered on January 14th, 1952.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oprah"
+            },
+            {
+              "id": "1",
+              "text": "The View"
+            },
+            {
+              "id": "2",
+              "text": "Good Morning America"
+            },
+            {
+              "id": "3",
+              "text": "Today"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Today"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1950s series Dragnet did not debut on the radio.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The theme song of this 1970s sitcom was performed by Bill Haley  His Comets. The show itself depicted an idealistic view of 1950s-1960s life.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mork and Mindy"
+            },
+            {
+              "id": "1",
+              "text": "Laverne and Shirley"
+            },
+            {
+              "id": "2",
+              "text": "The Kid"
+            },
+            {
+              "id": "3",
+              "text": "Happy Days"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Happy Days"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Partridge Family was not based on a real life family.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1970s show, starring Peter Falk, popularized the inverted detective story format?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Columbo"
+            },
+            {
+              "id": "1",
+              "text": "The Rockford Files"
+            },
+            {
+              "id": "2",
+              "text": "Reno 911"
+            },
+            {
+              "id": "3",
+              "text": "Chips"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Columbo"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "blake",
+          "beaumont",
+          "falk",
+          "star",
+          "tv"
+        ]
+      }
+    }
+  ]
+}

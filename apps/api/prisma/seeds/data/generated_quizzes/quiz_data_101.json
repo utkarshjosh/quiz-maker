@@ -1,0 +1,2436 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Literature Quiz: Harry Potter and Book",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, people, mirror. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is mentioned in Harry Potter and the Deathly Hallows that Bill had a real knack for guessing the passwords for the radio.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who does Hermione Granger fly with when leaving Privet Drive?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fred Weasley"
+            },
+            {
+              "id": "1",
+              "text": "Arthur Weasley"
+            },
+            {
+              "id": "2",
+              "text": "Kingsley Shacklebolt"
+            },
+            {
+              "id": "3",
+              "text": "Bill Weasley"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kingsley Shacklebolt"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what day did Harry Potter discover the Mirror of Erised?",
+          "options": [
+            {
+              "id": "0",
+              "text": "December 25th"
+            },
+            {
+              "id": "1",
+              "text": "November 25th"
+            },
+            {
+              "id": "2",
+              "text": "October 25th"
+            },
+            {
+              "id": "3",
+              "text": "January 25th"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: December 25th"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Was Albus Dumbledores sister named Areida?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many people died in the book Harry Potter and the Sorcerers Stone?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "4"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Harrys first line in the book Harry Potter and the Deathly Hallows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Whats this doing here?"
+            },
+            {
+              "id": "1",
+              "text": "Ouch!"
+            },
+            {
+              "id": "2",
+              "text": "Hush up Hedwig"
+            },
+            {
+              "id": "3",
+              "text": "What the?"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: What the?"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What character first discovered that the name Voldemort was cursed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron"
+            },
+            {
+              "id": "1",
+              "text": "Harry"
+            },
+            {
+              "id": "2",
+              "text": "Hermione"
+            },
+            {
+              "id": "3",
+              "text": "Ginny"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ron"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fictional character Rita Skeeter wrote a book titled Albus Dumbledore, His Life and Lies.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Harry Potter books, Fleur Delacours middle name is Clemence.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What spell does Hermione not approve of according to the book Harry Potter and the Deathly Hallows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Suctesemptra"
+            },
+            {
+              "id": "1",
+              "text": "Muffliato"
+            },
+            {
+              "id": "2",
+              "text": "Demuestio"
+            },
+            {
+              "id": "3",
+              "text": "Fiendfyre"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Muffliato"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the spell that multiplies objects in the Harry Potter books?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gemino"
+            },
+            {
+              "id": "1",
+              "text": "Duplique"
+            },
+            {
+              "id": "2",
+              "text": "Multiplico"
+            },
+            {
+              "id": "3",
+              "text": "Magrante"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Gemino"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Harry Potter and the Deathly Hallows, Ron leaves the group when they are in the forest of Dean.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what floor of the fictional Hogwarts school do you find the Room of Requirement?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5th"
+            },
+            {
+              "id": "1",
+              "text": "7th"
+            },
+            {
+              "id": "2",
+              "text": "6th"
+            },
+            {
+              "id": "3",
+              "text": "3rd"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 7th"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the chapter of Harry Potter and the Deadly Hallows, titled The Princes Tale, Lily states that these two boys idea of humor is, just evil.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mulciber and Avery"
+            },
+            {
+              "id": "1",
+              "text": "Macnair and Lucius"
+            },
+            {
+              "id": "2",
+              "text": "James and Sirius"
+            },
+            {
+              "id": "3",
+              "text": "Lucius and Lestrange"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mulciber and Avery"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who does Harry first use the Imperius curse on in Harry Potter and the Deathly Hallows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dragomir"
+            },
+            {
+              "id": "1",
+              "text": "He doesnt use unforgivable curses."
+            },
+            {
+              "id": "2",
+              "text": "A goblin"
+            },
+            {
+              "id": "3",
+              "text": "Travers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A goblin"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "people",
+          "mirror",
+          "imperius",
+          "line",
+          "books"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Aurora and Sleeping Beauty",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, fairies, maleficent. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Sleeping Beauty, back at home in the castle, Aurora finds a spinning wheel in the castles tower, pricks her finger on the spindle and falls into a deep sleep. Who finds Aurora?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The queen"
+            },
+            {
+              "id": "1",
+              "text": "The king"
+            },
+            {
+              "id": "2",
+              "text": "The fairies"
+            },
+            {
+              "id": "3",
+              "text": "The prince"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The fairies"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the popular Disney animated film Maleficent curses baby Aurora: she will die when she pricks her finger on a spinning wheels spindle.  Why does Maleficent arrive and curse the child?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was in line to inherit the kingdom before Aurora was born."
+            },
+            {
+              "id": "1",
+              "text": "She is in love with the king."
+            },
+            {
+              "id": "2",
+              "text": "She hates the queen, her sister."
+            },
+            {
+              "id": "3",
+              "text": "She was not invited to the christening."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: She was not invited to the christening."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sleeping Beautys musical score and songs were inspired by Pyotr Ilyich Tchaikovskys Sleeping Beauty ballet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the animated movie Sleeping Beauty, just prior to Auroras 16th birthday, Maleficent is furious that she and her evil henchmen still cannot find Aurora. What does Maleficent do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She consults her crystal ball for Aurora."
+            },
+            {
+              "id": "1",
+              "text": "She sends out her raven Diablo to find Aurora."
+            },
+            {
+              "id": "2",
+              "text": "She disguises herself as a peasant and searches for Aurora."
+            },
+            {
+              "id": "3",
+              "text": "She puts the prince under a spell and sends him to search for Aurora."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: She sends out her raven Diablo to find Aurora."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Sleeping Beauty, on Auroras 16th birthday, the fairies decide to make two presents, but their attempts fail and they use their wands, thus giving away their location. What two items were the fairies making for Aurora?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A gown and a cape"
+            },
+            {
+              "id": "1",
+              "text": "A cake and a gown"
+            },
+            {
+              "id": "2",
+              "text": "A cake and a quilt"
+            },
+            {
+              "id": "3",
+              "text": "A pie and a gown"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A cake and a gown"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the gift of the third fairy in the Disney movie Sleeping Beauty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She makes Aurora able to live for 500 years."
+            },
+            {
+              "id": "1",
+              "text": "She weakens the curse so Aurora will only fall into a deep sleep."
+            },
+            {
+              "id": "2",
+              "text": "She curses Maleficent with death."
+            },
+            {
+              "id": "3",
+              "text": "She makes a valiant prince fall in love with Aurora."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: She weakens the curse so Aurora will only fall into a deep sleep."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The three fairies in the animated film Sleeping Beauty decide to conceal Aurora in a cabin in the woods until her 16th birthday passes, but before the fairies take Aurora to the woods, what does the King do to stop the curse?",
+          "options": [
+            {
+              "id": "0",
+              "text": "locks Aurora in a tower"
+            },
+            {
+              "id": "1",
+              "text": "tries to have another witch remove the curse"
+            },
+            {
+              "id": "2",
+              "text": "commands all spinning wheels be destroyed"
+            },
+            {
+              "id": "3",
+              "text": "kills Maleficent"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: commands all spinning wheels be destroyed"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Disney movie Sleeping Beauty, Princess Aurora is born to King Stefan and Queen Leah and they name her Aurora after what Roman goddess?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The goddess of the dawn"
+            },
+            {
+              "id": "1",
+              "text": "The goddess of the moon"
+            },
+            {
+              "id": "2",
+              "text": "The goddess of the forests"
+            },
+            {
+              "id": "3",
+              "text": "The goddess of the clouds"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The goddess of the dawn"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Disney film Sleeping Beauty, the fairies find out that Prince Phillip is the man Aurora loves and the only one who can break the spell, but Maleficents henchmen capture him and take him to Maleficents castle. What is the castle called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Lair"
+            },
+            {
+              "id": "1",
+              "text": "The Den of Thorns"
+            },
+            {
+              "id": "2",
+              "text": "The Forbidden Mountain"
+            },
+            {
+              "id": "3",
+              "text": "The Dark Palace"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Forbidden Mountain"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do the fairies rename Aurora in the Disney movie Sleeping Beauty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dahlia"
+            },
+            {
+              "id": "1",
+              "text": "Topaz"
+            },
+            {
+              "id": "2",
+              "text": "Briar Rose"
+            },
+            {
+              "id": "3",
+              "text": "Jasmine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Briar Rose"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Voldemort tell Neville that he has spirit and bravery in the last book of the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Disney movie Sleeping Beauty, once Aurora falls into her deep sleep, the fairies freeze time until the spell is broken.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Disney movie Sleeping Beauty, when Aurora returns to the cabin, the fairies tell her who she really is and take her to the castle to see her parents.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sleeping Beauty was the last fairy tale produced by Walt Disney.  When was it released?",
+          "options": [
+            {
+              "id": "0",
+              "text": "May 25, 1944"
+            },
+            {
+              "id": "1",
+              "text": "January 29, 1959"
+            },
+            {
+              "id": "2",
+              "text": "August 1, 1966"
+            },
+            {
+              "id": "3",
+              "text": "February 14, 1951"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: January 29, 1959"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What characters screams at the end of Harry Potter and the Deadly Hallows on learning of Harrys apparent death.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hermione"
+            },
+            {
+              "id": "1",
+              "text": "McGonagall"
+            },
+            {
+              "id": "2",
+              "text": "Ginny"
+            },
+            {
+              "id": "3",
+              "text": "Ron"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: McGonagall"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "fairies",
+          "maleficent",
+          "screams",
+          "bravery",
+          "walt"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Knowledge Quiz: Harry Potter and Movie",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, actor, fairies. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these cast members of the 2009 movie Harry Potter and the Half-Blood Prince was born in Paris, France?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helena Bonham Carter"
+            },
+            {
+              "id": "1",
+              "text": "Jessie Cave"
+            },
+            {
+              "id": "2",
+              "text": "Bonnie Wright"
+            },
+            {
+              "id": "3",
+              "text": "Emma Watson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Emma Watson"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular personality did actor Daniel Radcliffe portray in his debut movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Copperfield"
+            },
+            {
+              "id": "1",
+              "text": "Peter Pan"
+            },
+            {
+              "id": "2",
+              "text": "Adolf Hitler"
+            },
+            {
+              "id": "3",
+              "text": "Harry Potter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: David Copperfield"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of character did actor Rupert Grint from the 2009 Harry Potter and the Half-Blood Prince depict in a play based on the story of Noahs Ark when he was little?",
+          "options": [
+            {
+              "id": "0",
+              "text": "One of Noahs sons"
+            },
+            {
+              "id": "1",
+              "text": "A lion"
+            },
+            {
+              "id": "2",
+              "text": "Noah"
+            },
+            {
+              "id": "3",
+              "text": "A fish"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A fish"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who turns out to be the Half-Blood Prince in the sixth Harry Potter movie Harry Potter and the Half-Blood Prince?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Draco Malfoy"
+            },
+            {
+              "id": "1",
+              "text": "Albus Dumbledore"
+            },
+            {
+              "id": "2",
+              "text": "Severus Snape"
+            },
+            {
+              "id": "3",
+              "text": "Sirius Black"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Severus Snape"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did actress Emma Watson, who plays Hermione in the Harry Potter series, keep her role in the sixth movie, Harry Potter and the Half-Blood Prince 2009, after initially deciding to quit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She joked that she stayed because she was in love with Rupert Grint."
+            },
+            {
+              "id": "1",
+              "text": "Her parents talked her into staying."
+            },
+            {
+              "id": "2",
+              "text": "She did it for the fans."
+            },
+            {
+              "id": "3",
+              "text": "She couldnt bear to see anyone else play Hermione."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: She couldnt bear to see anyone else play Hermione."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After Maleficent dies in the film Sleeping Beauty, Prince Phillip rushes to Aurora and removes the curse with a kiss. The two enter the palaces ballroom and see Auroras parents. Is this the first time Aurora has seen her parents since she was an infant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actress reportedly accepted the role of Narcissa Malfoy for the 2009 movie Harry Potter and the Half-Blood Prince, but her agent stated that the rumors were not true.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kate Winslet"
+            },
+            {
+              "id": "1",
+              "text": "Meg Ryan"
+            },
+            {
+              "id": "2",
+              "text": "Naomi Watts"
+            },
+            {
+              "id": "3",
+              "text": "Melanie Griffith"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Naomi Watts"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "With whom does Harry Potter form a relationship in the 2009 movie Harry Potter and the Half-Blood Prince?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fleur Delacour"
+            },
+            {
+              "id": "1",
+              "text": "Lavender Brown"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Ginny Weasley"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ginny Weasley"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the nickname of Sirius Black, whose younger brother Regulus Black appears in a photograph owned by Horace Slughorn in the movie Harry Potter and the Half-Blood Prince 2009?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bagger"
+            },
+            {
+              "id": "1",
+              "text": "Padfoot"
+            },
+            {
+              "id": "2",
+              "text": "Mole"
+            },
+            {
+              "id": "3",
+              "text": "Dazzler"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Padfoot"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did actor Jim Broadbent describe his character, Horace Slughorn, from the sixth Harry Potter movie, Harry Potter and the Half-Blood Prince 2009?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Comic character"
+            },
+            {
+              "id": "1",
+              "text": "Unique character"
+            },
+            {
+              "id": "2",
+              "text": "Tragic character"
+            },
+            {
+              "id": "3",
+              "text": "Ambiguous character"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Comic character"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the animated movie Sleeping Beauty, the fairies enter Maleficents castle and free the prince and give him these two magical objects.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A robe and sword"
+            },
+            {
+              "id": "1",
+              "text": "A watch and a book"
+            },
+            {
+              "id": "2",
+              "text": "A sword and a shield"
+            },
+            {
+              "id": "3",
+              "text": "A rose and a robe"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A sword and a shield"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of bird is the character from Oscar Wildes fairy tale The Happy Prince?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nightingale"
+            },
+            {
+              "id": "1",
+              "text": "Sparrow"
+            },
+            {
+              "id": "2",
+              "text": "Hummingbird"
+            },
+            {
+              "id": "3",
+              "text": "Swallow"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Swallow"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sleeping Beauty was re-released theatrically in 1970, 1971, 1986, 1993, 1995, and 2008. How much did it gross in theatres in the period 1959-2009, when adjusted for ticket price inflation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "$102.49 million"
+            },
+            {
+              "id": "1",
+              "text": "$478.22 million"
+            },
+            {
+              "id": "2",
+              "text": "$668.39 million"
+            },
+            {
+              "id": "3",
+              "text": "$309.2 million"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: $478.22 million"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the animated film Sleeping Beauty, Aurora and Prince Phillip dance a waltz and do not notice the fairies magically changing the color of Auroras ball gown.  As the book closes, Auroras gown turns this color and remains this color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pink"
+            },
+            {
+              "id": "1",
+              "text": "Blue"
+            },
+            {
+              "id": "2",
+              "text": "Purple"
+            },
+            {
+              "id": "3",
+              "text": "Green"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pink"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the differences between the original plot of the book and the script of 2009 movie Harry Potter and the Half-Blood Prince?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dumbledores funeral was not in the script."
+            },
+            {
+              "id": "1",
+              "text": "Both the battle in the castle and Dumbledores funeral were not in the script."
+            },
+            {
+              "id": "2",
+              "text": "The climactic battle in the castle was not in the script."
+            },
+            {
+              "id": "3",
+              "text": "No changes were made."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Both the battle in the castle and Dumbledores funeral were not in the script."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "actor",
+          "fairies",
+          "kind",
+          "dies",
+          "regulus"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Oscar Wildes and Blackstar",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, leader, hans. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the Soul want from the fisherman in Oscar Wildes fairy tale The Fisherman and his Soul?",
+          "options": [
+            {
+              "id": "0",
+              "text": "His only child"
+            },
+            {
+              "id": "1",
+              "text": "His hope"
+            },
+            {
+              "id": "2",
+              "text": "His most valuable possession"
+            },
+            {
+              "id": "3",
+              "text": "His heart"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: His heart"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does the nightingale from Oscar Wildes story The Nightingale and the Rose find a red rose for the poor student?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It steals one"
+            },
+            {
+              "id": "1",
+              "text": "It paints a white rose with its blood"
+            },
+            {
+              "id": "2",
+              "text": "It travels trough many countries and dies from exhaustion"
+            },
+            {
+              "id": "3",
+              "text": "It prays to God and He sends one"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: It paints a white rose with its blood"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the mother of the Star-Child from Oscar Wildes fairy tale The Star-Child?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A beggar"
+            },
+            {
+              "id": "1",
+              "text": "An angel"
+            },
+            {
+              "id": "2",
+              "text": "A witch"
+            },
+            {
+              "id": "3",
+              "text": "A star"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A beggar"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the last line of the Infanta from Oscar Wildes story The Birthday of the Infanta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its a shame Ive forgotten who I was, so let the people decide my fate."
+            },
+            {
+              "id": "1",
+              "text": "For the future, let those who come to play with me have no hearts."
+            },
+            {
+              "id": "2",
+              "text": "Little people will never know what its like being a princess."
+            },
+            {
+              "id": "3",
+              "text": "Justice shall reign one day when I sit on the throne."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: For the future, let those who come to play with me have no hearts."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens to the beautiful garden of the giant when he builds a wall to keep children off in Oscar Wildes fairy tale The Selfish Giant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "There is no more sunshine in the garden, only darkness"
+            },
+            {
+              "id": "1",
+              "text": "The small pond dries up and the fish dies"
+            },
+            {
+              "id": "2",
+              "text": "All the flowers wither and the birds die"
+            },
+            {
+              "id": "3",
+              "text": "Eternal winter sets in the garden"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eternal winter sets in the garden"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why does the shepherd from Oscar Wildes fairy tale The Young King refuse to wear the royal raiment?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He doesnt want to be a king"
+            },
+            {
+              "id": "1",
+              "text": "He has nightmares of where it came from"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "He finds it ugly"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He has nightmares of where it came from"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Blackstar animates series, which of these was not a name of the little people known as the Trobbits?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Burble"
+            },
+            {
+              "id": "1",
+              "text": "Carpo"
+            },
+            {
+              "id": "2",
+              "text": "Dargo"
+            },
+            {
+              "id": "3",
+              "text": "Balkar"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dargo"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Harry Potter, Voldemort, and Dumbledore have connected wands.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the beautiful Star-Child transformed into in Oscar Wildes fairy tale The Star-Child?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A cross between a snake and a toad"
+            },
+            {
+              "id": "1",
+              "text": "A flower"
+            },
+            {
+              "id": "2",
+              "text": "Vapor"
+            },
+            {
+              "id": "3",
+              "text": "A black dove"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A cross between a snake and a toad"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year were the Blackstar animated series first broadcast on American television?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1980"
+            },
+            {
+              "id": "1",
+              "text": "1981"
+            },
+            {
+              "id": "2",
+              "text": "1983"
+            },
+            {
+              "id": "3",
+              "text": "1979"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1981"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Blackstar from the animated series of the same name get stranded in the alien world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "After an impact with an asteroid"
+            },
+            {
+              "id": "1",
+              "text": "Because of his co-pilots incompetence"
+            },
+            {
+              "id": "2",
+              "text": "After a time rift"
+            },
+            {
+              "id": "3",
+              "text": "After falling in a black hole"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: After falling in a black hole"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Hans from Oscar Wildes fairy tale The Devoted Friend do for a living?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He is a musician"
+            },
+            {
+              "id": "1",
+              "text": "He is a miller"
+            },
+            {
+              "id": "2",
+              "text": "Hes a gardener"
+            },
+            {
+              "id": "3",
+              "text": "Hes a doctor"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hes a gardener"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first name of the animated 1980s hero Blackstar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael"
+            },
+            {
+              "id": "1",
+              "text": "John"
+            },
+            {
+              "id": "2",
+              "text": "Robert"
+            },
+            {
+              "id": "3",
+              "text": "James"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these fictional characters is the leader of the Death Eaters?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Voldemort"
+            },
+            {
+              "id": "1",
+              "text": "Rookwood"
+            },
+            {
+              "id": "2",
+              "text": "Bellatrix"
+            },
+            {
+              "id": "3",
+              "text": "Igor Karkaroff"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Voldemort"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why does the rocket from Oscar Wildes story The Remarkable Rocket fail to ignite?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is too lofty"
+            },
+            {
+              "id": "1",
+              "text": "It dies"
+            },
+            {
+              "id": "2",
+              "text": "It is faulty"
+            },
+            {
+              "id": "3",
+              "text": "It gets wet"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It gets wet"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "leader",
+          "hans",
+          "wildes",
+          "death",
+          "soul"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Willows and Toad",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, toads, toad. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel The Wind in the Willows, while Mr. Toad is in jail, this person becomes fond of him and helps him escape.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Toads cellmate"
+            },
+            {
+              "id": "1",
+              "text": "The jailer"
+            },
+            {
+              "id": "2",
+              "text": "Toads attorney"
+            },
+            {
+              "id": "3",
+              "text": "The jailers daughter"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The jailers daughter"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Based on Mr. Toads car driving in The Wind in the Willows, Mr. Toads Wild Ride was established in 1955. What is it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a ride at Disneyland"
+            },
+            {
+              "id": "1",
+              "text": "a brand of tennis shoes"
+            },
+            {
+              "id": "2",
+              "text": "a Wyoming state police manual"
+            },
+            {
+              "id": "3",
+              "text": "a board game"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: a ride at Disneyland"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Wind in the Willows, Mr. Toad tries to hitchhike back to the River Bank community. What is the significance of the car and driver that give Toad a ride?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is Toads car, and Badger is the driver"
+            },
+            {
+              "id": "1",
+              "text": "It is Rats car, and Badger is the driver"
+            },
+            {
+              "id": "2",
+              "text": "It is the same car that Toad stole earlier"
+            },
+            {
+              "id": "3",
+              "text": "It is an undercover police car"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It is the same car that Toad stole earlier"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What character from The Wind in the Willows becomes easily obsessed with items, only to forget about them soon after acquiring them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mole"
+            },
+            {
+              "id": "1",
+              "text": "Mr. Toad"
+            },
+            {
+              "id": "2",
+              "text": "Weasel"
+            },
+            {
+              "id": "3",
+              "text": "Pan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Toad"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1949 Disney released their animated versions of The Wind in the Willows and this short story.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chicken Little"
+            },
+            {
+              "id": "1",
+              "text": "Rip Van Winkle"
+            },
+            {
+              "id": "2",
+              "text": "The Legend of Sleepy Hollow"
+            },
+            {
+              "id": "3",
+              "text": "Mickey and the Beanstalk"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Legend of Sleepy Hollow"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the book The Wind in the Willows, shortly after his escape and still in disguise, Mr. Toad meets a bargewoman and tricks her into giving him a job. The bargewoman discovers Toads trick and throws him overboard. He steals her horse and sells it to a Gypsy for what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Money and stew"
+            },
+            {
+              "id": "1",
+              "text": "A ride back to Toad Hall"
+            },
+            {
+              "id": "2",
+              "text": "Another disguise"
+            },
+            {
+              "id": "3",
+              "text": "A place to spend the night"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Money and stew"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After his jail escape, The Wind in the Willows character, Toad, learns from Ratty that Toad Hall has been taken over by these Wild Wood animals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "the weasels, stoats and ferrets"
+            },
+            {
+              "id": "1",
+              "text": "the rabbits and otters"
+            },
+            {
+              "id": "2",
+              "text": "the birds"
+            },
+            {
+              "id": "3",
+              "text": "the squirrels and chipmunks"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the weasels, stoats and ferrets"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many episodes of the animated series Blackstar ran on American television?",
+          "options": [
+            {
+              "id": "0",
+              "text": "16"
+            },
+            {
+              "id": "1",
+              "text": "13"
+            },
+            {
+              "id": "2",
+              "text": "20"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 13"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Wind in the Willows was published in 1908 without much notice. What famous author and playwright, best known for Winnie the Pooh, adapted part of the book for the stage in 1929, thus making the book famous?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Horwood"
+            },
+            {
+              "id": "1",
+              "text": "E. H. Shepard"
+            },
+            {
+              "id": "2",
+              "text": "Kenneth Grahame"
+            },
+            {
+              "id": "3",
+              "text": "A. A. Milne"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A. A. Milne"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What character from The Wind in the Willows gets lost in Wild Wood while looking for Badgers house?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Otter"
+            },
+            {
+              "id": "1",
+              "text": "Mr. Toad"
+            },
+            {
+              "id": "2",
+              "text": "Mole"
+            },
+            {
+              "id": "3",
+              "text": "Weasel"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mole"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1967 this British rock band released their first album. It was titled after Chapter 7 of The Wind in the Willows: The Piper at the Gates of Dawn.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Doors"
+            },
+            {
+              "id": "1",
+              "text": "Jethro Tull"
+            },
+            {
+              "id": "2",
+              "text": "The Beatles"
+            },
+            {
+              "id": "3",
+              "text": "Pink Floyd"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pink Floyd"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In order to escape, Toad from The Wind in the Willows is dressed in disguise. What is he disguised as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A police officer"
+            },
+            {
+              "id": "1",
+              "text": "An attractive female"
+            },
+            {
+              "id": "2",
+              "text": "The jailer"
+            },
+            {
+              "id": "3",
+              "text": "A washerwoman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A washerwoman"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel The Wind in the Willows, Toad has crashed 6 cars, been put in the hospital for injuries 3 times, and has spent a great deal of money on fines. Toads friends decide to do this to save Toad since he has no sense when it comes to his obsessions.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Put him under house arrest"
+            },
+            {
+              "id": "1",
+              "text": "Have him thrown in jail"
+            },
+            {
+              "id": "2",
+              "text": "Burn his cars"
+            },
+            {
+              "id": "3",
+              "text": "Make him live underground with Mole"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Put him under house arrest"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the beginning of the book The Wind in the Willows, what is Mole doing when he gets angry and goes above ground to the river?",
+          "options": [
+            {
+              "id": "0",
+              "text": "trying to sleep"
+            },
+            {
+              "id": "1",
+              "text": "listening to Mr. Toad"
+            },
+            {
+              "id": "2",
+              "text": "spring cleaning"
+            },
+            {
+              "id": "3",
+              "text": "looking for food"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: spring cleaning"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Wind in the Willows was first published in 1908. What Scottish-born writer and author of the story The Reluctant Dragon wrote this book?",
+          "options": [
+            {
+              "id": "0",
+              "text": "E. H. Shepard"
+            },
+            {
+              "id": "1",
+              "text": "A. A. Milne"
+            },
+            {
+              "id": "2",
+              "text": "Kenneth Grahame"
+            },
+            {
+              "id": "3",
+              "text": "James Blish"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kenneth Grahame"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "toads",
+          "toad",
+          "order",
+          "disney",
+          "rock"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Peter and Shadow Thieves",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, kind, peters. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Harry Potter and the Half-Blood Prince, when Harry is visiting Weasleys Wizard Wheezes, what is the last product mentioned before he followed Draco Malfoy into Knockturn Alley?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Decoy Detonator"
+            },
+            {
+              "id": "1",
+              "text": "Pygmy Puff"
+            },
+            {
+              "id": "2",
+              "text": "Fever Fudge"
+            },
+            {
+              "id": "3",
+              "text": "Nose Bleed Nougat"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pygmy Puff"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Peter, the main character in Peter and the Shadow Thieves, wear shoes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where does Peter live in the childrens novel Peter and the Shadow Thieves?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fairy Hollow"
+            },
+            {
+              "id": "1",
+              "text": "London"
+            },
+            {
+              "id": "2",
+              "text": "Never Land"
+            },
+            {
+              "id": "3",
+              "text": "Mollusk Island"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mollusk Island"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the childrens novel Peter and the Shadow Thieves, James and Thomas are the two fastest Lost boys.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the mermaid that flirts with Peter in the book Peter and the Shadow Thieves?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Singer"
+            },
+            {
+              "id": "1",
+              "text": "Beauty"
+            },
+            {
+              "id": "2",
+              "text": "Teacher"
+            },
+            {
+              "id": "3",
+              "text": "Swimmer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Teacher"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of tree does Harry Potter sit under after Dumbledores funeral?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beech"
+            },
+            {
+              "id": "1",
+              "text": "Whomping Willow"
+            },
+            {
+              "id": "2",
+              "text": "Spruce"
+            },
+            {
+              "id": "3",
+              "text": "Oak"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Beech"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first time Harry Potter encounters a little girl outside the room of requirement, she drops a bottle of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Water"
+            },
+            {
+              "id": "1",
+              "text": "Dittany"
+            },
+            {
+              "id": "2",
+              "text": "Draught of Living Death"
+            },
+            {
+              "id": "3",
+              "text": "Toadspawn"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Toadspawn"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Bellatrix Lestranges wand made of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pine"
+            },
+            {
+              "id": "1",
+              "text": "Walnut"
+            },
+            {
+              "id": "2",
+              "text": "Oak"
+            },
+            {
+              "id": "3",
+              "text": "Chestnut"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Walnut"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How does Peter get to London in the book Peter and the Shadow Thieves?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He takes a taxi."
+            },
+            {
+              "id": "1",
+              "text": "He goes by boat."
+            },
+            {
+              "id": "2",
+              "text": "He flies."
+            },
+            {
+              "id": "3",
+              "text": "He swims."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He goes by boat."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Zoeys last name on the TV show Zoey 101?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brocks"
+            },
+            {
+              "id": "1",
+              "text": "Books"
+            },
+            {
+              "id": "2",
+              "text": "Brooks"
+            },
+            {
+              "id": "3",
+              "text": "Brakes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Brooks"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Peter and the Shadow Thieves, Slank is one of the Aster guards.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who does Peter have to warn about Ombra in the childrens novel Peter and the Shadow Thieves?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Louise"
+            },
+            {
+              "id": "1",
+              "text": "Tina"
+            },
+            {
+              "id": "2",
+              "text": "Molly"
+            },
+            {
+              "id": "3",
+              "text": "Julie"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Molly"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the book Peter and the Shadow Thieves, the starstuff was in what tower?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bloody Tower"
+            },
+            {
+              "id": "1",
+              "text": "White Tower"
+            },
+            {
+              "id": "2",
+              "text": "Prison Tower"
+            },
+            {
+              "id": "3",
+              "text": "Golden Tower"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: White Tower"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Peter and the Shadow Thieves, what is the name of Fighting Prawns oldest daughter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Raven"
+            },
+            {
+              "id": "1",
+              "text": "Dana"
+            },
+            {
+              "id": "2",
+              "text": "Brilliant Ruby"
+            },
+            {
+              "id": "3",
+              "text": "Shining Pearl"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Shining Pearl"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which fairy is Peters guardian in the book Peter and the Shadow Thieves?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rosy Tone"
+            },
+            {
+              "id": "1",
+              "text": "Hornblower"
+            },
+            {
+              "id": "2",
+              "text": "Tinker Bell"
+            },
+            {
+              "id": "3",
+              "text": "Violet Vinger"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tinker Bell"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "kind",
+          "peters",
+          "sit",
+          "tv",
+          "prince"
+        ]
+      }
+    }
+  ]
+}

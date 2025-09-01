@@ -1,0 +1,2444 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Literature Quiz: Ghost and Number",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, boleyns, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ghosts have taken a significant place in literature and art since this period.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Renaissance"
+            },
+            {
+              "id": "1",
+              "text": "Middle Ages"
+            },
+            {
+              "id": "2",
+              "text": "Romanticism"
+            },
+            {
+              "id": "3",
+              "text": "Baroque"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Renaissance"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are countless theories about the origins of fear of number 13. One says that the phobia comes from Norse mythology. According to a legend, the 13th god, the god of mischief, turned up at a gathering of the 12 Viking gods and caused the death of Balder the Good.  What was the god of mischief called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Loki"
+            },
+            {
+              "id": "1",
+              "text": "Tor"
+            },
+            {
+              "id": "2",
+              "text": "Odin"
+            },
+            {
+              "id": "3",
+              "text": "Hod"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Loki"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The fear of the fatal date is called this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paraskevidekatriaphobia"
+            },
+            {
+              "id": "1",
+              "text": "Aphenphosmphobia"
+            },
+            {
+              "id": "2",
+              "text": "Chronomentrophobia"
+            },
+            {
+              "id": "3",
+              "text": "Coitophobia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Paraskevidekatriaphobia"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A ghost is a supernatural entity thought to be the spirit of a person remaining on Earth after their death to seek revenge.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is something specific about Anne Boleyns ghost. What is it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She does not have a ghost."
+            },
+            {
+              "id": "1",
+              "text": "Her ghost is male."
+            },
+            {
+              "id": "2",
+              "text": "Her ghost is without hands."
+            },
+            {
+              "id": "3",
+              "text": "Her ghost is without a head."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Her ghost is without a head."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Brad Pitt starred in all these movies, except one. Can you spot it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Meet Joe Black"
+            },
+            {
+              "id": "1",
+              "text": "Mr.  Mrs. Smith"
+            },
+            {
+              "id": "2",
+              "text": "Oceans Eleven"
+            },
+            {
+              "id": "3",
+              "text": "The Beach"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Beach"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is there a difference between a poltergeist and a ghost?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Robin Williams starred in Mrs. Doubtfire. Another great actor, Dustin Hoffman starred in Tootsie. Both characters pretended to be this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Women"
+            },
+            {
+              "id": "1",
+              "text": "Dead"
+            },
+            {
+              "id": "2",
+              "text": "Insane"
+            },
+            {
+              "id": "3",
+              "text": "Bed-ridden and sick"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Women"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Epic of Gilgamesh is the oldest written story, containing a lot of references to the spirits of the dead.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1993 an interesting study about Friday the 13th was published in the British Medical Journal. Its authors investigated if this mystical date is really dangerous. They compared the ratio of traffic volume to the number of vehicular accidents on two different days throughout several years. What was the conclusion of the study?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The number of vehicular accidents is lower on Friday the 13th"
+            },
+            {
+              "id": "1",
+              "text": "The results were inconclusive"
+            },
+            {
+              "id": "2",
+              "text": "Friday the 13th doesnt have any affect on the number of vehicular accidents"
+            },
+            {
+              "id": "3",
+              "text": "Friday the 13th actually affects the number of vehicular accidents"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Friday the 13th actually affects the number of vehicular accidents"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Suetonius, Geoffrey of Monmouth and Herodotus have in common?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are three writers that produce modern urban legends."
+            },
+            {
+              "id": "1",
+              "text": "They are three writers that produced the first urban legends."
+            },
+            {
+              "id": "2",
+              "text": "They are three ghost from the modern urban legends."
+            },
+            {
+              "id": "3",
+              "text": "They are three ghosts from the first urban legends."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They are three writers that produced the first urban legends."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chinese people believe that 13 is a lucky number.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements about ghosts is incorrect?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are always depicted of a human size and shape."
+            },
+            {
+              "id": "1",
+              "text": "Ghosts do not have a gross physical body."
+            },
+            {
+              "id": "2",
+              "text": "Sometimes they might manifest their presence by moving other objects or producing noises."
+            },
+            {
+              "id": "3",
+              "text": "They are usually portrayed as silvery, shadowy and fog-like."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They are always depicted of a human size and shape."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The ghost of the Roman Emperor Caligula was said to haunt this place.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Basilica di San Giovanni in Laterano"
+            },
+            {
+              "id": "1",
+              "text": "Amphitheatrum Castrense"
+            },
+            {
+              "id": "2",
+              "text": "The Lamian Gardens of Rome"
+            },
+            {
+              "id": "3",
+              "text": "Great Synagogue of Rome"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Lamian Gardens of Rome"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "People fear Friday for many reasons. For example, Jesus Christ was crucified on Friday, the Great Flood began on Friday and Adam and Eve were banned from the Garden of Eden on Friday. Do you know what type of day Friday was in the pagan Roman empire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Parade day"
+            },
+            {
+              "id": "1",
+              "text": "Tax day"
+            },
+            {
+              "id": "2",
+              "text": "Execution day"
+            },
+            {
+              "id": "3",
+              "text": "Day for prayers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Execution day"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "boleyns",
+          "people",
+          "example",
+          "date",
+          "literature"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Movie and 13th",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most estate agents find it difficult to sell a house, numbered thirteen.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Pretty in Pink, the character played by Molly Ringwald has a guest, named Long Duk Dong, who is a  foreign exchange student.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What movie stars George Peppard as a WWI ace pilot?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Blue Max"
+            },
+            {
+              "id": "1",
+              "text": "The Blue Baron"
+            },
+            {
+              "id": "2",
+              "text": "The Red Baron"
+            },
+            {
+              "id": "3",
+              "text": "The Black Knight"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Blue Max"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was unique about The Green Berets, a film starring John Wayne?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "It was John Waynes first movie without a female co-star"
+            },
+            {
+              "id": "2",
+              "text": "It was the only non-western John Wayne movie in color"
+            },
+            {
+              "id": "3",
+              "text": "It was the only Vietnam War film that was produced during the war itself"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It was the only Vietnam War film that was produced during the war itself"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Having in mind the mysterious background of Black Friday, it is quite natural that the TV series Friday the 13th were so popular. The main character, Jason, is one of the biggest celebrities in the world of horror movies. What is Jasons family name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hardy"
+            },
+            {
+              "id": "1",
+              "text": "Vorhees"
+            },
+            {
+              "id": "2",
+              "text": "Christy"
+            },
+            {
+              "id": "3",
+              "text": "Burrell"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vorhees"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In White Men Cant Jump, Sidney Deane, played by Wesley Snipes is married to Rosie Perez character, Gloria Clemente.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which 1985 comedy film starred Tom Hanks, Jim Belushi and Lori Singer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Man With One Red Shoe"
+            },
+            {
+              "id": "1",
+              "text": "The Woman In Red"
+            },
+            {
+              "id": "2",
+              "text": "The Masque of the Red Death"
+            },
+            {
+              "id": "3",
+              "text": "Reds"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Man With One Red Shoe"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Female drivers have more traffic accidents on Friday the 13th.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Goldfinger, which one of the following characters does not die?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tilly Masterson"
+            },
+            {
+              "id": "1",
+              "text": "Pussy Galore"
+            },
+            {
+              "id": "2",
+              "text": "Goldfinger"
+            },
+            {
+              "id": "3",
+              "text": "Oddjob"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pussy Galore"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Black Sunday, Michael Lander played by Bruce Dern, conspires with a Palestinian terrorist group to kill masses of innocent people in what way?",
+          "options": [
+            {
+              "id": "0",
+              "text": "by detonating a nuclear device inside the Pentagon"
+            },
+            {
+              "id": "1",
+              "text": "by detonating a bomb, housed in the undercarriage of a blimp, over a football stadium during the Super Bowl"
+            },
+            {
+              "id": "2",
+              "text": "by hijacking a 747 and taking it to Syria"
+            },
+            {
+              "id": "3",
+              "text": "by infecting a water supply with the black plague"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: by detonating a bomb, housed in the undercarriage of a blimp, over a football stadium during the Super Bowl"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Actors Patrick Swayze, Jennifer Gray, Charlie Sheen and C.Thomas Howell played in both Red Dawn and The Outsiders.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Over any given 400-year cycle the 13th day of the month occurs 4800 times. The 13th most often falls on this day of the week.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sunday"
+            },
+            {
+              "id": "1",
+              "text": "Monday"
+            },
+            {
+              "id": "2",
+              "text": "Wednesday"
+            },
+            {
+              "id": "3",
+              "text": "Friday"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Friday"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the film The Hunt For Red October, what was the unique quality of the Russian submarine Red October?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was a laser guided sub that tracks 24 targets at the same time."
+            },
+            {
+              "id": "1",
+              "text": "It was built with a revolutionary stealth propulsion system called the caterpillar drive,"
+            },
+            {
+              "id": "2",
+              "text": "Its stealth armor confuses the enemy sonar"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: It was built with a revolutionary stealth propulsion system called the caterpillar drive,"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The bad name of both Friday and number 13 can be explained by many historical and religious facts. However, the reason why they are linked together to form this powerful superstition, cant be explained so easily. According to one theory, the ill-fame of Friday 13th dates back to 13 October 1307, when King Philip IV of France arrested most of the knights of one famous Order. What was the name of the Order?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Ancient and Illustrious Order Knights of Malta"
+            },
+            {
+              "id": "1",
+              "text": "Ancient Order Knights of the Mystic Chain"
+            },
+            {
+              "id": "2",
+              "text": "The Knights Templar"
+            },
+            {
+              "id": "3",
+              "text": "Teutonic Order"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Knights Templar"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This movie, directed by Stanley Kubrick, stars Malcolm McDowell as Alex DeLarge.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Backward Peach"
+            },
+            {
+              "id": "1",
+              "text": "A Future of  Red"
+            },
+            {
+              "id": "2",
+              "text": "A Clockwork Orange"
+            },
+            {
+              "id": "3",
+              "text": "Soylent Green"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A Clockwork Orange"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "stars",
+          "goldfinger",
+          "facts",
+          "ace"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "History Quiz: Hair and History",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, college, rrc. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most fairy tale characters have this color hair.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blonde"
+            },
+            {
+              "id": "1",
+              "text": "Dark"
+            },
+            {
+              "id": "2",
+              "text": "Green"
+            },
+            {
+              "id": "3",
+              "text": "Red"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blonde"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She is regarded as the most famous blonde of all times.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marlene Dietrich"
+            },
+            {
+              "id": "1",
+              "text": "Eva Brown"
+            },
+            {
+              "id": "2",
+              "text": "Marilyn Monroe"
+            },
+            {
+              "id": "3",
+              "text": "Madonna"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Marilyn Monroe"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of the following albums are by the band Red Hot Chili Peppers. Which is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blood Sugar Sex Magik"
+            },
+            {
+              "id": "1",
+              "text": "Freaky Styley"
+            },
+            {
+              "id": "2",
+              "text": "In Another Land"
+            },
+            {
+              "id": "3",
+              "text": "By the Way"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: In Another Land"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Researchers in England found this to be true of  blond cashiers in supermarkets.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Have frequent technical issues with the registers"
+            },
+            {
+              "id": "1",
+              "text": "Gather greater queues"
+            },
+            {
+              "id": "2",
+              "text": "Receive more tips from customers"
+            },
+            {
+              "id": "3",
+              "text": "Have higher chances of not balancing the register at the end of the day"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gather greater queues"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The hairs of a natural blonde can be described as this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "More than those of a brunette"
+            },
+            {
+              "id": "1",
+              "text": "Thinner than those of a brunette"
+            },
+            {
+              "id": "2",
+              "text": "The same number as those of a brunette"
+            },
+            {
+              "id": "3",
+              "text": "Fewer than those of a brunette"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: More than those of a brunette"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Rothschilds were one of the most successful business families in history. Their family name literally means this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Shire"
+            },
+            {
+              "id": "1",
+              "text": "Red Sheath"
+            },
+            {
+              "id": "2",
+              "text": "Red Shield"
+            },
+            {
+              "id": "3",
+              "text": "Red Sheave"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Red Shield"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Red River College (RRC) is a large and very comprehensive institute of applied learning, located in this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ottawa"
+            },
+            {
+              "id": "1",
+              "text": "Toronto"
+            },
+            {
+              "id": "2",
+              "text": "Vancouver"
+            },
+            {
+              "id": "3",
+              "text": "Winnipeg"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Winnipeg"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During The Restoration period blond hair became a symbol of this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stupidity"
+            },
+            {
+              "id": "1",
+              "text": "High class"
+            },
+            {
+              "id": "2",
+              "text": "Intelligence"
+            },
+            {
+              "id": "3",
+              "text": "Prostitution"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Prostitution"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Red is the color of all these except one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Danger"
+            },
+            {
+              "id": "1",
+              "text": "Warmth"
+            },
+            {
+              "id": "2",
+              "text": "Passion"
+            },
+            {
+              "id": "3",
+              "text": "Sadness"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sadness"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Red is believed to provoke hunger.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The movie Trois couleurs: Rouge (Three Colors: Red) is about a girl who discovers her neighbour is keen on invading peoples privacy. This is her profession.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Photographer"
+            },
+            {
+              "id": "1",
+              "text": "Teacher"
+            },
+            {
+              "id": "2",
+              "text": "Model"
+            },
+            {
+              "id": "3",
+              "text": "Actress"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Model"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the first known blondes was this Greek goddess, whose hair was described by Homer as golden.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Demeter"
+            },
+            {
+              "id": "1",
+              "text": "Aphrodite"
+            },
+            {
+              "id": "2",
+              "text": "Hera"
+            },
+            {
+              "id": "3",
+              "text": "Medusa"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Aphrodite"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Strange as it may be, there are paintings, depicting a blonde one of her.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Madamme Butterfly"
+            },
+            {
+              "id": "1",
+              "text": "Cleopatra"
+            },
+            {
+              "id": "2",
+              "text": "Beyonce"
+            },
+            {
+              "id": "3",
+              "text": "Aretha Franklyn"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cleopatra"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Red Lobster is a U.S. chain of seafood restaurants. Its original name was this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harbor for Seafood Lovers"
+            },
+            {
+              "id": "1",
+              "text": "Lobster Lovers"
+            },
+            {
+              "id": "2",
+              "text": "Lobster Barbecue"
+            },
+            {
+              "id": "3",
+              "text": "Red Harbor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Harbor for Seafood Lovers"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Blonde hair was important to Hitler, according to him it symbolized this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Valor"
+            },
+            {
+              "id": "1",
+              "text": "German nationality"
+            },
+            {
+              "id": "2",
+              "text": "Innocence"
+            },
+            {
+              "id": "3",
+              "text": "The purity of the Aryan race"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The purity of the Aryan race"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "college",
+          "rrc",
+          "period",
+          "paintings",
+          "hair"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Invent and Aristocracy",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, link, engineering. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Blue pages are a telephone directory of these.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Business offices"
+            },
+            {
+              "id": "1",
+              "text": "Celebrities home numbers"
+            },
+            {
+              "id": "2",
+              "text": "Brothels numbers"
+            },
+            {
+              "id": "3",
+              "text": "Government offices"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Government offices"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did electrical engineering professor, Dr. Brent Townshend, invent in 1996?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The 56K modem"
+            },
+            {
+              "id": "1",
+              "text": "Potato Chips"
+            },
+            {
+              "id": "2",
+              "text": "Bookshelf speakers"
+            },
+            {
+              "id": "3",
+              "text": "The remote control locator"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The 56K modem"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This huge company is often referred to as Big Blue.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hewlett-Packard"
+            },
+            {
+              "id": "1",
+              "text": "Microsoft"
+            },
+            {
+              "id": "2",
+              "text": "IBM"
+            },
+            {
+              "id": "3",
+              "text": "Cisco Systems, Inc."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: IBM"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Manfred Albrecht Freiherr von Richthofen was a German pilot and is still regarded today as the ace of aces. Which of the following pairs (nickname - nation calling him that) is wrong?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Battle-Flyer - the Germans"
+            },
+            {
+              "id": "1",
+              "text": "Red Devil - the French"
+            },
+            {
+              "id": "2",
+              "text": "Red Baron - the British"
+            },
+            {
+              "id": "3",
+              "text": "They are all true."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They are all true."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of these four countries does not border the Red Sea.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jordan"
+            },
+            {
+              "id": "1",
+              "text": "Egypt"
+            },
+            {
+              "id": "2",
+              "text": "Oman"
+            },
+            {
+              "id": "3",
+              "text": "Sudan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oman"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This device, named Missing Link,  was invented by twin sisters Kelli and Vanessa Dunn.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The remote control locator"
+            },
+            {
+              "id": "1",
+              "text": "The bookshelf speakers"
+            },
+            {
+              "id": "2",
+              "text": "The 56K modem"
+            },
+            {
+              "id": "3",
+              "text": "The microphone"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The remote control locator"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Hitchhikers Guide to the Galaxy there are several references to a super-intelligent shade of the color blue, called this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cyan"
+            },
+            {
+              "id": "1",
+              "text": "Volo-loco"
+            },
+            {
+              "id": "2",
+              "text": "Hooloovoo"
+            },
+            {
+              "id": "3",
+              "text": "Gobo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hooloovoo"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In German the word for blue is used to describe that a person is this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Married"
+            },
+            {
+              "id": "1",
+              "text": "Crazy"
+            },
+            {
+              "id": "2",
+              "text": "Rich"
+            },
+            {
+              "id": "3",
+              "text": "Drunk"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Drunk"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1971, this programmer implemented the first email system capable of sending mail between users on different hosts connected to the ARPANET.",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Thomson"
+            },
+            {
+              "id": "1",
+              "text": "John Tomlinson"
+            },
+            {
+              "id": "2",
+              "text": "Mark Thomson"
+            },
+            {
+              "id": "3",
+              "text": "Ray Tomlinson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ray Tomlinson"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The term blue blood, meaning aristocracy or related to aristocracy, originated in this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "England"
+            },
+            {
+              "id": "1",
+              "text": "Germany"
+            },
+            {
+              "id": "2",
+              "text": "Spain"
+            },
+            {
+              "id": "3",
+              "text": "France"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Spain"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Blue is a British boy band consisting of four members. The song Signed, Sealed, Delivered, Im Yours is performed by them and this musician.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim Morrison"
+            },
+            {
+              "id": "1",
+              "text": "Stevie Wonder"
+            },
+            {
+              "id": "2",
+              "text": "Elton John"
+            },
+            {
+              "id": "3",
+              "text": "Steve Lawrence"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stevie Wonder"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Simply Red is a British band. The bands name is related to this soccer team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arsenal"
+            },
+            {
+              "id": "1",
+              "text": "Liverpool"
+            },
+            {
+              "id": "2",
+              "text": "Manchester United"
+            },
+            {
+              "id": "3",
+              "text": "Middlesbrough"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Manchester United"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Internationally, blue is the color of these political parties.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Labour parties"
+            },
+            {
+              "id": "1",
+              "text": "Liberal parties"
+            },
+            {
+              "id": "2",
+              "text": "Communist parties"
+            },
+            {
+              "id": "3",
+              "text": "Conservative parties"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Conservative parties"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did George Crum invent at the Moon Lake Lodge resort in Saratoga Springs, New York?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The remote control locator"
+            },
+            {
+              "id": "1",
+              "text": "The potato chips"
+            },
+            {
+              "id": "2",
+              "text": "Bookshelf speakers"
+            },
+            {
+              "id": "3",
+              "text": "The 56K modem"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The potato chips"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Eiffel 65 is a trio of Italian musicians who play electronic music. One of their biggest hits is Blue (Da Ba Dee). The album featured this hit.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eiffel 65"
+            },
+            {
+              "id": "1",
+              "text": "Contact!"
+            },
+            {
+              "id": "2",
+              "text": "Europop"
+            },
+            {
+              "id": "3",
+              "text": "Suggested Title - Crash Test"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Europop"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "link",
+          "engineering",
+          "professor",
+          "invent",
+          "programmer"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Number and Heavens",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1986, this musician, famous for performing the song  Johnny B. Goode, became the first person inducted into the Rock and Roll Hall of Fame.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Haley"
+            },
+            {
+              "id": "1",
+              "text": "Chuck Berry"
+            },
+            {
+              "id": "2",
+              "text": "Elvis Presley"
+            },
+            {
+              "id": "3",
+              "text": "Jerry Lee Lewis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chuck Berry"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to Douglas Adams book The Hitchhikers Guide to the Galaxy, this number is the answer to the Ultimate Question of Life, the Universe and Everything.",
+          "options": [
+            {
+              "id": "0",
+              "text": "37"
+            },
+            {
+              "id": "1",
+              "text": "53"
+            },
+            {
+              "id": "2",
+              "text": "42"
+            },
+            {
+              "id": "3",
+              "text": "27"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 42"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this movie Eminem plays the main character, whose name is Jimmy B-Rabbit Smith, Jr.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Torrance Rises"
+            },
+            {
+              "id": "1",
+              "text": "The Wash"
+            },
+            {
+              "id": "2",
+              "text": "8 Mile"
+            },
+            {
+              "id": "3",
+              "text": "The Slim Shady Show"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 8 Mile"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This number is usually associated with the unknown and the bad luck. A fear of this number is known as triskaidekaphobia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "13"
+            },
+            {
+              "id": "2",
+              "text": "9"
+            },
+            {
+              "id": "3",
+              "text": "666"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 13"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first Soviet nuclear ballistic submarine was called K-(this number).",
+          "options": [
+            {
+              "id": "0",
+              "text": "18"
+            },
+            {
+              "id": "1",
+              "text": "17"
+            },
+            {
+              "id": "2",
+              "text": "19"
+            },
+            {
+              "id": "3",
+              "text": "21"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 19"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the number of points outlined by president Woodrow Wilson for reconstructing a new Europe following World War I.",
+          "options": [
+            {
+              "id": "0",
+              "text": "12"
+            },
+            {
+              "id": "1",
+              "text": "24"
+            },
+            {
+              "id": "2",
+              "text": "14"
+            },
+            {
+              "id": "3",
+              "text": "27"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 14"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This comedian stars in Who Framed Roger Rabbit (a 1988 motion picture).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim Varney"
+            },
+            {
+              "id": "1",
+              "text": "Bob Hoskins"
+            },
+            {
+              "id": "2",
+              "text": "Jim Carrey"
+            },
+            {
+              "id": "3",
+              "text": "Danny DeVito"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Hoskins"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the number of heavens in Islamic tradition. It is also the figurative number of seas.",
+          "options": [
+            {
+              "id": "0",
+              "text": "11"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "4"
+            },
+            {
+              "id": "3",
+              "text": "7"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of these statements about the enigmatic number 23 is wrong.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Each parent contributes 23 chromosomes to the DNA of a child."
+            },
+            {
+              "id": "1",
+              "text": "Julius Caesar was stabbed 23 times when he was assassinated."
+            },
+            {
+              "id": "2",
+              "text": "All statements are in fact true."
+            },
+            {
+              "id": "3",
+              "text": "The Knights Templar had 23 Grand Masters, the last being Jacques de Molay."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All statements are in fact true."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Muslims pray to Allah five times a day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How old was Cio-Cio-San, a character in Giacomo Puccinis opera, Madame Butterfly ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15"
+            },
+            {
+              "id": "1",
+              "text": "20"
+            },
+            {
+              "id": "2",
+              "text": "19"
+            },
+            {
+              "id": "3",
+              "text": "21"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 15"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor, who plays Dr. Norman in What Lies Beneath, is also a licensed pilot of both planes and helicopters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Travolta"
+            },
+            {
+              "id": "1",
+              "text": "Anthony LaPaglia"
+            },
+            {
+              "id": "2",
+              "text": "Ralph Finnes"
+            },
+            {
+              "id": "3",
+              "text": "Harrison Ford"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Harrison Ford"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "50 years of marriage are known as this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pearl anniversary"
+            },
+            {
+              "id": "1",
+              "text": "Diamond anniversary"
+            },
+            {
+              "id": "2",
+              "text": "Gold anniversary"
+            },
+            {
+              "id": "3",
+              "text": "Platinum anniversary"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gold anniversary"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the number of syllables in a haiku (a very short Japanese poetic form).",
+          "options": [
+            {
+              "id": "0",
+              "text": "41"
+            },
+            {
+              "id": "1",
+              "text": "35"
+            },
+            {
+              "id": "2",
+              "text": "28"
+            },
+            {
+              "id": "3",
+              "text": "17"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 17"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the total number of books in the New Testament of the Holy Bible.",
+          "options": [
+            {
+              "id": "0",
+              "text": "27"
+            },
+            {
+              "id": "1",
+              "text": "57"
+            },
+            {
+              "id": "2",
+              "text": "37"
+            },
+            {
+              "id": "3",
+              "text": "17"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 27"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "stars",
+          "books",
+          "heavens",
+          "president"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "History Quiz: Word and Month",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, people, act. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which word was coined by philosopher and theologian, William Whewell in 1833?",
+          "options": [
+            {
+              "id": "0",
+              "text": "holography"
+            },
+            {
+              "id": "1",
+              "text": "magenta"
+            },
+            {
+              "id": "2",
+              "text": "scientist"
+            },
+            {
+              "id": "3",
+              "text": "trastevere"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: scientist"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is the diamond linked with a spring month?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the informal association of people who can trace their ancestry to the original Virginian colonists from England?",
+          "options": [
+            {
+              "id": "0",
+              "text": "First children of Virginia"
+            },
+            {
+              "id": "1",
+              "text": "First Settlers of Virginia"
+            },
+            {
+              "id": "2",
+              "text": "First Families of Virginia"
+            },
+            {
+              "id": "3",
+              "text": "Founders of Virginia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: First Families of Virginia"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This word deriving from Latin refers to the act of throwing someone or something out of a window.",
+          "options": [
+            {
+              "id": "0",
+              "text": "defenestration"
+            },
+            {
+              "id": "1",
+              "text": "sylvan"
+            },
+            {
+              "id": "2",
+              "text": "peloton"
+            },
+            {
+              "id": "3",
+              "text": "homunculus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: defenestration"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Cretaceous-Tertiary event, also known as KT boundary, refers to what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a period of massive extinction of species"
+            },
+            {
+              "id": "1",
+              "text": "The destruction of the largest pyramid in the Western hemisphere"
+            },
+            {
+              "id": "2",
+              "text": "the first recorded devastating tsunami"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: a period of massive extinction of species"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The young of which of these animals is not called a joey?",
+          "options": [
+            {
+              "id": "0",
+              "text": "dog"
+            },
+            {
+              "id": "1",
+              "text": "opossum"
+            },
+            {
+              "id": "2",
+              "text": "wombat"
+            },
+            {
+              "id": "3",
+              "text": "kangaroo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: dog"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In these fractions, used by ancient Egyptians, the numerator is 1 and the denominator is a positive integer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "algebraic fractions"
+            },
+            {
+              "id": "1",
+              "text": "decimals"
+            },
+            {
+              "id": "2",
+              "text": "continued fractions"
+            },
+            {
+              "id": "3",
+              "text": "unit fractions"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: unit fractions"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the first word addressed to Mission Control by Neil Armstrong, when his craft landed on the Moon on July 20, 1969?",
+          "options": [
+            {
+              "id": "0",
+              "text": "One"
+            },
+            {
+              "id": "1",
+              "text": "Buzz"
+            },
+            {
+              "id": "2",
+              "text": "Roger"
+            },
+            {
+              "id": "3",
+              "text": "Houston"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Houston"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The birth stones associated with March, September and December can all be found in this color.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blue"
+            },
+            {
+              "id": "1",
+              "text": "Green"
+            },
+            {
+              "id": "2",
+              "text": "Pink"
+            },
+            {
+              "id": "3",
+              "text": "White"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blue"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which battleship of the Imperial Japanese Navy was sent on a suicide mission in 1945, during the invasion of Okinawa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yamato"
+            },
+            {
+              "id": "1",
+              "text": "Kamikaze"
+            },
+            {
+              "id": "2",
+              "text": "Tojo"
+            },
+            {
+              "id": "3",
+              "text": "Noh"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yamato"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "History records the fact that a Roman senator named Nonius chose exile rather than surrender his precious stone to Mark Anthony. This is Nonius gem stone.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ruby"
+            },
+            {
+              "id": "1",
+              "text": "Opal"
+            },
+            {
+              "id": "2",
+              "text": "Tourmaline"
+            },
+            {
+              "id": "3",
+              "text": "Zircon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Opal"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which collective noun denotes a group of owls?",
+          "options": [
+            {
+              "id": "0",
+              "text": "parliament"
+            },
+            {
+              "id": "1",
+              "text": "descent"
+            },
+            {
+              "id": "2",
+              "text": "dule"
+            },
+            {
+              "id": "3",
+              "text": "covey"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: parliament"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the following pairs (month - the gem associated with it) is wrong.",
+          "options": [
+            {
+              "id": "0",
+              "text": "February - Peridot"
+            },
+            {
+              "id": "1",
+              "text": "December - Turquoise"
+            },
+            {
+              "id": "2",
+              "text": "March - Aquamarine"
+            },
+            {
+              "id": "3",
+              "text": "June - Pearl"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: February - Peridot"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sapphire is usually associated with this month.",
+          "options": [
+            {
+              "id": "0",
+              "text": "November"
+            },
+            {
+              "id": "1",
+              "text": "December"
+            },
+            {
+              "id": "2",
+              "text": "October"
+            },
+            {
+              "id": "3",
+              "text": "September"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: September"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is a particular connection between birth stones and months.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "people",
+          "act",
+          "egyptians",
+          "march",
+          "joey"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2476 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Geography Quiz: Countries and Day",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, caesar, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These countries are all republics except one. Which one is a kingdom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "Spain"
+            },
+            {
+              "id": "2",
+              "text": "Poland"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Spain"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these countries are Islamic republics. Which one is a kingdom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Afghanistan"
+            },
+            {
+              "id": "1",
+              "text": "Pakistan"
+            },
+            {
+              "id": "2",
+              "text": "Iran"
+            },
+            {
+              "id": "3",
+              "text": "Bhutan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bhutan"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what day in March was Julius Caesar assassinated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15"
+            },
+            {
+              "id": "1",
+              "text": "17"
+            },
+            {
+              "id": "2",
+              "text": "13"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 15"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Roman calendar, in which of these months did the day of ides fall on the same day as in March ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "November"
+            },
+            {
+              "id": "1",
+              "text": "June"
+            },
+            {
+              "id": "2",
+              "text": "May"
+            },
+            {
+              "id": "3",
+              "text": "September"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: May"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the proper name of Queen Elizabeth IIs realm?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Kingdom of Great Britain"
+            },
+            {
+              "id": "1",
+              "text": "The Kingdom of Great Britain, Ireland and Scotland"
+            },
+            {
+              "id": "2",
+              "text": "The Kingdom of Great Britain and Northern Ireland"
+            },
+            {
+              "id": "3",
+              "text": "The Kingdom of England"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Kingdom of Great Britain and Northern Ireland"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Roman calendar, every month had a particular day called ides.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these countries are kingdoms. One is a republic. Which one is it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Belguim"
+            },
+            {
+              "id": "1",
+              "text": "The Netherlands"
+            },
+            {
+              "id": "2",
+              "text": "Norway"
+            },
+            {
+              "id": "3",
+              "text": "Italy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Italy"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did the Carpathia arrive in New York with the rescued survivors of the RMS Titanic?",
+          "options": [
+            {
+              "id": "0",
+              "text": "April 16"
+            },
+            {
+              "id": "1",
+              "text": "April 18"
+            },
+            {
+              "id": "2",
+              "text": "April 15"
+            },
+            {
+              "id": "3",
+              "text": "April 17"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: April 18"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was Julius Caesar killed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "50 BCE"
+            },
+            {
+              "id": "1",
+              "text": "44 BCE"
+            },
+            {
+              "id": "2",
+              "text": "38 BCE"
+            },
+            {
+              "id": "3",
+              "text": "40 BCE"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 44 BCE"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On 15 September, 1973 King Carl XVI Gustaf became the ruler of which of these modern kingdoms?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nepal"
+            },
+            {
+              "id": "1",
+              "text": "Swaziland"
+            },
+            {
+              "id": "2",
+              "text": "Lesotho"
+            },
+            {
+              "id": "3",
+              "text": "Sweden"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sweden"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these countries are kingdoms, which one is actually a sultanate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jordan"
+            },
+            {
+              "id": "1",
+              "text": "Bahrain"
+            },
+            {
+              "id": "2",
+              "text": "Oman"
+            },
+            {
+              "id": "3",
+              "text": "Saudi Arabia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oman"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Roman calendar, what did the day called ides mark each month?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The changing of Gods"
+            },
+            {
+              "id": "1",
+              "text": "A celebration of the dead"
+            },
+            {
+              "id": "2",
+              "text": "The months end"
+            },
+            {
+              "id": "3",
+              "text": "The full moon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The full moon"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jock Hume, violinist with the orchestra on board the Titanic, perished when the ship sank. What did the agency that employed the musician send to his family after the disaster?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A bill"
+            },
+            {
+              "id": "1",
+              "text": "His paycheck"
+            },
+            {
+              "id": "2",
+              "text": "A condolence card"
+            },
+            {
+              "id": "3",
+              "text": "A violin"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A bill"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was the Carpathia headed when the distress call from Titanic was transmitted?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mediterranean Cruise"
+            },
+            {
+              "id": "1",
+              "text": "Southampton, England"
+            },
+            {
+              "id": "2",
+              "text": "Cherbourg, France"
+            },
+            {
+              "id": "3",
+              "text": "Halifax, Nova Scotia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mediterranean Cruise"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A dog show was planned on board the Titanic for April 15th.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "caesar",
+          "world",
+          "carpathia",
+          "march",
+          "one"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: January and Julius Caesar",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, assassins, patricks. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From the Halls of Montezuma",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Marines hymn"
+            },
+            {
+              "id": "1",
+              "text": "The Marines Creed"
+            },
+            {
+              "id": "2",
+              "text": "The Marine Corps Official Song"
+            },
+            {
+              "id": "3",
+              "text": "The Marine Corps Official Prayer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Marines hymn"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did the assassination of Julius Caesar take place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Pompey Theatre"
+            },
+            {
+              "id": "1",
+              "text": "The town center"
+            },
+            {
+              "id": "2",
+              "text": "The Temple of Venus"
+            },
+            {
+              "id": "3",
+              "text": "The Senate"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Pompey Theatre"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "St. Patricks Day is traditionally a feast day celebrating the Patron Saint of what country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "Britain"
+            },
+            {
+              "id": "2",
+              "text": "Ireland"
+            },
+            {
+              "id": "3",
+              "text": "America"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ireland"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The United States Marine Corps is a Department of the United States Army.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Green has always been the color associated with St. Patricks Day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first American St. Patricks Day Parade was held in Boston, Massachusetts.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first St. Patricks Day parade organized in the Irish Free State was held in 1931 in what city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dublin"
+            },
+            {
+              "id": "1",
+              "text": "Belfast"
+            },
+            {
+              "id": "2",
+              "text": "Galway"
+            },
+            {
+              "id": "3",
+              "text": "Cork"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dublin"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the battle of Belleau Wood, the U.S. Marines fierceness and toughness earned them the respect of the Germans, who rated them of storm-trooper quality. What nickname did the U.S. Marines reportedly earn in this battle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Devil Dogs"
+            },
+            {
+              "id": "1",
+              "text": "Dirty Dogs"
+            },
+            {
+              "id": "2",
+              "text": "Bully Dogs"
+            },
+            {
+              "id": "3",
+              "text": "Grunt Dogs"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Devil Dogs"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two significant earthquakes occurred on January 17. The first was a 6.7 magnitude earthquake in Northbridge, California. The second was a 7.3 magnitude earthquake near Kobe, Japan. In what two consecutive years did they occur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1994 and 1995"
+            },
+            {
+              "id": "1",
+              "text": "1999 and 2000"
+            },
+            {
+              "id": "2",
+              "text": "1862 and 1863"
+            },
+            {
+              "id": "3",
+              "text": "1976 and 1977"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1994 and 1995"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which famous boxer, born on January 17, won a gold medal in the 1960 Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Henry Cooper"
+            },
+            {
+              "id": "1",
+              "text": "Joe Fraizer"
+            },
+            {
+              "id": "2",
+              "text": "Muhammad Ali"
+            },
+            {
+              "id": "3",
+              "text": "Mike Tyson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Muhammad Ali"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On January 17, 2006, this person became the second oldest inmate to be executed in the United States since 1976.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Al Capone"
+            },
+            {
+              "id": "1",
+              "text": "Stanley Williams"
+            },
+            {
+              "id": "2",
+              "text": "Clarence Ray Allen"
+            },
+            {
+              "id": "3",
+              "text": "John B. Nixon, Sr."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Clarence Ray Allen"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Benjamin Franklin, famous statesman and inventor, was born on January 17 of what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1726"
+            },
+            {
+              "id": "1",
+              "text": "1704"
+            },
+            {
+              "id": "2",
+              "text": "1724"
+            },
+            {
+              "id": "3",
+              "text": "1706"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1706"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actress, who played on The Golden Girls, was born On January 17, 1922.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Betty White"
+            },
+            {
+              "id": "1",
+              "text": "Bea Arthur"
+            },
+            {
+              "id": "2",
+              "text": "Estelle Getty"
+            },
+            {
+              "id": "3",
+              "text": "Rue McClanahan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Betty White"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Award-winning American author Robert Cormier died on January 17.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Julius Caesar was struck down by his assassins while on his way to what location?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Temple of Venus"
+            },
+            {
+              "id": "1",
+              "text": "The Pompey Theatre"
+            },
+            {
+              "id": "2",
+              "text": "The Senate"
+            },
+            {
+              "id": "3",
+              "text": "The Temple of Zeus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Temple of Venus"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "assassins",
+          "patricks",
+          "caesar",
+          "earthquakes",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "History Quiz: Country and City",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, patricks, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The head office of the European Central Bank, established on June 1, 1998, is located in which city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paris"
+            },
+            {
+              "id": "1",
+              "text": "London"
+            },
+            {
+              "id": "2",
+              "text": "Brussels"
+            },
+            {
+              "id": "3",
+              "text": "Frankfurt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Frankfurt"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This treaty was signed on February 7, 1992 by the members of the European Community, resulting in the creation of the European Union.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maastricht Treaty"
+            },
+            {
+              "id": "1",
+              "text": "Treaty of Rome"
+            },
+            {
+              "id": "2",
+              "text": "Treaty of Paris"
+            },
+            {
+              "id": "3",
+              "text": "Treaty of Amsterdam"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Maastricht Treaty"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Council of Europe and the Council of the European Union are one and the same body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The players of which of these baseball teams do NOT wear green uniforms on St. Patricks Day?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New York Yankees"
+            },
+            {
+              "id": "1",
+              "text": "Boston Red Sox"
+            },
+            {
+              "id": "2",
+              "text": "Pittsburgh Pirates"
+            },
+            {
+              "id": "3",
+              "text": "St. Louis Cardinals"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pittsburgh Pirates"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All euro coins have a common side showing the denomination and a national side showing an image specifically chosen by the country that issued it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Las Vegas is situated in a high desert valley roughly 2,500 feet above sea level. What provides its main source of water?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lake Havasu"
+            },
+            {
+              "id": "1",
+              "text": "Lake Mojave"
+            },
+            {
+              "id": "2",
+              "text": "Wells"
+            },
+            {
+              "id": "3",
+              "text": "Colorado River"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Colorado River"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The European Court of Justice, the Supreme Court of the European Union, is based in which country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "Luxembourg"
+            },
+            {
+              "id": "3",
+              "text": "Belgium"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Luxembourg"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what city does the largest St. Patricks Day Parade take place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chicago"
+            },
+            {
+              "id": "1",
+              "text": "Dublin"
+            },
+            {
+              "id": "2",
+              "text": "Boston"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New York"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The European Economic Community, informally called the Common Market, was established by the Treaty of Rome in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1947"
+            },
+            {
+              "id": "1",
+              "text": "1961"
+            },
+            {
+              "id": "2",
+              "text": "1957"
+            },
+            {
+              "id": "3",
+              "text": "1960"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1957"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement about the European Commission, the executive body of the European Union, is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is one of the three main institutions governing the European Union"
+            },
+            {
+              "id": "1",
+              "text": "The Commission is divided into departments known as Directorates-General (DG)"
+            },
+            {
+              "id": "2",
+              "text": "It proposes and implements legislation"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What institution of the European Union is directly elected by EU citizens once every five years?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "The European Parliament"
+            },
+            {
+              "id": "2",
+              "text": "The European Commission"
+            },
+            {
+              "id": "3",
+              "text": "The European Council"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The European Parliament"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this city, St. Patricks Day is celebrated in bars such as the Silver Dollar Saloon, the MM Cigar Store, The Irish Times Pub and the traditional parade is led by the Ancient Order of Hibernians.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Deluth, Iowa"
+            },
+            {
+              "id": "1",
+              "text": "Butte, Montana"
+            },
+            {
+              "id": "2",
+              "text": "Hanibal, Missouri"
+            },
+            {
+              "id": "3",
+              "text": "Philadelphia, PA"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Butte, Montana"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This country opted to stay out of the European Community during a referendum in 1972. On the next referendum, held in 1994, its people rejected the proposal to join the European Union.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sweden"
+            },
+            {
+              "id": "1",
+              "text": "Denmark"
+            },
+            {
+              "id": "2",
+              "text": "Norway"
+            },
+            {
+              "id": "3",
+              "text": "Switzerland"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Norway"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "More than 300,000 marchers participated in the 2006 St. Patricks Day Parade in New York City.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the past St. Patricks Day was celebrated only as a strictly religious holiday. When did it become a public holiday?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1915"
+            },
+            {
+              "id": "1",
+              "text": "1912"
+            },
+            {
+              "id": "2",
+              "text": "1903"
+            },
+            {
+              "id": "3",
+              "text": "1927"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1903"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "patricks",
+          "country",
+          "commission",
+          "world",
+          "players"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Las Vegas and Oklahoma",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, lodge, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Nike events took place before the 90s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Six NIKE athletes help win the Olympic gold medal in basketball."
+            },
+            {
+              "id": "1",
+              "text": "NIKE launches P.L.A.Y. - Participate in the Lives of Americas Youth - a call to action for everyone to help kids get and stay active."
+            },
+            {
+              "id": "2",
+              "text": "NIKE establishes Athletics West, a safe house for world-class athletes to train for Olympic competition."
+            },
+            {
+              "id": "3",
+              "text": "NIKEs Reuse-A-Shoe breaks ground by recycling old athletic shoes into material for resurfacing sports courts."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: NIKE establishes Athletics West, a safe house for world-class athletes to train for Olympic competition."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Y-3?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An Adidas accessories collection"
+            },
+            {
+              "id": "1",
+              "text": "The mechanism of a Nike watch"
+            },
+            {
+              "id": "2",
+              "text": "A new cushioning technology from Nike"
+            },
+            {
+              "id": "3",
+              "text": "A collaboration between Adidas and designer Yohji Yamamoto"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A collaboration between Adidas and designer Yohji Yamamoto"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Oklahoma means \u201cHome of the Red Man\u201d in which Native American language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cherokee"
+            },
+            {
+              "id": "1",
+              "text": "Osage"
+            },
+            {
+              "id": "2",
+              "text": "Apache"
+            },
+            {
+              "id": "3",
+              "text": "Choctaw"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Choctaw"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which casino-hotel in Las Vegas opened on April 28, 2005 and at the time of its completion was the largest privately-funded construction project in the U.S.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Excalibur"
+            },
+            {
+              "id": "1",
+              "text": "Mandalay Bay"
+            },
+            {
+              "id": "2",
+              "text": "Wynn Las Vegas"
+            },
+            {
+              "id": "3",
+              "text": "Bellagio"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wynn Las Vegas"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The area code for Las Vegas is 702. This was the code for all of Nevada until 1996. What is now the area code for the rest of the state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "707"
+            },
+            {
+              "id": "1",
+              "text": "777"
+            },
+            {
+              "id": "2",
+              "text": "775"
+            },
+            {
+              "id": "3",
+              "text": "703"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 775"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Las Vegas building, completed in 1996, offers two observation decks, a revolving restaurant, and  thrill rides?",
+          "options": [
+            {
+              "id": "0",
+              "text": "MGM Grand"
+            },
+            {
+              "id": "1",
+              "text": "Bellagio"
+            },
+            {
+              "id": "2",
+              "text": "Stratosphere"
+            },
+            {
+              "id": "3",
+              "text": "Vegas World"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Stratosphere"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Out in the Mojave desert, Las Vegas is far from any other metropolitan areas. Which is the closest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phoenix"
+            },
+            {
+              "id": "1",
+              "text": "Salt Lake City"
+            },
+            {
+              "id": "2",
+              "text": "San Diego"
+            },
+            {
+              "id": "3",
+              "text": "Los Angeles"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Los Angeles"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you travel southeast from Las Vegas, youre heading toward two tourist attractions. One is 35 miles away, the other is a couple hundred miles further. Name them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zion, Bryce Canyon"
+            },
+            {
+              "id": "1",
+              "text": "Mt. Charleston, Death Valley"
+            },
+            {
+              "id": "2",
+              "text": "Valley of Fire, Zion"
+            },
+            {
+              "id": "3",
+              "text": "Hoover Dam, Grand Canyon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hoover Dam, Grand Canyon"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city was the first state capital of Oklahoma?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tulsa"
+            },
+            {
+              "id": "1",
+              "text": "Oklahoma City"
+            },
+            {
+              "id": "2",
+              "text": "Lawton"
+            },
+            {
+              "id": "3",
+              "text": "Guthrie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Guthrie"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nike started the Just Do It? campaign in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1988"
+            },
+            {
+              "id": "1",
+              "text": "1992"
+            },
+            {
+              "id": "2",
+              "text": "1986"
+            },
+            {
+              "id": "3",
+              "text": "1990"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1988"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is the major interstate highway running through Las Vegas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "I-15"
+            },
+            {
+              "id": "1",
+              "text": "I-40"
+            },
+            {
+              "id": "2",
+              "text": "I-10"
+            },
+            {
+              "id": "3",
+              "text": "I-215"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: I-15"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Adidas acquired the Salomon Group with the brands Salomon, TaylorMade, Mavic and Bonfire in December 1997. What is the name of the new company?",
+          "options": [
+            {
+              "id": "0",
+              "text": "SalomonAdidas Sports"
+            },
+            {
+              "id": "1",
+              "text": "Adidas-Salomon AG."
+            },
+            {
+              "id": "2",
+              "text": "Galaxy"
+            },
+            {
+              "id": "3",
+              "text": "AdiSalo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Adidas-Salomon AG."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Only part of The Las Vegas Strip is located within Las Vegas.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Adidas was a company of two brothers. In 1948 one of them - Rudolf,  left it and created his own brand. Which is it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kenvelo"
+            },
+            {
+              "id": "1",
+              "text": "Puma"
+            },
+            {
+              "id": "2",
+              "text": "Umbro"
+            },
+            {
+              "id": "3",
+              "text": "Reebok"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Puma"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the mountain that boasts a skiing area, a lodge complete with cabins, hiking trails, and alpine terrain all within 50 miles of the center of the Las Vegas valley?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mt. Baldy"
+            },
+            {
+              "id": "1",
+              "text": "Sunrise Mountain"
+            },
+            {
+              "id": "2",
+              "text": "Telescope Peak"
+            },
+            {
+              "id": "3",
+              "text": "Mt. Charleston"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mt. Charleston"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "lodge",
+          "world",
+          "following",
+          "oklahoma",
+          "adidas"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "History Quiz: Year and Term",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, tears, committee. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What measures, related to Native American tribes, did the National Collegiate Athletic Association take in 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They founded a scholarship for Native American athletes."
+            },
+            {
+              "id": "1",
+              "text": "They banned the abusive Native American imagery and nicknames in athletics."
+            },
+            {
+              "id": "2",
+              "text": "They allowed Native American teams to take part in tournaments."
+            },
+            {
+              "id": "3",
+              "text": "They created the Native American Soccer League."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They banned the abusive Native American imagery and nicknames in athletics."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Oklahoma enter the union as the 46th state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1907"
+            },
+            {
+              "id": "1",
+              "text": "1892"
+            },
+            {
+              "id": "2",
+              "text": "1889"
+            },
+            {
+              "id": "3",
+              "text": "1917"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1907"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these names doesnt refer to the U.S. federal legislation that restored Native American self-government on a tribal basis in 1934?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Curtis Act"
+            },
+            {
+              "id": "1",
+              "text": "The Indian Reorganization Act"
+            },
+            {
+              "id": "2",
+              "text": "The Indian New Deal"
+            },
+            {
+              "id": "3",
+              "text": "The Wheeler-Howard Act"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Curtis Act"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Members of what Native American nation live on the Cheyenne River Indian Reservation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seminole"
+            },
+            {
+              "id": "1",
+              "text": "Apache"
+            },
+            {
+              "id": "2",
+              "text": "Lakota"
+            },
+            {
+              "id": "3",
+              "text": "Nez Perce"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lakota"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This incident took place on June 26, 1975 on the Pine Ridge reservation and was later depicted in Michael Apteds 1992 movie Incident at Oglala.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leonard Peltier and two FBI agents died of an unknown disease on the Pine Ridge reservation."
+            },
+            {
+              "id": "1",
+              "text": "The bodies of two FBI agents were found in Leonard Peltiers backyard."
+            },
+            {
+              "id": "2",
+              "text": "Two FBI agents were shot in a shootout and Leonard Peltier was convicted."
+            },
+            {
+              "id": "3",
+              "text": "Two FBI agents were found guilty for the murder of Leonard Peltier."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Two FBI agents were shot in a shootout and Leonard Peltier was convicted."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who invented the writing system of the Cherokee language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Black Kettle"
+            },
+            {
+              "id": "1",
+              "text": "Sitting Bull"
+            },
+            {
+              "id": "2",
+              "text": "Sequoyah"
+            },
+            {
+              "id": "3",
+              "text": "Wes Studi"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sequoyah"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did the Native Americans finally receive U.S. citizenship through The Indian Citizenship Act?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1991"
+            },
+            {
+              "id": "1",
+              "text": "1924"
+            },
+            {
+              "id": "2",
+              "text": "1955"
+            },
+            {
+              "id": "3",
+              "text": "1876"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1924"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The final version of the Declaration of Independence was adopted by the Continental Congress on July 4, 1776. In which state did this happen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Connecticut"
+            },
+            {
+              "id": "1",
+              "text": "Pennsylvania"
+            },
+            {
+              "id": "2",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "3",
+              "text": "Virginia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pennsylvania"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The term Trail of Tears refers to which of these?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The wagon trail that settlers followed across Indian and Oklahoma Territories during the 19th century."
+            },
+            {
+              "id": "1",
+              "text": "The route of the old cattle drives that crossed the Oklahoma panhandle between Texas and Dodge City, Kansas."
+            },
+            {
+              "id": "2",
+              "text": "The stretch of I-35 between Norman and the Cotton Bowl Stadium in Dallas when the University of Oklahoma football team plays the University of Texas."
+            },
+            {
+              "id": "3",
+              "text": "The forced relocation of the Choctaws in 1831 and the Cherokees in 1838 from the southeastern United States."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The forced relocation of the Choctaws in 1831 and the Cherokees in 1838 from the southeastern United States."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following was not taught to Native American children at Indian boarding schools during the 19th century and early 20th century?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Native American languages"
+            },
+            {
+              "id": "1",
+              "text": "English, writing"
+            },
+            {
+              "id": "2",
+              "text": "English, reading"
+            },
+            {
+              "id": "3",
+              "text": "Christianity"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Native American languages"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the original meaning of the term Sooner, which came into use in 1889 according to the Oklahoma Historical Society?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its the name of the first commercial oil well drilled in Oklahoma Territory in 1897."
+            },
+            {
+              "id": "1",
+              "text": "A person who tried to settle in the Unassigned Lands before they were opened for settlement."
+            },
+            {
+              "id": "2",
+              "text": "A person who settled legally in the Unassigned Lands."
+            },
+            {
+              "id": "3",
+              "text": "None of these."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A person who tried to settle in the Unassigned Lands before they were opened for settlement."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to a law, Native Americans were not allowed to enter Boston until which year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1995"
+            },
+            {
+              "id": "1",
+              "text": "1945"
+            },
+            {
+              "id": "2",
+              "text": "2005"
+            },
+            {
+              "id": "3",
+              "text": "1885"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2005"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these is not a group belonging to the Apache nation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chiricahua"
+            },
+            {
+              "id": "1",
+              "text": "Assiniboine"
+            },
+            {
+              "id": "2",
+              "text": "Mescalero"
+            },
+            {
+              "id": "3",
+              "text": "Jicarilla"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Assiniboine"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The forced relocation of the Cherokee and the Choctaw to the western states, resulting in the death of 4,000 Native Americans, is known by what name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Ghost Trail"
+            },
+            {
+              "id": "1",
+              "text": "The Battle of Little Bighorn"
+            },
+            {
+              "id": "2",
+              "text": "Wounded Knee"
+            },
+            {
+              "id": "3",
+              "text": "The Trail of Tears"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Trail of Tears"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although the whole Committee of Five participated in the drafting of the US Declaration of Independence, this man was the principal author of the Declaration.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert R. Livingston"
+            },
+            {
+              "id": "1",
+              "text": "Roger Sherman"
+            },
+            {
+              "id": "2",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Jefferson"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "tears",
+          "committee",
+          "choctaw",
+          "june",
+          "independence"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Delegates and Independence",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, independence, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Games of what popular US sport are usually part of the July 4th celebrations?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Car Racing"
+            },
+            {
+              "id": "1",
+              "text": "Baseball"
+            },
+            {
+              "id": "2",
+              "text": "Basketball"
+            },
+            {
+              "id": "3",
+              "text": "Basketball"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Baseball"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1948 musical film, Easter Parade, Fred Astaire co-stars with which famous actress?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Judy Garland"
+            },
+            {
+              "id": "1",
+              "text": "Ginger Rogers"
+            },
+            {
+              "id": "2",
+              "text": "Mary Pickford"
+            },
+            {
+              "id": "3",
+              "text": "Adele Astaire"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Judy Garland"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pepsi 400 is the name of what major annual sports event held on July 4th, or the Saturday of the July 4th weekend?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Motorbike racing"
+            },
+            {
+              "id": "1",
+              "text": "Baseball games"
+            },
+            {
+              "id": "2",
+              "text": "A series of extreme sports events"
+            },
+            {
+              "id": "3",
+              "text": "Car racing"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Car racing"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Syng inkstand used to sign the United States Declaration of Independence, was also used in the signing of what other important US document?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Declaration of Arms"
+            },
+            {
+              "id": "1",
+              "text": "The United States Constitution"
+            },
+            {
+              "id": "2",
+              "text": "The First Thanksgiving Proclamation"
+            },
+            {
+              "id": "3",
+              "text": "The Virginia Declaration of Rights"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The United States Constitution"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Each year the celebrations of Independence Day in Coney Island, Brooklyn, New York City include this unusual contest.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ice Cream Eating Contest"
+            },
+            {
+              "id": "1",
+              "text": "Hot Dog Eating Contest"
+            },
+            {
+              "id": "2",
+              "text": "Hamburger Eating Contest"
+            },
+            {
+              "id": "3",
+              "text": "Pancake Eating Contest"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hot Dog Eating Contest"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Easter is one of the most important religious holidays of the Christian liturgical year.  What does Easter celebrate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The revelation of God to humankind"
+            },
+            {
+              "id": "1",
+              "text": "The rebirth of Spring"
+            },
+            {
+              "id": "2",
+              "text": "The birth of Jesus"
+            },
+            {
+              "id": "3",
+              "text": "The resurrection of Jesus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The resurrection of Jesus"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete these lyrics from the popular Easter song, Here Comes Peter Cottontail:",
+          "options": [
+            {
+              "id": "0",
+              "text": "lored eggs for sister Sue,"
+            },
+            {
+              "id": "1",
+              "text": "d ........................................."
+            },
+            {
+              "id": "2",
+              "text": "chocolate bunny too"
+            },
+            {
+              "id": "3",
+              "text": "an Easter basket too"
+            },
+            {
+              "id": "4",
+              "text": "an Easter bonnet too"
+            },
+            {
+              "id": "5",
+              "text": "an Easter egg or two"
+            }
+          ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The correct answer is: an Easter bonnet too"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Liberty Bell, located in Philadelphia, Pennsylvania, is an item of great historic significance for all Americans. On July 8, 1776 the bell was tolled for several hours, for what reason?",
+          "options": [
+            {
+              "id": "0",
+              "text": "To summon the locals to hear the reading of the Declaration of Independence"
+            },
+            {
+              "id": "1",
+              "text": "To celebrate the independence"
+            },
+            {
+              "id": "2",
+              "text": "To summon the locals for the first celebration of Independence Day"
+            },
+            {
+              "id": "3",
+              "text": "To celebrate the signing of the Lee Resolution"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: To summon the locals to hear the reading of the Declaration of Independence"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The US Declaration of Independence and a fictional treasure map on its back are the subject of what popular 2004 film?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Master and Commander: The Far Side of the World"
+            },
+            {
+              "id": "1",
+              "text": "National Treasure"
+            },
+            {
+              "id": "2",
+              "text": "Chasing Liberty"
+            },
+            {
+              "id": "3",
+              "text": "Walking Tall"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: National Treasure"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these American cities got the nickname Americas Most Patriotic Town as a result of having the oldest Independence Day celebrations?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bristol, Rhode Island"
+            },
+            {
+              "id": "1",
+              "text": "Atlanta, Georgia"
+            },
+            {
+              "id": "2",
+              "text": "Gainesville, Georgia"
+            },
+            {
+              "id": "3",
+              "text": "Baltimore, Maryland"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bristol, Rhode Island"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which popular flower, native to Japan, is a symbol of the Easter holiday?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rose"
+            },
+            {
+              "id": "1",
+              "text": "Daisy"
+            },
+            {
+              "id": "2",
+              "text": "Lily"
+            },
+            {
+              "id": "3",
+              "text": "Orchid"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lily"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Almost half of the 56 delegates who signed the US Declaration of Independence were representatives of what profession?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Teachers and scholars"
+            },
+            {
+              "id": "1",
+              "text": "Farmers and plantation owners"
+            },
+            {
+              "id": "2",
+              "text": "Merchants and traders"
+            },
+            {
+              "id": "3",
+              "text": "Lawyers and jurists"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lawyers and jurists"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term refers to an Easter egg, decorated by the written-wax batik method?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pagora"
+            },
+            {
+              "id": "1",
+              "text": "Pylenta"
+            },
+            {
+              "id": "2",
+              "text": "Pelinka"
+            },
+            {
+              "id": "3",
+              "text": "Pysanka"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pysanka"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fifteen days after the signing of the Declaration, the Congress ordered a copy to be engrossed for the delegates of the colonies to sign. Who was the first person to sign this copy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "1",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "2",
+              "text": "John Hancock"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Hancock"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Declaration of Independence was signed by a total of 56 delegates, representing how many colonies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7"
+            },
+            {
+              "id": "1",
+              "text": "13"
+            },
+            {
+              "id": "2",
+              "text": "49"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 13"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "independence",
+          "world",
+          "treasure",
+          "celebrations",
+          "part"
+        ]
+      }
+    }
+  ]
+}

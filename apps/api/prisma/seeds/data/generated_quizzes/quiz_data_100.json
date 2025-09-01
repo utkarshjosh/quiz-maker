@@ -1,0 +1,2340 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Literature Quiz: Harry Potter and Series",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, potions, weasley. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Was Grindelwald defeated by Dumbledore in the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Luna Lovegoods father in the Harry Potter books?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Xewartqwe"
+            },
+            {
+              "id": "1",
+              "text": "Piilotorpho"
+            },
+            {
+              "id": "2",
+              "text": "Xenophilius"
+            },
+            {
+              "id": "3",
+              "text": "Lenopillius"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Xenophilius"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Emma Watson plays Hermione Granger in the Harry Potter film series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Harry Potter have a tattoo on his chest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Disney movie, The Beauty and the Beast, all of the residents of the Beasts castle were mystical creatures.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are Voldemorts followers called in the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Death Munchers"
+            },
+            {
+              "id": "1",
+              "text": "Death Eaters"
+            },
+            {
+              "id": "2",
+              "text": "Death Masters"
+            },
+            {
+              "id": "3",
+              "text": "Death Bugs"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Death Eaters"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Voldemort have a rat named Nagini?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Harry Potter characters is not a member of the D.A.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luna"
+            },
+            {
+              "id": "1",
+              "text": "Cho"
+            },
+            {
+              "id": "2",
+              "text": "Malfoy"
+            },
+            {
+              "id": "3",
+              "text": "Anthony"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Malfoy"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Harry Potter series, Rons uncle Billius saw a grim and died 25 hours later.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Harry Potter marries Hermione.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hermiones cats name is Crookshanks.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Professor Snape is the Potions Master in Harry Potter and the Half-Blood Prince.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ginny died in Harry Potter and the Chamber of Secrets.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who owned Scabbers before Ron Weasley?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Percy"
+            },
+            {
+              "id": "1",
+              "text": "Charlie"
+            },
+            {
+              "id": "2",
+              "text": "Bill"
+            },
+            {
+              "id": "3",
+              "text": "unknown by exact text"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Percy"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a name for Voldemort, the chief antagonist of the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dark Master"
+            },
+            {
+              "id": "1",
+              "text": "Dark Lord"
+            },
+            {
+              "id": "2",
+              "text": "You-Know-Who"
+            },
+            {
+              "id": "3",
+              "text": "He-Who-Must-Not-Be-Named"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dark Master"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "potions",
+          "weasley",
+          "professor",
+          "cats",
+          "following"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Literature Quiz: Potion and Harry Potter",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, actor, j.k.. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What potion is used to help treat colds in the Harry Potter books?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Calming Draught"
+            },
+            {
+              "id": "1",
+              "text": "Shrinking Solution"
+            },
+            {
+              "id": "2",
+              "text": "Pepperup Potion"
+            },
+            {
+              "id": "3",
+              "text": "Hiccoughing Solution"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pepperup Potion"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This potion from the Harry Potter books induces a deep dreamless sleep in the drinker.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sleeping Draught"
+            },
+            {
+              "id": "1",
+              "text": "Draught of Peace"
+            },
+            {
+              "id": "2",
+              "text": "Forgetfulness Potion"
+            },
+            {
+              "id": "3",
+              "text": "Calming Draught"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sleeping Draught"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the first actor who played Professor Dumbledore in the Harry Potter film series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Martin"
+            },
+            {
+              "id": "1",
+              "text": "Robbie Coltrane"
+            },
+            {
+              "id": "2",
+              "text": "Richard Harris"
+            },
+            {
+              "id": "3",
+              "text": "Richard Griffiths"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Harris"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Harry Potter books, this potion causes the drinker to become infatuated or obsessed with the one who gave it to them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wit-Sharpening Potion"
+            },
+            {
+              "id": "1",
+              "text": "Elixir to Induce Euphoria"
+            },
+            {
+              "id": "2",
+              "text": "Love Potion"
+            },
+            {
+              "id": "3",
+              "text": "Pepperup Potion"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Love Potion"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This potion, mentioned in the Harry Potter books, allows the drinker to assume the appearance of another person.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Befuddlement Draught"
+            },
+            {
+              "id": "1",
+              "text": "Swelling Solution"
+            },
+            {
+              "id": "2",
+              "text": "Skele-Gro"
+            },
+            {
+              "id": "3",
+              "text": "Polyjuice Potion"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Polyjuice Potion"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What potion in the Harry Potter series helps stop bleeding and heal wounds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Essence of Dittany"
+            },
+            {
+              "id": "1",
+              "text": "Mandrake Restorative Draught"
+            },
+            {
+              "id": "2",
+              "text": "Skele-Gro"
+            },
+            {
+              "id": "3",
+              "text": "Amortentia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Essence of Dittany"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actor is not correctly paired with the character they played in the Harry Potter films?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emma Thompson - Sybill Trelawney"
+            },
+            {
+              "id": "1",
+              "text": "Helena Bonham Carter - Bellatrix Lestrange"
+            },
+            {
+              "id": "2",
+              "text": "Alan Rickman - Severus Snape"
+            },
+            {
+              "id": "3",
+              "text": "Jason Isaacs - Lord Voldemort"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jason Isaacs - Lord Voldemort"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This potion is described by J.K. Rowling as so powerful that three drops would have you spilling your innermost secrets for the entire class to hear.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Memory Potion"
+            },
+            {
+              "id": "1",
+              "text": "Veritaserum"
+            },
+            {
+              "id": "2",
+              "text": "Babbling Beverage"
+            },
+            {
+              "id": "3",
+              "text": "Polyjuice Potion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Veritaserum"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What potion relieves the symptoms of lycanthropy in the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Essence of Murtlap"
+            },
+            {
+              "id": "1",
+              "text": "Wolfsbane Potion"
+            },
+            {
+              "id": "2",
+              "text": "Beautification Potion"
+            },
+            {
+              "id": "3",
+              "text": "Elixir of Life"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wolfsbane Potion"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which potion in the Harry Potter series increases the luck of the drinker?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Everlasting Elixirs"
+            },
+            {
+              "id": "1",
+              "text": "Emerald Green Potion"
+            },
+            {
+              "id": "2",
+              "text": "Confusing Concoction"
+            },
+            {
+              "id": "3",
+              "text": "Felix Felicis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Felix Felicis"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What English actor portrays Harry Potters best friend, Ron Weasley?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rupert Grint"
+            },
+            {
+              "id": "1",
+              "text": "Rupert Grant"
+            },
+            {
+              "id": "2",
+              "text": "Hugh Mitchell"
+            },
+            {
+              "id": "3",
+              "text": "Richard Harris"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rupert Grint"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which potion, introduced in Harry Potter and the Philosophers Stone, lengthens the lifespan of the drinker as long as they keep drinking it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Strengthening Solution"
+            },
+            {
+              "id": "1",
+              "text": "Mandrake Restorative Draft"
+            },
+            {
+              "id": "2",
+              "text": "Draught of Living Death"
+            },
+            {
+              "id": "3",
+              "text": "Elixir of Life"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Elixir of Life"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Gryffindor House ghost does John Cleese play in the Harry Potter film series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Fat Friar"
+            },
+            {
+              "id": "1",
+              "text": "Nearly Headless Nick"
+            },
+            {
+              "id": "2",
+              "text": "Peeves The Poltergeist"
+            },
+            {
+              "id": "3",
+              "text": "The Bloody Baron"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nearly Headless Nick"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who portrays Draco Malfoy, one of the antagonists in the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom Felton"
+            },
+            {
+              "id": "1",
+              "text": "Alan Rickman"
+            },
+            {
+              "id": "2",
+              "text": "Matthew Lewis"
+            },
+            {
+              "id": "3",
+              "text": "David Bradley"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tom Felton"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What member of the Order of the Phoenix is portrayed by actor Robbie Coltrane?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aberforth Dumbledore"
+            },
+            {
+              "id": "1",
+              "text": "Rubeus Hagrid"
+            },
+            {
+              "id": "2",
+              "text": "Bill Weasley"
+            },
+            {
+              "id": "3",
+              "text": "Sirius Black"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rubeus Hagrid"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "actor",
+          "j.k.",
+          "gryffindor",
+          "books",
+          "professor"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Literature Quiz: Harry Potter and Task",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, maze, gables. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Death Eater bit Lupin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fenrir Greyback"
+            },
+            {
+              "id": "1",
+              "text": "Dolohov"
+            },
+            {
+              "id": "2",
+              "text": "Rookwood"
+            },
+            {
+              "id": "3",
+              "text": "Yaxley"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fenrir Greyback"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fictional character Severus Snape was a Death Eater when he died.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was the novel Anne of Green Gables published?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1919"
+            },
+            {
+              "id": "1",
+              "text": "1908"
+            },
+            {
+              "id": "2",
+              "text": "1925"
+            },
+            {
+              "id": "3",
+              "text": "1955"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1908"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Death Eater killed Fred Weasley in Harry Potter and the Deathly Hallows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yaxley"
+            },
+            {
+              "id": "1",
+              "text": "Bellatrix"
+            },
+            {
+              "id": "2",
+              "text": "unknown by exact text"
+            },
+            {
+              "id": "3",
+              "text": "Rookwood"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: unknown by exact text"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Harry Potter wins 10,000 galleons for winning the Triwizard Tournament.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the fourth champion of the fictional Triwizard Tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Viktor Krum"
+            },
+            {
+              "id": "1",
+              "text": "Fleur Delacour"
+            },
+            {
+              "id": "2",
+              "text": "Harry Potter"
+            },
+            {
+              "id": "3",
+              "text": "Cedric Diggory"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Harry Potter"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the chapter in Harry Potter and the Goblet of Fire in which Cedric Diggory dies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Death Eaters"
+            },
+            {
+              "id": "1",
+              "text": "Prior Incantatem"
+            },
+            {
+              "id": "2",
+              "text": "The Third Task"
+            },
+            {
+              "id": "3",
+              "text": "Flesh, Blood, and Bone"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Flesh, Blood, and Bone"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does Harry Potter fight a dementor in the maze in the third task of the Triwizard Tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the dragon Viktor Krum has to fight for the first task of the Triwizard Tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Swedish Shortsnout"
+            },
+            {
+              "id": "1",
+              "text": "Chinese Fireball"
+            },
+            {
+              "id": "2",
+              "text": "Welsh Green"
+            },
+            {
+              "id": "3",
+              "text": "Hungarian Horntail"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chinese Fireball"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the answer to the riddle the sphinx gives to Harry Potter in the maze for the third task of of the Triwizard Tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "spider"
+            },
+            {
+              "id": "1",
+              "text": "spyglass"
+            },
+            {
+              "id": "2",
+              "text": "spyer"
+            },
+            {
+              "id": "3",
+              "text": "spurr"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: spider"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Harry Potter do to be able to breathe underwater for the second task of the Triwizard Tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "eats gillyweed"
+            },
+            {
+              "id": "1",
+              "text": "uses breathing equipment"
+            },
+            {
+              "id": "2",
+              "text": "uses bubblehead charm"
+            },
+            {
+              "id": "3",
+              "text": "transforms into a shark"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: eats gillyweed"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What potion from the Harry Potter books causes the drinker to become older?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aging Potion"
+            },
+            {
+              "id": "1",
+              "text": "Confusing Concoction"
+            },
+            {
+              "id": "2",
+              "text": "Swelling Solution"
+            },
+            {
+              "id": "3",
+              "text": "Befuddlement Draught"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Aging Potion"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is Harry Potter when he finds out what the second task of the Triwizard Tournament is about?",
+          "options": [
+            {
+              "id": "0",
+              "text": "prefects bathroom"
+            },
+            {
+              "id": "1",
+              "text": "girls bathroom"
+            },
+            {
+              "id": "2",
+              "text": "teachers bathroom"
+            },
+            {
+              "id": "3",
+              "text": "boys bathroom"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: prefects bathroom"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the location of the orphanage from which Anne was adopted in the book Anne of Green Gables?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New Brunswick"
+            },
+            {
+              "id": "1",
+              "text": "Maine"
+            },
+            {
+              "id": "2",
+              "text": "Nova Scotia"
+            },
+            {
+              "id": "3",
+              "text": "Newfoundland"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nova Scotia"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fictional character Augustus Rookwood worked in the Department of Mysteries.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "maze",
+          "gables",
+          "weasley",
+          "death",
+          "rookwood"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Anne and Book",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, marilla, diana. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Diana Barry is Annes best friend in the book Anne of Green Gables. How did Anne describe their friendship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two peas in a pod"
+            },
+            {
+              "id": "1",
+              "text": "Bosom friends"
+            },
+            {
+              "id": "2",
+              "text": "Truer than blue"
+            },
+            {
+              "id": "3",
+              "text": "Friends til the end"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bosom friends"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Early in the story of Anne of Green Gables, Marilla proudly presents Anne with three new dresses which she has made to replace the shabby, orphanage issued clothes but is very annoyed when it becomes obvious that Anne doesnt like them. Why doesnt Anne like them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They dont have flounces."
+            },
+            {
+              "id": "1",
+              "text": "They dont have petticoats."
+            },
+            {
+              "id": "2",
+              "text": "They dont have puffed sleeves."
+            },
+            {
+              "id": "3",
+              "text": "They dont have any lace trimming."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They dont have puffed sleeves."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what Canadian province do Marilla and Matthew Cuthbert live in the book Anne of Green Gables?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Prince Edward Island"
+            },
+            {
+              "id": "2",
+              "text": "New Brunswick"
+            },
+            {
+              "id": "3",
+              "text": "Nova Scotia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Prince Edward Island"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the book Anne of Green Gables Anne gets herself into many predicaments.  Which of the following is NOT one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She mistook a bottle of currant wine for the raspberry cordial she was supposed to serve for tea and got drunk."
+            },
+            {
+              "id": "1",
+              "text": "She forgot to replace the cheesecloth cover on the pudding sauce and a mouse drowned in it."
+            },
+            {
+              "id": "2",
+              "text": "She bought hair dye from a peddler and instead of the desired black, it turned her hair green."
+            },
+            {
+              "id": "3",
+              "text": "She broke her slate over a schoolmates head when he teasingly called her carrots."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: She mistook a bottle of currant wine for the raspberry cordial she was supposed to serve for tea and got drunk."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these numbers does not fit in the sequence: 2 4 6 7 9 12 11?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "12"
+            },
+            {
+              "id": "3",
+              "text": "6"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 12"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is Annes surname in the book Anne of Green Gables?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pye"
+            },
+            {
+              "id": "1",
+              "text": "Blythe"
+            },
+            {
+              "id": "2",
+              "text": "Shirley"
+            },
+            {
+              "id": "3",
+              "text": "Cuthbert"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Shirley"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the theater in which Anne of Green Gables - The Musical plays every summer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Green Gables Theater of the Arts"
+            },
+            {
+              "id": "1",
+              "text": "The Cradle of Confederation Theater"
+            },
+            {
+              "id": "2",
+              "text": "The Centennial Theater of the Arts"
+            },
+            {
+              "id": "3",
+              "text": "The Confederation Center of the Arts"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Confederation Center of the Arts"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the end of the novel Anne of Green Gables, Matthew Cuthbert dies from complications related to pneumonia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the fictional town in which the story of Anne of Green Gables unfolds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carmody"
+            },
+            {
+              "id": "1",
+              "text": "Cavendish"
+            },
+            {
+              "id": "2",
+              "text": "Avonlea"
+            },
+            {
+              "id": "3",
+              "text": "White Sands"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Avonlea"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many books are there in the L. M. Montgomery Anne series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 8"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sam had $3.00, Bob had $9.50, Joe had $5.25, and Jim had $7.25. How much is all of their money together worth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "$2.50"
+            },
+            {
+              "id": "1",
+              "text": "$250.00"
+            },
+            {
+              "id": "2",
+              "text": "$25.00"
+            },
+            {
+              "id": "3",
+              "text": "$25.50"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: $25.00"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What adjective best describes the character of Mrs. Rachel Lynde from the book Anne of Green Gables?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Bossy"
+            },
+            {
+              "id": "2",
+              "text": "Prying"
+            },
+            {
+              "id": "3",
+              "text": "Opinionated"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was Anne of Green Gables - The Musical performed for the first time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1960"
+            },
+            {
+              "id": "1",
+              "text": "1964"
+            },
+            {
+              "id": "2",
+              "text": "1970"
+            },
+            {
+              "id": "3",
+              "text": "1972"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1964"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the relationship between Matthew and Marilla, the couple who adopted Anne in Lucy Montgomerys book?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Father and Daughter"
+            },
+            {
+              "id": "1",
+              "text": "Husband and Wife"
+            },
+            {
+              "id": "2",
+              "text": "Brother and Sister"
+            },
+            {
+              "id": "3",
+              "text": "They were cousins"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Brother and Sister"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Emmy Award-winning actress played Marilla in the 1985 television production of Anne of Green Gables, written and directed by Kevin Sullivan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colleen Dewhurst"
+            },
+            {
+              "id": "1",
+              "text": "Ellen Burstyn"
+            },
+            {
+              "id": "2",
+              "text": "Patricia Hamilton"
+            },
+            {
+              "id": "3",
+              "text": "Rosemary Radcliff"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Colleen Dewhurst"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "marilla",
+          "diana",
+          "gables",
+          "books",
+          "following"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Literature Quiz: Horcrux and Harry Potter",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, hermione, cats. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How old was Charlotte, the protagonist of The True Confessions of Charlotte Doyle, when she took the trip from England to her home on Rhode Island?",
+          "options": [
+            {
+              "id": "0",
+              "text": "13"
+            },
+            {
+              "id": "1",
+              "text": "55"
+            },
+            {
+              "id": "2",
+              "text": "22"
+            },
+            {
+              "id": "3",
+              "text": "7"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 13"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Horcruxes did Tom Riddle make?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Harry Potter series of books, any object can be a Horcrux.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Do all of these numbers fit the sequence: 1, 2, 3, 5, 7, 9?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nagini, one of Voldemorts Horcruxes, is a snake.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If one of Voldemorts Horcruxes is destroyed, will he know?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A person owned 8 dogs and as many cats. What is the total amount of pets owned by that somebody?",
+          "options": [
+            {
+              "id": "0",
+              "text": "16"
+            },
+            {
+              "id": "1",
+              "text": "32"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 16"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the Horcruxes in the Harry Potter books is Ravenclaws cup.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Harry Potter destroy Tom Riddles diary in the second book because he knew it was a Horcrux?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the first Horcrux found in Harry Potter and the Deathly Hallows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hufflepuffs cup"
+            },
+            {
+              "id": "1",
+              "text": "The locket"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Nagini"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The locket"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following numbers doesnt belong to the others: 3, 9, 15, 20?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "15"
+            },
+            {
+              "id": "3",
+              "text": "20"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 20"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much is 765 divided by 10?",
+          "options": [
+            {
+              "id": "0",
+              "text": "74.5"
+            },
+            {
+              "id": "1",
+              "text": "76.5"
+            },
+            {
+              "id": "2",
+              "text": "76"
+            },
+            {
+              "id": "3",
+              "text": "75"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 76.5"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do you get when you divide 123 by 10?",
+          "options": [
+            {
+              "id": "0",
+              "text": "32.1"
+            },
+            {
+              "id": "1",
+              "text": "3.21"
+            },
+            {
+              "id": "2",
+              "text": "1.23"
+            },
+            {
+              "id": "3",
+              "text": "12.3"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 12.3"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Ron and Hermione use to destroy Hufflepuffs cup?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gryffindors sword"
+            },
+            {
+              "id": "1",
+              "text": "Their Wands"
+            },
+            {
+              "id": "2",
+              "text": "Nothing, Harry destroyed it."
+            },
+            {
+              "id": "3",
+              "text": "Basilisk Fangs"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Basilisk Fangs"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are three digits in this number. The first digit (of the hundreds) is 8. Divide it by two, that is your second digit, divide the result again by two, that is your third digit. What is the number?",
+          "options": [
+            {
+              "id": "0",
+              "text": "284"
+            },
+            {
+              "id": "1",
+              "text": "824"
+            },
+            {
+              "id": "2",
+              "text": "428"
+            },
+            {
+              "id": "3",
+              "text": "842"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 842"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "hermione",
+          "cats",
+          "voldemorts",
+          "potter",
+          "sequence"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Nature Quiz: Book and True Confessions",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, ship, hans. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Captain in the book The True Confessions of Charlotte Doyle dies.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Zachariah, a character from the book The True Confessions of Charlotte Doyle, is brutally beaten to death by the Captain and Mr. Hollybrass.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Charlotte was the only female on the ship in the book The True Confessions of Charlotte Doyle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens to the pea after the prince marries the princess in the fairy tale The Princess and the Pea?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They put it in the Royal Museum"
+            },
+            {
+              "id": "1",
+              "text": "They split it and eat it"
+            },
+            {
+              "id": "2",
+              "text": "An anger takes it to Heaven"
+            },
+            {
+              "id": "3",
+              "text": "A dove eats it"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They put it in the Royal Museum"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the book The True Confessions of Charlotte Doyle, the crew wanted to get revenge on the Captain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who does the Captain blame for the murder of Mr. Hollybrass in the book The True Confessions of Charlotte Doyle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charlotte"
+            },
+            {
+              "id": "1",
+              "text": "The ships ghost"
+            },
+            {
+              "id": "2",
+              "text": "Himself"
+            },
+            {
+              "id": "3",
+              "text": "Zachariah"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Charlotte"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the word that Kai has to spell using pieces of ice in order to regain his freedom in Andersens fairy tale The Snow Queen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Forgiveness"
+            },
+            {
+              "id": "1",
+              "text": "Eternity"
+            },
+            {
+              "id": "2",
+              "text": "Love"
+            },
+            {
+              "id": "3",
+              "text": "Purity"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eternity"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What new name is Thumbelina given at the end of the fairy tale Thumbelina?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bella"
+            },
+            {
+              "id": "1",
+              "text": "Rosalind"
+            },
+            {
+              "id": "2",
+              "text": "Maya"
+            },
+            {
+              "id": "3",
+              "text": "Lily"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Maya"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of a falling star according to the late grandmother in Andersens The Little Match Girl?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Someone is dying"
+            },
+            {
+              "id": "1",
+              "text": "God is crying"
+            },
+            {
+              "id": "2",
+              "text": "Someone is born"
+            },
+            {
+              "id": "3",
+              "text": "An angel is coming to earth from Heaven"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Someone is dying"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Elisa forbidden to do until she finishes knitting the eleven nettle shirts in Hans Christian Andersens fairy tale The Wild Swans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Smile"
+            },
+            {
+              "id": "1",
+              "text": "Cut her hair"
+            },
+            {
+              "id": "2",
+              "text": "Go out in the sunlight"
+            },
+            {
+              "id": "3",
+              "text": "Speak"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Speak"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the Sea Witch want from the Little Mermaid in exchange for the magic potion in Andersens fairy tale The Little Mermaid?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Her soul"
+            },
+            {
+              "id": "1",
+              "text": "Her heart"
+            },
+            {
+              "id": "2",
+              "text": "Her tongue/voice"
+            },
+            {
+              "id": "3",
+              "text": "Her necklace"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Her tongue/voice"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the book The True Confessions of Charlotte Doyle, what is the penalty for murder of a ships First Mate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "hanging"
+            },
+            {
+              "id": "1",
+              "text": "a week in the brig"
+            },
+            {
+              "id": "2",
+              "text": "getting your hands cut off"
+            },
+            {
+              "id": "3",
+              "text": "getting locked in a room with the ships ghost"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: hanging"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the ship that Charlotte boarded in the book The True Confessions of Charlotte Doyle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Seahawk"
+            },
+            {
+              "id": "1",
+              "text": "The Seacraft"
+            },
+            {
+              "id": "2",
+              "text": "The Doyle Express"
+            },
+            {
+              "id": "3",
+              "text": "The Charlotte Doyle"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Seahawk"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What animals mock the little duck in Hans Christian Andersens fairy tale The Ugly Duckling?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cat and dog"
+            },
+            {
+              "id": "1",
+              "text": "Cat and hen"
+            },
+            {
+              "id": "2",
+              "text": "Hen and dog"
+            },
+            {
+              "id": "3",
+              "text": "Geese"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cat and hen"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The True Confessions of Charlotte Doyle, the men from the crew plan to kill Charlotte because she supported the Captain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "ship",
+          "hans",
+          "kai",
+          "female",
+          "princess"
+        ]
+      }
+    }
+  ]
+}

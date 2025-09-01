@@ -1,0 +1,2404 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Einstein and Year",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, protein, muscles. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During WWII, Einstein was paid $25 per day for his consultation on the Manhattan Project.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sore muscles should be excercised...",
+          "options": [
+            {
+              "id": "0",
+              "text": "Never as it might damage the muscle"
+            },
+            {
+              "id": "1",
+              "text": "It depends which muscle it is"
+            },
+            {
+              "id": "2",
+              "text": "Always as it helps heal the soreness"
+            },
+            {
+              "id": "3",
+              "text": "Only youre not sore to the touch"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Only youre not sore to the touch"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Einstein pass away?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1960"
+            },
+            {
+              "id": "1",
+              "text": "1955"
+            },
+            {
+              "id": "2",
+              "text": "1954"
+            },
+            {
+              "id": "3",
+              "text": "1956"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1955"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What important thing did Einstein do on August 2nd, 1939?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He proved the Theory of Special Relativity"
+            },
+            {
+              "id": "1",
+              "text": "He found the speed of light"
+            },
+            {
+              "id": "2",
+              "text": "He wrote a letter"
+            },
+            {
+              "id": "3",
+              "text": "He proved  E=mc^2"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He wrote a letter"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which US city did Einstein live out his last years?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cambridge, Massachusetts"
+            },
+            {
+              "id": "1",
+              "text": "New Haven, Connecticut"
+            },
+            {
+              "id": "2",
+              "text": "Boca Raton, Florida"
+            },
+            {
+              "id": "3",
+              "text": "Princeton, New Jersey"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Princeton, New Jersey"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you eat more protein, youll build more muscle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "No Way"
+            },
+            {
+              "id": "2",
+              "text": "Somewhat True"
+            },
+            {
+              "id": "3",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Somewhat True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lifting incredibly slowly builds incredibly big muscles. Lifting super slowly produces superlong workouts.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Leg extensions are safer for your knees than squats.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During this year, Einstein had three incredible papers published in the physics journals, and obtained his doctoral degree.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1905"
+            },
+            {
+              "id": "1",
+              "text": "1912"
+            },
+            {
+              "id": "2",
+              "text": "1907"
+            },
+            {
+              "id": "3",
+              "text": "1929"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1905"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On Friday evenings it was the custom of Jewish families to invite college students over for a home cooked meal. One of the students the Einsteins often ate with introduced Albert to science.  What was his name ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Max Born"
+            },
+            {
+              "id": "1",
+              "text": "Max Malamud"
+            },
+            {
+              "id": "2",
+              "text": "Max Silberstein"
+            },
+            {
+              "id": "3",
+              "text": "Max Talmud"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Max Talmud"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The fact that stretching prevents injuries is a myth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1948 Albert Einstein was offered this new job.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Head of the Institute for Advanced Study"
+            },
+            {
+              "id": "1",
+              "text": "President of Israel"
+            },
+            {
+              "id": "2",
+              "text": "Head Dean of  Princeton University"
+            },
+            {
+              "id": "3",
+              "text": "Chief of the Atomic Energy Commission"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: President of Israel"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which type of car did Einstein own while in the USA ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buick"
+            },
+            {
+              "id": "1",
+              "text": "Packard"
+            },
+            {
+              "id": "2",
+              "text": "Ford"
+            },
+            {
+              "id": "3",
+              "text": "None"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: None"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which year was Albert Einstein born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1869"
+            },
+            {
+              "id": "1",
+              "text": "1899"
+            },
+            {
+              "id": "2",
+              "text": "1889"
+            },
+            {
+              "id": "3",
+              "text": "1879"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1879"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You need a Swiss ball to build a stronger chest and shoulders.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "protein",
+          "muscles",
+          "injuries",
+          "knees",
+          "pass"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Unit and Salt",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, people, electromagnetism. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Health specialists still argue about the maximum daily salt intake. But it is for sure that if you overdose on salt, it may affect your health negatively. What is likely to happen if you add too much salt in your diet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "It can cause neurological problems"
+            },
+            {
+              "id": "2",
+              "text": "It may bring you high blood pressure"
+            },
+            {
+              "id": "3",
+              "text": "It can lead to electrolyte disturbance"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these meals would be most suitable for a low carb diet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An apple with cottage cheese"
+            },
+            {
+              "id": "1",
+              "text": "Soya sauce"
+            },
+            {
+              "id": "2",
+              "text": "A ham sandwich"
+            },
+            {
+              "id": "3",
+              "text": "Meat and potatoes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: An apple with cottage cheese"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following foods is poorest in carbohydrates?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cheese"
+            },
+            {
+              "id": "1",
+              "text": "Potatoes"
+            },
+            {
+              "id": "2",
+              "text": "Pork"
+            },
+            {
+              "id": "3",
+              "text": "Milk"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pork"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term refers to the efficiency of an electric machine, measured in watt hours or kilowatt hours?",
+          "options": [
+            {
+              "id": "0",
+              "text": "OHM"
+            },
+            {
+              "id": "1",
+              "text": "Frequency Efficiency"
+            },
+            {
+              "id": "2",
+              "text": "Farad"
+            },
+            {
+              "id": "3",
+              "text": "Energy Efficiency"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Energy Efficiency"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the building block of green plants that cant be broken down into sugar molecules and passes through the human body undigested?",
+          "options": [
+            {
+              "id": "0",
+              "text": "dietary fiber"
+            },
+            {
+              "id": "1",
+              "text": "glucose"
+            },
+            {
+              "id": "2",
+              "text": "dextrose"
+            },
+            {
+              "id": "3",
+              "text": "fructose"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: dietary fiber"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cod liver oil is often used in many diets and healthy regimes, as a powerful source of omega-3, vitamin A and D. Some medical specialists believe that in the summer months cod liver oil should not be taken, for what reason?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Because Vitamin D becomes toxic when heated"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Because the pills melt in hot weather and it is easy to overdose"
+            },
+            {
+              "id": "3",
+              "text": "Because cod liver oil contains vitamin D, and the sun also creates vitamin D.  If vitamin D is overdosed, your face may become spotty"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Because cod liver oil contains vitamin D, and the sun also creates vitamin D.  If vitamin D is overdosed, your face may become spotty"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these people would be able to successfully combine their regimes with a low carb diet without having to violate one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "A vegetarian"
+            },
+            {
+              "id": "2",
+              "text": "A vegan"
+            },
+            {
+              "id": "3",
+              "text": "A fruitarian"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A vegetarian"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following fats contain trans-fats?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All types of animal fats"
+            },
+            {
+              "id": "1",
+              "text": "Partially hydrogenated fats"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Non-hydrogenated fats"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Partially hydrogenated fats"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is especially rich in omega-3 and omega-6 fatty acids?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brown sugar"
+            },
+            {
+              "id": "1",
+              "text": "Chicken"
+            },
+            {
+              "id": "2",
+              "text": "Flax seed"
+            },
+            {
+              "id": "3",
+              "text": "Wheat gran"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Flax seed"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This unit, named after the German physicist who discovered the relation between voltage and current, is the basic unit of electrical resistance.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Watt"
+            },
+            {
+              "id": "1",
+              "text": "Frequency"
+            },
+            {
+              "id": "2",
+              "text": "Ohm"
+            },
+            {
+              "id": "3",
+              "text": "Resistor"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ohm"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is better to work out with free weights.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these types of fat raises both LDL(bad cholesterol) and HDL(good cholesterol)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saturated"
+            },
+            {
+              "id": "1",
+              "text": "Trans"
+            },
+            {
+              "id": "2",
+              "text": "Monounsaturated"
+            },
+            {
+              "id": "3",
+              "text": "Polyunsaturated"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Saturated"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This unit,  named after one of the main discoverers of electromagnetism, is the base unit of electrical current.",
+          "options": [
+            {
+              "id": "0",
+              "text": "OHM"
+            },
+            {
+              "id": "1",
+              "text": "Frequency"
+            },
+            {
+              "id": "2",
+              "text": "Ampere"
+            },
+            {
+              "id": "3",
+              "text": "Capacitor"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ampere"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Trans-fats are definitely unwholesome. Which of these foods is poorest in trans fatty acids?",
+          "options": [
+            {
+              "id": "0",
+              "text": "margarine"
+            },
+            {
+              "id": "1",
+              "text": "vegetable shortenings"
+            },
+            {
+              "id": "2",
+              "text": "sunflower oil"
+            },
+            {
+              "id": "3",
+              "text": "cookies"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: sunflower oil"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term refers to the number of complete cycles of an alternating current that occur per second?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Watt"
+            },
+            {
+              "id": "1",
+              "text": "Frequency"
+            },
+            {
+              "id": "2",
+              "text": "Wavelength"
+            },
+            {
+              "id": "3",
+              "text": "Ohm"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Frequency"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "people",
+          "electromagnetism",
+          "meals",
+          "number",
+          "foods"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Blood and Type",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, profession, communication. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This term refers to the distance between repeating units of a wave pattern and is commonly designated by the Greek letter lambda (\u03bb).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amp"
+            },
+            {
+              "id": "1",
+              "text": "Wave distance"
+            },
+            {
+              "id": "2",
+              "text": "Volt"
+            },
+            {
+              "id": "3",
+              "text": "Wavelength"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wavelength"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What percentage of humans have type O blood?",
+          "options": [
+            {
+              "id": "0",
+              "text": "33 %"
+            },
+            {
+              "id": "1",
+              "text": "25%"
+            },
+            {
+              "id": "2",
+              "text": "There is no way to tell."
+            },
+            {
+              "id": "3",
+              "text": "45 %"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 45 %"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which type of blood cells can be stored the longest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Platelets"
+            },
+            {
+              "id": "1",
+              "text": "Blood plasma"
+            },
+            {
+              "id": "2",
+              "text": "Erythrocytes (red blood cells)"
+            },
+            {
+              "id": "3",
+              "text": "Leukocytes (white blood cells)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Erythrocytes (red blood cells)"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Barbers traditionally have red and white poles in front of their stores because in the Middle Ages they did the blood letting.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the unit of power that shows how fast a circuit uses electrical energy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Watt"
+            },
+            {
+              "id": "1",
+              "text": "Frequency"
+            },
+            {
+              "id": "2",
+              "text": "Voltage"
+            },
+            {
+              "id": "3",
+              "text": "Amp"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Watt"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The members of which profession used to be called leechers\u201d because of the methods they used in the past?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pharmacists"
+            },
+            {
+              "id": "1",
+              "text": "Doctors"
+            },
+            {
+              "id": "2",
+              "text": "Dentists"
+            },
+            {
+              "id": "3",
+              "text": "Lawyers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Doctors"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately what percentage of humans have blood of the type Rh +?",
+          "options": [
+            {
+              "id": "0",
+              "text": "33 %"
+            },
+            {
+              "id": "1",
+              "text": "35 %"
+            },
+            {
+              "id": "2",
+              "text": "85 %"
+            },
+            {
+              "id": "3",
+              "text": "74 %"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 85 %"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much blood does the average adult human have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10-12 pints (5-6 liters)"
+            },
+            {
+              "id": "1",
+              "text": "10-12 gallons (38-45 liters)"
+            },
+            {
+              "id": "2",
+              "text": "10-12 quarts (10-11 liters)"
+            },
+            {
+              "id": "3",
+              "text": "4-8 pounds (2-4 kg)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 10-12 pints (5-6 liters)"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What substance is added to blood to keep it from clotting until it is needed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sugar"
+            },
+            {
+              "id": "1",
+              "text": "Ethanol"
+            },
+            {
+              "id": "2",
+              "text": "Mecurium"
+            },
+            {
+              "id": "3",
+              "text": "Salt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Salt"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which fictional character had T-Negative blood type?",
+          "options": [
+            {
+              "id": "0",
+              "text": "King Billy Haraah"
+            },
+            {
+              "id": "1",
+              "text": "The Scorpion King"
+            },
+            {
+              "id": "2",
+              "text": "Mr. Spock"
+            },
+            {
+              "id": "3",
+              "text": "Dr. Who"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Spock"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Moonbounce is a form of wireless communication in which the moon is used as a passive satellite.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lower frequencies have longer wavelengths, while higher frequencies have shorter wavelengths.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the basic unit of electric pressure, also known as emf?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Current"
+            },
+            {
+              "id": "1",
+              "text": "Amp"
+            },
+            {
+              "id": "2",
+              "text": "Volt"
+            },
+            {
+              "id": "3",
+              "text": "Watt"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Volt"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which blood type is called the universal recipient?",
+          "options": [
+            {
+              "id": "0",
+              "text": "AB"
+            },
+            {
+              "id": "1",
+              "text": "O"
+            },
+            {
+              "id": "2",
+              "text": "A"
+            },
+            {
+              "id": "3",
+              "text": "B"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: AB"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An insulator is a thin metal strip mounted in a holder. When too much current passes through  it, the metal strip melts and opens the circuit.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "profession",
+          "communication",
+          "emf",
+          "pressure",
+          "adult"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Oil and Blood",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, field, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1658 he became the first person to describe and observe red blood cells (erythrocytes).",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Osler"
+            },
+            {
+              "id": "1",
+              "text": "Jan Swammerdan"
+            },
+            {
+              "id": "2",
+              "text": "Marcello Malpighi"
+            },
+            {
+              "id": "3",
+              "text": "Felix Bernstein"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jan Swammerdan"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The term \u2018petrodollar\u2019, a dollar earned by a country through the sale of oil, was invented in 1973 by this Egyptian-born American professor and economist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ibrahim Oweiss"
+            },
+            {
+              "id": "1",
+              "text": "M. King Hubert"
+            },
+            {
+              "id": "2",
+              "text": "Ronald R. Cooke"
+            },
+            {
+              "id": "3",
+              "text": "Matthew R. Simmons"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ibrahim Oweiss"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1924 who was the German mathematician who developed a proof showing that blood types were genetic?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Franklin McLean"
+            },
+            {
+              "id": "1",
+              "text": "Charles  R. Drew"
+            },
+            {
+              "id": "2",
+              "text": "Felix Bernstein"
+            },
+            {
+              "id": "3",
+              "text": "William Osler"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Felix Bernstein"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This oil field, located south of Beaumont, Texas, and discovered by Anthony Francis Lucas, was the first major oil field in the USA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thunder Horse Field"
+            },
+            {
+              "id": "1",
+              "text": "Wilmington Oil Field"
+            },
+            {
+              "id": "2",
+              "text": "Spindletop Oil Field"
+            },
+            {
+              "id": "3",
+              "text": "Elk Hills Field"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Spindletop Oil Field"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1991, one of the most serious oil spills in history brought considerable damage to wildlife in the Middle East region. What caused the oil spill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Iraqi forces deliberately released crude oil from several tankers"
+            },
+            {
+              "id": "1",
+              "text": "Tanker Exxon Valdez hit an undersea reef"
+            },
+            {
+              "id": "2",
+              "text": "Nowruz Field platform spilled 80 million gallons of oil"
+            },
+            {
+              "id": "3",
+              "text": "Ixtoc I oil well suffered a blowout"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Iraqi forces deliberately released crude oil from several tankers"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1863 this entrepreneur and his partners founded Standard Oil, a company which dominated oil production in the USA for decades.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Howard Hughes"
+            },
+            {
+              "id": "1",
+              "text": "John Rockefeller"
+            },
+            {
+              "id": "2",
+              "text": "Jean Paul Getty"
+            },
+            {
+              "id": "3",
+              "text": "Andrew Carnegie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Rockefeller"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person developed the first system to produce donatable blood plasma and was the first director of a Red Cross Blood Bank in the USA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "William Osler"
+            },
+            {
+              "id": "1",
+              "text": "Felix Bernstein"
+            },
+            {
+              "id": "2",
+              "text": "Charles Richard Drew"
+            },
+            {
+              "id": "3",
+              "text": "Franklin McLean."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Charles Richard Drew"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements about Petroleum, sometimes called \u2018black gold\u2019, is not true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is used for the production of solvents, fertilizers and plastics."
+            },
+            {
+              "id": "1",
+              "text": "It is found in formations in he Earth."
+            },
+            {
+              "id": "2",
+              "text": "It is a fossil fuel."
+            },
+            {
+              "id": "3",
+              "text": "It is a renewable resource."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It is a renewable resource."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first oil refinery in the world, bombarded in 1943 by US Air Force in operation Tidal Wave, was built in this country in 1856.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Romania"
+            },
+            {
+              "id": "2",
+              "text": "Iran"
+            },
+            {
+              "id": "3",
+              "text": "Italy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Romania"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This industrial facility, sometimes called a \u2018tank farm\u2019 or a \u2018terminal\u2019, is used for the storage of oil.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oil gusher"
+            },
+            {
+              "id": "1",
+              "text": "Oil depot"
+            },
+            {
+              "id": "2",
+              "text": "Oil barrel"
+            },
+            {
+              "id": "3",
+              "text": "Oil well"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oil depot"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first physician to demonstrate that arteries carry blood throughout the body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Galen"
+            },
+            {
+              "id": "1",
+              "text": "Valen"
+            },
+            {
+              "id": "2",
+              "text": "Valecious"
+            },
+            {
+              "id": "3",
+              "text": "Herodotus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Galen"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these people is the Austrian biologist and physician who first identified the four basic blood types?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Karl Landsteiner"
+            },
+            {
+              "id": "1",
+              "text": "Felix Bernstein"
+            },
+            {
+              "id": "2",
+              "text": "William Osler"
+            },
+            {
+              "id": "3",
+              "text": "Charles Richard Drew"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Karl Landsteiner"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American oil driller, dug the first modern oil well near Titusville, Pennsylvania in 1859.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Kerr"
+            },
+            {
+              "id": "1",
+              "text": "Frank Phillips"
+            },
+            {
+              "id": "2",
+              "text": "Edwin Drake"
+            },
+            {
+              "id": "3",
+              "text": "Edward Doheny"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Edwin Drake"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Healthy people over 17 can donate what part of their blood every two weeks?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Platelets"
+            },
+            {
+              "id": "1",
+              "text": "White blood cells"
+            },
+            {
+              "id": "2",
+              "text": "Blood serum"
+            },
+            {
+              "id": "3",
+              "text": "Red blood cells"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Platelets"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Organization of the Petroleum Exporting Countries (OPEC) is an intergovernmental organization founded at the Baghdad Conference in September 1960, by 5 countries. Which of these countries was not a founding member of the organization?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Algeria"
+            },
+            {
+              "id": "1",
+              "text": "Iraq"
+            },
+            {
+              "id": "2",
+              "text": "Venezuela"
+            },
+            {
+              "id": "3",
+              "text": "Iran"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Algeria"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "field",
+          "people",
+          "world",
+          "facility",
+          "gold"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Study and Word",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, astronomer, bowling. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do we call the study of male health and male diseases?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ophiology"
+            },
+            {
+              "id": "1",
+              "text": "andrology"
+            },
+            {
+              "id": "2",
+              "text": "oology"
+            },
+            {
+              "id": "3",
+              "text": "Testrology"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: andrology"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the study of whales called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "cetology"
+            },
+            {
+              "id": "1",
+              "text": "mycology"
+            },
+            {
+              "id": "2",
+              "text": "dendrology"
+            },
+            {
+              "id": "3",
+              "text": "balinology"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: cetology"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does actinology study?",
+          "options": [
+            {
+              "id": "0",
+              "text": "fruits and seeds"
+            },
+            {
+              "id": "1",
+              "text": "clouds"
+            },
+            {
+              "id": "2",
+              "text": "ants"
+            },
+            {
+              "id": "3",
+              "text": "The study of the effect of light on chemicals"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The study of the effect of light on chemicals"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term refers to the study of atmospheric dust and its effect on life on Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "lithology"
+            },
+            {
+              "id": "1",
+              "text": "coniology"
+            },
+            {
+              "id": "2",
+              "text": "tricology"
+            },
+            {
+              "id": "3",
+              "text": "vexillogy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: coniology"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does ludology study?",
+          "options": [
+            {
+              "id": "0",
+              "text": "video games"
+            },
+            {
+              "id": "1",
+              "text": "postcards"
+            },
+            {
+              "id": "2",
+              "text": "wine"
+            },
+            {
+              "id": "3",
+              "text": "the moon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: video games"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is contrology?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pilates"
+            },
+            {
+              "id": "1",
+              "text": "the study of freshwater life"
+            },
+            {
+              "id": "2",
+              "text": "the study of social controls"
+            },
+            {
+              "id": "3",
+              "text": "the study of dates"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pilates"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which statement is incorrect?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boxology studies schematic layouts and diagrams."
+            },
+            {
+              "id": "1",
+              "text": "Apiology studies bees."
+            },
+            {
+              "id": "2",
+              "text": "Gerontology studies grammar and syntax."
+            },
+            {
+              "id": "3",
+              "text": "Potamology studies rivers."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gerontology studies grammar and syntax."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to gravity laws, if a bowling ball and a feather are dropped simultaneously from the same height the bowling ball will hit the ground first because it has greater inertia. (In this case we ignore the effects of air resistance.)",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does psephology study?",
+          "options": [
+            {
+              "id": "0",
+              "text": "African snakes"
+            },
+            {
+              "id": "1",
+              "text": "dreams"
+            },
+            {
+              "id": "2",
+              "text": "elections"
+            },
+            {
+              "id": "3",
+              "text": "poetry"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: elections"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does dactylology study?",
+          "options": [
+            {
+              "id": "0",
+              "text": "rocks"
+            },
+            {
+              "id": "1",
+              "text": "the moon"
+            },
+            {
+              "id": "2",
+              "text": "fingerprints"
+            },
+            {
+              "id": "3",
+              "text": "caves"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: fingerprints"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "English physicist, mathematician, and astronomer Sir Isaac Newton presented his findings on the universal law of gravity in his work commonly referred to as Principia Mathematica, which was published in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1535"
+            },
+            {
+              "id": "1",
+              "text": "1720"
+            },
+            {
+              "id": "2",
+              "text": "1687"
+            },
+            {
+              "id": "3",
+              "text": "1477"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1687"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the study of winds.",
+          "options": [
+            {
+              "id": "0",
+              "text": "conilogy"
+            },
+            {
+              "id": "1",
+              "text": "lithology"
+            },
+            {
+              "id": "2",
+              "text": "campanology"
+            },
+            {
+              "id": "3",
+              "text": "anemology"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: anemology"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which word means the study of dogs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "cynology"
+            },
+            {
+              "id": "1",
+              "text": "onerology"
+            },
+            {
+              "id": "2",
+              "text": "carnaology"
+            },
+            {
+              "id": "3",
+              "text": "tocology"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: cynology"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Arab-Israeli War in 1973, known as Yom Kippur War, triggered the \u20181973 oil crisis\u2019. What action did the Arab members of OPEC undertake as part of their strategy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They raised the price of oil"
+            },
+            {
+              "id": "1",
+              "text": "They proclaimed an embargo on oil exports to the Netherlands"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "They proclaimed an embargo on oil exports to the United States"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which word refers to the study of bones?",
+          "options": [
+            {
+              "id": "0",
+              "text": "otology"
+            },
+            {
+              "id": "1",
+              "text": "osteology"
+            },
+            {
+              "id": "2",
+              "text": "endocrinology"
+            },
+            {
+              "id": "3",
+              "text": "neropathp"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: osteology"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "astronomer",
+          "bowling",
+          "dactylology",
+          "contrology",
+          "laws"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Gravity and Weight",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, condition, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An object in free fall towards the Earth experiences acceleration in velocity due to gravity. This acceleration has what approximate value?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8.1 meters per a second squared (26.6 feet per a second squared)"
+            },
+            {
+              "id": "1",
+              "text": "9.8 meters per a second squared (32 feet per a second squared)"
+            },
+            {
+              "id": "2",
+              "text": "32 meters per a second squared (9.8 meters per a second squared)"
+            },
+            {
+              "id": "3",
+              "text": "26.6 meters per a second squared (8.1 feet per a second squared)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 9.8 meters per a second squared (32 feet per a second squared)"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The best diet is a permanent lifestyle change.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the ideal body weight for a woman with average bone structure who is 5 feet 5 inches tall?",
+          "options": [
+            {
+              "id": "0",
+              "text": "138 pounds"
+            },
+            {
+              "id": "1",
+              "text": "125 pounds"
+            },
+            {
+              "id": "2",
+              "text": "115 pounds"
+            },
+            {
+              "id": "3",
+              "text": "135 pounds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 125 pounds"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If 2 people are eating the same number of calories per day, the one who eats frequent small meals will lose more weight than the one who eats one large meal per day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Artificial gravity is a simulation of gravity in outer space. There are several means by which artificial gravity can be created. Which of the following is not one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Magnetism"
+            },
+            {
+              "id": "1",
+              "text": "Rotation"
+            },
+            {
+              "id": "2",
+              "text": "Acceleration"
+            },
+            {
+              "id": "3",
+              "text": "Field generators"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Field generators"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many calories (kcal) is equivalent to one pound?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1000"
+            },
+            {
+              "id": "1",
+              "text": "2500"
+            },
+            {
+              "id": "2",
+              "text": "2000"
+            },
+            {
+              "id": "3",
+              "text": "3500"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3500"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A diet high in sugar and starch has more energy, so people who eat such a diet do not get as hungry as people who eat a diet low in sugar and starch.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Free-fall is defined as a condition in which a falling object experiences acceleration due only to gravity. Therefore, in this case, the only weight acting on an object is its own weight. Which of the following is not an example of an object in free-fall?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A skydiver with an open parachute"
+            },
+            {
+              "id": "1",
+              "text": "A feather falling through a vacuum tube"
+            },
+            {
+              "id": "2",
+              "text": "The Earths orbit around the Sun"
+            },
+            {
+              "id": "3",
+              "text": "A space shuttle with the rockets off"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A skydiver with an open parachute"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If we measure the acceleration due to gravity at the top of Mount Everest, it will be less than the acceleration at sea level.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Low-fat foods contain very little if any sugar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Running a mile burns approximately 100 calories (100 Kcal).",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the ideal body weight for a six-foot-tall man with average bone structure?",
+          "options": [
+            {
+              "id": "0",
+              "text": "220 pounds"
+            },
+            {
+              "id": "1",
+              "text": "178 pounds"
+            },
+            {
+              "id": "2",
+              "text": "200 pounds"
+            },
+            {
+              "id": "3",
+              "text": "195 pounds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 178 pounds"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although Newtons and Einsteins theories are generally widely accepted and used in many fields of science, there are some researchers who have developed alternative theories of gravity. Which of the following is one of these theories?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Special Relativity Theory"
+            },
+            {
+              "id": "1",
+              "text": "Electromagnetic Theory"
+            },
+            {
+              "id": "2",
+              "text": "Quantum Field Theory"
+            },
+            {
+              "id": "3",
+              "text": "Brans-Dicke Theory"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Brans-Dicke Theory"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although gravity has been a subject of much research and scientific work, the actual cause of gravitational forces remains unknown.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The gravitational force on the surface of the Sun is greater than the gravitational force on Earths surface. If you weigh 180 lbs or 80 kg on Earth, what would your weight be on the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "440 lbs (200 kg)"
+            },
+            {
+              "id": "1",
+              "text": "1100 lbs (500 kg)"
+            },
+            {
+              "id": "2",
+              "text": "5022 lbs (2270 kg)"
+            },
+            {
+              "id": "3",
+              "text": "2770 lbs (1260 kg)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 5022 lbs (2270 kg)"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "condition",
+          "people",
+          "weight",
+          "free-fall",
+          "woman"
+        ]
+      }
+    }
+  ]
+}

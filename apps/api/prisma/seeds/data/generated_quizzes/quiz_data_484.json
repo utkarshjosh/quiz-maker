@@ -1,0 +1,2412 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Vitamin and Skin",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, chemical, sweat. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many types of skin are there depending on skins reaction to UV-radiation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4 types"
+            },
+            {
+              "id": "1",
+              "text": "3 types"
+            },
+            {
+              "id": "2",
+              "text": "5 types"
+            },
+            {
+              "id": "3",
+              "text": "6 types"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 6 types"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mammary glands are considered to be modified sweat glands.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the chemical compound that stands behind vitamin C?",
+          "options": [
+            {
+              "id": "0",
+              "text": "L-carnitine"
+            },
+            {
+              "id": "1",
+              "text": "Citric acid"
+            },
+            {
+              "id": "2",
+              "text": "L-ascorbic acid"
+            },
+            {
+              "id": "3",
+              "text": "Acetylsalicylic acid"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: L-ascorbic acid"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin C is a powerful antioxidant and pro-oxidant.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The skin has its own ecosystems of microorganisms, including yeasts and bacteria, which cannot be removed by washing.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Skin consists of how many basic layers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The epidermis is very rich in blood vessels.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these animals has lost the ability to synthesize vitamin C?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Guinea pigs"
+            },
+            {
+              "id": "1",
+              "text": "Most bat species"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "All simians"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin C is necessary for the production of this protein in the human body.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cytokine"
+            },
+            {
+              "id": "1",
+              "text": "Collagen"
+            },
+            {
+              "id": "2",
+              "text": "Fibrin"
+            },
+            {
+              "id": "3",
+              "text": "Opsin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Collagen"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the average number of sweat glands in the skin per square inch (6.5cm\u00b2)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1100"
+            },
+            {
+              "id": "1",
+              "text": "650"
+            },
+            {
+              "id": "2",
+              "text": "3000"
+            },
+            {
+              "id": "3",
+              "text": "125"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 650"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most animals and plants are not able to synthesize vitamin C by themselves.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the natural oil produced by human skin called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Sebum"
+            },
+            {
+              "id": "2",
+              "text": "Sebatiol"
+            },
+            {
+              "id": "3",
+              "text": "Cutaneous oil"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sebum"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The deficiency of vitamin C leads to this disease, which can be lethal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Influenza"
+            },
+            {
+              "id": "1",
+              "text": "Meningitis"
+            },
+            {
+              "id": "2",
+              "text": "Scurvy"
+            },
+            {
+              "id": "3",
+              "text": "Cancer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Scurvy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin C is said to be beneficial for the treatment of various diseases and medical conditions. Which of the following is one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Cancer"
+            },
+            {
+              "id": "2",
+              "text": "AIDS"
+            },
+            {
+              "id": "3",
+              "text": "Autism"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the quantity of vitamin C that a healthy adult goat produces daily?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0,5 grams at least"
+            },
+            {
+              "id": "1",
+              "text": "13 grams or more"
+            },
+            {
+              "id": "2",
+              "text": "3 grams at least"
+            },
+            {
+              "id": "3",
+              "text": "About 9,5 grams"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 13 grams or more"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "chemical",
+          "sweat",
+          "glands",
+          "microorganisms",
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Vitamin and Following",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, diseases, chemical. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the B vitamins is also known as folic acid?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin B1"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin B12"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin B5"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin B9"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin B9"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What fruit is believed to be the highest in vitamin C content?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kakadu plum"
+            },
+            {
+              "id": "1",
+              "text": "Lemon"
+            },
+            {
+              "id": "2",
+              "text": "Kiwi"
+            },
+            {
+              "id": "3",
+              "text": "Rose hip"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kakadu plum"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the US, Medicare Part B is primarily coverage for which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hospital admissions"
+            },
+            {
+              "id": "1",
+              "text": "Medications"
+            },
+            {
+              "id": "2",
+              "text": "Non-hospital services"
+            },
+            {
+              "id": "3",
+              "text": "Dialysis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Non-hospital services"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the US, to qualify for Medicare benefits, you must meet be which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Be over 65 OR be disabled OR getting dialysis OR have ALS (Lou Gehrigs Disease)"
+            },
+            {
+              "id": "1",
+              "text": "Be over 70 OR have MS (multiple sclerosis) OR be blind OR have ALS (Lou Gehrigs Disease)"
+            },
+            {
+              "id": "2",
+              "text": "Be over 60 OR be disabled OR getting dialysis OR have ALS (Lou Gehrigs Disease)"
+            },
+            {
+              "id": "3",
+              "text": "Be over 60 OR have MS (multiple sclerosis) OR be blind OR have ALS (Lou Gehrigs Disease)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Be over 65 OR be disabled OR getting dialysis OR have ALS (Lou Gehrigs Disease)"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vitamin E is naturally soluble in this substance.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Lactase"
+            },
+            {
+              "id": "2",
+              "text": "Fat"
+            },
+            {
+              "id": "3",
+              "text": "Water"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fat"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The deficiency of what vitamin causes Rickets and Osteomalacia in humans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin B5"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin D"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin E"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin D"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the B vitamins is known as thiamine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin B1"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin B3"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin B2"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin B12"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin B1"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what substance is vitamin K soluble?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Water"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Protein"
+            },
+            {
+              "id": "3",
+              "text": "Fat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fat"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who administers the US health program Medicaid, and who funds Medicaid?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Medicaid is administered by the Centers for Medicare and Medicaid Services (CMS), and funded by the state governments."
+            },
+            {
+              "id": "1",
+              "text": "Medicaid is administered by each state government, and is funded by the federal government."
+            },
+            {
+              "id": "2",
+              "text": "Medicaid is administered by the Centers for Medicare and Medicaid Services (CMS), and jointly funded by the Federal Government and the state governments."
+            },
+            {
+              "id": "3",
+              "text": "Medicaid is administered by each state government, and is jointly funded by the federal government and the state governments."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Medicaid is administered by each state government, and is jointly funded by the federal government and the state governments."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What food is a rich source of vitamin B6?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Meat"
+            },
+            {
+              "id": "2",
+              "text": "Vegetables"
+            },
+            {
+              "id": "3",
+              "text": "Nuts"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The highest concentration of vitamin C in animals bodies is in their liver. Which of these animals has the largest quantity of vitamin C in its liver?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pig"
+            },
+            {
+              "id": "1",
+              "text": "Chicken"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Calf"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Calf"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An overdose of what vitamin can cause diarrhea, nausea and heartburn?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin B5"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin K"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin C"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin B5"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these diseases is associated with vitamin A deficiency?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Night-blindness"
+            },
+            {
+              "id": "1",
+              "text": "Pellagra"
+            },
+            {
+              "id": "2",
+              "text": "Scurvy"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Night-blindness"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What chemical compound is commonly known as vitamin C?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Acetylsalicylic acid"
+            },
+            {
+              "id": "1",
+              "text": "Ascorbic acid"
+            },
+            {
+              "id": "2",
+              "text": "Aminobenzoic acid"
+            },
+            {
+              "id": "3",
+              "text": "Hyaluronic acid"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ascorbic acid"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Niacin is the name of this B vitamin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin B12"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin B5"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin B9"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin B3"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin B3"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "diseases",
+          "chemical",
+          "acid",
+          "food",
+          "following"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Body and Medicare",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, premium, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the name of the iris flower literally mean in Greek?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Flower"
+            },
+            {
+              "id": "1",
+              "text": "Rainbow"
+            },
+            {
+              "id": "2",
+              "text": "Sky"
+            },
+            {
+              "id": "3",
+              "text": "Eye"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rainbow"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Narcissus plants, commonly called daffodils, contain the toxin lycorine in which structure?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blossom"
+            },
+            {
+              "id": "1",
+              "text": "Stamen"
+            },
+            {
+              "id": "2",
+              "text": "Bulb and leaves"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bulb and leaves"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Centers for Medicare and Medicaid Services (CMS) used to be known as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Medicare"
+            },
+            {
+              "id": "1",
+              "text": "The Centers for Disease Control (CDC)"
+            },
+            {
+              "id": "2",
+              "text": "The Health Care Financing Administration (HCFA)"
+            },
+            {
+              "id": "3",
+              "text": "The Department of Health and Human Services (DHHS)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Health Care Financing Administration (HCFA)"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If an orbiting body is revolving around its parent body in a perfectly circular path at a distance of 1,000,000,000 kilometers with an orbital velocity of 15 km/s, how long is its year in Earth years?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11.39"
+            },
+            {
+              "id": "1",
+              "text": "27.42"
+            },
+            {
+              "id": "2",
+              "text": "13.28"
+            },
+            {
+              "id": "3",
+              "text": "7.23"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 13.28"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the poppy flower symbolize in many cultures as well as in art?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Death"
+            },
+            {
+              "id": "1",
+              "text": "Sleep"
+            },
+            {
+              "id": "2",
+              "text": "Oblivion"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Death"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A US citizen can qualify for both Medicare and Medicaid at the same time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the US, all Medicare Part B participants pay a monthly premium for the service.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the US, all Medicare Part A participants pay a premium for the service.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following 4 people is most likely to be eligible for the US health program Medicaid?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A 25-year-old single man who is unemployed"
+            },
+            {
+              "id": "1",
+              "text": "A 25-year-old self-employed woman with 5 children"
+            },
+            {
+              "id": "2",
+              "text": "A 25-year-old self-employed married man with 5 children"
+            },
+            {
+              "id": "3",
+              "text": "A 25-year-old single woman who is pregnant and unemployed"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A 25-year-old single woman who is pregnant and unemployed"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "With regard to Medicare Part D, what is the donut hole?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The donut hole is the coverage gap for patients who eat donuts."
+            },
+            {
+              "id": "1",
+              "text": "The donut hole is the coverage gap for patients between Medicaid age and Medicare age."
+            },
+            {
+              "id": "2",
+              "text": "The donut hole is the coverage gap during which the patient is responsible for all drug costs."
+            },
+            {
+              "id": "3",
+              "text": "The donut hole is the loss of health insurance to patients whose diets are unhealthy."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The donut hole is the coverage gap during which the patient is responsible for all drug costs."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If a mass of 1 kilogram has a gravitational force of approximately 6.8x10^-12 at 1 meter (Earth = 1), what would the surface gravitational force be on a body with a mass of 5x10^18 kilograms and a diameter of 100 kilometers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0.00863"
+            },
+            {
+              "id": "1",
+              "text": "0.0034"
+            },
+            {
+              "id": "2",
+              "text": "0.129"
+            },
+            {
+              "id": "3",
+              "text": "0.0136"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 0.0136"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If the planet Mars, with a diameter of 6772 kilometers, is at a distance of 80,000,000 kilometers, what is its angular diameter in arc seconds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "16.27"
+            },
+            {
+              "id": "1",
+              "text": "14.64"
+            },
+            {
+              "id": "2",
+              "text": "18.92"
+            },
+            {
+              "id": "3",
+              "text": "17.46"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 17.46"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of structure do tulips grow out from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rhizome"
+            },
+            {
+              "id": "1",
+              "text": "Root"
+            },
+            {
+              "id": "2",
+              "text": "Bulb"
+            },
+            {
+              "id": "3",
+              "text": "Tuber"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bulb"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A body is orbiting another body in an elliptical orbit with a closest approach of 1000 kilometers and a farthest approach of 2000 kilometers. At its farthest approach, a triangle formed by connecting its orbital positions one day apart to its parent body covers an area of 100,000 square kilometers. How large of an area does this body sweep out in the period of one day at its closest approach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "79,884 square kilometers"
+            },
+            {
+              "id": "1",
+              "text": "100,000 square kilometers"
+            },
+            {
+              "id": "2",
+              "text": "50,000 square kilometers"
+            },
+            {
+              "id": "3",
+              "text": "200,000 square kilometers"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 100,000 square kilometers"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The State Childrens Health Insurance Program (SCHIP) was primarily designed to do what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Provide additional health insurance to children who are receiving Medicaid"
+            },
+            {
+              "id": "1",
+              "text": "Provide health insurance to disabled children"
+            },
+            {
+              "id": "2",
+              "text": "Provide health insurance to older children"
+            },
+            {
+              "id": "3",
+              "text": "Provide health insurance to children who do not qualify for Medicaid"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Provide health insurance to children who do not qualify for Medicaid"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "premium",
+          "people",
+          "iris",
+          "symbolize",
+          "structure"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Nature Quiz: Animals and Species",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, birds, ears. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The carnation is the national flower of this European country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "Scotland"
+            },
+            {
+              "id": "2",
+              "text": "Spain"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Spain"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to Greek mythology, Zeus saved one of Asclepius students from his wrath by turning him into this flower.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rose"
+            },
+            {
+              "id": "1",
+              "text": "Peony"
+            },
+            {
+              "id": "2",
+              "text": "Forget-me-not"
+            },
+            {
+              "id": "3",
+              "text": "Dahlia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Peony"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Viola plants, commonly referred to as violets, pansies or heartsease, are used as food and in medicine because they are rich in these nutrients.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Vitamins A and C"
+            },
+            {
+              "id": "2",
+              "text": "Iron and magnesium"
+            },
+            {
+              "id": "3",
+              "text": "Lycopene and tannin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamins A and C"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these species shed their skin. Which one does not?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Penguins"
+            },
+            {
+              "id": "1",
+              "text": "Snakes"
+            },
+            {
+              "id": "2",
+              "text": "Insects"
+            },
+            {
+              "id": "3",
+              "text": "Crustaceans"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Penguins"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of these animals have large ears (relative to their size) except one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Polar bears"
+            },
+            {
+              "id": "1",
+              "text": "Foxes"
+            },
+            {
+              "id": "2",
+              "text": "Bats"
+            },
+            {
+              "id": "3",
+              "text": "Elephants"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Polar bears"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Snakes are this kind of animals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Herbivorous"
+            },
+            {
+              "id": "1",
+              "text": "Omnivorous"
+            },
+            {
+              "id": "2",
+              "text": "Carnivorous"
+            },
+            {
+              "id": "3",
+              "text": "Vegetarian"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Carnivorous"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these animals hibernate. Which one does not?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mouse"
+            },
+            {
+              "id": "1",
+              "text": "Sloth"
+            },
+            {
+              "id": "2",
+              "text": "Frog"
+            },
+            {
+              "id": "3",
+              "text": "Snake"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sloth"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To which continent are common daisies native?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "North America"
+            },
+            {
+              "id": "2",
+              "text": "Asia"
+            },
+            {
+              "id": "3",
+              "text": "Europe"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Europe"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This percentage of all snakes on Earth are lethal to humans.",
+          "options": [
+            {
+              "id": "0",
+              "text": "10%"
+            },
+            {
+              "id": "1",
+              "text": "20%"
+            },
+            {
+              "id": "2",
+              "text": "15%"
+            },
+            {
+              "id": "3",
+              "text": "25%"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 15%"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These are typical Australian animals except one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Platypus"
+            },
+            {
+              "id": "1",
+              "text": "Dingo"
+            },
+            {
+              "id": "2",
+              "text": "Echidna"
+            },
+            {
+              "id": "3",
+              "text": "Sloth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sloth"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of these Latin names are names of bears. Which is the odd one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Melursus ursinus"
+            },
+            {
+              "id": "1",
+              "text": "Helarctos malayanus"
+            },
+            {
+              "id": "2",
+              "text": "Ursus minimus"
+            },
+            {
+              "id": "3",
+              "text": "Felis silvestris catus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Felis silvestris catus"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Lilium plants, commonly known as lilies, are extremely toxic to this animal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dog"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Sheep"
+            },
+            {
+              "id": "3",
+              "text": "Cat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cat"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All of these animals are omnivorous except one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fox"
+            },
+            {
+              "id": "1",
+              "text": "Mouse"
+            },
+            {
+              "id": "2",
+              "text": "Opossum"
+            },
+            {
+              "id": "3",
+              "text": "Snail"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Snail"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All dogs, cats and birds are colorblind.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Representatives of three of these species produce venom of their own. Which is the odd species?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lizards"
+            },
+            {
+              "id": "1",
+              "text": "Scorpions"
+            },
+            {
+              "id": "2",
+              "text": "Frogs"
+            },
+            {
+              "id": "3",
+              "text": "Mosquitos"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mosquitos"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "birds",
+          "ears",
+          "snakes",
+          "kind",
+          "bears"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Knowledge Quiz: Snakes and Cobras",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, snakes, nixon. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The King Cobra feeds almost exclusively on other snakes, even toxic ones.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A baby cobra is fully able to defend itself in as little as this many hours after being born.",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "12"
+            },
+            {
+              "id": "2",
+              "text": "48"
+            },
+            {
+              "id": "3",
+              "text": "72"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A specialist in snakes is called one of these.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pisciculturist"
+            },
+            {
+              "id": "1",
+              "text": "Ornithologist"
+            },
+            {
+              "id": "2",
+              "text": "Ophiologist"
+            },
+            {
+              "id": "3",
+              "text": "Herpetologist"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ophiologist"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of dog did Richard Nixon receive from a Texan while he was a candidate for Vice President?",
+          "options": [
+            {
+              "id": "0",
+              "text": "German Shepherd"
+            },
+            {
+              "id": "1",
+              "text": "Cocker Spaniel"
+            },
+            {
+              "id": "2",
+              "text": "Golden Retriever"
+            },
+            {
+              "id": "3",
+              "text": "Welsh Corgy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cocker Spaniel"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Snakes are very likely to attack us, regardless of whether they feel threatened or not.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Snakes belong to the following category.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Invertebrates"
+            },
+            {
+              "id": "1",
+              "text": "Lizards"
+            },
+            {
+              "id": "2",
+              "text": "Reptiles"
+            },
+            {
+              "id": "3",
+              "text": "Mammals"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Reptiles"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Snakes consume their food by means of this process.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Breathing"
+            },
+            {
+              "id": "1",
+              "text": "Absorption"
+            },
+            {
+              "id": "2",
+              "text": "Swallowing"
+            },
+            {
+              "id": "3",
+              "text": "Chewing"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Swallowing"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Snakes reproduce only by laying eggs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is where the Cobras ribs are situated.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Behind its head"
+            },
+            {
+              "id": "1",
+              "text": "In its chest, around the middle of the body"
+            },
+            {
+              "id": "2",
+              "text": "Cobras have no ribs"
+            },
+            {
+              "id": "3",
+              "text": "In its tale"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Behind its head"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cobras are venomous snakes of family Elapidae, that generally inhabit regions of these two continents.",
+          "options": [
+            {
+              "id": "0",
+              "text": "South America and Asia"
+            },
+            {
+              "id": "1",
+              "text": "Asia and Africa"
+            },
+            {
+              "id": "2",
+              "text": "Asia and Australia"
+            },
+            {
+              "id": "3",
+              "text": "South America and Australia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Asia and Africa"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Snake skin is covered in scales.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Cobra is at the top of the food chain, with only two main predators -- one is man and the other is this animal.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jackal"
+            },
+            {
+              "id": "1",
+              "text": "Mongoose"
+            },
+            {
+              "id": "2",
+              "text": "Lynx"
+            },
+            {
+              "id": "3",
+              "text": "Eagle"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mongoose"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The cobras most recognizable feature is its hood, a flap of skin and muscle behind the head, believed to serve this purpose.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Balance control"
+            },
+            {
+              "id": "1",
+              "text": "Heat collection from sun rays"
+            },
+            {
+              "id": "2",
+              "text": "Camouflage"
+            },
+            {
+              "id": "3",
+              "text": "More threatening appearance"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: More threatening appearance"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Snakes are deaf.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the following snakes does not belong to the Viperidae family.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Horned adder"
+            },
+            {
+              "id": "1",
+              "text": "Grass snake"
+            },
+            {
+              "id": "2",
+              "text": "Viper"
+            },
+            {
+              "id": "3",
+              "text": "Asp"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Grass snake"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "snakes",
+          "nixon",
+          "food",
+          "hours",
+          "cobras"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Species and Breed",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, breed, presidents. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Fraisers fathers dog on the hit TV show set in Seattle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Niles"
+            },
+            {
+              "id": "1",
+              "text": "Marty"
+            },
+            {
+              "id": "2",
+              "text": "Eddie"
+            },
+            {
+              "id": "3",
+              "text": "Skip"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jack jumper ants, yellowish-orange carnivorous ants named after their characteristic jumpy motions, can be found only on which continent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "North America"
+            },
+            {
+              "id": "1",
+              "text": "Australia"
+            },
+            {
+              "id": "2",
+              "text": "Africa"
+            },
+            {
+              "id": "3",
+              "text": "Asia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Australia"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This small nocturnal animal, whose natural habitat are the deserts of Northern Africa, is known to jump not only for hunting or protection, but also for pleasure.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cape Fox"
+            },
+            {
+              "id": "1",
+              "text": "Red Fox"
+            },
+            {
+              "id": "2",
+              "text": "Bengal Fox"
+            },
+            {
+              "id": "3",
+              "text": "Fennec"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fennec"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What breed is known as the favourite breed of Queen Elizabeth II?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Border Collie"
+            },
+            {
+              "id": "1",
+              "text": "Old English Sheepdog"
+            },
+            {
+              "id": "2",
+              "text": "Welsh Corgi"
+            },
+            {
+              "id": "3",
+              "text": "Australian Cattle Dog"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Welsh Corgi"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Presidents had the most pets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Franklin Delano Roosevelt"
+            },
+            {
+              "id": "1",
+              "text": "Theodore Roosevelt"
+            },
+            {
+              "id": "2",
+              "text": "Bill Clinton"
+            },
+            {
+              "id": "3",
+              "text": "Woodrow Wilson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Theodore Roosevelt"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The endangered Komodo dragon is the largest living lizard in the world, growing to an average length of 2-3 meters (10 feet).",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This freshwater mammal, found only in the Yangtze River, is the most endangered (even possibly extinct) cetacean and one of the most endangered species in the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ganges River Dolphin"
+            },
+            {
+              "id": "1",
+              "text": "Chinese River Dolphin"
+            },
+            {
+              "id": "2",
+              "text": "La Plata Dolphin"
+            },
+            {
+              "id": "3",
+              "text": "Amazon River Dolphin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chinese River Dolphin"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This species of great apes with long arms and reddish hair suffer habitat destruction due to logging, mining and forest fires.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gorilla"
+            },
+            {
+              "id": "1",
+              "text": "Baboons"
+            },
+            {
+              "id": "2",
+              "text": "Orangutan"
+            },
+            {
+              "id": "3",
+              "text": "Chimpanzee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Orangutan"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the rarest and most endangered of all wolves.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Red Wolf"
+            },
+            {
+              "id": "1",
+              "text": "Ethiopian Wolf"
+            },
+            {
+              "id": "2",
+              "text": "Black-backed Wolf"
+            },
+            {
+              "id": "3",
+              "text": "Gray Wolf"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Red Wolf"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This endangered turtle is the biggest of all living turtles, reaching a length of over 2.7 m (8.8 ft) and weight of 900 kg (2,000 lb).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leatherback Sea Turtle"
+            },
+            {
+              "id": "1",
+              "text": "Kemps Ridley Turtle"
+            },
+            {
+              "id": "2",
+              "text": "Hawksbill Sea Turtle"
+            },
+            {
+              "id": "3",
+              "text": "Mesoamerican River Turtle"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Leatherback Sea Turtle"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these sea mammals is not in the endangered species lists?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fin Whale"
+            },
+            {
+              "id": "1",
+              "text": "Pilot whale"
+            },
+            {
+              "id": "2",
+              "text": "Blue Whale"
+            },
+            {
+              "id": "3",
+              "text": "Humpback Whale"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pilot whale"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "President Fords dog was named Freedom.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Socks companion at the White House during the Clinton Administration?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buddy"
+            },
+            {
+              "id": "1",
+              "text": "Shoes"
+            },
+            {
+              "id": "2",
+              "text": "Bailey"
+            },
+            {
+              "id": "3",
+              "text": "Buster"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Buddy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the natural habitat of the snows leopard, that was hunted down for its beautiful fur, as a result of which its population went down to 1,000 animals in the 1960s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "North America"
+            },
+            {
+              "id": "1",
+              "text": "Central Asia and North America"
+            },
+            {
+              "id": "2",
+              "text": "Central Asia"
+            },
+            {
+              "id": "3",
+              "text": "Europe and North America"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Central Asia"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Asian Elephant, the only living species of the genus Elephas, is the bigger relative of the African Elephant.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "breed",
+          "presidents",
+          "turtle",
+          "pets",
+          "president"
+        ]
+      }
+    }
+  ]
+}

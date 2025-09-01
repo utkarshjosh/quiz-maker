@@ -1,0 +1,2436 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Judy and Simpsons",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, judge, kind. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Wat is wrriten in the note mentioned below?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Im Skum"
+            },
+            {
+              "id": "1",
+              "text": "Im Ded"
+            },
+            {
+              "id": "2",
+              "text": "Strike Team waz here"
+            },
+            {
+              "id": "3",
+              "text": "Life Sux"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Life Sux"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish this famous Judge Judy quote from the title of her second book: Beauty Fades, ____ Is Forever!",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dumb"
+            },
+            {
+              "id": "1",
+              "text": "Nasty"
+            },
+            {
+              "id": "2",
+              "text": "Smart"
+            },
+            {
+              "id": "3",
+              "text": "Stupid"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dumb"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "2006 saw which consecutive Judge Judy season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11th"
+            },
+            {
+              "id": "1",
+              "text": "9th"
+            },
+            {
+              "id": "2",
+              "text": "10th"
+            },
+            {
+              "id": "3",
+              "text": "8th"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 11th"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Judge Judy helped Judy break the record for the highest paid woman in the history of television.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was not mentioned as one of Homers enemies in The Great Louse Detective, an episode of The Simpsons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Emperor of Japan"
+            },
+            {
+              "id": "1",
+              "text": "The Power Plant Workers Union"
+            },
+            {
+              "id": "2",
+              "text": "Frank Grimes"
+            },
+            {
+              "id": "3",
+              "text": "The State of Florida"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Power Plant Workers Union"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of court did Judge Judy preside over for more than 25 years before becoming Americas most famous Judge?",
+          "options": [
+            {
+              "id": "0",
+              "text": "California State Supreme Court"
+            },
+            {
+              "id": "1",
+              "text": "Small Claims Court"
+            },
+            {
+              "id": "2",
+              "text": "Criminal Court"
+            },
+            {
+              "id": "3",
+              "text": "Family Court"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Family Court"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1960s sitcom ran from 1966 to 1971 and starred Marlo Thomas, Bernie Kopell and Rosemary DeCamp.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lassie"
+            },
+            {
+              "id": "1",
+              "text": "Dobie Gillis"
+            },
+            {
+              "id": "2",
+              "text": "The Mary Tyler Moore Show"
+            },
+            {
+              "id": "3",
+              "text": "That Girl"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: That Girl"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was in the grave, which Homer Simpson thought to be his mothers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank Grimes"
+            },
+            {
+              "id": "1",
+              "text": "Walt Whitman"
+            },
+            {
+              "id": "2",
+              "text": "Joyce Kilmer"
+            },
+            {
+              "id": "3",
+              "text": "Earnest Hemmingway"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Walt Whitman"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Former The Golden Girls and Maude actress Bea Arthur was once a witness on Judge Judy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these characters in  the animated sitcom The Simpsons is voiced by Dan Castellaneta?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Waylon Smithers"
+            },
+            {
+              "id": "1",
+              "text": "Chief Clancy Wiggum"
+            },
+            {
+              "id": "2",
+              "text": "Mayor Diamond Joe Quimby"
+            },
+            {
+              "id": "3",
+              "text": "C. Montgomery Burns"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mayor Diamond Joe Quimby"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The soap opera Peyton Place was based on a 1956 novel of the same name.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did Judge Judy first air on American television?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1996"
+            },
+            {
+              "id": "1",
+              "text": "1994"
+            },
+            {
+              "id": "2",
+              "text": "1998"
+            },
+            {
+              "id": "3",
+              "text": "1997"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1996"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the upper monetary limit for a judgment in Judge Judys courtroom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "$4000"
+            },
+            {
+              "id": "1",
+              "text": "$5000"
+            },
+            {
+              "id": "2",
+              "text": "$3000"
+            },
+            {
+              "id": "3",
+              "text": "$2000"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: $5000"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these episodes is not in the fourth season of The Simpsons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marge vs. the Monorail"
+            },
+            {
+              "id": "1",
+              "text": "Treehouse of Horror IV"
+            },
+            {
+              "id": "2",
+              "text": "Last Exit to Springfield"
+            },
+            {
+              "id": "3",
+              "text": "Kamp Krusty"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Treehouse of Horror IV"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who voices Agnes Skinner and Lindsay Naegle in Matt Groenings animated sitcom The Simpsons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Russi Taylor"
+            },
+            {
+              "id": "1",
+              "text": "Tress MacNeille"
+            },
+            {
+              "id": "2",
+              "text": "Yeardley Smith"
+            },
+            {
+              "id": "3",
+              "text": "Nancy Cartwright"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tress MacNeille"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "judge",
+          "kind",
+          "quote",
+          "mothers",
+          "note"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Beverly Hills and Season",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, peach, abc. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Richard Chamberlin starred in this 1960s medical drama.",
+          "options": [
+            {
+              "id": "0",
+              "text": "911"
+            },
+            {
+              "id": "1",
+              "text": "Dr. Kildare"
+            },
+            {
+              "id": "2",
+              "text": "Emergency"
+            },
+            {
+              "id": "3",
+              "text": "Rescue"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dr. Kildare"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who did Brandon Walsh lose his virginity to in the first season of Beverly Hills, 90210?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sheryl"
+            },
+            {
+              "id": "1",
+              "text": "Donna"
+            },
+            {
+              "id": "2",
+              "text": "Emily"
+            },
+            {
+              "id": "3",
+              "text": "Kelly"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sheryl"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What character started the Peach Pit After Dark in Season 5 of Beverly Hills, 90210?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve"
+            },
+            {
+              "id": "1",
+              "text": "Dylan"
+            },
+            {
+              "id": "2",
+              "text": "Valerie"
+            },
+            {
+              "id": "3",
+              "text": "David"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Steve"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Sherice Ashe, one of Brandons many love interests, in Season 2 of the TV show Beverly Hills, 90210?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gabrielle Union"
+            },
+            {
+              "id": "1",
+              "text": "Vivica A Fox"
+            },
+            {
+              "id": "2",
+              "text": "Jada Pinkett"
+            },
+            {
+              "id": "3",
+              "text": "Raven Simone"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Vivica A Fox"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The original Star Trek series ran from 1963 to 1968.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From 1961 to 1966 Vince Edwards starred in what medical drama?",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Elswhere"
+            },
+            {
+              "id": "1",
+              "text": "Dr. Kildare"
+            },
+            {
+              "id": "2",
+              "text": "Ben Casey"
+            },
+            {
+              "id": "3",
+              "text": "Eight is Enough"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ben Casey"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On January 15, 1967 Super Bowl I was aired. Who were the teams that played?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green Bay and Baltimore"
+            },
+            {
+              "id": "1",
+              "text": "Dallas and New York Giants"
+            },
+            {
+              "id": "2",
+              "text": "Kansas City and Green Bay"
+            },
+            {
+              "id": "3",
+              "text": "New York Jets and Philadelphia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kansas City and Green Bay"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The classic series of this show originally aired from 1963 to 1989 on BBC, a television film was made in 1996 and it reappeared as a television series in 2005. The main character has been played by 11 different actors including David Hartnell (the first) and Thomas Baker (the longest running from 1974 to 1981). Which is the show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "As Time Goes By"
+            },
+            {
+              "id": "1",
+              "text": "Doctor Who"
+            },
+            {
+              "id": "2",
+              "text": "Are You Being Served?"
+            },
+            {
+              "id": "3",
+              "text": "Coronation Street"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Doctor Who"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What sleazy TV show did Brenda do an interview for in Season 3 of Beverly Hills, 90210 that led to the gang being mad at her?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Back Story"
+            },
+            {
+              "id": "1",
+              "text": "Inquisition"
+            },
+            {
+              "id": "2",
+              "text": "Teen Files"
+            },
+            {
+              "id": "3",
+              "text": "Hard Copy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Back Story"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What TV station worker stalks Donna and holds her, Brandon, Tracy and others hostage at the CU News Station in Season 7 of Beverly Hills, 90210?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Evan"
+            },
+            {
+              "id": "1",
+              "text": "Trey"
+            },
+            {
+              "id": "2",
+              "text": "Gary"
+            },
+            {
+              "id": "3",
+              "text": "Rick"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Evan"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The television game show Jeopardy debuted in the 1960s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What character who helped Valerie and Dylan in the past got Valerie arrested for prostitution in Season 6 of Beverly Hills, 90210?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Randy Wright"
+            },
+            {
+              "id": "1",
+              "text": "Wayne Gold"
+            },
+            {
+              "id": "2",
+              "text": "Sherman Smith"
+            },
+            {
+              "id": "3",
+              "text": "Jay J. Jones"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jay J. Jones"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the names of Dylans sister and her mother who make their first appearance in Season 4 of Beverly Hills, 90210?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Erica and Joanne"
+            },
+            {
+              "id": "1",
+              "text": "Erica and Suzanne"
+            },
+            {
+              "id": "2",
+              "text": "Joanne and Wendy"
+            },
+            {
+              "id": "3",
+              "text": "Suzanne and Jessica"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Erica and Suzanne"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Petticoat Junction ran from 1963 to 1970.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which 30-minute animated sitcom aired on ABC from 1960 to 1966?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Dick Tracy Show"
+            },
+            {
+              "id": "1",
+              "text": "Top Cat"
+            },
+            {
+              "id": "2",
+              "text": "Courageous Cat and Minute Mouse"
+            },
+            {
+              "id": "3",
+              "text": "The Flintstones"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Flintstones"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "peach",
+          "abc",
+          "drama",
+          "trek",
+          "interview"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Simpsons and Daria",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, steve, attends. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what day of the week is Gabbin About God on KBBL in the fictional universe of The Simpsons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Friday"
+            },
+            {
+              "id": "1",
+              "text": "Sunday"
+            },
+            {
+              "id": "2",
+              "text": "Saturday"
+            },
+            {
+              "id": "3",
+              "text": "Thursday"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sunday"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the blue haired lawyer in the animated series The Simpsons, which notes are owned by Disney?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A natural and G flat"
+            },
+            {
+              "id": "1",
+              "text": "E natural and A flat"
+            },
+            {
+              "id": "2",
+              "text": "G natural and A flat"
+            },
+            {
+              "id": "3",
+              "text": "A natural and E flat"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: G natural and A flat"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which episode of The Simpsons was planned to be a full length movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kamp Krusty"
+            },
+            {
+              "id": "1",
+              "text": "A Tale of Two Springfields"
+            },
+            {
+              "id": "2",
+              "text": "The War of the Simpsons"
+            },
+            {
+              "id": "3",
+              "text": "Who Shot Mr. Burns?"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kamp Krusty"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the episode of The Simpsons, titled The Seemingly Neverending Story, the Rich Texan gets his picture with whom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nelson"
+            },
+            {
+              "id": "1",
+              "text": "Dolph"
+            },
+            {
+              "id": "2",
+              "text": "Kearney"
+            },
+            {
+              "id": "3",
+              "text": "Jimbo"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jimbo"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where does Daria meet Tom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In a club, at one of Trents shows"
+            },
+            {
+              "id": "1",
+              "text": "They are cousins"
+            },
+            {
+              "id": "2",
+              "text": "He is a classmate"
+            },
+            {
+              "id": "3",
+              "text": "Through Jane"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Through Jane"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the principal of Darias school?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Timothy Oneill"
+            },
+            {
+              "id": "1",
+              "text": "Angela Li"
+            },
+            {
+              "id": "2",
+              "text": "Anthony Demartino"
+            },
+            {
+              "id": "3",
+              "text": "Brittany Taylor"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Angela Li"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Darias last name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lane"
+            },
+            {
+              "id": "1",
+              "text": "Swanson"
+            },
+            {
+              "id": "2",
+              "text": "Morgendorffer"
+            },
+            {
+              "id": "3",
+              "text": "Smith"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Morgendorffer"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Daria attends Bromwell University after high school.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did David and Donna break up at the beginning of Season 8 of the teen TV show Beverly Hills, 90210?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David was forging her checks and stealing money."
+            },
+            {
+              "id": "1",
+              "text": "Donna fell in love with Noah"
+            },
+            {
+              "id": "2",
+              "text": "David wanted to get back together with Valerie"
+            },
+            {
+              "id": "3",
+              "text": "David cheated on her again."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: David was forging her checks and stealing money."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What company agrees to sponsor Darias school, to help the school earn money?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ultra Cola"
+            },
+            {
+              "id": "1",
+              "text": "Lackluster Video"
+            },
+            {
+              "id": "2",
+              "text": "The Pizza Parlor"
+            },
+            {
+              "id": "3",
+              "text": "Cashmonds"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ultra Cola"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the model/actress/con artist that both Steve and David fall for in Season 9 of the teen drama Beverly Hills, 90210?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Janet"
+            },
+            {
+              "id": "1",
+              "text": "Leah"
+            },
+            {
+              "id": "2",
+              "text": "Carrie"
+            },
+            {
+              "id": "3",
+              "text": "Sophie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sophie"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Ulysses S. Grant in the Civil War Re-enactment in The Simpsons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barney Gumble"
+            },
+            {
+              "id": "1",
+              "text": "Seymour Skinner"
+            },
+            {
+              "id": "2",
+              "text": "Homer J. Simpson"
+            },
+            {
+              "id": "3",
+              "text": "Moe Syzlack"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Barney Gumble"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What high school does Daria attend?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Modern Day High"
+            },
+            {
+              "id": "1",
+              "text": "Lawndale High"
+            },
+            {
+              "id": "2",
+              "text": "James B. Woods High School"
+            },
+            {
+              "id": "3",
+              "text": "Normal High"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lawndale High"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What question do Daria and Quinn both answer in their first days in Mr. Demartinos class?",
+          "options": [
+            {
+              "id": "0",
+              "text": "What year did Columbus sail to America accidentally?"
+            },
+            {
+              "id": "1",
+              "text": "Who was our nations first president?"
+            },
+            {
+              "id": "2",
+              "text": "Which explorers discovered Greenland?"
+            },
+            {
+              "id": "3",
+              "text": "Explain the concept of Manifest Destiny"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Explain the concept of Manifest Destiny"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Donnas store partner with whom David breaks up at the end of the show Beverly Hills, 90210 so that he can be with Donna?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Janet"
+            },
+            {
+              "id": "1",
+              "text": "Camille"
+            },
+            {
+              "id": "2",
+              "text": "Ellen"
+            },
+            {
+              "id": "3",
+              "text": "Gina"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Camille"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "steve",
+          "attends",
+          "length",
+          "simpsons",
+          "donnas"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Friends and Seinfeld",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, mindys, seinfeld. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Doris Roberts, Raymonds mother in Everyone Loves Raymond, lived for a while in a house that was once owned by Marlon Brando.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played  the mother on the sitcom Rhoda?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Doris Roberts"
+            },
+            {
+              "id": "1",
+              "text": "Liz Sheridan"
+            },
+            {
+              "id": "2",
+              "text": "Nicolette Sheridan"
+            },
+            {
+              "id": "3",
+              "text": "Nancy Walker"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nancy Walker"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Kramers mother in Seinfeld?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yvette"
+            },
+            {
+              "id": "1",
+              "text": "Lola"
+            },
+            {
+              "id": "2",
+              "text": "Babs"
+            },
+            {
+              "id": "3",
+              "text": "Lainey"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Babs"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What were the names of Erics parents on That 70s Show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kitty and Bob"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Kitty and Reginald"
+            },
+            {
+              "id": "3",
+              "text": "Marie and  Ted"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kitty and Reginald"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Emmys did Peter Boyle win for his work on Everyone Loves Raymond?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "0"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 0"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these characters appeared on a billboard in Poppas Got a Brand New Badge, an episode of The Simpsons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Supt. Chalmers"
+            },
+            {
+              "id": "1",
+              "text": "Homer J. Simpson"
+            },
+            {
+              "id": "2",
+              "text": "Milhouse"
+            },
+            {
+              "id": "3",
+              "text": "Dr. Nick"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Supt. Chalmers"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In  Friends, who played Chandler Bings father?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elliot Gould"
+            },
+            {
+              "id": "1",
+              "text": "Bruce Willis"
+            },
+            {
+              "id": "2",
+              "text": "Tom Selleck"
+            },
+            {
+              "id": "3",
+              "text": "Kathleen Turner"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kathleen Turner"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Doris Roberts won her first Emmy Award for this show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Elsewhere"
+            },
+            {
+              "id": "1",
+              "text": "The Sunset Gang"
+            },
+            {
+              "id": "2",
+              "text": "Perfect Strangers"
+            },
+            {
+              "id": "3",
+              "text": "Everybody Loves Raymond"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: St. Elsewhere"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Jerrys fathers first name in Seinfeld?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank"
+            },
+            {
+              "id": "1",
+              "text": "Ian"
+            },
+            {
+              "id": "2",
+              "text": "Morty"
+            },
+            {
+              "id": "3",
+              "text": "Lainey"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Morty"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Nora Tyler Bing, Chandlers mother in Friends?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morgan Fairchild"
+            },
+            {
+              "id": "1",
+              "text": "Christina Pickles"
+            },
+            {
+              "id": "2",
+              "text": "Kathleen Turner"
+            },
+            {
+              "id": "3",
+              "text": "Deborah Jo Rupp"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Morgan Fairchild"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The actress who played Jerrys mother in Seinfeld was once engaged to Marlon Brando.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Mindys father in Mork and Mindy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Conrad"
+            },
+            {
+              "id": "1",
+              "text": "Conrad Bain"
+            },
+            {
+              "id": "2",
+              "text": "William Conrad"
+            },
+            {
+              "id": "3",
+              "text": "Conrad Janis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Conrad Janis"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the episode of The Simpsons See Homer Run, who put up a commercial against Homers Campaign?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Crazy Cat Lady"
+            },
+            {
+              "id": "1",
+              "text": "Waylon Smithers"
+            },
+            {
+              "id": "2",
+              "text": "Mayor Quimby"
+            },
+            {
+              "id": "3",
+              "text": "Kent Brockman"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Waylon Smithers"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Rachels father in Friends?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom Selleck"
+            },
+            {
+              "id": "1",
+              "text": "Elliot Gould"
+            },
+            {
+              "id": "2",
+              "text": "Ron Leibman"
+            },
+            {
+              "id": "3",
+              "text": "Kathleen Turner"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ron Leibman"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which couple portrayed Jack and Judy Gellar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron Leibman and Kathleen Turner"
+            },
+            {
+              "id": "1",
+              "text": "Elliot Gould and Kathleen Turner"
+            },
+            {
+              "id": "2",
+              "text": "Elliot Gould and Christina Pickles"
+            },
+            {
+              "id": "3",
+              "text": "Ron Leibman and Morgan Fairchild"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Elliot Gould and Christina Pickles"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "mindys",
+          "seinfeld",
+          "poppas",
+          "chandlers",
+          "everyone"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Father and Nathan",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, network. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor played Lavernes father on Happy Days.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tom Bosley"
+            },
+            {
+              "id": "1",
+              "text": "Robert Conely"
+            },
+            {
+              "id": "2",
+              "text": "David Huddleston"
+            },
+            {
+              "id": "3",
+              "text": "Phil Foster"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Phil Foster"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Nathans jersey number?",
+          "options": [
+            {
+              "id": "0",
+              "text": "26"
+            },
+            {
+              "id": "1",
+              "text": "22"
+            },
+            {
+              "id": "2",
+              "text": "23"
+            },
+            {
+              "id": "3",
+              "text": "21"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 23"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rick Schroder played the son. Erin Gray played the girlfriend. Alfonso Rubiero and Jason Bateman played  friends. Who played the father on Silver Spoons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joel Higgins"
+            },
+            {
+              "id": "1",
+              "text": "Franklyn Seales"
+            },
+            {
+              "id": "2",
+              "text": "Frank Howard"
+            },
+            {
+              "id": "3",
+              "text": "Jed Housemann"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Joel Higgins"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Was Nathan one of the reason for Lucas to go back to Tree Hill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What network does One Tree Hill air on?",
+          "options": [
+            {
+              "id": "0",
+              "text": "NBC"
+            },
+            {
+              "id": "1",
+              "text": "ABC"
+            },
+            {
+              "id": "2",
+              "text": "Fox"
+            },
+            {
+              "id": "3",
+              "text": "The WB"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The WB"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She played the mother in Malcolm in the Middle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Killer Kowalski"
+            },
+            {
+              "id": "1",
+              "text": "Jane Kaczmarek"
+            },
+            {
+              "id": "2",
+              "text": "Jane Krakowski"
+            },
+            {
+              "id": "3",
+              "text": "Jane Krasinski"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jane Kaczmarek"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did Nathan give to Haley their first tutor session?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ring"
+            },
+            {
+              "id": "1",
+              "text": "Earrings"
+            },
+            {
+              "id": "2",
+              "text": "Bracelet"
+            },
+            {
+              "id": "3",
+              "text": "Toy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bracelet"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He portrayed Bill Cosbys father  on The Bill Cosby Show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Geoffrey Owens"
+            },
+            {
+              "id": "1",
+              "text": "Allan Sherwood"
+            },
+            {
+              "id": "2",
+              "text": "Earle Hyman"
+            },
+            {
+              "id": "3",
+              "text": "Bill Cosby"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Earle Hyman"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the relationship between Lucas and Nathan?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Half-brothers"
+            },
+            {
+              "id": "1",
+              "text": "Father and son"
+            },
+            {
+              "id": "2",
+              "text": "Uncle and nephew"
+            },
+            {
+              "id": "3",
+              "text": "Brothers"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Half-brothers"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Peyton going out with in the very first episode?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lucas"
+            },
+            {
+              "id": "1",
+              "text": "Mouth"
+            },
+            {
+              "id": "2",
+              "text": "Nathan"
+            },
+            {
+              "id": "3",
+              "text": "Jake"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nathan"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She played the mother on Family Matters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Debra Jo Rupp"
+            },
+            {
+              "id": "1",
+              "text": "Debra Paget"
+            },
+            {
+              "id": "2",
+              "text": "Jo Marie Payton"
+            },
+            {
+              "id": "3",
+              "text": "Joan Marie Paget"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jo Marie Payton"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Taylor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nathans sister"
+            },
+            {
+              "id": "1",
+              "text": "Haleys friend"
+            },
+            {
+              "id": "2",
+              "text": "Nathans friend"
+            },
+            {
+              "id": "3",
+              "text": "Haleys sister"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Haleys sister"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He played the father on Family Matters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reginald  Valentine"
+            },
+            {
+              "id": "1",
+              "text": "Daniel Joel Clayton"
+            },
+            {
+              "id": "2",
+              "text": "Al Powell"
+            },
+            {
+              "id": "3",
+              "text": "Reginald VelJohnson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Reginald VelJohnson"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of business does Karen own?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cafe"
+            },
+            {
+              "id": "1",
+              "text": "Candle shop"
+            },
+            {
+              "id": "2",
+              "text": "Hardware store"
+            },
+            {
+              "id": "3",
+              "text": "Sporting goods store"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cafe"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Jakes daughters name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jessica"
+            },
+            {
+              "id": "1",
+              "text": "Jamie"
+            },
+            {
+              "id": "2",
+              "text": "Jenny"
+            },
+            {
+              "id": "3",
+              "text": "Jill"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jenny"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "network",
+          "hill",
+          "session",
+          "lavernes"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Series and Tree Hill",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, condition, whitford. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the TV show The West Wing, this was the presidents catch phrase when he was ready to move on to another topic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lets move it"
+            },
+            {
+              "id": "1",
+              "text": "Whats next?"
+            },
+            {
+              "id": "2",
+              "text": "Alright already"
+            },
+            {
+              "id": "3",
+              "text": "Lets go, gang"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Whats next?"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did the initials CJ stand for in the name of CJ Cregg, the press secretary on The West Wing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Catherine Joan"
+            },
+            {
+              "id": "1",
+              "text": "Claudia Jean"
+            },
+            {
+              "id": "2",
+              "text": "Carol Jane"
+            },
+            {
+              "id": "3",
+              "text": "Cynthia Jeanne"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Claudia Jean"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which fictional character in the TV series One Tree Hill was nicknamed Whitey?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alex Durham"
+            },
+            {
+              "id": "1",
+              "text": "Brandon Durham"
+            },
+            {
+              "id": "2",
+              "text": "Brian Durham"
+            },
+            {
+              "id": "3",
+              "text": "David Durham"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Brian Durham"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What character did Bradley Whitford play in this series The West Wing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sam Seaborn"
+            },
+            {
+              "id": "1",
+              "text": "Toby Ziegler"
+            },
+            {
+              "id": "2",
+              "text": "Josh Molina"
+            },
+            {
+              "id": "3",
+              "text": "Josh Lyman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Josh Lyman"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the TV series One Tree Hill, Haley is married to Lucas.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the TV series One Tree Hill, Peyton Sawyer dated which of these characters?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jake"
+            },
+            {
+              "id": "1",
+              "text": "Nathan"
+            },
+            {
+              "id": "2",
+              "text": "Lucas"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The popular TV show One Tree Hill is set in what state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Florida"
+            },
+            {
+              "id": "1",
+              "text": "Georgia"
+            },
+            {
+              "id": "2",
+              "text": "South Carolina"
+            },
+            {
+              "id": "3",
+              "text": "North Carolina"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: North Carolina"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the place Karen owns in the TV series One Tree Hill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Karens boutique"
+            },
+            {
+              "id": "1",
+              "text": "Karens dinner"
+            },
+            {
+              "id": "2",
+              "text": "Karens restaurant"
+            },
+            {
+              "id": "3",
+              "text": "Karens cafe"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Karens cafe"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lucas has a heart condition.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who created the multiple award winning series The West Wing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tommy Schalamme"
+            },
+            {
+              "id": "1",
+              "text": "Robert M. Silverton"
+            },
+            {
+              "id": "2",
+              "text": "Carl Reiner"
+            },
+            {
+              "id": "3",
+              "text": "Aaron Sorkin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Aaron Sorkin"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This character, portrayed by Craig Sheffer on the television show One Tree Hill, is Dans elder brother.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Keith"
+            },
+            {
+              "id": "1",
+              "text": "Rick"
+            },
+            {
+              "id": "2",
+              "text": "Lucas"
+            },
+            {
+              "id": "3",
+              "text": "Cooper"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Keith"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What song was performed by Bethany Joy Lenz and Tyler Hilton in the series One Tree Hill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Someday"
+            },
+            {
+              "id": "1",
+              "text": "We Were Made For Each Other"
+            },
+            {
+              "id": "2",
+              "text": "When Will You Love Me"
+            },
+            {
+              "id": "3",
+              "text": "When The Stars Go Blue"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: When The Stars Go Blue"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the TV seres One Tree Hill, Dan killed Keith.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Martin Sheen created his original method of putting on his suit jacket for the series The West Wing.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Nathans mother on the TV show One Tree Hill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hailey"
+            },
+            {
+              "id": "1",
+              "text": "Deb"
+            },
+            {
+              "id": "2",
+              "text": "Monica"
+            },
+            {
+              "id": "3",
+              "text": "Karen"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Deb"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "condition",
+          "whitford",
+          "craig",
+          "hill",
+          "bradley"
+        ]
+      }
+    }
+  ]
+}

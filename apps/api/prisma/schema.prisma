@@ -1,0 +1,207 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User Management Tables
+model User {
+  id              String    @id @default(uuid()) @db.Uuid
+  auth0Id         String?   @unique @map("auth0_id") @db.VarChar(255)
+  email           String    @unique @db.VarChar(255)
+  name            String?   @db.VarChar(255)
+  picture         String?   @db.VarChar(2048)
+  emailVerified   Boolean   @default(false) @map("email_verified")
+  createdAt       DateTime  @default(now()) @map("created_at")
+  updatedAt       DateTime  @updatedAt @map("updated_at")
+  lastLogin       DateTime? @map("last_login")
+  profileData     Json      @default("{}") @map("profile_data")
+
+  // Relations
+  quizzes         Quiz[]
+  threads         Thread[]
+  hostedRooms     QuizRoom[]       @relation(name: "HostUserRooms")
+  roomMemberships QuizRoomMember[] @relation(name: "UserRoomMemberships")
+  answers         QuizAnswer[]     @relation(name: "UserAnswers")
+
+  @@map("users")
+}
+
+// Removed legacy UserSession; Auth0 manages sessions and refresh tokens
+
+// Tag Management
+model Tag {
+  id          String   @id @default(uuid()) @db.Uuid
+  name        String   @db.VarChar(100)
+  slug        String   @db.VarChar(100)
+  isPrimary   Boolean  @default(false) @map("is_primary")
+  icon        String?  @db.VarChar(50)
+  color       String?  @db.VarChar(50)
+  description String?  @db.Text
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  quizzes QuizTag[]
+
+  @@unique([name, isPrimary])
+  @@unique([slug, isPrimary])
+  @@map("tags")
+}
+
+// Quiz Management Tables
+model Quiz {
+  id               String      @id @default(uuid()) @db.Uuid
+  userId           String      @map("user_id") @db.Uuid
+  title            String      @db.VarChar(255)
+  description      String?     @db.Text
+  difficulty       String      @default("medium") @db.VarChar(50)
+  timeLimit        Int         @default(1800) @map("time_limit") // seconds
+  totalQuestions   Int         @map("total_questions")
+  quizData         Json        @map("quiz_data") // Full quiz content
+  status           String      @default("draft") @db.VarChar(50) // draft, published, archived
+  createdAt        DateTime    @default(now()) @map("created_at")
+  updatedAt        DateTime    @updatedAt @map("updated_at")
+  publishedAt      DateTime?   @map("published_at")
+  version          Int         @default(1)
+  imageUrl         String?      @db.VarChar(2048) @map("image_url")
+  // Relations
+  user            User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  versions        QuizVersion[]
+  threads         Thread[]
+  rooms           QuizRoom[]       @relation(name: "QuizToRooms")
+  tags            QuizTag[]
+
+  @@map("quizzes")
+}
+
+// Quiz-Tag relationship
+model QuizTag {
+  quizId    String   @map("quiz_id") @db.Uuid
+  tagId     String   @map("tag_id") @db.Uuid
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relations
+  quiz Quiz @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  tag  Tag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([quizId, tagId])
+  @@map("quiz_tags")
+}
+
+model QuizVersion {
+  id             String   @id @default(uuid()) @db.Uuid
+  quizId         String   @map("quiz_id") @db.Uuid
+  version        Int
+  quizData       Json     @map("quiz_data")
+  changeSummary  String?  @map("change_summary") @db.Text
+  createdAt      DateTime @default(now()) @map("created_at")
+  createdBy      String   @map("created_by") @db.Uuid
+
+  // Relations
+  quiz Quiz @relation(fields: [quizId], references: [id], onDelete: Cascade)
+
+  @@map("quiz_versions")
+}
+
+// Thread Management Tables
+model Thread {
+  id             String    @id @default(uuid()) @db.Uuid
+  userId         String    @map("user_id") @db.Uuid
+  redisThreadId  String?   @map("redis_thread_id") @db.VarChar(100) // Link to Redis thread
+  title          String?   @db.VarChar(255)
+  status         String    @default("active") @db.VarChar(50) // active, completed, archived
+  quizId         String?   @map("quiz_id") @db.Uuid
+  createdAt      DateTime  @default(now()) @map("created_at")
+  updatedAt      DateTime  @updatedAt @map("updated_at")
+  expiresAt      DateTime? @map("expires_at")
+  contextData    Json      @default("{}") @map("context_data")
+
+  // Relations
+  user     User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  quiz     Quiz?           @relation(fields: [quizId], references: [id], onDelete: SetNull)
+  messages ThreadMessage[]
+
+  @@map("threads")
+}
+
+model ThreadMessage {
+  id             String   @id @default(uuid()) @db.Uuid
+  threadId       String   @map("thread_id") @db.Uuid
+  role           String   @db.VarChar(50) // 'user', 'assistant', 'system'
+  content        String   @db.Text
+  metadata       Json     @default("{}")
+  createdAt      DateTime @default(now()) @map("created_at")
+  sequenceNumber Int      @map("sequence_number")
+
+  // Relations
+  thread Thread @relation(fields: [threadId], references: [id], onDelete: Cascade)
+
+  @@map("thread_messages")
+}
+
+// Realtime Quiz Room Tables (align with Go realtime service)
+model QuizRoom {
+  id         String   @id @default(uuid()) @db.Uuid
+  pin        String   @unique @db.Char(6)
+  hostUserId String   @map("host_user_id") @db.Uuid
+  quizId     String   @map("quiz_id") @db.Uuid
+  status     String   @default("lobby") @db.VarChar(50) // lobby, question, reveal, ended
+  settings   Json     @default("{}") @map("settings_json")
+  createdAt  DateTime @default(now()) @map("created_at")
+  startedAt  DateTime? @map("started_at")
+  endedAt    DateTime? @map("ended_at")
+  closedAt   DateTime? @map("closed_at")
+
+  // Relations
+  hostUser User        @relation(name: "HostUserRooms", fields: [hostUserId], references: [id], onDelete: Cascade)
+  quiz     Quiz        @relation(name: "QuizToRooms", fields: [quizId], references: [id], onDelete: Cascade)
+  members  QuizRoomMember[] @relation(name: "RoomMembers")
+  answers  QuizAnswer[]     @relation(name: "RoomAnswers")
+
+  @@map("quiz_rooms")
+}
+
+model QuizRoomMember {
+  id         String    @id @default(uuid()) @db.Uuid
+  roomId     String    @map("room_id") @db.Uuid
+  userId     String    @map("user_id") @db.Uuid
+  displayName String   @map("display_name") @db.VarChar(100)
+  role       String    @default("player") @db.VarChar(20) // host or player
+  joinedAt   DateTime  @default(now()) @map("joined_at")
+  leftAt     DateTime? @map("left_at")
+  kickedBy   String?   @map("kicked_by") @db.Uuid
+  kickReason String?   @map("kick_reason") @db.Text
+
+  // Relations
+  room QuizRoom @relation(name: "RoomMembers", fields: [roomId], references: [id], onDelete: Cascade)
+  user User     @relation(name: "UserRoomMemberships", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([roomId, userId])
+  @@map("quiz_room_members")
+}
+
+model QuizAnswer {
+  id            String   @id @default(uuid()) @db.Uuid
+  roomId        String   @map("room_id") @db.Uuid
+  userId        String   @map("user_id") @db.Uuid
+  questionIndex Int      @map("question_index")
+  answer        String   @db.Text
+  answerTimeMs  BigInt   @map("answer_time_ms")
+  scoreDelta    Int      @default(0) @map("score_delta")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  // Relations
+  room QuizRoom @relation(name: "RoomAnswers", fields: [roomId], references: [id], onDelete: Cascade)
+  user User     @relation(name: "UserAnswers", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([roomId, questionIndex])
+  @@index([roomId, userId])
+  @@map("quiz_answers")
+}

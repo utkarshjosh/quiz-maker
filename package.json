@@ -1,0 +1,44 @@
+{
+  "name": "quiz-maker",
+  "version": "1.0.0",
+  "description": "Quiz Maker Application - Modular, scalable, extensible architecture",
+  "private": true,
+  "workspaces": [
+    "apps/api",
+    "apps/web",
+    "services/quiz-generator",
+    "pkg/ts"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "commit": "git-cz",
+    "dev:api": "cd apps/api && npm run dev",
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:quiz-gen": "cd services/quiz-generator && npm run dev",
+    "build:api": "cd apps/api && npm run build",
+    "build:web": "cd apps/web && npm run build",
+    "build:quiz-gen": "cd services/quiz-generator && npm run build",
+    "build:all": "npm run build:api && npm run build:web && npm run build:quiz-gen",
+    "test:api": "cd apps/api && npm test",
+    "test:web": "cd apps/web && npm test",
+    "test:quiz-gen": "cd services/quiz-generator && npm test",
+    "test:all": "npm run test:api && npm run test:web && npm run test:quiz-gen",
+    "lint:api": "cd apps/api && npm run lint",
+    "lint:web": "cd apps/web && npm run lint",
+    "lint:quiz-gen": "cd services/quiz-generator && npm run lint",
+    "lint:all": "npm run lint:api && npm run lint:web && npm run lint:quiz-gen"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
+    "commitizen": "^4.3.0",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^13.2.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

@@ -1,0 +1,304 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Playful Quiz Game Design System - Using DaisyUI Colors */
+
+@layer base {
+  :root {
+    /* Override DaisyUI base colors with CSS variables */
+    --fallback-b1: #fefefe; /* Off-white background */
+    --fallback-b2: #f9fafb; /* Light gray for subtle backgrounds */
+    --fallback-b3: #e5e7eb; /* Medium gray for borders */
+    --fallback-bc: #475569; /* Slate gray text */
+
+    /* Override shadcn/ui CSS variables to use DaisyUI colors */
+    --background: #fefefe; /* Off-white */
+    --foreground: #475569; /* Slate gray */
+    --card: #ffffff; /* Pure white for cards */
+    --card-foreground: #475569; /* Slate gray text */
+    --popover: #ffffff; /* Pure white for popovers */
+    --popover-foreground: #475569; /* Slate gray text */
+    --primary: #6577ff; /* Playful blue */
+    --primary-foreground: #ffffff; /* White text */
+    --secondary: #38bdf8; /* Light sky blue */
+    --secondary-foreground: #ffffff; /* White text */
+    --muted: #f9fafb; /* Soft off-white */
+    --muted-foreground: #6b7280; /* Medium gray */
+    --accent: #facc15; /* Cheerful yellow */
+    --accent-foreground: #000000; /* Black text on yellow */
+    --destructive: #ef4444; /* Red */
+    --destructive-foreground: #ffffff; /* White text */
+    --border: #e5e7eb; /* Light gray borders */
+    --input: #e5e7eb; /* Light gray inputs */
+    --ring: #38bdf8; /* Sky blue focus ring */
+    --radius: 0.5rem;
+
+    /* Quiz-specific colors */
+    --quiz-pink: #ec4899; /* Pink for quiz elements */
+    --quiz-blue: #3b82f6; /* Blue for quiz elements */
+    --quiz-yellow: #f59e0b; /* Yellow for quiz elements */
+    --quiz-green: #10b981; /* Green for quiz elements */
+
+    /* Logo and brand colors with contrast calculation */
+    --logo-primary: #6577ff; /* Main logo color */
+    --logo-secondary: #38bdf8; /* Secondary logo color */
+    --logo-accent: #facc15; /* Accent logo color */
+
+    /* Contrast colors - automatically calculated */
+    --logo-primary-contrast: #ffffff; /* White on primary */
+    --logo-secondary-contrast: #ffffff; /* White on secondary */
+    --logo-accent-contrast: #000000; /* Black on accent */
+
+    /* Gradient colors for logo */
+    --logo-gradient-start: #6577ff;
+    --logo-gradient-middle: #38bdf8;
+    --logo-gradient-end: #facc15;
+
+    /* Quiz-specific variables that complement DaisyUI */
+    --quiz-shadow:
+      0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    --quiz-shadow-hover:
+      0 20px 30px -8px rgba(0, 0, 0, 0.15), 0 10px 15px -8px rgba(0, 0, 0, 0.1);
+
+    /* Animation durations */
+    --animation-fast: 0.2s;
+    --animation-medium: 0.3s;
+    --animation-slow: 0.5s;
+  }
+
+  body {
+    @apply bg-base-100 text-base-content font-sans;
+    background-color: #fefefe; /* Off-white background */
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23a8b0c3' fill-opacity='0.1'%3E%3Cpath d='M10 0l4 4-4 4-4-4 4-4z'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 20px 20px;
+    background-repeat: repeat;
+    /* Prevent horizontal overflow and layout shifts */
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  /* Override DaisyUI base colors with CSS variables */
+  [data-theme="quizchamp"] {
+    --fallback-b1: #fefefe; /* base-100 */
+    --fallback-b2: #f9fafb; /* base-200 */
+    --fallback-b3: #e5e7eb; /* base-300 */
+    --fallback-bc: #475569; /* base-content */
+  }
+
+  /* Prevent horizontal layout shifts */
+  html {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* Ensure consistent layout for main containers */
+  .container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar for carousels */
+  .quiz-carousel::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  .quiz-carousel::-webkit-scrollbar-track {
+    @apply bg-base-200 rounded-full;
+  }
+
+  .quiz-carousel::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in 0.5s ease-out forwards;
+}
+
+@keyframes float-slow {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(10deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@keyframes float-medium {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(-15deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@keyframes float-fast {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-40px) rotate(20deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+.animate-float {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.float-slow {
+  animation: float-slow 8s infinite;
+}
+
+.float-medium {
+  animation: float-medium 6s infinite;
+}
+
+.float-fast {
+  animation: float-fast 4s infinite;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-fade-out {
+  animation: fade-out 0.5s ease-in forwards;
+}
+
+@layer components {
+  /* Quiz card hover effects */
+  .quiz-card {
+    @apply transition-all duration-300 hover:scale-105;
+    box-shadow: var(--quiz-shadow);
+  }
+
+  .quiz-card:hover {
+    box-shadow: var(--quiz-shadow-hover);
+  }
+
+  /* Badge styles */
+  .quiz-badge {
+    @apply badge font-semibold text-xs px-2 py-1 shadow-sm;
+  }
+
+  /* Category icon styles */
+  .category-icon {
+    @apply transition-transform duration-200 hover:scale-110;
+  }
+
+  /* Smooth carousel scrolling */
+  .quiz-carousel {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--primary)) hsl(var(--base-200));
+  }
+
+  /* Logo styles with dynamic contrast */
+  .logo-primary {
+    color: var(--logo-primary);
+  }
+
+  .logo-secondary {
+    color: var(--logo-secondary);
+  }
+
+  .logo-accent {
+    color: var(--logo-accent);
+  }
+
+  .logo-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--logo-gradient-start) 0%,
+      var(--logo-gradient-middle) 50%,
+      var(--logo-gradient-end) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    letter-spacing: 0.05em;
+    transform: skew(-2deg);
+    transition: all 0.3s ease;
+  }
+
+  .logo-gradient:hover {
+    transform: skew(-2deg) scale(1.05);
+    filter: brightness(1.1);
+  }
+
+  .logo-gradient-bg {
+    background: linear-gradient(
+      135deg,
+      var(--logo-gradient-start) 0%,
+      var(--logo-gradient-middle) 50%,
+      var(--logo-gradient-end) 100%
+    );
+  }
+
+  /* Dynamic contrast calculation using CSS */
+  .logo-contrast-primary {
+    color: var(--logo-primary-contrast);
+    background-color: var(--logo-primary);
+  }
+
+  .logo-contrast-secondary {
+    color: var(--logo-secondary-contrast);
+    background-color: var(--logo-secondary);
+  }
+
+  .logo-contrast-accent {
+    color: var(--logo-accent-contrast);
+    background-color: var(--logo-accent);
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@quiz-maker/ts",
+  "version": "1.0.0",
+  "description": "Shared TypeScript libraries for Quiz Maker",
+  "private": true,
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint . --ext .ts",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
+

@@ -1,0 +1,2460 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Forrest Gump and Movie",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, line, seventeen. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Finish this line delivered by Forrest Gump when he was asking Jenny to marry him. I may not be smart man....",
+          "options": [
+            {
+              "id": "0",
+              "text": "....but I know what love is."
+            },
+            {
+              "id": "1",
+              "text": "....but I know how to love."
+            },
+            {
+              "id": "2",
+              "text": "....but I will make a good husband."
+            },
+            {
+              "id": "3",
+              "text": "....but I will love you forever."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: ....but I know what love is."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What brand of running shoes did fictional character Forrest Gump like to wear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nike"
+            },
+            {
+              "id": "1",
+              "text": "Puma"
+            },
+            {
+              "id": "2",
+              "text": "Reebok"
+            },
+            {
+              "id": "3",
+              "text": "Saucony"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nike"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did the 1994 movie Forrest Gump win an Oscar for Best Picture?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who directed the classic movie The Sound of Music?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Wise"
+            },
+            {
+              "id": "1",
+              "text": "Fred Zinnemann"
+            },
+            {
+              "id": "2",
+              "text": "Billy Wilder"
+            },
+            {
+              "id": "3",
+              "text": "Frank Capra"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Wise"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city was movie character Forrest Gump born and raised in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Greenbow, Alabama"
+            },
+            {
+              "id": "1",
+              "text": "Jackson, Mississippi"
+            },
+            {
+              "id": "2",
+              "text": "Greenville, Alabama"
+            },
+            {
+              "id": "3",
+              "text": "Cleveland, Alabama"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Greenbow, Alabama"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What were the names of the policeman and the cab driver in the movie Its a Wonderful Life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bert and Ernie"
+            },
+            {
+              "id": "1",
+              "text": "Dave and Bill"
+            },
+            {
+              "id": "2",
+              "text": "Steven and Casey"
+            },
+            {
+              "id": "3",
+              "text": "Joe and Jim"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bert and Ernie"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won an Academy Award as the director of Forrest Gump?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stephen Spielberg"
+            },
+            {
+              "id": "1",
+              "text": "Robert Zemeckis"
+            },
+            {
+              "id": "2",
+              "text": "Ron Howard"
+            },
+            {
+              "id": "3",
+              "text": "Rob Reiner"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Zemeckis"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Liesls boyfriend who was Sixteen Going On Seventeen in the movie The Sound of Music?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Georg"
+            },
+            {
+              "id": "1",
+              "text": "Hans"
+            },
+            {
+              "id": "2",
+              "text": "Rolf"
+            },
+            {
+              "id": "3",
+              "text": "Max"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rolf"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The movie Forrest Gump was based on a novel published several years before the movie was released.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Haley Joel Osment played Forrest Gumps son in the popular movie.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Its a Wonderful Life, what was Clarences rank?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A.I.T- Angel in Training"
+            },
+            {
+              "id": "1",
+              "text": "rookie"
+            },
+            {
+              "id": "2",
+              "text": "AS2-Angel Second Class"
+            },
+            {
+              "id": "3",
+              "text": "A2C-Angel Second Class"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: AS2-Angel Second Class"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Sound of Music, the von Trapp Family Singers perform at the Austrian Folk Festival to use as a means to escape the Nazis.  Where did the von Trapp Family Singers place in the competition?",
+          "options": [
+            {
+              "id": "0",
+              "text": "first"
+            },
+            {
+              "id": "1",
+              "text": "they did not place"
+            },
+            {
+              "id": "2",
+              "text": "second"
+            },
+            {
+              "id": "3",
+              "text": "third"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: first"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Forrest Gump describes to Jenny all the beautiful scenes he saw while he was running across America. She said she wished she could have been there with him. What does Forrest say in response?",
+          "options": [
+            {
+              "id": "0",
+              "text": "You were."
+            },
+            {
+              "id": "1",
+              "text": "Me too."
+            },
+            {
+              "id": "2",
+              "text": "But you dont like to run Jenny."
+            },
+            {
+              "id": "3",
+              "text": "Okay."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: You were."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Farmer Teds nickname in the movie Sixteen Candles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Geek"
+            },
+            {
+              "id": "1",
+              "text": "The Spaz"
+            },
+            {
+              "id": "2",
+              "text": "The Dork"
+            },
+            {
+              "id": "3",
+              "text": "The Nerd"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Geek"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Forrest Gump had to ask Jenny to marry him twice before she finally said yes to him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "line",
+          "seventeen",
+          "director",
+          "joel",
+          "rank"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Movie and Goonies",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, failure, jock. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what city of Oregon was the movie The Goonies set and filmed in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ashland"
+            },
+            {
+              "id": "1",
+              "text": "Oregon City"
+            },
+            {
+              "id": "2",
+              "text": "Astoria"
+            },
+            {
+              "id": "3",
+              "text": "Salem"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Astoria"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the bartender at Martinis featured in the movie Its a Wonderful Life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim"
+            },
+            {
+              "id": "1",
+              "text": "Nick"
+            },
+            {
+              "id": "2",
+              "text": "Joe"
+            },
+            {
+              "id": "3",
+              "text": "Mac"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nick"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did the movie The Goonies hit the big screen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1982"
+            },
+            {
+              "id": "1",
+              "text": "1987"
+            },
+            {
+              "id": "2",
+              "text": "1984"
+            },
+            {
+              "id": "3",
+              "text": "1985"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1985"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the crime team that chases the group throughout the movie The Goonies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Manatellis"
+            },
+            {
+              "id": "1",
+              "text": "The Macellis"
+            },
+            {
+              "id": "2",
+              "text": "The Frangellis"
+            },
+            {
+              "id": "3",
+              "text": "The Fratellis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Fratellis"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the film The Goonies, what is the name of Mrs. Walshs Hispanic maid who doesnt speak a word of English?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Selena"
+            },
+            {
+              "id": "1",
+              "text": "Maria"
+            },
+            {
+              "id": "2",
+              "text": "Rosalita"
+            },
+            {
+              "id": "3",
+              "text": "Rosanna"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rosalita"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the explorer The Goonies find in the caves in the self-titled movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chester Copperfield"
+            },
+            {
+              "id": "1",
+              "text": "Chester Copperpot"
+            },
+            {
+              "id": "2",
+              "text": "Charlie Copperfield"
+            },
+            {
+              "id": "3",
+              "text": "Charlie Copperpot"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Chester Copperpot"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did the developers want to turn the Goon Docks into in the movie The Goonies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amusement Park"
+            },
+            {
+              "id": "1",
+              "text": "Parking Garage"
+            },
+            {
+              "id": "2",
+              "text": "Golf Course"
+            },
+            {
+              "id": "3",
+              "text": "Shopping Mall"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Golf Course"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Andys jock boyfriend in the movie The Goonies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walt"
+            },
+            {
+              "id": "1",
+              "text": "Brandon"
+            },
+            {
+              "id": "2",
+              "text": "Troy"
+            },
+            {
+              "id": "3",
+              "text": "Tommy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Troy"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What member of  the classic Our Gang comedies had a bit part in the movie Its a Wonderful Life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Darla"
+            },
+            {
+              "id": "1",
+              "text": "Spanky"
+            },
+            {
+              "id": "2",
+              "text": "Buckwheat"
+            },
+            {
+              "id": "3",
+              "text": "Alfalfa"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alfalfa"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Mary Baileys maiden name in the 1946 classic Its a Wonderful Life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lamb"
+            },
+            {
+              "id": "1",
+              "text": "Reed"
+            },
+            {
+              "id": "2",
+              "text": "Hatch"
+            },
+            {
+              "id": "3",
+              "text": "Wilson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hatch"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Chunks real name in the movie The Goonies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lawrence"
+            },
+            {
+              "id": "1",
+              "text": "Bobby"
+            },
+            {
+              "id": "2",
+              "text": "Clark"
+            },
+            {
+              "id": "3",
+              "text": "Chuck"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lawrence"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Chunk from the movie The Goonies is locked up with scary Sloth he throws what kind of candy bar at him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Baby Ruth"
+            },
+            {
+              "id": "1",
+              "text": "Hersey Bar"
+            },
+            {
+              "id": "2",
+              "text": "Snickers"
+            },
+            {
+              "id": "3",
+              "text": "Milky Way"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Baby Ruth"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Remember George: No man is a failure who has friends is the beginning of an inscription in a book given to George in the movie Its a Wonderful Life. What is the rest of the inscription?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its a wonderful life"
+            },
+            {
+              "id": "1",
+              "text": "Did you hear that bell?"
+            },
+            {
+              "id": "2",
+              "text": "Thanks for the wings"
+            },
+            {
+              "id": "3",
+              "text": "Hold your friends close"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Thanks for the wings"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie The Goonies, what does Andys boyfriend call her when she refuses to come up out of the well?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Trader"
+            },
+            {
+              "id": "1",
+              "text": "A Slut"
+            },
+            {
+              "id": "2",
+              "text": "A Brat"
+            },
+            {
+              "id": "3",
+              "text": "A Goonie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A Goonie"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie The Goonies, Mouth denies Chunk access into the Walsh house unless he does what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shakes his fat belly"
+            },
+            {
+              "id": "1",
+              "text": "Tells a story"
+            },
+            {
+              "id": "2",
+              "text": "Says Mouth is the Master"
+            },
+            {
+              "id": "3",
+              "text": "Does 1 push up"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Shakes his fat belly"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "failure",
+          "jock",
+          "docks",
+          "crime",
+          "goon"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Film and Character",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, actor, karate. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Kiefer Sutherlands character in the 1986 film Stand by Me?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gordy"
+            },
+            {
+              "id": "1",
+              "text": "Teddy"
+            },
+            {
+              "id": "2",
+              "text": "Denny"
+            },
+            {
+              "id": "3",
+              "text": "Ace"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ace"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character from the 1984 horror film A Nightmare on Elm Street was the first to die?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Glen"
+            },
+            {
+              "id": "1",
+              "text": "Tina"
+            },
+            {
+              "id": "2",
+              "text": "Nancy"
+            },
+            {
+              "id": "3",
+              "text": "Rod"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tina"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the pirate that the Goonies are searching for in the self-titled movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boot-strapped Billie"
+            },
+            {
+              "id": "1",
+              "text": "One-Eyed Billie"
+            },
+            {
+              "id": "2",
+              "text": "Boot-Strapped Willie"
+            },
+            {
+              "id": "3",
+              "text": "One-Eyed Willie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: One-Eyed Willie"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1987 thriller Fatal Attraction, what is the occupation of Michael Douglas character Dan Gallagher?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Doctor"
+            },
+            {
+              "id": "1",
+              "text": "Book publisher"
+            },
+            {
+              "id": "2",
+              "text": "Ad executive"
+            },
+            {
+              "id": "3",
+              "text": "Attorney"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Attorney"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actor played the role of Mr. Rooney, the high school principal, in the 1986 comedy Ferris Buellers Day Off?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jeffery Jones"
+            },
+            {
+              "id": "1",
+              "text": "Charlie Sheen"
+            },
+            {
+              "id": "2",
+              "text": "Matthew Broderick"
+            },
+            {
+              "id": "3",
+              "text": "Alan Ruck"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jeffery Jones"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the film The Goonies, when Andy goes into one of the dark caves, who does she kiss?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mikey"
+            },
+            {
+              "id": "1",
+              "text": "Brand"
+            },
+            {
+              "id": "2",
+              "text": "Mouth"
+            },
+            {
+              "id": "3",
+              "text": "Data"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mikey"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does Chunks family bring to the beach in the film The Goonies, as the rescue party arrives to claim all of the gang?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cookies"
+            },
+            {
+              "id": "1",
+              "text": "McDonalds"
+            },
+            {
+              "id": "2",
+              "text": "Pizza"
+            },
+            {
+              "id": "3",
+              "text": "Donuts"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pizza"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1985 movie Pee-Wees Big Adventure, who befriends Pee-Wee and takes him up inside a  dinosaur statue to watch the sunset?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dottie"
+            },
+            {
+              "id": "1",
+              "text": "Francis"
+            },
+            {
+              "id": "2",
+              "text": "Large Marge"
+            },
+            {
+              "id": "3",
+              "text": "Simone"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Simone"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Actors Anthony Michael-Hall and Molly Ringwald were dating during the filming of the 1985 classic comedy movie The Breakfast Club.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these characters from the 1984 movie The Karate Kid, was NOT a member of the Cobra Kai?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bobby"
+            },
+            {
+              "id": "1",
+              "text": "Johnny"
+            },
+            {
+              "id": "2",
+              "text": "Freddy"
+            },
+            {
+              "id": "3",
+              "text": "Tommy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Freddy"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Chunk gets locked in the freezer with the dead body in the film The Goonies, what else is in there with him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hanging meat"
+            },
+            {
+              "id": "1",
+              "text": "Boxes"
+            },
+            {
+              "id": "2",
+              "text": "Sloth"
+            },
+            {
+              "id": "3",
+              "text": "Ice Cream"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ice Cream"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1984 blockbuster hit Ghostbusters, what was Rays last name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spengler"
+            },
+            {
+              "id": "1",
+              "text": "Barrett"
+            },
+            {
+              "id": "2",
+              "text": "Venkman"
+            },
+            {
+              "id": "3",
+              "text": "Stantz"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Stantz"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1985 drama Mask, what was the name of the blind girl Rocky meets at camp?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jesse"
+            },
+            {
+              "id": "1",
+              "text": "Rusty"
+            },
+            {
+              "id": "2",
+              "text": "Diana"
+            },
+            {
+              "id": "3",
+              "text": "Beth"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Diana"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Arquette sibling starred in the 1985 movie Desperately Seeking Susan?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rosanna"
+            },
+            {
+              "id": "1",
+              "text": "Patricia"
+            },
+            {
+              "id": "2",
+              "text": "David"
+            },
+            {
+              "id": "3",
+              "text": "Alexis"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rosanna"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character from the 1988 movie Beetlejuice said, Live people ignore the strange and unusual. I myself am strange and unusual?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beetlejuice"
+            },
+            {
+              "id": "1",
+              "text": "Charles"
+            },
+            {
+              "id": "2",
+              "text": "Lydia"
+            },
+            {
+              "id": "3",
+              "text": "Barbara"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lydia"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "actor",
+          "karate",
+          "drama",
+          "pee-wees",
+          "attraction"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Movie and Film",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, actor, john. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1985 movie Weird Science, what color is the underwear Lisa is wearing when she first appears to Gary and Wyatt?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yellow"
+            },
+            {
+              "id": "1",
+              "text": "Pink"
+            },
+            {
+              "id": "2",
+              "text": "Blue"
+            },
+            {
+              "id": "3",
+              "text": "Red"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Blue"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One film from 2006 made The New Classics list at # 19. Who played Bond, James Bond?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Viggo Mortensen"
+            },
+            {
+              "id": "1",
+              "text": "Daniel Craig"
+            },
+            {
+              "id": "2",
+              "text": "Roger Moore"
+            },
+            {
+              "id": "3",
+              "text": "Sean Connery"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Daniel Craig"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A heart-touching story about two people in love kept apart by time and circumstance. A love story that touched the hearts of Middle America even though the lovers were two men. Heath Ledger plays the part of cowboy Ennis Del Mar. Who plays the part of cowboy Jack Twist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Matt Damon"
+            },
+            {
+              "id": "1",
+              "text": "Toby McGuire"
+            },
+            {
+              "id": "2",
+              "text": "Casey Affleck"
+            },
+            {
+              "id": "3",
+              "text": "Jake Gyllenhaal"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jake Gyllenhaal"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1997 movie American Werewolf in Paris was filmed entirely in France.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the 1991 movie with this tagline:  In every neighborhood there is a house that adults whisper about and children cross the street to avoid.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nightmare on Elmstreet"
+            },
+            {
+              "id": "1",
+              "text": "The People Under the Stairs"
+            },
+            {
+              "id": "2",
+              "text": "The Haunted House of Horror"
+            },
+            {
+              "id": "3",
+              "text": "The Last House on the Left"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The People Under the Stairs"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following movies released in 1996, boasts the use of 50 gallons of blood?",
+          "options": [
+            {
+              "id": "0",
+              "text": "April Fools Day"
+            },
+            {
+              "id": "1",
+              "text": "I Know What You Did Last Summer"
+            },
+            {
+              "id": "2",
+              "text": "Scream"
+            },
+            {
+              "id": "3",
+              "text": "Seven"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Scream"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The actor who played Duckie in the 1986 film Pretty in Pink also starred in what popular CBS sitcom, which began airing in 2003?",
+          "options": [
+            {
+              "id": "0",
+              "text": "King of Queens"
+            },
+            {
+              "id": "1",
+              "text": "Two and a Half Men"
+            },
+            {
+              "id": "2",
+              "text": "How I Met Your Mother"
+            },
+            {
+              "id": "3",
+              "text": "The Office"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Two and a Half Men"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to Entertainment Weekly this director: filmed an unfilmable novel, made a nine-hour trilogy that lives and breathes like one movie and got a riveting performance out of a slithery CG cave dweller.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Landis"
+            },
+            {
+              "id": "1",
+              "text": "Ang Lee"
+            },
+            {
+              "id": "2",
+              "text": "Peter Jackson"
+            },
+            {
+              "id": "3",
+              "text": "James Cameron"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Peter Jackson"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the poisoned food item that Indiana Jones almost ate in the 1981 blockbuster Raiders of the Lost Ark?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apple"
+            },
+            {
+              "id": "1",
+              "text": "Date"
+            },
+            {
+              "id": "2",
+              "text": "Prune"
+            },
+            {
+              "id": "3",
+              "text": "Grape"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Date"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actor sans intestines, bellows Freedomm in a movie listed under the category of Five Cool Deaths by Weekly Entertainment?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Matt Damon"
+            },
+            {
+              "id": "1",
+              "text": "Russell Crow"
+            },
+            {
+              "id": "2",
+              "text": "Mel Gibson"
+            },
+            {
+              "id": "3",
+              "text": "Samuel Jackson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mel Gibson"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the actor who knew, You should always serve white wine with fish and Chianti with census takers.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Buscemi"
+            },
+            {
+              "id": "1",
+              "text": "Tony Perkins"
+            },
+            {
+              "id": "2",
+              "text": "Anthony Hopkins"
+            },
+            {
+              "id": "3",
+              "text": "Will Patton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Anthony Hopkins"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I see dead people. is the quote that everyone remembers from the 1999 movie that took 6th place on the Entertainment Weekly New Classics list.  Haley Joel Osment was brilliant as Cole Sear but who played child psychologist, Dr. Malcom Crowe?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Donnie Wahlberg"
+            },
+            {
+              "id": "1",
+              "text": "Bruce Willis"
+            },
+            {
+              "id": "2",
+              "text": "George Clooney"
+            },
+            {
+              "id": "3",
+              "text": "Kevin Spacey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bruce Willis"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of John Cusacks character in the 1984 classic comedy Sixteen Candles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cliff"
+            },
+            {
+              "id": "1",
+              "text": "Jake"
+            },
+            {
+              "id": "2",
+              "text": "Bryce"
+            },
+            {
+              "id": "3",
+              "text": "Mike"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bryce"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1995 horror film based on a Stephen King novel marked the first appearance, though uncredited, of Charlize Theron. It was also Nicholas Brendons (Zander from Buffy the Vampire Slayer) first film. What is the name of this movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Children of the Corn III"
+            },
+            {
+              "id": "1",
+              "text": "Scream"
+            },
+            {
+              "id": "2",
+              "text": "Candyman"
+            },
+            {
+              "id": "3",
+              "text": "Carrie"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Children of the Corn III"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tony Shalhoub provided the voice of which of these characters from the animated film Cars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ramone"
+            },
+            {
+              "id": "1",
+              "text": "Lightning McQueen"
+            },
+            {
+              "id": "2",
+              "text": "Guido"
+            },
+            {
+              "id": "3",
+              "text": "Luigi"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Luigi"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "actor",
+          "john",
+          "people",
+          "everyone",
+          "duckie"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Movie and Cars",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, director, mcqueens. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie 48Hrs, Reggie, who has been incarcerated for a couple of years, has a large amount of money in the trunk of his car. How much money is in the trunk of Reggies car?",
+          "options": [
+            {
+              "id": "0",
+              "text": "$500,000"
+            },
+            {
+              "id": "1",
+              "text": "$100,000"
+            },
+            {
+              "id": "2",
+              "text": "$300,000"
+            },
+            {
+              "id": "3",
+              "text": "$250,000"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: $500,000"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is the 80s movie 48 Hrs. set?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chicago"
+            },
+            {
+              "id": "1",
+              "text": "San Francisco"
+            },
+            {
+              "id": "2",
+              "text": "San Diego"
+            },
+            {
+              "id": "3",
+              "text": "Florida"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: San Francisco"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Cars, Rust-eze was McQueens major sponsor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the other name of Doc Hudson, an ex-racecar in the movie Cars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Guido"
+            },
+            {
+              "id": "1",
+              "text": "The Hudson Hornet"
+            },
+            {
+              "id": "2",
+              "text": "The Horton Hornet"
+            },
+            {
+              "id": "3",
+              "text": "Lightning McQueen"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Hudson Hornet"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the great 80s flick 48 Hrs.  come out in the movie theatres in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1983"
+            },
+            {
+              "id": "1",
+              "text": "1981"
+            },
+            {
+              "id": "2",
+              "text": "1984"
+            },
+            {
+              "id": "3",
+              "text": "1982"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1982"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Police song does Reggie Hammond sing while he is in prison in the movie 48 Hrs.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walking on The Moon"
+            },
+            {
+              "id": "1",
+              "text": "Roxanne"
+            },
+            {
+              "id": "2",
+              "text": "Every Breath You Take"
+            },
+            {
+              "id": "3",
+              "text": "Message in a Bottle"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Roxanne"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 2006 movie Cars, what was the name of the town that was the home of Mater, Luigi, Guido, Flo, Ramone, Doc and Sally?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Engine City"
+            },
+            {
+              "id": "1",
+              "text": "Transmission County"
+            },
+            {
+              "id": "2",
+              "text": "Carborator Bottom"
+            },
+            {
+              "id": "3",
+              "text": "Radiator Springs"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Radiator Springs"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Disney movie Cars, Fred is amazed that Mario Andretti knows his name. How does he know it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are related."
+            },
+            {
+              "id": "1",
+              "text": "Its on his license plate."
+            },
+            {
+              "id": "2",
+              "text": "They ran into each other before the race."
+            },
+            {
+              "id": "3",
+              "text": "Fred told it to him earlier in the conversation."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Its on his license plate."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie 48 Hrs., Ganz escapes from prison with the help of his friend Billy Bear. Where does he go after he escapes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A hotel in the area"
+            },
+            {
+              "id": "1",
+              "text": "San Francisco Giants game"
+            },
+            {
+              "id": "2",
+              "text": "Chicago Cubs game"
+            },
+            {
+              "id": "3",
+              "text": "Disneyland"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A hotel in the area"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the director of the movie 48 Hrs.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron Howard"
+            },
+            {
+              "id": "1",
+              "text": "Walter Hill"
+            },
+            {
+              "id": "2",
+              "text": "Martin Scorcese"
+            },
+            {
+              "id": "3",
+              "text": "Henry Winkler"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Walter Hill"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the film Cars, when Lightning McQueen first entered Radiator Springs, Filmore was staring at a stoplight with Sarge. Which blink did he say was slower?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1st"
+            },
+            {
+              "id": "1",
+              "text": "3rd"
+            },
+            {
+              "id": "2",
+              "text": "4th"
+            },
+            {
+              "id": "3",
+              "text": "2nd"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 3rd"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the structure/statue in the film Cars, that McQueen dragged around town, ripping up the streets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stanford"
+            },
+            {
+              "id": "1",
+              "text": "Stanley"
+            },
+            {
+              "id": "2",
+              "text": "Billy Joe"
+            },
+            {
+              "id": "3",
+              "text": "Bob"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stanley"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the animated movie Cars, Guido provided the voice of Guido.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Lightning McQueens truck in the film Cars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chevy"
+            },
+            {
+              "id": "1",
+              "text": "Mack"
+            },
+            {
+              "id": "2",
+              "text": "Red"
+            },
+            {
+              "id": "3",
+              "text": "Peterbuilt"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mack"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the character portrayed by Nick Nolte in the hit movie 48 Hrs.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Bates"
+            },
+            {
+              "id": "1",
+              "text": "Jack Cates"
+            },
+            {
+              "id": "2",
+              "text": "Jack Tors"
+            },
+            {
+              "id": "3",
+              "text": "Jack Lynsmith"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jack Cates"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "director",
+          "mcqueens",
+          "guido",
+          "police",
+          "film"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Movie and Jaws",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, title, profession. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the movie title 48 Hrs. refer to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The amount of time that Jack hasnt had a drink"
+            },
+            {
+              "id": "1",
+              "text": "The amount of time that Jack hasnt smoked a cigarette"
+            },
+            {
+              "id": "2",
+              "text": "The amount of time that Reggie and Jack have to catch the bad guys"
+            },
+            {
+              "id": "3",
+              "text": "The amount of time that Jack was married"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The amount of time that Reggie and Jack have to catch the bad guys"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie Jaws, Matt Hooper, played by Richard Dreyfuss survives a shark attack in his special shark-proof cage. In the novel of the same name, in the same situation, he is killed by the shark.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Deer Hunter  bagged  five  Oscars in 1979, but its huge success also led to the flameout of its director, in perhaps the most dramatic, one-hit-wonder decline of any filmmaker on the AFI list.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Mann"
+            },
+            {
+              "id": "1",
+              "text": "Michael Mouse"
+            },
+            {
+              "id": "2",
+              "text": "Michael Cimino"
+            },
+            {
+              "id": "3",
+              "text": "Michael Curtiz"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Cimino"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Godfather, the snooty movie director who refused to give a part to a friend of the Corleone family found the head of his prized horse in his bed. What was the value of the horse?",
+          "options": [
+            {
+              "id": "0",
+              "text": "100,000 dollars"
+            },
+            {
+              "id": "1",
+              "text": "200,000 dollars"
+            },
+            {
+              "id": "2",
+              "text": "700,000 dollars"
+            },
+            {
+              "id": "3",
+              "text": "70,000 dollars"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 700,000 dollars"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The original reward  for killing the shark in the movie Jaws was 10,000 dollars.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which former NFL running back played the sheriff  in the Western classic 100 Rifles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jim Brown"
+            },
+            {
+              "id": "1",
+              "text": "Alan Ameche"
+            },
+            {
+              "id": "2",
+              "text": "Jim Taylor"
+            },
+            {
+              "id": "3",
+              "text": "OJ Simpson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jim Brown"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Poseidon Adventure, what was the profession of Linda before she married detective Rogo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "barmaid"
+            },
+            {
+              "id": "1",
+              "text": "policewoman"
+            },
+            {
+              "id": "2",
+              "text": "prostitute"
+            },
+            {
+              "id": "3",
+              "text": "hair dresser"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: prostitute"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tim Matheson, famous for playing Otter in the 1978 comedy Animal House, voiced which one of these cartoon characters?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boo-Boo in Yogi Bear"
+            },
+            {
+              "id": "1",
+              "text": "Jace in Space Ghost"
+            },
+            {
+              "id": "2",
+              "text": "Zandor in The Herculoids"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jace in Space Ghost"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There was a sequel to the 80s action comedy 48 Hrs..",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Prior to 2007, Charlie Chaplin, Alfred Hitchcock, Stanley Kubrick and Martin Scorsese, who directed a total of 13 Top-100 AFI films, shared this one distinction.",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of them had ever made a film that won an Oscar for Best Picture."
+            },
+            {
+              "id": "1",
+              "text": "All of them had worked with Lindsay Lohan."
+            },
+            {
+              "id": "2",
+              "text": "All of  them had been inspired by Ed Wood."
+            },
+            {
+              "id": "3",
+              "text": "None of them had won an Oscar for Best Director."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: None of them had won an Oscar for Best Director."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1966 movie Batman, based on the ABC TV series, all but one of the villains listed were played by the TV series actors/actresses. Which character was not played by one of the original actors?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Penguin"
+            },
+            {
+              "id": "1",
+              "text": "Riddler"
+            },
+            {
+              "id": "2",
+              "text": "Joker"
+            },
+            {
+              "id": "3",
+              "text": "Catwoman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Catwoman"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "William Wyler is unique among the AFI directors because there was a  20-year gap between his  earliest and latest classic movies on the Top 100 List.. What are the two movies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wings and Waynes World"
+            },
+            {
+              "id": "1",
+              "text": "Wuthering Heights and Ben-Hur"
+            },
+            {
+              "id": "2",
+              "text": "Wuthering Heights and The Best Years of Our Lives"
+            },
+            {
+              "id": "3",
+              "text": "The Birth of a Nation and Ben-Hur"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wuthering Heights and Ben-Hur"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who plays Jonathan E in the 1975 science fiction film Rollerball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paul Newman"
+            },
+            {
+              "id": "1",
+              "text": "Sylvester Stallone"
+            },
+            {
+              "id": "2",
+              "text": "James Caan"
+            },
+            {
+              "id": "3",
+              "text": "Arnold Schwarzenegger"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: James Caan"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The stewardess in the film The Big Bus, played by Stockard Channing, nearly died in what way?",
+          "options": [
+            {
+              "id": "0",
+              "text": "being crushed by a flying spare tire"
+            },
+            {
+              "id": "1",
+              "text": "drowning in a room filled with soft drinks"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "being sucked into a handicapped toilet"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: drowning in a room filled with soft drinks"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who played Captain Lansen in the 1968 movie The Lost Continent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ben Carruthers"
+            },
+            {
+              "id": "1",
+              "text": "Norman Eshley"
+            },
+            {
+              "id": "2",
+              "text": "Eric Porter"
+            },
+            {
+              "id": "3",
+              "text": "James Cossins"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eric Porter"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "title",
+          "profession",
+          "afi",
+          "jaws",
+          "hunter"
+        ]
+      }
+    }
+  ]
+}

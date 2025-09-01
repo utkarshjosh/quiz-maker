@@ -1,0 +1,2436 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Nature Quiz: Magic and Game",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, kamikaze, spells. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A wedge of what fruit is traditionally used as a garnish of the Cuba Libre cocktail?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lime"
+            },
+            {
+              "id": "1",
+              "text": "Pineapple"
+            },
+            {
+              "id": "2",
+              "text": "Lemon"
+            },
+            {
+              "id": "3",
+              "text": "Apple"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lime"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following spells in the card game Magic: The Gatheringcan destroy both creatures and enchantments?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blaze"
+            },
+            {
+              "id": "1",
+              "text": "Wrath of God"
+            },
+            {
+              "id": "2",
+              "text": "Putrefy"
+            },
+            {
+              "id": "3",
+              "text": "Mortify"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mortify"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the card game Magic: The Gathering, if your opponent casts Rend Flesh at your Hand of Honor, which spell could you use to save your creature?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ebony Owl Netsuke."
+            },
+            {
+              "id": "1",
+              "text": "Ghostway"
+            },
+            {
+              "id": "2",
+              "text": "Stifle"
+            },
+            {
+              "id": "3",
+              "text": "Oblivion Stone"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ghostway"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following cards has a converted mana cost of 2 in the game Magic: The Gathering?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ink-eyes, Servant of the Oni"
+            },
+            {
+              "id": "1",
+              "text": "Shock"
+            },
+            {
+              "id": "2",
+              "text": "Disenchant"
+            },
+            {
+              "id": "3",
+              "text": "Char"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Disenchant"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is the most expensive card in the game Magic: The Gathering?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wildfire"
+            },
+            {
+              "id": "1",
+              "text": "Mox Diamond"
+            },
+            {
+              "id": "2",
+              "text": "Black Lotus"
+            },
+            {
+              "id": "3",
+              "text": "Wrath of God"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Black Lotus"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following colors is  not used in the card game Magic: The Gathering?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blue"
+            },
+            {
+              "id": "1",
+              "text": "Orange"
+            },
+            {
+              "id": "2",
+              "text": "Green"
+            },
+            {
+              "id": "3",
+              "text": "Red"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Orange"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At what time of the year is the Tom and Jerry cocktail served traditionally in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Easter"
+            },
+            {
+              "id": "1",
+              "text": "New Years Eve"
+            },
+            {
+              "id": "2",
+              "text": "Thanksgiving"
+            },
+            {
+              "id": "3",
+              "text": "Christmas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Christmas"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular cocktail is made simply by mixing vodka and orange juice?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colombia"
+            },
+            {
+              "id": "1",
+              "text": "Screwdriver"
+            },
+            {
+              "id": "2",
+              "text": "Wilson"
+            },
+            {
+              "id": "3",
+              "text": "Madras"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Screwdriver"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of alcohol is used for the preparation of the Bacardi cocktail?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rum"
+            },
+            {
+              "id": "1",
+              "text": "Vodka"
+            },
+            {
+              "id": "2",
+              "text": "Gin"
+            },
+            {
+              "id": "3",
+              "text": "Bourbon whiskey"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rum"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A player begins a game of Magic: The Gathering with 40 life points.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not a Magic: The Gathering game format?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two Headed Giant"
+            },
+            {
+              "id": "1",
+              "text": "Free For All"
+            },
+            {
+              "id": "2",
+              "text": "Emporer"
+            },
+            {
+              "id": "3",
+              "text": "One Eyed Cyclops"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: One Eyed Cyclops"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This cocktail was reportedly the first drink the American astronauts had when they returned to Earth in 1969.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Daiquiri"
+            },
+            {
+              "id": "1",
+              "text": "Bloody Mary"
+            },
+            {
+              "id": "2",
+              "text": "Pina Colada"
+            },
+            {
+              "id": "3",
+              "text": "Moonwalk"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Moonwalk"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country did the Kamikaze cocktail reportedly originate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jamaica"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "Japan"
+            },
+            {
+              "id": "3",
+              "text": "South Africa"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Japan"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who created the collectible card game Magic: The Gathering?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bennie Smith"
+            },
+            {
+              "id": "1",
+              "text": "Richard Garfield"
+            },
+            {
+              "id": "2",
+              "text": "Gary Gygax"
+            },
+            {
+              "id": "3",
+              "text": "Mike Flores"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Garfield"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following cards in the game Magic: the Gathering is from the Onslaught Block?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Orims Chant"
+            },
+            {
+              "id": "1",
+              "text": "Visara, the Dreadful"
+            },
+            {
+              "id": "2",
+              "text": "Hypnotic Specter"
+            },
+            {
+              "id": "3",
+              "text": "Savra, Queen of the Golgari"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Visara, the Dreadful"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "kamikaze",
+          "spells",
+          "kind",
+          "cost",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "History Quiz: Plant and Country",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, margarita, ground. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This well known plant derives its scientific name from Atropos, one of the Fates in Greek mythology, who held the shears to cut the thread of human life. The plant grows shiny black berries that are sweet to the taste but very toxic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Deadly Nightshade"
+            },
+            {
+              "id": "1",
+              "text": "Catarrh Root"
+            },
+            {
+              "id": "2",
+              "text": "Damiana"
+            },
+            {
+              "id": "3",
+              "text": "Vervaine"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Deadly Nightshade"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What popular herb is added to the Mojito cocktail for a refreshing flavor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mint"
+            },
+            {
+              "id": "1",
+              "text": "Camomile"
+            },
+            {
+              "id": "2",
+              "text": "Basil"
+            },
+            {
+              "id": "3",
+              "text": "Rosemary"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mint"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This plant can be used as a herbal medicine to treat gastric and intestinal problems, migraine, asthma, anemia, depression, anxiety and nervous ailments, among others.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tobacco"
+            },
+            {
+              "id": "1",
+              "text": "Asafetida"
+            },
+            {
+              "id": "2",
+              "text": "Saint Johns Wort"
+            },
+            {
+              "id": "3",
+              "text": "Cowhage"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Saint Johns Wort"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This very unusual plant, seen quite frequently during the Yuletide season, is a parasite growing on the branches of trees and deriving its nourishment from them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of the these"
+            },
+            {
+              "id": "1",
+              "text": "Birdlime"
+            },
+            {
+              "id": "2",
+              "text": "Mistletoe"
+            },
+            {
+              "id": "3",
+              "text": "Golden Bough"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of the these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cultivated on a huge scale for the brewery industry, this plant grows separate as male and female.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yeast"
+            },
+            {
+              "id": "1",
+              "text": "Hops"
+            },
+            {
+              "id": "2",
+              "text": "Amber"
+            },
+            {
+              "id": "3",
+              "text": "Rockberry"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hops"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this plant grown worldwide in parks, gardens, and greenhouses as an ornamental fixture with large colorful flowers also known as Wedding Bells and Heavenly Blue.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morning Glory"
+            },
+            {
+              "id": "1",
+              "text": "Hemlock"
+            },
+            {
+              "id": "2",
+              "text": "Motherwort"
+            },
+            {
+              "id": "3",
+              "text": "Marigold"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Morning Glory"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The juice of what fruit is used for the preparation of the Cosmopolitan cocktail?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Strawberry"
+            },
+            {
+              "id": "1",
+              "text": "Peach"
+            },
+            {
+              "id": "2",
+              "text": "Raspberry"
+            },
+            {
+              "id": "3",
+              "text": "Cranberry"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cranberry"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of alcohol is used as a base to make the popular Manhattan cocktail?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gin"
+            },
+            {
+              "id": "1",
+              "text": "Whiskey"
+            },
+            {
+              "id": "2",
+              "text": "Rum"
+            },
+            {
+              "id": "3",
+              "text": "Vodka"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Whiskey"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is often put on the glass rim when serving a Margarita cocktail?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Avocado slice"
+            },
+            {
+              "id": "1",
+              "text": "Sugar"
+            },
+            {
+              "id": "2",
+              "text": "An olive"
+            },
+            {
+              "id": "3",
+              "text": "Salt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Salt"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This plant grows wild in the dry, desert ground of Texas and Mexico and is one of the very few spineless varieties among some two thousand different types of cacti growing in the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peyote"
+            },
+            {
+              "id": "1",
+              "text": "Sorcerers Cherry"
+            },
+            {
+              "id": "2",
+              "text": "Sunbirch"
+            },
+            {
+              "id": "3",
+              "text": "Stickletop"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Peyote"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This perennial herb was once used to make absinthe.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wormwood"
+            },
+            {
+              "id": "1",
+              "text": "Muscal Buttons"
+            },
+            {
+              "id": "2",
+              "text": "Mandrake"
+            },
+            {
+              "id": "3",
+              "text": "Woodruff"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Wormwood"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This plant has a long and colorful history and its legal status varies from country to country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Catnip"
+            },
+            {
+              "id": "1",
+              "text": "Cannabis"
+            },
+            {
+              "id": "2",
+              "text": "Phalaris Grass"
+            },
+            {
+              "id": "3",
+              "text": "Juniper"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cannabis"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which country was coffee first roasted and brewed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brasil"
+            },
+            {
+              "id": "1",
+              "text": "Zimbabwe"
+            },
+            {
+              "id": "2",
+              "text": "Ethiopia"
+            },
+            {
+              "id": "3",
+              "text": "Indonesia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ethiopia"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this small tree also known as the Apalachin, whose leaves are used to prepare a strong infusion that contains large amounts of caffeine.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Calamus"
+            },
+            {
+              "id": "1",
+              "text": "Wild Fennel"
+            },
+            {
+              "id": "2",
+              "text": "Yaupon"
+            },
+            {
+              "id": "3",
+              "text": "Sweet Sedge"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Yaupon"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This perennial herb from the mint family, that grows in wet soil, comes in two forms, a creeping variety and a more upright one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Water Lily"
+            },
+            {
+              "id": "1",
+              "text": "Sassafras"
+            },
+            {
+              "id": "2",
+              "text": "Cannabis"
+            },
+            {
+              "id": "3",
+              "text": "Pennyroyal"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pennyroyal"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "margarita",
+          "ground",
+          "kind",
+          "country",
+          "mojito"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Coffee and Lacoste",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, offers, ground. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Green coffee beans can be roasted at home in less than 30 minutes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lacoste offers clothing for kids, men and women.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After roasting, one pound (0.5 kg) of green coffee beans yields how much dried coffee?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Slightly more than one pound / 0.5 kg"
+            },
+            {
+              "id": "1",
+              "text": "Almost two pounds / 1 kg"
+            },
+            {
+              "id": "2",
+              "text": "Slightly less than one pound / 0.5 kg"
+            },
+            {
+              "id": "3",
+              "text": "One pound / 0.5 kg"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Slightly less than one pound / 0.5 kg"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Green coffee beans can be roasted on the stovetop in a frying pan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the founder of the clothing brand Lacoste?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pierre Lacoste"
+            },
+            {
+              "id": "1",
+              "text": "Johnathon P. Lacoste"
+            },
+            {
+              "id": "2",
+              "text": "Ren\u00e9 Lacoste"
+            },
+            {
+              "id": "3",
+              "text": "Marc L. M. Smith"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ren\u00e9 Lacoste"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Once ground, how long does it take before coffee begins to stale?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Weeks"
+            },
+            {
+              "id": "1",
+              "text": "Hours"
+            },
+            {
+              "id": "2",
+              "text": "Minutes"
+            },
+            {
+              "id": "3",
+              "text": "Months"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Minutes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After harvesting, coffee beans must be dried.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is the clothing brand Lacoste originally from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Canada"
+            },
+            {
+              "id": "1",
+              "text": "England"
+            },
+            {
+              "id": "2",
+              "text": "U.S.A."
+            },
+            {
+              "id": "3",
+              "text": "France"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Island coffees are some of the smoothest and most expensive in the world. Where do they come from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hawaii"
+            },
+            {
+              "id": "1",
+              "text": "Jamaica"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "St. Helena"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the fruit of the coffee plant called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bean"
+            },
+            {
+              "id": "1",
+              "text": "Bead"
+            },
+            {
+              "id": "2",
+              "text": "Clove"
+            },
+            {
+              "id": "3",
+              "text": "Cherry"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cherry"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Green coffee beans stay acceptably fresh for how long?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Several months"
+            },
+            {
+              "id": "1",
+              "text": "Several days"
+            },
+            {
+              "id": "2",
+              "text": "Several weeks"
+            },
+            {
+              "id": "3",
+              "text": "Several years"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Several years"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The world\u2019s most expensive coffee, Kopi Luwak, goes through a unique harvesting process. In Indonesian, \u201ckopi\u201d means coffee and \u201cluwak\u201d means what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mountain"
+            },
+            {
+              "id": "1",
+              "text": "Lunar"
+            },
+            {
+              "id": "2",
+              "text": "Civet"
+            },
+            {
+              "id": "3",
+              "text": "Sea Water"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Civet"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does the clothing brand Lacoste offer ophthalmic glasses as well as sunglasses?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Do Lacoste have shoes as part of their collections?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Aspiration is one of the Lacoste perfumes for women.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "offers",
+          "ground",
+          "kg",
+          "coffee",
+          "world"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Knowledge Quiz: Consumption and Type",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, birds, food. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of fish may be consumed according to Jewish dietary laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Shellfish"
+            },
+            {
+              "id": "2",
+              "text": "Marine fish"
+            },
+            {
+              "id": "3",
+              "text": "Fish with fins and scales"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fish with fins and scales"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The consumption of what type of birds is forbidden by Jewish dietary laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mute birds"
+            },
+            {
+              "id": "1",
+              "text": "Birds of prey"
+            },
+            {
+              "id": "2",
+              "text": "Black birds"
+            },
+            {
+              "id": "3",
+              "text": "Flightless birds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Birds of prey"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what way should an animal be slaughtered in order to be suitable for eating according to Jewish dietary laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "In a single cutting movement"
+            },
+            {
+              "id": "2",
+              "text": "With a sharp unserrated knife"
+            },
+            {
+              "id": "3",
+              "text": "By a trained person"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What type of food should be at least partly prepared by Jews to be considered suitable for consumption according to Jewish laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cheese"
+            },
+            {
+              "id": "1",
+              "text": "Bread"
+            },
+            {
+              "id": "2",
+              "text": "Wine"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are no stores of the clothing brand Lacoste in Canada.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of the clothing brand Lacoste literally means the cost in French.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are Lacoste boutiques in Europe.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The consumption of what type of insects is allowed by Jewish dietary laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Locust"
+            },
+            {
+              "id": "1",
+              "text": "Beetle"
+            },
+            {
+              "id": "2",
+              "text": "Cricket"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Locust"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rose hips, the fruit of the rose plant, are rich in what vitamin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vitamin A"
+            },
+            {
+              "id": "1",
+              "text": "Vitamin D"
+            },
+            {
+              "id": "2",
+              "text": "Vitamin C"
+            },
+            {
+              "id": "3",
+              "text": "Vitamin B5"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vitamin C"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The consumption of which of these mammals is forbidden by Jewish laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hare"
+            },
+            {
+              "id": "1",
+              "text": "Camel"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Pig"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The consumption of what type of bread is forbidden on the holiday of Passover according to Jewish laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Toasted bread"
+            },
+            {
+              "id": "1",
+              "text": "Leavened bread"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Flat bread"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Leavened bread"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What types of food should not be mixed, consumed or stored together according to Jewish dietary laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dairy products and vegetables"
+            },
+            {
+              "id": "1",
+              "text": "Meat and dairy products"
+            },
+            {
+              "id": "2",
+              "text": "Meat and fish"
+            },
+            {
+              "id": "3",
+              "text": "Eggs and rice"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Meat and dairy products"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the general term used for the food that is forbidden by the Jewish dietary laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dores"
+            },
+            {
+              "id": "1",
+              "text": "Treif"
+            },
+            {
+              "id": "2",
+              "text": "Zefek"
+            },
+            {
+              "id": "3",
+              "text": "Kosher"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Treif"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the correct term for the sharp protuberances growing out of the stem of the rose plant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spikes"
+            },
+            {
+              "id": "1",
+              "text": "Nibs"
+            },
+            {
+              "id": "2",
+              "text": "Prickles"
+            },
+            {
+              "id": "3",
+              "text": "Thorns"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Prickles"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What part of any animal is absolutely forbidden for consumption by Jewish laws?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blood"
+            },
+            {
+              "id": "1",
+              "text": "Head"
+            },
+            {
+              "id": "2",
+              "text": "Heart"
+            },
+            {
+              "id": "3",
+              "text": "Internal organs"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blood"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "birds",
+          "food",
+          "protuberances",
+          "insects",
+          "part"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: Popeyes and Calories",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, chicken, popeyes. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many calories does 1 piece of mild chicken breast, offered in Popeyes, have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "250 calories"
+            },
+            {
+              "id": "1",
+              "text": "280 calories"
+            },
+            {
+              "id": "2",
+              "text": "350 calories"
+            },
+            {
+              "id": "3",
+              "text": "300 calories"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 350 calories"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To what continent is the rose species commonly known as Gallic Rose native?",
+          "options": [
+            {
+              "id": "0",
+              "text": "North America"
+            },
+            {
+              "id": "1",
+              "text": "Asia"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Europe"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Europe"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The red rose is a symbol of this political ideology.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Monarchism"
+            },
+            {
+              "id": "1",
+              "text": "Liberalism"
+            },
+            {
+              "id": "2",
+              "text": "Socialism"
+            },
+            {
+              "id": "3",
+              "text": "Democracy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Socialism"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Popeyes franchising began in 1976.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Rose Valley is located near the town of Kazanlak, in what major world producer of rose oil?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Greece"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "Italy"
+            },
+            {
+              "id": "3",
+              "text": "Bulgaria"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bulgaria"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Popeyes merge with KFC in 1989?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Popeyes opened their 1000th restaurant in New Orleans, LA.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the common name for the rose species Rosa Chinensis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cabbage rose"
+            },
+            {
+              "id": "1",
+              "text": "China rose"
+            },
+            {
+              "id": "2",
+              "text": "Blood rose"
+            },
+            {
+              "id": "3",
+              "text": "Black rose"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: China rose"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who sang the Popeyes trademark jingle Love that Chicken?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nat King Cole"
+            },
+            {
+              "id": "1",
+              "text": "B.B. King"
+            },
+            {
+              "id": "2",
+              "text": "James Brown"
+            },
+            {
+              "id": "3",
+              "text": "Dr. John"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dr. John"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these countries has adopted the rose as its national flower?",
+          "options": [
+            {
+              "id": "0",
+              "text": "England"
+            },
+            {
+              "id": "1",
+              "text": "Turkey"
+            },
+            {
+              "id": "2",
+              "text": "France"
+            },
+            {
+              "id": "3",
+              "text": "Spain"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: England"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Belgian artist dedicated his life to painting roses and other flowers and plants?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Claude Monet"
+            },
+            {
+              "id": "1",
+              "text": "Paul Cezanne"
+            },
+            {
+              "id": "2",
+              "text": "Pierre-Auguste Renoir"
+            },
+            {
+              "id": "3",
+              "text": "Pierre-Joseph Redoute"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pierre-Joseph Redoute"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many calories does one biscuit from Popeyes have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "220"
+            },
+            {
+              "id": "1",
+              "text": "260"
+            },
+            {
+              "id": "2",
+              "text": "240"
+            },
+            {
+              "id": "3",
+              "text": "280"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 240"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was the first Popeyes restaurant opened?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1973"
+            },
+            {
+              "id": "1",
+              "text": "1971"
+            },
+            {
+              "id": "2",
+              "text": "1970"
+            },
+            {
+              "id": "3",
+              "text": "1972"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1972"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What city in the state of Oregon is known as The City of Roses?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Portland"
+            },
+            {
+              "id": "1",
+              "text": "Astoria"
+            },
+            {
+              "id": "2",
+              "text": "Corvallis"
+            },
+            {
+              "id": "3",
+              "text": "Salem"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Portland"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who are the founders of Popeyes Chicken  Biscuits?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Al Copeland and Jerome Pentsky"
+            },
+            {
+              "id": "1",
+              "text": "Al Pentsky and Jerome Copeland"
+            },
+            {
+              "id": "2",
+              "text": "John Wright and Johnny Capowski"
+            },
+            {
+              "id": "3",
+              "text": "John Capowski and Johhny Wright"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Al Copeland and Jerome Pentsky"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "chicken",
+          "popeyes",
+          "hobbies",
+          "biscuit",
+          "species"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Peaches and Country",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, peach, chicken. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the usual color of the flowers of the peach tree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pink"
+            },
+            {
+              "id": "1",
+              "text": "Blue"
+            },
+            {
+              "id": "2",
+              "text": "Yellow"
+            },
+            {
+              "id": "3",
+              "text": "White"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pink"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American state produces about 65% of the peaches grown for commercial production in the U.S.A.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Texas"
+            },
+            {
+              "id": "1",
+              "text": "Colorado"
+            },
+            {
+              "id": "2",
+              "text": "Florida"
+            },
+            {
+              "id": "3",
+              "text": "California"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: California"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Black Diamond, Black Pearl and Nightfall are cultivars from this fruit.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blackberry"
+            },
+            {
+              "id": "1",
+              "text": "Mulberry"
+            },
+            {
+              "id": "2",
+              "text": "Blueberry"
+            },
+            {
+              "id": "3",
+              "text": "Gooseberry"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blackberry"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Prunus genus, to which peaches belong, does not includes which one of these trees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Almond"
+            },
+            {
+              "id": "1",
+              "text": "Cherry"
+            },
+            {
+              "id": "2",
+              "text": "Plum"
+            },
+            {
+              "id": "3",
+              "text": "Apple"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Apple"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What American president was known for having an orchard garden with peach trees at his Moticello estate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "1",
+              "text": "George Washington"
+            },
+            {
+              "id": "2",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "3",
+              "text": "John Adams"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Jefferson"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about storing peaches?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Storing peaches for ripening is useless."
+            },
+            {
+              "id": "2",
+              "text": "Refrigeration is not recommended."
+            },
+            {
+              "id": "3",
+              "text": "Peaches should be stored at room temperature."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nectarines are often mistakenly thought to be a crossbreed between peaches and these fruits.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Plums"
+            },
+            {
+              "id": "1",
+              "text": "Wild apples"
+            },
+            {
+              "id": "2",
+              "text": "Apricots"
+            },
+            {
+              "id": "3",
+              "text": "Pears"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Plums"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these methods is the best for planting a peach tree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Planting should be north-south when the trees are planted in rows."
+            },
+            {
+              "id": "1",
+              "text": "Trees should be fully exposed to the sunlight and a free air flow."
+            },
+            {
+              "id": "2",
+              "text": "The best time for planting peach trees is early winter."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The peach tree belongs to the Prunus genus which is indigenous to this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Morocco"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "Argentina"
+            },
+            {
+              "id": "3",
+              "text": "France"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Popeyes go global?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1980"
+            },
+            {
+              "id": "1",
+              "text": "1974"
+            },
+            {
+              "id": "2",
+              "text": "1984"
+            },
+            {
+              "id": "3",
+              "text": "1994"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1984"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many prestigious industry awards did Popeyes Chicken  Biscuits win at their 30th anniversary?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "0"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What other name is commonly used for the wolfberry?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Mede berry"
+            },
+            {
+              "id": "2",
+              "text": "Goji berry"
+            },
+            {
+              "id": "3",
+              "text": "Barbary matrimony vine"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Apart from China and the United States, which other country produces peaches on a large scale?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Greece"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Italy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Peach trees bloom in beautiful aromatic flowers in this season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Early fall"
+            },
+            {
+              "id": "1",
+              "text": "Early summer"
+            },
+            {
+              "id": "2",
+              "text": "Early spring"
+            },
+            {
+              "id": "3",
+              "text": "Late summer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Early spring"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The precise number of people killed at Hiroshima by the atomic bomb is not known due to destruction of records, etc.",
+          "options": [
+            {
+              "id": "0",
+              "text": "720,000"
+            },
+            {
+              "id": "1",
+              "text": "25,000"
+            },
+            {
+              "id": "2",
+              "text": "250,000"
+            },
+            {
+              "id": "3",
+              "text": "80,000"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 80,000"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "peach",
+          "chicken",
+          "people",
+          "country",
+          "awards"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2508 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Soccer and Player",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, weight, players. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many rounds are played in championship fights according to a rule adopted in 1983?",
+          "options": [
+            {
+              "id": "0",
+              "text": "12"
+            },
+            {
+              "id": "1",
+              "text": "11"
+            },
+            {
+              "id": "2",
+              "text": "14"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 12"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Dutch soccer legend that played for Ajax is one of the few players named European Footballer of the Year three times.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hristo Stoichkov"
+            },
+            {
+              "id": "1",
+              "text": "Johan Cruyff"
+            },
+            {
+              "id": "2",
+              "text": "David Beckham"
+            },
+            {
+              "id": "3",
+              "text": "Cristiano Ronaldo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Johan Cruyff"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nickname of Mike Tyson?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike the Punisher"
+            },
+            {
+              "id": "1",
+              "text": "Mike the Unbeatable"
+            },
+            {
+              "id": "2",
+              "text": "Mike the Machine"
+            },
+            {
+              "id": "3",
+              "text": "Iron Mike"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Iron Mike"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much should a boxer weigh in order to be in the Lightweight class?",
+          "options": [
+            {
+              "id": "0",
+              "text": "up to 59.0 kg"
+            },
+            {
+              "id": "1",
+              "text": "up to 53.5"
+            },
+            {
+              "id": "2",
+              "text": "up to 49.0 kg"
+            },
+            {
+              "id": "3",
+              "text": "up to 47.6 kg"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: up to 59.0 kg"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What boxer was crowned Sportsman of the Century by Sports Illustrated and the BBC in 1999?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rocky Marciano"
+            },
+            {
+              "id": "1",
+              "text": "Mike Tyson"
+            },
+            {
+              "id": "2",
+              "text": "Sugar Ray Leonard"
+            },
+            {
+              "id": "3",
+              "text": "Muhammad Ali"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Muhammad Ali"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the weight of gloves in heavyweight bouts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8 ounces"
+            },
+            {
+              "id": "1",
+              "text": "12 ounces"
+            },
+            {
+              "id": "2",
+              "text": "14 ounces"
+            },
+            {
+              "id": "3",
+              "text": "10 ounces"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 10 ounces"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which great soccer player is famous for his \u201cHand of God goal against England in 1986 FIFA World Cup quarter-final?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pele"
+            },
+            {
+              "id": "1",
+              "text": "Maradona"
+            },
+            {
+              "id": "2",
+              "text": "Zidane"
+            },
+            {
+              "id": "3",
+              "text": "Messi"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Maradona"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a rabbit punch in boxing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A hit with a head"
+            },
+            {
+              "id": "1",
+              "text": "A punch with the inside of the glove"
+            },
+            {
+              "id": "2",
+              "text": "A punch to the lower back"
+            },
+            {
+              "id": "3",
+              "text": "A punch to the back of the neck"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A punch to the back of the neck"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The genital protector and the mouth protector are obligatory in all world championship fights.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which famous soccer player was born under the name Luis Nazario de Lima in a suburb of Rio de Janeiro?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ronaldhino"
+            },
+            {
+              "id": "1",
+              "text": "Rivaldo"
+            },
+            {
+              "id": "2",
+              "text": "Kaka"
+            },
+            {
+              "id": "3",
+              "text": "Ronaldo"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ronaldo"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Native to Algeria and from a very poor background like many top players from the past, this soccer player contributed to Frances victory in the 1998 World Cup. Who is this soccer player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alessandro del Piero"
+            },
+            {
+              "id": "1",
+              "text": "Zinedine Zidane"
+            },
+            {
+              "id": "2",
+              "text": "Jean Pierre Papen"
+            },
+            {
+              "id": "3",
+              "text": "Ferenc Puskas"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Zinedine Zidane"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Argentinean top goal scorer played most of his career for the famous 1950s Real Madrid team as they dominated the European Club Cup?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alfredo Di Stefano"
+            },
+            {
+              "id": "1",
+              "text": "Zinedine Zidane"
+            },
+            {
+              "id": "2",
+              "text": "George Best"
+            },
+            {
+              "id": "3",
+              "text": "Diego Maradona"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Alfredo Di Stefano"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the nationality of the World Boxing Organization heavyweight champion Ruslan Chagaev?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kazakhstani"
+            },
+            {
+              "id": "1",
+              "text": "Uzbekistani"
+            },
+            {
+              "id": "2",
+              "text": "Russian"
+            },
+            {
+              "id": "3",
+              "text": "Ukrainian"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Uzbekistani"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This historic soccer player began his career as a poor boy from the slums in Tres Coracoes, Brazil. By the time of his retirement he had scored over a 1000 goals most of which for his Club Santos. Who is this world-famous soccer player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kaka"
+            },
+            {
+              "id": "1",
+              "text": "Maradona"
+            },
+            {
+              "id": "2",
+              "text": "Pele"
+            },
+            {
+              "id": "3",
+              "text": "Ronaldhino"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pele"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did professional boxing start in 1891?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Russia"
+            },
+            {
+              "id": "2",
+              "text": "England"
+            },
+            {
+              "id": "3",
+              "text": "USA"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: England"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "weight",
+          "players",
+          "world",
+          "hand",
+          "past"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Soccer and Player",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, s, players. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which European soccer player was named  European Soccer Player of the Year three times (1988, 89 and 92) and FIFA World Player of the Year in 1992?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paolo Maldini"
+            },
+            {
+              "id": "1",
+              "text": "Franco Baresi"
+            },
+            {
+              "id": "2",
+              "text": "Ruud Gullit"
+            },
+            {
+              "id": "3",
+              "text": "Marco van Basten"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Marco van Basten"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which German soccer star was voted European Soccer Player of the Year in both 1972 and 1976?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lev Yashin"
+            },
+            {
+              "id": "1",
+              "text": "Franz Beckenbauer"
+            },
+            {
+              "id": "2",
+              "text": "Ferenc Puskas"
+            },
+            {
+              "id": "3",
+              "text": "Michael Balack"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Franz Beckenbauer"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which big legend of Manchester United survived an airplane crash in 1958?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sir Stanley Matthews"
+            },
+            {
+              "id": "1",
+              "text": "Sir Bobby Charlton"
+            },
+            {
+              "id": "2",
+              "text": "David Seaman"
+            },
+            {
+              "id": "3",
+              "text": "George Best"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sir Bobby Charlton"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which professional soccer player spent his entire club career (25 years) in  A.C. Milan?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vialli"
+            },
+            {
+              "id": "1",
+              "text": "Paolo Maldini"
+            },
+            {
+              "id": "2",
+              "text": "Marco van Basten"
+            },
+            {
+              "id": "3",
+              "text": "Franco Baresi"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Paolo Maldini"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which great soccer goalkeeper was nicknamed \u201eThe black spider\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maradona"
+            },
+            {
+              "id": "1",
+              "text": "Zinedine Zidane"
+            },
+            {
+              "id": "2",
+              "text": "Lev Yashin"
+            },
+            {
+              "id": "3",
+              "text": "Michael Balack"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lev Yashin"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This French soccer legend finished top scorer in A Series for three consecutive seasons (1982-83, 1983-84 and 1984-85) and was voted Player of the Year by World Soccer magazine in 1984 and 1985. Who is he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vialli"
+            },
+            {
+              "id": "1",
+              "text": "Platini"
+            },
+            {
+              "id": "2",
+              "text": "Reina"
+            },
+            {
+              "id": "3",
+              "text": "Papen"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Platini"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which brilliant top goal scorer is a product of Atletico Madrids youth system but legend of the rival team Real Madrid?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mendieta"
+            },
+            {
+              "id": "1",
+              "text": "Victor Valdes"
+            },
+            {
+              "id": "2",
+              "text": "Michel Platini"
+            },
+            {
+              "id": "3",
+              "text": "Raul Blanco"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Raul Blanco"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does a set in volleyball last?",
+          "options": [
+            {
+              "id": "0",
+              "text": "30 minutes"
+            },
+            {
+              "id": "1",
+              "text": "Until one of the teams gets at least 25 points with at least two points advantage over the other team."
+            },
+            {
+              "id": "2",
+              "text": "15 minutes"
+            },
+            {
+              "id": "3",
+              "text": "Until one of the teams gets 25 points"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Until one of the teams gets at least 25 points with at least two points advantage over the other team."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Brazilian soccer player was part of Barcelona\u2019s \u201dDream Team\u201d (1993-1994 season) and scored 30 goals in 33 matches?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rivaldo"
+            },
+            {
+              "id": "1",
+              "text": "Romario"
+            },
+            {
+              "id": "2",
+              "text": "Ronaldo"
+            },
+            {
+              "id": "3",
+              "text": "Pele"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Romario"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This historic soccer player was still playing professionally at the age of 50 in the top division. At his best in the late 40s to mid 50s he only played for two clubs, Blackpool and Stoke. Who is this world-famous soccer player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ronaldo"
+            },
+            {
+              "id": "1",
+              "text": "Stanley Matthews"
+            },
+            {
+              "id": "2",
+              "text": "George Best"
+            },
+            {
+              "id": "3",
+              "text": "Michel Platini"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stanley Matthews"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Milan\u2019s defender won six scudetti (Serie A league titles) and three European Cups and his #6 jersey was retired by the club?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Best"
+            },
+            {
+              "id": "1",
+              "text": "Mauro Tassotti"
+            },
+            {
+              "id": "2",
+              "text": "Franco Baresi"
+            },
+            {
+              "id": "3",
+              "text": "Alessandro Costacurta"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Franco Baresi"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Hungarian soccer player was known throughout his career as The Galloping Major and later with Real Madrid as  \u201cLittle Cannon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Trifon Ivanov"
+            },
+            {
+              "id": "1",
+              "text": "Lukas Podolski"
+            },
+            {
+              "id": "2",
+              "text": "Victor Valdes"
+            },
+            {
+              "id": "3",
+              "text": "Ferenc Puskas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ferenc Puskas"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Bulgarian soccer star played for FC Barcelona in the years when they were famous as \u201cDream Team\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Trifon Ivanov"
+            },
+            {
+              "id": "1",
+              "text": "Hristo Ivanov"
+            },
+            {
+              "id": "2",
+              "text": "Hristo Stoichkov"
+            },
+            {
+              "id": "3",
+              "text": "Dimitar Berbatov"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hristo Stoichkov"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these soccer players is popular not only on the soccerfield, but in the fashion circles, too?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pele"
+            },
+            {
+              "id": "1",
+              "text": "Lev Yashin"
+            },
+            {
+              "id": "2",
+              "text": "David Beckham"
+            },
+            {
+              "id": "3",
+              "text": "Maradona"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: David Beckham"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which European soccer star was nicknamed \u201cThe black pearl\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Weah"
+            },
+            {
+              "id": "1",
+              "text": "Ronaldinho"
+            },
+            {
+              "id": "2",
+              "text": "Ferenc Puskas"
+            },
+            {
+              "id": "3",
+              "text": "Eusebio da Silva Ferriera"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eusebio da Silva Ferriera"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "s",
+          "players",
+          "barcelona",
+          "scorer",
+          "star"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Points and Country",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, miami, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many members of the 1972 Miami Dolphins made it to the Pro Bowl that year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "7"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "13"
+            },
+            {
+              "id": "3",
+              "text": "6"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 9"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these teams won the most titles in mens volleyvball in the beginning of the 21st century?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "Brazil"
+            },
+            {
+              "id": "2",
+              "text": "Russia"
+            },
+            {
+              "id": "3",
+              "text": "USA"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Brazil"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In September 2007 two Mens European Championship finals were held during the same weekend. The final game in volleyball was played in Moscow and the top two basketball teams competed in Madrid. Both finals were between Russia and Spain. Who were the winners?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Russia in both finals"
+            },
+            {
+              "id": "1",
+              "text": "Spain in both finals"
+            },
+            {
+              "id": "2",
+              "text": "Spain in Moscow, Russia in Madrid"
+            },
+            {
+              "id": "3",
+              "text": "Russia in Moscow, Spain in Madrid"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Spain in Moscow, Russia in Madrid"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the autumn of 2006 Poland won two silver medals at the World Championships in these sports.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Football (Men) and Basketball (Women)"
+            },
+            {
+              "id": "1",
+              "text": "Volleyball (Men) and Handball (Men)"
+            },
+            {
+              "id": "2",
+              "text": "Basketball (Men) and Volleyball (Women)"
+            },
+            {
+              "id": "3",
+              "text": "Football (Women) and Handball (Women)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Volleyball (Men) and Handball (Men)"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which member of the 1972 Miami Dolphins once said, Perfection ends a lot of arguments.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "WR Paul Warfield"
+            },
+            {
+              "id": "1",
+              "text": "TE Jim Mandich"
+            },
+            {
+              "id": "2",
+              "text": "QB Bob Griese"
+            },
+            {
+              "id": "3",
+              "text": "RB Larry Csonka"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: RB Larry Csonka"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The EHF Champions League is a major competition in this sport.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Volleyball"
+            },
+            {
+              "id": "1",
+              "text": "Basketball"
+            },
+            {
+              "id": "2",
+              "text": "Football"
+            },
+            {
+              "id": "3",
+              "text": "Handball"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Handball"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the top European club competition in mens basketball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ULEB Cup"
+            },
+            {
+              "id": "1",
+              "text": "Champions League"
+            },
+            {
+              "id": "2",
+              "text": "NBA"
+            },
+            {
+              "id": "3",
+              "text": "Euroleague"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Euroleague"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1972 Dolphins led the NFL in both points scored and points allowed. How many points did they score and allow, respectively?",
+          "options": [
+            {
+              "id": "0",
+              "text": "422-162"
+            },
+            {
+              "id": "1",
+              "text": "390-75"
+            },
+            {
+              "id": "2",
+              "text": "347-167"
+            },
+            {
+              "id": "3",
+              "text": "385-171"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 385-171"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the combined record of the 1972 Dolphins regular and post season (Super Bowl included) opponents?",
+          "options": [
+            {
+              "id": "0",
+              "text": "78-143-3"
+            },
+            {
+              "id": "1",
+              "text": "98-123-3"
+            },
+            {
+              "id": "2",
+              "text": "119-101-4"
+            },
+            {
+              "id": "3",
+              "text": "101-122-1"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 98-123-3"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country was the first to beat the US basketball Dream Team at the Olympic Games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Argentina"
+            },
+            {
+              "id": "1",
+              "text": "Puerto Rico"
+            },
+            {
+              "id": "2",
+              "text": "Soviet Union"
+            },
+            {
+              "id": "3",
+              "text": "Spain"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Puerto Rico"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Super Bowl MVP in 1972?",
+          "options": [
+            {
+              "id": "0",
+              "text": "S Jake Scott"
+            },
+            {
+              "id": "1",
+              "text": "RB Larry Csonka"
+            },
+            {
+              "id": "2",
+              "text": "WR Paul Warfield"
+            },
+            {
+              "id": "3",
+              "text": "RB Mercury Morris"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: S Jake Scott"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many players are there in a handball team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "8"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which team sport can you see a player called libero, whose jersey is a different color from the rest of the team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Volleyball"
+            },
+            {
+              "id": "1",
+              "text": "Football"
+            },
+            {
+              "id": "2",
+              "text": "Basketball"
+            },
+            {
+              "id": "3",
+              "text": "Handball"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Volleyball"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1972 RB Larry Csonka rushed 213 times for how many yards?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1,178"
+            },
+            {
+              "id": "1",
+              "text": "2,143"
+            },
+            {
+              "id": "2",
+              "text": "1,098"
+            },
+            {
+              "id": "3",
+              "text": "1,117"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1,117"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country was the European champion in football and basketball in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "Greece"
+            },
+            {
+              "id": "2",
+              "text": "Spain"
+            },
+            {
+              "id": "3",
+              "text": "Italy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Greece"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "miami",
+          "country",
+          "players",
+          "autumn",
+          "champions"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Games and Pitcher",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, world, players. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What statement is true about Kathryn Johnston?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She was the first female baseball player in NCAA baseball."
+            },
+            {
+              "id": "1",
+              "text": "She was the first female in the Baseball Hall of Fame."
+            },
+            {
+              "id": "2",
+              "text": "She was the winningest pitcher in the All-American Girls Baseball League during World War II."
+            },
+            {
+              "id": "3",
+              "text": "She was the first girl to play in the Little League."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: She was the first girl to play in the Little League."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2005 the Indianapolis Colts won their first 13 games and appeared ready to challenge the 1972 Miami Dolphins record, but then lost their next 2 games. Which 1998 team also won their first 13 games but lost their next 2?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dallas Cowboys"
+            },
+            {
+              "id": "1",
+              "text": "Green Bay Packers"
+            },
+            {
+              "id": "2",
+              "text": "Denver Broncos"
+            },
+            {
+              "id": "3",
+              "text": "New York Jets"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Denver Broncos"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jim Barbieri was the first player to make these two accomplishments.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Win a Rose Bowl and a World Series."
+            },
+            {
+              "id": "1",
+              "text": "Play in a Major League World Series and in an NBA game"
+            },
+            {
+              "id": "2",
+              "text": "Play in the Little League World Series and the Major League World Series"
+            },
+            {
+              "id": "3",
+              "text": "Win an NBA Championship and a Major League World Series"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Play in the Little League World Series and the Major League World Series"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these ladies was the first woman to play on a professional minor league baseball team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maria Pepe"
+            },
+            {
+              "id": "1",
+              "text": "Julie Croteau"
+            },
+            {
+              "id": "2",
+              "text": "Carla Stotz"
+            },
+            {
+              "id": "3",
+              "text": "Kendra Hanes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kendra Hanes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the first Little League World Series played?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1971"
+            },
+            {
+              "id": "1",
+              "text": "1952"
+            },
+            {
+              "id": "2",
+              "text": "1939"
+            },
+            {
+              "id": "3",
+              "text": "1947"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1947"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first pitcher to win the Gold Glove Award 17 times?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Greg Maddox"
+            },
+            {
+              "id": "1",
+              "text": "Jim Kaat"
+            },
+            {
+              "id": "2",
+              "text": "Bob Gibson"
+            },
+            {
+              "id": "3",
+              "text": "Bobby Shantz"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Greg Maddox"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What pitcher was the first Little Leaguer to make it to the Major Leagues?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bob Lemon"
+            },
+            {
+              "id": "1",
+              "text": "Roger Clemens"
+            },
+            {
+              "id": "2",
+              "text": "Joey Jay"
+            },
+            {
+              "id": "3",
+              "text": "Bob Gibson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Joey Jay"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The All-American Girls Professional Baseball League existed during these years.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1943-1955"
+            },
+            {
+              "id": "1",
+              "text": "1944-1950"
+            },
+            {
+              "id": "2",
+              "text": "1942-1946"
+            },
+            {
+              "id": "3",
+              "text": "1943-1954"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1943-1954"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first Little League baseball player to become US President?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Clinton"
+            },
+            {
+              "id": "1",
+              "text": "Lyndon B. Johnson"
+            },
+            {
+              "id": "2",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "3",
+              "text": "Gerald Ford"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: George W. Bush"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first non-American baseball team to win the Little League World Series was from this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mexico"
+            },
+            {
+              "id": "1",
+              "text": "The Dominican Republic"
+            },
+            {
+              "id": "2",
+              "text": "Venezuela"
+            },
+            {
+              "id": "3",
+              "text": "Japan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mexico"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Major League players at this position were the first to hit over 37,000 home runs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Left field"
+            },
+            {
+              "id": "1",
+              "text": "Center Field"
+            },
+            {
+              "id": "2",
+              "text": "First base"
+            },
+            {
+              "id": "3",
+              "text": "Right Field"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: First base"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1976, only four years after the 1972 Dolphins won all their games, the Tampa Bay Buccaneers failed to win a game, and finished with a record of 0-14. They were last in the NFL, scoring only 125 points all season. The 1976 Bucs defense allowed 412 points, which was next to last in the league. Which team allowed the most points in 1976?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seattle Seahawks"
+            },
+            {
+              "id": "1",
+              "text": "Buffalo Bills"
+            },
+            {
+              "id": "2",
+              "text": "Kansas City Chiefs"
+            },
+            {
+              "id": "3",
+              "text": "New York Jets"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Seattle Seahawks"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe DiMaggio hit safely in 61 consecutive games in 1933.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these happened for the first time in 1913?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The baseball catcher wore a face mask for the first time."
+            },
+            {
+              "id": "1",
+              "text": "The baseball catcher wore a chest protector for the first time."
+            },
+            {
+              "id": "2",
+              "text": "Baseball fans were allowed onto the field after the game."
+            },
+            {
+              "id": "3",
+              "text": "Baseball fans were allowed to keep foul balls."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Baseball fans were allowed to keep foul balls."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This pitcher was the first Little Leaguer to be inducted into the Baseball Hall of Fame.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joey Jay"
+            },
+            {
+              "id": "1",
+              "text": "Don Drysdale"
+            },
+            {
+              "id": "2",
+              "text": "Jim Hunter"
+            },
+            {
+              "id": "3",
+              "text": "Bob Gibson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jim Hunter"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "world",
+          "players",
+          "gold",
+          "position",
+          "woman"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: Team and Minnesota Vikings",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, bowl, vikings. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the 1962 Little League World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Osaka, Japan"
+            },
+            {
+              "id": "1",
+              "text": "Austin, Tx."
+            },
+            {
+              "id": "2",
+              "text": "Lakewood, N.J."
+            },
+            {
+              "id": "3",
+              "text": "San Jose, Ca."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: San Jose, Ca."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What team did the Minnesota Vikings lose to in Super Bowl VIII?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dallas Cowboys"
+            },
+            {
+              "id": "1",
+              "text": "Pittsburgh Steelers"
+            },
+            {
+              "id": "2",
+              "text": "Green Bay Packers"
+            },
+            {
+              "id": "3",
+              "text": "Miami Dolphins"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Miami Dolphins"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tampa, FL. lost the 1975 Little League World Series to which team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lakewood, N. J."
+            },
+            {
+              "id": "1",
+              "text": "Morristown, TN."
+            },
+            {
+              "id": "2",
+              "text": "Seoul, South Korea"
+            },
+            {
+              "id": "3",
+              "text": "Osaka, Japan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lakewood, N. J."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won the 1993 Little League World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Norwalk, CT."
+            },
+            {
+              "id": "1",
+              "text": "Houston, TX."
+            },
+            {
+              "id": "2",
+              "text": "Birmingham, AL."
+            },
+            {
+              "id": "3",
+              "text": "Long Beach, Ca."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Long Beach, Ca."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Minnesota Vikings have lost the Super Bowl more than three times.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these Georgia teams was the 1983 Little League World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atlanta, Ga."
+            },
+            {
+              "id": "1",
+              "text": "Marietta, Ga."
+            },
+            {
+              "id": "2",
+              "text": "Burns, Ga."
+            },
+            {
+              "id": "3",
+              "text": "Roswell, Ga."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Marietta, Ga."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which US team won the Little League World Series championship game in 1970?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gary, IN."
+            },
+            {
+              "id": "1",
+              "text": "Campbell, CA."
+            },
+            {
+              "id": "2",
+              "text": "Wayne, N. J."
+            },
+            {
+              "id": "3",
+              "text": "St. Petersburg, FL."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wayne, N. J."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won the second Little League World Series in 1948?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lockhaven, Pa."
+            },
+            {
+              "id": "1",
+              "text": "Tampa, Fl."
+            },
+            {
+              "id": "2",
+              "text": "Bowling Green, Ky."
+            },
+            {
+              "id": "3",
+              "text": "Roswell, N.M."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lockhaven, Pa."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The team that won the first Little League World Series was from which city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "WIlliamsport, Pa."
+            },
+            {
+              "id": "1",
+              "text": "Morrisville, Pa."
+            },
+            {
+              "id": "2",
+              "text": "Taipei, Taiwan"
+            },
+            {
+              "id": "3",
+              "text": "Gary, Pa."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: WIlliamsport, Pa."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Minnesota Vikings started out as an AFL team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1999, Phoenix City, AL lost the Little League World Series to which team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tainan City, Taiwan"
+            },
+            {
+              "id": "1",
+              "text": "Pu-Tzu Town, Taiwan"
+            },
+            {
+              "id": "2",
+              "text": "Osaka, Japan"
+            },
+            {
+              "id": "3",
+              "text": "Li-Teh, Taiwan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Osaka, Japan"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team was the winner of the 1951 Little League World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Houston, TX."
+            },
+            {
+              "id": "1",
+              "text": "Austin, TX."
+            },
+            {
+              "id": "2",
+              "text": "Louisville, Ky."
+            },
+            {
+              "id": "3",
+              "text": "Stamford, Ct."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Stamford, Ct."
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the Little League World Series in 1998?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Toms River, N.J."
+            },
+            {
+              "id": "1",
+              "text": "Osaka, Japan"
+            },
+            {
+              "id": "2",
+              "text": "David, Panama"
+            },
+            {
+              "id": "3",
+              "text": "Tainan, Taiwan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Toms River, N.J."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nickname of the Minnesota Vikings defensive line in the late 1960s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the Purple People Eaters"
+            },
+            {
+              "id": "1",
+              "text": "They didnt have a nickname."
+            },
+            {
+              "id": "2",
+              "text": "the Berserks"
+            },
+            {
+              "id": "3",
+              "text": "the Purple Swarm"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the Purple People Eaters"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what Super Bowl did the Minnesota Vikings make their first appearance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Super Bowl IV"
+            },
+            {
+              "id": "1",
+              "text": "Super Bowl VII"
+            },
+            {
+              "id": "2",
+              "text": "Super Bowl V"
+            },
+            {
+              "id": "3",
+              "text": "Super Bowl II"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Super Bowl IV"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "bowl",
+          "vikings",
+          "championship",
+          "sports",
+          "city"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Player and Players",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, phrase, players. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The great Brazilian soccer player was born Manoel Francisco dos Santos, but we known him better by this name.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ronaldo"
+            },
+            {
+              "id": "1",
+              "text": "Zico"
+            },
+            {
+              "id": "2",
+              "text": "Garrincha"
+            },
+            {
+              "id": "3",
+              "text": "Pele"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Garrincha"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these players was nicknamed The Fridge?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Art Monk"
+            },
+            {
+              "id": "1",
+              "text": "Manute Bol"
+            },
+            {
+              "id": "2",
+              "text": "William Perry"
+            },
+            {
+              "id": "3",
+              "text": "Jared Allen"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: William Perry"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first NBA player to play 1192 consecutive games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A.C. Green"
+            },
+            {
+              "id": "1",
+              "text": "Bob Lanier"
+            },
+            {
+              "id": "2",
+              "text": "Calvin Murphy"
+            },
+            {
+              "id": "3",
+              "text": "Walt Bellamy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A.C. Green"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What phrase did Rod Smart write on the back of his jersey when he played in the XFL?",
+          "options": [
+            {
+              "id": "0",
+              "text": "I Am So-Smart"
+            },
+            {
+              "id": "1",
+              "text": "So Very Smart"
+            },
+            {
+              "id": "2",
+              "text": "He Hate Me"
+            },
+            {
+              "id": "3",
+              "text": "The Hefty Lefty"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He Hate Me"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Wisconsin-born end had the nickname Crazylegs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lance Alworth"
+            },
+            {
+              "id": "1",
+              "text": "Len Goodman"
+            },
+            {
+              "id": "2",
+              "text": "Elroy Hirsch"
+            },
+            {
+              "id": "3",
+              "text": "Jerry Rice"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Elroy Hirsch"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the first NBA player to hit  98.1 % of his free throws in a season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dolph Schayes"
+            },
+            {
+              "id": "1",
+              "text": "Calvin Murphy"
+            },
+            {
+              "id": "2",
+              "text": "Jose Calderon"
+            },
+            {
+              "id": "3",
+              "text": "Bill Sharman"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jose Calderon"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first NBA player to get 181 triple doubles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Earvin Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Oscar Robertson"
+            },
+            {
+              "id": "2",
+              "text": "Michael Jordan"
+            },
+            {
+              "id": "3",
+              "text": "Wilt Chamberlain"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oscar Robertson"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This man was very influential in NCAA football and NFL football. He played right field for the New York Yankees and was a Rose Bowl MVP.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reggie Bush"
+            },
+            {
+              "id": "1",
+              "text": "Bo Jackson"
+            },
+            {
+              "id": "2",
+              "text": "George Halas"
+            },
+            {
+              "id": "3",
+              "text": "John Elway"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: George Halas"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the first player in Major League Baseball to lead in double plays at three different positions - at third base, at second base and shortstop.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dale Shofner"
+            },
+            {
+              "id": "1",
+              "text": "Alex Rodriguiz"
+            },
+            {
+              "id": "2",
+              "text": "Gil McDougald"
+            },
+            {
+              "id": "3",
+              "text": "Ernie Banks"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Gil McDougald"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former AFL offensive tackle was nicknamed The Intellectual Assassin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yale Mix"
+            },
+            {
+              "id": "1",
+              "text": "Ron Mix"
+            },
+            {
+              "id": "2",
+              "text": "Yale Munoz"
+            },
+            {
+              "id": "3",
+              "text": "Ron Munoz"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ron Mix"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dale Ellis set a record for the most minutes in a game. How many minutes did he play against the Milwaukee Bucks on November 9 1989?",
+          "options": [
+            {
+              "id": "0",
+              "text": "69"
+            },
+            {
+              "id": "1",
+              "text": "54"
+            },
+            {
+              "id": "2",
+              "text": "96"
+            },
+            {
+              "id": "3",
+              "text": "57"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 69"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Vikings were the 1st team to play in 4 Super Bowls.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Golfer Ernie Els has the same nickname as this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Exeter"
+            },
+            {
+              "id": "1",
+              "text": "New Orleans"
+            },
+            {
+              "id": "2",
+              "text": "Tucson"
+            },
+            {
+              "id": "3",
+              "text": "Edmonton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: New Orleans"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These were the first two NBA players to be traded after winning the MVP Trophy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moses Malone and Austin Carr"
+            },
+            {
+              "id": "1",
+              "text": "Moses Malone and Wilt Chamberlain"
+            },
+            {
+              "id": "2",
+              "text": "Wilt Chamberlain and Karl Malone"
+            },
+            {
+              "id": "3",
+              "text": "Karl Malone and Oscar Robertson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Moses Malone and Wilt Chamberlain"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the first tennis player to have twice won all four Grand Slam singles titles in the same year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rod Laver"
+            },
+            {
+              "id": "1",
+              "text": "Bjorn Borg"
+            },
+            {
+              "id": "2",
+              "text": "Arthur Ashe"
+            },
+            {
+              "id": "3",
+              "text": "Roger Federer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rod Laver"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "phrase",
+          "players",
+          "assassin",
+          "golfer",
+          "back"
+        ]
+      }
+    }
+  ]
+}

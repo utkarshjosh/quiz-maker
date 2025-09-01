@@ -1,0 +1,37 @@
+# Database Schema Management Rules
+
+## **Core Principles:**
+
+- **Single source of truth:** Use Prisma schema as the authoritative source for all database changes
+- **Migration safety:** Create migrations only via Prisma CLI to ensure consistency
+- **Architectural boundaries:** Database changes must respect module boundaries and dependency rules
+
+## **Implementation Guidelines:**
+
+- **Always use Prisma schema** (`prisma/schema.prisma`) as the primary source for database structure
+- **Generate migrations** only through Prisma CLI commands (`prisma migrate dev`, `prisma migrate deploy`)
+- **Never manually edit** migration files or database directly
+- **Follow naming conventions** established in the existing schema
+- **Respect module boundaries** - database changes should not cross feature boundaries without ADR
+
+## **Prisma Best Practices:**
+
+- **Schema-first development:** Define models in `schema.prisma` before implementing code
+- **Use Prisma Client** for all database operations, never raw SQL queries
+- **Leverage Prisma's type safety** by generating types after schema changes
+- **Test migrations** in development before applying to production
+
+## **Migration Workflow:**
+
+1. Update `prisma/schema.prisma` with model changes
+2. Run `prisma generate` to update Prisma Client
+3. Run `prisma migrate dev --name descriptive_name` to create migration
+4. Review generated migration file for correctness
+5. Test the migration in development environment
+6. Commit both schema and migration files together
+
+## **Cross-Module Changes:**
+
+- **Any database change affecting multiple modules** requires an ADR in `docs/adr`
+- **Follow dependency direction:** Database changes should flow from core modules outward
+- **Coordinate with team** when schema changes affect shared interfaces

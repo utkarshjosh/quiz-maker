@@ -1,0 +1,2356 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Player and Game",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, stars, tie. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the oldest player in the 2004 Red Sox team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike Timlin"
+            },
+            {
+              "id": "1",
+              "text": "Curt Schilling"
+            },
+            {
+              "id": "2",
+              "text": "Tim Wakefield"
+            },
+            {
+              "id": "3",
+              "text": "Ellis Burks"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ellis Burks"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the first player in baseball history to hold World Series records as both a pitcher and hitter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ken Brett"
+            },
+            {
+              "id": "1",
+              "text": "Babe Ruth"
+            },
+            {
+              "id": "2",
+              "text": "Dizzy Gillespie"
+            },
+            {
+              "id": "3",
+              "text": "Dizzy Dean"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Babe Ruth"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these players did NOT hit a walk-off home run in a World Series game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Carter"
+            },
+            {
+              "id": "1",
+              "text": "Bobby Thomson"
+            },
+            {
+              "id": "2",
+              "text": "Bill Mazeroski"
+            },
+            {
+              "id": "3",
+              "text": "Carlton Fisk"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bobby Thomson"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Of the 19-game regular season series, how many games did the 2004 Red Sox win against the Yankees?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "11"
+            },
+            {
+              "id": "2",
+              "text": "9"
+            },
+            {
+              "id": "3",
+              "text": "12"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 11"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these teams won their ninth World Series title in 1982?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The NY Yankees"
+            },
+            {
+              "id": "1",
+              "text": "The St. Louis Cardinals"
+            },
+            {
+              "id": "2",
+              "text": "The Braves (Boston, Milwaukee, Atlanta)"
+            },
+            {
+              "id": "3",
+              "text": "The Athletics (Phila., Kansas City, Oakland)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The St. Louis Cardinals"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these players became a U.S. citizen during the 2004 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pedro Martinez"
+            },
+            {
+              "id": "1",
+              "text": "David Ortiz"
+            },
+            {
+              "id": "2",
+              "text": "Orlando Cabrera"
+            },
+            {
+              "id": "3",
+              "text": "Manny Ramirez"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Manny Ramirez"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did baseball player Derek Jeter acquire the nickname Mr. November?",
+          "options": [
+            {
+              "id": "0",
+              "text": "That is his bats nickname."
+            },
+            {
+              "id": "1",
+              "text": "He hit a game-winning homer in the first World Series game ever played in November."
+            },
+            {
+              "id": "2",
+              "text": "His uniform number is 11."
+            },
+            {
+              "id": "3",
+              "text": "He loves Thanksgiving."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He hit a game-winning homer in the first World Series game ever played in November."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Cardinals beat the Mets to gain entry into the 2006 World Series. What made Mookie Wilson, a former Mets star, so happy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Preston Wilson, his stepson, plays for the Cardinals."
+            },
+            {
+              "id": "1",
+              "text": "Preston Wilson, his nephew, plays for the Cardinals."
+            },
+            {
+              "id": "2",
+              "text": "Mookie lives in St. Louis."
+            },
+            {
+              "id": "3",
+              "text": "Preston Wilson, his nephew and stepson, plays for the Cardinals."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Preston Wilson, his nephew and stepson, plays for the Cardinals."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three of the Hall-of-Fame players listed below never won a World Series championship. Who is the lucky exception?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ernie Banks"
+            },
+            {
+              "id": "1",
+              "text": "Ted Williams"
+            },
+            {
+              "id": "2",
+              "text": "Bob Feller"
+            },
+            {
+              "id": "3",
+              "text": "Rod Carew"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Feller"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the only player to hit 3 home runs twice in a World Series game?  If more than one person has done it, who was first?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reggie Jackson"
+            },
+            {
+              "id": "1",
+              "text": "No one"
+            },
+            {
+              "id": "2",
+              "text": "Babe Ruth"
+            },
+            {
+              "id": "3",
+              "text": "Hank Aaron"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Babe Ruth"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the last time teams played to a tie in a Series game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1912"
+            },
+            {
+              "id": "1",
+              "text": "Never"
+            },
+            {
+              "id": "2",
+              "text": "1908"
+            },
+            {
+              "id": "3",
+              "text": "1994"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1912"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who pitched the first no-hitter in Series history?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lew Burdette"
+            },
+            {
+              "id": "1",
+              "text": "Orel Hershiser"
+            },
+            {
+              "id": "2",
+              "text": "Don Larsen"
+            },
+            {
+              "id": "3",
+              "text": "Nolan Ryan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Don Larsen"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Red Sox player saw limited duty and limited success in 2004, after an embarrassing incident in which he made an obscene gesture to the fans before a 2003 playoff game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ramiro Mendoza"
+            },
+            {
+              "id": "1",
+              "text": "Byung-Hyun Kim"
+            },
+            {
+              "id": "2",
+              "text": "Gabe Kapler"
+            },
+            {
+              "id": "3",
+              "text": "David McCarty"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Byung-Hyun Kim"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these 2004 Red Sox stars was not a first-round draft pick?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nomar Garciaparra"
+            },
+            {
+              "id": "1",
+              "text": "David Ortiz"
+            },
+            {
+              "id": "2",
+              "text": "Manny Ramirez"
+            },
+            {
+              "id": "3",
+              "text": "Jason Varitek"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: David Ortiz"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was impressive about Reggie Jacksons homers in Game 6 of the 1977 Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He ignored all the bunt signs."
+            },
+            {
+              "id": "1",
+              "text": "He hit 2 of them as a switch-hitting right-hander."
+            },
+            {
+              "id": "2",
+              "text": "He hit each of his homers on the first pitch."
+            },
+            {
+              "id": "3",
+              "text": "He hit them all against pitchers who were former teammates"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He hit each of his homers on the first pitch."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "stars",
+          "tie",
+          "players",
+          "world",
+          "game"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Pete Rose and Games",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, nicknames, average. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which newly acquired player, upon seeing Nomar Garciaparra leaving the Red Sox clubhouse the day of the 2004 trading deadline, said, Please tell me I wasnt traded for Nomar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Doug Mientkiewitz"
+            },
+            {
+              "id": "1",
+              "text": "Dave Roberts"
+            },
+            {
+              "id": "2",
+              "text": "Curtis Leskanic"
+            },
+            {
+              "id": "3",
+              "text": "Orlando Cabrera"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Doug Mientkiewitz"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these nicknames was given to Pete Rose?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thorny"
+            },
+            {
+              "id": "1",
+              "text": "Pistol Pete"
+            },
+            {
+              "id": "2",
+              "text": "Charlie Hustle"
+            },
+            {
+              "id": "3",
+              "text": "Ramblin Rose"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Charlie Hustle"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Red Sox pitcher gave up the most home runs in the 2004 regular season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pedro Martinez"
+            },
+            {
+              "id": "1",
+              "text": "Bronson Arroyo"
+            },
+            {
+              "id": "2",
+              "text": "Curt Schilling"
+            },
+            {
+              "id": "3",
+              "text": "Tim Wakefield"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tim Wakefield"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who led the 2004 Red Sox regular season in number of stolen bases?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jason Varitek"
+            },
+            {
+              "id": "1",
+              "text": "Pokey Reese"
+            },
+            {
+              "id": "2",
+              "text": "Johnny Damon"
+            },
+            {
+              "id": "3",
+              "text": "Mark Bellhorn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Johnny Damon"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the only two players on the Red Sox 2004 World Series roster who already had World Series rings?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dave Roberts and Keith Foulke"
+            },
+            {
+              "id": "1",
+              "text": "Keith Foulke and Mike Timlin"
+            },
+            {
+              "id": "2",
+              "text": "Mike Timlin and Curt Schilling"
+            },
+            {
+              "id": "3",
+              "text": "Curt Schilling and Ramiro Mendoza"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mike Timlin and Curt Schilling"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pete Rose was a switch hitter.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which reliever, who had been the Red Sox closer in 2003, had a better earned run average in the 2004 season than the new closer, Keith Foulke?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ramiro Mendoza"
+            },
+            {
+              "id": "1",
+              "text": "Alan Embree"
+            },
+            {
+              "id": "2",
+              "text": "Mike Timlin"
+            },
+            {
+              "id": "3",
+              "text": "Scott Williamson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Scott Williamson"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 2004 Boston Red Sox played 13 extra inning games during the regular season. How many of them did they win?",
+          "options": [
+            {
+              "id": "0",
+              "text": "9"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "11"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Major League organization released Tim Wakefield, allowing him to sign as a free agent with the Red Sox?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Philadelphia Phillies"
+            },
+            {
+              "id": "1",
+              "text": "San Diego Padres"
+            },
+            {
+              "id": "2",
+              "text": "Pittsburgh Pirates"
+            },
+            {
+              "id": "3",
+              "text": "Milwaukee Brewers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pittsburgh Pirates"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many different teams did Pete Rose play for in the major leagues?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Pete Roses middle name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John"
+            },
+            {
+              "id": "1",
+              "text": "James"
+            },
+            {
+              "id": "2",
+              "text": "Edward"
+            },
+            {
+              "id": "3",
+              "text": "Eugene"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Edward"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the winning pitcher in the clinching games of all three 2004 postseason series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Keith Foulke"
+            },
+            {
+              "id": "1",
+              "text": "Derek Lowe"
+            },
+            {
+              "id": "2",
+              "text": "Tim Wakefield"
+            },
+            {
+              "id": "3",
+              "text": "Mike Timlin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Derek Lowe"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Games 4 and 5 of the 2004 American League Championship Series were dramatic extra-inning victories for the Red Sox. How many total innings were played in those two games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "25"
+            },
+            {
+              "id": "1",
+              "text": "26"
+            },
+            {
+              "id": "2",
+              "text": "23"
+            },
+            {
+              "id": "3",
+              "text": "24"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 26"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was former baseball player Pete Rose born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1942"
+            },
+            {
+              "id": "1",
+              "text": "1943"
+            },
+            {
+              "id": "2",
+              "text": "1944"
+            },
+            {
+              "id": "3",
+              "text": "1941"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1941"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What astronomical event was visible the night the Red Sox completed the World Series sweep against the Cardinals?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hale-Bopp comet"
+            },
+            {
+              "id": "1",
+              "text": "Aurora Borealis"
+            },
+            {
+              "id": "2",
+              "text": "Perseid meteor shower"
+            },
+            {
+              "id": "3",
+              "text": "Lunar eclipse"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lunar eclipse"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "nicknames",
+          "average",
+          "players",
+          "world",
+          "games"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Tennis and Pete Rose",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, leader, rookie. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pete Rose won the National League batting title in 1973.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In tennis, what are the two shots that are the same movement?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Serve/Overhead"
+            },
+            {
+              "id": "1",
+              "text": "Volley/Forehand"
+            },
+            {
+              "id": "2",
+              "text": "Forehand/Backhand"
+            },
+            {
+              "id": "3",
+              "text": "Lob/Serve"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Serve/Overhead"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although he was never a great scorer, he was a team leader, who was considred the best defensive guard during his prime. A great athlete, he had tryouts for several football teams although basketball was his best sport. Who is this great point guard and former Celtics head coach?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Havlichek"
+            },
+            {
+              "id": "1",
+              "text": "Jo-Jo White"
+            },
+            {
+              "id": "2",
+              "text": "K.C. Jones"
+            },
+            {
+              "id": "3",
+              "text": "Bob Cousy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: K.C. Jones"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is obligatory to use one hand to make a backhand when you play tennis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In tennis, is it a disadvantage to be tall when you volley?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When learning to play tennis, it is good to know how to rally before you learn how to do spins, power, and angle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Has Pete Rose won the Rookie of the Year Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great point guard had the nickname Clyde when he played for the New York Knicks.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walt Clyde Frazier"
+            },
+            {
+              "id": "1",
+              "text": "Richie Clyde Guerin"
+            },
+            {
+              "id": "2",
+              "text": "Jack Clyde Twyman"
+            },
+            {
+              "id": "3",
+              "text": "Jack Clyde Drexler"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Walt Clyde Frazier"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This point guard played for Philadelphia in the NBA after his college career at West Texas State. Over  his 15 seasons, he averaged close to 7 assists per game, a great accomplishment for such a long career. After he retired as a player, he became Philadelphias head coach. Who is he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Avery Johnson"
+            },
+            {
+              "id": "1",
+              "text": "George Karl"
+            },
+            {
+              "id": "2",
+              "text": "Mike Donleavy"
+            },
+            {
+              "id": "3",
+              "text": "Maurice Cheeks"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Maurice Cheeks"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This New York-born point guard was a star at Holy Cross before starring with the Celtics. He was one of the first point guards to be able to penetrate the defense and then dish off to another player. After his  Celtics career, he became a college coach.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jo-Jo White"
+            },
+            {
+              "id": "1",
+              "text": "K.C.Jones"
+            },
+            {
+              "id": "2",
+              "text": "Bill Sharman"
+            },
+            {
+              "id": "3",
+              "text": "Bob Cousy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Cousy"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The two sides of the tennis court are called the singles alleys.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team did Pete Rose and the Cincinnati Reds beat in the 1975 World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None Of These"
+            },
+            {
+              "id": "1",
+              "text": "Red Sox"
+            },
+            {
+              "id": "2",
+              "text": "Tigers"
+            },
+            {
+              "id": "3",
+              "text": "Yankees"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Red Sox"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the catcher Pete Rose collided into in the 1970 All-star game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Roseboro"
+            },
+            {
+              "id": "1",
+              "text": "None Of These"
+            },
+            {
+              "id": "2",
+              "text": "Dave Duncan"
+            },
+            {
+              "id": "3",
+              "text": "Ray Fosse"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ray Fosse"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pete Rose got his debut on April 8th of what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1966"
+            },
+            {
+              "id": "1",
+              "text": "1965"
+            },
+            {
+              "id": "2",
+              "text": "1964"
+            },
+            {
+              "id": "3",
+              "text": "1963"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1963"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the score 0-0 called in tennis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0-0 all"
+            },
+            {
+              "id": "1",
+              "text": "Love"
+            },
+            {
+              "id": "2",
+              "text": "Love all"
+            },
+            {
+              "id": "3",
+              "text": "0 to 0"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Love all"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "leader",
+          "rookie",
+          "shots",
+          "hand",
+          "point"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Rookie and Year Award",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, rookie, point. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This backcourt  wonder and Basketball Hall of Famer was often billed as the worlds greatest dribbler. He was born in Oklahoma and attended Langston University.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Stockton"
+            },
+            {
+              "id": "1",
+              "text": "Frank McGuire"
+            },
+            {
+              "id": "2",
+              "text": "DicK McGuire"
+            },
+            {
+              "id": "3",
+              "text": "Marques Haynes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Marques Haynes"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jim Rice won the Rookie of the Year Award in 1975.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After graduating from the University of California at Berkley, this great point guard became the NBA rookie of the year for the 1994/1995 year. He has been in at least 8 All-Star games.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Nash"
+            },
+            {
+              "id": "1",
+              "text": "Jason Kidd"
+            },
+            {
+              "id": "2",
+              "text": "Kobe Bryant"
+            },
+            {
+              "id": "3",
+              "text": "John Stockton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jason Kidd"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did Major League Baseball start giving out the Rookie of the Year Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1947"
+            },
+            {
+              "id": "1",
+              "text": "1945"
+            },
+            {
+              "id": "2",
+              "text": "1949"
+            },
+            {
+              "id": "3",
+              "text": "1951"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1947"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This point guard was a team leader for Seattle and the Celtics. After his college career at Pepperdine, he played in the NBA from 1976-1990. Although always a great leader, he never was a head coach. Who was he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hal Lear"
+            },
+            {
+              "id": "1",
+              "text": "Dennis Johnson"
+            },
+            {
+              "id": "2",
+              "text": "John Stockton"
+            },
+            {
+              "id": "3",
+              "text": "Hal Greer"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dennis Johnson"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did Thurman Munson win the Rookie of the Year Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1972"
+            },
+            {
+              "id": "1",
+              "text": "1970"
+            },
+            {
+              "id": "2",
+              "text": "1965"
+            },
+            {
+              "id": "3",
+              "text": "1968"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1970"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Willie Mays ever win the Rookie of the Year Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Willie McCovey won the Rookie of the Year Award while playing with the New York Giants.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This point guard grew up in Kansas, where he went to school. Somehow, Red Auerbach got him into the Connecticut National Guard, to keep him from being  drafted. Who is he?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dennis Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Stefan Telfair"
+            },
+            {
+              "id": "2",
+              "text": "Nate Archibald"
+            },
+            {
+              "id": "3",
+              "text": "JoJo White"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: JoJo White"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Boston Red Sox Hall of Fame outfielder, who served twice in the military as a marine corps pilot, was a two-time MVP winner (1946 and 1949) and a two-time Triple Crown winner (1942 and 1947).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carl Yastrzemski"
+            },
+            {
+              "id": "1",
+              "text": "Harry Hooper"
+            },
+            {
+              "id": "2",
+              "text": "Babe Ruth"
+            },
+            {
+              "id": "3",
+              "text": "Ted Williams"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ted Williams"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Fernando Valenzuela win the Rookie of the Year Award in 1981?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Derek Jeter won the Rookie of the Year Award in 1997.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Major League Baseball started giving Rookie of the Year Award in each league in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1949"
+            },
+            {
+              "id": "1",
+              "text": "1947"
+            },
+            {
+              "id": "2",
+              "text": "1950"
+            },
+            {
+              "id": "3",
+              "text": "1948"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1949"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Frank Robinson won the Rookie of the Year Award while playing with which team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Baltimore Orioles"
+            },
+            {
+              "id": "1",
+              "text": "CIncinnati Reds"
+            },
+            {
+              "id": "2",
+              "text": "Cleveland Indians"
+            },
+            {
+              "id": "3",
+              "text": "Houson Colt 45s"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: CIncinnati Reds"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Pete Rose ever win the Rookie of the Year Award?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "rookie",
+          "point",
+          "willie",
+          "backcourt",
+          "fame"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: University and Yankees",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, college, yankees. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Dodgers won the 1955 World Series over the Yankees in seven games.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "College bands brings out the school spirit in the fans and some bands are renowned in their own right.  But the most famous band member in college football is not a member of a drumline or a strutting majorette, hes a sousaphone player.  What universitys band is on the field when the sousaphone player dots the i?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Princeton"
+            },
+            {
+              "id": "1",
+              "text": "University of Iowa"
+            },
+            {
+              "id": "2",
+              "text": "Ohio State"
+            },
+            {
+              "id": "3",
+              "text": "University of Miami"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ohio State"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This universitys symbol, a golden eagle, soared over the crowd to help begin the 2002 Winter Olympics at Salt Lake City, Utah.  This year War Eagle VII will soar above the stadium to the cry of War Eagle!  War Eagle!  What university is home to the War Eagle named Tiger?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Princeton"
+            },
+            {
+              "id": "1",
+              "text": "UCLA"
+            },
+            {
+              "id": "2",
+              "text": "Auburn"
+            },
+            {
+              "id": "3",
+              "text": "Brown"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Auburn"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Touchdown!  A Conestoga wagon pulled by two white ponies named Sooner and Boomer race around Owen Field.  Who has scored a touchdown?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sanford"
+            },
+            {
+              "id": "1",
+              "text": "University of Colorado"
+            },
+            {
+              "id": "2",
+              "text": "University of Oklahoma"
+            },
+            {
+              "id": "3",
+              "text": "Texas A  M"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: University of Oklahoma"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Several universities can be heard yelling Hold that tiger. Hold that tiger as their team rushes to the field.   But only one university has each player touch Howards Rock and run straight down a steep hill into the stadium know as  Death Valley.  What university would you be visiting when these Tigers take the field?",
+          "options": [
+            {
+              "id": "0",
+              "text": "LSU"
+            },
+            {
+              "id": "1",
+              "text": "Auburn"
+            },
+            {
+              "id": "2",
+              "text": "Memphis"
+            },
+            {
+              "id": "3",
+              "text": "Clemson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Clemson"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1949 World Series the Yankees beat the Dodgers in six games.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two universities are are almost always listed in the number one or number two spot when naming the best college fight song.  One song mentioned is Notre Dames Notre Dame Victory March.  The second fight song lyrics start: Send a volley cheer on high.  Shake down the thunder from the sky.  In which university stadium called the big house would you be sitting when the fans starting singing The Victors?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Texas"
+            },
+            {
+              "id": "1",
+              "text": "University of Michigan"
+            },
+            {
+              "id": "2",
+              "text": "Cornell"
+            },
+            {
+              "id": "3",
+              "text": "Ohio State"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: University of Michigan"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What university are you visiting when, at the end of the game, the fans begin to sing  Take Me Home, Country Roads",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of North Carolina"
+            },
+            {
+              "id": "1",
+              "text": "Virginia Tech"
+            },
+            {
+              "id": "2",
+              "text": "West Virginia University"
+            },
+            {
+              "id": "3",
+              "text": "University of Virginia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: West Virginia University"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of college footballs greatest traditions is the Rose Bowl played on New Years Day. What university hosted the only Rose Bowl not played in Pasadena?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Washington"
+            },
+            {
+              "id": "1",
+              "text": "University of Oklahoma"
+            },
+            {
+              "id": "2",
+              "text": "Duke"
+            },
+            {
+              "id": "3",
+              "text": "Sanford"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Duke"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Yankees won the World Series of 1953. It was their fifth straight World Series championship victory.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which university mascot made the April 28, 1997 cover of Sports Illustrated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Handsome Dan"
+            },
+            {
+              "id": "1",
+              "text": "Uga"
+            },
+            {
+              "id": "2",
+              "text": "Smokey"
+            },
+            {
+              "id": "3",
+              "text": "Sue E Pig"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Uga"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A 1930 Model A Ford Sport Coupe drives on the field as the crowd rises to sing their fight song that includes these lyrics:   If I had a son, Sir",
+          "options": [
+            {
+              "id": "0",
+              "text": "Florida State University"
+            },
+            {
+              "id": "1",
+              "text": "Georgia Tech"
+            },
+            {
+              "id": "2",
+              "text": "University of Alabama"
+            },
+            {
+              "id": "3",
+              "text": "Auburn University"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Georgia Tech"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Babe Pinelli was the manager of the 1952 World Series-winning Yankees.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following players did not have his number retired by the Boston Red Sox?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ted Williams"
+            },
+            {
+              "id": "1",
+              "text": "Carl Yastrzemski"
+            },
+            {
+              "id": "2",
+              "text": "Bobby Doerr"
+            },
+            {
+              "id": "3",
+              "text": "Luis Aparicio"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Luis Aparicio"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Yankees won the 1947 World Series over the Dodgers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "college",
+          "yankees",
+          "mascot",
+          "world",
+          "footballs"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Ryan Newman and Yankees",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, yankees, newman. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In ice hockey, the goalie is the only player allowed to play with a broken stick.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Ryan Newman get his first NASCAR Busch Series victory?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2002"
+            },
+            {
+              "id": "1",
+              "text": "2000"
+            },
+            {
+              "id": "2",
+              "text": "1999"
+            },
+            {
+              "id": "3",
+              "text": "2001"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 2001"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the manager of the 1981 World Series-winning team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bob Lemon"
+            },
+            {
+              "id": "1",
+              "text": "Walter Alston"
+            },
+            {
+              "id": "2",
+              "text": "Billy Martin"
+            },
+            {
+              "id": "3",
+              "text": "Tommy Lasorda"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tommy Lasorda"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At which track did Ryan Newman win his first Cup Series points race?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michigan"
+            },
+            {
+              "id": "1",
+              "text": "New Hampshire"
+            },
+            {
+              "id": "2",
+              "text": "Pocono"
+            },
+            {
+              "id": "3",
+              "text": "Dover"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: New Hampshire"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Driver Ryan Newman has in fact never won a USAC championship.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which university did NASCAR driver Ryan Newman graduate from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Texas Tech"
+            },
+            {
+              "id": "1",
+              "text": "Notre Dame"
+            },
+            {
+              "id": "2",
+              "text": "Iowa"
+            },
+            {
+              "id": "3",
+              "text": "Purdue"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Purdue"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Dodgers beat the Yankees in 1956 to claim the World Series championship.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What award did NASCAR driver Ryan Newman win in 2003?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rookie of the Year"
+            },
+            {
+              "id": "1",
+              "text": "SPEED Channel American Driver of the Year"
+            },
+            {
+              "id": "2",
+              "text": "Winston cup"
+            },
+            {
+              "id": "3",
+              "text": "Most popular driver"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: SPEED Channel American Driver of the Year"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Yankees lost the first two games of the 1978 World Series. Then they bounced back to win the next four games.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1977 Yankees beat the Dodgers in four games, all of which were decided by two runs or less.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is race car driver Ryan Newman originally from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Louis, MO"
+            },
+            {
+              "id": "1",
+              "text": "South Bend, IN"
+            },
+            {
+              "id": "2",
+              "text": "Louisville, KY"
+            },
+            {
+              "id": "3",
+              "text": "Indianapolis, IN"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: South Bend, IN"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many players are allowed on the ice during an ice hockey game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5"
+            },
+            {
+              "id": "1",
+              "text": "12"
+            },
+            {
+              "id": "2",
+              "text": "10"
+            },
+            {
+              "id": "3",
+              "text": "6"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 12"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does NASCAR driver Ryan Newman have more than one ARCA victory?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many wins did NASCAR driver Ryan Newman have in 2003?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8"
+            },
+            {
+              "id": "1",
+              "text": "5"
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 8"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Dodger pitcher was named the 1963 World Series most valuable player?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jerry Reuss"
+            },
+            {
+              "id": "1",
+              "text": "Don Drysdale"
+            },
+            {
+              "id": "2",
+              "text": "Johnny Podres"
+            },
+            {
+              "id": "3",
+              "text": "Sandy Koufax"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sandy Koufax"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "yankees",
+          "newman",
+          "graduate",
+          "nascar",
+          "world"
+        ]
+      }
+    }
+  ]
+}

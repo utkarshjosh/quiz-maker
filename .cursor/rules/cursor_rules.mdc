@@ -1,0 +1,91 @@
+---
+description: Project architecture guidelines and Cursor rules formatting standards for the quiz-maker project
+globs: **/*
+alwaysApply: true
+---
+
+# Project Architecture & Philosophy Rules
+
+## **Project Overview:**
+
+- **Project:** Node.js (Express + TypeScript + Prisma) with a Go sockets service
+- **Goal:** Modular, scalable, extensible; built to last decades
+- **Philosophy anchors:** dependability, extendability, team scalability, velocity
+
+## **Repository Structure:**
+
+```
+apps/
+  api/         -> Express + TS backend (feature slices)
+  web/         -> React frontend (Next.js/Vite/CRA etc.)
+services/
+  socket/      -> Go WebSocket service
+pkg/
+  ts/          -> shared TS libraries (DTOs, utils)
+  go/          -> shared Go libraries
+prisma/        -> schema, migrations, seed
+docs/          -> ADRs, philosophy, runbooks
+infra/         -> docker-compose, k8s, CI/CD, terraform, etc.
+```
+
+## **Core Architectural Principles:**
+
+- **Prefer small, stable interfaces** and coarse-grained modules over deep cross-dependencies
+- **New code must depend _inward_** (ports/adapters), never reach across features
+- **Any change that crosses a module boundary** requires an ADR in `docs/adr`
+- **Hide third-party APIs** behind our own thin adapters to insulate churn
+- **Favor boring, battle-tested solutions**; optimize for readability and migration safety
+
+---
+
+# Cursor Rules Formatting Standards
+
+- **Required Rule Structure:**
+
+  ```markdown
+  ---
+  description: Clear, one-line description of what the rule enforces
+  globs: path/to/files/*.ext, other/path/**/*
+  alwaysApply: boolean
+  ---
+
+  - **Main Points in Bold**
+    - Sub-points with details
+    - Examples and explanations
+  ```
+
+- **File References:**
+  - Use `[filename](mdc:path/to/file)` ([filename](mdc:filename)) to reference files
+  - Example: [prisma.mdc](mdc:.cursor/rules/prisma.mdc) for rule references
+  - Example: [schema.prisma](mdc:prisma/schema.prisma) for code references
+
+- **Code Examples:**
+  - Use language-specific code blocks
+
+  ```typescript
+  // ✅ DO: Show good examples
+  const goodExample = true;
+
+  // ❌ DON'T: Show anti-patterns
+  const badExample = false;
+  ```
+
+- **Rule Content Guidelines:**
+  - Start with high-level overview
+  - Include specific, actionable requirements
+  - Show examples of correct implementation
+  - Reference existing code when possible
+  - Keep rules DRY by referencing other rules
+
+- **Rule Maintenance:**
+  - Update rules when new patterns emerge
+  - Add examples from actual codebase
+  - Remove outdated patterns
+  - Cross-reference related rules
+
+- **Best Practices:**
+  - Use bullet points for clarity
+  - Keep descriptions concise
+  - Include both DO and DON'T examples
+  - Reference actual code over theoretical examples
+  - Use consistent formatting across rules

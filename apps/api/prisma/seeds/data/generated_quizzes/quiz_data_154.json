@@ -1,0 +1,2476 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: Team and Cricket",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, officials, abbreviation. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many balls make up an over in a cricket match?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "12"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 6"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the abbreviation L.B.W stand for in cricket?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luck Beyond Wonder"
+            },
+            {
+              "id": "1",
+              "text": "Leg Before Wicket"
+            },
+            {
+              "id": "2",
+              "text": "Lost Behind Winner"
+            },
+            {
+              "id": "3",
+              "text": "Last Ball Went"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Leg Before Wicket"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the bi-annual Cricket Series played between England and Australia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Ashes"
+            },
+            {
+              "id": "1",
+              "text": "Churchill Trophy"
+            },
+            {
+              "id": "2",
+              "text": "The Bradman Series"
+            },
+            {
+              "id": "3",
+              "text": "Admirals Cup"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Ashes"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Brazilian team made a 10-year agreement in 2004 with the international fund of investors Media Sports Investment (MSI)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fortaleza/CE"
+            },
+            {
+              "id": "1",
+              "text": "CFA/RO"
+            },
+            {
+              "id": "2",
+              "text": "Ceara/CE"
+            },
+            {
+              "id": "3",
+              "text": "Corinthians/SP"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Corinthians/SP"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won the Brazilian Championship in 1978, beating Sao Paulo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atletico/PR"
+            },
+            {
+              "id": "1",
+              "text": "Guarani/SP"
+            },
+            {
+              "id": "2",
+              "text": "Coritiba/PR"
+            },
+            {
+              "id": "3",
+              "text": "Bahia/BA"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Guarani/SP"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the maximum length of a modern day cricket test match?",
+          "options": [
+            {
+              "id": "0",
+              "text": "150 minutes"
+            },
+            {
+              "id": "1",
+              "text": "1 week"
+            },
+            {
+              "id": "2",
+              "text": "6 hours"
+            },
+            {
+              "id": "3",
+              "text": "5 days"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 5 days"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2002, the team of Brazil became a FIFA World Cup winner beating the team of which country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "Sweden"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Germany"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many runs does a cricket batsman score by clearing the boundary of the playing field in a single hit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "10"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 6"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many wickets must fall (barring retirement or injury) for a cricket team to be all out?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "11"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 10"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team had Manuel Francisco dos Santos, the legendary Garrincha, playing for them for 45 minutes in a game against the Fluminense/RJ in the 1960s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fortaleza/CE"
+            },
+            {
+              "id": "1",
+              "text": "Mirassol/SP"
+            },
+            {
+              "id": "2",
+              "text": "Princesa Solimoes/AM"
+            },
+            {
+              "id": "3",
+              "text": "Botafogo/RJ"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fortaleza/CE"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the length of a cricket pitch?",
+          "options": [
+            {
+              "id": "0",
+              "text": "22 yards"
+            },
+            {
+              "id": "1",
+              "text": "1/2 furlong"
+            },
+            {
+              "id": "2",
+              "text": "25 metres"
+            },
+            {
+              "id": "3",
+              "text": "100 feet"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 22 yards"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Brazilian team signed a contract with soccer legend Edson Arantes do Nascimento, Pel\u00e9, when he was just 15 years old?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sport/PE"
+            },
+            {
+              "id": "1",
+              "text": "Santos/SP"
+            },
+            {
+              "id": "2",
+              "text": "Santo Andre/SP"
+            },
+            {
+              "id": "3",
+              "text": "Vasco/RJ"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Santos/SP"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team of Brazil won the first Club World Championship organized by FIFA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Corinthians/SP"
+            },
+            {
+              "id": "1",
+              "text": "Sao Paulo/SP"
+            },
+            {
+              "id": "2",
+              "text": "Santos/SP"
+            },
+            {
+              "id": "3",
+              "text": "Flamengo/RJ"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Corinthians/SP"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What slang term is applied to a batsmans score of 0 in cricket?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Turkey"
+            },
+            {
+              "id": "1",
+              "text": "Quail"
+            },
+            {
+              "id": "2",
+              "text": "Goose"
+            },
+            {
+              "id": "3",
+              "text": "Duck"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Duck"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What word refers to the match officials in a cricket match?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Referee"
+            },
+            {
+              "id": "1",
+              "text": "Umpire"
+            },
+            {
+              "id": "2",
+              "text": "Sir"
+            },
+            {
+              "id": "3",
+              "text": "Line Judge"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Umpire"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "officials",
+          "abbreviation",
+          "brazil",
+          "fund",
+          "retirement"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Player and Goals",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, szabados, phillies. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was the first organized soccer team formed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sheffield, England"
+            },
+            {
+              "id": "1",
+              "text": "Madrid, Spain"
+            },
+            {
+              "id": "2",
+              "text": "Milan, Italy"
+            },
+            {
+              "id": "3",
+              "text": "Munich, Germany"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sheffield, England"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the Federation Internationale de Football Association formed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1934"
+            },
+            {
+              "id": "1",
+              "text": "1914"
+            },
+            {
+              "id": "2",
+              "text": "1924"
+            },
+            {
+              "id": "3",
+              "text": "1904"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1904"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was  he first man to win the tennis Grand Slam?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spencer W. Gore"
+            },
+            {
+              "id": "1",
+              "text": "Rene Lacoste"
+            },
+            {
+              "id": "2",
+              "text": "Rod Laver"
+            },
+            {
+              "id": "3",
+              "text": "Don Budge"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Don Budge"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Phillies player led the team in stolen bases in 1980?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pete Rose"
+            },
+            {
+              "id": "1",
+              "text": "Lonnie Smith"
+            },
+            {
+              "id": "2",
+              "text": "Larry Bowa"
+            },
+            {
+              "id": "3",
+              "text": "Garry Maddox"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lonnie Smith"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first National Hockey League team in the USA was from this city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boston"
+            },
+            {
+              "id": "1",
+              "text": "Buffalo"
+            },
+            {
+              "id": "2",
+              "text": "Detroit"
+            },
+            {
+              "id": "3",
+              "text": "Fargo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Boston"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Miklos Szabados, Cai Zhenhua, and Michael Maze are prominent players in this sport.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Slalom skiing"
+            },
+            {
+              "id": "1",
+              "text": "Speed skating"
+            },
+            {
+              "id": "2",
+              "text": "Table tennis"
+            },
+            {
+              "id": "3",
+              "text": "Gymnastics"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Table tennis"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first player to score over 1000 goals in soccer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pele"
+            },
+            {
+              "id": "1",
+              "text": "David Beckham"
+            },
+            {
+              "id": "2",
+              "text": "Johann De Gruyff"
+            },
+            {
+              "id": "3",
+              "text": "Rinaldo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pele"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player is considered one of the greatest Philadelphia Phillies players of all time. He played third base for the world champion Phillies in 1980.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike Schmidt"
+            },
+            {
+              "id": "1",
+              "text": "Garry Maddox"
+            },
+            {
+              "id": "2",
+              "text": "Pete Rose"
+            },
+            {
+              "id": "3",
+              "text": "Richie Hebner"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mike Schmidt"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which pitcher had the most  victories with the 1980 Philadelphia Phillies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marty Bystrom"
+            },
+            {
+              "id": "1",
+              "text": "Bob Walk"
+            },
+            {
+              "id": "2",
+              "text": "Steve Lefty Carlton"
+            },
+            {
+              "id": "3",
+              "text": "Ron Reed"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Steve Lefty Carlton"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1979, she became the first person to swim from the Bahamas to Florida.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michelle Yu"
+            },
+            {
+              "id": "1",
+              "text": "Diane Nyad"
+            },
+            {
+              "id": "2",
+              "text": "Tracy Caulkins"
+            },
+            {
+              "id": "3",
+              "text": "Gertrude Ederle"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Diane Nyad"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of these Brazilian championships soccer legend Pel\u00e9 never played in a team which finished first?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sao Paulo championship"
+            },
+            {
+              "id": "1",
+              "text": "Internacional Costa Rica championship"
+            },
+            {
+              "id": "2",
+              "text": "World Cup"
+            },
+            {
+              "id": "3",
+              "text": "Campeonato Brasileiro"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Campeonato Brasileiro"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player scored six goals at the 1997 match between Vasco/RJ and Uniao Joao de Araras, thus breaking the record for the most goals in a single game in the Brazilian Championship.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dude"
+            },
+            {
+              "id": "1",
+              "text": "Pele"
+            },
+            {
+              "id": "2",
+              "text": "Edmundo"
+            },
+            {
+              "id": "3",
+              "text": "Ronaldo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Edmundo"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the manager of the 1980 Philadelphia Phillies?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Danny Ozark"
+            },
+            {
+              "id": "1",
+              "text": "Joe Altobelli"
+            },
+            {
+              "id": "2",
+              "text": "Dallas Green"
+            },
+            {
+              "id": "3",
+              "text": "Jim Fregosi"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dallas Green"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 2004 Brazilian championship season, this player broke the record for most goals in a single season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edmundo"
+            },
+            {
+              "id": "1",
+              "text": "Pele"
+            },
+            {
+              "id": "2",
+              "text": "Roberto Dinamite"
+            },
+            {
+              "id": "3",
+              "text": "Washington"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Washington"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Brazilian football player is one of the most famous Vasco da Gama players and one of the best goal scorers in the history of Brazilian football, with a total of 744 goals in his professional career.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pele"
+            },
+            {
+              "id": "1",
+              "text": "Ronaldo"
+            },
+            {
+              "id": "2",
+              "text": "Roberto Dinamite"
+            },
+            {
+              "id": "3",
+              "text": "Edmundo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Roberto Dinamite"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "szabados",
+          "phillies",
+          "players",
+          "championships",
+          "miklos"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "History Quiz: Players and Following",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, college, smith. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Find the incorrect statement about Tiger Woods.",
+          "options": [
+            {
+              "id": "0",
+              "text": "He won four straight US Amateur titles."
+            },
+            {
+              "id": "1",
+              "text": "He has two half-brothers and one half-sister."
+            },
+            {
+              "id": "2",
+              "text": "He was the first 15 year-old to win the US Junior Amateur Championship."
+            },
+            {
+              "id": "3",
+              "text": "He was the youngest golfer to win all four majors in one year."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He won four straight US Amateur titles."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1960s the Brunswick Sporting Goods Company made a Snurfer, water ski with a rope in the front. This toy led to the development of which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snowboarding"
+            },
+            {
+              "id": "1",
+              "text": "Halfpipe skiing"
+            },
+            {
+              "id": "2",
+              "text": "Skateboarding"
+            },
+            {
+              "id": "3",
+              "text": "Inline Skating"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Snowboarding"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fred Gehrke was a running back for the then Los Angeles Rams. Which of the following did he do in 1948?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scored a touchdown running, receiving and throwing."
+            },
+            {
+              "id": "1",
+              "text": "Ran 100 yards the wrong way"
+            },
+            {
+              "id": "2",
+              "text": "Played all eleven positions in one game"
+            },
+            {
+              "id": "3",
+              "text": "Painted horns on his helmet"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Painted horns on his helmet"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What team won the first college bowl game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Penn State"
+            },
+            {
+              "id": "1",
+              "text": "Bucknell"
+            },
+            {
+              "id": "2",
+              "text": "Tulane"
+            },
+            {
+              "id": "3",
+              "text": "Michigan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Michigan"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1963 a sports contest was held in Hermosa, California. Why was it significant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was the first baseball game between the Peoples Republic of China and the USA."
+            },
+            {
+              "id": "1",
+              "text": "It was the last time Miami of Ohio played Miami of Florida on TV."
+            },
+            {
+              "id": "2",
+              "text": "It was the first time the NFL played the AFL on television."
+            },
+            {
+              "id": "3",
+              "text": "It was the first skateboarding championship."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It was the first skateboarding championship."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This sport, which evolved from the medieval sports of  caid and cnapean, is played with either 13 or 15 players. (There are two modern variants.)",
+          "options": [
+            {
+              "id": "0",
+              "text": "Soccer"
+            },
+            {
+              "id": "1",
+              "text": "Croquet"
+            },
+            {
+              "id": "2",
+              "text": "Curling"
+            },
+            {
+              "id": "3",
+              "text": "Rugby"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rugby"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1886, Ab Smith added this term to sports vocabulary.",
+          "options": [
+            {
+              "id": "0",
+              "text": "hole-in-one"
+            },
+            {
+              "id": "1",
+              "text": "birdie"
+            },
+            {
+              "id": "2",
+              "text": "grand slam"
+            },
+            {
+              "id": "3",
+              "text": "ace"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: birdie"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1963 the National Football League suspended these two players for gambling.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paul Hornung and Pete Rose"
+            },
+            {
+              "id": "1",
+              "text": "Art Schlichter and Mike Lucci"
+            },
+            {
+              "id": "2",
+              "text": "Paul Hornung and Mike Lucci"
+            },
+            {
+              "id": "3",
+              "text": "Paul Hornung and Alex Karras"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Paul Hornung and Alex Karras"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what state was the first American golf course opened?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tennessee"
+            },
+            {
+              "id": "1",
+              "text": "New York"
+            },
+            {
+              "id": "2",
+              "text": "Vermont"
+            },
+            {
+              "id": "3",
+              "text": "Georgia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vermont"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1874 Major Clopton Wingfield revolutionized this sport.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rugby"
+            },
+            {
+              "id": "1",
+              "text": "Cricket"
+            },
+            {
+              "id": "2",
+              "text": "Tennis"
+            },
+            {
+              "id": "3",
+              "text": "Soccer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tennis"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former NFL player is given credit for the first spike in the NFL.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Homer Jones"
+            },
+            {
+              "id": "1",
+              "text": "Abner Haynes"
+            },
+            {
+              "id": "2",
+              "text": "Paul Hornung"
+            },
+            {
+              "id": "3",
+              "text": "Max McGee"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Homer Jones"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first NHL player to score 50 goals in a season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Esposito"
+            },
+            {
+              "id": "1",
+              "text": "Richard"
+            },
+            {
+              "id": "2",
+              "text": "Gretsky"
+            },
+            {
+              "id": "3",
+              "text": "Howe"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Richard"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the first golfer to earn more than $100,000 in one year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jack Nickolas"
+            },
+            {
+              "id": "1",
+              "text": "Sam Snead"
+            },
+            {
+              "id": "2",
+              "text": "Arnold Palmer"
+            },
+            {
+              "id": "3",
+              "text": "Tiger Woods"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Arnold Palmer"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Patty Berg was quite a fine golfer. She won the first US Womans Open in 1946. What significant accomplishment did she make in 1959?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She wore a very revealing outfit."
+            },
+            {
+              "id": "1",
+              "text": "She scored a hole-in-one."
+            },
+            {
+              "id": "2",
+              "text": "She won the event and the tennis Grand Slam."
+            },
+            {
+              "id": "3",
+              "text": "She won the event left-handed."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: She scored a hole-in-one."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first NHL player to score 100 points in a season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Esposito"
+            },
+            {
+              "id": "1",
+              "text": "Gretsky"
+            },
+            {
+              "id": "2",
+              "text": "Richard"
+            },
+            {
+              "id": "3",
+              "text": "Howe"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Esposito"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "college",
+          "smith",
+          "players",
+          "golfer",
+          "brunswick"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Kung and Arts",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, yankees, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This teenager was the Mets starting shortstop in 1983.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kelvin Chapman"
+            },
+            {
+              "id": "1",
+              "text": "Wally Backman"
+            },
+            {
+              "id": "2",
+              "text": "Jose Oquendo"
+            },
+            {
+              "id": "3",
+              "text": "Ron Gardenhire"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jose Oquendo"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "I was the third baseman for the Yankees when Dave Righetti threw his no hitter in 1983. Who am I?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fred Stanley"
+            },
+            {
+              "id": "1",
+              "text": "Bert Campaneris"
+            },
+            {
+              "id": "2",
+              "text": "Graig Nettles"
+            },
+            {
+              "id": "3",
+              "text": "Mike Pagliarulo"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bert Campaneris"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What pitcher pitched a no hitter on July 4th 1983?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Sudakis"
+            },
+            {
+              "id": "1",
+              "text": "John Tudor"
+            },
+            {
+              "id": "2",
+              "text": "Bob Stanley"
+            },
+            {
+              "id": "3",
+              "text": "Dave Righetti"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dave Righetti"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What team won the World Series in 1980?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phillies"
+            },
+            {
+              "id": "1",
+              "text": "Royals"
+            },
+            {
+              "id": "2",
+              "text": "Dodgers"
+            },
+            {
+              "id": "3",
+              "text": "Yankees"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Phillies"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player collected his 3000th hit in 1985. Who was this California Angels player ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rod Carew"
+            },
+            {
+              "id": "1",
+              "text": "Reggie Jackson"
+            },
+            {
+              "id": "2",
+              "text": "Bert Campaneris"
+            },
+            {
+              "id": "3",
+              "text": "Don Baylor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rod Carew"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What two teams played in the 1989 World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "As vs. Dodgers"
+            },
+            {
+              "id": "1",
+              "text": "Twins vs. Cardinals"
+            },
+            {
+              "id": "2",
+              "text": "As vs. Giants"
+            },
+            {
+              "id": "3",
+              "text": "As vs. Reds"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: As vs. Giants"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the term Kung Fu refer to, apart from Chinese martial arts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sense of superiority"
+            },
+            {
+              "id": "1",
+              "text": "Individual accomplishment or skill"
+            },
+            {
+              "id": "2",
+              "text": "Physical strength"
+            },
+            {
+              "id": "3",
+              "text": "Knowledge"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Individual accomplishment or skill"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the concept of Chi, that plays a crucial role in the basic training of a student in Kung Fu?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stance"
+            },
+            {
+              "id": "1",
+              "text": "Heart"
+            },
+            {
+              "id": "2",
+              "text": "Body"
+            },
+            {
+              "id": "3",
+              "text": "Breath"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Breath"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Chinese martial arts, the series of movements that are combined so they can be practiced as one set of movements are grouped in how many general types?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Three"
+            },
+            {
+              "id": "1",
+              "text": "Two"
+            },
+            {
+              "id": "2",
+              "text": "Four"
+            },
+            {
+              "id": "3",
+              "text": "Six"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Two"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although Kung Fu is often used in English as a collective term for Chinese martial arts, what is the more precise term for them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Soo"
+            },
+            {
+              "id": "1",
+              "text": "Kendo"
+            },
+            {
+              "id": "2",
+              "text": "Hung Fut"
+            },
+            {
+              "id": "3",
+              "text": "Wushu"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wushu"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the last shortstop to start for the Baltimore Orioles before Cal Ripken stepped in and played 2,632 consecutive games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jose Uribe"
+            },
+            {
+              "id": "1",
+              "text": "Floyd Rayford"
+            },
+            {
+              "id": "2",
+              "text": "Razor Shines"
+            },
+            {
+              "id": "3",
+              "text": "Boots Day"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Floyd Rayford"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the manager of the 1986 New York Mets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hal Lanier"
+            },
+            {
+              "id": "1",
+              "text": "Davey Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Gene Mauch"
+            },
+            {
+              "id": "3",
+              "text": "John McNamera"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Davey Johnson"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the 1984 World Series MVP award ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Howard Johnson"
+            },
+            {
+              "id": "1",
+              "text": "Alan Trammell"
+            },
+            {
+              "id": "2",
+              "text": "Willie Hernandez"
+            },
+            {
+              "id": "3",
+              "text": "Kirk Gibson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Alan Trammell"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What style of Kung Fu is not a Southern one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wing Chun"
+            },
+            {
+              "id": "1",
+              "text": "Five Ancestors"
+            },
+            {
+              "id": "2",
+              "text": "Eagle Claw"
+            },
+            {
+              "id": "3",
+              "text": "Dragon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eagle Claw"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is believed to have introduced martial arts in China?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The First Emperor Qin Shi Huangdi"
+            },
+            {
+              "id": "1",
+              "text": "Sima Qian"
+            },
+            {
+              "id": "2",
+              "text": "Li Bai"
+            },
+            {
+              "id": "3",
+              "text": "The Yellow Emperor"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Yellow Emperor"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "yankees",
+          "world",
+          "kung",
+          "arts",
+          "style"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Kart and Karts",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, actor, tri-state. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following refers to the mechanics that work on the go kart?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pit Crew"
+            },
+            {
+              "id": "1",
+              "text": "Timers"
+            },
+            {
+              "id": "2",
+              "text": "Secret Agents"
+            },
+            {
+              "id": "3",
+              "text": "Handy Men"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pit Crew"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Karts can be driven on asphalt and dirt.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Chinese literary genre is based on Chinese martial arts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Baihua"
+            },
+            {
+              "id": "1",
+              "text": "Shi"
+            },
+            {
+              "id": "2",
+              "text": "Bushid\u014d"
+            },
+            {
+              "id": "3",
+              "text": "Wuxia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wuxia"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what part of a kart  can you place a shield to improve aerodynamics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "wheels"
+            },
+            {
+              "id": "1",
+              "text": "steering column"
+            },
+            {
+              "id": "2",
+              "text": "bar"
+            },
+            {
+              "id": "3",
+              "text": "motor"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: steering column"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it true that a normal kart race has three stages - tuning, driving and race?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mark Messier holds the record for most played games in an NHL career.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the main character in the American series Kung Fu (1972-1975)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Carradine"
+            },
+            {
+              "id": "1",
+              "text": "Master Po"
+            },
+            {
+              "id": "2",
+              "text": "Master Kan"
+            },
+            {
+              "id": "3",
+              "text": "Kwai Chang Caine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Kwai Chang Caine"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does WKA stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "World Karting Association"
+            },
+            {
+              "id": "1",
+              "text": "Witfield Karting Association"
+            },
+            {
+              "id": "2",
+              "text": "World Kangaroo Association"
+            },
+            {
+              "id": "3",
+              "text": "Willowbrook Kart Alignment"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: World Karting Association"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a state or tri-state karting race all helmets must be Snell M2000 approved.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Southern martial art did the Chinese American martial artist and actor Bruce Lee practise?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leopard Kung Fu"
+            },
+            {
+              "id": "1",
+              "text": "Black Tiger Kung Fu"
+            },
+            {
+              "id": "2",
+              "text": "Duan Quan"
+            },
+            {
+              "id": "3",
+              "text": "Wing Chun"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wing Chun"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it true that while racing a go kart, you should wear a hat, shorts and a T-shirt?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1975-76 season, Darryl Sittler set the NHL record for most points scored in one game when he recorded this many points against the Boston Bruins.",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "11"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 10"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a dao?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sword"
+            },
+            {
+              "id": "1",
+              "text": "Stance"
+            },
+            {
+              "id": "2",
+              "text": "Martial art"
+            },
+            {
+              "id": "3",
+              "text": "Form"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sword"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A go kart will go faster but handle worse, if you do which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crash"
+            },
+            {
+              "id": "1",
+              "text": "Go down on the air pressure in the tires"
+            },
+            {
+              "id": "2",
+              "text": "Go up on the air pressure in the tires"
+            },
+            {
+              "id": "3",
+              "text": "Cut a whole in the front of the go kart"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Go up on the air pressure in the tires"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Go karts have two wheels.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "actor",
+          "tri-state",
+          "messier",
+          "kart",
+          "following"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Country and Games",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, rookie, summer. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This country was the host of the 1932 Summer Olympics, or the Games of the X Olympiad.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "Belgium"
+            },
+            {
+              "id": "2",
+              "text": "Japan"
+            },
+            {
+              "id": "3",
+              "text": "The United States"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The United States"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1978-1979 season, hockey player Randy Holt got a record 67 penalty minutes in one game.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country hosted the 2000 Summer Olympics, also known as the Games of the New Millennium, and officially called the Games of the XXVII Olympiad?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "Greece"
+            },
+            {
+              "id": "3",
+              "text": "United States"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Australia"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many shutouts did Terry Sawchuk get in his career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "103"
+            },
+            {
+              "id": "1",
+              "text": "102"
+            },
+            {
+              "id": "2",
+              "text": "104"
+            },
+            {
+              "id": "3",
+              "text": "105"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 103"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This country hosted the 1924 Summer Olympics, officially known as the Games of the VIII Olympiad.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Canada"
+            },
+            {
+              "id": "1",
+              "text": "Greece"
+            },
+            {
+              "id": "2",
+              "text": "France"
+            },
+            {
+              "id": "3",
+              "text": "Japan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Wayne Gretzky broke the record for most points in a season in 1985-86 by getting how many points?",
+          "options": [
+            {
+              "id": "0",
+              "text": "216"
+            },
+            {
+              "id": "1",
+              "text": "217"
+            },
+            {
+              "id": "2",
+              "text": "215"
+            },
+            {
+              "id": "3",
+              "text": "214"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 215"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The US hockey team won their first Olympic gold medal at the 1980 Winter Olympics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country was the host of the 1968 Summer Olympics, or Games of the XIX Olympiad?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brazil"
+            },
+            {
+              "id": "1",
+              "text": "Norway"
+            },
+            {
+              "id": "2",
+              "text": "France"
+            },
+            {
+              "id": "3",
+              "text": "Mexico"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mexico"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Wayne Gretzky played 21 seasons as a professional in the NHL.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many points did the rookie Teemu Selanne get in the 1992-1993 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "120"
+            },
+            {
+              "id": "1",
+              "text": "136"
+            },
+            {
+              "id": "2",
+              "text": "132"
+            },
+            {
+              "id": "3",
+              "text": "128"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 132"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many wins did Patrick Roy have at the end of his 19-season career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "548"
+            },
+            {
+              "id": "1",
+              "text": "550"
+            },
+            {
+              "id": "2",
+              "text": "549"
+            },
+            {
+              "id": "3",
+              "text": "551"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 551"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country hosted the 1992 Summer Olympic Games, officially called the Games of the XXV Olympiad?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spain"
+            },
+            {
+              "id": "1",
+              "text": "Brazil"
+            },
+            {
+              "id": "2",
+              "text": "South Korea"
+            },
+            {
+              "id": "3",
+              "text": "United Kingdom"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Spain"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1988 Summer Olympics, officially called Games of the XXIV Olympiad, were hosted by this Asian country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Japan"
+            },
+            {
+              "id": "1",
+              "text": "India"
+            },
+            {
+              "id": "2",
+              "text": "South Korea"
+            },
+            {
+              "id": "3",
+              "text": "China"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: South Korea"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country hosted the 1948 Summer Olympics, officially known as the Games of the XIV Olympiad?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brazil"
+            },
+            {
+              "id": "1",
+              "text": "China"
+            },
+            {
+              "id": "2",
+              "text": "United Kingdom"
+            },
+            {
+              "id": "3",
+              "text": "United States"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: United Kingdom"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1896 Summer Olympics, or the Games of the I Olympiad, were hosted by this European country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Greece"
+            },
+            {
+              "id": "2",
+              "text": "Sweden"
+            },
+            {
+              "id": "3",
+              "text": "France"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Greece"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "rookie",
+          "summer",
+          "country",
+          "gold",
+          "get"
+        ]
+      }
+    }
+  ]
+}

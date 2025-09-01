@@ -1,0 +1,2372 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Literature Quiz: Head and Books",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, gryffindor, witchcraft. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what Harry Potter book did the Brockdale Bridge collapse?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harry Potter and the Half-Blood Prince"
+            },
+            {
+              "id": "1",
+              "text": "Harry Potter and the Order of the Phoenix."
+            },
+            {
+              "id": "2",
+              "text": "Harry Potter and the Prisoner of Azkaban"
+            },
+            {
+              "id": "3",
+              "text": "Harry Potter and the Chamber of Secrets"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Harry Potter and the Half-Blood Prince"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Professor Sprout is head of Hufflepuff, one of the fictional Hogwarts houses.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is head of the fictional Gryffindor house?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snape"
+            },
+            {
+              "id": "1",
+              "text": "McGonagall"
+            },
+            {
+              "id": "2",
+              "text": "Lupin"
+            },
+            {
+              "id": "3",
+              "text": "Trelawney"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: McGonagall"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the Gryffindor ghost in the Harry Potter books?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moaning Myrtle"
+            },
+            {
+              "id": "1",
+              "text": "The Gray Lady"
+            },
+            {
+              "id": "2",
+              "text": "The Bloody Baron"
+            },
+            {
+              "id": "3",
+              "text": "Nearly Headless Nick"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nearly Headless Nick"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fictional characters Fred and George Weasley get kicked out of Hogwarts.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is Flitwick head of Huffllepuff house in the Harry Potter series of books?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fictional character Mr. Weasley was on guard duty when the basilisk attacked him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What magical object did Harry Potter use to save Ron from poisoning?",
+          "options": [
+            {
+              "id": "0",
+              "text": "antidote to love potions"
+            },
+            {
+              "id": "1",
+              "text": "wand"
+            },
+            {
+              "id": "2",
+              "text": "bezoar"
+            },
+            {
+              "id": "3",
+              "text": "boggart"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: bezoar"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Does fictional character Ron Weasley live at 12, Grimmauld Place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Harry Potter books, the Bloody Baron is Slytherins ghost.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is the ghost of Ravenclaw in the Harry Potter books?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sprout"
+            },
+            {
+              "id": "1",
+              "text": "The Bloody Baron"
+            },
+            {
+              "id": "2",
+              "text": "The Gray Lady"
+            },
+            {
+              "id": "3",
+              "text": "Flitwick"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Gray Lady"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Headmaster at Hogwarts School of Witchcraft and Wizardry in books 1-6 of the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phineas Nigeallus"
+            },
+            {
+              "id": "1",
+              "text": "Minevera McGonagall"
+            },
+            {
+              "id": "2",
+              "text": "Severus Snape"
+            },
+            {
+              "id": "3",
+              "text": "Albus Dumbledore"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Albus Dumbledore"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is head of Slytherin house in the book Harry Potter and the Deathly Hallows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Slughorn"
+            },
+            {
+              "id": "1",
+              "text": "McGonagal"
+            },
+            {
+              "id": "2",
+              "text": "Sprout"
+            },
+            {
+              "id": "3",
+              "text": "Snape"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Slughorn"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Every headmaster/headmistress of the fictional Hogwarts school has had the same office.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fictional character Professor Snape is head of Ravenclaw house.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "gryffindor",
+          "witchcraft",
+          "huffllepuff",
+          "weasley",
+          "books"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Literature Quiz: Book and Series",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, people, snicket. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the first book of the Harry Potter series, when Harry, Ron and Hermione went into the restricted corridor, what was the order of the obstacles to get to Quirrell?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Keys, Devils Snare, chessboard, potions"
+            },
+            {
+              "id": "1",
+              "text": "Chessboard, keys, Devils Snare, potions"
+            },
+            {
+              "id": "2",
+              "text": "Devils Snare, chessboard, keys, potions"
+            },
+            {
+              "id": "3",
+              "text": "Devils Snare, keys, chessboard, potions"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Devils Snare, keys, chessboard, potions"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the square root of 144?",
+          "options": [
+            {
+              "id": "0",
+              "text": "12"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "14"
+            },
+            {
+              "id": "3",
+              "text": "71"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 12"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What shape does Sirius Blacks Animagus take in the 3rd book of the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a Dachshund"
+            },
+            {
+              "id": "1",
+              "text": "a black dog"
+            },
+            {
+              "id": "2",
+              "text": "a black cat"
+            },
+            {
+              "id": "3",
+              "text": "a yellow cat"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: a black dog"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character from A Series of Unfortunate Events said that orphans were in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hector"
+            },
+            {
+              "id": "1",
+              "text": "Jerome Squalor"
+            },
+            {
+              "id": "2",
+              "text": "Uncle Monty"
+            },
+            {
+              "id": "3",
+              "text": "Esme Squalor"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Esme Squalor"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel The Penultimate Peril, Jaques Snicket was one of the two people who signed into the hotel as J.S..",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following fictional characters, depicted by Lemony Snicket, is a poet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uncle Monty"
+            },
+            {
+              "id": "1",
+              "text": "Duncan Quagmire"
+            },
+            {
+              "id": "2",
+              "text": "Kit Snicket"
+            },
+            {
+              "id": "3",
+              "text": "Isadora Quagmire"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Isadora Quagmire"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Harry Potter marry Ginny Weasley?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many people died at the fictional battle of Hogwarts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "51"
+            },
+            {
+              "id": "1",
+              "text": "53"
+            },
+            {
+              "id": "2",
+              "text": "54"
+            },
+            {
+              "id": "3",
+              "text": "55"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 54"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All the books of the Harry Potter series are set in England and Scotland.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many champions names came out of the fictional Goblet of Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the address of the Order of the Phoenix headquarters in the Harry Potter novels?",
+          "options": [
+            {
+              "id": "0",
+              "text": "number 19, Grimmauld place"
+            },
+            {
+              "id": "1",
+              "text": "number 15, Grimmauld place"
+            },
+            {
+              "id": "2",
+              "text": "number 13, Grimmauld place"
+            },
+            {
+              "id": "3",
+              "text": "number 12, Grimmauld place"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: number 12, Grimmauld place"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following were mentioned in the book The Ersatz Elevator?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The King of Arizona"
+            },
+            {
+              "id": "1",
+              "text": "The President of Nepal"
+            },
+            {
+              "id": "2",
+              "text": "The Prime Minister of New York"
+            },
+            {
+              "id": "3",
+              "text": "The Grand Admiral of Canada"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The King of Arizona"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did fictional character Tom Riddle (Voldemort) live before going to live and study at Hogwarts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "an ordinary house"
+            },
+            {
+              "id": "1",
+              "text": "an run-down shack"
+            },
+            {
+              "id": "2",
+              "text": "a school bus"
+            },
+            {
+              "id": "3",
+              "text": "an orphanage"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: an orphanage"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is Harry Potter a member of Gryffindor house?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first guardian to whom the Baudelaires were sent in A Series of Unfortunate Events?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Madam Lulu."
+            },
+            {
+              "id": "1",
+              "text": "Aunt Josephine"
+            },
+            {
+              "id": "2",
+              "text": "Esme Squalor"
+            },
+            {
+              "id": "3",
+              "text": "Count Olaf"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Count Olaf"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "people",
+          "snicket",
+          "gryffindor",
+          "lemony",
+          "books"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Literature Quiz: Characters and Baudelaires",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, tuck, sportacus. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Silver Chair, Eustace Scrubb returns to Narnia with his schoolmate Jill Pole, who attends what school with him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Educational High School"
+            },
+            {
+              "id": "1",
+              "text": "Experiment House"
+            },
+            {
+              "id": "2",
+              "text": "English School for Grammar"
+            },
+            {
+              "id": "3",
+              "text": "Experimentation Hall"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Experiment House"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This show centers around a young girl, who speaks English and Chinese, and teaches problem solving. Other characters featured on the show are the girls grandfather,  Ye Ye, and her friends Rintoo, Tolee, Hoho, and Lulu.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ni Hao, Kai-Lan"
+            },
+            {
+              "id": "1",
+              "text": "Ni Hao, Karen Chau"
+            },
+            {
+              "id": "2",
+              "text": "Ni Hao, Yeoh-La"
+            },
+            {
+              "id": "3",
+              "text": "Ni Hao, Shu-Shu"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ni Hao, Kai-Lan"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In A Series of Unfortunate Events, whose head was always hidden behind a cloud of smoke?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Phils"
+            },
+            {
+              "id": "1",
+              "text": "Beatrices"
+            },
+            {
+              "id": "2",
+              "text": "Carmelita Spats"
+            },
+            {
+              "id": "3",
+              "text": "Sirs"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sirs"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Linny, Tuck, and Ming MIng too! These schoolhouse animals are always using teamwork to save baby animals in trouble.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Teamwork Trio"
+            },
+            {
+              "id": "1",
+              "text": "The Super Squirrels"
+            },
+            {
+              "id": "2",
+              "text": "The Wonder Pets"
+            },
+            {
+              "id": "3",
+              "text": "The Amazing Animals"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Wonder Pets"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This character is in a show with his two friends, Widget and Walden. He is yellow with a long, springy tail, and greets people by saying, Wow wow.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Willard"
+            },
+            {
+              "id": "1",
+              "text": "Wanker"
+            },
+            {
+              "id": "2",
+              "text": "Hank"
+            },
+            {
+              "id": "3",
+              "text": "Wubbzy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wubbzy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This show follows Pablo the Penguin, Tyrone the Moose, Tasha the Hippopotamus, Austin the Kangaroo, and Uniqua on their imaginary adventures in the backyard.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Backyardamals"
+            },
+            {
+              "id": "1",
+              "text": "The Backyardigans"
+            },
+            {
+              "id": "2",
+              "text": "The Backyard Gang"
+            },
+            {
+              "id": "3",
+              "text": "The Backyard Band"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Backyardigans"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The show Dora the Explorer features a little girl who goes on all sorts of adventures with her friend, Tico the Dog.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This show features characters with offbeat names like Muno, Foofa, Brobee, Toodee, Plex, and DJ Lance.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yo Pinky Dinky!"
+            },
+            {
+              "id": "1",
+              "text": "Yo Diddle Diddle"
+            },
+            {
+              "id": "2",
+              "text": "Yo Mama Jama"
+            },
+            {
+              "id": "3",
+              "text": "Yo Gabba Gabba!"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Yo Gabba Gabba!"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the second book of A Series of Unfortunate Events, did Count Olaf trick the Baudelaires into thinking he was really Stephano?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In A Series of Unfortunate Events, Klaus was the best inventor out of all the Baudelaires.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The show Blues Clues featured 2 different hosts during its run. What were their names?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stan and Stu"
+            },
+            {
+              "id": "1",
+              "text": "Steve and Joe"
+            },
+            {
+              "id": "2",
+              "text": "Larry and Jake"
+            },
+            {
+              "id": "3",
+              "text": "Jack and Jim"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Steve and Joe"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This show features an active hero named Sportacus, who uses exercise and good nutrition to thwart the schemes of the slothful Robbie Rotten. Most of the characters in this show are puppets.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sleepy Town"
+            },
+            {
+              "id": "1",
+              "text": "Lazy Town"
+            },
+            {
+              "id": "2",
+              "text": "Active Town"
+            },
+            {
+              "id": "3",
+              "text": "Funky Town"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lazy Town"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This young boy started off in his cousin Dora the Explorers show, but soon received his own show. He is an animal rescuer, along with his sister, Alicia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marco"
+            },
+            {
+              "id": "1",
+              "text": "Diego"
+            },
+            {
+              "id": "2",
+              "text": "Juan"
+            },
+            {
+              "id": "3",
+              "text": "Luis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Diego"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of Lemony Snickets books does Jaques Snicket die?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Miserable Mill"
+            },
+            {
+              "id": "1",
+              "text": "The Bad Beginning"
+            },
+            {
+              "id": "2",
+              "text": "The Vile Village"
+            },
+            {
+              "id": "3",
+              "text": "The Penultimate Peril"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Vile Village"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A TV show that debuted in 2002 features 2 bunnies. Max is a 3 year-old bunny that is always doing something to distract his sister, although he always manages to help her in the end. What is his sisters name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pearl"
+            },
+            {
+              "id": "1",
+              "text": "Fluff"
+            },
+            {
+              "id": "2",
+              "text": "Louise"
+            },
+            {
+              "id": "3",
+              "text": "Ruby"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ruby"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "tuck",
+          "sportacus",
+          "lemony",
+          "books",
+          "tv"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Geography Quiz: Jill and Eustace",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, actor, signs. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character from the book The Silver Chair accompanies Jill and Eustace back to their own world when Aslan sends them out of his country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aslan"
+            },
+            {
+              "id": "1",
+              "text": "Rilian"
+            },
+            {
+              "id": "2",
+              "text": "Caspian"
+            },
+            {
+              "id": "3",
+              "text": "Puddleglum"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Caspian"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What sort of creature is Glimfeather, who helps Eustace and Jill get started on their journey in The Silver Chair?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Parakeet"
+            },
+            {
+              "id": "1",
+              "text": "Gryphon"
+            },
+            {
+              "id": "2",
+              "text": "Owl"
+            },
+            {
+              "id": "3",
+              "text": "Eagle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Owl"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel The Silver Chair, Aslan gives Jill and Eustace a task and four signs to help them find the way. What is the task?",
+          "options": [
+            {
+              "id": "0",
+              "text": "To kill the evil Green Witch, who has terrorized Narnia for a decade"
+            },
+            {
+              "id": "1",
+              "text": "To prevent an attack from the underworld upon Narnia"
+            },
+            {
+              "id": "2",
+              "text": "To free the talking beasts of Narnia from the tyranny of the Giants"
+            },
+            {
+              "id": "3",
+              "text": "To find the Prince Rilian, who has been missing for ten years"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: To find the Prince Rilian, who has been missing for ten years"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cho Chang was Harry Potters girlfriend.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following statements most correctly describes Puddleglum the Marsh-Wiggles outlook on life in C.S. Lewiss book The Silver Chair?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He is an optimist and is usually proved wrong"
+            },
+            {
+              "id": "1",
+              "text": "He is an optimist, but is usually proved right"
+            },
+            {
+              "id": "2",
+              "text": "He is a pessimist and is usually proved right"
+            },
+            {
+              "id": "3",
+              "text": "He is a pessimist, but is usually proved wrong"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He is a pessimist, but is usually proved wrong"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens to Eustace as a result of Jills showing off at the edge of the cliff in the book The Silver Chair?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jill gives him a hug"
+            },
+            {
+              "id": "1",
+              "text": "He looses his balance and falls"
+            },
+            {
+              "id": "2",
+              "text": "He is attacked by a lion"
+            },
+            {
+              "id": "3",
+              "text": "Nothing"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He looses his balance and falls"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the actor who portrayed Harry Potter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Daniel Fancliff"
+            },
+            {
+              "id": "1",
+              "text": "Daniel Radcliffe"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Wayne Knight"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Daniel Radcliffe"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Jill, Eustace and Puddleglum reach the Underworld, in The Silver Chair, they pass a large person sleeping and are told that this is who?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Father Christmas"
+            },
+            {
+              "id": "1",
+              "text": "Father Time"
+            },
+            {
+              "id": "2",
+              "text": "Mother Earth"
+            },
+            {
+              "id": "3",
+              "text": "Mother Nature"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Father Time"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Silver Chair, Jill has a dream in which she sees what two words out of the window of her room?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Have Faith"
+            },
+            {
+              "id": "1",
+              "text": "Trust Me"
+            },
+            {
+              "id": "2",
+              "text": "Never Surrender"
+            },
+            {
+              "id": "3",
+              "text": "Under Me"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Under Me"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first of the signs given to Jill by Aslan in The Silver Chair was that Eustace was to see an old friend. Who did that old friend turn out to be?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reepicheep"
+            },
+            {
+              "id": "1",
+              "text": "Edmund"
+            },
+            {
+              "id": "2",
+              "text": "Drinian"
+            },
+            {
+              "id": "3",
+              "text": "Caspian"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Caspian"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Silver Chair, Jill and Eustace are allowed the privilege to ride what creature, which is most often too proud to be ridden?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Unicorn"
+            },
+            {
+              "id": "1",
+              "text": "Gryphon"
+            },
+            {
+              "id": "2",
+              "text": "Centaur"
+            },
+            {
+              "id": "3",
+              "text": "Pegasus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Centaur"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which character in The Silver Chair burns his foot while putting out a magical fire created by the Green Witch?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Prince Rilian"
+            },
+            {
+              "id": "1",
+              "text": "Eustace"
+            },
+            {
+              "id": "2",
+              "text": "Jill"
+            },
+            {
+              "id": "3",
+              "text": "Puddleglum"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Puddleglum"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Silver Chair, Prince Rilian is found to be under the enchantment of the Green Witch.  What happens to Rilian for one hour each night under the Witchs spell?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He forgets who he is and goes on a murderous rampage"
+            },
+            {
+              "id": "1",
+              "text": "He enters the world of dreams and comes back with ingredients for the Witchs potions"
+            },
+            {
+              "id": "2",
+              "text": "He relives the death of his mother through the eyes of the serpent that killed her"
+            },
+            {
+              "id": "3",
+              "text": "He remembers who he is and must be tied to a Silver Chair to prevent his escape"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: He remembers who he is and must be tied to a Silver Chair to prevent his escape"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happens to Eustace, Jill and Puddleglum in The Silver Chair, when they knock on the gate of the Giant city of Harfang?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are captured by the Giants and thrown into cages."
+            },
+            {
+              "id": "1",
+              "text": "They are turned away by the Giants that live there and forced to sleep out in the cold."
+            },
+            {
+              "id": "2",
+              "text": "Nobody answers."
+            },
+            {
+              "id": "3",
+              "text": "They are allowed entry and are given food, warm drink and beds."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They are allowed entry and are given food, warm drink and beds."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Silver Chair, Eustace, Jill and Puddleglum rescue Rilian from the Silver Chair after he begs them to do it in whose name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "in the name of the White Witch"
+            },
+            {
+              "id": "1",
+              "text": "in the name of God"
+            },
+            {
+              "id": "2",
+              "text": "in the name of Aslan"
+            },
+            {
+              "id": "3",
+              "text": "in the name of the Green Witch"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: in the name of Aslan"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "actor",
+          "signs",
+          "silver",
+          "edge",
+          "jills"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Literature Quiz: Voyage and Island",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, ship, books. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Harry Potters parents die on Halloween?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "While walking across the island of Felimath, featured in the book The Voyage of the Dawn Treader, Caspian, Reepicheep and the three children come across a band of men who they discover to be what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Castaways"
+            },
+            {
+              "id": "1",
+              "text": "Pirates"
+            },
+            {
+              "id": "2",
+              "text": "Ghosts"
+            },
+            {
+              "id": "3",
+              "text": "Slave Traders"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Slave Traders"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As the ship voyages past Magician Coriakins island, the voyagers in the novel The Voyage of the Dawn Treader come across an island surrounded by a shroud of utter darkness. After entering this shroud, what type of animal sheds light to help them escape?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dolphin"
+            },
+            {
+              "id": "1",
+              "text": "Lion"
+            },
+            {
+              "id": "2",
+              "text": "Lightning Bug"
+            },
+            {
+              "id": "3",
+              "text": "Albatross"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Albatross"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Duffers, described in The Voyage of the Dawn Treader, have made themselves invisible and wish Lucy to help them become visible again. What was strange about the Duffers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They had only one foot"
+            },
+            {
+              "id": "1",
+              "text": "They had only one eye"
+            },
+            {
+              "id": "2",
+              "text": "They had only one nostril"
+            },
+            {
+              "id": "3",
+              "text": "They had only one hand"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They had only one foot"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Voyage of the Dawn Treader, the three children travel to Narnia by what magical object?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A looking glass"
+            },
+            {
+              "id": "1",
+              "text": "A doorway"
+            },
+            {
+              "id": "2",
+              "text": "A painting"
+            },
+            {
+              "id": "3",
+              "text": "A wardrobe"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A painting"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the DADA teacher in Harry Potter and the Deathly Hallows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Professor Snape"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Professor Lupin"
+            },
+            {
+              "id": "3",
+              "text": "Professor Umbridge"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Voyage of the Dawn Treader, Lucy and Edmund Pevensie return to Narnia along with a boy named Eustace. What relation is Eustace to Lucy and Edmund?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nephew"
+            },
+            {
+              "id": "1",
+              "text": "Uncle"
+            },
+            {
+              "id": "2",
+              "text": "Cousin"
+            },
+            {
+              "id": "3",
+              "text": "Brother"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cousin"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In The Voyage of the Dawn Treader, after rescuing Lord Rhoop, the voyagers land upon another island where they find a large banquet table and three Lords of Narnia, each in an enchanted sleep due to what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eating the fruit from the banquet table"
+            },
+            {
+              "id": "1",
+              "text": "Drinking the wine from the flagon on the table"
+            },
+            {
+              "id": "2",
+              "text": "Insulting the daughter of the Lord of the island"
+            },
+            {
+              "id": "3",
+              "text": "Touching the stone knife laying on the table"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Touching the stone knife laying on the table"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sailing past Ramandus island, the voyagers from The Voyage of the Dawn Treader spot a white mass on the horizon. As they approach the white mass, they discover that the sea is covered in what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Foam"
+            },
+            {
+              "id": "1",
+              "text": "Ice"
+            },
+            {
+              "id": "2",
+              "text": "Frosting"
+            },
+            {
+              "id": "3",
+              "text": "Lilies"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lilies"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many books are in the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the beginning of the voyage, depicted in The Voyage of the Dawn Treader, Eustace is a nuisance to all aboard the Dawn Treader, including Reepicheep the mouse, whom he greatly offends by doing what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kicking him into the water"
+            },
+            {
+              "id": "1",
+              "text": "Stealing his ration of cheese"
+            },
+            {
+              "id": "2",
+              "text": "Swinging him around by his tail"
+            },
+            {
+              "id": "3",
+              "text": "Insulting the honor of his mother"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Swinging him around by his tail"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What name do the voyagers in The Voyage of the Dawn Treader give to the island on which they find the armor and sword of Lord Restimar lying beside a small pool of clear water?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tapwater Island"
+            },
+            {
+              "id": "1",
+              "text": "Clearwater Island"
+            },
+            {
+              "id": "2",
+              "text": "Goldwater Island"
+            },
+            {
+              "id": "3",
+              "text": "Deathwater Island"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Deathwater Island"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the job of Harry Potters dad?",
+          "options": [
+            {
+              "id": "0",
+              "text": "none of these"
+            },
+            {
+              "id": "1",
+              "text": "He didnt work."
+            },
+            {
+              "id": "2",
+              "text": "minister of magic"
+            },
+            {
+              "id": "3",
+              "text": "quidditch player"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He didnt work."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the third book of the Chronicles of Narnia, the three children are rescued from the sea by Caspian and the crew of the Dawn Treader, who are on a voyage east from Narnia to find what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A wife for Caspian to make Queen of Narnia"
+            },
+            {
+              "id": "1",
+              "text": "Queen Susans horn"
+            },
+            {
+              "id": "2",
+              "text": "Seven Lords of Narnia banished by Caspians uncle, Miraz"
+            },
+            {
+              "id": "3",
+              "text": "Five Rings of Power created by Aslan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Seven Lords of Narnia banished by Caspians uncle, Miraz"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the anti-Ministry of Magic radio station in Harry Potter and the Deadly Hallows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "none of these"
+            },
+            {
+              "id": "1",
+              "text": "Potterwatch"
+            },
+            {
+              "id": "2",
+              "text": "The Daily Prophet"
+            },
+            {
+              "id": "3",
+              "text": "The Quibler"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Potterwatch"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "ship",
+          "books",
+          "job",
+          "dawn",
+          "treader"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Harry Potter and Book",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, pevensie, snakes. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "C.S. Lewis titled his book, Prince Caspian, after the main character, but kept one of his working titles as a subtitle. What is the subtitle of this book?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Return of the King"
+            },
+            {
+              "id": "1",
+              "text": "Aslans Return"
+            },
+            {
+              "id": "2",
+              "text": "Return of Prince Caspian"
+            },
+            {
+              "id": "3",
+              "text": "Return to Narnia"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Return to Narnia"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Riddles Magical Diary go into Ginnys hand in the book Harry Potter and the Chamber of Secrets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "She saw it lying on the floor and took it."
+            },
+            {
+              "id": "1",
+              "text": "She found it in her trunk."
+            },
+            {
+              "id": "2",
+              "text": "Lucius Malfoy put it in Ginnys cauldron."
+            },
+            {
+              "id": "3",
+              "text": "She found it in the girls bathroom at Hogwarts"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lucius Malfoy put it in Ginnys cauldron."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Being the last to go to the barrier between platform 9 and 10 at Kings Cross Station, Harry Potter and Ron were not able to get to platform nine and three-quarters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Harry Potter draws a sword from the Sorting Hat during his duel with Tom Riddle and the Basilisk in the Chamber of Secrets. The sword belongs to which of the four founders of Hogwarts houses?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Salazar Slytherin"
+            },
+            {
+              "id": "1",
+              "text": "Godric Gryffindor"
+            },
+            {
+              "id": "2",
+              "text": "Helga Hufflepuff"
+            },
+            {
+              "id": "3",
+              "text": "Rowena Ravenclaw"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Godric Gryffindor"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the Pevensie children first sees Aslan as they journey with the dwarf Trumpkin in the book Prince Caspian?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lucy"
+            },
+            {
+              "id": "1",
+              "text": "Susan"
+            },
+            {
+              "id": "2",
+              "text": "Peter"
+            },
+            {
+              "id": "3",
+              "text": "Edmund"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lucy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dobby, the house-elf, has been collecting Harry Potters letters to make it seem as though his friends had forgotten him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the book Harry Potter and the Chamber of Secrets, Harry used the Hover Charm to destroy a pudding that Aunt Petunia had made for an important dinner party attended by Uncle Vernons potential client and the clients wife.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Prince Caspian, what two creatures did the dwarf Nikabrik bring into Prince Caspians counsel in an attempt to convince him to use dark magic against King Miraz?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A vampire and an ogre"
+            },
+            {
+              "id": "1",
+              "text": "A werewolf and an ogre"
+            },
+            {
+              "id": "2",
+              "text": "A hag and a werewolf"
+            },
+            {
+              "id": "3",
+              "text": "A hag and a vampire"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A hag and a werewolf"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Harry Potter and the Chamber of Secrets, Harry Potter destroyed Riddles Diary with one of the Basilisks poisonous fangs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel The Voyage of the Dawn Treader, the sea eventually becomes too shallow for the ship to continue and it must turn back, but several members of the crew will continue in the landing boat, hoping to reach Aslans country. On Aslans orders, which of the following characters was made to stay with the Dawn Treader for its return voyage?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Caspian"
+            },
+            {
+              "id": "1",
+              "text": "Eustace"
+            },
+            {
+              "id": "2",
+              "text": "Edmund"
+            },
+            {
+              "id": "3",
+              "text": "Reepicheep"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Caspian"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do you call the fictional language of snakes, according to J. K. Rowlings second book in the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Parsel Language"
+            },
+            {
+              "id": "1",
+              "text": "Basilisks"
+            },
+            {
+              "id": "2",
+              "text": "Snakish"
+            },
+            {
+              "id": "3",
+              "text": "Parseltongue"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Parseltongue"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the house-elf who warned Harry Potter of not going back to school?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sleepy"
+            },
+            {
+              "id": "1",
+              "text": "Winky"
+            },
+            {
+              "id": "2",
+              "text": "Dizzy"
+            },
+            {
+              "id": "3",
+              "text": "Dobby"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dobby"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Harry Potter and the Chamber of Secrets, the car which Harry and Ron rode on to Hogwarts, when they werent able to board on Hogwarts Express, crashed into the Whomping Willow.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of Harrys new Defense Against the Dark Arts teacher in the book Harry Potter and the Chamber of Secrets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Remus Lupin"
+            },
+            {
+              "id": "1",
+              "text": "Gilderoy Lockhart"
+            },
+            {
+              "id": "2",
+              "text": "Dolores Umbridge"
+            },
+            {
+              "id": "3",
+              "text": "Professor Quirrel"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Gilderoy Lockhart"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What sort of clothing freed Dobby, the house-elf, from the Malfoys according to the second Harry Potter book?",
+          "options": [
+            {
+              "id": "0",
+              "text": "a sock"
+            },
+            {
+              "id": "1",
+              "text": "a hat"
+            },
+            {
+              "id": "2",
+              "text": "a pair of footwear"
+            },
+            {
+              "id": "3",
+              "text": "a new shirt"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: a sock"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "pevensie",
+          "snakes",
+          "caspian",
+          "creatures",
+          "house-elf"
+        ]
+      }
+    }
+  ]
+}

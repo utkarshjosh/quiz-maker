@@ -1,0 +1,71 @@
+---
+description: Core architectural principles and repository structure for the quiz-maker project
+globs: **/*
+alwaysApply: true
+---
+
+# Project Architecture & Philosophy Rules
+
+## **Project Overview:**
+
+- **Project:** Node.js (Express + TypeScript + Prisma) with a Go sockets service
+- **Goal:** Modular, scalable, extensible; built to last decades
+- **Philosophy anchors:** dependability, extendability, team scalability, velocity
+
+## **Repository Structure:**
+
+```
+apps/
+  api/         -> Express + TS backend (feature slices)
+  web/         -> React frontend (Next.js/Vite/CRA etc.)
+services/
+  socket/      -> Go WebSocket service
+pkg/
+  ts/          -> shared TS libraries (DTOs, utils)
+  go/          -> shared Go libraries
+prisma/        -> schema, migrations, seed
+docs/          -> ADRs, philosophy, runbooks
+infra/         -> docker-compose, k8s, CI/CD, terraform, etc.
+```
+
+## **Core Architectural Principles:**
+
+### **Module Design:**
+
+- **Prefer small, stable interfaces** and coarse-grained modules over deep cross-dependencies
+- **New code must depend _inward_** (ports/adapters), never reach across features
+- **Any change that crosses a module boundary** requires an ADR in `docs/adr`
+
+### **API & Integration:**
+
+- **Hide third-party APIs** behind our own thin adapters to insulate churn
+- **Use dependency injection** for external services and cross-module communication
+- **Implement ports/adapters pattern** for external integrations
+
+### **Technology Choices:**
+
+- **Favor boring, battle-tested solutions**; optimize for readability and migration safety
+- **Prefer TypeScript** for type safety and developer experience
+- **Use Prisma** for database operations and migrations
+- **Implement WebSockets** via Go service for real-time features
+
+### **Code Organization:**
+
+- **Feature-based organization** over technical layers
+- **Shared utilities** in `pkg/ts` and `pkg/go` directories
+- **Clear separation** between apps, services, and shared packages
+- **Consistent naming conventions** across all modules
+
+## **Development Workflow:**
+
+- **ADR required** for any architectural changes or cross-module modifications
+- **Feature branches** should align with module boundaries
+- **Shared interfaces** defined in `pkg/` directories
+- **Testing** at module boundaries to ensure interface stability
+
+## **Quality Standards:**
+
+- **Type safety** mandatory for all TypeScript code
+- **Error handling** consistent across all modules
+- **Logging** standardized for debugging and monitoring
+- **Documentation** updated with any interface changes

@@ -1,0 +1,111 @@
+version: "3.8"
+
+services:
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: quiz-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # MongoDB Database
+  mongodb:
+    image: mongo:7
+    container_name: quiz-mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: quiz_admin
+      MONGO_INITDB_ROOT_PASSWORD: quiz_password
+      MONGO_INITDB_DATABASE: quiz_ai_system
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # API Gateway
+  api-gateway:
+    build:
+      context: ../apps/api
+      dockerfile: ../infra/Dockerfile.api-gateway
+    container_name: quiz-api-gateway
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - REDIS_URL=redis://redis:6379
+      - MONGODB_URI=mongodb://quiz_admin:quiz_password@mongodb:27017/quiz_ai_system
+      - QUIZ_GENERATOR_URL=http://quiz-generator:3001
+      - REALTIME_SERVICE_URL=http://realtime-service:8080
+      - JWT_SECRET=your-jwt-secret-key-here
+      - FRONTEND_URL=http://localhost:5173
+    depends_on:
+      - redis
+      - mongodb
+      - quiz-generator
+      - realtime-service
+    volumes:
+      - ../apps/api:/app
+      - /app/node_modules
+    command: npm run dev
+
+  # Quiz Generator Service
+  quiz-generator:
+    build:
+      context: ../services/quiz-generator
+      dockerfile: ../infra/Dockerfile.quiz-generator
+    container_name: quiz-generator
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      - REDIS_URL=redis://redis:6379
+      - MONGODB_URI=mongodb://quiz_admin:quiz_password@mongodb:27017/quiz_ai_system
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=gpt-3.5-turbo
+    depends_on:
+      - redis
+      - mongodb
+    volumes:
+      - ../services/quiz-generator:/app
+      - /app/node_modules
+    command: npm run dev
+
+  # Realtime Service (Go)
+  realtime-service:
+    build:
+      context: ../services/socket
+      dockerfile: ../infra/Dockerfile.realtime-service
+    container_name: quiz-realtime-service
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - REDIS_URL=redis://redis:6379
+      - GIN_MODE=debug
+    depends_on:
+      - redis
+    volumes:
+      - ../services/socket:/app
+    command: go run cmd/main.go
+
+volumes:
+  redis_data:
+  mongodb_data:
+
+networks:
+  default:
+    name: quiz-network

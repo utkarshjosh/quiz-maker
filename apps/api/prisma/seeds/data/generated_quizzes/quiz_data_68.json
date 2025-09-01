@@ -1,0 +1,2524 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: History and Murders",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, actor, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Certainly one of the most dreadful serial killers in US history. Even though he performed as a clown at neghborhood childrens parties, he killed 33 teenagers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Ball"
+            },
+            {
+              "id": "1",
+              "text": "John Wayne Gacy"
+            },
+            {
+              "id": "2",
+              "text": "Marie Besnard"
+            },
+            {
+              "id": "3",
+              "text": "Albert Fish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Wayne Gacy"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Henry Lee Lucas confessed to more than 500 murders. How many murders was he actually convicted of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "600"
+            },
+            {
+              "id": "1",
+              "text": "201"
+            },
+            {
+              "id": "2",
+              "text": "255"
+            },
+            {
+              "id": "3",
+              "text": "11"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 11"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He delivered the famous I have a dream speech.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mao Zedong"
+            },
+            {
+              "id": "1",
+              "text": "Martin Luther King Jr."
+            },
+            {
+              "id": "2",
+              "text": "Ho Chi Minh"
+            },
+            {
+              "id": "3",
+              "text": "Pope John Paul II"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Martin Luther King Jr."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He disliked Jews and accused them of causing all disasters in German history.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mussolini"
+            },
+            {
+              "id": "1",
+              "text": "Lenin"
+            },
+            {
+              "id": "2",
+              "text": "Stalin"
+            },
+            {
+              "id": "3",
+              "text": "Hitler"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hitler"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This serial killer was known as The Candy Man. His partner,  Wayne Henley, eventually shot him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Angelo"
+            },
+            {
+              "id": "1",
+              "text": "Dean Corll"
+            },
+            {
+              "id": "2",
+              "text": "Clifford Robert Olson"
+            },
+            {
+              "id": "3",
+              "text": "Abdallah al-Hubal"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dean Corll"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the only actor to become US President.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Teddy Roosevelt"
+            },
+            {
+              "id": "1",
+              "text": "Franklin Delano Roosevelt"
+            },
+            {
+              "id": "2",
+              "text": "Ronald Reagan"
+            },
+            {
+              "id": "3",
+              "text": "Bill Clinton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ronald Reagan"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the first democratically-elected President of South Africa.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nelson Mandela"
+            },
+            {
+              "id": "1",
+              "text": "Martin Luther King"
+            },
+            {
+              "id": "2",
+              "text": "Mao Zedong"
+            },
+            {
+              "id": "3",
+              "text": "Lech Walesa"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nelson Mandela"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He brought the cause of Indias independence to world attention.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ho Chi Minh"
+            },
+            {
+              "id": "1",
+              "text": "Lech Walesa"
+            },
+            {
+              "id": "2",
+              "text": "Nelson Mandela"
+            },
+            {
+              "id": "3",
+              "text": "Mohandas Gandhi"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mohandas Gandhi"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which British Prime Minister is considered to have saved his country during WW2?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edward Heath"
+            },
+            {
+              "id": "1",
+              "text": "Neville Chamberlain"
+            },
+            {
+              "id": "2",
+              "text": "Edward Churchill"
+            },
+            {
+              "id": "3",
+              "text": "Winston Churchill"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Winston Churchill"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are many theories about the identity of this mysterious British serial killer. He marks the dawn of the modern age of serial murders. Although the number of his victims is not high, compared to others on our list (5), he is probably the worlds most famous serial murderer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Earl Frederick"
+            },
+            {
+              "id": "1",
+              "text": "Jack The Ripper"
+            },
+            {
+              "id": "2",
+              "text": "The Toledo Clubber"
+            },
+            {
+              "id": "3",
+              "text": "Joel Rifkin"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jack The Ripper"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the only Pope of non-Italian origin since the Dutch-German Pope Adrian VI.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Paul I"
+            },
+            {
+              "id": "1",
+              "text": "Benedict XVI"
+            },
+            {
+              "id": "2",
+              "text": "Blessed John XXIII"
+            },
+            {
+              "id": "3",
+              "text": "Pope John Paul II"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pope John Paul II"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This serial killer terrorized Washington, Oregon, Colorado, Utah, and Florida. His death sentence was executed in Florida on 24 January 1989.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Ramirez"
+            },
+            {
+              "id": "1",
+              "text": "Richard Iceman Kuklinski"
+            },
+            {
+              "id": "2",
+              "text": "Juan Corona"
+            },
+            {
+              "id": "3",
+              "text": "Ted Bundy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ted Bundy"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This mans rampage lasted from 1979 to 1981. He roamed Atlanta and Georgia, taking the lives of 27 innocent boys. At first the police thought he was a white supremacist, because he targeted black boys, but it turned out he was black himself.  He was caught on 22 May 1981.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kendall Francois"
+            },
+            {
+              "id": "1",
+              "text": "Wayne Williams"
+            },
+            {
+              "id": "2",
+              "text": "Guy Georges"
+            },
+            {
+              "id": "3",
+              "text": "Robert Berdella"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Wayne Williams"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bruno Ludke was born in 1909. When he was young, he tortured animals for fun. He strangled or stabbed to death 85 women.  Where was he from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Russia"
+            },
+            {
+              "id": "1",
+              "text": "Great Britain"
+            },
+            {
+              "id": "2",
+              "text": "America"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Germany"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She was the only woman to become Prime Minister of Great Britain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diane Julie Abbott"
+            },
+            {
+              "id": "1",
+              "text": "Queen Victoria"
+            },
+            {
+              "id": "2",
+              "text": "Margaret Thatcher"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth Furse"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Margaret Thatcher"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "actor",
+          "people",
+          "rampage",
+          "independence",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: George and Works",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, john, novelists. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This George lived for only 40 years - from 1593 until 1633. Nevertheless, he became a great poet. However, none of his works was published while he was alive.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Gordon Byron"
+            },
+            {
+              "id": "1",
+              "text": "George Herbert"
+            },
+            {
+              "id": "2",
+              "text": "George Fox"
+            },
+            {
+              "id": "3",
+              "text": "George Eliot"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George Herbert"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This John was a member of one of the most popular bands from the 60s.  Earlier, he has formed his own band called The Quarrymen.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Lennon"
+            },
+            {
+              "id": "1",
+              "text": "John Major"
+            },
+            {
+              "id": "2",
+              "text": "John Secada"
+            },
+            {
+              "id": "3",
+              "text": "John Bon Jovi"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: John Lennon"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "His most famous works were Childe Harolds Pilgrimage and Don Juan. His fame rests not only on his romantic poems; he was known for his lifestyle, which included extravagant living, debts, separation, claims of incest, etc.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Eliot"
+            },
+            {
+              "id": "1",
+              "text": "George Gordon Byron"
+            },
+            {
+              "id": "2",
+              "text": "George Lucas"
+            },
+            {
+              "id": "3",
+              "text": "George Sand"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George Gordon Byron"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Before becoming an important political figure, this George was a businessman, involved with the oil industry and then with professional sports.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Washington"
+            },
+            {
+              "id": "1",
+              "text": "George W Bush"
+            },
+            {
+              "id": "2",
+              "text": "George Orwell"
+            },
+            {
+              "id": "3",
+              "text": "George Eliot"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George W Bush"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This George is one of the greatest English novelists. The term Big Brother comes from his book 1984.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Eliot"
+            },
+            {
+              "id": "1",
+              "text": "George Sand"
+            },
+            {
+              "id": "2",
+              "text": "George Bernard Shaw"
+            },
+            {
+              "id": "3",
+              "text": "George Orwell"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: George Orwell"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This George was the first president of the USA. Although the American capital city was named after him, he never lived there.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Orwell"
+            },
+            {
+              "id": "1",
+              "text": "George Washington"
+            },
+            {
+              "id": "2",
+              "text": "George Lucas"
+            },
+            {
+              "id": "3",
+              "text": "George Bush"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George Washington"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This George was actually a woman and her real name was Mary Ann Evans. She used a male pen name because she wanted the publishers to take her works seriously.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Sand"
+            },
+            {
+              "id": "1",
+              "text": "George Bernard Shaw"
+            },
+            {
+              "id": "2",
+              "text": "George Orwell"
+            },
+            {
+              "id": "3",
+              "text": "George Eliot"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: George Eliot"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He established the first fascist party.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hitler"
+            },
+            {
+              "id": "1",
+              "text": "Winston Churchill"
+            },
+            {
+              "id": "2",
+              "text": "Benito Mussolini"
+            },
+            {
+              "id": "3",
+              "text": "Stalin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Benito Mussolini"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This John was a writer. He received the Nobel price for literature in 1962 for his realistic and imaginative writing, combining as it does sympathetic humour and keen social perception.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Tolkien"
+            },
+            {
+              "id": "1",
+              "text": "John Steinbeck"
+            },
+            {
+              "id": "2",
+              "text": "John Wayne"
+            },
+            {
+              "id": "3",
+              "text": "John Milton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Steinbeck"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This George was also a woman. Her real name was Amandine-Aurore-Lucile Dupin. She was a feminist before the invention of the word. She had a romantic relationship with Chopin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Herbert"
+            },
+            {
+              "id": "1",
+              "text": "George Sand"
+            },
+            {
+              "id": "2",
+              "text": "George Eliot"
+            },
+            {
+              "id": "3",
+              "text": "George Fox"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George Sand"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1997 this George was voted Sexiest Man Alive by People magazine. His first TV role was in the TV series E/R.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Fox"
+            },
+            {
+              "id": "1",
+              "text": "George Clooney"
+            },
+            {
+              "id": "2",
+              "text": "George Lucas"
+            },
+            {
+              "id": "3",
+              "text": "George Herbert"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George Clooney"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This George is the director of one of the most famous movie sagas. However the script for this saga was initially turned down by every major Hollywood studio because no one would want to see it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Orwell"
+            },
+            {
+              "id": "1",
+              "text": "George Clooney"
+            },
+            {
+              "id": "2",
+              "text": "George Michael"
+            },
+            {
+              "id": "3",
+              "text": "George Lucas"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: George Lucas"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This George received the Nobel Prize in literature in 1925 but he didnt take the prize money. Instead, he gave the money for funding the translation of Swedish literature into English.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Bernard Shaw"
+            },
+            {
+              "id": "1",
+              "text": "George Sand"
+            },
+            {
+              "id": "2",
+              "text": "George Fox"
+            },
+            {
+              "id": "3",
+              "text": "George Orwell"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: George Bernard Shaw"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name he is known as means Awakened One, Enlightened One.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jesus Christ"
+            },
+            {
+              "id": "1",
+              "text": "Dalai Lama"
+            },
+            {
+              "id": "2",
+              "text": "Buddha"
+            },
+            {
+              "id": "3",
+              "text": "Mohamed"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Buddha"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This famous English poet is the author of Paradise Lost. The long hours of writing under the light of a candle cost him his eyesight. He then started using a scribe.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Tolkien"
+            },
+            {
+              "id": "1",
+              "text": "John Milton"
+            },
+            {
+              "id": "2",
+              "text": "John Denver"
+            },
+            {
+              "id": "3",
+              "text": "John Steinbeck"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Milton"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "john",
+          "novelists",
+          "pilgrimage",
+          "people",
+          "poet"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: John and Explorer",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, john, actor. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This John majored in philology, which triggered his interest in linguistics. This enabled him to invent 15 artificial languages. Two of them are most popular: Quenya and Sindarin, the two Elvish languages in The Lord of the Rings.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Steinbeck"
+            },
+            {
+              "id": "1",
+              "text": "John Donne"
+            },
+            {
+              "id": "2",
+              "text": "John Tolkien"
+            },
+            {
+              "id": "3",
+              "text": "John Milton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Tolkien"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This John was one of the greatest English poets in the 17th century. He belonged to the group of the so-called metaphysical poets. It was his meditations that gave Hemingway the idea about the title of For Whom the Bell Tolls.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Secada"
+            },
+            {
+              "id": "1",
+              "text": "John Tolkien"
+            },
+            {
+              "id": "2",
+              "text": "John Donne"
+            },
+            {
+              "id": "3",
+              "text": "John Milton"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Donne"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great explorer is famous for his fulfilment of the first all water trade route between India and Europe .",
+          "options": [
+            {
+              "id": "0",
+              "text": "Vasco da Gama"
+            },
+            {
+              "id": "1",
+              "text": "Gaspar Corte Real"
+            },
+            {
+              "id": "2",
+              "text": "Henry the Navigator"
+            },
+            {
+              "id": "3",
+              "text": "Marco Polo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Vasco da Gama"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This seafarer John was captured by the Indians around 1600. He reported in his account that the Indian chief wanted to club him to death. He was saved by the 11-12 year old daughter of the chief, who stood between her father and the Englishman.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Bravo"
+            },
+            {
+              "id": "1",
+              "text": "John Mcenroe"
+            },
+            {
+              "id": "2",
+              "text": "John Smith"
+            },
+            {
+              "id": "3",
+              "text": "John Brown"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Smith"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The real name of this John was Marion Robert Morrison. When his brother was born, the name Robert was given to him and the former became Marion Michael Morrison. Then he got the nickname Duke. Most sources state that his first movie was Words and Music (1929).",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Wayne"
+            },
+            {
+              "id": "1",
+              "text": "John Goodman"
+            },
+            {
+              "id": "2",
+              "text": "John Bon Jovi"
+            },
+            {
+              "id": "3",
+              "text": "John Travolta"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: John Wayne"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great Spanish explorer conquered what is now central and southern Mexico.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Christopher Columbus"
+            },
+            {
+              "id": "1",
+              "text": "Vasco Da Gama"
+            },
+            {
+              "id": "2",
+              "text": "Ferdinand Magellan"
+            },
+            {
+              "id": "3",
+              "text": "Hernando Cortes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hernando Cortes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great explorer found a new continent thinking he had found a new way to India.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hernando Cortes"
+            },
+            {
+              "id": "1",
+              "text": "Henry the Navigator"
+            },
+            {
+              "id": "2",
+              "text": "Christopher Columbus"
+            },
+            {
+              "id": "3",
+              "text": "Gaspar Corte Real"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Christopher Columbus"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Besides being an actor, this Pulp Fiction John is a certified pilot and owns a couple of planes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Goodman"
+            },
+            {
+              "id": "1",
+              "text": "John Travolta"
+            },
+            {
+              "id": "2",
+              "text": "John Wayne"
+            },
+            {
+              "id": "3",
+              "text": "John Smith"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Travolta"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "By his circumnavigation around the world, which took three years, from 1577 to 1580, this explorer gave a more accurate picture of the true geography of the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sir Francis Drake"
+            },
+            {
+              "id": "1",
+              "text": "Christopher Columbus"
+            },
+            {
+              "id": "2",
+              "text": "Ferdinand Magellan"
+            },
+            {
+              "id": "3",
+              "text": "Horatio Nelson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sir Francis Drake"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This man is also known as Karol Wojtyla and Juan Pablo II. His reign as a Pope was the third-longest in the history of the Papacy. He named himself after his predecessor, who died suddenly after only 33 days of service to God.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Donne"
+            },
+            {
+              "id": "1",
+              "text": "John Paul II"
+            },
+            {
+              "id": "2",
+              "text": "John Major"
+            },
+            {
+              "id": "3",
+              "text": "John Paul I"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Paul II"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Along with his brother, this famous explorer reached Kaifeng, the capital of Kublai Khans Mongol Empire in 1265.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gaspar Corte Real"
+            },
+            {
+              "id": "1",
+              "text": "Hernando Cortes"
+            },
+            {
+              "id": "2",
+              "text": "Marco Polo"
+            },
+            {
+              "id": "3",
+              "text": "Ferdinand Magellan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Marco Polo"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This mans voyages were the base for Frances claim to Canada. His initial intention was to search for the Northwest Passage to the Orient.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marco Polo"
+            },
+            {
+              "id": "1",
+              "text": "Francis Drake"
+            },
+            {
+              "id": "2",
+              "text": "Samuel de Champlain"
+            },
+            {
+              "id": "3",
+              "text": "Jacques Cartier"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jacques Cartier"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great explorer spent years searching for a seaway to China in order to trade Spains New World gold, thus contributing with information about America before its Indian cities were destroyed by foreign diseases.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Franklin"
+            },
+            {
+              "id": "1",
+              "text": "Samuel de Champlain"
+            },
+            {
+              "id": "2",
+              "text": "John Nicolas"
+            },
+            {
+              "id": "3",
+              "text": "Hernando de Soto"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hernando de Soto"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This John is the one who said Ask not what your country can do for you, ask what you can do for your country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Doe"
+            },
+            {
+              "id": "1",
+              "text": "John Smith"
+            },
+            {
+              "id": "2",
+              "text": "John Major"
+            },
+            {
+              "id": "3",
+              "text": "John Kennedy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: John Kennedy"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He is famous for sailing around the world twice. He became the first European to visit the coasts of Hawaii and Australia. Due to his voyages  some colonies were established throughout the Pacific region by several European nations.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Franklin"
+            },
+            {
+              "id": "1",
+              "text": "Martin Frobisher"
+            },
+            {
+              "id": "2",
+              "text": "Henry Hudson"
+            },
+            {
+              "id": "3",
+              "text": "James Cook"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: James Cook"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "john",
+          "actor",
+          "fiction",
+          "people",
+          "frances"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Nature Quiz: Man and Job",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, people, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who made this popular statement in July 1969: Thats one small step for (a) man, one giant leap for mankind.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John McKay"
+            },
+            {
+              "id": "1",
+              "text": "Neil Armstrong"
+            },
+            {
+              "id": "2",
+              "text": "Buzz Aldren"
+            },
+            {
+              "id": "3",
+              "text": "John Glenn"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Neil Armstrong"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As a Banana Gasser, what gas would you use to catalyze the ripening of bananas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ethylene"
+            },
+            {
+              "id": "1",
+              "text": "Methyl"
+            },
+            {
+              "id": "2",
+              "text": "Helium"
+            },
+            {
+              "id": "3",
+              "text": "Saline"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ethylene"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ask not what your country can do for you, ask what you can do for your country. These words were delivered by which US President?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John F. Kennedy"
+            },
+            {
+              "id": "1",
+              "text": "George Washington"
+            },
+            {
+              "id": "2",
+              "text": "Richard Nixon"
+            },
+            {
+              "id": "3",
+              "text": "Abraham Lincoln"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: John F. Kennedy"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These guys provide the primary ingredient for life-saving serums to people who have been bitten by poisonous snakes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Snake Doctors"
+            },
+            {
+              "id": "1",
+              "text": "Zoo Keepers"
+            },
+            {
+              "id": "2",
+              "text": "Snake Milkers"
+            },
+            {
+              "id": "3",
+              "text": "Snake Taxidermist"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Snake Milkers"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Have you ever noticed that not all onions are created equal? Some are bigger, some smaller, some differ in color and this person has to sort them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Onion Graders"
+            },
+            {
+              "id": "1",
+              "text": "Onion Janitors"
+            },
+            {
+              "id": "2",
+              "text": "Grocers"
+            },
+            {
+              "id": "3",
+              "text": "Onion Cleaners"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Onion Graders"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a Golf Ball Marshal do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They carry golf sticks"
+            },
+            {
+              "id": "1",
+              "text": "They search for lost golf balls"
+            },
+            {
+              "id": "2",
+              "text": "They win golf championships"
+            },
+            {
+              "id": "3",
+              "text": "They are retired golf players"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They search for lost golf balls"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which scientist is credited with the following quote: I never think of the future - it comes soon enough.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sir Issac Newton"
+            },
+            {
+              "id": "1",
+              "text": "Albert Einstein"
+            },
+            {
+              "id": "2",
+              "text": "Jack Parr"
+            },
+            {
+              "id": "3",
+              "text": "Thomas Edison"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Albert Einstein"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Are your taste buds working over time?  If so, this job might be perfect for you. John Harrison is doing this job for the Dreyers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Candy Licker"
+            },
+            {
+              "id": "1",
+              "text": "Drugs Tester"
+            },
+            {
+              "id": "2",
+              "text": "Ice Cream Taster"
+            },
+            {
+              "id": "3",
+              "text": "Fruit Tester"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ice Cream Taster"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which famous boxer said that he would float like a butterfly and sting like a bee.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Muhammad Ali"
+            },
+            {
+              "id": "1",
+              "text": "Leon Spinks"
+            },
+            {
+              "id": "2",
+              "text": "Sugar Ray Leonard"
+            },
+            {
+              "id": "3",
+              "text": "Mike Tyson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Muhammad Ali"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does a Wrinkle Chaser do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Irons wrinkles from shoes"
+            },
+            {
+              "id": "1",
+              "text": "Chase wrinkles from your face"
+            },
+            {
+              "id": "2",
+              "text": "Studies the wrinkles on someones face"
+            },
+            {
+              "id": "3",
+              "text": "Performs plastic surgeries"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Irons wrinkles from shoes"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Famous for his sea explorations, this man helped develop the first self-contained underwater breathing apparatus (SCUBA).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neil Armstrong"
+            },
+            {
+              "id": "1",
+              "text": "Ernest Shackleton"
+            },
+            {
+              "id": "2",
+              "text": "David Livingstone"
+            },
+            {
+              "id": "3",
+              "text": "Jacques Cousteau"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jacques Cousteau"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "People who do this job are responsible for making 3-D films look so real.  They create the hairstyles of the animated characters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Computer Hair Stylist"
+            },
+            {
+              "id": "1",
+              "text": "Animation Hair Consultant"
+            },
+            {
+              "id": "2",
+              "text": "Hair Simulation Supervisors"
+            },
+            {
+              "id": "3",
+              "text": "Hair Care Animator"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hair Simulation Supervisors"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which US President said: I am not a crook.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "1",
+              "text": "John F Kennedy"
+            },
+            {
+              "id": "2",
+              "text": "John Glenn"
+            },
+            {
+              "id": "3",
+              "text": "Richard Nixon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Nixon"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was the first man to explore Antarctica by land. He led two expeditions with the intention to find out more about the animals, weather and geology of the Antarctic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Captain James Cook"
+            },
+            {
+              "id": "1",
+              "text": "Ferdinand Magellan"
+            },
+            {
+              "id": "2",
+              "text": "Captain Scott"
+            },
+            {
+              "id": "3",
+              "text": "Sebastian Cabot"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Captain Scott"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A Vermiculturist uses this animal to produce compost?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Worms"
+            },
+            {
+              "id": "1",
+              "text": "Flies"
+            },
+            {
+              "id": "2",
+              "text": "Ticks"
+            },
+            {
+              "id": "3",
+              "text": "Bacteria"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Worms"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "people",
+          "country",
+          "land",
+          "quote",
+          "president"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Geography Quiz: Words and Rulers",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, rappers, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What famous person delivered these words: I have nothing new to teach the world. Truth and non-violence are as old as the hills.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Hancock"
+            },
+            {
+              "id": "1",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "2",
+              "text": "Mahatma Gandhi"
+            },
+            {
+              "id": "3",
+              "text": "Mother Teresa"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mahatma Gandhi"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The lefty, Henry Ford, founded the Ford Motor Company. Finish this quote and find out how he defined quality.",
+          "options": [
+            {
+              "id": "0",
+              "text": "...everyone is looking."
+            },
+            {
+              "id": "1",
+              "text": "...no one is looking."
+            },
+            {
+              "id": "2",
+              "text": "...you are told to."
+            },
+            {
+              "id": "3",
+              "text": "...you want to."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: ...no one is looking."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During her trial, Joan of Arc was accused of being left-handed.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which US President said the following words: Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "1",
+              "text": "George Washington"
+            },
+            {
+              "id": "2",
+              "text": "Richard Nixon"
+            },
+            {
+              "id": "3",
+              "text": "Abraham Lincoln"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Abraham Lincoln"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these rulers / politicians was not left-handed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "1",
+              "text": "Julius Caesar"
+            },
+            {
+              "id": "2",
+              "text": "Bill Clinton"
+            },
+            {
+              "id": "3",
+              "text": "They were all left-handed"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They were all left-handed"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the following terrorist leaders can be described as a tall and thin man with an olive complexion and a cane, who is left-handed and always wears a plain white turban.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abdullah Sungkar"
+            },
+            {
+              "id": "1",
+              "text": "Osama bin Laden"
+            },
+            {
+              "id": "2",
+              "text": "Tohir Yuldashev"
+            },
+            {
+              "id": "3",
+              "text": "Abu Musab al-Zarqawi"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Osama bin Laden"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These words belong to which famous writer: Always do right. This will gratify some people and astonish the rest.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Benjamin Franklin"
+            },
+            {
+              "id": "1",
+              "text": "Charles Schultz"
+            },
+            {
+              "id": "2",
+              "text": "Mark Twain"
+            },
+            {
+              "id": "3",
+              "text": "Dr Seuss"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mark Twain"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ronald Reagan was a left-handed President.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which fashion designer made this statement: Fashion passes, style remains.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Paco Rabanne"
+            },
+            {
+              "id": "1",
+              "text": "Coco Chanel"
+            },
+            {
+              "id": "2",
+              "text": "Ralph Lauren"
+            },
+            {
+              "id": "3",
+              "text": "Donatella Versace"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Coco Chanel"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Roman emperor, Tiberius, was a left-handed ruler, who belonged to what dynasty?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Julio-Claudian dynasty"
+            },
+            {
+              "id": "1",
+              "text": "Severan dynasty"
+            },
+            {
+              "id": "2",
+              "text": "Valentinian dynasty"
+            },
+            {
+              "id": "3",
+              "text": "Flavian dynasty"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Julio-Claudian dynasty"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who made a speech, known by the popular name I Have a Dream?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Willie Ricks"
+            },
+            {
+              "id": "1",
+              "text": "Roy Wilkins"
+            },
+            {
+              "id": "2",
+              "text": "Martin Luther King Jr"
+            },
+            {
+              "id": "3",
+              "text": "James Farmer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Martin Luther King Jr"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which famous politician said: We must all hang together, or, most assuredly, we shall all hang separately.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "1",
+              "text": "Theodore Roosevelt"
+            },
+            {
+              "id": "2",
+              "text": "John Hancock"
+            },
+            {
+              "id": "3",
+              "text": "Benjamin Franklin"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Benjamin Franklin"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is credited with delivering the following words: 100% of the shots you dont take dont go in.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Larry Bird"
+            },
+            {
+              "id": "1",
+              "text": "Mike Tyson"
+            },
+            {
+              "id": "2",
+              "text": "Michael Jordan"
+            },
+            {
+              "id": "3",
+              "text": "Wayne Gretzky"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Wayne Gretzky"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Raphael was a left-handed painter and architect of the Florentine school in the Italian High Renaissance. One of these works does not belong to him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Woman with a veil (La Donna Velata)"
+            },
+            {
+              "id": "1",
+              "text": "The Marriage of the Virgin"
+            },
+            {
+              "id": "2",
+              "text": "The School of Athens"
+            },
+            {
+              "id": "3",
+              "text": "The Night Watch"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Night Watch"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Both rappers, 50 Cent and Eminem, are left-handed.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "rappers",
+          "people",
+          "shots",
+          "rulers",
+          "ronald"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Literature Quiz: Father and Poet",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, actor, opportunity. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jay Leno is a left-handed American comedian, who suffers from what disease?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diabetes"
+            },
+            {
+              "id": "1",
+              "text": "Dyslexia"
+            },
+            {
+              "id": "2",
+              "text": "Mild deafness"
+            },
+            {
+              "id": "3",
+              "text": "Epilepsy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dyslexia"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "O. Henry was working as a bank teller when he was sent to jail for embezzlement.  He spent 3 years in jail where he started writing his short stories.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Georges Remi"
+            },
+            {
+              "id": "1",
+              "text": "William Sydney Porter"
+            },
+            {
+              "id": "2",
+              "text": "Harry Hart Frank"
+            },
+            {
+              "id": "3",
+              "text": "Stanley Martin Lieber"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: William Sydney Porter"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the last movie in which the lefty, Charlie Chaplin appeared.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Great Dictator"
+            },
+            {
+              "id": "1",
+              "text": "Limelight"
+            },
+            {
+              "id": "2",
+              "text": "Modern Times"
+            },
+            {
+              "id": "3",
+              "text": "A Countess from Hong Kong"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: A Countess from Hong Kong"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nelson Rockefeller, the left-handed 41st Vice President of the United States of America, was a governor of this state before becoming Vice President.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pennsylvania"
+            },
+            {
+              "id": "1",
+              "text": "Massachusetts"
+            },
+            {
+              "id": "2",
+              "text": "Connecticut"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: New York"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After achieving success with his horror stories, this writer called himself Richard Bachman because he wanted to see if his novels would sell without his already famous name on them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "D.B. Wyndham-Lewis"
+            },
+            {
+              "id": "1",
+              "text": "Stephen King"
+            },
+            {
+              "id": "2",
+              "text": "Bruce Frederick Cummings"
+            },
+            {
+              "id": "3",
+              "text": "John Bingham Morton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Stephen King"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Paul Eluard was a major exponent of surrealism.  Many of his poems reflect the hardship after his separation with his first wife Gala, who left him for Salvador Dali.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jacques Anatole Fran\u00e7ois Thibault"
+            },
+            {
+              "id": "1",
+              "text": "Lucy Beatrice Malleson"
+            },
+            {
+              "id": "2",
+              "text": "Harry Hart Frank"
+            },
+            {
+              "id": "3",
+              "text": "Eug\u00e8ne Grindel"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eug\u00e8ne Grindel"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lewis Carroll conceived Alices Adventures in Wonderland as nursery tales for the daughter of a friend.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charles Lutwidge Dodgson"
+            },
+            {
+              "id": "1",
+              "text": "Eug\u00e8ne Grindel"
+            },
+            {
+              "id": "2",
+              "text": "D.B. Wyndham-Lewis"
+            },
+            {
+              "id": "3",
+              "text": "Sue Denim"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Charles Lutwidge Dodgson"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The left-handed actor, Jim Carrey, played what character in the 2004 Hollywood production, Eternal Sunshine of the Spotless Mind?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank"
+            },
+            {
+              "id": "1",
+              "text": "Stan"
+            },
+            {
+              "id": "2",
+              "text": "Patrick"
+            },
+            {
+              "id": "3",
+              "text": "Joel"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Joel"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Both in the year when Mark Twain was born and the year when he died, the Halleys Comet passed by Earth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johann Kaspar Schmidt"
+            },
+            {
+              "id": "1",
+              "text": "Samuel Langhorne Clemens"
+            },
+            {
+              "id": "2",
+              "text": "Don Novello"
+            },
+            {
+              "id": "3",
+              "text": "Charles Farrar Browne"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Samuel Langhorne Clemens"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Moliere became famous as the father of French high comedy. He coined the phrase castigat ridendo mores (to criticise customs through humour) which is sometimes mistaken for a genuine Latin proverb.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jean Baptiste Poquelin"
+            },
+            {
+              "id": "1",
+              "text": "Georges Remi"
+            },
+            {
+              "id": "2",
+              "text": "James Oliver Rigney, Jr."
+            },
+            {
+              "id": "3",
+              "text": "G\u00e9rard Labrunie"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jean Baptiste Poquelin"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Stendhal hated his father so he took the first opportunity to leave for Paris, where he became a lieutenant in Napoleon\u2019s army.  He began his literary career after the fall of Napoleon in 1814.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marie Henri Beyle"
+            },
+            {
+              "id": "1",
+              "text": "Paul M. A. Linebarger"
+            },
+            {
+              "id": "2",
+              "text": "Dan Perkins"
+            },
+            {
+              "id": "3",
+              "text": "Johann Kaspar Schmidt"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Marie Henri Beyle"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saki was a master of short stories.  It is said that his pen name could be a reference to a monkey with the same name.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hector Hugh Munro"
+            },
+            {
+              "id": "1",
+              "text": "Frederic Dannay"
+            },
+            {
+              "id": "2",
+              "text": "Theodore Seuss Geisel"
+            },
+            {
+              "id": "3",
+              "text": "Natsume Kinnosuke"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hector Hugh Munro"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Besides a poet, Pablo Neruda was also a diplomat and a Communist leader.  He changed his original name because he didnt want his father to find out he was a poet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hector Hugh Munro"
+            },
+            {
+              "id": "1",
+              "text": "Louis Cha"
+            },
+            {
+              "id": "2",
+              "text": "Ricardo Eliecer Neftal\u00ed Reyes Basoalto"
+            },
+            {
+              "id": "3",
+              "text": "Eric Arthur Blair"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ricardo Eliecer Neftal\u00ed Reyes Basoalto"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The left-handed Hollywood actor, Morgan Freeman, was born in which city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Memphis"
+            },
+            {
+              "id": "1",
+              "text": "Nashville"
+            },
+            {
+              "id": "2",
+              "text": "Pittsburgh"
+            },
+            {
+              "id": "3",
+              "text": "Philadelphia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Memphis"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Anatole France was probably the most famous French man of letters of his time.  In 1921 he was awarded the Nobel Prize in Literature.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jacques Anatole Thibault"
+            },
+            {
+              "id": "1",
+              "text": "Charles Lutwidge Dodgson"
+            },
+            {
+              "id": "2",
+              "text": "William Sidney Porter"
+            },
+            {
+              "id": "3",
+              "text": "John Dickson Carr"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jacques Anatole Thibault"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "actor",
+          "opportunity",
+          "people",
+          "phrase",
+          "poet"
+        ]
+      }
+    }
+  ]
+}

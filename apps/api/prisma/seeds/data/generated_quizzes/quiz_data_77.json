@@ -1,0 +1,2524 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Nature Quiz: President and U.s.",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, people, presidents. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which explorer realized the first known successful attempt to circumnavigate the Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marco Polo"
+            },
+            {
+              "id": "1",
+              "text": "Ferdinand Magellan"
+            },
+            {
+              "id": "2",
+              "text": "James Cook"
+            },
+            {
+              "id": "3",
+              "text": "Vasco da Gama"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ferdinand Magellan"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which President said Speak softly and carry a big stick.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Theodor Teddy Roosevelt"
+            },
+            {
+              "id": "1",
+              "text": "Ronald Reagan"
+            },
+            {
+              "id": "2",
+              "text": "Thomas Jefferson"
+            },
+            {
+              "id": "3",
+              "text": "Abraham Lincoln"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Theodor Teddy Roosevelt"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What U.S. President used the words When in the course of human events?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Washington"
+            },
+            {
+              "id": "1",
+              "text": "James Madison"
+            },
+            {
+              "id": "2",
+              "text": "Ronald Reagan"
+            },
+            {
+              "id": "3",
+              "text": "Thomas Jefferson"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Jefferson"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the Portuguese explorer who was in command of the first ships to sail directly from Europe to India.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Christopher Columbus"
+            },
+            {
+              "id": "1",
+              "text": "Ferdinand Magellan"
+            },
+            {
+              "id": "2",
+              "text": "Vasco da Gama"
+            },
+            {
+              "id": "3",
+              "text": "Marco Polo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vasco da Gama"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Italian explored the east coast of South America much further south than any other European before and realized that this land was part of a new continent while many other European explorers crossing the Atlantic thought they were reaching Asia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marco Polo"
+            },
+            {
+              "id": "1",
+              "text": "Christopher Columbus"
+            },
+            {
+              "id": "2",
+              "text": "Amerigo Vespucci"
+            },
+            {
+              "id": "3",
+              "text": "Ferdinand Magellan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Amerigo Vespucci"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President is considered the father of the Constitution?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Madison"
+            },
+            {
+              "id": "1",
+              "text": "John Adams"
+            },
+            {
+              "id": "2",
+              "text": "George Washington"
+            },
+            {
+              "id": "3",
+              "text": "Thomas Jefferson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: James Madison"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. political party is also known as the GOP?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Federalist"
+            },
+            {
+              "id": "1",
+              "text": "Democratic"
+            },
+            {
+              "id": "2",
+              "text": "Republican"
+            },
+            {
+              "id": "3",
+              "text": "Democratic-Republican"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Republican"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which two U.S. Presidents died on the same day?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Nixon and Ronald Reagan"
+            },
+            {
+              "id": "1",
+              "text": "Theodor Roosevelt and Woodrow Wilson"
+            },
+            {
+              "id": "2",
+              "text": "John Adams and Thomas Jefferson"
+            },
+            {
+              "id": "3",
+              "text": "Grower Cleveland and Millard Filmore"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Adams and Thomas Jefferson"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Spanish explorer was the first recorded European to reach the Mississippi River?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pedro Sarmiento de Gamboa"
+            },
+            {
+              "id": "1",
+              "text": "Hern\u00e1n Cort\u00e9s"
+            },
+            {
+              "id": "2",
+              "text": "Vasco da Gama"
+            },
+            {
+              "id": "3",
+              "text": "Hernando de Soto"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hernando de Soto"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "While this President was skinny dipping in the Potomac River a female journalist took his clothes and refused to give them to him until he gave an interview.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "1",
+              "text": "James Monroe"
+            },
+            {
+              "id": "2",
+              "text": "James Buchanan"
+            },
+            {
+              "id": "3",
+              "text": "John Quincy Adams"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: John Quincy Adams"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was President of the United States when the atomic bombs were dropped in August 1945?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Theodor Roosevelt"
+            },
+            {
+              "id": "1",
+              "text": "Ronald Reagan"
+            },
+            {
+              "id": "2",
+              "text": "Harry S. Truman"
+            },
+            {
+              "id": "3",
+              "text": "Franklin D. Roosevelt"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Harry S. Truman"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first U.S. President born in a hospital?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ronald Reagan"
+            },
+            {
+              "id": "1",
+              "text": "Jimmy Carter"
+            },
+            {
+              "id": "2",
+              "text": "George H.W. Bush"
+            },
+            {
+              "id": "3",
+              "text": "Richard Nixon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jimmy Carter"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first President to serve two nonconsecutive terms in office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andrew Johnson"
+            },
+            {
+              "id": "1",
+              "text": "George Washington"
+            },
+            {
+              "id": "2",
+              "text": "Grover Cleavland"
+            },
+            {
+              "id": "3",
+              "text": "Abraham Lincoln"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Grover Cleavland"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the twenty-third President of the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Carter"
+            },
+            {
+              "id": "1",
+              "text": "Benjamin Harrison"
+            },
+            {
+              "id": "2",
+              "text": "Herbert Hoover"
+            },
+            {
+              "id": "3",
+              "text": "Millard Fillmore"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Benjamin Harrison"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Christopher Columbus, one of the most successful explorers in the European Age of Discovery and among the first Europeans to explore the Americas (after the Vikings,) was of what nationality?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Portuguese"
+            },
+            {
+              "id": "1",
+              "text": "Italian"
+            },
+            {
+              "id": "2",
+              "text": "English"
+            },
+            {
+              "id": "3",
+              "text": "Spanish"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Italian"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "people",
+          "presidents",
+          "america",
+          "president",
+          "father"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Knowledge Quiz: Lady and Explorer",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, college, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Beatrix, Queen of the Netherlands, acceded to the throne after the abdication of which monarch?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Queen Christina"
+            },
+            {
+              "id": "1",
+              "text": "Queen Sonya"
+            },
+            {
+              "id": "2",
+              "text": "Queen Ingrid"
+            },
+            {
+              "id": "3",
+              "text": "Queen Juliana"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Queen Juliana"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first First Lady to receive a college degree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lucy Webb Hayes"
+            },
+            {
+              "id": "1",
+              "text": "Jackie Kennedy"
+            },
+            {
+              "id": "2",
+              "text": "Margaret Smith Taylor"
+            },
+            {
+              "id": "3",
+              "text": "Bess Truman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lucy Webb Hayes"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This first lady was responsible for the Cherry Blossoms we can enjoy every spring.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helen Taft"
+            },
+            {
+              "id": "1",
+              "text": "Lady Bird Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Maggie Monroe"
+            },
+            {
+              "id": "3",
+              "text": "Caroline Harrison"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Helen Taft"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She received many honorary degrees before becoming First Lady.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hillary Clinton"
+            },
+            {
+              "id": "1",
+              "text": "Sara Jefferson"
+            },
+            {
+              "id": "2",
+              "text": "Pat Nixon"
+            },
+            {
+              "id": "3",
+              "text": "Lou Hoover"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lou Hoover"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these First Ladies had a law degree?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hillary Clinton"
+            },
+            {
+              "id": "1",
+              "text": "Eleanor Roosevelt"
+            },
+            {
+              "id": "2",
+              "text": "Pat Nixon"
+            },
+            {
+              "id": "3",
+              "text": "Mildred Buchanan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hillary Clinton"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the French navigator and explorer who was the first to describe and map Canada.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Friar Julian"
+            },
+            {
+              "id": "1",
+              "text": "Meriwether Lewis"
+            },
+            {
+              "id": "2",
+              "text": "Jacques Cartier"
+            },
+            {
+              "id": "3",
+              "text": "Jean Fran\u00e7ois La P\u00e9rouse"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jacques Cartier"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Spanish explorer conquered the Inca Empire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Francisco Pizarro"
+            },
+            {
+              "id": "1",
+              "text": "Luis V\u00e1ez de Torres"
+            },
+            {
+              "id": "2",
+              "text": "Juan Ponce de Le\u00f3n"
+            },
+            {
+              "id": "3",
+              "text": "Hern\u00e1n Cort\u00e9s"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Francisco Pizarro"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This explorer was one of the first Europeans to travel the Silk Road and meet the Great Khan of the Mongol Empire, Kublai Khan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jacques Cartier"
+            },
+            {
+              "id": "1",
+              "text": "Hern\u00e1n Cort\u00e9s"
+            },
+            {
+              "id": "2",
+              "text": "Marco Polo"
+            },
+            {
+              "id": "3",
+              "text": "Juan Sebasti\u00e1n Elcano"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Marco Polo"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Born in Utrecht, on April 27th, 1967 and known as the Prince of Orange, he is the eldest son of Queen Beatrix of the Netherlands.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reinhart-Gregor"
+            },
+            {
+              "id": "1",
+              "text": "Otto-Casimir"
+            },
+            {
+              "id": "2",
+              "text": "Lothar-Maurice"
+            },
+            {
+              "id": "3",
+              "text": "Willem-Alexander"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Willem-Alexander"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "While in the White House this First Lady suffered from epileptic seizures.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ida Saxton McKinley"
+            },
+            {
+              "id": "1",
+              "text": "Caroline Harrison"
+            },
+            {
+              "id": "2",
+              "text": "Pat Nixon"
+            },
+            {
+              "id": "3",
+              "text": "Mary Todd Lincoln"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ida Saxton McKinley"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which First Lady rescued the portrait of George Washington when the British burned the city during the war of 1812?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dolley Madison"
+            },
+            {
+              "id": "1",
+              "text": "Martha Washington"
+            },
+            {
+              "id": "2",
+              "text": "Mildred Jefferson"
+            },
+            {
+              "id": "3",
+              "text": "Mary Todd Lincoln"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dolley Madison"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This First Ladys husband suffered a stroke in 1919 and she assumed his responsibilities and made decisions for him the last year and a half of his term of office.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gracie Taft"
+            },
+            {
+              "id": "1",
+              "text": "Mamie Eisenhower"
+            },
+            {
+              "id": "2",
+              "text": "Edith Wilson"
+            },
+            {
+              "id": "3",
+              "text": "Julia Grant"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Edith Wilson"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which First Lady did not see her husband die during his term of office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nancy Reagan"
+            },
+            {
+              "id": "1",
+              "text": "Eleanor Roosevelt"
+            },
+            {
+              "id": "2",
+              "text": "Mary Todd Lincoln"
+            },
+            {
+              "id": "3",
+              "text": "Jackie Kennedy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nancy Reagan"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mary Todd Lincoln was committed to a mental institution.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This First Lady banned cards and alcohol while living at the White House.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dolly Maddison"
+            },
+            {
+              "id": "1",
+              "text": "Sarah Childress Polk"
+            },
+            {
+              "id": "2",
+              "text": "Lou Hoover"
+            },
+            {
+              "id": "3",
+              "text": "Grace Coolidge"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sarah Childress Polk"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "college",
+          "people",
+          "beatrix",
+          "seizures",
+          "institution"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "History Quiz: Netherlands and Queen Beatrix",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, people, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Dutch royal family has been historically associated with what color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "White"
+            },
+            {
+              "id": "1",
+              "text": "Orange"
+            },
+            {
+              "id": "2",
+              "text": "Green"
+            },
+            {
+              "id": "3",
+              "text": "Brown"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Orange"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Queen Beatrix of the Netherlands ascend the throne?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1980"
+            },
+            {
+              "id": "1",
+              "text": "1985"
+            },
+            {
+              "id": "2",
+              "text": "1990"
+            },
+            {
+              "id": "3",
+              "text": "1973"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1980"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Dutch monarch held the title Queen Mother from 1980 until her death in 2004.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Margrete"
+            },
+            {
+              "id": "1",
+              "text": "Juliana"
+            },
+            {
+              "id": "2",
+              "text": "Sylvia"
+            },
+            {
+              "id": "3",
+              "text": "Caroline"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Juliana"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What name is Mexican revolutionary Doroteo Arango better know as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Simon Bolivar"
+            },
+            {
+              "id": "1",
+              "text": "Manuel Noriega"
+            },
+            {
+              "id": "2",
+              "text": "Che Guevara"
+            },
+            {
+              "id": "3",
+              "text": "Pancho Villa"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pancho Villa"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Hebrew Bible, who was Moses father-in-law?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elijah"
+            },
+            {
+              "id": "1",
+              "text": "Joshua"
+            },
+            {
+              "id": "2",
+              "text": "Jethro"
+            },
+            {
+              "id": "3",
+              "text": "Aaron"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jethro"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Beatrix, Queen of the Netherlands, was born in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1950"
+            },
+            {
+              "id": "1",
+              "text": "1938"
+            },
+            {
+              "id": "2",
+              "text": "1926"
+            },
+            {
+              "id": "3",
+              "text": "1962"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1938"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From what country was the first astronaut who was not Russian or American?",
+          "options": [
+            {
+              "id": "0",
+              "text": "France"
+            },
+            {
+              "id": "1",
+              "text": "Czechoslovakia"
+            },
+            {
+              "id": "2",
+              "text": "Canada"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Czechoslovakia"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Queen Juliana of the Netherlands gave birth to how many daughters?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None"
+            },
+            {
+              "id": "1",
+              "text": "Three"
+            },
+            {
+              "id": "2",
+              "text": "Four"
+            },
+            {
+              "id": "3",
+              "text": "Two"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Four"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From which university did Queen Beatrix of the Netherlands obtain her degree in law in practice?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Utrecht"
+            },
+            {
+              "id": "1",
+              "text": "Maastricht"
+            },
+            {
+              "id": "2",
+              "text": "Leiden"
+            },
+            {
+              "id": "3",
+              "text": "Groningen"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Leiden"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Queen Beatrix of the Netherlands gave birth to how many sons?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Five"
+            },
+            {
+              "id": "1",
+              "text": "Two"
+            },
+            {
+              "id": "2",
+              "text": "Four"
+            },
+            {
+              "id": "3",
+              "text": "Three"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Three"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This German-born nobleman is the late father of Queen Beatrix of the Netherlands.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Prince Manfred"
+            },
+            {
+              "id": "1",
+              "text": "Prince Konrad"
+            },
+            {
+              "id": "2",
+              "text": "Prince Oscar"
+            },
+            {
+              "id": "3",
+              "text": "Prince Bernhard"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Prince Bernhard"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1877, Spencer Gore was the first winner of what tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wimbledon"
+            },
+            {
+              "id": "1",
+              "text": "The Masters"
+            },
+            {
+              "id": "2",
+              "text": "Cricket World Cup"
+            },
+            {
+              "id": "3",
+              "text": "World Open"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Wimbledon"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Argentine lady married Prince Willem-Alexander of the Netherlands on February 2, 2002.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Princess Clementine"
+            },
+            {
+              "id": "1",
+              "text": "Princess Maxima"
+            },
+            {
+              "id": "2",
+              "text": "Princess Odilia"
+            },
+            {
+              "id": "3",
+              "text": "Princess Eugenie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Princess Maxima"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What fictional character was James Bond first married to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tiffany Case"
+            },
+            {
+              "id": "1",
+              "text": "Andrea Anders"
+            },
+            {
+              "id": "2",
+              "text": "Pussy Galore"
+            },
+            {
+              "id": "3",
+              "text": "Teresa Tracy Draco"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Teresa Tracy Draco"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This German diplomat, who died on October 6, 2002 was the spouse of Queen Beatrix of the Netherlands.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Prince  Emmanuel"
+            },
+            {
+              "id": "1",
+              "text": "Prince Zacharias"
+            },
+            {
+              "id": "2",
+              "text": "Prince  Ruprecht"
+            },
+            {
+              "id": "3",
+              "text": "Prince Claus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Prince Claus"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "people",
+          "title",
+          "nobleman",
+          "beatrix",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Dog and Life",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, leader, vocalist. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The poison which philosopher Socrates was sentenced to drinking contained this poisonous plant.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Belladonna"
+            },
+            {
+              "id": "1",
+              "text": "Thornapple"
+            },
+            {
+              "id": "2",
+              "text": "Oleander"
+            },
+            {
+              "id": "3",
+              "text": "Hemlock"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hemlock"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Judas Iscariot choose to end his life according to the Gospel of Matthew?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He hanged himself."
+            },
+            {
+              "id": "1",
+              "text": "He jumped from a cliff."
+            },
+            {
+              "id": "2",
+              "text": "He drowned himself."
+            },
+            {
+              "id": "3",
+              "text": "He poisoned himself."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He hanged himself."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What were the names of the lovers in the musical West Side Story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jiovanni and Madona"
+            },
+            {
+              "id": "1",
+              "text": "Toni and Maria"
+            },
+            {
+              "id": "2",
+              "text": "Adamo and Juanita"
+            },
+            {
+              "id": "3",
+              "text": "Max and Conchita"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Toni and Maria"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who called the police on August 5, 1962 to report that Marilyn Monroe was dead?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Her psychiatrist, Dr. Ralph Greenson"
+            },
+            {
+              "id": "1",
+              "text": "Her housekeeper"
+            },
+            {
+              "id": "2",
+              "text": "Arthur Miller"
+            },
+            {
+              "id": "3",
+              "text": "Joe DiMaggio, Jr."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Her psychiatrist, Dr. Ralph Greenson"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sigmund Freud was suffering from this type of cancer, which caused him to commit a suicide with the assistance of his doctor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oral cancer"
+            },
+            {
+              "id": "1",
+              "text": "Bone cancer"
+            },
+            {
+              "id": "2",
+              "text": "Prostate cancer"
+            },
+            {
+              "id": "3",
+              "text": "Stomach cancer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Oral cancer"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Nirvana vocalist Kurt Cobain end his life on April 5, 1994?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He poisoned himself."
+            },
+            {
+              "id": "1",
+              "text": "He jumped from a building."
+            },
+            {
+              "id": "2",
+              "text": "He shot himself."
+            },
+            {
+              "id": "3",
+              "text": "He hanged himself."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He shot himself."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What politician was nicknamed Il Duce?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Josef Stalin"
+            },
+            {
+              "id": "1",
+              "text": "Richard Nixon"
+            },
+            {
+              "id": "2",
+              "text": "Benito Mussolini"
+            },
+            {
+              "id": "3",
+              "text": "Margaret Thatcher"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Benito Mussolini"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A line in this lawyers summation to the jury has become a part of pop culture.  Who said If the glove doesnt fit, you must acquit.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Al Sharpton"
+            },
+            {
+              "id": "1",
+              "text": "F. Lee Bailey"
+            },
+            {
+              "id": "2",
+              "text": "Robert Shapiro"
+            },
+            {
+              "id": "3",
+              "text": "Johnnie Cochran"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Johnnie Cochran"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Shakespeare character said The quality of mercy is not strained. It droppeth as the gentle rain from heaven?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Antonio"
+            },
+            {
+              "id": "1",
+              "text": "Shylock"
+            },
+            {
+              "id": "2",
+              "text": "Portia"
+            },
+            {
+              "id": "3",
+              "text": "Bassanio"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Portia"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was one of the reasons for Roman politician and General Mark Antonys suicide on August 1, 30 BC?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He thought Queen Cleopatra had already committed suicide herself."
+            },
+            {
+              "id": "1",
+              "text": "He believed Queen Cleopatra was cheating on him."
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "He killed Queen Cleopatra before that."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: He thought Queen Cleopatra had already committed suicide herself."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This lawyer, who graduated from Stanford Law School and served on the Arizona Court of Appeals, was appointed by President Ronald Reagan as the first woman to serve on the United States Supreme Court.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ruth Bader Ginsburg"
+            },
+            {
+              "id": "1",
+              "text": "Sandra Day OConnor"
+            },
+            {
+              "id": "2",
+              "text": "Harriet Miers"
+            },
+            {
+              "id": "3",
+              "text": "Kimba Woods"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sandra Day OConnor"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This flamboyant criminal lawyer said: Say you sue me because you say my dog bit you. Well, now this is my defense: My dog doesnt bite. And second, my dog was tied up that night. And third, I dont believe you were bit. And fourth, I dont have a dog. This lawyer represented T. Cullen Davis, one of the wealthiest men to ever stand trial for murder in the United States. He won two acquittals for Davis for the murder of  twelve-year-old Andrea Wilborn and the attempted murder of Judge Joe Eidson.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Racehorse Haynes"
+            },
+            {
+              "id": "1",
+              "text": "Melvin Belli"
+            },
+            {
+              "id": "2",
+              "text": "Roy Black"
+            },
+            {
+              "id": "3",
+              "text": "Gerry Spence"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Racehorse Haynes"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did German Nazi leader Adolf Hitler take his own life, according to a prevailing theory?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He jumped from a building."
+            },
+            {
+              "id": "1",
+              "text": "He shot himself."
+            },
+            {
+              "id": "2",
+              "text": "He hanged himself."
+            },
+            {
+              "id": "3",
+              "text": "He injected poison in his veins."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He shot himself."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the three musketeers in Alexandre Dumass novel by the same name.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aramis, dArtagnan, Athos"
+            },
+            {
+              "id": "1",
+              "text": "Athos, Portos, dArtagnan"
+            },
+            {
+              "id": "2",
+              "text": "Athos, Portos, Aramis"
+            },
+            {
+              "id": "3",
+              "text": "Portos, dArtagnan, Aramis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Athos, Portos, Aramis"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the inventor of dynamite?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Georg Friedrich Henning"
+            },
+            {
+              "id": "1",
+              "text": "The Chinese"
+            },
+            {
+              "id": "2",
+              "text": "Alfred Nobel"
+            },
+            {
+              "id": "3",
+              "text": "Joseph Wilbrand"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Alfred Nobel"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "leader",
+          "vocalist",
+          "freud",
+          "people",
+          "stanford"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: People and Person",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, actor, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These people have highly sensible noses and their task is to ensure that a NASA flight wont be aborted due to bad smells in space.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Smell Specialists"
+            },
+            {
+              "id": "1",
+              "text": "Master Sniffers"
+            },
+            {
+              "id": "2",
+              "text": "Master Smellers"
+            },
+            {
+              "id": "3",
+              "text": "Odor Analysts"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Master Sniffers"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the reason for actor George Reeves suicide according to the police report?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He knew he was very sick with no chance of recovery."
+            },
+            {
+              "id": "1",
+              "text": "He couldnt get the sort of parts he wanted."
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "He had marital problems."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He couldnt get the sort of parts he wanted."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These people, who get active when it is dark, walk around gardens, parks, lawns to gather earthworms and sell them for fish bait.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Worm chasers"
+            },
+            {
+              "id": "1",
+              "text": "Worm gatherers"
+            },
+            {
+              "id": "2",
+              "text": "Worm pickers"
+            },
+            {
+              "id": "3",
+              "text": "Worm collectors"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Worm pickers"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Roman Emperor Nero kill himself?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He let a lion kill him."
+            },
+            {
+              "id": "1",
+              "text": "He severed his veins."
+            },
+            {
+              "id": "2",
+              "text": "He cut his throat."
+            },
+            {
+              "id": "3",
+              "text": "He poisoned himself."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He cut his throat."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person takes care of the hair and makeup of dead people.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Funeral Makeup Artist"
+            },
+            {
+              "id": "1",
+              "text": "Funeral Cosmetician"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Funeral Parlor Cosmetologist"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Funeral Parlor Cosmetologist"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the last novel written by author Virginia Woolf before she took her own life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Years"
+            },
+            {
+              "id": "1",
+              "text": "Between the Acts"
+            },
+            {
+              "id": "2",
+              "text": "The Voyage Out"
+            },
+            {
+              "id": "3",
+              "text": "Mrs Dalloway"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Between the Acts"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This profession is related to making food look fresh and delicious on photographs and advertisements.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Food Arrangeur"
+            },
+            {
+              "id": "1",
+              "text": "Food Stylist"
+            },
+            {
+              "id": "2",
+              "text": "Food Designer"
+            },
+            {
+              "id": "3",
+              "text": "Food Special Effects Guy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Food Stylist"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This job requires sorting lasts(shoe molds) in numbered racks and transporting them to a storage room.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Last putter-away"
+            },
+            {
+              "id": "1",
+              "text": "Last sorter"
+            },
+            {
+              "id": "2",
+              "text": "Last storage operator"
+            },
+            {
+              "id": "3",
+              "text": "Mold sorter"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Last putter-away"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person runs into the water in search of the balls that the golf players strike inaccurately.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golf Ball Swimmer"
+            },
+            {
+              "id": "1",
+              "text": "Golf Ball Diver"
+            },
+            {
+              "id": "2",
+              "text": "Golf Ball Water Hunter"
+            },
+            {
+              "id": "3",
+              "text": "Golf Ball Seeker"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Golf Ball Diver"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This job requires dipping nuts in hot water, so their shells get softer, as well as maintaining the equipment and temperature.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nut heater"
+            },
+            {
+              "id": "1",
+              "text": "Nut softener"
+            },
+            {
+              "id": "2",
+              "text": "Nut steamer"
+            },
+            {
+              "id": "3",
+              "text": "Nut boiler"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nut steamer"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "George Washington lived in the White House.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These people are most likely to be met in the labs of mouthwash companies, where they indulge in the smell of different breaths in order to test the products.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Odor Judges"
+            },
+            {
+              "id": "1",
+              "text": "Odor Jurors"
+            },
+            {
+              "id": "2",
+              "text": "Breath Evaluators"
+            },
+            {
+              "id": "3",
+              "text": "Breath Judges"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Odor Judges"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This job involves taking care of all the certificates and registration issues of race horses, examining the horses and their identification marks and reporting the possible unconformities.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Race Horse Specialist"
+            },
+            {
+              "id": "1",
+              "text": "Horse Describer"
+            },
+            {
+              "id": "2",
+              "text": "Horse Analyst"
+            },
+            {
+              "id": "3",
+              "text": "Horse Identifier"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Horse Identifier"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was the first president of the United States of America, George Washington, buried?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The White House"
+            },
+            {
+              "id": "1",
+              "text": "Monticello"
+            },
+            {
+              "id": "2",
+              "text": "His private cemetery"
+            },
+            {
+              "id": "3",
+              "text": "Mount Vernon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mount Vernon"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This person works with machines used to coat popcorn or other products with melted cheese.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cheese Melter"
+            },
+            {
+              "id": "1",
+              "text": "Cheese Sprinkler"
+            },
+            {
+              "id": "2",
+              "text": "Cheese Sprayer"
+            },
+            {
+              "id": "3",
+              "text": "Cheese Operator"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cheese Sprayer"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "actor",
+          "people",
+          "profession",
+          "nuts",
+          "food"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: President and Country",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, john, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This politician, who became Israels first female Prime Minister, used to be called the best man in the government.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mary Robinson"
+            },
+            {
+              "id": "1",
+              "text": "Edith Cresson"
+            },
+            {
+              "id": "2",
+              "text": "Isabel Peron"
+            },
+            {
+              "id": "3",
+              "text": "Golda Meir"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Golda Meir"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do Indira Ghandi and Benazir Bhuto have in common?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They were both assassinated."
+            },
+            {
+              "id": "1",
+              "text": "They were the first female Prime Ministers of their countries."
+            },
+            {
+              "id": "2",
+              "text": "They were Prime Ministers of Asian countries."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During her tenure as the first female Prime Minister of the UK, this Iron Lady reduced the power of trade unions, survived an assassination attempt, and staunchly opposed communism.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barbara Castle"
+            },
+            {
+              "id": "1",
+              "text": "Margaret Thatcher"
+            },
+            {
+              "id": "2",
+              "text": "Eugenia Charles"
+            },
+            {
+              "id": "3",
+              "text": "Angela Merkel"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Margaret Thatcher"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which US presidents face is on the 20 dollar bill?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Martin Van Buren"
+            },
+            {
+              "id": "1",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "2",
+              "text": "John Adams"
+            },
+            {
+              "id": "3",
+              "text": "George Washington"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Andrew Jackson"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This suffragist is considered the first woman to run for President of the United States although her name was not printed on the ballot.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Evelyn Reed"
+            },
+            {
+              "id": "1",
+              "text": "Victoria Woodhull"
+            },
+            {
+              "id": "2",
+              "text": "Agnes Waters"
+            },
+            {
+              "id": "3",
+              "text": "Cynthia McKinney"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Victoria Woodhull"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was George Washingtons party?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Federalist"
+            },
+            {
+              "id": "1",
+              "text": "none"
+            },
+            {
+              "id": "2",
+              "text": "Democrat"
+            },
+            {
+              "id": "3",
+              "text": "Democratic-Republican"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: none"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What happened to the White House when James Madison, the fourth president, was in office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "was built"
+            },
+            {
+              "id": "1",
+              "text": "was flooded"
+            },
+            {
+              "id": "2",
+              "text": "was set on fire"
+            },
+            {
+              "id": "3",
+              "text": "exploded"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: was set on fire"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first vice president to succeed a president who had died before his term was over?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "1",
+              "text": "John Quincy Adams"
+            },
+            {
+              "id": "2",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "3",
+              "text": "John Tyler"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: John Tyler"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When John Tyler became president, he did something that angered US citizens. What was it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "passed the Tariff of Abominations"
+            },
+            {
+              "id": "1",
+              "text": "vetoed the Bank of the United States"
+            },
+            {
+              "id": "2",
+              "text": "set his rivals house on fire"
+            },
+            {
+              "id": "3",
+              "text": "passed a law saying that no citizens could bear arms"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: vetoed the Bank of the United States"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Martin Van Buren served 1 term as president.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Angela Merkel, a trained scientist, is the first woman to become Chancellor of this country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sweden"
+            },
+            {
+              "id": "1",
+              "text": "Austria"
+            },
+            {
+              "id": "2",
+              "text": "Switzerland"
+            },
+            {
+              "id": "3",
+              "text": "Germany"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Germany"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many different presidential parties were there up to John Tyler?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "5"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Madeleine Albright, the first woman to become United States Secretary of State, was born Marie Jana Korbelov\u00e1 in this European country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Czechoslovakia"
+            },
+            {
+              "id": "1",
+              "text": "Poland"
+            },
+            {
+              "id": "2",
+              "text": "Romania"
+            },
+            {
+              "id": "3",
+              "text": "Hungary"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Czechoslovakia"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A self-proclaimed plain housewife, this lady was the first President of an Asian country.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Corazon Aquino"
+            },
+            {
+              "id": "1",
+              "text": "Maria Gloria Macapagal-Arroyo"
+            },
+            {
+              "id": "2",
+              "text": "Benazir Bhuto"
+            },
+            {
+              "id": "3",
+              "text": "Mary MacAleese"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Corazon Aquino"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What female politician is not correctly matched with the country of which she was Prime Minister?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Benazir Bhutto - Pakistan"
+            },
+            {
+              "id": "1",
+              "text": "Eva Peron - Argentina"
+            },
+            {
+              "id": "2",
+              "text": "Indira Gandhi - India"
+            },
+            {
+              "id": "3",
+              "text": "Tansu Ciller - Turkey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eva Peron - Argentina"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "john",
+          "people",
+          "presidents",
+          "country",
+          "martin"
+        ]
+      }
+    }
+  ]
+}

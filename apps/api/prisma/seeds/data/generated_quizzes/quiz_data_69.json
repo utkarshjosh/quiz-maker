@@ -1,0 +1,2420 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: Mafia and Bosses",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, people, fighters. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Triads is the name of the Japanese Mafia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The execution of a member of the American Mafia is called Omerta.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President, nicknamed Old Hickory, was the target of an assassination attempt at the Capitol building in 1835 by a house painter named Richard Lawrence?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Martin Van Buren"
+            },
+            {
+              "id": "1",
+              "text": "William Henry Harrison"
+            },
+            {
+              "id": "2",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "3",
+              "text": "John Quincy Adams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Andrew Jackson"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lucky Luciano was one of the most important bosses of the Mafia, because he literally created its structure as we know it today. This guy was his most loyal friend since childhood.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carlo Gambino"
+            },
+            {
+              "id": "1",
+              "text": "Meyer Lansky"
+            },
+            {
+              "id": "2",
+              "text": "Vito Genovese"
+            },
+            {
+              "id": "3",
+              "text": "Frank Costello"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Meyer Lansky"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President, whose term was the second shortest in the nations history, died in 1881, two and a half months after he was shot at a train station in Washington, D.C.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "James A. Garfield"
+            },
+            {
+              "id": "1",
+              "text": "Ulysses S. Grant"
+            },
+            {
+              "id": "2",
+              "text": "Chester A. Arthur"
+            },
+            {
+              "id": "3",
+              "text": "Rutherford B. Hayes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: James A. Garfield"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Italian-American Mafia, the hierarchy is very strict. Capo di Tutti Capi means Boss of all Bosses. This is the highest possible position in the chain of command. Then who is Capo Crimini?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A non-Italian member of the Mafia"
+            },
+            {
+              "id": "1",
+              "text": "The Underboss of the Don"
+            },
+            {
+              "id": "2",
+              "text": "The Don of a crime family"
+            },
+            {
+              "id": "3",
+              "text": "The Advisor of the Don"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Don of a crime family"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are many theories about the source and the translation of the word Mafia. However, the meaning of the name of the Italian Mafia, La Cosa Nostra, is not so controversial. Which of these translations is closest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nothing Tangible"
+            },
+            {
+              "id": "1",
+              "text": "Our Thing"
+            },
+            {
+              "id": "2",
+              "text": "Their Thing"
+            },
+            {
+              "id": "3",
+              "text": "No ones Thing"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Our Thing"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There were five dominant families in the American Mafia.  The Bonanno family, the Colombo Family, the Gambino family, the Lucchese family and one more. Charles (Lucky) Luchiano was one of the Bosses of this powerful Mafia family.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Capone Family"
+            },
+            {
+              "id": "1",
+              "text": "The Luchiano Family"
+            },
+            {
+              "id": "2",
+              "text": "The Genovese Family"
+            },
+            {
+              "id": "3",
+              "text": "The Lucky Family"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Genovese Family"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Al Capone was the Crime Boss in Chicago as the successor of Johnny Torrio. Although he committed many terrible crimes and violated many laws, he was convicted only of tax evasion and had to do 11 years in Alcatraz. He was released in 1939 due to his terrible disease. What was this disease?",
+          "options": [
+            {
+              "id": "0",
+              "text": "AIDS"
+            },
+            {
+              "id": "1",
+              "text": "Cancer"
+            },
+            {
+              "id": "2",
+              "text": "Leprosy"
+            },
+            {
+              "id": "3",
+              "text": "Syphilis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Syphilis"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If you are a member of Yakuza and disobey your boss, you have to cut one of your fingertips and send it to him, begging for forgiveness.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is one of the most famous crime fighters in the history of the American Mafia. He prosecuted many gangsters, such as Lucky Luciano, Gurrah Shapiro and Louis Lepke. The mafioso Dutch Shultz was killed by his peers, because he planned to knock off this gang buster.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Herbert Hoover"
+            },
+            {
+              "id": "1",
+              "text": "Robert Taft"
+            },
+            {
+              "id": "2",
+              "text": "Thomas Dewey"
+            },
+            {
+              "id": "3",
+              "text": "Chief Hennessy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Thomas Dewey"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President, shot at the Pan-American Exposition in Buffalo, New York, might have survived if doctors had used a new medical device on exhibit at the fair that could have helped them find the fatal bullet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grover Cleveland"
+            },
+            {
+              "id": "1",
+              "text": "William McKinley"
+            },
+            {
+              "id": "2",
+              "text": "Theodore Roosevelt"
+            },
+            {
+              "id": "3",
+              "text": "Benjamin Harrison"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: William McKinley"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President, the first in the nations history to be assassinated, died at Peterson House across the street from the site of his shooting?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abraham Lincoln"
+            },
+            {
+              "id": "1",
+              "text": "William McKinley"
+            },
+            {
+              "id": "2",
+              "text": "Andrew Jackson"
+            },
+            {
+              "id": "3",
+              "text": "James A. Garfield"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Abraham Lincoln"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Mafia was actually formed in Sicily in the Middle Ages as a secret society to resist the Turk and Norman invaders. Later, it spread to the United States and this was the first American city where it became influential.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit"
+            },
+            {
+              "id": "1",
+              "text": "New York"
+            },
+            {
+              "id": "2",
+              "text": "San Francisco"
+            },
+            {
+              "id": "3",
+              "text": "Chicago"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: New York"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President, who had become President after the 1901 assassination of his predecessor, survived an assassination attempt more than three years after he left office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Theodore Roosevelt"
+            },
+            {
+              "id": "1",
+              "text": "William McKinley"
+            },
+            {
+              "id": "2",
+              "text": "Woodrow Wilson"
+            },
+            {
+              "id": "3",
+              "text": "William H. Taft"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Theodore Roosevelt"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "people",
+          "fighters",
+          "al",
+          "nations",
+          "mafia"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Knowledge Quiz: Office and Target",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, massachusetts, leader. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American journalists catch line was Hello America. This is London calling.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ed McMahon"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Foy"
+            },
+            {
+              "id": "2",
+              "text": "Ed Sullivan"
+            },
+            {
+              "id": "3",
+              "text": "Edward R Murrow"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Edward R Murrow"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President, shot by a man who wanted to impress a film actress, was not the original target of the assassination plan?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ronald W. Reagan"
+            },
+            {
+              "id": "1",
+              "text": "John F. Kennedy"
+            },
+            {
+              "id": "2",
+              "text": "Franklin D. Roosevelt"
+            },
+            {
+              "id": "3",
+              "text": "Gerald R. Ford"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ronald W. Reagan"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which President, who resided in Blair House during renovations to the White House, commuted the death sentence of the man convicted of plotting to assassinate him?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harry S. Truman"
+            },
+            {
+              "id": "1",
+              "text": "Martin Van Buren"
+            },
+            {
+              "id": "2",
+              "text": "John Adams"
+            },
+            {
+              "id": "3",
+              "text": "Abraham Lincoln"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Harry S. Truman"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which four-term Presidents motorcade was shot at a month before he first took office, resulting in the death of the mayor of Chicago?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harry S. Truman"
+            },
+            {
+              "id": "1",
+              "text": "Franklin D. Roosevelt"
+            },
+            {
+              "id": "2",
+              "text": "Ronald W. Reagan"
+            },
+            {
+              "id": "3",
+              "text": "Dwight D. Eisenhower"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Franklin D. Roosevelt"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the administration of which U.S. President, the last to be given lifetime Secret Service protection, were three attacks carried out against the White House?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Carter"
+            },
+            {
+              "id": "1",
+              "text": "George H.W. Bush"
+            },
+            {
+              "id": "2",
+              "text": "Gerald R. Ford"
+            },
+            {
+              "id": "3",
+              "text": "William J. Clinton"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: William J. Clinton"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1920, this Eddie founded a company for outdoor clothing in Seattle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Albert"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Bauer"
+            },
+            {
+              "id": "2",
+              "text": "Eddie Van Halen"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Foy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Bauer"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President, the first Massachusetts native to hold the office in more than 130 years, was targeted by a would-be suicide attacker before his inauguration?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dwight D. Eisenhower"
+            },
+            {
+              "id": "1",
+              "text": "George H.W. Bush"
+            },
+            {
+              "id": "2",
+              "text": "Calvin Coolidge"
+            },
+            {
+              "id": "3",
+              "text": "John F. Kennedy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: John F. Kennedy"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President was the target of an assassination attempt during a state visit to the former Soviet republic of Georgia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John F. Kennedy"
+            },
+            {
+              "id": "1",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "2",
+              "text": "Richard M. Nixon"
+            },
+            {
+              "id": "3",
+              "text": "Ronald W. Reagan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George W. Bush"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which President, never elected to the office, was the target of two assassination attempts within three weeks of each other, both by women?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Herbert Hoover"
+            },
+            {
+              "id": "1",
+              "text": "Lyndon B. Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Theodore Roosevelt"
+            },
+            {
+              "id": "3",
+              "text": "Gerald R. Ford"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Gerald R. Ford"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Eddie married One Day at a Time star Valerie Bertinelli.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Murphy"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Foy"
+            },
+            {
+              "id": "2",
+              "text": "Eddie Van Halen"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Albert"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Van Halen"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which controversial President was the target of an assassination plot that involved hijacking a commercial airliner and crashing it into the White House?",
+          "options": [
+            {
+              "id": "0",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "1",
+              "text": "Harry S. Truman"
+            },
+            {
+              "id": "2",
+              "text": "William J. Clinton"
+            },
+            {
+              "id": "3",
+              "text": "Richard M. Nixon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Richard M. Nixon"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President was targeted for assassination by a foreign leader three months after he left office?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Carter"
+            },
+            {
+              "id": "1",
+              "text": "George H.W. Bush"
+            },
+            {
+              "id": "2",
+              "text": "Harry S. Truman"
+            },
+            {
+              "id": "3",
+              "text": "Dwight D. Eisenhower"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: George H.W. Bush"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On The Honeymooners, which was on the air from 1955 - 1956, Ed Norton was portrayed by which actor?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Art Carney"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Foy"
+            },
+            {
+              "id": "2",
+              "text": "Ed Cole"
+            },
+            {
+              "id": "3",
+              "text": "Jackie Gleason"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Art Carney"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Edward portrayed Lou Grant on the Mary Tyler Moore show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edward Asner"
+            },
+            {
+              "id": "1",
+              "text": "Edward Murrow"
+            },
+            {
+              "id": "2",
+              "text": "Edward Bradley"
+            },
+            {
+              "id": "3",
+              "text": "Edward Hooper"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Edward Asner"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which U.S. President, during whose adminstration a U.S. Embassy in the middle east was seized, was supposedly targeted by Mexican assassins in an attack that never took place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William J. Clinton"
+            },
+            {
+              "id": "1",
+              "text": "Jimmy Carter"
+            },
+            {
+              "id": "2",
+              "text": "Gerald R. Ford"
+            },
+            {
+              "id": "3",
+              "text": "Ronald W. Reagan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jimmy Carter"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "massachusetts",
+          "leader",
+          "people",
+          "presidents",
+          "line"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Eddie and Songs",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, actor, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1981,this Ed  joined the staff of 60 Minutes, an investigative television newsmagazine on CBS News.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edward G Robinson"
+            },
+            {
+              "id": "1",
+              "text": "Ed Bradley"
+            },
+            {
+              "id": "2",
+              "text": "Ed Norton"
+            },
+            {
+              "id": "3",
+              "text": "Ed Asner"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ed Bradley"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two Tickets to Paradise, released in 1977 was this Eddies first hit.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Rabbit"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Van Halen"
+            },
+            {
+              "id": "2",
+              "text": "Eddie Munster"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Money"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Money"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kellie Shanygne Williams portrayed Laura Winslow on which television sitcom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Full House"
+            },
+            {
+              "id": "1",
+              "text": "The Cosby Show"
+            },
+            {
+              "id": "2",
+              "text": "Life Goes On"
+            },
+            {
+              "id": "3",
+              "text": "Family Matters"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Family Matters"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kellie Martin, famous for portraying Becca Thatcher in Life Goes On, also played Dr. Lucy Knight on which popular show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scrubs"
+            },
+            {
+              "id": "1",
+              "text": "Grays Anatomy"
+            },
+            {
+              "id": "2",
+              "text": "ER"
+            },
+            {
+              "id": "3",
+              "text": "House"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: ER"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Some of the characters, played by this Eddie are Axel Foley, Quick, and Professor Sherman Klump.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Rabbit"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Foy"
+            },
+            {
+              "id": "2",
+              "text": "Eddie Albert"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Murphy"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Murphy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these songs was not recorded by Kelly Clarkson, the first winner of the reality TV show American Idol?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Since U Been Gone"
+            },
+            {
+              "id": "1",
+              "text": "Beautiful Disaster"
+            },
+            {
+              "id": "2",
+              "text": "Behind These Hazel Eyes"
+            },
+            {
+              "id": "3",
+              "text": "In The Arms of The Angels"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: In The Arms of The Angels"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For more than 30 years this Ed used to say Heres Johnny.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ed Bradley"
+            },
+            {
+              "id": "1",
+              "text": "Ed Sullivan"
+            },
+            {
+              "id": "2",
+              "text": "Ed Bauer"
+            },
+            {
+              "id": "3",
+              "text": "Ed McMahon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ed McMahon"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kelly Rippa, host of  Live with Regis and Kelly, co-stars with which actress on the sitcom Hope and Faith?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hope Ford"
+            },
+            {
+              "id": "1",
+              "text": "Faith Ford"
+            },
+            {
+              "id": "2",
+              "text": "Hope Shanowski"
+            },
+            {
+              "id": "3",
+              "text": "Faith Hill"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Faith Ford"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Elvis Presley appeared on this Eds TV show, the camera was only allowed to show him from the waist up.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ed McMahon"
+            },
+            {
+              "id": "1",
+              "text": "Ed Sullivan"
+            },
+            {
+              "id": "2",
+              "text": "Ed Asner"
+            },
+            {
+              "id": "3",
+              "text": "Ed Robinson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ed Sullivan"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kelly Preston, who played Linda in Addicted to Love, married which famous actor in 1991?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nicholas Cage"
+            },
+            {
+              "id": "1",
+              "text": "Dennis Quaid"
+            },
+            {
+              "id": "2",
+              "text": "John Travolta"
+            },
+            {
+              "id": "3",
+              "text": "Jeff Bridges"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Travolta"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which actress is famous for playing Lisa in the 1985 movie Weird Science?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kelly LeBrock"
+            },
+            {
+              "id": "1",
+              "text": "Kelly Leeds"
+            },
+            {
+              "id": "2",
+              "text": "Kelly Bundy"
+            },
+            {
+              "id": "3",
+              "text": "Kelley Moore"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kelly LeBrock"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who portrays Edward in the 1990 movie Edward Scissorhands, which tells the story of an artificial man who had scissors instead of hands?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kurt Russell"
+            },
+            {
+              "id": "1",
+              "text": "Oscar Wide"
+            },
+            {
+              "id": "2",
+              "text": "Johnny Depp"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Albert"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Johnny Depp"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This actor, whose first name is Eddie, plays Oliver Wendell Douglas in Green Acres.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Murphy"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Albert"
+            },
+            {
+              "id": "2",
+              "text": "Eddie Foy"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Munster"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Albert"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Pretty Woman Edward Lewis picks up Vivian Ward, a beautiful prostitute, played by Julia Roberts.  Who portrayed Edward?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Gere"
+            },
+            {
+              "id": "1",
+              "text": "Kevin Costner"
+            },
+            {
+              "id": "2",
+              "text": "Eddie Murphy"
+            },
+            {
+              "id": "3",
+              "text": "Bob Hope"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Gere"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Eddie is famous for performing songs such as Drinkin My Baby Off My Mind (1976), You Dont Love Me Anymore (1978), I Love a Rainy Night (1980), Drivin My Life Away (1980), Step by Step (1981).",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eddie Van Halen"
+            },
+            {
+              "id": "1",
+              "text": "Eddie Murphy"
+            },
+            {
+              "id": "2",
+              "text": "Eddie Rabbit"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Money"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eddie Rabbit"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "actor",
+          "people",
+          "douglas",
+          "winslow",
+          "tickets"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Dracula and Order",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1967, John Lennon of the Beatles bought an island called Dorinish which was located in what part of the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mediterranean Sea"
+            },
+            {
+              "id": "1",
+              "text": "Sea of Japan"
+            },
+            {
+              "id": "2",
+              "text": "Ireland"
+            },
+            {
+              "id": "3",
+              "text": "Caribbean Sea"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ireland"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Draculas mansion was in Novi Sad.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Once enthroned, Vlad became famous for his favourite torture - the impalement. It earned him this nickname, which meant the impaler.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Radu"
+            },
+            {
+              "id": "1",
+              "text": "The Ottoman"
+            },
+            {
+              "id": "2",
+              "text": "Mircea"
+            },
+            {
+              "id": "3",
+              "text": "Tepes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tepes"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the age of 45 Dracula was killed in a battle. This is what happened to him after his death.",
+          "options": [
+            {
+              "id": "0",
+              "text": "His body was thrown in a river."
+            },
+            {
+              "id": "1",
+              "text": "He was proclaimed a National patron."
+            },
+            {
+              "id": "2",
+              "text": "His head was cut off."
+            },
+            {
+              "id": "3",
+              "text": "He was buried in the place of the battle."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: His head was cut off."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The title count was invented by Bram Stoker in his famous novel. This is what the real title of Dracula was.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tsar"
+            },
+            {
+              "id": "1",
+              "text": "King"
+            },
+            {
+              "id": "2",
+              "text": "Duke"
+            },
+            {
+              "id": "3",
+              "text": "Prince"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Prince"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The popular musical Singin in The Rain, released in 1952 starred dancer/actor Art Kelly.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These people are not doomed to become a vampire according to Romanian legends.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Illegitimate children"
+            },
+            {
+              "id": "1",
+              "text": "Homeless people"
+            },
+            {
+              "id": "2",
+              "text": "The seventh son of a seventh son"
+            },
+            {
+              "id": "3",
+              "text": "Unbaptized children"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Homeless people"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dracula was a great defender of Christianity - he built 5 monasteries. That is why he initially had the blessing of this authority.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The local clergy"
+            },
+            {
+              "id": "1",
+              "text": "The Orthodox Patriarch"
+            },
+            {
+              "id": "2",
+              "text": "The Christian church in Romania"
+            },
+            {
+              "id": "3",
+              "text": "The Vatican"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Vatican"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Parents in Romania used to threaten their children by telling them that Dracula would come if they were not good.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the movie The Scorpion King, actress Kelly Hu co-starred with which former WWF wrestling champion?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Rock"
+            },
+            {
+              "id": "1",
+              "text": "Sean Micheals"
+            },
+            {
+              "id": "2",
+              "text": "Brett Hart"
+            },
+            {
+              "id": "3",
+              "text": "Hulk Hogan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Rock"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the mid 1980s a Dracula disease was found. Its characteristics included pointed teeth, excessive hair, extreme sensitivity to light, and the need for blood. This is the medical name of the disease.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sickle Cell Anemia"
+            },
+            {
+              "id": "1",
+              "text": "Hematology"
+            },
+            {
+              "id": "2",
+              "text": "Raynauds phenomenon"
+            },
+            {
+              "id": "3",
+              "text": "Porphyria"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Porphyria"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Order to which his family belonged fought against this empire.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Russian"
+            },
+            {
+              "id": "1",
+              "text": "Ottoman"
+            },
+            {
+              "id": "2",
+              "text": "Austro-Hungarian"
+            },
+            {
+              "id": "3",
+              "text": "Roman"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ottoman"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mostly known as a hero, Vlad Dracula was born in a noble family. His surname comes from the order to which his father belonged. What was its name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Order of Templars"
+            },
+            {
+              "id": "1",
+              "text": "The Order of Saint-John"
+            },
+            {
+              "id": "2",
+              "text": "The Order of the Dragon"
+            },
+            {
+              "id": "3",
+              "text": "The Order of the Hatchet"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Order of the Dragon"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the birth name of Kelly Rowland, one of the founding members of the successful musical group Destinys Child?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kellie Diane Rowland"
+            },
+            {
+              "id": "1",
+              "text": "Kelendria Trene Rowland"
+            },
+            {
+              "id": "2",
+              "text": "Kellie Louise Rowland"
+            },
+            {
+              "id": "3",
+              "text": "Kelly Trene Rowland"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kelendria Trene Rowland"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2003, Kelly Osbourne recorded a duet with her father, Ozzy Osbourne, which Black Sabbath song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Papa Dont Preach"
+            },
+            {
+              "id": "1",
+              "text": "One Word"
+            },
+            {
+              "id": "2",
+              "text": "Changes"
+            },
+            {
+              "id": "3",
+              "text": "Shut up"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Changes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "people",
+          "title",
+          "dancer/actor",
+          "torture"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Half and Discovery",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, john, actor. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pope John Paul II, the first non-Italian Pope since 1522, was born in which European country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Germany"
+            },
+            {
+              "id": "1",
+              "text": "Poland"
+            },
+            {
+              "id": "2",
+              "text": "Spain"
+            },
+            {
+              "id": "3",
+              "text": "The Netherlands"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Poland"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nickname of John Simon Ritchie-Beverly, member of English punk band The Sex Pistols?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sid Vicious"
+            },
+            {
+              "id": "1",
+              "text": "Jon the Bomb"
+            },
+            {
+              "id": "2",
+              "text": "Johnny Rotten"
+            },
+            {
+              "id": "3",
+              "text": "John Lock"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sid Vicious"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the long-suffering wife of the Greek god Zeus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hera"
+            },
+            {
+              "id": "1",
+              "text": "Juno"
+            },
+            {
+              "id": "2",
+              "text": "Aphrodite"
+            },
+            {
+              "id": "3",
+              "text": "Athena"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hera"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these statements about U.S. President John F. Kennedy is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was a devoted Evangelical Presbyterian."
+            },
+            {
+              "id": "1",
+              "text": "He was the first U.S. President born in the 20th century."
+            },
+            {
+              "id": "2",
+              "text": "He was the 36th President of the United States."
+            },
+            {
+              "id": "3",
+              "text": "He was born in Boston, Massachusetts."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: He was the first U.S. President born in the 20th century."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the Spanish monarchs who funded the discovery of the New World?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elizabeth and Sir Francis Drake"
+            },
+            {
+              "id": "1",
+              "text": "Catherine and Peter the Great"
+            },
+            {
+              "id": "2",
+              "text": "Henry and Jane Seymour"
+            },
+            {
+              "id": "3",
+              "text": "Ferdinand and Isabella"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ferdinand and Isabella"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the other half of this famous twosome: Mark Antony and ...?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Caludia"
+            },
+            {
+              "id": "1",
+              "text": "Calpurinaia"
+            },
+            {
+              "id": "2",
+              "text": "Cleopatra"
+            },
+            {
+              "id": "3",
+              "text": "Agrippina"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cleopatra"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following historic persons makes up a famous duo with Julius Caesar as one half?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Octivia the Younger"
+            },
+            {
+              "id": "1",
+              "text": "Ankes-en-aten"
+            },
+            {
+              "id": "2",
+              "text": "Cleopatra"
+            },
+            {
+              "id": "3",
+              "text": "Agrippina"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cleopatra"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these famous Western movies did not star American actor John Wayne?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Good, the Bad and the Ugly"
+            },
+            {
+              "id": "1",
+              "text": "The Alamo"
+            },
+            {
+              "id": "2",
+              "text": "How the West Was Won"
+            },
+            {
+              "id": "3",
+              "text": "The Man Who Shot Liberty Valance"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Good, the Bad and the Ugly"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the Canonical Gospels, how did Saint John the Baptist die?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was hanged."
+            },
+            {
+              "id": "1",
+              "text": "He drowned."
+            },
+            {
+              "id": "2",
+              "text": "He was beheaded."
+            },
+            {
+              "id": "3",
+              "text": "He was crucified."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He was beheaded."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following women was not a wife of King Henry VIII of England?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anne Hathaway"
+            },
+            {
+              "id": "1",
+              "text": "Catherine of Aragon"
+            },
+            {
+              "id": "2",
+              "text": "Catherine Parr"
+            },
+            {
+              "id": "3",
+              "text": "Anne Bolyen"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Anne Hathaway"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these names of popular musicians is the real birthname of that musician?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elton John"
+            },
+            {
+              "id": "1",
+              "text": "Jon Bon Jovi"
+            },
+            {
+              "id": "2",
+              "text": "John Frusciante"
+            },
+            {
+              "id": "3",
+              "text": "John Paul Jones"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: John Frusciante"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The famous pirate Long John Silver, a fictional character from the book Treasure Island, has what body part missing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Leg"
+            },
+            {
+              "id": "1",
+              "text": "Ear"
+            },
+            {
+              "id": "2",
+              "text": "Arm"
+            },
+            {
+              "id": "3",
+              "text": "Hand"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Leg"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "John Locke, a character from the television series Lost, was named after what real historical figure?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A philosopher"
+            },
+            {
+              "id": "1",
+              "text": "A fictional character from Mark Twains books."
+            },
+            {
+              "id": "2",
+              "text": "A musician"
+            },
+            {
+              "id": "3",
+              "text": "A sailor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A philosopher"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which American author, born in 1955, wrote the bestselling books A Time to Kill, The Pelican Brief, The Client, The Runaway Jury and The Firm?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jonathan Swift"
+            },
+            {
+              "id": "1",
+              "text": "John Grisham"
+            },
+            {
+              "id": "2",
+              "text": "John D. Fitzgerald"
+            },
+            {
+              "id": "3",
+              "text": "John Updike"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Grisham"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the husband of Archduchess Marie Antoinette of Austria?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Louis XIV"
+            },
+            {
+              "id": "1",
+              "text": "Napoleon"
+            },
+            {
+              "id": "2",
+              "text": "Louis XVI"
+            },
+            {
+              "id": "3",
+              "text": "Louise XV"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Louis XVI"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "john",
+          "actor",
+          "discovery",
+          "people",
+          "bestselling"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Knowledge Quiz: Outlaw and Love",
+      "description": "Test your knowledge knowledge with this comprehensive quiz! Features 15 questions covering Knowledge, people, jesse. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1897 play Cyrano de Bergerac, who was the one love of the great-nosed poet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roxanne"
+            },
+            {
+              "id": "1",
+              "text": "Manuella"
+            },
+            {
+              "id": "2",
+              "text": "Susan"
+            },
+            {
+              "id": "3",
+              "text": "Consuella"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Roxanne"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Newspapers sometimes mistakenly listed the name of an infamous Old West gunman as Johnny Ringgold instead of Johnny Ringo.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Henry McCarty is said to be the real name of the notorious Old West outlaw Billy the Kid.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year did the Tate/ LaBianca murders take place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1967"
+            },
+            {
+              "id": "1",
+              "text": "1968"
+            },
+            {
+              "id": "2",
+              "text": "1969"
+            },
+            {
+              "id": "3",
+              "text": "1966"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1969"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gunman Charles Bolles was a stagecoach robber in California and Oregon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the great love of Italian poet Dante Alighieris life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Angelina"
+            },
+            {
+              "id": "1",
+              "text": "Beatrice"
+            },
+            {
+              "id": "2",
+              "text": "Christina"
+            },
+            {
+              "id": "3",
+              "text": "Geraldine"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Beatrice"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was Napoleons favorite wife?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Queem Beatrice"
+            },
+            {
+              "id": "1",
+              "text": "Josephine"
+            },
+            {
+              "id": "2",
+              "text": "Marie Louise"
+            },
+            {
+              "id": "3",
+              "text": "Elizabeth I"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Josephine"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Frank James became a shoe salesman after giving up the outlaw life.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Old West outlaw Jesse James formed a gang with Cole Younger.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Old West gunman William Brocius was also known as Wild Bill.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Notorious Old West outlaw Tom Ketchum was also known as Tom Terrific.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Old West gunman Harvey Logan was also known as Kid Curry.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Outlaw William Brooks was known also by the nickname Buffalo Bill.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Aside from his One God, who was the human love in Egyptian Pharaoh Akhenatens life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hatshepsut"
+            },
+            {
+              "id": "1",
+              "text": "Cleopatra"
+            },
+            {
+              "id": "2",
+              "text": "Nerferatari"
+            },
+            {
+              "id": "3",
+              "text": "Nefertiti"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nefertiti"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Old West gunman Burt Alvord was an Arizona marshal before becoming an outlaw.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Knowledge",
+          "people",
+          "jesse",
+          "pharaoh",
+          "poet",
+          "brocius"
+        ]
+      }
+    }
+  ]
+}

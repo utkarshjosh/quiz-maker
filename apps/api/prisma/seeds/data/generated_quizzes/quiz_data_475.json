@@ -1,0 +1,2496 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Astronauts and Apollo",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, tilda, creatures. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first fly by\u201d for the planet Mars occurred in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1975"
+            },
+            {
+              "id": "1",
+              "text": "1955"
+            },
+            {
+              "id": "2",
+              "text": "1945"
+            },
+            {
+              "id": "3",
+              "text": "1965"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1965"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the three astronauts from Apollo 11 has lost a child in 1962?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Both Collins and Armstrong"
+            },
+            {
+              "id": "1",
+              "text": "Neil Armstrong"
+            },
+            {
+              "id": "2",
+              "text": "Edwin Eugene Buzz Aldrin, Jr."
+            },
+            {
+              "id": "3",
+              "text": "Michael Collins"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Neil Armstrong"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dinosaurs can be divided into two groups: Ornithschians and Saurischians. The difference between them is mainly in the structure of this part of their bodies.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eyes"
+            },
+            {
+              "id": "1",
+              "text": "Hips"
+            },
+            {
+              "id": "2",
+              "text": "Teeth"
+            },
+            {
+              "id": "3",
+              "text": "Toes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Hips"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first artificial satellite to orbit Mars orbited the planet for 12 months beginning in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1981"
+            },
+            {
+              "id": "1",
+              "text": "1991"
+            },
+            {
+              "id": "2",
+              "text": "2001"
+            },
+            {
+              "id": "3",
+              "text": "1971"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1971"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the three astronauts from Apollo 11 remained in the command module while the other two separated along with the lunar module?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neil Alden Armstrong"
+            },
+            {
+              "id": "1",
+              "text": "Michael Collins"
+            },
+            {
+              "id": "2",
+              "text": "Edwin Eugene Buzz Aldrin, Jr."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Michael Collins"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these waves have the highest wave length?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Microwaves"
+            },
+            {
+              "id": "1",
+              "text": "Infra -red  waves"
+            },
+            {
+              "id": "2",
+              "text": "X-rays"
+            },
+            {
+              "id": "3",
+              "text": "Radio waves"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Radio waves"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How did Edwin Eugene Buzz Aldrin, Jr. get his nickname Buzz?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was given that nickname because he was an engineer."
+            },
+            {
+              "id": "1",
+              "text": "His sister gave it to him."
+            },
+            {
+              "id": "2",
+              "text": "He was extremely talkative as a child, to the point of being annoying."
+            },
+            {
+              "id": "3",
+              "text": "His beloved grandfather called him Buzz."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: His sister gave it to him."
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the lightest element that is a metal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Titanium"
+            },
+            {
+              "id": "1",
+              "text": "Lithium"
+            },
+            {
+              "id": "2",
+              "text": "Cobalt"
+            },
+            {
+              "id": "3",
+              "text": "Boron"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lithium"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the animal featured in the insignia of the Apollo 11 mission, the first mission to land a human being on the Moon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A hawk"
+            },
+            {
+              "id": "1",
+              "text": "An eagle"
+            },
+            {
+              "id": "2",
+              "text": "A bear"
+            },
+            {
+              "id": "3",
+              "text": "A lion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: An eagle"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the name of the command module of Apollo 11?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Columbia"
+            },
+            {
+              "id": "1",
+              "text": "Eagle"
+            },
+            {
+              "id": "2",
+              "text": "Georgia"
+            },
+            {
+              "id": "3",
+              "text": "Thunder"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Columbia"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much time did the astronauts from Apollo 11 spend on the lunar surface?",
+          "options": [
+            {
+              "id": "0",
+              "text": "About 60 minutes"
+            },
+            {
+              "id": "1",
+              "text": "5 hours"
+            },
+            {
+              "id": "2",
+              "text": "35 minutes"
+            },
+            {
+              "id": "3",
+              "text": "2\u00bd hours"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 2\u00bd hours"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the President of the United States at the time when Apollo 11 landed on the Moon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John F. Kennedy"
+            },
+            {
+              "id": "1",
+              "text": "Lyndon B. Johnson"
+            },
+            {
+              "id": "2",
+              "text": "Gerald Ford"
+            },
+            {
+              "id": "3",
+              "text": "Richard Nixon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Richard Nixon"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these living creatures appearred on Earth first?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fish"
+            },
+            {
+              "id": "1",
+              "text": "Reptiles"
+            },
+            {
+              "id": "2",
+              "text": "Seed plants"
+            },
+            {
+              "id": "3",
+              "text": "Birds"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fish"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In math and science a double tilda is often used as  a symbol. Which is symbolized by a double tilde?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Has the same atomic number as"
+            },
+            {
+              "id": "1",
+              "text": "Has the same first derivative as"
+            },
+            {
+              "id": "2",
+              "text": "Is approximately equal to"
+            },
+            {
+              "id": "3",
+              "text": "Has the same atomic weight as"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Is approximately equal to"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these objects did the astronauts from Apollo 11 leave on the Moon surface during their mission?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Two drawings of the Western and Eastern Hemispheres of the Earth"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "The signature of the American president, and their own signatures"
+            },
+            {
+              "id": "3",
+              "text": "An American flag"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "tilda",
+          "creatures",
+          "eugene",
+          "waves",
+          "length"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Body and Procedure",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, genioplasty, process. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Electrooculography is a medical procedure which inspects the potential of which bodily organ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Retina"
+            },
+            {
+              "id": "1",
+              "text": "Inner ear"
+            },
+            {
+              "id": "2",
+              "text": "Adrenal glands"
+            },
+            {
+              "id": "3",
+              "text": "Taste buds"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Retina"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is transplanted during the medical procedure xenotransplantation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Organs from one person to another"
+            },
+            {
+              "id": "1",
+              "text": "Blood from one person to another"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Tissues from one species to another"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tissues from one species to another"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sigmoidoscopy is a medical examination of which internal organ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gallbladder"
+            },
+            {
+              "id": "1",
+              "text": "Brain cavity"
+            },
+            {
+              "id": "2",
+              "text": "Large intestine"
+            },
+            {
+              "id": "3",
+              "text": "Uterus"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Large intestine"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What body part is involved in the medical procedure called orchiopexy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Teeth"
+            },
+            {
+              "id": "1",
+              "text": "Tendons"
+            },
+            {
+              "id": "2",
+              "text": "Navel"
+            },
+            {
+              "id": "3",
+              "text": "Testicle"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Testicle"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genioplasty or mentoplasty is a cosmetic surgery procedure which aims at improving the appearance of which part of the body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chin"
+            },
+            {
+              "id": "1",
+              "text": "Buttocks"
+            },
+            {
+              "id": "2",
+              "text": "Genitals"
+            },
+            {
+              "id": "3",
+              "text": "Knees"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Chin"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Debridement is a medical procedure which is administered in which case?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Infected tissue"
+            },
+            {
+              "id": "1",
+              "text": "Presence of dead tissue"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Damaged tissue"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tympanoplasty is a type of reconstructive surgery performed on which part of the body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fingers or toes"
+            },
+            {
+              "id": "1",
+              "text": "Eardrum"
+            },
+            {
+              "id": "2",
+              "text": "Skull bones"
+            },
+            {
+              "id": "3",
+              "text": "Knees"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eardrum"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first successful experiment with nuclear fission, the process in which the nucleus of an atom splits into two or more smaller nuclei, was conducted in which year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1938"
+            },
+            {
+              "id": "1",
+              "text": "1932"
+            },
+            {
+              "id": "2",
+              "text": "1934"
+            },
+            {
+              "id": "3",
+              "text": "1936"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1938"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Buzz Aldrin made a guest star appearance in an episode of The Simpsons. What was his comment when Homer Simpson showed no recognition of him being the second man to walk on the Moon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Second comes right after first!"
+            },
+            {
+              "id": "1",
+              "text": "Hey, I was just a second late!"
+            },
+            {
+              "id": "2",
+              "text": "Im famous, the rest is history."
+            },
+            {
+              "id": "3",
+              "text": "How many times have you been on the Moon?"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Second comes right after first!"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On which part of the body is the surgical procedure osteotomy performed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Duodenum"
+            },
+            {
+              "id": "1",
+              "text": "Tonsils"
+            },
+            {
+              "id": "2",
+              "text": "Smooth muscle tissue"
+            },
+            {
+              "id": "3",
+              "text": "Bones"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bones"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These two physicists received the 1951 Nobel Prize for Physics for their pioneering work popularly known as splitting the atom.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eugene Wigner and Lyman Briggs"
+            },
+            {
+              "id": "1",
+              "text": "Lise Meitner and Otto Robert Frisch"
+            },
+            {
+              "id": "2",
+              "text": "Leo Szilard and Edward Teller"
+            },
+            {
+              "id": "3",
+              "text": "John Cockroft and Ernest Walton"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: John Cockroft and Ernest Walton"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On May 1, 2009, the three astronauts from Apollo 11 were granted this exceptional award.",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Purple heart"
+            },
+            {
+              "id": "2",
+              "text": "Congressional Gold Medal"
+            },
+            {
+              "id": "3",
+              "text": "Presidential Medal of Freedom"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Congressional Gold Medal"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Blepharoplasty is a cosmetic surgery procedure which aims at improving the appearance of which body part?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Forehead"
+            },
+            {
+              "id": "1",
+              "text": "Neck"
+            },
+            {
+              "id": "2",
+              "text": "Lips"
+            },
+            {
+              "id": "3",
+              "text": "Eyelids"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Eyelids"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the year in which the worlds first nuclear power plant generating electricity for commercial use was officially connected to the Soviet power grid.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1954"
+            },
+            {
+              "id": "1",
+              "text": "1956"
+            },
+            {
+              "id": "2",
+              "text": "1953"
+            },
+            {
+              "id": "3",
+              "text": "1955"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1954"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Nephrectomy is a surgical removal of which internal organ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kidney"
+            },
+            {
+              "id": "1",
+              "text": "Thyroid gland"
+            },
+            {
+              "id": "2",
+              "text": "Pancreas"
+            },
+            {
+              "id": "3",
+              "text": "Spleen"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Kidney"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "genioplasty",
+          "process",
+          "part",
+          "surgery",
+          "examination"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Constellation and Year",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, leader, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first Peaceful Nuclear Explosion (PNE) blast in the US was conducted in which year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1960"
+            },
+            {
+              "id": "1",
+              "text": "1959"
+            },
+            {
+              "id": "2",
+              "text": "1961"
+            },
+            {
+              "id": "3",
+              "text": "1965"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1961"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The International Nuclear Events Scale, used to signify the grade of nuclear accidents, has how many levels?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "3"
+            },
+            {
+              "id": "3",
+              "text": "10"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 7"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is NOT a constellation of the Zodiac (the ring of constellations that the sun passes through each year)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Fish"
+            },
+            {
+              "id": "1",
+              "text": "The Winged Horse"
+            },
+            {
+              "id": "2",
+              "text": "The Crab"
+            },
+            {
+              "id": "3",
+              "text": "The Archer"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Winged Horse"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What large and obvious summer asterism do Vega, Deneb, and Altair form?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Summer Cross"
+            },
+            {
+              "id": "1",
+              "text": "Summer Hex"
+            },
+            {
+              "id": "2",
+              "text": "Summer Triangle"
+            },
+            {
+              "id": "3",
+              "text": "Summer Pyramid"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Summer Triangle"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1903 Nobel Prize laureate  discovered radioactivity in 1896.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wilhelm Conrad Rontgen"
+            },
+            {
+              "id": "1",
+              "text": "Henri Becquerel"
+            },
+            {
+              "id": "2",
+              "text": "Elihu Thomson"
+            },
+            {
+              "id": "3",
+              "text": "Niels Bohr"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Henri Becquerel"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is the brightest star in the winter night sky of the northern hemisphere?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sirius"
+            },
+            {
+              "id": "1",
+              "text": "Procyon"
+            },
+            {
+              "id": "2",
+              "text": "Strebe"
+            },
+            {
+              "id": "3",
+              "text": "Aldeberan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sirius"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the two twin stars in the constellation Gemini?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spica  Arcturus"
+            },
+            {
+              "id": "1",
+              "text": "Castor  Pollux"
+            },
+            {
+              "id": "2",
+              "text": "Voltron  Yularis"
+            },
+            {
+              "id": "3",
+              "text": "Merak  Dubhe"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Castor  Pollux"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This place, popular as the center of the Whiskey rebellion, is the worlds first nuclear powered city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "San Diego, CA"
+            },
+            {
+              "id": "1",
+              "text": "Baltimore"
+            },
+            {
+              "id": "2",
+              "text": "Pittsburgh, Pennsylvania"
+            },
+            {
+              "id": "3",
+              "text": "Washington, D.C."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pittsburgh, Pennsylvania"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the star cluster that is also known as \u201cThe Seven Sisters\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bennekryse"
+            },
+            {
+              "id": "1",
+              "text": "Arcturus"
+            },
+            {
+              "id": "2",
+              "text": "Altair"
+            },
+            {
+              "id": "3",
+              "text": "Pleiades"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pleiades"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This American physicist was the youngest group leader of the Manhattan Project, a joint effort by the US and their WW II allies to develop the first nuclear weapons.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Henry DeWolf Smyth"
+            },
+            {
+              "id": "1",
+              "text": "Edward Teller"
+            },
+            {
+              "id": "2",
+              "text": "Robert R. Wilson"
+            },
+            {
+              "id": "3",
+              "text": "Ernest O. Lawrence"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Robert R. Wilson"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the red supergiant that marks Orions right shoulder?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Betelgeuse"
+            },
+            {
+              "id": "1",
+              "text": "Taneriss"
+            },
+            {
+              "id": "2",
+              "text": "Bellatrix"
+            },
+            {
+              "id": "3",
+              "text": "Regulus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Betelgeuse"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the constellation Ursa Major commonly known as?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Big Dipper"
+            },
+            {
+              "id": "1",
+              "text": "The Great Fisherman"
+            },
+            {
+              "id": "2",
+              "text": "The Lion"
+            },
+            {
+              "id": "3",
+              "text": "Hercules"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Big Dipper"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This group of alloys, which is a combination of at least one metal and one or more other elements, is used to clad fuel rods in nuclear plants.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amalgam"
+            },
+            {
+              "id": "1",
+              "text": "Zircaloy"
+            },
+            {
+              "id": "2",
+              "text": "Hastelloy"
+            },
+            {
+              "id": "3",
+              "text": "Electrum"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Zircaloy"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the codename of the first US thermonuclear bomb test, carried out in 1954?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Operation Chariot"
+            },
+            {
+              "id": "1",
+              "text": "Castle Romeo"
+            },
+            {
+              "id": "2",
+              "text": "Operation Fat Man"
+            },
+            {
+              "id": "3",
+              "text": "Operation Argus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Castle Romeo"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The North Star, Polaris, is located within which constellation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ursa Minor"
+            },
+            {
+              "id": "1",
+              "text": "Ursa Major"
+            },
+            {
+              "id": "2",
+              "text": "Canis Lupus"
+            },
+            {
+              "id": "3",
+              "text": "Canis Minor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ursa Minor"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "leader",
+          "stars",
+          "codename",
+          "summer",
+          "alloys"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Pluto and Viruses",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, plutos, reclassification. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If one were to look at the sky from Plutos surface, every 17 hours they would observe exceptionally beautiful rises of Charon because of its closeness to Pluto.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Viruses are so small that you need a special light microscop\u0435 to observe most of them.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In virology, what does the term vector refer to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An organism that carries a virus but is not infected by it"
+            },
+            {
+              "id": "1",
+              "text": "An organism infected by a virus"
+            },
+            {
+              "id": "2",
+              "text": "A virus that does not parasite on cells but lives independently"
+            },
+            {
+              "id": "3",
+              "text": "A virus that spreads through the air"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: An organism that carries a virus but is not infected by it"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is NOT true about Pluto?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is a dwarf-planet."
+            },
+            {
+              "id": "1",
+              "text": "It is a binary planet."
+            },
+            {
+              "id": "2",
+              "text": "It is a member of the Kupier belt."
+            },
+            {
+              "id": "3",
+              "text": "It is the largest object of the Solar Systems asteroid belt."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It is the largest object of the Solar Systems asteroid belt."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pluto was the ninth planet of the Solar System for 76 years - from its discovery in 1930 until 2006 when it was reclassified as a dwarf planet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is unusual about Plutos three known moons compared to other moons in the Solar System?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They orbit Pluto at a very high speed."
+            },
+            {
+              "id": "1",
+              "text": "They are asteroids from another solar system attracted by Pluto and captured by gravitational forces."
+            },
+            {
+              "id": "2",
+              "text": "They are untypically close to Pluto."
+            },
+            {
+              "id": "3",
+              "text": "Their orbits are unusually big and elliptical."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They are untypically close to Pluto."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did 23-year-old American Clyde Tombough discover Pluto, or Planet X, as it was termed then?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1930"
+            },
+            {
+              "id": "1",
+              "text": "1878"
+            },
+            {
+              "id": "2",
+              "text": "1910"
+            },
+            {
+              "id": "3",
+              "text": "1754"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1930"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although discovered in the United States, Plutos name came from Europe - it was suggested by Falconer Maden, a former librarian at the Oxford University Bodleian Library.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many recognized constellations are there in Earth\u2019s entire view?",
+          "options": [
+            {
+              "id": "0",
+              "text": "244"
+            },
+            {
+              "id": "1",
+              "text": "88"
+            },
+            {
+              "id": "2",
+              "text": "106"
+            },
+            {
+              "id": "3",
+              "text": "33"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 88"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What feature would Pluto develop if placed as near to the Sun as Earth is?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A comet tail"
+            },
+            {
+              "id": "1",
+              "text": "A highly elliptic orbit"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "A halo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A comet tail"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How do viruses reproduce?",
+          "options": [
+            {
+              "id": "0",
+              "text": "By transforming other cells into viruses"
+            },
+            {
+              "id": "1",
+              "text": "By cell division"
+            },
+            {
+              "id": "2",
+              "text": "By maitng"
+            },
+            {
+              "id": "3",
+              "text": "By forcing other cells to produce copies of them"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: By forcing other cells to produce copies of them"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Spectroscopic analysis revealed that Plutos surface is composed mainly of this element.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oxygen"
+            },
+            {
+              "id": "1",
+              "text": "Carbon"
+            },
+            {
+              "id": "2",
+              "text": "Ozone"
+            },
+            {
+              "id": "3",
+              "text": "Nitrogen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nitrogen"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The reclassification of Pluto as a dwarf planet in 2006 caused the emerging of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Risings among astronomy teaches in the USA"
+            },
+            {
+              "id": "1",
+              "text": "New ethnical conflicts in the Middle East"
+            },
+            {
+              "id": "2",
+              "text": "New word in English"
+            },
+            {
+              "id": "3",
+              "text": "A sect of violent Pluto followers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: New word in English"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bacteriophages are organisms that have the characteristics of both viruses and bacteria.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the wrong statement about the features of Plutos orbit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In the long term, it is chaotic."
+            },
+            {
+              "id": "1",
+              "text": "At certain moments in time, it crosses Neptunes orbit."
+            },
+            {
+              "id": "2",
+              "text": "It is inclined compared to the plane of other planets orbits."
+            },
+            {
+              "id": "3",
+              "text": "It is elliptical."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: At certain moments in time, it crosses Neptunes orbit."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "plutos",
+          "reclassification",
+          "microscop\u0435",
+          "features",
+          "pluto"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Viruses and Humans",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, college, ton. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not one of the defense mechanisms against viruses in humans?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Acid nature of the stomach contents"
+            },
+            {
+              "id": "1",
+              "text": "RNA interference"
+            },
+            {
+              "id": "2",
+              "text": "Production of antibodies"
+            },
+            {
+              "id": "3",
+              "text": "The resistance (R) gene"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The resistance (R) gene"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Antibiotics are used to treat virus infections in animals and humans but are ineffective in plant virus infections.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fiberfill is used to make ski jackets. What can be recycled to make enough Fiberfill for one ski jacket?",
+          "options": [
+            {
+              "id": "0",
+              "text": "384 pounds of newspaper"
+            },
+            {
+              "id": "1",
+              "text": "5 plastic soda bottles"
+            },
+            {
+              "id": "2",
+              "text": "1045 styrene cups"
+            },
+            {
+              "id": "3",
+              "text": "149 pounds of composted lawn material"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 5 plastic soda bottles"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which stage of the virus life-cycle restricts it to infecting only a certain species (or group) of organisms?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Assembly of viral particles"
+            },
+            {
+              "id": "1",
+              "text": "Replication of the viral DNA or RNA"
+            },
+            {
+              "id": "2",
+              "text": "Release of viral particles"
+            },
+            {
+              "id": "3",
+              "text": "Attachment to host"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Attachment to host"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first week of June, 2007 was Recycle Now week in  England. Which of these events was featured in its program?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Building a prison, made of recycled tires."
+            },
+            {
+              "id": "1",
+              "text": "Beautiful women, parading in bathing suits, made of recycled steel."
+            },
+            {
+              "id": "2",
+              "text": "Children, demonstrating how to recycle uranium."
+            },
+            {
+              "id": "3",
+              "text": "Repaving Fleet Street with recycled paper."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Beautiful women, parading in bathing suits, made of recycled steel."
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2002, a college research team built a 42-foot bridge across the Raritan River. What were the beams for the bridge made from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Recycled school erasers"
+            },
+            {
+              "id": "1",
+              "text": "Recycled tires"
+            },
+            {
+              "id": "2",
+              "text": "Recycled polystyrene cups and milk containers"
+            },
+            {
+              "id": "3",
+              "text": "Recycled aluminum cans"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Recycled polystyrene cups and milk containers"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Isao Miyoshi is a very clever recycler from Japan. What did he recycle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pachinko machines"
+            },
+            {
+              "id": "1",
+              "text": "Roulette wheels"
+            },
+            {
+              "id": "2",
+              "text": "Dentures"
+            },
+            {
+              "id": "3",
+              "text": "Old Macintosh computers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dentures"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When infected by a virus, the bodies of animals and humans start producing a special hormone - interferon. How does interferon help the organism fight virus infections?",
+          "options": [
+            {
+              "id": "0",
+              "text": "By releasing in the body acids fatal for the viruses"
+            },
+            {
+              "id": "1",
+              "text": "By stimulating it to produce antibodies"
+            },
+            {
+              "id": "2",
+              "text": "By boosting the production of white blood cells"
+            },
+            {
+              "id": "3",
+              "text": "By killing the infected cells and their neighbouring cells"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: By killing the infected cells and their neighbouring cells"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these companies recycled old sneakers to make tennis courts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Banta"
+            },
+            {
+              "id": "1",
+              "text": "Nike"
+            },
+            {
+              "id": "2",
+              "text": "Adidas"
+            },
+            {
+              "id": "3",
+              "text": "Reebok"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nike"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On January 31, 2008, China announced that it will recycle these to resurface roads.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robbie Williams Cds"
+            },
+            {
+              "id": "1",
+              "text": "Old  cars"
+            },
+            {
+              "id": "2",
+              "text": "Coal"
+            },
+            {
+              "id": "3",
+              "text": "Old  tires"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Robbie Williams Cds"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not one of the methods used by viruses to make the host cell release the newly produced viruses?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apoptosis"
+            },
+            {
+              "id": "1",
+              "text": "Budding"
+            },
+            {
+              "id": "2",
+              "text": "Virosis"
+            },
+            {
+              "id": "3",
+              "text": "Lysis"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Virosis"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mount Rumpke is the highest point and the biggest landfill in Ohio. Its technical name is The Rumpke Sanitary Landfill.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Virus fossils from several thousand years ago show what about the origin of viruses?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "They were once small cells that lived parasitically on bigger ones."
+            },
+            {
+              "id": "2",
+              "text": "They appeared and evolved simultaneously with life on Earth."
+            },
+            {
+              "id": "3",
+              "text": "They evolved from bits of DNA that escaped from cells of organisms."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The boat Earthrace made an attempt to break the record for a circumnavigation of the Earth. It also made voyages to promote the use of bio-fuels. Which of these is one of the substances used to make the bio-diesel, that powers the boat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Burnt uranium"
+            },
+            {
+              "id": "1",
+              "text": "Old computer motherboards"
+            },
+            {
+              "id": "2",
+              "text": "Recycled clothing hangers"
+            },
+            {
+              "id": "3",
+              "text": "Liposuctioned body fat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Liposuctioned body fat"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how many trees does it  take to make one ton of paper?",
+          "options": [
+            {
+              "id": "0",
+              "text": "170"
+            },
+            {
+              "id": "1",
+              "text": "34"
+            },
+            {
+              "id": "2",
+              "text": "1100"
+            },
+            {
+              "id": "3",
+              "text": "17"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 17"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "college",
+          "ton",
+          "june",
+          "miyoshi",
+          "mechanisms"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Paper and Moon",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, bispo, stars. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Australian pop duo performed the 1990s hit To the Moon and Back?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Seekers"
+            },
+            {
+              "id": "1",
+              "text": "Savage Garden"
+            },
+            {
+              "id": "2",
+              "text": "Soundgarden"
+            },
+            {
+              "id": "3",
+              "text": "INXS"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Savage Garden"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately how much paper does the average American use in one year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "One  ton ( 2000 pounds)"
+            },
+            {
+              "id": "1",
+              "text": "3,400 pounds"
+            },
+            {
+              "id": "2",
+              "text": "1,500 pounds"
+            },
+            {
+              "id": "3",
+              "text": "580 pounds"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 580 pounds"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which song, included on Pink Floyds concept album The Dark Side of the Moon, contains the following lyrics:",
+          "options": [
+            {
+              "id": "0",
+              "text": "d you run and you run to catch up with the sun, but its sinking"
+            },
+            {
+              "id": "1",
+              "text": "d racing around to come up behind you again"
+            },
+            {
+              "id": "2",
+              "text": "On the Run"
+            },
+            {
+              "id": "3",
+              "text": "Breathe"
+            },
+            {
+              "id": "4",
+              "text": "The Great Gig in the Sky"
+            },
+            {
+              "id": "5",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "5",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In olden days urine was recycled.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Carbon dioxide is a very common pollutant. Approximately how much carbon dioxide is produced by the average American each year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "22 tons"
+            },
+            {
+              "id": "1",
+              "text": "5 tons"
+            },
+            {
+              "id": "2",
+              "text": "93  tons"
+            },
+            {
+              "id": "3",
+              "text": "1 ton"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 22 tons"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Luiz Bispo built a floating house for about $170. How is his house able to float?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is made out of recycled cigars and cigarettes."
+            },
+            {
+              "id": "1",
+              "text": "It is made out of recycled tires."
+            },
+            {
+              "id": "2",
+              "text": "It recycles carbon dioxide throughout  the house, making it buoyant."
+            },
+            {
+              "id": "3",
+              "text": "It is made out of recycles plastic bottles."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: It is made out of recycles plastic bottles."
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Academy Award-winning European-born director produced and directed the drama movie Bitter Moon, starring Peter Coyote?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emir Kusturica"
+            },
+            {
+              "id": "1",
+              "text": "Milos Forman"
+            },
+            {
+              "id": "2",
+              "text": "Roman Polanski"
+            },
+            {
+              "id": "3",
+              "text": "Pedro Almodovar"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Roman Polanski"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What actress won the Academy Award for Best Actress for the portrayal of Loretta Castorini in the romantic comedy Moonstruck?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Olympia Dukakis"
+            },
+            {
+              "id": "1",
+              "text": "Sophia Loren"
+            },
+            {
+              "id": "2",
+              "text": "Cher"
+            },
+            {
+              "id": "3",
+              "text": "Meryl Streep"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cher"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Mannheim, Germany, people began recycling this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Coffee grinds to make jewelry"
+            },
+            {
+              "id": "1",
+              "text": "Old PCs to make radar equipment  for traffic control"
+            },
+            {
+              "id": "2",
+              "text": "Old swords and knives to make I-beams"
+            },
+            {
+              "id": "3",
+              "text": "Dead pets to make fertilizer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dead pets to make fertilizer"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The soundtrack for which of these movies does not include the popular song Blue Moon, written by Richard Rodgers and Lorenz Hart?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Grease"
+            },
+            {
+              "id": "1",
+              "text": "Bitter Moon"
+            },
+            {
+              "id": "2",
+              "text": "Blue Moon (2002)"
+            },
+            {
+              "id": "3",
+              "text": "Notting Hill"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bitter Moon"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Sussex, England, the Ecopod Company uses recycled paper to make these.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Coffins"
+            },
+            {
+              "id": "1",
+              "text": "Food canisters"
+            },
+            {
+              "id": "2",
+              "text": "Apartments"
+            },
+            {
+              "id": "3",
+              "text": "Dog houses"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Coffins"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What valley in California is referenced in Jack Londons novel The Valley of the Moon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Death Valley"
+            },
+            {
+              "id": "1",
+              "text": "Sierra Valley"
+            },
+            {
+              "id": "2",
+              "text": "Deep Springs Valley"
+            },
+            {
+              "id": "3",
+              "text": "Sonoma Valley"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sonoma Valley"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name Samuel Coleridges longest poem which contains the lines:",
+          "options": [
+            {
+              "id": "0",
+              "text": "d nowhere did abide."
+            },
+            {
+              "id": "1",
+              "text": "The Rime of the Ancient Mariner"
+            },
+            {
+              "id": "2",
+              "text": "Kubla Khan"
+            },
+            {
+              "id": "3",
+              "text": "A Vision in a Dream"
+            },
+            {
+              "id": "4",
+              "text": "The Pains of Sleep"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Rime of the Ancient Mariner"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Approximately what percentage of Americas waste is paper?",
+          "options": [
+            {
+              "id": "0",
+              "text": "39 %"
+            },
+            {
+              "id": "1",
+              "text": "14 %"
+            },
+            {
+              "id": "2",
+              "text": "8 %"
+            },
+            {
+              "id": "3",
+              "text": "24 %"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 39 %"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What father-daughter film stars as on-screen father and daughter Moses and Addie in the movie Paper Moon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Paul Newman and Nell Potts"
+            },
+            {
+              "id": "2",
+              "text": "Ryan ONeal and Tatum ONeal"
+            },
+            {
+              "id": "3",
+              "text": "Henry Fonda and Jane Fonda"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ryan ONeal and Tatum ONeal"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "bispo",
+          "stars",
+          "people",
+          "drama",
+          "pink"
+        ]
+      }
+    }
+  ]
+}

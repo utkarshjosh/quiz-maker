@@ -1,0 +1,2312 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Dinosaurs and Word",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, reptile, books. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name brontosaurus is derived from the Greek words sauros, which means lizard, combined with another word. What does the word bronte mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Large"
+            },
+            {
+              "id": "1",
+              "text": "Long neck"
+            },
+            {
+              "id": "2",
+              "text": "Poetic"
+            },
+            {
+              "id": "3",
+              "text": "Thunder or roar"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Thunder or roar"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the book Jurassic Park, the fictional island Isla Nublar, where recreated dinosaur species live, is situated in which part of the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Near Costa Rica"
+            },
+            {
+              "id": "1",
+              "text": "Near Japan"
+            },
+            {
+              "id": "2",
+              "text": "Near Chile"
+            },
+            {
+              "id": "3",
+              "text": "Near Spain"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Near Costa Rica"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the prehistoric reptile of the late Jurassic and Cretaceous period with featherless wing membrane.  It is believed this reptile flew.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bronchialsaurus"
+            },
+            {
+              "id": "1",
+              "text": "Accipitridae Raptor"
+            },
+            {
+              "id": "2",
+              "text": "dactylic raptor"
+            },
+            {
+              "id": "3",
+              "text": "Pterodactyl"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pterodactyl"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to history/science/geology, dinosaurs became extinct approximately how many years ago?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10 million"
+            },
+            {
+              "id": "1",
+              "text": "25 million"
+            },
+            {
+              "id": "2",
+              "text": "80 million"
+            },
+            {
+              "id": "3",
+              "text": "65 million"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 65 million"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the common name for the pigeon that we see in the city streets and in our backyards?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mourning Dove"
+            },
+            {
+              "id": "1",
+              "text": "Rock Dove"
+            },
+            {
+              "id": "2",
+              "text": "Common Dove"
+            },
+            {
+              "id": "3",
+              "text": "Fancy Dove"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rock Dove"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The word dinosaur is a combination of two Greek words. One word  means lizard. What does the other word mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Terrifying"
+            },
+            {
+              "id": "1",
+              "text": "Herbivorous"
+            },
+            {
+              "id": "2",
+              "text": "Godlike"
+            },
+            {
+              "id": "3",
+              "text": "Beautiful"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Terrifying"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dinosaurs lived during which geologic era?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cretazoic"
+            },
+            {
+              "id": "1",
+              "text": "Protozoic"
+            },
+            {
+              "id": "2",
+              "text": "Holozoic"
+            },
+            {
+              "id": "3",
+              "text": "Mesozoic"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mesozoic"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dinosaurs once roamed Colorado and Wyoming.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the theropod dinosaur with a long head, flat snout, and large sickle-shaped claw on the second toe of each foot.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stegosaurus"
+            },
+            {
+              "id": "1",
+              "text": "Velociraptor"
+            },
+            {
+              "id": "2",
+              "text": "Tyrannosaur"
+            },
+            {
+              "id": "3",
+              "text": "Raptor"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Velociraptor"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these books about prehistoric animals and dinosaurs was written by Arthur Conan Doyle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dinosaur Planet"
+            },
+            {
+              "id": "1",
+              "text": "Jurassic Park"
+            },
+            {
+              "id": "2",
+              "text": "Dinotopia"
+            },
+            {
+              "id": "3",
+              "text": "The Lost World"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Lost World"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This reptile, endemic to new Zealand, is the only surviving rhynchocephalian.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Perisssodactyl"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Kephalosaurus"
+            },
+            {
+              "id": "3",
+              "text": "Tuatara"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tuatara"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1980s, who voiced the character of Dino, the pet dinosaur in the animated series The Flintstones?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frank Welker"
+            },
+            {
+              "id": "1",
+              "text": "Mel Blanc"
+            },
+            {
+              "id": "2",
+              "text": "Jean Vander Pyl"
+            },
+            {
+              "id": "3",
+              "text": "Alan Reed"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mel Blanc"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these dinosaurs had dorsal plates and spikes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heloderma  suspectum"
+            },
+            {
+              "id": "1",
+              "text": "H. horridum"
+            },
+            {
+              "id": "2",
+              "text": "Hydrodamalis gigans"
+            },
+            {
+              "id": "3",
+              "text": "Stegosaurus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Stegosaurus"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these movies tells the story of Littlefoot, an Apatosaurus in search of the Great Valley where dinosaurs can live in peace?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walking With Dinosaurs"
+            },
+            {
+              "id": "1",
+              "text": "Jurassic Park"
+            },
+            {
+              "id": "2",
+              "text": "King Kong"
+            },
+            {
+              "id": "3",
+              "text": "The Land Before Time"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Land Before Time"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The species Tyrannosaurus Rex  was herbivorous.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "reptile",
+          "books",
+          "jurassic",
+          "pigeon",
+          "pet"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Geography Quiz: Dinosaurs and Dinosaur",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, cartoon, kind. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fossils of a Velociraptor attacking a Protoceratops, proving that dinosaurs attacked and ate each other, were discovered in which part of the world in 1971?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Death Valley"
+            },
+            {
+              "id": "1",
+              "text": "The Gobi Desert"
+            },
+            {
+              "id": "2",
+              "text": "The Balkans"
+            },
+            {
+              "id": "3",
+              "text": "Bernissart, Belgium"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Gobi Desert"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the term Triceratops, referring to a dinosaur genus discovered in 1888 in North America?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Three heads"
+            },
+            {
+              "id": "1",
+              "text": "Beast with three tails"
+            },
+            {
+              "id": "2",
+              "text": "Three-tongued beast"
+            },
+            {
+              "id": "3",
+              "text": "Three horns on the face"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Three horns on the face"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the scientific classification of animals, what does the term Dinosauria signify?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A family"
+            },
+            {
+              "id": "1",
+              "text": "A superorder"
+            },
+            {
+              "id": "2",
+              "text": "A genus"
+            },
+            {
+              "id": "3",
+              "text": "A kingdom"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A superorder"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these dinosaurs was herbivorous?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Velociraptor"
+            },
+            {
+              "id": "1",
+              "text": "Protoceratops"
+            },
+            {
+              "id": "2",
+              "text": "Tyrannosaurus"
+            },
+            {
+              "id": "3",
+              "text": "Allosaurus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Protoceratops"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these dinosaurs was carnivorous?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eoraptor"
+            },
+            {
+              "id": "1",
+              "text": "Diplodocus"
+            },
+            {
+              "id": "2",
+              "text": "Maiasaura"
+            },
+            {
+              "id": "3",
+              "text": "Triceratops"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eoraptor"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of celestial body is the 9949 Brontosaurus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Asteroid"
+            },
+            {
+              "id": "1",
+              "text": "Planet"
+            },
+            {
+              "id": "2",
+              "text": "Star"
+            },
+            {
+              "id": "3",
+              "text": "Black hole"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Asteroid"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first evidence of herding behaviour among dinosaurs was discovered in 1878 in which part of the world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "USA"
+            },
+            {
+              "id": "1",
+              "text": "Argentina"
+            },
+            {
+              "id": "2",
+              "text": "Belgium"
+            },
+            {
+              "id": "3",
+              "text": "China"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Belgium"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the cartoon Dinosaucers, Bronto Thunder is what kind of dinosaur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "An evolved Apatosaurus"
+            },
+            {
+              "id": "1",
+              "text": "An evolved Stegosaurus"
+            },
+            {
+              "id": "2",
+              "text": "An evolved Archaeopteryx"
+            },
+            {
+              "id": "3",
+              "text": "An evolved Triceratops"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: An evolved Apatosaurus"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The design of the Japanese fictional monster Godzilla was based on the characteristics of which dinosaur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stegosaurus"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Tyrannosaurus"
+            },
+            {
+              "id": "3",
+              "text": "Iguanodon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The BBC series Walking with Dinosaurs, which won three Emmy Awards, consisted of how many parts?",
+          "options": [
+            {
+              "id": "0",
+              "text": "12"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "6"
+            },
+            {
+              "id": "3",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 6"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Dinotopia, the fictional place where humans and dinosaurs live together in James Gurneys books and Hallmarks mini series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A planet"
+            },
+            {
+              "id": "1",
+              "text": "A hidden island"
+            },
+            {
+              "id": "2",
+              "text": "A mountain"
+            },
+            {
+              "id": "3",
+              "text": "A large volcano"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A hidden island"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "No dinosaur fossils have been found on which one of these continents?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Antarctica"
+            },
+            {
+              "id": "1",
+              "text": "Europe"
+            },
+            {
+              "id": "2",
+              "text": "Africa"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many fingers did the Tyrannosaurus rex have on its forelimbs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these dinosaurs was bigger than a dog?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saltopus"
+            },
+            {
+              "id": "1",
+              "text": "Parvicursor"
+            },
+            {
+              "id": "2",
+              "text": "Microraptor"
+            },
+            {
+              "id": "3",
+              "text": "Triceratops"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Triceratops"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which band recorded a song called Brontosaurus which includes the following verse:",
+          "options": [
+            {
+              "id": "0",
+              "text": "d he seemed to lose control"
+            },
+            {
+              "id": "1",
+              "text": "ELO"
+            },
+            {
+              "id": "2",
+              "text": "Velvet Revolver"
+            },
+            {
+              "id": "3",
+              "text": "Velvet Underground"
+            },
+            {
+              "id": "4",
+              "text": "AFI"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: ELO"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "cartoon",
+          "kind",
+          "evidence",
+          "fossils",
+          "design"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Nature Quiz: Elephants and Elephant",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, mammoths, brain. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elephants always give birth to twins.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many individual muscles are in an elephants trunk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2,000"
+            },
+            {
+              "id": "1",
+              "text": "10,000"
+            },
+            {
+              "id": "2",
+              "text": "40,000"
+            },
+            {
+              "id": "3",
+              "text": "500"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 40,000"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elephants intertwine their trunks with the trunks of other elephants, much like a handshake. What does an elephant not do with its trunk?",
+          "options": [
+            {
+              "id": "0",
+              "text": "caress a baby elephant"
+            },
+            {
+              "id": "1",
+              "text": "drink through it like through a straw"
+            },
+            {
+              "id": "2",
+              "text": "place food in their mouth"
+            },
+            {
+              "id": "3",
+              "text": "grab enemies and fling them away"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: drink through it like through a straw"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elephants spend 16 hours a day collecting and eating food, an average of 400 lbs of food a day. But their bodies do not digest 100% of the food. How much of the food does the elephants body digest?",
+          "options": [
+            {
+              "id": "0",
+              "text": "40%"
+            },
+            {
+              "id": "1",
+              "text": "80%"
+            },
+            {
+              "id": "2",
+              "text": "60%"
+            },
+            {
+              "id": "3",
+              "text": "20%"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 40%"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An elephants brain is half the size of the human brain.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Until what age can the female elephant (called a cow) produce offspring?",
+          "options": [
+            {
+              "id": "0",
+              "text": "50 years"
+            },
+            {
+              "id": "1",
+              "text": "15 years"
+            },
+            {
+              "id": "2",
+              "text": "75 years"
+            },
+            {
+              "id": "3",
+              "text": "7 years"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 50 years"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elephants sometimes have stillborn births, but are not bothered by the loss since the baby was never alive.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these statements about the Seismosaurus, the Earth-shaking lizard, is wrong?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It could reach 33 meters in length."
+            },
+            {
+              "id": "1",
+              "text": "It was recognized as a species in 1991."
+            },
+            {
+              "id": "2",
+              "text": "Its hind legs were shorter than its front legs."
+            },
+            {
+              "id": "3",
+              "text": "It was herbivorous."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Its hind legs were shorter than its front legs."
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Elephants express joy by spinning in circles, trumpeting, roaring, screaming, urinating, and flapping their ears. In which of these cases will an elephant not act this way?",
+          "options": [
+            {
+              "id": "0",
+              "text": "when meeting a friend (elephant or human)"
+            },
+            {
+              "id": "1",
+              "text": "when playing games"
+            },
+            {
+              "id": "2",
+              "text": "after the death of an elderly elephant"
+            },
+            {
+              "id": "3",
+              "text": "after the birth of a new baby elephant"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: after the death of an elderly elephant"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mammoths are members of the elephant family.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It has been reported that in the period 1992-2008, Ringling Bros. and Barnum  Bailey Circus had at least this many elephant deaths caused by abuse and neglect.",
+          "options": [
+            {
+              "id": "0",
+              "text": "24"
+            },
+            {
+              "id": "1",
+              "text": "0"
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "7"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 24"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Just like humans, apes and dolphins, elephants can recognize themselves in a mirror.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long is the average lifespan of an elephant?",
+          "options": [
+            {
+              "id": "0",
+              "text": "70 years"
+            },
+            {
+              "id": "1",
+              "text": "15 years"
+            },
+            {
+              "id": "2",
+              "text": "110 years"
+            },
+            {
+              "id": "3",
+              "text": "35 years"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 70 years"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many species of elephant exist today?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "6"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When swimming, an elephant will use its trunk as a snorkel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "mammoths",
+          "brain",
+          "muscles",
+          "period",
+          "lifespan"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "History Quiz: Animals and Elephants",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, reef, bird. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "An elephants tusks grow continuously, about 7 inches a year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Echidnas can swim.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these animals is NOT native to Australia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frilled-neck lizard"
+            },
+            {
+              "id": "1",
+              "text": "Kangaroo"
+            },
+            {
+              "id": "2",
+              "text": "Dingo"
+            },
+            {
+              "id": "3",
+              "text": "Bilby"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Dingo"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is true about elephants?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The elephant is a good jumper."
+            },
+            {
+              "id": "1",
+              "text": "The elephant is not a protected species."
+            },
+            {
+              "id": "2",
+              "text": "An elephants skin is 2.5 inches thick."
+            },
+            {
+              "id": "3",
+              "text": "The elephant is a good swimmer."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The elephant is a good swimmer."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Only female elephants were used in battle, because male elephants were too difficult to tame and train.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This reef, that extends along the east coast of Australia, is home to countless animals and is considered one of the wonders of the natural world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Great Barrier Reef"
+            },
+            {
+              "id": "1",
+              "text": "Division Reef"
+            },
+            {
+              "id": "2",
+              "text": "Australia Reef"
+            },
+            {
+              "id": "3",
+              "text": "Surfer Reef"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Great Barrier Reef"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The echidnas diet consists mainly of this group of animals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mammals"
+            },
+            {
+              "id": "1",
+              "text": "Insects"
+            },
+            {
+              "id": "2",
+              "text": "Fish"
+            },
+            {
+              "id": "3",
+              "text": "Birds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Insects"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Islamic history, 570 A.D. was The Year of the Elephant. Which of these happened in that year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Qur\u2019an was written in book form"
+            },
+            {
+              "id": "1",
+              "text": "Muhammad received his first revelation"
+            },
+            {
+              "id": "2",
+              "text": "Muhammad was born"
+            },
+            {
+              "id": "3",
+              "text": "Muhammad became ill and died"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Muhammad was born"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Through what body part can an elephant NOT hear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "feet"
+            },
+            {
+              "id": "1",
+              "text": "skin"
+            },
+            {
+              "id": "2",
+              "text": "trunk"
+            },
+            {
+              "id": "3",
+              "text": "ears"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: skin"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Salt water crocodiles belong to the amphibian group.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the word Triceratops mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Three Big Horns"
+            },
+            {
+              "id": "1",
+              "text": "Big Horned Beast"
+            },
+            {
+              "id": "2",
+              "text": "Three Horned Head"
+            },
+            {
+              "id": "3",
+              "text": "Three Horned Face"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Three Horned Face"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where does the kookaburra, a common Australian bird, get its name from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The food it eats"
+            },
+            {
+              "id": "1",
+              "text": "The aboriginal name for it"
+            },
+            {
+              "id": "2",
+              "text": "Its appearance"
+            },
+            {
+              "id": "3",
+              "text": "The sound it makes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The aboriginal name for it"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these is NOT a type of wombat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Common"
+            },
+            {
+              "id": "1",
+              "text": "Southern Hairy Nosed"
+            },
+            {
+              "id": "2",
+              "text": "Arid Central"
+            },
+            {
+              "id": "3",
+              "text": "Northern Hairy Nosed"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Arid Central"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The female of this species is sometimes called a Blue Flyer, because of its bluish coloration.",
+          "options": [
+            {
+              "id": "0",
+              "text": "white heron"
+            },
+            {
+              "id": "1",
+              "text": "emu"
+            },
+            {
+              "id": "2",
+              "text": "red kangaroo"
+            },
+            {
+              "id": "3",
+              "text": "kookaburra"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: red kangaroo"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the only marsupial in the world that has a backwards pouch?",
+          "options": [
+            {
+              "id": "0",
+              "text": "kangaroo"
+            },
+            {
+              "id": "1",
+              "text": "echidna"
+            },
+            {
+              "id": "2",
+              "text": "koala"
+            },
+            {
+              "id": "3",
+              "text": "wombat"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: wombat"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "reef",
+          "bird",
+          "world",
+          "female",
+          "part"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Nature Quiz: Mantis and Triceratops",
+      "description": "Test your nature knowledge with this comprehensive quiz! Features 15 questions covering Nature, birds, s. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is thought that Triceratops was able to run how fast?",
+          "options": [
+            {
+              "id": "0",
+              "text": "40 mph"
+            },
+            {
+              "id": "1",
+              "text": "15 mph"
+            },
+            {
+              "id": "2",
+              "text": "20 mph"
+            },
+            {
+              "id": "3",
+              "text": "30 mph"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 15 mph"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The praying mantis lives only up to one year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Female mantes (the plural for mantis) are larger than males.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is there any evidence that Triceratops lived in herds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the word \u201cmantis\u201d mean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Savage insect"
+            },
+            {
+              "id": "1",
+              "text": "Killer or hunter"
+            },
+            {
+              "id": "2",
+              "text": "Prophet or fortuneteller"
+            },
+            {
+              "id": "3",
+              "text": "Leaflike"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Prophet or fortuneteller"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The proper spelling of this insect\u2019s name is preying mantis even though it is commonly referred to as praying mantis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Can a praying mantis change color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was the Praying mantis placed on the Endangered Species List?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1972"
+            },
+            {
+              "id": "1",
+              "text": "1970"
+            },
+            {
+              "id": "2",
+              "text": "1974"
+            },
+            {
+              "id": "3",
+              "text": "1976"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1976"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was Triceratops first discovered?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1894"
+            },
+            {
+              "id": "1",
+              "text": "1888"
+            },
+            {
+              "id": "2",
+              "text": "1885"
+            },
+            {
+              "id": "3",
+              "text": "1906"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1888"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Triceratops is the official State Dinosaur of which state?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Utah"
+            },
+            {
+              "id": "1",
+              "text": "Oregon"
+            },
+            {
+              "id": "2",
+              "text": "Wyoming"
+            },
+            {
+              "id": "3",
+              "text": "Nevada"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wyoming"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A large mantis can feed on birds or small mammals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You can go to jail for intentionally killing a praying mantis as it is an endangered species.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Triceratops was a voracious meat eater and would consume hundreds of pounds of meat a day.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much is Triceratops thought to have weighed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Between 13,000 and 26,000 lbs"
+            },
+            {
+              "id": "1",
+              "text": "Between 1,000 and 9,000 lbs"
+            },
+            {
+              "id": "2",
+              "text": "Between 50,000 and 75,000 lbs"
+            },
+            {
+              "id": "3",
+              "text": "Between 110,000 and 140,000 lbs"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Between 13,000 and 26,000 lbs"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Triceratops fossils have been found on three continents.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Nature",
+          "birds",
+          "s",
+          "evidence",
+          "fossils",
+          "\u201c"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Stegosaurus and Tiger",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, brain, nowadays. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the meaning of the name Stegosaurus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tank Lizard"
+            },
+            {
+              "id": "1",
+              "text": "Roof Lizard"
+            },
+            {
+              "id": "2",
+              "text": "Spike Lizard"
+            },
+            {
+              "id": "3",
+              "text": "Spike Tail"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Roof Lizard"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Stegosaurus had a brain about the size of an orange.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Stegosaurus had no teeth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The spikes on the tail of a Stegosaurus are called \u201cthagomizers\u201d and are a reference to the Gary Larsons comic strip Far Side.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many subspecies of the tiger are left nowadays?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8"
+            },
+            {
+              "id": "1",
+              "text": "6"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 6"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the average height of a stegosaurus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "9 feet (2.7 m)"
+            },
+            {
+              "id": "1",
+              "text": "8 feet (2.4 m)"
+            },
+            {
+              "id": "2",
+              "text": "10 feet (3 m)"
+            },
+            {
+              "id": "3",
+              "text": "12 feet (12.6 m)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 9 feet (2.7 m)"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the average weight of a Stegosaurus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8,000 lbs. (3.6 tonnes)"
+            },
+            {
+              "id": "1",
+              "text": "6,000 lbs. (2.7 tonnes)"
+            },
+            {
+              "id": "2",
+              "text": "6,800 lbs. (3 tonnes)"
+            },
+            {
+              "id": "3",
+              "text": "7,400 lbs. (3.3 tonnes)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 6,800 lbs. (3 tonnes)"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Stegosaurus had back legs that were twice as long as its front legs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sumatran tiger is the smallest of all tigers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is the tiger the largest cat out of the Big Cat group?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Stegosaurus had the strongest front legs in the dinosaur world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the length of an average Stegosaurus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "20-28 feet (6-8.5 m)"
+            },
+            {
+              "id": "1",
+              "text": "30-40 feet (9.2-12.2 m)"
+            },
+            {
+              "id": "2",
+              "text": "26-30 feet (8-9.2 m)"
+            },
+            {
+              "id": "3",
+              "text": "34-38 feet (10.4-11.5 m)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 26-30 feet (8-9.2 m)"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Caspian tiger is believed to have become extinct.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did the Stegosaurus have more bones in its tail than any other Jurassic Dinosaur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many bony plates did a Stegosaurus have embedded on its back?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11"
+            },
+            {
+              "id": "1",
+              "text": "17"
+            },
+            {
+              "id": "2",
+              "text": "9"
+            },
+            {
+              "id": "3",
+              "text": "15"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 17"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "brain",
+          "nowadays",
+          "weight",
+          "world",
+          "tigers"
+        ]
+      }
+    }
+  ]
+}

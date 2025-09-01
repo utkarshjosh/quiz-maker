@@ -1,0 +1,2444 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Light and Color",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, method, solution. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In algebra, what is an Abelian group?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A group that is distributive"
+            },
+            {
+              "id": "1",
+              "text": "A group that is reflexive"
+            },
+            {
+              "id": "2",
+              "text": "A group that is commutative"
+            },
+            {
+              "id": "3",
+              "text": "A group that is transitive"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A group that is commutative"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When a wave of light with a wavelength of approximately 700 nm hits your eyes, it causes sensation of what color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green"
+            },
+            {
+              "id": "1",
+              "text": "Black"
+            },
+            {
+              "id": "2",
+              "text": "It will cause no sensation"
+            },
+            {
+              "id": "3",
+              "text": "Red"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Red"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the science of colors called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chromatics"
+            },
+            {
+              "id": "1",
+              "text": "Chromatology"
+            },
+            {
+              "id": "2",
+              "text": "Colorology"
+            },
+            {
+              "id": "3",
+              "text": "Coloritics"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Chromatics"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the first mathematician to use the term group?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Georg Cantor"
+            },
+            {
+              "id": "1",
+              "text": "Evariste Galois"
+            },
+            {
+              "id": "2",
+              "text": "Augustin Cauchy"
+            },
+            {
+              "id": "3",
+              "text": "Leonhard Euler"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Evariste Galois"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Chemiluminescence is a phenomenon involving which of the following processes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Emitting light"
+            },
+            {
+              "id": "1",
+              "text": "Reflecting light"
+            },
+            {
+              "id": "2",
+              "text": "Refracting light"
+            },
+            {
+              "id": "3",
+              "text": "Transmitting light"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Emitting light"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What objects do we call translucent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Objects that transmit light and scatter it"
+            },
+            {
+              "id": "1",
+              "text": "Objects that reflect all light specularly (i.e. in the manner of a mirror)"
+            },
+            {
+              "id": "2",
+              "text": "Objects that absorb all wavelengths"
+            },
+            {
+              "id": "3",
+              "text": "Objects that transmit light but do not scatter it"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Objects that transmit light and scatter it"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The subject that studies the solution of a system of linear inequalities is called Linear Programming. Which of these men was most instrumental in its development?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sir Isaac Barrow"
+            },
+            {
+              "id": "1",
+              "text": "Sir Isaac Newton"
+            },
+            {
+              "id": "2",
+              "text": "Alfred Whitehead"
+            },
+            {
+              "id": "3",
+              "text": "George B. Dantzig"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: George B. Dantzig"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Different colors derive form the different wavelengths of the spectrum of light. What part of it do we call visible light, i.e. we can perceive with our eyes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0 - 500 nm"
+            },
+            {
+              "id": "1",
+              "text": "1000 + nm"
+            },
+            {
+              "id": "2",
+              "text": "700 - 900 nm"
+            },
+            {
+              "id": "3",
+              "text": "380 - 740 nm"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 380 - 740 nm"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the set of real numbers under the operation of multiplication, every number has an inverse.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the color from the visible spectrum produced by waves of the smallest wavelength?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Violet"
+            },
+            {
+              "id": "1",
+              "text": "Yellow"
+            },
+            {
+              "id": "2",
+              "text": "Red"
+            },
+            {
+              "id": "3",
+              "text": "Green"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Violet"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the group of whole numbers under addition, what is the additive identity of 7?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1/7"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "-7"
+            },
+            {
+              "id": "3",
+              "text": "0"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 0"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which famous mathematician proved that there is no formula to find the roots of any equation of degree more than four?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abel"
+            },
+            {
+              "id": "1",
+              "text": "Euler"
+            },
+            {
+              "id": "2",
+              "text": "Gauss"
+            },
+            {
+              "id": "3",
+              "text": "Galois"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Abel"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What component of the human eye is responsible for the perception of light of different wavelengths, which results into color vision?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cones"
+            },
+            {
+              "id": "1",
+              "text": "Rods"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Pupils"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cones"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "If an object scatters light in all wavelengths, what color does it appear to be?",
+          "options": [
+            {
+              "id": "0",
+              "text": "White"
+            },
+            {
+              "id": "1",
+              "text": "Transparent"
+            },
+            {
+              "id": "2",
+              "text": "Black"
+            },
+            {
+              "id": "3",
+              "text": "Invisible"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: White"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This mathematician was the first to develop an algebraic method of solving any cubic equation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nicolai Fontana Tartaglia"
+            },
+            {
+              "id": "1",
+              "text": "Evariste Galois"
+            },
+            {
+              "id": "2",
+              "text": "Girolamo Cardano"
+            },
+            {
+              "id": "3",
+              "text": "Carl Friedrich Gauss"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nicolai Fontana Tartaglia"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "method",
+          "solution",
+          "waves",
+          "light",
+          "wave"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Sun and Light",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, condition, radiation. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The mean distance between the Sun and the Earth is about 93 million miles, which is also called what by astronomers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Light Year (LY)"
+            },
+            {
+              "id": "1",
+              "text": "Astronomical Unit (AU)"
+            },
+            {
+              "id": "2",
+              "text": "Solar Constant (SC)"
+            },
+            {
+              "id": "3",
+              "text": "Astronomical Mile (AM)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Astronomical Unit (AU)"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It has been calculated that human beings can distinguish this many different colors.",
+          "options": [
+            {
+              "id": "0",
+              "text": "10 000"
+            },
+            {
+              "id": "1",
+              "text": "10 millions"
+            },
+            {
+              "id": "2",
+              "text": "256"
+            },
+            {
+              "id": "3",
+              "text": "260 000"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 10 millions"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does it take light to travel from the Sun to the Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Less than 1 minute"
+            },
+            {
+              "id": "1",
+              "text": "Just over 34 minutes"
+            },
+            {
+              "id": "2",
+              "text": "It arrives instantaneously"
+            },
+            {
+              "id": "3",
+              "text": "About 8 minutes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: About 8 minutes"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For a few seconds after exposure to strong light we continue to see the shape of the light source even after we dont look at it any more. What are these fleeting images in our brain called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Echoimages"
+            },
+            {
+              "id": "1",
+              "text": "Preimages"
+            },
+            {
+              "id": "2",
+              "text": "Afterimages"
+            },
+            {
+              "id": "3",
+              "text": "Printouts"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Afterimages"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following colors is an example of a Tyndall effect color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The red of the red apple"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "The color of the human skin"
+            },
+            {
+              "id": "3",
+              "text": "The blue of the human iris"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The blue of the human iris"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the color theory what should red paint look viewed under blue light?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Transparent"
+            },
+            {
+              "id": "1",
+              "text": "Black"
+            },
+            {
+              "id": "2",
+              "text": "White"
+            },
+            {
+              "id": "3",
+              "text": "Purple"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Black"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What two main characteristics measure the properties of light in the human visible range?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Frequency and intensity"
+            },
+            {
+              "id": "1",
+              "text": "Wavelength and speed"
+            },
+            {
+              "id": "2",
+              "text": "Speed and intensity"
+            },
+            {
+              "id": "3",
+              "text": "Wavelength and frequency"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Frequency and intensity"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Synesthesia is a special condition of the brain which is characterized by which of the following unusual events?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seeing colors when in stress"
+            },
+            {
+              "id": "1",
+              "text": "Seeing colors generated by the brain not based on reality"
+            },
+            {
+              "id": "2",
+              "text": "Seeing colors when listening to music or reading letters/numbers"
+            },
+            {
+              "id": "3",
+              "text": "Seeing colors when sleeping"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Seeing colors when listening to music or reading letters/numbers"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What important work connected to color theory did the international group of experts known as the Commission Internationale de leclairage (CIE) create in 1931?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mapped the frequency of basic colors in the spectrum"
+            },
+            {
+              "id": "1",
+              "text": "Developed a mathematical model of color"
+            },
+            {
+              "id": "2",
+              "text": "Developed the color model of the universe"
+            },
+            {
+              "id": "3",
+              "text": "Defined the primary, secondary, and tertiary colors"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Developed a mathematical model of color"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the statements about the spectral colors and light sensation in humans is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spectral light causes equivalent color sensations in most mammal species."
+            },
+            {
+              "id": "1",
+              "text": "In order to cause a sensation of a certain color the light should be emitted only in this color."
+            },
+            {
+              "id": "2",
+              "text": "There are more possible spectral combinations than color sensations in the human brain."
+            },
+            {
+              "id": "3",
+              "text": "There are more possible color sensations in the human brain than spectral combinations."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: There are more possible spectral combinations than color sensations in the human brain."
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Compared to men, women are much more likely to fall into this group in regards to their color vision.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Color-deficient"
+            },
+            {
+              "id": "1",
+              "text": "Dichromats"
+            },
+            {
+              "id": "2",
+              "text": "Tetrachromats"
+            },
+            {
+              "id": "3",
+              "text": "Color-blind"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tetrachromats"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following colors cannot be a pure spectral color?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cyan"
+            },
+            {
+              "id": "1",
+              "text": "Purple"
+            },
+            {
+              "id": "2",
+              "text": "Yellow"
+            },
+            {
+              "id": "3",
+              "text": "Orange"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Purple"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sun creates its radiation (heat) by the nuclear fusion between which two elements?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helium and Oxygen"
+            },
+            {
+              "id": "1",
+              "text": "Carbon and Helium"
+            },
+            {
+              "id": "2",
+              "text": "Hydrogen and Helium"
+            },
+            {
+              "id": "3",
+              "text": "Hydrogen and Carbon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hydrogen and Helium"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which species has the most complex color vision system in the animal kingdom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mantis shrimp"
+            },
+            {
+              "id": "1",
+              "text": "Honey- and bumblebees"
+            },
+            {
+              "id": "2",
+              "text": "Fat-tailed dunnart"
+            },
+            {
+              "id": "3",
+              "text": "Pigeons"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mantis shrimp"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In most computer monitors which of these colors is not accomplished by simply emitting in the respective wavelength?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green"
+            },
+            {
+              "id": "1",
+              "text": "Red"
+            },
+            {
+              "id": "2",
+              "text": "Orange"
+            },
+            {
+              "id": "3",
+              "text": "Cyan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Orange"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "condition",
+          "radiation",
+          "example",
+          "theory",
+          "brain"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Muscles and Sun",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, field, push. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Suns magnetic field, driven by the Solar Wind, can reach distances how far out into space?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Just past the orbit of Mercury"
+            },
+            {
+              "id": "1",
+              "text": "Into Interstellar space"
+            },
+            {
+              "id": "2",
+              "text": "Just inside the orbit of Jupiter"
+            },
+            {
+              "id": "3",
+              "text": "Between Pluto and the Oort Cloud"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Into Interstellar space"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many muscles are in the human body?",
+          "options": [
+            {
+              "id": "0",
+              "text": "640"
+            },
+            {
+              "id": "1",
+              "text": "1000"
+            },
+            {
+              "id": "2",
+              "text": "150"
+            },
+            {
+              "id": "3",
+              "text": "320"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 640"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Suns surface temperature is roughly 10,000 degrees F. The temperature at the Suns core, however can be as high as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "25,000 degrees F."
+            },
+            {
+              "id": "1",
+              "text": "100,000 degrees F."
+            },
+            {
+              "id": "2",
+              "text": "2,000,000 degrees F."
+            },
+            {
+              "id": "3",
+              "text": "500,000 degrees F."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2,000,000 degrees F."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A Solar Eclipse occurs when the Earth is between the Sun and the Moon.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are 3 types of muscle in the human body. What are they?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Voluntary, Involuntary, Nervous"
+            },
+            {
+              "id": "1",
+              "text": "Voluntary, Involuntary, Skeletal"
+            },
+            {
+              "id": "2",
+              "text": "Cardiac, Skeletal, Smooth"
+            },
+            {
+              "id": "3",
+              "text": "Aerobic, Anaerobic, Nervous"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cardiac, Skeletal, Smooth"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On average, how much of a persons body weight is muscle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15%"
+            },
+            {
+              "id": "1",
+              "text": "65%"
+            },
+            {
+              "id": "2",
+              "text": "90%"
+            },
+            {
+              "id": "3",
+              "text": "40%"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 40%"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Doctors dont believe that growing causes pain, so growing pains do not exist.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many muscles are in your face?",
+          "options": [
+            {
+              "id": "0",
+              "text": "44"
+            },
+            {
+              "id": "1",
+              "text": "12"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "30"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 30"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "While muscle stimulation occurs during weight lifting and resistance exercises, muscle growth occurs later when the muscles are at rest.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does it take the Sun to rotate once upon its axis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "About 24 to 28 days"
+            },
+            {
+              "id": "1",
+              "text": "The Sun does not rotate at all"
+            },
+            {
+              "id": "2",
+              "text": "About 24 to 30 hours"
+            },
+            {
+              "id": "3",
+              "text": "About once a year"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: About 24 to 28 days"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these would not cause a muscle cramp?",
+          "options": [
+            {
+              "id": "0",
+              "text": "dehydration"
+            },
+            {
+              "id": "1",
+              "text": "low blood sugar"
+            },
+            {
+              "id": "2",
+              "text": "extreme cold"
+            },
+            {
+              "id": "3",
+              "text": "being overweight"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: being overweight"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Muscles push and pull-- thats how you can wriggle your fingers back and forth.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Sun contains about what percentage of the entire solar systems mass?",
+          "options": [
+            {
+              "id": "0",
+              "text": "28%"
+            },
+            {
+              "id": "1",
+              "text": "98%"
+            },
+            {
+              "id": "2",
+              "text": "78%"
+            },
+            {
+              "id": "3",
+              "text": "58%"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 98%"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The period of time between maximum and minimum sunspot activity, known as the Solar Cycle is about how many years in length?",
+          "options": [
+            {
+              "id": "0",
+              "text": "51 years"
+            },
+            {
+              "id": "1",
+              "text": "101 years"
+            },
+            {
+              "id": "2",
+              "text": "1 year"
+            },
+            {
+              "id": "3",
+              "text": "11 years"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 11 years"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Greek mythological figure flew too close to the sun with his wings made of wax?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pasiphae"
+            },
+            {
+              "id": "1",
+              "text": "Ariadne"
+            },
+            {
+              "id": "2",
+              "text": "Daedalus"
+            },
+            {
+              "id": "3",
+              "text": "Icarus"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Icarus"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "field",
+          "push",
+          "weight",
+          "average",
+          "space"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Taste and Substances",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, habit, muscles. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What connects muscles to bones?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nothing"
+            },
+            {
+              "id": "1",
+              "text": "Tendons"
+            },
+            {
+              "id": "2",
+              "text": "Cartilage"
+            },
+            {
+              "id": "3",
+              "text": "Ligaments"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Tendons"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the most bitter substance known to taste researchers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Quinine"
+            },
+            {
+              "id": "1",
+              "text": "Brucine"
+            },
+            {
+              "id": "2",
+              "text": "Denatonium"
+            },
+            {
+              "id": "3",
+              "text": "Coffee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Denatonium"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which are the four tastes considered as basic in Western culture?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sweet, salty, tasteless, and sour"
+            },
+            {
+              "id": "1",
+              "text": "Bitter, salty, sweet, and savory"
+            },
+            {
+              "id": "2",
+              "text": "Sweet, salty, chilly, and sour"
+            },
+            {
+              "id": "3",
+              "text": "Bitter, sweet, sour and salty"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bitter, sweet, sour and salty"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Taste is related to what other basic sense?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Balance"
+            },
+            {
+              "id": "1",
+              "text": "Vision"
+            },
+            {
+              "id": "2",
+              "text": "Hearing"
+            },
+            {
+              "id": "3",
+              "text": "Smell"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Smell"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You should always warm up your muscles before lifting weights.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The ability to perceive the unpleasant taste of bitter is assumed by researchers to have evolved with this function.",
+          "options": [
+            {
+              "id": "0",
+              "text": "To help people choose tasty foods to bad tasting ones"
+            },
+            {
+              "id": "1",
+              "text": "To help people choose foods with more vitamins"
+            },
+            {
+              "id": "2",
+              "text": "To protect people from poisoning"
+            },
+            {
+              "id": "3",
+              "text": "To protect people from overeating"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: To protect people from poisoning"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In order to adapt to the dry environment, cacti completely lost their leaves in the process of evolution.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is NOT one of cactis mechanisms for preserving water?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A waxy coating on the surface of the plant"
+            },
+            {
+              "id": "1",
+              "text": "Reduced surface area"
+            },
+            {
+              "id": "2",
+              "text": "Thick, hard-walled stem"
+            },
+            {
+              "id": "3",
+              "text": "Reduced stem volume"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Reduced stem volume"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these continents represent the natural habit of the cactus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "North America and Africa"
+            },
+            {
+              "id": "1",
+              "text": "North America, South America and Africa"
+            },
+            {
+              "id": "2",
+              "text": "South and North America"
+            },
+            {
+              "id": "3",
+              "text": "South America and Africa"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: South and North America"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Each basic taste corresponds to a specific area of the tongue, which perceives it. This spacial division of taste receptors is called taste map.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saltiness is a taste sensation produced most strongly by which of the following chemical compounds?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cesium"
+            },
+            {
+              "id": "1",
+              "text": "Sodium chloride"
+            },
+            {
+              "id": "2",
+              "text": "Potassium chloride"
+            },
+            {
+              "id": "3",
+              "text": "Rubidium"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sodium chloride"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Sourness is a taste that is a proof of which of the following properties of substances?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Temperature"
+            },
+            {
+              "id": "1",
+              "text": "Toxicity"
+            },
+            {
+              "id": "2",
+              "text": "Ionization"
+            },
+            {
+              "id": "3",
+              "text": "Acidity"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Acidity"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The carbonyl chemical group in substances evokes the sensation of what taste?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sour"
+            },
+            {
+              "id": "1",
+              "text": "Sweet"
+            },
+            {
+              "id": "2",
+              "text": "Chilly"
+            },
+            {
+              "id": "3",
+              "text": "Bitter"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sweet"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The taste called umami, which is considered by the Japanese and Chinese taste researchers for one of the basic tastes, is mainly associated with which of the following groups of substances?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carbohydrates"
+            },
+            {
+              "id": "1",
+              "text": "Aldehydes"
+            },
+            {
+              "id": "2",
+              "text": "Proteins"
+            },
+            {
+              "id": "3",
+              "text": "Fats"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Proteins"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In taste science, what is the meaning of the term supertaster?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A food with sharper taste than average"
+            },
+            {
+              "id": "1",
+              "text": "A person with sharper sense of taste than average"
+            },
+            {
+              "id": "2",
+              "text": "A person who tastes foods and beverages professionally"
+            },
+            {
+              "id": "3",
+              "text": "A supercomputer with sensors able to detect extremely tastes accurately"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A person with sharper sense of taste than average"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "habit",
+          "muscles",
+          "mechanisms",
+          "chemical",
+          "tastes"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Cactus and Medicine",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, beliefs, mood. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cacti can only be pollinated by a certain type of tropical bees.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The coat of arms of which country includes a depiction of a cactus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brasil"
+            },
+            {
+              "id": "1",
+              "text": "Peru"
+            },
+            {
+              "id": "2",
+              "text": "Mexico"
+            },
+            {
+              "id": "3",
+              "text": "Guatemala"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mexico"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tinctures in herbal medicine are made by mixing dried herbs with oils, such as sesame oil or almond oil.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Color therapy assumes that each color influences differently our moods, levels of energy and even mental state and abilities. What is the color red usually associated with?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Higher mental capability"
+            },
+            {
+              "id": "1",
+              "text": "Passion and strength"
+            },
+            {
+              "id": "2",
+              "text": "Calmness and purity"
+            },
+            {
+              "id": "3",
+              "text": "Optimism and joy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Passion and strength"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This type of alternative medicine is based on the assumption that if large amounts of a certain substance cause symptoms of illness, then small amounts of this same substance can alleviate symptoms by activating the body\u2019s self-healing abilities.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Reiki"
+            },
+            {
+              "id": "1",
+              "text": "Ozone Therapy"
+            },
+            {
+              "id": "2",
+              "text": "Homeopathy"
+            },
+            {
+              "id": "3",
+              "text": "Hellerwork Bodywork"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Homeopathy"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the origin of the word cactus?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Portuguese"
+            },
+            {
+              "id": "1",
+              "text": "German"
+            },
+            {
+              "id": "2",
+              "text": "Mexican (Spanish)"
+            },
+            {
+              "id": "3",
+              "text": "Greek"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Greek"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ayurveda, chiropractic, traditional Chinese medicine and homeopathy are all forms of alternative medicine that adopt which of the following principles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Holism"
+            },
+            {
+              "id": "1",
+              "text": "Survival of the fittest"
+            },
+            {
+              "id": "2",
+              "text": "Reductionism"
+            },
+            {
+              "id": "3",
+              "text": "Trial and error"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Holism"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This form of alternative medicine focuses on stimulating different areas of the feet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Therapeutic touch"
+            },
+            {
+              "id": "1",
+              "text": "Reflexology"
+            },
+            {
+              "id": "2",
+              "text": "Iridology"
+            },
+            {
+              "id": "3",
+              "text": "Osteopathy"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Reflexology"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these processes does the cactus perform only at night?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Circulation"
+            },
+            {
+              "id": "1",
+              "text": "Transpiration"
+            },
+            {
+              "id": "2",
+              "text": "Photosynthesis"
+            },
+            {
+              "id": "3",
+              "text": "Reproduction"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Transpiration"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the fundamental beliefs of ayurveda is that five elements form the Universe and everything in it including the human body. These elements are earth, fire, water, air and which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rock"
+            },
+            {
+              "id": "1",
+              "text": "Space"
+            },
+            {
+              "id": "2",
+              "text": "Wood"
+            },
+            {
+              "id": "3",
+              "text": "Phlegm"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Space"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This health care discipline uses mostly the technique of spinal adjustment.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rolfing"
+            },
+            {
+              "id": "1",
+              "text": "Acupuncture"
+            },
+            {
+              "id": "2",
+              "text": "Chiropractic"
+            },
+            {
+              "id": "3",
+              "text": "Alexander Technique"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chiropractic"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In aromatherapy, essential oils are often used to enhance the mood.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of the following areas are cacti used?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Building / construction"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Cooking"
+            },
+            {
+              "id": "3",
+              "text": "Medicine"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Because of the strict water preserving mechanisms, the cactus dies within hours after a part of it is broken or damaged.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which part of the cactus performs the process of photosynthesis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stem"
+            },
+            {
+              "id": "1",
+              "text": "Blooms"
+            },
+            {
+              "id": "2",
+              "text": "Roots"
+            },
+            {
+              "id": "3",
+              "text": "Spines"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Stem"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "beliefs",
+          "mood",
+          "process",
+          "assumption",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Blood and Cells",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, condition, deity. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Acupressure uses which of the following techniques?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Inserting needles into certain points of the body"
+            },
+            {
+              "id": "1",
+              "text": "Myofascial release"
+            },
+            {
+              "id": "2",
+              "text": "Deep muscle massage"
+            },
+            {
+              "id": "3",
+              "text": "Finger or hand pressure on certain points of the body"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Finger or hand pressure on certain points of the body"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saturns rings consist mostly of water ice.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Saturn is the Roman name of which Greek deity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Styx"
+            },
+            {
+              "id": "1",
+              "text": "Ourobouros"
+            },
+            {
+              "id": "2",
+              "text": "Kronos"
+            },
+            {
+              "id": "3",
+              "text": "Pan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kronos"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these names refers to or is a synonym for red blood cells?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Haematids"
+            },
+            {
+              "id": "1",
+              "text": "RBCs"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Erythrocytes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For the removal of which of these waste products is blood responsible?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lactic acid"
+            },
+            {
+              "id": "1",
+              "text": "Carbon dioxide"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Urea"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these organs is responsible for the degradation of red blood cells?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spleen"
+            },
+            {
+              "id": "1",
+              "text": "Kidneys"
+            },
+            {
+              "id": "2",
+              "text": "Liver"
+            },
+            {
+              "id": "3",
+              "text": "Lungs"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Spleen"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these organs is responsible for the production of blood proteins, including clotting proteins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bone marrow"
+            },
+            {
+              "id": "1",
+              "text": "Liver"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Spleen"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Liver"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is NOT a type of yoga?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hatha yoga"
+            },
+            {
+              "id": "1",
+              "text": "Ashtanga yoga"
+            },
+            {
+              "id": "2",
+              "text": "Kundalini yoga"
+            },
+            {
+              "id": "3",
+              "text": "Asana yoga"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Asana yoga"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the human blood plasma?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is colorless."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "It comprises 55% of the blood content."
+            },
+            {
+              "id": "3",
+              "text": "It contains 60% water."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It comprises 55% of the blood content."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In astrology Saturn is believed to be the planetary ruler of which sign?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pisces"
+            },
+            {
+              "id": "1",
+              "text": "Cancer"
+            },
+            {
+              "id": "2",
+              "text": "Sagittarius"
+            },
+            {
+              "id": "3",
+              "text": "Capricorn"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Capricorn"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these terms refers to the formation of blood cells?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Haematopoiesis"
+            },
+            {
+              "id": "1",
+              "text": "Haematogenesis"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Haematophagus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Haematopoiesis"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the blood cells called thrombocytes responsible for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blood clotting"
+            },
+            {
+              "id": "1",
+              "text": "Defence against bacteria and viruses"
+            },
+            {
+              "id": "2",
+              "text": "Transporting carbon dioxide"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blood clotting"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements is true about the white blood cells, also called leukocytes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are cells of the immune system."
+            },
+            {
+              "id": "1",
+              "text": "There are five different types of white blood cells."
+            },
+            {
+              "id": "2",
+              "text": "There are leukocytes in the lymph."
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these factors defines the medical condition known as anemia?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Decreased number of red blood cells"
+            },
+            {
+              "id": "1",
+              "text": "Decreased oxygen-binding ability of the hemoglobin molecules in the blood"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Decreased quantity of hemoglobin in the blood"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the term blood serum refer to?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Blood plasma without the clotting proteins"
+            },
+            {
+              "id": "2",
+              "text": "Blood without the cell elements"
+            },
+            {
+              "id": "3",
+              "text": "It is a synonym for blood plasma."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Blood plasma without the clotting proteins"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "condition",
+          "deity",
+          "plasma",
+          "products",
+          "following"
+        ]
+      }
+    }
+  ]
+}

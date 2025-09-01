@@ -1,0 +1,2460 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Geography Quiz: Story and Character",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, cunninghams, smith. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This series depicts a unicorn-riding wizard, who is actually a contestant in a game show, in the futuristic world of Proton.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Endless Recursion"
+            },
+            {
+              "id": "1",
+              "text": "Xanth"
+            },
+            {
+              "id": "2",
+              "text": "Apprentice Adept"
+            },
+            {
+              "id": "3",
+              "text": "The Divided Wolrd"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Apprentice Adept"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Johnny Smith is a character that awakens from a coma in which Stephen King story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Green Mile"
+            },
+            {
+              "id": "1",
+              "text": "The Dead Zone"
+            },
+            {
+              "id": "2",
+              "text": "The Tommyknockers"
+            },
+            {
+              "id": "3",
+              "text": "Graveyard Shift"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Dead Zone"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The fictional spice-drug Melange has a central role in which Sci-fi epic?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Black Legion"
+            },
+            {
+              "id": "1",
+              "text": "The Pirates of Orion"
+            },
+            {
+              "id": "2",
+              "text": "War of the Worlds"
+            },
+            {
+              "id": "3",
+              "text": "DUNE"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: DUNE"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This popular fantasy series tells the story of a small human-like character, sent on a mission to save the world. He has to destroy an item of dark and terrible power by casting it into the fires of the mountain, where it was made.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Wheel of Time"
+            },
+            {
+              "id": "1",
+              "text": "The Chronicles of Narnia"
+            },
+            {
+              "id": "2",
+              "text": "The Sword of Truth"
+            },
+            {
+              "id": "3",
+              "text": "Lord of the Rings"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Lord of the Rings"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which author describes the worlds of the Belgariad and the Malloreon?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Eddings"
+            },
+            {
+              "id": "1",
+              "text": "Terry Goodkind"
+            },
+            {
+              "id": "2",
+              "text": "J. R. R. Tolkien"
+            },
+            {
+              "id": "3",
+              "text": "Robert Jordan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: David Eddings"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Arnie Cunninghams character is a nerdy high school student from which Stephen King story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Children of the Corn"
+            },
+            {
+              "id": "1",
+              "text": "Christine"
+            },
+            {
+              "id": "2",
+              "text": "Cujo"
+            },
+            {
+              "id": "3",
+              "text": "Carrie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Christine"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Billy Halleck, a rather rotund lawyer, is a character from which Stephen King story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Insomnia"
+            },
+            {
+              "id": "1",
+              "text": "Thinner"
+            },
+            {
+              "id": "2",
+              "text": "Rose Madder"
+            },
+            {
+              "id": "3",
+              "text": "Storm of the Century"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Thinner"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What fantasy series tells us first about a sword, then about the elfstones and finally about a wishsong?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shannara"
+            },
+            {
+              "id": "1",
+              "text": "Dragon Riders of Pern"
+            },
+            {
+              "id": "2",
+              "text": "Sword of Truth"
+            },
+            {
+              "id": "3",
+              "text": "Chronicles of Narnia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Shannara"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pennywise is introduced to us in a storm sewer from which Stephen King story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Creepshow"
+            },
+            {
+              "id": "1",
+              "text": "Pet Sematary"
+            },
+            {
+              "id": "2",
+              "text": "It"
+            },
+            {
+              "id": "3",
+              "text": "Needful Things"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The paraplegic Marty Coslaw is a character in which Stephen King story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Stand"
+            },
+            {
+              "id": "1",
+              "text": "Bag of Bones"
+            },
+            {
+              "id": "2",
+              "text": "Night Shift"
+            },
+            {
+              "id": "3",
+              "text": "Silver Bullet"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Silver Bullet"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This fantasy series features channelers, who can control the One Power, a mighty force that comes from the True Source, and is separated into two halves: a male part -saidin, and a female one - saidar.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Wheel of Time"
+            },
+            {
+              "id": "1",
+              "text": "Running with the Demon"
+            },
+            {
+              "id": "2",
+              "text": "Ring World"
+            },
+            {
+              "id": "3",
+              "text": "Corinthia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Wheel of Time"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which Stephen King story are we introduced to a recovering alcoholic named Jack Torrance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Shining"
+            },
+            {
+              "id": "1",
+              "text": "Creepshow"
+            },
+            {
+              "id": "2",
+              "text": "The Boogeyman"
+            },
+            {
+              "id": "3",
+              "text": "Thinner"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Shining"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which Stephen King story to we meet the intriguing stranger Andre Linoge?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Misery"
+            },
+            {
+              "id": "1",
+              "text": "Salems Lot"
+            },
+            {
+              "id": "2",
+              "text": "Carrie"
+            },
+            {
+              "id": "3",
+              "text": "Storm of the Century"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Storm of the Century"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this sci-fi story, a young boy is given advanced training and then tricked into destroying an invading an alien fleet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Enders Game"
+            },
+            {
+              "id": "1",
+              "text": "The Boat of a Million Years"
+            },
+            {
+              "id": "2",
+              "text": "Wisdom Beyond Fear"
+            },
+            {
+              "id": "3",
+              "text": "Harsh Reality"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Enders Game"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The former nurse Annie Wilkes is a character from which Stephen King story?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dolores Claiborne"
+            },
+            {
+              "id": "1",
+              "text": "Rose Madder"
+            },
+            {
+              "id": "2",
+              "text": "Firestarter"
+            },
+            {
+              "id": "3",
+              "text": "Misery"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Misery"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "cunninghams",
+          "smith",
+          "pennywise",
+          "johnny",
+          "sword"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Literature Quiz: Novel and Wind",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, philip, quote. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This quote is from a novel which focuses on the myth of hedonism: \u2018The only way to get rid of a temptation is to yield to it. Resist it, and your soul grows sick with longing for the things it has forbidden to itself, with desire for what its monstrous laws have made monstrous and unlawful.\u2019  Name the novel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lady Chatterleys Lover"
+            },
+            {
+              "id": "1",
+              "text": "The Picture of Dorian Gray"
+            },
+            {
+              "id": "2",
+              "text": "A Portrait of the Artist As a Young Man"
+            },
+            {
+              "id": "3",
+              "text": "Ulysses"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Picture of Dorian Gray"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Gone with the Wind, what was the name of Scarletts first house -- the house she had her childhood in and loved more than anything?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tara"
+            },
+            {
+              "id": "1",
+              "text": "Leps"
+            },
+            {
+              "id": "2",
+              "text": "Ward"
+            },
+            {
+              "id": "3",
+              "text": "Yern"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tara"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the 19th century novel, which begins with the following sentence: \u2018It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.\u2019",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sense and Sensibility"
+            },
+            {
+              "id": "1",
+              "text": "North and South"
+            },
+            {
+              "id": "2",
+              "text": "Pride and Prejudice"
+            },
+            {
+              "id": "3",
+              "text": "Vanity Fair"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pride and Prejudice"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Fantasy Series tells the story of  the War Wizard, Richard Rahl?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Wheel of Time"
+            },
+            {
+              "id": "1",
+              "text": "Greystone Trilogy"
+            },
+            {
+              "id": "2",
+              "text": "The Sword of Truth"
+            },
+            {
+              "id": "3",
+              "text": "Battle Mage Trilogy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Sword of Truth"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this novel, with the following sentences, David Lodge sums up the fact that his Catholic characters ceased to believe in the existence of hell: \u2018At some point in the nineteen-sixties, Hell disappeared. No one could say for certain when this happened. First it was there and then it wasn\u2019t.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Remains of the Day"
+            },
+            {
+              "id": "1",
+              "text": "How Far Can You Go"
+            },
+            {
+              "id": "2",
+              "text": "The Bloody Chamber"
+            },
+            {
+              "id": "3",
+              "text": "The Silence in the Garden"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: How Far Can You Go"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The following quote is from a novel which describes a society, characterized mainly by the lack of freedom: \u2018Freedom is the freedom to say that two plus two make four. If that is granted, all else follows.\u2019  Name the novel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Good man in Africa"
+            },
+            {
+              "id": "1",
+              "text": "1984"
+            },
+            {
+              "id": "2",
+              "text": "Lord of the Flies"
+            },
+            {
+              "id": "3",
+              "text": "Heart of Darkness"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1984"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many children did Scarlett have in the novel Gone with the Wind?",
+          "options": [
+            {
+              "id": "0",
+              "text": "3"
+            },
+            {
+              "id": "1",
+              "text": "4"
+            },
+            {
+              "id": "2",
+              "text": "1"
+            },
+            {
+              "id": "3",
+              "text": "6"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 3"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which war is described in the novel Gone with the Wind?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The war in Iraq"
+            },
+            {
+              "id": "1",
+              "text": "The war of 1812"
+            },
+            {
+              "id": "2",
+              "text": "The Revolutionary War"
+            },
+            {
+              "id": "3",
+              "text": "The Civil War"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Civil War"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Gone with the Wind, what is Scarlett O Haras first name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scarlett"
+            },
+            {
+              "id": "1",
+              "text": "Carreen"
+            },
+            {
+              "id": "2",
+              "text": "Melanie"
+            },
+            {
+              "id": "3",
+              "text": "Katie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Katie"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which sci-fi classic features the story of an alien invasion thwarted by earths microorganisms?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Speaker for the Dead"
+            },
+            {
+              "id": "1",
+              "text": "Close Encounters"
+            },
+            {
+              "id": "2",
+              "text": "2001: Space Odyssey"
+            },
+            {
+              "id": "3",
+              "text": "War of the Worlds"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: War of the Worlds"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Gone with the Wind, Scarletts father bought two slaves from Raif Tarleton.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The main character from this literary work by Philip Roth addresses the following words to his domineering and meticulous Jewish mother: \u2018Because to be bad, Mother, that is the real struggle: to be bad and to enjoy it. That is what makes men of us boys.\u2019",
+          "options": [
+            {
+              "id": "0",
+              "text": "Portnoys Complaint"
+            },
+            {
+              "id": "1",
+              "text": "My Life As a Man"
+            },
+            {
+              "id": "2",
+              "text": "The Sun Also Rises"
+            },
+            {
+              "id": "3",
+              "text": "The Catcher in the Rye"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Portnoys Complaint"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which fantasy series by C.S. Lewis includes a book entitled The Voyage of the Dawn Treader?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Magic of Xanth"
+            },
+            {
+              "id": "1",
+              "text": "The Chronicles of Narnia"
+            },
+            {
+              "id": "2",
+              "text": "Lord of the Rings"
+            },
+            {
+              "id": "3",
+              "text": "The Pirates of Psion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Chronicles of Narnia"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Gone with the Wind, Dilcey had two children.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Gone with the Wind, what were the names of the two slaves Scarletts father bought, and what relationship did they have?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dilcey and Prissy, cousins"
+            },
+            {
+              "id": "1",
+              "text": "DIlcey and Prissy, mother and daughter"
+            },
+            {
+              "id": "2",
+              "text": "Mammie and Prissy, sisters"
+            },
+            {
+              "id": "3",
+              "text": "Mammie and Dilcey, best friends"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: DIlcey and Prissy, mother and daughter"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "philip",
+          "quote",
+          "literature",
+          "invasion",
+          "slaves"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Literature Quiz: Book and Novel",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, title, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1971 Dr. Seuss book about a mossy,  bossy creature, the Once-ler and the Truffula trees has been banned by some schools and libraries for its anti-forestry industry content.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Butter Battle Book"
+            },
+            {
+              "id": "1",
+              "text": "Horton Hears a Who!"
+            },
+            {
+              "id": "2",
+              "text": "Fox in Socks"
+            },
+            {
+              "id": "3",
+              "text": "The Lorax"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Lorax"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The following quote is from a literary work by Kurt Vonnegut in which the characters search for an important and dangerous substance called \u2018ice-nine\u2019: \u2018Beware of the man who works hard to learn something, learns it, and finds himself no wiser than before. He is full of murderous resentment of people who are ignorant without having come by their ignorance the hard way.\u2019  Name the literary work.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Breakfast of Champions"
+            },
+            {
+              "id": "1",
+              "text": "Cats Cradle"
+            },
+            {
+              "id": "2",
+              "text": "Catch-22"
+            },
+            {
+              "id": "3",
+              "text": "Slaughterhouse 5"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cats Cradle"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Published in January 1990, this is the last book written and illustrated by Dr. Seuss. In the US, its a popular graduation gift.",
+          "options": [
+            {
+              "id": "0",
+              "text": "My Book about ME"
+            },
+            {
+              "id": "1",
+              "text": "I Am NOT Going to Get Up Today!"
+            },
+            {
+              "id": "2",
+              "text": "Oh, the Places Youll Go!"
+            },
+            {
+              "id": "3",
+              "text": "Fox in Socks"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Oh, the Places Youll Go!"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After Dr. Seuss used 236 different words to write The Cat in the Hat, his publisher, Bennett Cerf, bet $50 that Seuss could not write a book of only fifty words. Seuss won the bet with this book in 1960.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hop on Pop"
+            },
+            {
+              "id": "1",
+              "text": "Theres a Wocket in My Pocket!"
+            },
+            {
+              "id": "2",
+              "text": "Green Eggs and Ham"
+            },
+            {
+              "id": "3",
+              "text": "One Fish Two Fish Red Fish Blue Fish"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Green Eggs and Ham"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this novel, the following words are said by the protagonist, Isadora Wing, who is in pursuit of liberation: \u2018I was nobody\u2019s baby now. Liberated. Utterly free. It was the most terrifying sensation I\u2019d ever known in my life. Like teetering on the edge of the Grand Canyon and hoping you\u2019d learn to fly before you hit the bottom.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Good Man Is Hard to Find"
+            },
+            {
+              "id": "1",
+              "text": "Editha"
+            },
+            {
+              "id": "2",
+              "text": "Tropic of Cancer"
+            },
+            {
+              "id": "3",
+              "text": "Fear of Flying"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Fear of Flying"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The title of this 1956 Dr. Seuss book has become a popular phrase used to introduce an opinion.",
+          "options": [
+            {
+              "id": "0",
+              "text": "If I Ran the Circus"
+            },
+            {
+              "id": "1",
+              "text": "Oh Say Can You Say?"
+            },
+            {
+              "id": "2",
+              "text": "If I Ran the Zoo"
+            },
+            {
+              "id": "3",
+              "text": "And to Think That I Saw It on Mulberry Street"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: If I Ran the Circus"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Voyage of the Dawn Treader was written by this author.",
+          "options": [
+            {
+              "id": "0",
+              "text": "T S Elliot"
+            },
+            {
+              "id": "1",
+              "text": "C S Lewis"
+            },
+            {
+              "id": "2",
+              "text": "Lewis Carrol"
+            },
+            {
+              "id": "3",
+              "text": "Brothers Grimm"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: C S Lewis"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The plot of this 1984 Seuss satire has been likened to the war between Blefuscu and Lilliput in Jonathan Swifts Gullivers Travel and their war over which end of an egg is supposed to be cracked.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Butter Battle Book"
+            },
+            {
+              "id": "1",
+              "text": "Oh Say Can You Say?"
+            },
+            {
+              "id": "2",
+              "text": "Green Eggs and Ham"
+            },
+            {
+              "id": "3",
+              "text": "Theres a Wocket in My Pocket!"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Butter Battle Book"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Youre a Mean One, Mr. Grinch, one of the most famous songs from the 1966 animated TV special How the Grinch Stole Christmas!, was sung by the narrator Boris Karloff.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The following speculation is from a novel set in the gloomy Fen Country of East Anglia: \u2018Realitys not strange, not unexpected. Reality doesnt reside in the sudden hallucination of events. Reality is uneventfulness, vacancy, flatness. Reality is that nothing happens. How many of the events of history have occurred, ask yourselves, for this and for that reason, but for no other reason, fundamentally, than the desire to make things happen?\u2019  Can you name the novel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Times Arrow"
+            },
+            {
+              "id": "1",
+              "text": "Last Orders"
+            },
+            {
+              "id": "2",
+              "text": "Waterland"
+            },
+            {
+              "id": "3",
+              "text": "Sugar and Rum"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Waterland"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This quote is from a novel by Somerset Maugham, which tells the story of a young man searching for the meaning of life:  \u2018It is an illusion that youth is happy, an illusion of those who have lost it; but the young know they are wretched, for they are full of the truthless ideals which have been instilled into them and each time they come in contact with the real they are bruised and wounded.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Of Human Bondage"
+            },
+            {
+              "id": "1",
+              "text": "Theatre"
+            },
+            {
+              "id": "2",
+              "text": "Sons and Lovers"
+            },
+            {
+              "id": "3",
+              "text": "Dombey and Son"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Of Human Bondage"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this 1954 Dr. Seuss book the moral of the story (and a repeated phrase throughout the book) is: a persons a person no matter how small. This was the first of two Seuss books starring this kind-hearted elephant.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hop on Pop"
+            },
+            {
+              "id": "1",
+              "text": "Theres a Wocket in My Pocket!"
+            },
+            {
+              "id": "2",
+              "text": "Horton Hears a Who!"
+            },
+            {
+              "id": "3",
+              "text": "Hooper Humperdink...? Not Him!"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Horton Hears a Who!"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is a quote from a novel in which the action takes place in a mental institution: \u2018You have to laugh at the things that hurt you just to keep yourself in balance, just to keep the world from running you plumb crazy.\u2019  Name the novel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "\u2018One Flew Over the Cuckoo\u2019s Nest\u2019"
+            },
+            {
+              "id": "1",
+              "text": "Lost in the Funhouse"
+            },
+            {
+              "id": "2",
+              "text": "Something Happened"
+            },
+            {
+              "id": "3",
+              "text": "The Winter of Our Discontent"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: \u2018One Flew Over the Cuckoo\u2019s Nest\u2019"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What book by Dr. Seuss contains the quote: When a Fox is in the bottle where the Tweetle Beetles battle with their paddles in a puddle on a noodle-eating poodle, THIS is what they call......a Tweetle Beetle Noodle Poodle Bottled Paddled Muddled Duddled Fuddled Wuddled Fox In Socks, Sir!?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The 500 Hats of Bartholomew Cubbins"
+            },
+            {
+              "id": "1",
+              "text": "If I Ran the Circus"
+            },
+            {
+              "id": "2",
+              "text": "Fox in Socks"
+            },
+            {
+              "id": "3",
+              "text": "Oh, the Places Youll Go!"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fox in Socks"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Published in 1937, this is Dr. Seusss first book. Its main character Marco is based on Marco McClintock, the son of Mike McClintock, Seuss editor, and Helene McClintock, to whom he dedicated the book.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Theres a Wocket in My Pocket!"
+            },
+            {
+              "id": "1",
+              "text": "And to Think That I Saw It on Mulberry Street"
+            },
+            {
+              "id": "2",
+              "text": "Horton Hatches the Egg"
+            },
+            {
+              "id": "3",
+              "text": "The Cat in the Hat"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: And to Think That I Saw It on Mulberry Street"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "title",
+          "country",
+          "quote",
+          "plot",
+          "dawn"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Literature Quiz: Novel and Work",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, fyodor, death. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This novel by Charles Dickens, published in 1850, is considered his most autobiographical. It begins with: Whether I shall turn out to be the hero of my own life, or whether that station will be held by anybody else, these pages must show. Characters include Wilkins Micawber and Uriah Heep.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Great Expectations"
+            },
+            {
+              "id": "1",
+              "text": "David Copperfield"
+            },
+            {
+              "id": "2",
+              "text": "A Tale of Two Cities"
+            },
+            {
+              "id": "3",
+              "text": "Bleak House"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: David Copperfield"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dante Alighieri (1265-1321) probably began this work in 1306. Its first canto begins with: Midway upon the journey of our life I found myself within a forest dark, for the straightforward pathway had been lost.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Troilus and Cressida"
+            },
+            {
+              "id": "1",
+              "text": "The Divine Comedy"
+            },
+            {
+              "id": "2",
+              "text": "The Decameron"
+            },
+            {
+              "id": "3",
+              "text": "Gargantua and Pantagruel"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Divine Comedy"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This famous childrens poet wrote Where the Sidewalk Ends and The Giving Tree.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dr Seuss"
+            },
+            {
+              "id": "1",
+              "text": "none of these"
+            },
+            {
+              "id": "2",
+              "text": "Lewis Carrol"
+            },
+            {
+              "id": "3",
+              "text": "Shel Silverstien"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Shel Silverstien"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Death be not proud, though some have called thee mighty and dreadfull, for, thou art not so is a portion of a work by this poet who lived from 1572-1631.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Milton"
+            },
+            {
+              "id": "1",
+              "text": "John Donne"
+            },
+            {
+              "id": "2",
+              "text": "Lord Byron"
+            },
+            {
+              "id": "3",
+              "text": "William Blake"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Donne"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This early Anglo-Saxon work, possibly from the 800s, features the antagonist Grendel, a descendant of Cain who invades the mead-hall of the Danes and eats the men within. The title character ultimately beheads Grendel and keeps it as a trophy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oedipus Rex"
+            },
+            {
+              "id": "1",
+              "text": "Morte Arthure"
+            },
+            {
+              "id": "2",
+              "text": "Beowulf"
+            },
+            {
+              "id": "3",
+              "text": "Epic of Gilgamesh"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Beowulf"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The famous line In the room the women come and go, talking of Michelangelo is from the poem The Love Song of J. Alfred Prufrock by this influential 20th century poet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "W. H. Auden"
+            },
+            {
+              "id": "1",
+              "text": "Robert Browning"
+            },
+            {
+              "id": "2",
+              "text": "Robert Frost"
+            },
+            {
+              "id": "3",
+              "text": "T. S. Eliot"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: T. S. Eliot"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This novel by Charlotte Bront\u00eb includes the character Mr. Rochester, whose wife is a violent lunatic.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jane Eyre"
+            },
+            {
+              "id": "1",
+              "text": "Wuthering Heights"
+            },
+            {
+              "id": "2",
+              "text": "A Room with a View"
+            },
+            {
+              "id": "3",
+              "text": "The Turn of the Screw"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Jane Eyre"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This 1971 novel by Anthony Burgess relates the story of a fifteen-year-old boy named Alex, who, with his gang members (known as droogs) roam the streets at night, committing violent crimes for enjoyment.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Helter Skelter"
+            },
+            {
+              "id": "1",
+              "text": "A Clockwork Orange"
+            },
+            {
+              "id": "2",
+              "text": "Fahrenheit 451"
+            },
+            {
+              "id": "3",
+              "text": "Catcher in the Rye"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A Clockwork Orange"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what 1851 novel would you find the characters Ishmael, Captain Ahab, Queequeg and Starbuck?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Voyage of the Dawn Treader by C. S. Lewis"
+            },
+            {
+              "id": "1",
+              "text": "Heart of Darkness by Joseph Conrad"
+            },
+            {
+              "id": "2",
+              "text": "Moby Dick by Herman Melville"
+            },
+            {
+              "id": "3",
+              "text": "The Jungle by Upton Sinclair"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Moby Dick by Herman Melville"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect is the opening line to this famous work of German fiction by Franz Kafka.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Metamorphosis"
+            },
+            {
+              "id": "1",
+              "text": "Thus Spoke Zarathustra"
+            },
+            {
+              "id": "2",
+              "text": "As I Lay Dying"
+            },
+            {
+              "id": "3",
+              "text": "Heart of Darkness"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Metamorphosis"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Canterbury Tales is a collection of stories written by Geoffrey Chaucer. It recounts the tales told by individuals on a pilgrimage to the shrine of Saint Thomas Becket at Canterbury Cathedral. Which of the following was not a character in this work?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Physician"
+            },
+            {
+              "id": "1",
+              "text": "Reeve"
+            },
+            {
+              "id": "2",
+              "text": "Tax Collector"
+            },
+            {
+              "id": "3",
+              "text": "Yeoman"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Tax Collector"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This great work of Russian literature by Fyodor Dostoevsky features the character Raskolnikov, an impoverished St. Petersburg student who kills an unscrupulous pawnbroker.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dead Souls"
+            },
+            {
+              "id": "1",
+              "text": "And Quiet Flows the Don"
+            },
+            {
+              "id": "2",
+              "text": "The Brothers Karamazov"
+            },
+            {
+              "id": "3",
+              "text": "Crime and Punishment"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Crime and Punishment"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Don Quixote by Spanish author Miguel de Cervantes Saavedra, who is the witty squire and companion to Alonso Quixano?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aldonzo Lorenzo"
+            },
+            {
+              "id": "1",
+              "text": "Antonio de la Gandara"
+            },
+            {
+              "id": "2",
+              "text": "Che Guevara"
+            },
+            {
+              "id": "3",
+              "text": "Sancho Panza"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sancho Panza"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fifteen men on the dead mans chest\u2014 Yo-ho-ho, and a bottle of rum! is a famous line from Treasure Island, a novel by this author published in 1883.",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Fenimore Cooper"
+            },
+            {
+              "id": "1",
+              "text": "Robert Louis Stevenson"
+            },
+            {
+              "id": "2",
+              "text": "Ralph Waldo Emerson"
+            },
+            {
+              "id": "3",
+              "text": "William Makepeace Thackeray"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Robert Louis Stevenson"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this tragic play by William Shakespeare, three witches tell a general in the army of King Duncan that he will never be vanquishd until Great Birnam wood to high Dunsinane Hill shall come against him.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Tempest"
+            },
+            {
+              "id": "1",
+              "text": "Macbeth"
+            },
+            {
+              "id": "2",
+              "text": "Hamlet"
+            },
+            {
+              "id": "3",
+              "text": "Titus Andronicus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Macbeth"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "fyodor",
+          "death",
+          "line",
+          "thee",
+          "antagonist"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Literature Quiz: Novel and Kings",
+      "description": "Test your literature knowledge with this comprehensive quiz! Features 15 questions covering Literature, percy, report. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Once in a kingdom called Delain, there was a king with two sons. Delain was a very old kingdom and it had had hundreds of kings, perhaps, even thousands... is the beginning of what book?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Stand"
+            },
+            {
+              "id": "1",
+              "text": "The Dark Tower I: The Gunslinger"
+            },
+            {
+              "id": "2",
+              "text": "The  Dark Tower IV: The Wizard and the Glass"
+            },
+            {
+              "id": "3",
+              "text": "The Eyes of the Dragon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Eyes of the Dragon"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In chapter one of Harry Potter and the Prisoner of Azkaban, Harry has Snapes essay on Sleeping Draughts hidden under the floorboard.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On what day did Percy say he would have the report ready for Mr Crouch?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Monday"
+            },
+            {
+              "id": "1",
+              "text": "Thursday"
+            },
+            {
+              "id": "2",
+              "text": "Friday"
+            },
+            {
+              "id": "3",
+              "text": "Tuesday"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tuesday"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who fell into the lake?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neville"
+            },
+            {
+              "id": "1",
+              "text": "Colin"
+            },
+            {
+              "id": "2",
+              "text": "Hermione"
+            },
+            {
+              "id": "3",
+              "text": "Dennis"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dennis"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is Stephen Kings first published novel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Salems Lot"
+            },
+            {
+              "id": "1",
+              "text": "Carrie"
+            },
+            {
+              "id": "2",
+              "text": "The Stand"
+            },
+            {
+              "id": "3",
+              "text": "The Shining"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Carrie"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of Dolores Claibornes wealthy employer in the Stephen King novel Dolores Claiborne?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jamie ONeal"
+            },
+            {
+              "id": "1",
+              "text": "Selena Cook"
+            },
+            {
+              "id": "2",
+              "text": "Joe St. George"
+            },
+            {
+              "id": "3",
+              "text": "Vera Donovan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Vera Donovan"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What novel did Stephen King and Peter Straub co-author in 1983?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Twilight Eyes"
+            },
+            {
+              "id": "1",
+              "text": "The Talisman"
+            },
+            {
+              "id": "2",
+              "text": "Black House"
+            },
+            {
+              "id": "3",
+              "text": "Shadowland"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Talisman"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the horror novel Misery, Annie Wilkes was referred to by the newspapers as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Dragon Lady"
+            },
+            {
+              "id": "1",
+              "text": "The Baby Slayer"
+            },
+            {
+              "id": "2",
+              "text": "The Black Widow"
+            },
+            {
+              "id": "3",
+              "text": "Misery"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Dragon Lady"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Pet Semetary, what is the name of the Creeds cat that is buried and returns to life?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jud"
+            },
+            {
+              "id": "1",
+              "text": "Church"
+            },
+            {
+              "id": "2",
+              "text": "Gage"
+            },
+            {
+              "id": "3",
+              "text": "Louis"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Church"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where do Harry Potter and Ron leave the chocolate cakes for Crabbe and Goyle to find?",
+          "options": [
+            {
+              "id": "0",
+              "text": "On the Floor"
+            },
+            {
+              "id": "1",
+              "text": "At the end of the banister"
+            },
+            {
+              "id": "2",
+              "text": "Floating near the entrance to the Slytherin Common Room"
+            },
+            {
+              "id": "3",
+              "text": "Floating mid-air in the exit of the Great Hall"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: At the end of the banister"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "George used the Jelly-Legs curse on Goyle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Goblet of Fire started a series of deaths in the books. Who died in Goblet of Fire?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wormtail"
+            },
+            {
+              "id": "1",
+              "text": "Padfoot"
+            },
+            {
+              "id": "2",
+              "text": "Dumbledore"
+            },
+            {
+              "id": "3",
+              "text": "Cedric Diggory"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cedric Diggory"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Harry rescued Hermione from the Merpeople.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the novel Cristine, Dennis decides he does not like Christine, because, while sitting in it, he has a vision of the car and the surroundings as they would be in 1957 when the car was new.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Stephen Kings novel Bag of Bones, what is the location of the Noonans summer home?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sarah Laughs"
+            },
+            {
+              "id": "1",
+              "text": "Black House"
+            },
+            {
+              "id": "2",
+              "text": "Parilloud"
+            },
+            {
+              "id": "3",
+              "text": "Lewiston"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sarah Laughs"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Literature",
+          "percy",
+          "report",
+          "hermione",
+          "decides",
+          "chapter"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Wind and Movie",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, dudleys, opening. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In chapter 7 of Harry Potter and the Prisoner of Azkaban, titled The Boggart in the Wardrobe, a severed hand comes out of the wardrobe for Seamus Finnegan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The company that produced Gone with the Wind was fined because Rhett  Butler says the word damn in his famous line: Frankly my dear, I dont give a damn.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How much did David O. Selznick pay for the rights to the book Gone with the Wind?",
+          "options": [
+            {
+              "id": "0",
+              "text": "$5,000,000"
+            },
+            {
+              "id": "1",
+              "text": "nothing"
+            },
+            {
+              "id": "2",
+              "text": "$5,000"
+            },
+            {
+              "id": "3",
+              "text": "$50,000"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: $50,000"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who portrayed Ashley Wilkes in the popular movie Gone with the Wind?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gary Cooper"
+            },
+            {
+              "id": "1",
+              "text": "Groucho Marx"
+            },
+            {
+              "id": "2",
+              "text": "Leslie Howard"
+            },
+            {
+              "id": "3",
+              "text": "Voctor Jory"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Leslie Howard"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The producer of the movie Gone with the Wind was short of money and needed a male lead. With whom did he make a deal?",
+          "options": [
+            {
+              "id": "0",
+              "text": "With his father-in-law"
+            },
+            {
+              "id": "1",
+              "text": "With Columbia Films"
+            },
+            {
+              "id": "2",
+              "text": "With his father"
+            },
+            {
+              "id": "3",
+              "text": "With  United Artists"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: With his father-in-law"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who wrote the novel Gone With the Wind?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Margaret Mitchell"
+            },
+            {
+              "id": "1",
+              "text": "Pansey OHara"
+            },
+            {
+              "id": "2",
+              "text": "Ann Marie Tyler"
+            },
+            {
+              "id": "3",
+              "text": "Jacqueline Susan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Margaret Mitchell"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In chapter 24 of book 5, what breaks Snapes attempt to use Legilimency on Harry Potter?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fluffys attack on Harry, Hermione and Ron"
+            },
+            {
+              "id": "1",
+              "text": "The vision of Cedrics dead body"
+            },
+            {
+              "id": "2",
+              "text": "Voldemorts re-birth"
+            },
+            {
+              "id": "3",
+              "text": "The Dementors kiss on Sirius"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The vision of Cedrics dead body"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2000, Alice Randall wrote a new version of Gone With the Wind in which the story is told from the point of view of the slaves. What was the name of this novel?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Scarletts Troubles"
+            },
+            {
+              "id": "1",
+              "text": "Went With the Wind"
+            },
+            {
+              "id": "2",
+              "text": "The Wind Done Gone"
+            },
+            {
+              "id": "3",
+              "text": "Tomorrow Aint  Another Day"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Wind Done Gone"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three men are given credit as directors of the movie Gone with the Wind. Which one of the following directors is not among them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sam Wood"
+            },
+            {
+              "id": "1",
+              "text": "Raoul Walsh"
+            },
+            {
+              "id": "2",
+              "text": "George Cukor"
+            },
+            {
+              "id": "3",
+              "text": "Victor Fleming"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Raoul Walsh"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1962, the best known music theme from the movie Gone with the Wind often called Taras Theme, was made into a hit record on the pop charts. Which group had a 1962 hit with My Own True Love?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Coasters"
+            },
+            {
+              "id": "1",
+              "text": "The Dovells"
+            },
+            {
+              "id": "2",
+              "text": "The Duprees"
+            },
+            {
+              "id": "3",
+              "text": "The Shangri-Las"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Duprees"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What room does Harry Potter go to for his hearing in the 5th book of the series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Courtroom 10"
+            },
+            {
+              "id": "1",
+              "text": "Courtroom13"
+            },
+            {
+              "id": "2",
+              "text": "Courtroom 11"
+            },
+            {
+              "id": "3",
+              "text": "Courtroom 7"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Courtroom 10"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rons Christmas gift to Dobby in Harry Potter and the Goblet of Fire is a tea cozy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long does Dudleys tongue become, after eating Fred and Georges candies, in the fourth book of the Harry Potter series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1 ft."
+            },
+            {
+              "id": "1",
+              "text": "2 ft."
+            },
+            {
+              "id": "2",
+              "text": "2.5 ft."
+            },
+            {
+              "id": "3",
+              "text": "3 ft."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1 ft."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The weapon that Voldemort wanted in book 5 of the Harry Potter series was Harry.",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Excluding the opening music, the intermission, and exit music, how long does the movie Gone with the Wind run?",
+          "options": [
+            {
+              "id": "0",
+              "text": "148 minutes"
+            },
+            {
+              "id": "1",
+              "text": "127 minutes"
+            },
+            {
+              "id": "2",
+              "text": "180 minutes"
+            },
+            {
+              "id": "3",
+              "text": "222 minutes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 222 minutes"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "dudleys",
+          "opening",
+          "candies",
+          "rhett",
+          "chapter"
+        ]
+      }
+    }
+  ]
+}

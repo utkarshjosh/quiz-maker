@@ -1,0 +1,2524 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "History Quiz: Trenton and Time",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, title, trenton. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which king of England is not the title character of a Shakespearean play?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard III"
+            },
+            {
+              "id": "1",
+              "text": "Henry VIII"
+            },
+            {
+              "id": "2",
+              "text": "Henry VII"
+            },
+            {
+              "id": "3",
+              "text": "Richard II"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Henry VII"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was the Dutch Labour Party (S.D.A.P.) founded?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1850"
+            },
+            {
+              "id": "1",
+              "text": "1928"
+            },
+            {
+              "id": "2",
+              "text": "1894"
+            },
+            {
+              "id": "3",
+              "text": "1872"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1894"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the connection between Mary Stuart (Queen of Scots) and Bloody Mary (Queen of England)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mary Stuarts grandmother, Margaret Tudor, was an aunt of the English Mary."
+            },
+            {
+              "id": "1",
+              "text": "They were the same person."
+            },
+            {
+              "id": "2",
+              "text": "Bloody Mary had the Scottish Mary beheaded"
+            },
+            {
+              "id": "3",
+              "text": "They were both daughters of Henry VIII (but had different mothers)."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mary Stuarts grandmother, Margaret Tudor, was an aunt of the English Mary."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who became the first female Cabinet minister of Holland in 1956?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Kenau Hasselaar"
+            },
+            {
+              "id": "1",
+              "text": "Wilhelmina Drucker"
+            },
+            {
+              "id": "2",
+              "text": "Margarita Klompe"
+            },
+            {
+              "id": "3",
+              "text": "Aletta Jacobs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Margarita Klompe"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Netherlands, who headed the famous postwar Cabinet of 1948 - 1958?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Barend Biesheuvel"
+            },
+            {
+              "id": "1",
+              "text": "Victor Marynen"
+            },
+            {
+              "id": "2",
+              "text": "William Drees"
+            },
+            {
+              "id": "3",
+              "text": "Pieter Gerbrandy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: William Drees"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which great journey was funded by an English king?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Giovanni da Verrazzanos to Manhattan (1524)"
+            },
+            {
+              "id": "1",
+              "text": "Ferdinand Magellans round trip around the world (1519-1521)"
+            },
+            {
+              "id": "2",
+              "text": "Giovanni Cabotos to Newfoundland (1497)"
+            },
+            {
+              "id": "3",
+              "text": "Christopher Columbuss to the West Indies (1492)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Giovanni Cabotos to Newfoundland (1497)"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The commander of the Hessian Garrison during the Battle of Trenton was taken to Philadelphia where he was questioned by the Congress on January 7th, 1777.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Battle of Trenton lasted over three hours.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What period of time during the Eighty Years War (1568- 1648) is referred to as the Twelve Years Truce?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1635 to 1647"
+            },
+            {
+              "id": "1",
+              "text": "1598 to 1610"
+            },
+            {
+              "id": "2",
+              "text": "1569 to 1581"
+            },
+            {
+              "id": "3",
+              "text": "1609 to 1621"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1609 to 1621"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Holland means what in the ancient Dutch language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Land of  wood"
+            },
+            {
+              "id": "1",
+              "text": "Land of  palm trees"
+            },
+            {
+              "id": "2",
+              "text": "Land of  volcanoes"
+            },
+            {
+              "id": "3",
+              "text": "Land of  deserts"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Land of  wood"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Was there a second battle in the town of Trenton on January 17, 1777?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the time of the Battle of Trenton, some Hessians were quartered in a stone building that is now a Trenton museum. What is the name of this museum?",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Anthonys Church"
+            },
+            {
+              "id": "1",
+              "text": "The Old Barracks Museum"
+            },
+            {
+              "id": "2",
+              "text": "Battlefield House"
+            },
+            {
+              "id": "3",
+              "text": "The Stone House"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Old Barracks Museum"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Batavian led the ill-fated uprising against the Romans AD 69-70?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atilla"
+            },
+            {
+              "id": "1",
+              "text": "Claudius Civilis"
+            },
+            {
+              "id": "2",
+              "text": "Dipo Negoro"
+            },
+            {
+              "id": "3",
+              "text": "Spartacus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Claudius Civilis"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the time of the Battle of Trenton, the Hessian garrison numbered some 1500 men. Twenty soldiers were killed and eighty wounded. About how many soldiers were taken prisoner?",
+          "options": [
+            {
+              "id": "0",
+              "text": "250"
+            },
+            {
+              "id": "1",
+              "text": "900"
+            },
+            {
+              "id": "2",
+              "text": "75"
+            },
+            {
+              "id": "3",
+              "text": "600"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 900"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What were Washingtons passwords for the crossing of the Delaware River and the attack on Trenton?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Victory and Liberty"
+            },
+            {
+              "id": "1",
+              "text": "Liberty or Death"
+            },
+            {
+              "id": "2",
+              "text": "Victory or Death"
+            },
+            {
+              "id": "3",
+              "text": "Let Us Roll"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Victory or Death"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "title",
+          "trenton",
+          "period",
+          "cabinet",
+          "hours"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "History Quiz: Decade and James",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, globe, symphony. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who can be regarded as the only military dictator of England?",
+          "options": [
+            {
+              "id": "0",
+              "text": "England never had a dictator."
+            },
+            {
+              "id": "1",
+              "text": "Oliver Cromwell"
+            },
+            {
+              "id": "2",
+              "text": "Guy Fawkes"
+            },
+            {
+              "id": "3",
+              "text": "Winston Churchill"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Oliver Cromwell"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What decade saw the the end of the Enlightenment, the invention of canned food, and the publishing of the atomic theory?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1800s"
+            },
+            {
+              "id": "1",
+              "text": "1880s"
+            },
+            {
+              "id": "2",
+              "text": "1840s"
+            },
+            {
+              "id": "3",
+              "text": "1860s"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1800s"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The House of Windsor was founded by King George V in 1917 when he changed the name of his family to Windsor. What was the original name of his family?",
+          "options": [
+            {
+              "id": "0",
+              "text": "German"
+            },
+            {
+              "id": "1",
+              "text": "Dutch"
+            },
+            {
+              "id": "2",
+              "text": "Norman"
+            },
+            {
+              "id": "3",
+              "text": "Ancient English"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: German"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What decade was nicknamed the Mauve Decade, and saw the discovery of the X-rays by Wilhelm Rontgen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1920s"
+            },
+            {
+              "id": "1",
+              "text": "1940s"
+            },
+            {
+              "id": "2",
+              "text": "1820s"
+            },
+            {
+              "id": "3",
+              "text": "1890s"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1890s"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did Scotland unsuccessfully try to establish a colony?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uganda"
+            },
+            {
+              "id": "1",
+              "text": "Panama"
+            },
+            {
+              "id": "2",
+              "text": "Kiribati"
+            },
+            {
+              "id": "3",
+              "text": "Alaska"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Panama"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During this decade the first modern railway opened, and Beethovens Ninth Symphony premiered in Vienna.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1870s"
+            },
+            {
+              "id": "1",
+              "text": "1820s"
+            },
+            {
+              "id": "2",
+              "text": "1790s"
+            },
+            {
+              "id": "3",
+              "text": "1890s"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1820s"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who or what destroyed the Great Spanish Armada in 1588?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A hurricane off the coast of Ireland"
+            },
+            {
+              "id": "1",
+              "text": "Admiral Nelson at Trafalgar"
+            },
+            {
+              "id": "2",
+              "text": "Francis Drakes attack in the English Channel"
+            },
+            {
+              "id": "3",
+              "text": "Dutch warships"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A hurricane off the coast of Ireland"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What decade witnessed the publishing of Charles Darwins The Origin of Species, and the first official game of baseball?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1890s"
+            },
+            {
+              "id": "1",
+              "text": "1850s"
+            },
+            {
+              "id": "2",
+              "text": "1800s"
+            },
+            {
+              "id": "3",
+              "text": "1790s"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1850s"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The prototype telephone, the light bulb and the phonograph were all invented during this decade.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1840s"
+            },
+            {
+              "id": "1",
+              "text": "1820s"
+            },
+            {
+              "id": "2",
+              "text": "1870s"
+            },
+            {
+              "id": "3",
+              "text": "1890s"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1870s"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the last successful foreign invasion of Britain?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Spanish in 1588"
+            },
+            {
+              "id": "1",
+              "text": "Dutch in 1688"
+            },
+            {
+              "id": "2",
+              "text": "German in 1940"
+            },
+            {
+              "id": "3",
+              "text": "Norman in 1066"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dutch in 1688"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the connection between James I of England and James VI of Scotland?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Their boyish fight at St Andrews University sparked a war that eventually led to the unification of Scotland and England."
+            },
+            {
+              "id": "1",
+              "text": "They were the same person."
+            },
+            {
+              "id": "2",
+              "text": "James I was the great-grandfather of James VI."
+            },
+            {
+              "id": "3",
+              "text": "They were both illegitimate sons of Elisabeth I."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: They were the same person."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mark Twain published Adventures of Huckleberry Finn, and Robert Louis Stevenson published Treasure Island and The Strange Case of Dr Jekyll and Mr Hyde during this decade.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1850s"
+            },
+            {
+              "id": "1",
+              "text": "1780s"
+            },
+            {
+              "id": "2",
+              "text": "1820s"
+            },
+            {
+              "id": "3",
+              "text": "1880s"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1880s"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This decade saw the end of the Napoleonic Wars in Europe and the Year Without a Summer.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1780s"
+            },
+            {
+              "id": "1",
+              "text": "1870s"
+            },
+            {
+              "id": "2",
+              "text": "1810s"
+            },
+            {
+              "id": "3",
+              "text": "1900s"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1810s"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Shakespeares theater, The Globe, was destroyed by fire in 1613. Which Queen saw its reopening?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Elisabeth I"
+            },
+            {
+              "id": "1",
+              "text": "Anne"
+            },
+            {
+              "id": "2",
+              "text": "Victoria"
+            },
+            {
+              "id": "3",
+              "text": "Elisabeth II"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Elisabeth II"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When James, brother of king Charles II, married Mary of Modena, who was Catholic, the English Parliament wanted James to do what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Renounce his rights to the English throne"
+            },
+            {
+              "id": "1",
+              "text": "Force her to become Anglican or Presbyterian"
+            },
+            {
+              "id": "2",
+              "text": "Divorce her"
+            },
+            {
+              "id": "3",
+              "text": "Abstain from having sex with his wife"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Abstain from having sex with his wife"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "globe",
+          "symphony",
+          "windsor",
+          "enlightenment",
+          "decade"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "History Quiz: Attila and Hun",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, headquarters, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 5th century AD, a child hostage exchange was arranged, to keep peace between the Huns and the Romans.  Attila, future king of the Huns was sent to the Roman court in exchange for which Roman hostage?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Flavius Aetius"
+            },
+            {
+              "id": "1",
+              "text": "Bleda"
+            },
+            {
+              "id": "2",
+              "text": "Honorius"
+            },
+            {
+              "id": "3",
+              "text": "Flavius Constantinus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Flavius Aetius"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 453, Attila the Hun died in his room on the night of his wedding to which woman?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ildico"
+            },
+            {
+              "id": "1",
+              "text": "Kriemhild"
+            },
+            {
+              "id": "2",
+              "text": "Honoria"
+            },
+            {
+              "id": "3",
+              "text": "Gudrun"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Ildico"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the relationship between Attila and Bleda who ruled the Huns together until 445?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They were not related"
+            },
+            {
+              "id": "1",
+              "text": "They were cousins"
+            },
+            {
+              "id": "2",
+              "text": "They were brothers"
+            },
+            {
+              "id": "3",
+              "text": "They were father and son"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: They were brothers"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was the assault rifle invented?",
+          "options": [
+            {
+              "id": "0",
+              "text": "in Italy"
+            },
+            {
+              "id": "1",
+              "text": "in Mexico"
+            },
+            {
+              "id": "2",
+              "text": "in Germany"
+            },
+            {
+              "id": "3",
+              "text": "in Russia"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: in Italy"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Honoria, sister of the Roman Emperor, broke the peaceful relations between Rome and Attila the Hun  by trying to do what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marry Valentinian III"
+            },
+            {
+              "id": "1",
+              "text": "Kill Attila"
+            },
+            {
+              "id": "2",
+              "text": "Kill Valentinian III"
+            },
+            {
+              "id": "3",
+              "text": "Marry Attila"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Marry Attila"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 452, this influential Roman Pope participated in the negotiations with the Huns near Mantua and dissuaded Attila the Hun from devastating Rome.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pope Leo I"
+            },
+            {
+              "id": "1",
+              "text": "Pope Urban III"
+            },
+            {
+              "id": "2",
+              "text": "Pope Benedict V"
+            },
+            {
+              "id": "3",
+              "text": "Pope Nicholas II"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pope Leo I"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In World War I, the machine gun combined with this invention was responsible for most of the battle casualties.",
+          "options": [
+            {
+              "id": "0",
+              "text": "James Gliddens invention"
+            },
+            {
+              "id": "1",
+              "text": "Samuel Colts invention"
+            },
+            {
+              "id": "2",
+              "text": "James Puckles invention"
+            },
+            {
+              "id": "3",
+              "text": "Alfred Nobels invention"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: James Gliddens invention"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Attila the Huns palace and headquarters in Europe were situated on the territory of which modern country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Greece"
+            },
+            {
+              "id": "1",
+              "text": "Spain"
+            },
+            {
+              "id": "2",
+              "text": "Bulgaria"
+            },
+            {
+              "id": "3",
+              "text": "Hungary"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hungary"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During this decade the submarine was invented, Alfred Nobel invented dynamite, and the American Civil War broke.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1890s"
+            },
+            {
+              "id": "1",
+              "text": "1830s"
+            },
+            {
+              "id": "2",
+              "text": "1810s"
+            },
+            {
+              "id": "3",
+              "text": "1860s"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1860s"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 451, Flavius A\u00ebtius, in alliance with the Visigoths, finally defeated Attila the Hun. Where did the famous battle take place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Near the Volga river"
+            },
+            {
+              "id": "1",
+              "text": "In the Transilvanian woods"
+            },
+            {
+              "id": "2",
+              "text": "Near the Black Sea"
+            },
+            {
+              "id": "3",
+              "text": "On the Catalaunian Fields"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: On the Catalaunian Fields"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To form an alliance against Attilas Huns, in 451 the Romans combined armies with which Visigoth leader?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sigfrid II"
+            },
+            {
+              "id": "1",
+              "text": "Athelred"
+            },
+            {
+              "id": "2",
+              "text": "Harald"
+            },
+            {
+              "id": "3",
+              "text": "Theodoric I"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Theodoric I"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In this Germanic legend, turned into an operatic tetralogy by Richard Wagner, Attila the Hun appears by the name Etzel.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Havamal"
+            },
+            {
+              "id": "1",
+              "text": "The Poems of Ossian"
+            },
+            {
+              "id": "2",
+              "text": "Silmarillion"
+            },
+            {
+              "id": "3",
+              "text": "Song of the Nibelungen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Song of the Nibelungen"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Because of the plundering and devastations across Europe, Attila the Hun came to be called by what nickname?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Scourge of God"
+            },
+            {
+              "id": "1",
+              "text": "The Savage"
+            },
+            {
+              "id": "2",
+              "text": "The King of War"
+            },
+            {
+              "id": "3",
+              "text": "The Bane of the Huns"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Scourge of God"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This decade saw the first postage stamp, the first electrical telegraph and the first use of general anesthesia in an operation.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1890s"
+            },
+            {
+              "id": "1",
+              "text": "1780s"
+            },
+            {
+              "id": "2",
+              "text": "1860s"
+            },
+            {
+              "id": "3",
+              "text": "1840s"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1840s"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He said: If you want to make a lot of money, invent something that will enable Europeans to cut each others throats.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hiram Maxim"
+            },
+            {
+              "id": "1",
+              "text": "Thomas  Alva Edison"
+            },
+            {
+              "id": "2",
+              "text": "James Puckle"
+            },
+            {
+              "id": "3",
+              "text": "Leonardo Da Vinci"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hiram Maxim"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "headquarters",
+          "world",
+          "huns",
+          "dynamite",
+          "assault"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "History Quiz: Invention and Telegram",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, leader, truman. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these European nations did not come under Soviet domination in the five years following the end of World War Two?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Romania"
+            },
+            {
+              "id": "1",
+              "text": "Yugoslavia"
+            },
+            {
+              "id": "2",
+              "text": "Czechoslovakia"
+            },
+            {
+              "id": "3",
+              "text": "Poland"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yugoslavia"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1946 George Kennan, a Russian specialist in the US embassy in Moscow, sent a long telegram to Washington. His telegram was very persuasive and is given much credit for the US adopting this kind of policy.",
+          "options": [
+            {
+              "id": "0",
+              "text": "policy of conciliation"
+            },
+            {
+              "id": "1",
+              "text": "policy of confrontation"
+            },
+            {
+              "id": "2",
+              "text": "policy of containment"
+            },
+            {
+              "id": "3",
+              "text": "policy of isolationism"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: policy of containment"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following was invented by Hiram Maxim?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The automatic pistol"
+            },
+            {
+              "id": "1",
+              "text": "The sniper rifle"
+            },
+            {
+              "id": "2",
+              "text": "The silencer"
+            },
+            {
+              "id": "3",
+              "text": "The assault  rifle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The silencer"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Marshall Plan of 1947 offered massive economic aid to help war-devastated nations in Europe. However, communist controlled Eastern Europe received none of the aid for what reason?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The US Congress stipulated that no aid could be given to communist nations."
+            },
+            {
+              "id": "1",
+              "text": "Western European nations refused to participate in the plan if Eastern European communist nations were included."
+            },
+            {
+              "id": "2",
+              "text": "The Soviet dictator Stalin refused to allow any communist controlled nation of Eastern Europe to receive Marshall Plan aid"
+            },
+            {
+              "id": "3",
+              "text": "War damage in Eastern Europe was relatively small."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Soviet dictator Stalin refused to allow any communist controlled nation of Eastern Europe to receive Marshall Plan aid"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the main purpose of the Truman Doctrine, that was first announced in 1947?",
+          "options": [
+            {
+              "id": "0",
+              "text": "containment of communism"
+            },
+            {
+              "id": "1",
+              "text": "US support for the United Nations Organization for maintaining world peace"
+            },
+            {
+              "id": "2",
+              "text": "keeping the US isolated from conflicts in Europe and Asia"
+            },
+            {
+              "id": "3",
+              "text": "economic aid to European allies and Japan"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: containment of communism"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The operational jet fighter was invented during this war.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Spanish Revolution"
+            },
+            {
+              "id": "1",
+              "text": "The Korean War"
+            },
+            {
+              "id": "2",
+              "text": "World War I"
+            },
+            {
+              "id": "3",
+              "text": "World War II"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: World War II"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who did Soviet leader Joseph Stalin appoint as his successor before his death in 1953?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nobody"
+            },
+            {
+              "id": "1",
+              "text": "Khrushchev"
+            },
+            {
+              "id": "2",
+              "text": "Bulganin"
+            },
+            {
+              "id": "3",
+              "text": "Beria"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nobody"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the first automatic revolver produced?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Between 1889 and 1891"
+            },
+            {
+              "id": "1",
+              "text": "Between 1923 and 1924"
+            },
+            {
+              "id": "2",
+              "text": "Between 1901 and 1903"
+            },
+            {
+              "id": "3",
+              "text": "Between 1961 and 1963"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Between 1901 and 1903"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why did President Truman relieve General MacArthur of command of UN forces in the Korean War?",
+          "options": [
+            {
+              "id": "0",
+              "text": "because MacArthur wanted to withdraw all UN forces below the 38th parallel in Korea"
+            },
+            {
+              "id": "1",
+              "text": "because MacArthur publicly criticized his commander-in-chiefs (President Trumans) policy of limited war in Korea"
+            },
+            {
+              "id": "2",
+              "text": "because MacArthur refused to allow bombing attacks on communist bases in China"
+            },
+            {
+              "id": "3",
+              "text": "because MacArthur advocated counterattacking communist forces in Europe to relieve pressure on Korea"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: because MacArthur publicly criticized his commander-in-chiefs (President Trumans) policy of limited war in Korea"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the odd one out?",
+          "options": [
+            {
+              "id": "0",
+              "text": "SWORDS"
+            },
+            {
+              "id": "1",
+              "text": "Dragon"
+            },
+            {
+              "id": "2",
+              "text": "Predator"
+            },
+            {
+              "id": "3",
+              "text": "TALON"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dragon"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year was the first mass produced multishot pistol patented?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1912"
+            },
+            {
+              "id": "1",
+              "text": "1835"
+            },
+            {
+              "id": "2",
+              "text": "1862"
+            },
+            {
+              "id": "3",
+              "text": "1879"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1835"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was responsible for the invention of the caterpillar tractor, which was the basis of the tank.",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Deere"
+            },
+            {
+              "id": "1",
+              "text": "James B. Hill"
+            },
+            {
+              "id": "2",
+              "text": "James Puckle"
+            },
+            {
+              "id": "3",
+              "text": "Samuel Browning"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: James B. Hill"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Although it  looks a lot like the World War II bazooka, the US Army Javelin anti-armor weapon has this advantage over other weapons of its type.",
+          "options": [
+            {
+              "id": "0",
+              "text": "It is only 50% the weight of similar weapons."
+            },
+            {
+              "id": "1",
+              "text": "It uses much cheaper munitions."
+            },
+            {
+              "id": "2",
+              "text": "It leaves no heat  trail."
+            },
+            {
+              "id": "3",
+              "text": "It is about 50% the cost of similar weapons."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: It leaves no heat  trail."
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why is the Borchardt pistol of 1893 considered an important invention?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It was the first pistol to have a separate ammo magazine."
+            },
+            {
+              "id": "1",
+              "text": "It was the first pistol approved for use by the Swiss Guard to help guard the Pope."
+            },
+            {
+              "id": "2",
+              "text": "It was the first pistol that was not made of metal."
+            },
+            {
+              "id": "3",
+              "text": "It was the first pistol to have an effective range of over 60 yards."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: It was the first pistol to have a separate ammo magazine."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was a telescopic sight first put on a rifle?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1931"
+            },
+            {
+              "id": "1",
+              "text": "1880"
+            },
+            {
+              "id": "2",
+              "text": "1789"
+            },
+            {
+              "id": "3",
+              "text": "1939"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1880"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "leader",
+          "truman",
+          "invention",
+          "maxim",
+          "sight"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "History Quiz: World War and Shrapnel",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, shrapnel, june. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What two Japanese carriers attacked the Aleutian islands on June 3rd 1942?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zuikaku and Shokaku"
+            },
+            {
+              "id": "1",
+              "text": "Junyo and Ryujo"
+            },
+            {
+              "id": "2",
+              "text": "Junyo and Soryu"
+            },
+            {
+              "id": "3",
+              "text": "Soryu and Shokaku"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Junyo and Ryujo"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What European nation received US aid  to try to put down the communist insurgency in Indochina in the late 1940s and early 1950s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Britain"
+            },
+            {
+              "id": "1",
+              "text": "Netherlands"
+            },
+            {
+              "id": "2",
+              "text": "Belgium"
+            },
+            {
+              "id": "3",
+              "text": "France"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: France"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these were known as Stalins Organs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "DPM"
+            },
+            {
+              "id": "1",
+              "text": "The MIG-3 fighter"
+            },
+            {
+              "id": "2",
+              "text": "Katyusha Rocket Launchers"
+            },
+            {
+              "id": "3",
+              "text": "The T-34 tank"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Katyusha Rocket Launchers"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did General Mark Wayne Clark die?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Charleston, South Carolina, USA"
+            },
+            {
+              "id": "1",
+              "text": "London, England"
+            },
+            {
+              "id": "2",
+              "text": "Munich, Germany"
+            },
+            {
+              "id": "3",
+              "text": "Naples, Italy"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Charleston, South Carolina, USA"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How long did the United States keep the monopoly on the atomic bomb?",
+          "options": [
+            {
+              "id": "0",
+              "text": "four years until 1949"
+            },
+            {
+              "id": "1",
+              "text": "seven years until 1952"
+            },
+            {
+              "id": "2",
+              "text": "one year until 1946"
+            },
+            {
+              "id": "3",
+              "text": "ten years until 1955"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: four years until 1949"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many Americans were killed in the capture of Makin Atoll in 1943?",
+          "options": [
+            {
+              "id": "0",
+              "text": "218"
+            },
+            {
+              "id": "1",
+              "text": "66"
+            },
+            {
+              "id": "2",
+              "text": "37"
+            },
+            {
+              "id": "3",
+              "text": "152"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 66"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the military alliance made up of the Soviet Union and the communist nations of Eastern Europe.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Commintern"
+            },
+            {
+              "id": "1",
+              "text": "The Moscow Treaty Organization"
+            },
+            {
+              "id": "2",
+              "text": "The Warsaw Pact"
+            },
+            {
+              "id": "3",
+              "text": "The Alliance of Socialist Nations"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Warsaw Pact"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For a few years in the mid-1950s relations between the Soviet Union and the United States became less tense.  What is this period of time called?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the thaw"
+            },
+            {
+              "id": "1",
+              "text": "the age of reason"
+            },
+            {
+              "id": "2",
+              "text": "detente"
+            },
+            {
+              "id": "3",
+              "text": "the good years"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the thaw"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is the best reason why the KMT (Nationalists) under Chiang Kai-shek were defeated by the communists in the civil war following World War Two and forced to flee to Taiwan in 1949?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The only support for the KMT was from Chinese peasants."
+            },
+            {
+              "id": "1",
+              "text": "The US refused to give any aid to the KMT."
+            },
+            {
+              "id": "2",
+              "text": "The communist forces greatly outnumbered the KTM and were better equipped."
+            },
+            {
+              "id": "3",
+              "text": "There was much corruption and inefficiency in the KMT leadership."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: There was much corruption and inefficiency in the KMT leadership."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who developed the deadly V-2 combat rocket during World War II and where was it built?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Voelker, Nordhausen"
+            },
+            {
+              "id": "1",
+              "text": "Albert Einstein, Hamburg"
+            },
+            {
+              "id": "2",
+              "text": "Heinrich Gerstrond, Frankfurt"
+            },
+            {
+              "id": "3",
+              "text": "Werner von Braun, Nordhausen"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Werner von Braun, Nordhausen"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What general was killed by shrapnel in the Battle of Okinawa in 1945?",
+          "options": [
+            {
+              "id": "0",
+              "text": "General Jonathan Wainwright"
+            },
+            {
+              "id": "1",
+              "text": "General Simon Buckner, Jr."
+            },
+            {
+              "id": "2",
+              "text": "General Douglas MacArthur"
+            },
+            {
+              "id": "3",
+              "text": "General Walter Krueger"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: General Simon Buckner, Jr."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did Joseph Goebbels, one of Hitlers closest associates, earned his PH.D.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "University of Basel"
+            },
+            {
+              "id": "1",
+              "text": "Berlin University"
+            },
+            {
+              "id": "2",
+              "text": "Heidelberg University"
+            },
+            {
+              "id": "3",
+              "text": "University of Rostock"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Heidelberg University"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nickname of the Italian Royal Army officer who led military expeditions in Africa during World War II?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the Killer of Libya"
+            },
+            {
+              "id": "1",
+              "text": "the Butcher of Ethiopia"
+            },
+            {
+              "id": "2",
+              "text": "the Murderer of Ethiopia"
+            },
+            {
+              "id": "3",
+              "text": "the Slaughterer of Libya"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: the Butcher of Ethiopia"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What two US Presidents served during the first decade of the Cold War?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Roosevelt, Truman"
+            },
+            {
+              "id": "1",
+              "text": "Eisenhower, Kennedy"
+            },
+            {
+              "id": "2",
+              "text": "Kennedy, Nixon"
+            },
+            {
+              "id": "3",
+              "text": "Truman, Eisenhower"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Truman, Eisenhower"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was in charge of the 1st Polish Independent Parachute Brigade during operation Market Garden?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Major General Roy Urquhart"
+            },
+            {
+              "id": "1",
+              "text": "Major General Sosabowski"
+            },
+            {
+              "id": "2",
+              "text": "Lieutenant General Brian Horrocks"
+            },
+            {
+              "id": "3",
+              "text": "Brigadier General Hackett"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Major General Sosabowski"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "shrapnel",
+          "june",
+          "presidents",
+          "world",
+          "stalins"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "History Quiz: People and Cuba",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, people, eyebrows. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It was believed in the Middle Ages that dilated pupils are infinitely enchanting. To dilate their pupils people used the juice of this plant as eye drops.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Water lily"
+            },
+            {
+              "id": "1",
+              "text": "Poisonous ivy"
+            },
+            {
+              "id": "2",
+              "text": "Belladonna"
+            },
+            {
+              "id": "3",
+              "text": "Nettle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Belladonna"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Middle Ages, the large forehead was considered a sign of grandeur and wisdom thats why people used this common method to enlarge their foreheads.",
+          "options": [
+            {
+              "id": "0",
+              "text": "They shaved off a strip of hear above the forehead."
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "They bleached the hairline above the forehead."
+            },
+            {
+              "id": "3",
+              "text": "They plucked the hair above their forehead."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They plucked the hair above their forehead."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These marks were a huge craze in the Middle Ages.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pimples"
+            },
+            {
+              "id": "1",
+              "text": "Moles"
+            },
+            {
+              "id": "2",
+              "text": "Warts"
+            },
+            {
+              "id": "3",
+              "text": "Scars"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Moles"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did the Cuban Missile Crisis occur?",
+          "options": [
+            {
+              "id": "0",
+              "text": "April 1963"
+            },
+            {
+              "id": "1",
+              "text": "November 1961"
+            },
+            {
+              "id": "2",
+              "text": "October 1962"
+            },
+            {
+              "id": "3",
+              "text": "August 1964"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: October 1962"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For medieval people beauty marks had very special meanings. Which of these statements is true?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Beauty marks above the lip meant coquetry."
+            },
+            {
+              "id": "2",
+              "text": "Beauty marks around the eyes meant passion."
+            },
+            {
+              "id": "3",
+              "text": "Beauty marks on the forehead meant grandeur."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The US  became convinced that Soviet nuclear missiles were in Cuba by which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "photos taken by a U-2 spy plane"
+            },
+            {
+              "id": "1",
+              "text": "a Cuban defectors report and pictures of missiles sites"
+            },
+            {
+              "id": "2",
+              "text": "a CIA spys report"
+            },
+            {
+              "id": "3",
+              "text": "Soviet announcement of the instillation of nuclear missiles in Cuba"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: photos taken by a U-2 spy plane"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is true about medieval makeup?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Makeup was very heavy and greasy and clogged the skin pores."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Both men and women used makeup."
+            },
+            {
+              "id": "3",
+              "text": "Makeup was applied very generously."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Medieval people had very weird tastes when it came to eyebrows. Artificial eyebrows made from this material were in fashion.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mouse skin"
+            },
+            {
+              "id": "1",
+              "text": "Horse skin"
+            },
+            {
+              "id": "2",
+              "text": "Feathers"
+            },
+            {
+              "id": "3",
+              "text": "Silk fabric"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Mouse skin"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What did people do in medieval times to make their skin appear more translucent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They painted blood vessels on their skin."
+            },
+            {
+              "id": "1",
+              "text": "They used medications to enlarge their blood vessels."
+            },
+            {
+              "id": "2",
+              "text": "They never liked translucent skin."
+            },
+            {
+              "id": "3",
+              "text": "They made cuts in their skin."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They painted blood vessels on their skin."
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the leaders of the US and the Soviet Union during the Cuban Missile Crisis?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johnson, Brezhnev"
+            },
+            {
+              "id": "1",
+              "text": "Johnson, Khrushchev"
+            },
+            {
+              "id": "2",
+              "text": "Kennedy, Khrushchev"
+            },
+            {
+              "id": "3",
+              "text": "Eisenhower, Stalin"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kennedy, Khrushchev"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the Cold War, in the first week after discovering the nuclear missiles in Cuba, the US did which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "debated with the Soviet Union in the United Nation concerning the legality of the nuclear missiles in Cuba"
+            },
+            {
+              "id": "1",
+              "text": "demanded immediate withdrawal of the missiles or the US would invade Cuba"
+            },
+            {
+              "id": "2",
+              "text": "threatened nuclear attack on the Soviet Union if the Soviet nuclear missiles were not removed from Cuba"
+            },
+            {
+              "id": "3",
+              "text": "made no public mention of the missiles in Cuba"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: made no public mention of the missiles in Cuba"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the Middle Ages this type of complexion was very fashionable and everybody was trying to achieve it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yellowish skin"
+            },
+            {
+              "id": "1",
+              "text": "Dead-pale white skin"
+            },
+            {
+              "id": "2",
+              "text": "Bronze sunkissed tan"
+            },
+            {
+              "id": "3",
+              "text": "Flushed pinkish complexion"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Dead-pale white skin"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the Dark Ages, this magical ingredient was put into creams because it helped people achieve the desired complexion.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sulfur"
+            },
+            {
+              "id": "1",
+              "text": "Lead"
+            },
+            {
+              "id": "2",
+              "text": "Carbon"
+            },
+            {
+              "id": "3",
+              "text": "Copper"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lead"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the Cuban Missile Crisis, the US President and his advisors ultimately decided that their best immediate response to the Soviet nuclear missiles in Cuba would be to blockade Cuba. Why did they think this was the best decision?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Stronger measures such as bombing the missile sites could later be used if the blockade failed."
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "The US had superior naval and military power in the Caribbean area."
+            },
+            {
+              "id": "3",
+              "text": "A blockade was less likely to risk nuclear war than other options under consideration."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This hair color was very fashionable in medieval times. Women applied special mixtures to their hair and stayed in the sunlight for hours to achieve it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chocolate Brown"
+            },
+            {
+              "id": "1",
+              "text": "Platinum blonde"
+            },
+            {
+              "id": "2",
+              "text": "Deep red"
+            },
+            {
+              "id": "3",
+              "text": "Venetian blonde"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Venetian blonde"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "people",
+          "eyebrows",
+          "following",
+          "marks",
+          "tastes"
+        ]
+      }
+    }
+  ]
+}

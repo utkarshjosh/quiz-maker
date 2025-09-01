@@ -1,0 +1,2364 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Geography Quiz: View and Following",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, annan, drama. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country conducted nuclear tests in 2006 and 2009, triggering widespread international condemnation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "China"
+            },
+            {
+              "id": "1",
+              "text": "Russia"
+            },
+            {
+              "id": "2",
+              "text": "Iraq"
+            },
+            {
+              "id": "3",
+              "text": "North Korea"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: North Korea"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What invasion did Kofi Annan, the Secretary General of the UN, refer to when saying, I have indicated it was not in conformity with the UN Charter. From our point of view, from the Charter point of view, it was illegal.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the Afghanistan War"
+            },
+            {
+              "id": "1",
+              "text": "the Chechen War"
+            },
+            {
+              "id": "2",
+              "text": "the 2003 Invasion of Iraq"
+            },
+            {
+              "id": "3",
+              "text": "the U.S. Special Forces Attack on al-Qaida in Somalia"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: the 2003 Invasion of Iraq"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During WWII Errol Flynn tried to enlist in the US armed forces.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who did Barak Obama defeat in the 2008 general election to become the first African American President?",
+          "options": [
+            {
+              "id": "0",
+              "text": "none of these"
+            },
+            {
+              "id": "1",
+              "text": "John McCain"
+            },
+            {
+              "id": "2",
+              "text": "Hilary Clinton"
+            },
+            {
+              "id": "3",
+              "text": "George W. Bush"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John McCain"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who succeeded Fidel Castro when he resigned from office in February 2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "his brother Raul Castro"
+            },
+            {
+              "id": "1",
+              "text": "his spouse Mirta Diaz-Balart"
+            },
+            {
+              "id": "2",
+              "text": "his son Alejandro Castro"
+            },
+            {
+              "id": "3",
+              "text": "Hugo Chavez"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: his brother Raul Castro"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Errol Flynn born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Edinburgh, Scotland"
+            },
+            {
+              "id": "1",
+              "text": "Perth, Australia"
+            },
+            {
+              "id": "2",
+              "text": "Copperstown, NY"
+            },
+            {
+              "id": "3",
+              "text": "Hobart, Tasmania"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Hobart, Tasmania"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not among the founders of Facebook, the leading social networking site of the 2000s?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dustin Moskovitz"
+            },
+            {
+              "id": "1",
+              "text": "Eduardo Saverin"
+            },
+            {
+              "id": "2",
+              "text": "Mark Zuckerberg"
+            },
+            {
+              "id": "3",
+              "text": "Sean Parker"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sean Parker"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who do the following words belong to: We will rebuild. Were going to come out of this stronger than before, politically stronger, economically stronger. The skyline will be made whole again?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sarah Palin"
+            },
+            {
+              "id": "1",
+              "text": "Rudy Giuliani"
+            },
+            {
+              "id": "2",
+              "text": "George W. Bush"
+            },
+            {
+              "id": "3",
+              "text": "Barack Obama"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Rudy Giuliani"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What war was launched in 2001 as Operation Enduring Freedom?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the War in Afghanistan"
+            },
+            {
+              "id": "1",
+              "text": "the War in Somalia"
+            },
+            {
+              "id": "2",
+              "text": "the Bosnian War"
+            },
+            {
+              "id": "3",
+              "text": "the War in Iraq"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the War in Afghanistan"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the time of its release in 2009, this movie, directed by James Cameron, became the highest-grossing movie of all time.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Avatar"
+            },
+            {
+              "id": "1",
+              "text": "300"
+            },
+            {
+              "id": "2",
+              "text": "The Matrix"
+            },
+            {
+              "id": "3",
+              "text": "The Lord of the Rings: The Return of the King"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Avatar"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the producer of \u201cThe Rookies\u201d and \u201cCharlies Angels\u201d.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aaron Spelling"
+            },
+            {
+              "id": "1",
+              "text": "George Lukas"
+            },
+            {
+              "id": "2",
+              "text": "Ivan Reitman"
+            },
+            {
+              "id": "3",
+              "text": "Steven Spielberg"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Aaron Spelling"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This film producer, director, screenwriter and voice actor, born in Chicago, Illinois, founded one of the largest entertainment companies in the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "George Lucas"
+            },
+            {
+              "id": "1",
+              "text": "Steven Spielberg"
+            },
+            {
+              "id": "2",
+              "text": "Walt Disney"
+            },
+            {
+              "id": "3",
+              "text": "Don Simpson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Walt Disney"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following was declassified as a planet in 2006 by the International Astronomical Union?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uranus"
+            },
+            {
+              "id": "1",
+              "text": "Pluto"
+            },
+            {
+              "id": "2",
+              "text": "Mercury"
+            },
+            {
+              "id": "3",
+              "text": "Neptune"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pluto"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He directed, produced and co-wrote the drama movie Eyes Wide Shut.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brian De Palma"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "James Cameron"
+            },
+            {
+              "id": "3",
+              "text": "Stanley Kubrick"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Stanley Kubrick"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2001, this engineer and multimillionaire became the first fee-paying space tourist when he visited the International Space Station (ISS) for seven days.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Denis Tito"
+            },
+            {
+              "id": "1",
+              "text": "Charles Bolden"
+            },
+            {
+              "id": "2",
+              "text": "Gregory Olsen"
+            },
+            {
+              "id": "3",
+              "text": "Mark Shuttleworth"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Denis Tito"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "annan",
+          "drama",
+          "election",
+          "defeat",
+          "country"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Movies and Spanish American War",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, independence, land. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What politician received much publicity during the Spanish-American War that later contributed to his becoming President of the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "William McKinley"
+            },
+            {
+              "id": "1",
+              "text": "Woodrow Wilson"
+            },
+            {
+              "id": "2",
+              "text": "Franklin Roosevelt"
+            },
+            {
+              "id": "3",
+              "text": "Theodore Roosevelt"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Theodore Roosevelt"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these movies was written and directed by George Lucas?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Star Wars"
+            },
+            {
+              "id": "1",
+              "text": "Gothika"
+            },
+            {
+              "id": "2",
+              "text": "Bad Boys"
+            },
+            {
+              "id": "3",
+              "text": "Top Gun"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Star Wars"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of the causes of the Spanish-American War was Spanish mistreatment of natives in this Spanish colony.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hawaii"
+            },
+            {
+              "id": "1",
+              "text": "Cuba"
+            },
+            {
+              "id": "2",
+              "text": "Mexico"
+            },
+            {
+              "id": "3",
+              "text": "Panama"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cuba"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "By 1897\u201398 many Americans were influenced in favor of war with Spain because of stories in some US newspapers about atrocities and misdeeds of the Spanish, which were usually exaggerated or made up. Such newspapers were know at the time as which of the following?",
+          "options": [
+            {
+              "id": "0",
+              "text": "wildcat press"
+            },
+            {
+              "id": "1",
+              "text": "tabloids"
+            },
+            {
+              "id": "2",
+              "text": "yellow press"
+            },
+            {
+              "id": "3",
+              "text": "broadsides"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: yellow press"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The movies Forrest Gump, The Polar Express and Bewulf were directed by Robert Zemeckis.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When Emilio Aguinaldo realized that the US did not intend to give full independence to his country after the Spanish-American War, he led a revolt against the US in what place?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hawaii"
+            },
+            {
+              "id": "1",
+              "text": "Puerto Rico"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Philippines"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Philippines"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these movies was directed by Martin Scorsese?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Aviator (2004)"
+            },
+            {
+              "id": "1",
+              "text": "New York, New York (1977)"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Goodfellas (1990)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "About how long was the Spanish-American War and in what year did it break out?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Three months; 1898"
+            },
+            {
+              "id": "1",
+              "text": "0ne year; 1890"
+            },
+            {
+              "id": "2",
+              "text": "Ten months; 1885"
+            },
+            {
+              "id": "3",
+              "text": "Six months; 1903"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Three months; 1898"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these movies directed by Francis Ford Coppola won an Academy Award for Best Picture?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Apocalypse Now"
+            },
+            {
+              "id": "1",
+              "text": "American Graffiti"
+            },
+            {
+              "id": "2",
+              "text": "The Godfather"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Godfather"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which action film, primarily set on Alcatraz Island, is dedicated to producer Don Simpson who died five months before its release?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Murder in the First (1995)"
+            },
+            {
+              "id": "1",
+              "text": "Birdman of Alcatraz (1962)"
+            },
+            {
+              "id": "2",
+              "text": "The Rock (1996)"
+            },
+            {
+              "id": "3",
+              "text": "Escape from Alcatraz (1979)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Rock (1996)"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Steven Spielberg directed the movie Close Encounters of The Third Kind.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did most of the land fighting against the Spanish take place during the Spanish-American War?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Philippines"
+            },
+            {
+              "id": "1",
+              "text": "Cuba"
+            },
+            {
+              "id": "2",
+              "text": "Puerto Rico"
+            },
+            {
+              "id": "3",
+              "text": "Spain"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Cuba"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the beginning of the Spanish-American War a modern American fleet quickly and decisively defeated a somewhat antiquated Spanish fleet. Near what city was this early American victory?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Manila"
+            },
+            {
+              "id": "1",
+              "text": "Santiago"
+            },
+            {
+              "id": "2",
+              "text": "San Juan"
+            },
+            {
+              "id": "3",
+              "text": "Havana"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Manila"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One cause of the Spanish American War was the explosion of an American battleship in Cuban waters. The sensationalist newspapers and many Americans blamed the sinking of this battleship on the Spanish (although later evidence seems to support the innocence of the Spanish). What was the name of the battleship?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Florida"
+            },
+            {
+              "id": "1",
+              "text": "North Carolina"
+            },
+            {
+              "id": "2",
+              "text": "Maine"
+            },
+            {
+              "id": "3",
+              "text": "Missouri"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Maine"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Canadian director and producer created the comedy movie Ghostbusters?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Robert Zemeckis"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Spike Lee"
+            },
+            {
+              "id": "3",
+              "text": "Ivan Reitman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ivan Reitman"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "independence",
+          "land",
+          "martin",
+          "emilio",
+          "ford"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Geography Quiz: Marlene Dietrich and Movie",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, marry, sculpture. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Morocco (1930) was Marlene Dietrichs first American film.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who did Marlene Dietrich marry in 1924?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Bay"
+            },
+            {
+              "id": "1",
+              "text": "Richard Bartlett"
+            },
+            {
+              "id": "2",
+              "text": "Albert Band"
+            },
+            {
+              "id": "3",
+              "text": "Rudolf Sieber"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rudolf Sieber"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As a result of the treaty ending the Spanish-American War, the US received all of the following territories EXCEPT this one.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hawaii"
+            },
+            {
+              "id": "1",
+              "text": "Puerto Rico"
+            },
+            {
+              "id": "2",
+              "text": "Guam"
+            },
+            {
+              "id": "3",
+              "text": "Philippines"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Hawaii"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What movie, set in post-World War I Berlin, featured Marlene Dietrich in her last screen appearance?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rancho Notorious"
+            },
+            {
+              "id": "1",
+              "text": "Touch of Evil"
+            },
+            {
+              "id": "2",
+              "text": "The Monte Carlo Story"
+            },
+            {
+              "id": "3",
+              "text": "Just a Gigolo"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Just a Gigolo"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Marlene Dietrich movie is set in 1931, during a civil war?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Ship of Lost Men"
+            },
+            {
+              "id": "1",
+              "text": "I Kiss Your Hand, Madame"
+            },
+            {
+              "id": "2",
+              "text": "The Little Napoleon"
+            },
+            {
+              "id": "3",
+              "text": "Shanghai Express"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Shanghai Express"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The famous Statue of David by Michelangelo was created at the beginning of 16 century.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Thinker is a stone statue created by Auguste Rodin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The following words were spoken by Marlene Dietrich:",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the famous sculpture Pieta by Michelangelo represent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Virgin Mary holding the body of her son Jesus Christ after his death"
+            },
+            {
+              "id": "1",
+              "text": "A girl holding the bowls as a weighing of good and evil"
+            },
+            {
+              "id": "2",
+              "text": "A lady holding a sword in a one hand and scales in the other"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Virgin Mary holding the body of her son Jesus Christ after his death"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1999, Marlene Dietrich was named the ninth greatest female star of all time by the American Film institute.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following films does not star Marlene Dietrich?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Monkey Business"
+            },
+            {
+              "id": "1",
+              "text": "Shanghai Express"
+            },
+            {
+              "id": "2",
+              "text": "The Scarlet Empress"
+            },
+            {
+              "id": "3",
+              "text": "The Devil is a Woman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Monkey Business"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How old was Marlene Dietrich when she died?",
+          "options": [
+            {
+              "id": "0",
+              "text": "40"
+            },
+            {
+              "id": "1",
+              "text": "60"
+            },
+            {
+              "id": "2",
+              "text": "90"
+            },
+            {
+              "id": "3",
+              "text": "50"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 90"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the real name of German actress and singer Marlene Dietrich?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Maria Magdalene Dietrich"
+            },
+            {
+              "id": "1",
+              "text": "Ingrid Magdalene Dietrich"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Anna Magdalene Dietrich"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Maria Magdalene Dietrich"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What movie brought world fame to Marlene Dietrich and introduced her signature song Falling in Love Again (Cant Help It)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Angel"
+            },
+            {
+              "id": "1",
+              "text": "Golden Earrings"
+            },
+            {
+              "id": "2",
+              "text": "The Blue Angel"
+            },
+            {
+              "id": "3",
+              "text": "Knight Without Armor"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Blue Angel"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the other name of the Venus de Milo statue?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aphrodite"
+            },
+            {
+              "id": "1",
+              "text": "The Savannah Girl Bird Statue"
+            },
+            {
+              "id": "2",
+              "text": "The lady Justice Statue"
+            },
+            {
+              "id": "3",
+              "text": "The Pieta"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Aphrodite"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "marry",
+          "sculpture",
+          "world",
+          "michelangelo",
+          "star"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "History Quiz: Petra and City",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, profession, bird. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Greek God Hermes bust was discovered at Olympia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Petra is a historical and archaeological city located in the Maan Governorate in Jordan.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is sight of interest at the historical city of Petra?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Al Khazneh"
+            },
+            {
+              "id": "1",
+              "text": "High Place of Sacrifice"
+            },
+            {
+              "id": "2",
+              "text": "Royal Tombs"
+            },
+            {
+              "id": "3",
+              "text": "All of these"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Under what rule did the historical city of Petra decline quickly as a result of which many of the tombs was damaged by thieves and many treasures were stolen?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Byzantium rule"
+            },
+            {
+              "id": "1",
+              "text": "Ottoman rule"
+            },
+            {
+              "id": "2",
+              "text": "Roman rule"
+            },
+            {
+              "id": "3",
+              "text": "Mongolian rule"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Roman rule"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Siq is the principal route into the city of Petra and its walls are lined with channels to carry drinking water to the city.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The city of Petra was founded by the nomadic tribe of the Nabataean Arabs around the 6th century BC.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which explorer introduced the ruins of the city of Petra to the Western world?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Johann Ludwig Burckhardt"
+            },
+            {
+              "id": "1",
+              "text": "Pedro de Alvarado"
+            },
+            {
+              "id": "2",
+              "text": "William Adams"
+            },
+            {
+              "id": "3",
+              "text": "Neil Armstrong"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Johann Ludwig Burckhardt"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The statue Discus Thrower was created during the Classical Period (2th to 3th century BC).",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the profession of the creator of the statue Bird Girl?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Teacher"
+            },
+            {
+              "id": "1",
+              "text": "Singer"
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "Politician"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Teacher"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which of the following movies does the ancient city of Petra not appear?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golden eye"
+            },
+            {
+              "id": "1",
+              "text": "Passion in the Desert"
+            },
+            {
+              "id": "2",
+              "text": "Indiana Jones and the Last Crusade"
+            },
+            {
+              "id": "3",
+              "text": "Sinbad and the Eye of the Tiger"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Golden eye"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Because of the color of the rocks in which it is carved in, the ancient city of Petra is known also known as which of these?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rose-Red City"
+            },
+            {
+              "id": "1",
+              "text": "Snow-White City"
+            },
+            {
+              "id": "2",
+              "text": "Sun-Yellow City"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Rose-Red City"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "13th-century Italians Francesca da Rimini and Paolo Malatestas romance was the inspiration of the famous statue by Auguste Rodin \u2013 the Kiss.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The name of which popular monument in Petra means \u201cThe Castle of Pharaohs Daughter\u201d?",
+          "options": [
+            {
+              "id": "0",
+              "text": "El-Deir"
+            },
+            {
+              "id": "1",
+              "text": "Qasr al-Bint Firaun"
+            },
+            {
+              "id": "2",
+              "text": "Khazneh"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Qasr al-Bint Firaun"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Since what time does the statue of Lady Justice date?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Romanticism"
+            },
+            {
+              "id": "1",
+              "text": "Antiquity"
+            },
+            {
+              "id": "2",
+              "text": "Classicism"
+            },
+            {
+              "id": "3",
+              "text": "Middle Ages"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Antiquity"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Caesar Augustus Bust was made from Carrara Marble with bronze plated armor.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "profession",
+          "bird",
+          "caesar",
+          "route",
+          "decline"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "History Quiz: Country and Petra",
+      "description": "Test your history knowledge with this comprehensive quiz! Features 15 questions covering History, john, divine. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "English Anglican divine John William Burgons poem Petra, dedicated to the ancient historical city of Petra, was awarded the Newdigate Prize in 1945:",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Printer steganography is a type of steganography where tiny yellow dots are added to each page.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country was the Bilderberg conference first held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Japan"
+            },
+            {
+              "id": "1",
+              "text": "The USA"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "The Netherlands"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Netherlands"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What conspiracy theory involves a secret coalition whose aim is world domination?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The theory of \u201c Loose Change\u201d"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Judeo-Masonic conspiracy theory"
+            },
+            {
+              "id": "3",
+              "text": "The theory of \u201cMind control\u201d"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Judeo-Masonic conspiracy theory"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Retired Marine Corps Major General Smedley Butler claimed that wealthy businessmen were plotting to overthrow this US President.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Franklin Delano Roosevelt"
+            },
+            {
+              "id": "1",
+              "text": "Herbert Hoover"
+            },
+            {
+              "id": "2",
+              "text": "John F. Kennedy"
+            },
+            {
+              "id": "3",
+              "text": "Harry S. Truman"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Franklin Delano Roosevelt"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In April, 2010 the President of this European country was killed in an airplane crash in western Russia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Czech Republic"
+            },
+            {
+              "id": "1",
+              "text": "France"
+            },
+            {
+              "id": "2",
+              "text": "Poland"
+            },
+            {
+              "id": "3",
+              "text": "Turkey"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Poland"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the name of a secret society founded in the 18th century in Bavaria?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Freemasonry"
+            },
+            {
+              "id": "2",
+              "text": "Illuminati"
+            },
+            {
+              "id": "3",
+              "text": "Ku Klux Klan"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Illuminati"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which novel does a fictional totalitarian government use brainwashing-style techniques to erase nonconformist thought?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nineteen Eighty-Four"
+            },
+            {
+              "id": "1",
+              "text": "Catch-22"
+            },
+            {
+              "id": "2",
+              "text": "One Flew Over the Cuckoos Nest"
+            },
+            {
+              "id": "3",
+              "text": "A Clockwork Orange"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nineteen Eighty-Four"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What event is the film Loose Change based on?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the September 11, 2001 attacks"
+            },
+            {
+              "id": "1",
+              "text": "all of these"
+            },
+            {
+              "id": "2",
+              "text": "the Vietnam War"
+            },
+            {
+              "id": "3",
+              "text": "the shooting of JFK"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the September 11, 2001 attacks"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country won the most gold medals at the 2010 Winter Olympics, held in Vancouver, Canada?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The USA"
+            },
+            {
+              "id": "1",
+              "text": "Canada"
+            },
+            {
+              "id": "2",
+              "text": "Germany"
+            },
+            {
+              "id": "3",
+              "text": "Russia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Canada"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does the abbreviation ZOG stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Zionist Occupied Group"
+            },
+            {
+              "id": "1",
+              "text": "Zionist Occupation Government"
+            },
+            {
+              "id": "2",
+              "text": "Zionist Oriented Government"
+            },
+            {
+              "id": "3",
+              "text": "Zionist Organized Gangsters"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Zionist Occupation Government"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 2010 eruption of the Eyjafjallaj\u00f6kull volcano, located in this country, caused extensive air travel disruption.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Italy"
+            },
+            {
+              "id": "1",
+              "text": "Iceland"
+            },
+            {
+              "id": "2",
+              "text": "Greece"
+            },
+            {
+              "id": "3",
+              "text": "Malta"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Iceland"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The chemtrail conspiracy theory holds that some trails left by planes are actually chemical or biological agents deliberately sprayed at high altitudes.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first Ku Klux Klan was founded by veterans of the Confederate army.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In January, 2010 a 7.0-magnitude earthquake devastated the capital of this country and caused the death of 230,000 people.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chile"
+            },
+            {
+              "id": "1",
+              "text": "Cuba"
+            },
+            {
+              "id": "2",
+              "text": "Jamaica"
+            },
+            {
+              "id": "3",
+              "text": "Haiti"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Haiti"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "History",
+          "john",
+          "divine",
+          "printer",
+          "abbreviation",
+          "theory"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Geography Quiz: Cary Grant and Gary Cooper",
+      "description": "Test your geography knowledge with this comprehensive quiz! Features 15 questions covering Geography, picasso, grants. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cary Grant voiced his political views publicly.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what movie did Cary Grant co-star with Jimmy Stewart and Katharine Hepburn?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bringing up Baby"
+            },
+            {
+              "id": "1",
+              "text": "High Society"
+            },
+            {
+              "id": "2",
+              "text": "The Philadelphia Story"
+            },
+            {
+              "id": "3",
+              "text": "Penny Serenade"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Philadelphia Story"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Gary Cooper starred in 16 silent films from 1926-1929.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This sports official, who served as the seventh President of the International Olympic Committee, died in April 2010.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michael Morris"
+            },
+            {
+              "id": "1",
+              "text": "Jacques Rogge"
+            },
+            {
+              "id": "2",
+              "text": "Pierre de Coubertin"
+            },
+            {
+              "id": "3",
+              "text": "Juan Antonio Samaranch"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Juan Antonio Samaranch"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In July, 2010, the international non-profit organisation, known as WikiLeaks, released over 90,000 internal reports about the United States-led involvement in this war.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chechen War"
+            },
+            {
+              "id": "1",
+              "text": "Iraq War"
+            },
+            {
+              "id": "2",
+              "text": "War in Afghanistan"
+            },
+            {
+              "id": "3",
+              "text": "Israel-Palestinian War"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: War in Afghanistan"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do the  initials I.M.F. stand for according to the Mission: Impossible series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Improbable Mission Fact"
+            },
+            {
+              "id": "1",
+              "text": "Important Mobile Fight"
+            },
+            {
+              "id": "2",
+              "text": "Impossible Mission Force"
+            },
+            {
+              "id": "3",
+              "text": "Impossible Mission Fanatic"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Impossible Mission Force"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What pandemic was officially declared over in August 2010?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the H1N1 influenza pandemic"
+            },
+            {
+              "id": "1",
+              "text": "the Whooping Cough pandemic"
+            },
+            {
+              "id": "2",
+              "text": "the atypical pneumonia pandemic"
+            },
+            {
+              "id": "3",
+              "text": "the bird flu pandemic"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: the H1N1 influenza pandemic"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Two of the actors from the Mission: Impossible series were in real life married to each other.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Cary Grants birth name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bernard Schwartz"
+            },
+            {
+              "id": "1",
+              "text": "Archibald Alexander Leach"
+            },
+            {
+              "id": "2",
+              "text": "Marion Robert Morrison"
+            },
+            {
+              "id": "3",
+              "text": "Robert Allen Zimmerman"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Archibald Alexander Leach"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country won the 2010 FIFA World Cup, held in South Africa?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Netherlands"
+            },
+            {
+              "id": "1",
+              "text": "Argentina"
+            },
+            {
+              "id": "2",
+              "text": "Brazil"
+            },
+            {
+              "id": "3",
+              "text": "Spain"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Spain"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cary Grant starred in this comedy movie featuring a pink submarine.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Walk, Dont Run"
+            },
+            {
+              "id": "1",
+              "text": "I Was a Male War Bride"
+            },
+            {
+              "id": "2",
+              "text": "Operation Petticoat"
+            },
+            {
+              "id": "3",
+              "text": "The Eagle and the Hawk"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Operation Petticoat"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What painting by Pablo Picasso sold for US$106.5 million in 2010, setting a new world record for the most expensive work of art sold at auction?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dora Maar au Chat"
+            },
+            {
+              "id": "1",
+              "text": "Portrait of Dr. Gachet"
+            },
+            {
+              "id": "2",
+              "text": "Massacre of the Innocents"
+            },
+            {
+              "id": "3",
+              "text": "Nude, Green Leaves and Bust"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nude, Green Leaves and Bust"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Peter Graves played the part of Jim Phelps, the head of the IM force, from the beginning to the end of the Mission: Impossible series (1966 to 1973).",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do Richard F. Heck, Mario Vargas Llosa, Liu Xiaobo and Robert G. Edwards have in common?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They were all awarded a Nobel Prize in 2010."
+            },
+            {
+              "id": "1",
+              "text": "They all died in 2010."
+            },
+            {
+              "id": "2",
+              "text": "None of these"
+            },
+            {
+              "id": "3",
+              "text": "They were all imprisoned in 2010."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They were all awarded a Nobel Prize in 2010."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which state capital did Gary Cooper grow up in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Santa Fe, New Mexico"
+            },
+            {
+              "id": "1",
+              "text": "Helena, Montana"
+            },
+            {
+              "id": "2",
+              "text": "Carson City, Nevada"
+            },
+            {
+              "id": "3",
+              "text": "Denver, Colorado"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Helena, Montana"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Geography",
+          "picasso",
+          "grants",
+          "co-star",
+          "country",
+          "world"
+        ]
+      }
+    }
+  ]
+}

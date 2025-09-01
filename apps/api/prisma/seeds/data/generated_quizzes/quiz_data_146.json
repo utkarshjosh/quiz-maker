@@ -1,0 +1,2404 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Number and Mets",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, rookie, jason. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Lebron James led the Cleveland Cavaliers into the NBA Finals in 2007.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The catcher Gary Carter, who wore number 8, was a powerful hitter.  He sent one over the green monster at Fenway Park during the World Series.  Which team did the Mets acquire him from?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Montreal Expos"
+            },
+            {
+              "id": "1",
+              "text": "Kansas City Royals"
+            },
+            {
+              "id": "2",
+              "text": "Philadelphia Phillies"
+            },
+            {
+              "id": "3",
+              "text": "Florida Marlins"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Montreal Expos"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This most popular skiing style, offered by many resorts, is used for recreation among both professionals and non-professionals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cross country skiing"
+            },
+            {
+              "id": "1",
+              "text": "Freestyle skiing"
+            },
+            {
+              "id": "2",
+              "text": "Alpine skiing"
+            },
+            {
+              "id": "3",
+              "text": "Skijoring"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Alpine skiing"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In dogsled racing, a timed competition of teams consisting of a number of sleddogs and a dog driver, what is the name of the short neckline snapped to each dog\u2019s collar?",
+          "options": [
+            {
+              "id": "0",
+              "text": "neckline"
+            },
+            {
+              "id": "1",
+              "text": "shock cord"
+            },
+            {
+              "id": "2",
+              "text": "gangline"
+            },
+            {
+              "id": "3",
+              "text": "tugline"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: neckline"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jason Kidd won the MVP Award in 2003.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Mets won how many regular season games en route to their postseason and title?",
+          "options": [
+            {
+              "id": "0",
+              "text": "108"
+            },
+            {
+              "id": "1",
+              "text": "109"
+            },
+            {
+              "id": "2",
+              "text": "106"
+            },
+            {
+              "id": "3",
+              "text": "107"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 108"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tim Duncan was the MVP in 2001 and 2002.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tracy McGrady used to play for the Toronto Raptors.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Steve Nash won the 2004-2005 Most Valuable Player Award.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Shaquille Oneal won the Rookie of the Year Award in 1992.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kobe Bryant scored 81 points against the Toronto Raptors on January 22 2006.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dwyane Wade won the NBA Finals MVP Award in 2006.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kevin Garnett has never won the MVP Award.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This winter sport is the second fastest non-motorized sport on Earth, after speed skydiving.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Speed skating"
+            },
+            {
+              "id": "1",
+              "text": "Freestyle skiing"
+            },
+            {
+              "id": "2",
+              "text": "Speed skiing"
+            },
+            {
+              "id": "3",
+              "text": "Bobsleigh"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Speed skiing"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Yao MIng was the first ever number one draft pick from Asia.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "rookie",
+          "jason",
+          "carter",
+          "oneal",
+          "skiing"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Sport and Mets",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, parkour, fiction. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the rules of the International Skating Union, major speed skating competitions can be held  on outdoor or indoor ice ovals, of what standard length?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1000 m (3,280 ft)"
+            },
+            {
+              "id": "1",
+              "text": "700 m (2,300 ft)"
+            },
+            {
+              "id": "2",
+              "text": "400 m (1,310 ft)"
+            },
+            {
+              "id": "3",
+              "text": "500 m (1,640 ft)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 400 m (1,310 ft)"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who served as the Mets pitching coach in 1986?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bill Robinson"
+            },
+            {
+              "id": "1",
+              "text": "Sid Fernandez"
+            },
+            {
+              "id": "2",
+              "text": "Rick Peterson"
+            },
+            {
+              "id": "3",
+              "text": "Mel Stottlemeyer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mel Stottlemeyer"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team did the Mets beat to win the NL pennant and reach the World Series?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Houston Astros"
+            },
+            {
+              "id": "1",
+              "text": "Cincinnati Reds"
+            },
+            {
+              "id": "2",
+              "text": "Los Angeles Dodgers"
+            },
+            {
+              "id": "3",
+              "text": "Atlanta Braves"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Houston Astros"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who screamed the now famous words, Struck em out! Struck em out! The Mets have won the World Series!?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Howie Rose"
+            },
+            {
+              "id": "1",
+              "text": "Ralph Kiner"
+            },
+            {
+              "id": "2",
+              "text": "Bob Murphy"
+            },
+            {
+              "id": "3",
+              "text": "Gary Thorne"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Murphy"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Canyoning is the extreme sport of travelling down canyons, using which of the following techniques?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jumping"
+            },
+            {
+              "id": "1",
+              "text": "Abseiling"
+            },
+            {
+              "id": "2",
+              "text": "All of these"
+            },
+            {
+              "id": "3",
+              "text": "Scrambling and climbing"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Parkour, a relatively new sport of physical strength and agility, is usually practised in what kind of surroundings?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fields"
+            },
+            {
+              "id": "1",
+              "text": "Deserts"
+            },
+            {
+              "id": "2",
+              "text": "Urban areas"
+            },
+            {
+              "id": "3",
+              "text": "Mountain regions"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Urban areas"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Roger Clemens started game 6 of the 1986 World Series.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Susan Oliver, an American actress and television director of the 50s and 60s, was keen on what unusual sport?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Skydiving"
+            },
+            {
+              "id": "1",
+              "text": "Sumo"
+            },
+            {
+              "id": "2",
+              "text": "Motocross"
+            },
+            {
+              "id": "3",
+              "text": "Air racing"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Air racing"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Ray Knight was the regular starting second baseman for the Mets throughout 1986.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This sport, whereby the player navigates the playing field on horseback, is the national game of Argentina.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pato"
+            },
+            {
+              "id": "1",
+              "text": "Kosho"
+            },
+            {
+              "id": "2",
+              "text": "Parkour"
+            },
+            {
+              "id": "3",
+              "text": "Hapkido"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pato"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pole vaulting, an athletics jumping discipline event, in which competitors use a long, flexible pole to leap over a bar, is under what number in the decathlon order?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Three"
+            },
+            {
+              "id": "1",
+              "text": "Four"
+            },
+            {
+              "id": "2",
+              "text": "Eight"
+            },
+            {
+              "id": "3",
+              "text": "Nine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Eight"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Kart racing, a sport that originated in the 1950s in the United States, was created and popularised in which of these professional fields?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Military medics"
+            },
+            {
+              "id": "1",
+              "text": "Military mechanicians"
+            },
+            {
+              "id": "2",
+              "text": "Infantry"
+            },
+            {
+              "id": "3",
+              "text": "Military air forces"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Military air forces"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following sports is a fictional one and exists only in the imaginary world of a popular US science fiction movie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Air Racing"
+            },
+            {
+              "id": "1",
+              "text": "Ringo"
+            },
+            {
+              "id": "2",
+              "text": "Cyclocross"
+            },
+            {
+              "id": "3",
+              "text": "Podracing"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Podracing"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Bocce, a sport that developed into its present form in Italy, is classified as what type of sports activity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Strength sport"
+            },
+            {
+              "id": "1",
+              "text": "Winter sport"
+            },
+            {
+              "id": "2",
+              "text": "Combat sport"
+            },
+            {
+              "id": "3",
+              "text": "Target sport"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Target sport"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The javelin discipline has been part of the Summer Olympics since what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1908"
+            },
+            {
+              "id": "1",
+              "text": "1896"
+            },
+            {
+              "id": "2",
+              "text": "1961"
+            },
+            {
+              "id": "3",
+              "text": "1940"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1908"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "parkour",
+          "fiction",
+          "athletics",
+          "kart",
+          "playing"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: Reds and Year",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, perez, squash. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many total wins did Jack Billingham have as a Reds pitcher?",
+          "options": [
+            {
+              "id": "0",
+              "text": "88"
+            },
+            {
+              "id": "1",
+              "text": "110"
+            },
+            {
+              "id": "2",
+              "text": "75"
+            },
+            {
+              "id": "3",
+              "text": "97"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 75"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who managed the Reds to the World Series victory in 1975?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Danny Murtaugh"
+            },
+            {
+              "id": "1",
+              "text": "Jack McKeon"
+            },
+            {
+              "id": "2",
+              "text": "Sparky Anderson"
+            },
+            {
+              "id": "3",
+              "text": "Bill Plummer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sparky Anderson"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Floorball, a type of team sport popular in Sweden, Finland and Switzerland, is similar to which of these popular sports?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Badminton"
+            },
+            {
+              "id": "1",
+              "text": "Polo"
+            },
+            {
+              "id": "2",
+              "text": "Football"
+            },
+            {
+              "id": "3",
+              "text": "Ice hockey"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ice hockey"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was Ewell Blackwell elected to the Reds Hall of Fame?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1961"
+            },
+            {
+              "id": "1",
+              "text": "1963"
+            },
+            {
+              "id": "2",
+              "text": "1960"
+            },
+            {
+              "id": "3",
+              "text": "1962"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1960"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was Tom Seaver elected to the Reds Hall of Fame?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1998"
+            },
+            {
+              "id": "1",
+              "text": "2006"
+            },
+            {
+              "id": "2",
+              "text": "2004"
+            },
+            {
+              "id": "3",
+              "text": "1999"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 2006"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was Tony Perez elected to the Reds Hall of Fame?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1983"
+            },
+            {
+              "id": "1",
+              "text": "1981"
+            },
+            {
+              "id": "2",
+              "text": "1998"
+            },
+            {
+              "id": "3",
+              "text": "1994"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1998"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to volleyball official rules, touching the net during play is not considered a fault in which case?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Touching the net with hair"
+            },
+            {
+              "id": "1",
+              "text": "Touching the net with foot"
+            },
+            {
+              "id": "2",
+              "text": "Touching the net with a part of ones clothing"
+            },
+            {
+              "id": "3",
+              "text": "None of these"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Touching the net with hair"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This baseball player and manager, nicknamed The Ol Professor, said, Sports do not  build character. They reveal it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Al Shalk"
+            },
+            {
+              "id": "1",
+              "text": "Bill Veeck"
+            },
+            {
+              "id": "2",
+              "text": "Casey Stengel"
+            },
+            {
+              "id": "3",
+              "text": "Bud Selig"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Casey Stengel"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This baseball player won the National League Most Valuable Player Award in 1975 and 1976  while playing with the Reds.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Morgan"
+            },
+            {
+              "id": "1",
+              "text": "BIlly Williams"
+            },
+            {
+              "id": "2",
+              "text": "Pete Rose"
+            },
+            {
+              "id": "3",
+              "text": "Tony Perez"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Morgan"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In squash, small coloured dots on the ball indicate the level of bounciness, hence the skills needed to handle the ball. According to the Professional Squash Association standards, what does the red colour indicate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Slow ball"
+            },
+            {
+              "id": "1",
+              "text": "Medium ball"
+            },
+            {
+              "id": "2",
+              "text": "Fast ball"
+            },
+            {
+              "id": "3",
+              "text": "Extra slow ball"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Medium ball"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "George Foster played primarily third base for the Reds during the 1970s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What coach does this quote belong to: If the NBA were on Channel 5 and a bunch of frogs were making love on Channel 4, I would watch the frogs  even if the picture was coming in fuzzy.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bobby Knight"
+            },
+            {
+              "id": "1",
+              "text": "Dick Vitale"
+            },
+            {
+              "id": "2",
+              "text": "Chet Forte"
+            },
+            {
+              "id": "3",
+              "text": "Bill  Walton"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Bobby Knight"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe Nuxhall was only 15 when he made his major league debut with the Cincinnati Reds.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times was Johnny Vander Meer selected to the National League All-star team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "6"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "5"
+            },
+            {
+              "id": "3",
+              "text": "4"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Boules is a collective name for a number of games played with what type of balls?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rubber balls"
+            },
+            {
+              "id": "1",
+              "text": "Wooden balls"
+            },
+            {
+              "id": "2",
+              "text": "Metal balls"
+            },
+            {
+              "id": "3",
+              "text": "Dotted balls"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Metal balls"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "perez",
+          "squash",
+          "world",
+          "coach",
+          "quote"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Giants and Beijing",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, outfielder, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the first gold medal of the 2008 Olympics in Beijing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Katerina Emmons (Czech Republic, shooting)"
+            },
+            {
+              "id": "1",
+              "text": "Samuel Sanchez (Spain, cycling)"
+            },
+            {
+              "id": "2",
+              "text": "Michael Phelps (USA, swimming)"
+            },
+            {
+              "id": "3",
+              "text": "Xexia Chen (China, weightlifting)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Katerina Emmons (Czech Republic, shooting)"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NFL safety made this witty remark: Most football teams are tempermental. Thats 90% temper and 10 % mental.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ron Jaworski"
+            },
+            {
+              "id": "1",
+              "text": "Phil Simms"
+            },
+            {
+              "id": "2",
+              "text": "Doug Plank"
+            },
+            {
+              "id": "3",
+              "text": "Shannon Sharpe"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Doug Plank"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Giants running back in Super Bowl XXI?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tiki Barber"
+            },
+            {
+              "id": "1",
+              "text": "Joe Morris"
+            },
+            {
+              "id": "2",
+              "text": "Otis Anderson"
+            },
+            {
+              "id": "3",
+              "text": "Rodney Hampton"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Joe Morris"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Several countries had only one representative at the 2008 Olympic Games. Which is not one of them?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Timor-Leste"
+            },
+            {
+              "id": "1",
+              "text": "Grenada"
+            },
+            {
+              "id": "2",
+              "text": "Haiti"
+            },
+            {
+              "id": "3",
+              "text": "Nauru"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Timor-Leste"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was the nickname of the American mens basketball team at the Olympic Games held in Beijing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ming Team"
+            },
+            {
+              "id": "1",
+              "text": "Dream Team V"
+            },
+            {
+              "id": "2",
+              "text": "Dream Team"
+            },
+            {
+              "id": "3",
+              "text": "Redeem Team"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Redeem Team"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What sportswriter specializing in golf remarked: The bell that tolls for all in boxing is the cash register.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Susan Waldman"
+            },
+            {
+              "id": "1",
+              "text": "Don King"
+            },
+            {
+              "id": "2",
+              "text": "Bob Verdi"
+            },
+            {
+              "id": "3",
+              "text": "Bob Arum"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Verdi"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 1986-87 NFC Championship game was at Giants Stadium in a cold, blustery evening with a mean, swirling wind. The Giants won 17-0 over which division rival?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Washington Redskins"
+            },
+            {
+              "id": "1",
+              "text": "Buffalo Bills"
+            },
+            {
+              "id": "2",
+              "text": "Philadelphia Eagles"
+            },
+            {
+              "id": "3",
+              "text": "Dallas Cowboys"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Washington Redskins"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What role did Brad Pitt play at the 2008 Summer Olympic Games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "He was an umpire in the baseball tournament"
+            },
+            {
+              "id": "1",
+              "text": "He presented the last gold medal to Michael Phelps"
+            },
+            {
+              "id": "2",
+              "text": "He fought in the boxing tournament and was eliminated in the first round"
+            },
+            {
+              "id": "3",
+              "text": "He organized a pro-Tibet march in Hong-Kong"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: He fought in the boxing tournament and was eliminated in the first round"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the official classification, which country won the medal count at the Olympic Games held in Beijing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Russia"
+            },
+            {
+              "id": "1",
+              "text": "Germany"
+            },
+            {
+              "id": "2",
+              "text": "China"
+            },
+            {
+              "id": "3",
+              "text": "USA"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: China"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Giants finished the 1986 regular season at 15-1 and were the NFC East Champions heading to the playoffs.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the MVP of Super Bowl XXI?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Otis Anderson"
+            },
+            {
+              "id": "1",
+              "text": "Mark Bavaro"
+            },
+            {
+              "id": "2",
+              "text": "Phil Simms"
+            },
+            {
+              "id": "3",
+              "text": "Joe Morris"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Phil Simms"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1985, the Giants were so close to the Super Bowl they could taste it. But one forbidding defensive team with a monster coach stopped them dead in their tracks and went on to win the big game themselves. Name that team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green Bay Packers"
+            },
+            {
+              "id": "1",
+              "text": "Dallas Cowboys"
+            },
+            {
+              "id": "2",
+              "text": "Chicago Bears"
+            },
+            {
+              "id": "3",
+              "text": "Washington Redskins"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Chicago Bears"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The New York football Giants defeated the Denver Broncos in Super Bowl XXI in a convincing fashion. What was the final score?",
+          "options": [
+            {
+              "id": "0",
+              "text": "44-27"
+            },
+            {
+              "id": "1",
+              "text": "39-20"
+            },
+            {
+              "id": "2",
+              "text": "17-0"
+            },
+            {
+              "id": "3",
+              "text": "24-10"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 39-20"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who said: You win some, you lose some, you crash some.?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dale Earnhardt"
+            },
+            {
+              "id": "1",
+              "text": "Mike Ditka"
+            },
+            {
+              "id": "2",
+              "text": "Evander Hollyfield"
+            },
+            {
+              "id": "3",
+              "text": "Jim Loscutoff"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dale Earnhardt"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This running back and an outfielder said, Football is easy if a person is crazy as hell.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carl Hubbard"
+            },
+            {
+              "id": "1",
+              "text": "Deion Sanders"
+            },
+            {
+              "id": "2",
+              "text": "Bo Jackson"
+            },
+            {
+              "id": "3",
+              "text": "O.J. Simpson"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bo Jackson"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "outfielder",
+          "country",
+          "forbidding",
+          "game",
+          "gold"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Athletics and Stipulation",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, athletics, billionaires. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which National Olympic Committee organized Equestrian events during the 2008 Olympic Games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "NOC of Singapur"
+            },
+            {
+              "id": "1",
+              "text": "NOC of Hong-Kong"
+            },
+            {
+              "id": "2",
+              "text": "NOC of China"
+            },
+            {
+              "id": "3",
+              "text": "NOC of Taiwan"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: NOC of Hong-Kong"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the first day of the 2008 Olympic Games, three American women took all medals in which event?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fencing - sabre"
+            },
+            {
+              "id": "1",
+              "text": "Shooting - 10m air rifle"
+            },
+            {
+              "id": "2",
+              "text": "Swimming - 400m freestyle"
+            },
+            {
+              "id": "3",
+              "text": "Cycling - road race"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fencing - sabre"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the 2008 Royal Rumble?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Batista"
+            },
+            {
+              "id": "1",
+              "text": "John Cena"
+            },
+            {
+              "id": "2",
+              "text": "HHH"
+            },
+            {
+              "id": "3",
+              "text": "Shawn Michaels"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: John Cena"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is The Undertakers streak at WrestleMania (prior to WrestleMania 24)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "15-0"
+            },
+            {
+              "id": "1",
+              "text": "16-1"
+            },
+            {
+              "id": "2",
+              "text": "16-0"
+            },
+            {
+              "id": "3",
+              "text": "15-1"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 15-0"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "India is the second most populous country in the world, but their first individual Olympic gold came only at the 2008 Games. Which was the historical discipline?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Table tennis"
+            },
+            {
+              "id": "1",
+              "text": "Badminton"
+            },
+            {
+              "id": "2",
+              "text": "Shooting"
+            },
+            {
+              "id": "3",
+              "text": "Judo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Shooting"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the mens tennis competition at the Olympic Games in 2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Novak Djokovic (Serbia)"
+            },
+            {
+              "id": "1",
+              "text": "Roger Federer (Switzerland)"
+            },
+            {
+              "id": "2",
+              "text": "James Blake (USA)"
+            },
+            {
+              "id": "3",
+              "text": "Rafael Nadal (Spain)"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Rafael Nadal (Spain)"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At New Years Revolution 2007, the WWE Womens Champion was Mickie James. Who did she face?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Victoria"
+            },
+            {
+              "id": "1",
+              "text": "Ashley"
+            },
+            {
+              "id": "2",
+              "text": "Candice Michelle"
+            },
+            {
+              "id": "3",
+              "text": "Trish Stratus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Victoria"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the 2006 Unforgiven PPV, there was a Womens Championship Match between Lita and Trish Stratus. What was the stipulation?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bra and Panty"
+            },
+            {
+              "id": "1",
+              "text": "Winner takes the Title"
+            },
+            {
+              "id": "2",
+              "text": "Loser barks like a dog"
+            },
+            {
+              "id": "3",
+              "text": "There was no stipulation"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: There was no stipulation"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who returned at Survivor Series 2007 after a 4-month absence?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Big Show"
+            },
+            {
+              "id": "1",
+              "text": "Edge"
+            },
+            {
+              "id": "2",
+              "text": "John Cena"
+            },
+            {
+              "id": "3",
+              "text": "Triple H"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Edge"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At WM 23, what was the stipulation of the Battle of the Billionaires?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Loser gets humiliated big time, anywhere"
+            },
+            {
+              "id": "1",
+              "text": "Loser gets limo blown up"
+            },
+            {
+              "id": "2",
+              "text": "Loser gos homeless for 2 weeks"
+            },
+            {
+              "id": "3",
+              "text": "Loser gets head shaved bald"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Loser gets head shaved bald"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mens Gymnastics at Beijing Olympic Games was dominated by Chinese athletes. Who was the only gold medalist from a different country?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Shawn Johnson (USA, Beam)"
+            },
+            {
+              "id": "1",
+              "text": "Leszek Blanik (Poland, vault)"
+            },
+            {
+              "id": "2",
+              "text": "Gervasio Deferr (Spain, floor)"
+            },
+            {
+              "id": "3",
+              "text": "USA (team all-around)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Leszek Blanik (Poland, vault)"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "During the 2008 Olympics, the 12-years old record of Michael Johnson in 200m run was broken. What was the new time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "19.30s"
+            },
+            {
+              "id": "1",
+              "text": "9.69s"
+            },
+            {
+              "id": "2",
+              "text": "15.60s"
+            },
+            {
+              "id": "3",
+              "text": "19.80s"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 19.30s"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In which volleyball finals did USA participate, in the 2008 Olympics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Womens"
+            },
+            {
+              "id": "1",
+              "text": "Mens"
+            },
+            {
+              "id": "2",
+              "text": "None"
+            },
+            {
+              "id": "3",
+              "text": "Both"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Both"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many countries were represented by athletes of Chinese origin at the 2008 Olympic Games table tennis competitions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "13"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "7"
+            },
+            {
+              "id": "3",
+              "text": "21"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 21"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Athletics is called the queen of all sports. Who won the first gold in athletics during the 2008 Olympic Games?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tirunesh Dibaba (Ethiopia, 10km)"
+            },
+            {
+              "id": "1",
+              "text": "Nicoleta Grasu (Romania, discus)"
+            },
+            {
+              "id": "2",
+              "text": "Hyleas Fountain (USA, heptathlon)"
+            },
+            {
+              "id": "3",
+              "text": "Tomasz Majewski (Poland, shot put)"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tomasz Majewski (Poland, shot put)"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "athletics",
+          "billionaires",
+          "committee",
+          "country",
+          "athletes"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Nascar and Dale Earnhardt",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, auto, nascar. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the most distinctive feature of Cyber Sunday?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fans take over"
+            },
+            {
+              "id": "1",
+              "text": "Retired wrestlers come back"
+            },
+            {
+              "id": "2",
+              "text": "It is all about the Gold"
+            },
+            {
+              "id": "3",
+              "text": "It is all about McMahon"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Fans take over"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At what PPV was the first ever Punjabi Prison Match?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New Years Revolution"
+            },
+            {
+              "id": "1",
+              "text": "No Mercy"
+            },
+            {
+              "id": "2",
+              "text": "SummerSlam"
+            },
+            {
+              "id": "3",
+              "text": "Unforgiven"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: No Mercy"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why are peanuts believed to be bad for auto racing?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are considered bad luck."
+            },
+            {
+              "id": "1",
+              "text": "They distract drivers while in the car."
+            },
+            {
+              "id": "2",
+              "text": "Fans throw them at cars."
+            },
+            {
+              "id": "3",
+              "text": "They get thrown on the track"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: They are considered bad luck."
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does NASCAR stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "National Association for Street Car Auto Racing"
+            },
+            {
+              "id": "1",
+              "text": "National Alliance for Sports Car Auto Racing"
+            },
+            {
+              "id": "2",
+              "text": "National Association for Stock Car Auto Racing"
+            },
+            {
+              "id": "3",
+              "text": "Non Athletic Sport Centered Around Rednecks"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: National Association for Stock Car Auto Racing"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who set an NFL record for most passing yards gained in a game in 1951?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Joe Montana"
+            },
+            {
+              "id": "1",
+              "text": "Norm Van Brocklin"
+            },
+            {
+              "id": "2",
+              "text": "Kenny Stabler"
+            },
+            {
+              "id": "3",
+              "text": "Peyton Manning"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Norm Van Brocklin"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At the 2006 Cyber Sunday, the fans decided to see Mickie James vs. Lita in what kind of match?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bra  Panty"
+            },
+            {
+              "id": "1",
+              "text": "Diva LumberJack"
+            },
+            {
+              "id": "2",
+              "text": "No DQ"
+            },
+            {
+              "id": "3",
+              "text": "Pillow Fight"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Diva LumberJack"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What NASCAR driver won 3 races in 2003?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dale Jr."
+            },
+            {
+              "id": "1",
+              "text": "Mark Martin"
+            },
+            {
+              "id": "2",
+              "text": "Ryan Newman"
+            },
+            {
+              "id": "3",
+              "text": "Jeff Gordon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ryan Newman"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Dale Earnhardt, Sr. die at Daytona?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where did NASCAR start?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bristol Beach"
+            },
+            {
+              "id": "1",
+              "text": "Daytona Beach"
+            },
+            {
+              "id": "2",
+              "text": "Indiana Beach"
+            },
+            {
+              "id": "3",
+              "text": "Talladega Beach"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Daytona Beach"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Lee Petty take part in the first race at Daytona International Speedway?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Dale Earnhardt, Jr. married in 2008.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Vengeance 2007 was called Night of .............?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Divas"
+            },
+            {
+              "id": "1",
+              "text": "History"
+            },
+            {
+              "id": "2",
+              "text": "Champions"
+            },
+            {
+              "id": "3",
+              "text": "Losers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Champions"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Why do NASCAR cars turn left?",
+          "options": [
+            {
+              "id": "0",
+              "text": "It brings good luck."
+            },
+            {
+              "id": "1",
+              "text": "people think its better going left than right"
+            },
+            {
+              "id": "2",
+              "text": "Richard Petty wanted it that way."
+            },
+            {
+              "id": "3",
+              "text": "For safety reasons"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: For safety reasons"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these NFL quarterbacks retired in 2009 as the record holder for most passing yards gained in a career?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Fran Tarkenton"
+            },
+            {
+              "id": "1",
+              "text": "Sammy Baugh"
+            },
+            {
+              "id": "2",
+              "text": "Dan Marino"
+            },
+            {
+              "id": "3",
+              "text": "Brett Farve"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Brett Farve"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these movies features Atlanta Motor Speedway?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Three"
+            },
+            {
+              "id": "1",
+              "text": "The Ride of Their Lives"
+            },
+            {
+              "id": "2",
+              "text": "Dale"
+            },
+            {
+              "id": "3",
+              "text": "Smokey and the Bandit II"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Smokey and the Bandit II"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "auto",
+          "nascar",
+          "quarterbacks",
+          "part",
+          "ppv"
+        ]
+      }
+    }
+  ]
+}

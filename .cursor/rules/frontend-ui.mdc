@@ -1,0 +1,97 @@
+# Frontend UI Development Rules
+
+## **Core Principles:**
+
+- **Component-based architecture** with clear separation of concerns
+- **Type safety first** - use TypeScript for all frontend code
+- **Responsive design** that works across all device sizes
+- **Accessibility compliance** following WCAG guidelines
+- **Performance optimization** with lazy loading and code splitting
+
+## **Technology Stack:**
+
+- **React** with TypeScript for component development
+- **Tailwind CSS** for utility-first styling
+- **Vite** for fast development and building
+- **React Router** for client-side routing
+- **State management** via React hooks and context
+
+## **Component Architecture:**
+
+- **Atomic design** principles: atoms → molecules → organisms → templates → pages
+- **Props interface** defined with TypeScript for all components
+- **Default props** and prop validation for component reliability
+- **Component composition** over inheritance
+- **Single responsibility** - each component has one clear purpose
+
+## **File Organization:**
+
+```
+frontend/src/
+  components/     -> Reusable UI components
+  pages/         -> Page-level components
+  hooks/         -> Custom React hooks
+  services/      -> API and external service integrations
+  types/         -> TypeScript type definitions
+  utils/         -> Utility functions
+  assets/        -> Images, icons, and static files
+```
+
+## **Component Guidelines:**
+
+- **Functional components** with hooks for state management
+- **Custom hooks** for reusable logic and side effects
+- **Error boundaries** for graceful error handling
+- **Loading states** for all async operations
+- **Consistent naming** following React conventions
+
+## **Styling Standards:**
+
+- **Tailwind CSS classes** for consistent design system
+- **CSS custom properties** for theme variables
+- **Mobile-first responsive design**
+- **Dark mode support** via CSS variables
+- **Consistent spacing** using Tailwind's spacing scale
+
+## **State Management:**
+
+- **Local state** with `useState` for component-specific data
+- **Context API** for shared state across components
+- **Custom hooks** for complex state logic
+- **Avoid prop drilling** - use context or state lifting
+- **Immutable updates** for all state changes
+
+## **Performance Optimization:**
+
+- **React.memo** for expensive components
+- **useMemo** and **useCallback** for expensive calculations
+- **Lazy loading** for route-based code splitting
+- **Image optimization** with proper formats and sizes
+- **Bundle analysis** to identify optimization opportunities
+
+## **Testing Requirements:**
+
+- **Unit tests** for all utility functions and hooks
+- **Component tests** with React Testing Library
+- **Integration tests** for user workflows
+- **Accessibility tests** with axe-core
+- **Visual regression tests** for UI consistency
+
+## **Accessibility Standards:**
+
+- **Semantic HTML** for proper screen reader support
+- **ARIA labels** for interactive elements
+- **Keyboard navigation** support for all interactions
+- **Color contrast** meeting WCAG AA standards
+- **Focus management** for modal and dynamic content
+
+## **Integration with Backend:**
+
+- **API service layer** in `services/` directory
+- **Type-safe API calls** using shared DTOs from `pkg/ts`
+- **Error handling** for network failures and validation errors
+- **Loading states** for all API operations
+- **Offline support** where possible with service workers
+  alwaysApply: true
+
+---

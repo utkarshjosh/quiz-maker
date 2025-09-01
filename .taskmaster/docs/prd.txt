@@ -1,0 +1,114 @@
+<context>
+# Overview  
+The AI-Powered Real-Time Quiz System is a comprehensive platform that enables users to create, host, and participate in interactive quizzes. The system leverages AI to generate engaging quiz content from simple prompts, provides real-time hosting capabilities with live scoring, and offers a modern, responsive user interface. This solves the problem of creating engaging educational content quickly while providing an interactive learning experience.
+
+# Core Features  
+- **AI-Powered Quiz Generation**: Create comprehensive quizzes from natural language prompts using advanced AI models
+- **Real-Time Quiz Hosting**: Live quiz sessions with WebSocket connections for instant updates
+- **Interactive Quiz Taking**: Real-time scoring, leaderboards, and immediate feedback
+- **User Authentication & Management**: Secure JWT-based authentication with user profiles
+- **Quiz Library Management**: Save, organize, and share quizzes with tagging and categorization
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **High-Performance Caching**: Redis-based caching for optimal performance
+
+# User Experience  
+- **Quiz Creators**: Educators, content creators, and anyone wanting to create engaging quizzes
+- **Quiz Hosts**: Teachers, trainers, and event organizers hosting live quiz sessions
+- **Quiz Participants**: Students, learners, and participants engaging in interactive learning
+- **Key Flows**: Quiz creation → AI generation → refinement → hosting → participation → results
+- **UI/UX**: Modern, intuitive interface with smooth animations and real-time updates
+</context>
+<PRD>
+# Technical Architecture  
+The system follows a microservices architecture with the following components:
+
+**Frontend (React/Vue.js)**
+- Modern SPA with real-time WebSocket integration
+- Responsive design with mobile-first approach
+- State management for quiz sessions and user data
+
+**API Gateway (Node.js)**
+- Authentication and user management
+- Quiz CRUD operations and persistence
+- Service orchestration and routing
+- Database management and migrations
+
+**Quiz Generator Service (Node.js)**
+- AI-powered quiz generation using LangGraph and LangChain
+- Groq API integration for fast inference
+- Thread-based conversation management
+- Redis-based session persistence
+
+**Realtime Service (Golang)**
+- WebSocket-based real-time communication
+- Quiz session state management
+- Live scoring and leaderboard updates
+- Room management and participant handling
+
+**Data Layer**
+- MongoDB/PostgreSQL for persistent storage
+- Redis for caching and real-time data
+- Prisma for database schema management
+
+# Development Roadmap  
+
+**Phase 1: Foundation & Core Services**
+- Set up project structure and development environment
+- Implement basic authentication system
+- Create database schema and migrations
+- Set up API gateway with basic routing
+- Implement core user management endpoints
+
+**Phase 2: Quiz Generation & Management**
+- Develop AI-powered quiz generation service
+- Implement quiz CRUD operations
+- Create quiz library and management system
+- Add quiz categorization and tagging
+- Implement quiz versioning and history
+
+**Phase 3: Real-Time Infrastructure**
+- Build WebSocket service for real-time communication
+- Implement quiz session management
+- Create live scoring and leaderboard system
+- Add participant management and room controls
+- Implement real-time quiz state synchronization
+
+**Phase 4: Frontend & User Experience**
+- Develop responsive quiz creation interface
+- Build real-time quiz participation UI
+- Implement dashboard and analytics
+- Add mobile optimization and PWA features
+- Create admin and moderation tools
+
+**Phase 5: Advanced Features & Polish**
+- Add advanced AI features (multi-modal, adaptive difficulty)
+- Implement analytics and reporting
+- Add social features (sharing, collaboration)
+- Performance optimization and scaling
+- Comprehensive testing and documentation
+
+# Logical Dependency Chain
+1. **Database & Authentication Foundation** - Must be built first for all other features
+2. **API Gateway Core** - Provides the backbone for all service communication
+3. **Basic Quiz Management** - Enables quiz creation and storage before real-time features
+4. **Quiz Generation Service** - Core AI functionality that powers quiz creation
+5. **Real-Time Service** - Builds on stable quiz management to add live functionality
+6. **Frontend Interface** - Can be developed in parallel but depends on stable APIs
+7. **Advanced Features** - Build upon the solid foundation of core services
+
+The goal is to get to a working quiz creation and hosting system as quickly as possible, then iterate and enhance based on user feedback and requirements.
+
+# Risks and Mitigations  
+- **AI Service Complexity**: Start with simple prompt-based generation, gradually add advanced features
+- **Real-Time Scaling**: Begin with single-instance WebSocket service, add clustering later
+- **Database Performance**: Implement proper indexing and caching strategies from the start
+- **Frontend Complexity**: Use component-based architecture for maintainable code
+- **Integration Challenges**: Implement comprehensive testing and monitoring for service communication
+
+# Appendix  
+- Current codebase includes working quiz generator with Groq integration
+- Existing real-time service architecture in Go
+- Frontend components already developed for basic quiz interface
+- Docker containerization ready for deployment
+- Comprehensive testing setup with Jest and integration tests
+</PRD>

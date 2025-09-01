@@ -1,0 +1,2500 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Science Quiz: Term and Zoology",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, antigens, definition. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which term denotes the classification of organisms, based on their evolutionary descent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ornithology"
+            },
+            {
+              "id": "1",
+              "text": "Neuroethology"
+            },
+            {
+              "id": "2",
+              "text": "Paleontology"
+            },
+            {
+              "id": "3",
+              "text": "Phylogenetics"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Phylogenetics"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The culture of physics research differs from the other sciences in the separation of these two.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Abstract and real"
+            },
+            {
+              "id": "1",
+              "text": "Microscopic and macroscopic"
+            },
+            {
+              "id": "2",
+              "text": "Theory and experiment"
+            },
+            {
+              "id": "3",
+              "text": "Visible and invisible"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Theory and experiment"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The term ethology, which refers to the study of animal behaviour, derives from a Greek word, which means what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Behaviour"
+            },
+            {
+              "id": "1",
+              "text": "Custom"
+            },
+            {
+              "id": "2",
+              "text": "Life cycle"
+            },
+            {
+              "id": "3",
+              "text": "Environment"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Custom"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The word physics derives from the Greek - \u03c6?\u03c3\u03b9\u03c2 (phusis), which means this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nature"
+            },
+            {
+              "id": "1",
+              "text": "Earth"
+            },
+            {
+              "id": "2",
+              "text": "Matter"
+            },
+            {
+              "id": "3",
+              "text": "Force"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Nature"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This ancient Greek philosopher, who taught Alexander the Great, wrote a book on zoology entitled History of Animals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aristotle"
+            },
+            {
+              "id": "1",
+              "text": "Plato"
+            },
+            {
+              "id": "2",
+              "text": "Socrates"
+            },
+            {
+              "id": "3",
+              "text": "Democritus"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Aristotle"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What biological term refers to the organs, whose function is considered to have been lost or reduced during evolution?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Undeveloped organs"
+            },
+            {
+              "id": "1",
+              "text": "Obsolete organs"
+            },
+            {
+              "id": "2",
+              "text": "Vestigial organs"
+            },
+            {
+              "id": "3",
+              "text": "Stunted organs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Vestigial organs"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the literal meaning of the word ecology, which derives from Greek?",
+          "options": [
+            {
+              "id": "0",
+              "text": "study of life"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "study of the household"
+            },
+            {
+              "id": "3",
+              "text": "study of nature"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: study of the household"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Cryptozoology is a branch of Zoology, which deals with what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The animals in the order Acarina - mites and ticks"
+            },
+            {
+              "id": "1",
+              "text": "Marine animals"
+            },
+            {
+              "id": "2",
+              "text": "Spiders and arachnids"
+            },
+            {
+              "id": "3",
+              "text": "Animals that are considered to exist but there is no proof for their existence"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Animals that are considered to exist but there is no proof for their existence"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the definition of ontogeny (morphogenesis), one of the branches of developmental biology?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The study that deals with the relations between predators and their prey"
+            },
+            {
+              "id": "1",
+              "text": "A study that describes the organism from the embryo to adulthood"
+            },
+            {
+              "id": "2",
+              "text": "The relationships of groups of  organisms as reflected by their evolutionary history"
+            },
+            {
+              "id": "3",
+              "text": "The study that deals with the marine mammals"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A study that describes the organism from the embryo to adulthood"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Laws of physics are properties, common to all material systems.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The formation of toes in salamanders, animals that typically have no such organs, is an example for what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Atavism"
+            },
+            {
+              "id": "1",
+              "text": "Biometry"
+            },
+            {
+              "id": "2",
+              "text": "Disturbance"
+            },
+            {
+              "id": "3",
+              "text": "Biota"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Atavism"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pathogenic microorganisms which get into the human body are called antigens because they cause the formation of antibodies. The antibodies are produced by what blood cells?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Keratinocytes"
+            },
+            {
+              "id": "1",
+              "text": "Lymphocites"
+            },
+            {
+              "id": "2",
+              "text": "Thrombocytes"
+            },
+            {
+              "id": "3",
+              "text": "Erythrocytes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Lymphocites"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This Swedish botanist and physician, considered one of the fathers of modern ecology, initiated the method of binomial classification.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alfred Nobel"
+            },
+            {
+              "id": "1",
+              "text": "Carolus Linnaeus"
+            },
+            {
+              "id": "2",
+              "text": "Nils Gabriel Sefstrom"
+            },
+            {
+              "id": "3",
+              "text": "Johan August Arfwedson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Carolus Linnaeus"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the definition of the biological term ecotone, which in Greek means a place where ecologies are in tension?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A transition area between two adjacent ecological communities"
+            },
+            {
+              "id": "1",
+              "text": "A natural unit that consists both of living and nonliving parts, interacting to form a stable system"
+            },
+            {
+              "id": "2",
+              "text": "Graphical representation of an ecosystem"
+            },
+            {
+              "id": "3",
+              "text": "Separation of groups of organisms as a result of changes in their ecology or in the environment where they live"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A transition area between two adjacent ecological communities"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "One of these major subtopics is not part of classical mechanics.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Chaos theory"
+            },
+            {
+              "id": "1",
+              "text": "Kinetic theory"
+            },
+            {
+              "id": "2",
+              "text": "Lagrangian mechanics"
+            },
+            {
+              "id": "3",
+              "text": "Fluid dynamics"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kinetic theory"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "antigens",
+          "definition",
+          "ecotone",
+          "zoology",
+          "subtopics"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Science Quiz: Stars and Scientists",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, stars, discovery. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What celestial formations are considered to be the birthplaces of stars?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Galactic halos"
+            },
+            {
+              "id": "1",
+              "text": "Nebulae"
+            },
+            {
+              "id": "2",
+              "text": "Spiral galaxies"
+            },
+            {
+              "id": "3",
+              "text": "Galaxy cluster clouds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Nebulae"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hypergiants, the largest stars known to scientists, have a mass up to how many times that of the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "30"
+            },
+            {
+              "id": "1",
+              "text": "10"
+            },
+            {
+              "id": "2",
+              "text": "100"
+            },
+            {
+              "id": "3",
+              "text": "2"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 100"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These two additive primary colors should be combined in order to get the color yellow.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green and red"
+            },
+            {
+              "id": "1",
+              "text": "Blue and green"
+            },
+            {
+              "id": "2",
+              "text": "White and red"
+            },
+            {
+              "id": "3",
+              "text": "Red and blue"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Green and red"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these most accurately describes the term, Solar System?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A system of non-stellar objects orbiting a star"
+            },
+            {
+              "id": "1",
+              "text": "A system comprised of a star or group of stars"
+            },
+            {
+              "id": "2",
+              "text": "A system of one or more stars and non-stellar objects, connected in close gravitational association"
+            },
+            {
+              "id": "3",
+              "text": "The planetary system which our Sun along with the nine planets and other non-stellar objects form"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The planetary system which our Sun along with the nine planets and other non-stellar objects form"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where can an asteroid belt, a region of greatest concentration of orbiting asteroids, be found nearest to Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Between Jupiter and Saturn"
+            },
+            {
+              "id": "1",
+              "text": "Between Mars and Jupiter"
+            },
+            {
+              "id": "2",
+              "text": "Between Uranus and Neptune"
+            },
+            {
+              "id": "3",
+              "text": "Beyond Pluto"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Between Mars and Jupiter"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Plancks constant (h) is equal to this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "6.626068 \u00d7 10^(-34) m^2 kg / s"
+            },
+            {
+              "id": "1",
+              "text": "1.67262171 x 10^(-27) kg"
+            },
+            {
+              "id": "2",
+              "text": "1.05457168 x 10^(-34) J s"
+            },
+            {
+              "id": "3",
+              "text": "10973731.568 525 m^(-1)"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 6.626068 \u00d7 10^(-34) m^2 kg / s"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which set contains triangular numbers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1, 10, 100, 1000, 10000, 100000, 1000000"
+            },
+            {
+              "id": "1",
+              "text": "1, 2, 3, 5, 7, 11, 13, 17"
+            },
+            {
+              "id": "2",
+              "text": "1, 4, 9, 16, 25, 36, 49"
+            },
+            {
+              "id": "3",
+              "text": "1, 3, 6, 10, 15, 21, 28"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1, 3, 6, 10, 15, 21, 28"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In astronomy, the term binary star refers to which of these?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A large star which has drawn smaller star to orbit"
+            },
+            {
+              "id": "1",
+              "text": "A star made up from both matter and antimatter"
+            },
+            {
+              "id": "2",
+              "text": "A system of two stars both orbiting around their centers of mass"
+            },
+            {
+              "id": "3",
+              "text": "A star emitting electromagnetic waves at two different frequencies"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A system of two stars both orbiting around their centers of mass"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is a celestial body, which produces the effect known as shooting star?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Meteoroid"
+            },
+            {
+              "id": "1",
+              "text": "Asteroid"
+            },
+            {
+              "id": "2",
+              "text": "Comet"
+            },
+            {
+              "id": "3",
+              "text": "Another planets satellite"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Meteoroid"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Distances in the universe are enormous compared to those we are used to, so scientists use light years for measurement.  Approximately how many miles does a light year represent?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Six zillion miles"
+            },
+            {
+              "id": "1",
+              "text": "Six trillion miles"
+            },
+            {
+              "id": "2",
+              "text": "Six million miles"
+            },
+            {
+              "id": "3",
+              "text": "Six billion miles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Six trillion miles"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In astrophysics, which theorem defines what parameters black holes are characterized by?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No-ghost theorem"
+            },
+            {
+              "id": "1",
+              "text": "Brouwers Fixed point theorem"
+            },
+            {
+              "id": "2",
+              "text": "Hairy ball theorem"
+            },
+            {
+              "id": "3",
+              "text": "Black holes have no hair"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Black holes have no hair"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This is the number of fundamental interactions.",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "2"
+            },
+            {
+              "id": "2",
+              "text": "8"
+            },
+            {
+              "id": "3",
+              "text": "6"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 4"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Law of Inertia is also referred to as this.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Newtons First Law"
+            },
+            {
+              "id": "1",
+              "text": "Newtons Third Law"
+            },
+            {
+              "id": "2",
+              "text": "Fundamental law of dynamics"
+            },
+            {
+              "id": "3",
+              "text": "Newtons Second Law"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Newtons First Law"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The discovery of cosmic object 2003 UB313 caused much stir in astronomers circles. Its discoverers declared 2003 UB313 to be what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The tenth planet in the Solar system"
+            },
+            {
+              "id": "1",
+              "text": "A new galaxy"
+            },
+            {
+              "id": "2",
+              "text": "A possible black hole near the edge of the Solar system"
+            },
+            {
+              "id": "3",
+              "text": "A planetary system with signs of intelligent life"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The tenth planet in the Solar system"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Contrary to this celestial bodys true nature, the term asteroid means what according to its greek origins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cone-shaped"
+            },
+            {
+              "id": "1",
+              "text": "Planet-like"
+            },
+            {
+              "id": "2",
+              "text": "Drifting freely"
+            },
+            {
+              "id": "3",
+              "text": "Star-like"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Star-like"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "stars",
+          "discovery",
+          "star",
+          "order",
+          "plancks"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Science Quiz: Numbers and Internet",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, kasner, parlance. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On the Internet, who or what is a server?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The person who serves the hors doeuvres."
+            },
+            {
+              "id": "1",
+              "text": "The computer on which the programs of a web site run"
+            },
+            {
+              "id": "2",
+              "text": "The person who serves the customers of an Internet Service Provider"
+            },
+            {
+              "id": "3",
+              "text": "The program which controls a web page"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The computer on which the programs of a web site run"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1938, Edward  Kasner wrote a 1  followed by 100 zeros and showed it to his baby nephew.  What the baby said became the name of that written number. What did the kid say?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Giggle"
+            },
+            {
+              "id": "1",
+              "text": "Dada"
+            },
+            {
+              "id": "2",
+              "text": "Gaga"
+            },
+            {
+              "id": "3",
+              "text": "Googol"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Googol"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Web pages can be viewed on which of these devices?",
+          "options": [
+            {
+              "id": "0",
+              "text": "All of these"
+            },
+            {
+              "id": "1",
+              "text": "Cell phone"
+            },
+            {
+              "id": "2",
+              "text": "PDA"
+            },
+            {
+              "id": "3",
+              "text": "Personal Computer"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "ICQ is a type of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ISP"
+            },
+            {
+              "id": "1",
+              "text": "Bulletin Board"
+            },
+            {
+              "id": "2",
+              "text": "Intelligence"
+            },
+            {
+              "id": "3",
+              "text": "An instant messaging computer program"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: An instant messaging computer program"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In Internet parlance, what is a cookie?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Something stored on the client computer by a web pages program"
+            },
+            {
+              "id": "1",
+              "text": "Something tasty on a web page"
+            },
+            {
+              "id": "2",
+              "text": "Something made up (or cooked) on a web page"
+            },
+            {
+              "id": "3",
+              "text": "A portion of a program governing a web page"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Something stored on the client computer by a web pages program"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a list of numbers what, is the mode?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The number seen most frequently"
+            },
+            {
+              "id": "1",
+              "text": "The number of items in the list"
+            },
+            {
+              "id": "2",
+              "text": "The biggest number minus the smallest number"
+            },
+            {
+              "id": "3",
+              "text": "The middle number"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The number seen most frequently"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "To find the acceleration of a particle what would we do to the velocity ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Differentiate once"
+            },
+            {
+              "id": "1",
+              "text": "Integrate twice"
+            },
+            {
+              "id": "2",
+              "text": "Differentiate twice"
+            },
+            {
+              "id": "3",
+              "text": "Integrate once"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Differentiate once"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The pictures on a web page can be stored in more than one physical location.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which set contains only  prime numbers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2, 3, 5, 7,11,13, 17"
+            },
+            {
+              "id": "1",
+              "text": "1, 4, 11, 13, 15, 17"
+            },
+            {
+              "id": "2",
+              "text": "2, 3, 5, 7, 9, 11, 37"
+            },
+            {
+              "id": "3",
+              "text": "1, 3, 5, 7, 9, 11, 13"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 2, 3, 5, 7,11,13, 17"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Johann Regiomontanus first introduced the plus sign, + , in this year.",
+          "options": [
+            {
+              "id": "0",
+              "text": "1656"
+            },
+            {
+              "id": "1",
+              "text": "1556"
+            },
+            {
+              "id": "2",
+              "text": "1456"
+            },
+            {
+              "id": "3",
+              "text": "1756"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1456"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do mathematicians call any rectangular table of numbers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A  Latin square"
+            },
+            {
+              "id": "1",
+              "text": "A polynomial"
+            },
+            {
+              "id": "2",
+              "text": "A matrix"
+            },
+            {
+              "id": "3",
+              "text": "A  factorial"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: A matrix"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The sides of a triangle are 1 inch, 2 inches and 3 inches. What is the perimeter of the triangle.",
+          "options": [
+            {
+              "id": "0",
+              "text": "6 cubic inches"
+            },
+            {
+              "id": "1",
+              "text": "It has no perimeter"
+            },
+            {
+              "id": "2",
+              "text": "6 square inches"
+            },
+            {
+              "id": "3",
+              "text": "6 inches"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: It has no perimeter"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is the main Internet computer located?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Greenwich, England"
+            },
+            {
+              "id": "1",
+              "text": "New York, New York, USA"
+            },
+            {
+              "id": "2",
+              "text": "Geneva, Switzerland"
+            },
+            {
+              "id": "3",
+              "text": "Nowhere"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Nowhere"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Calculate 6!",
+          "options": [
+            {
+              "id": "0",
+              "text": "36"
+            },
+            {
+              "id": "1",
+              "text": "21"
+            },
+            {
+              "id": "2",
+              "text": "216"
+            },
+            {
+              "id": "3",
+              "text": "720"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 720"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When was the multiplication sign, x, first used?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1731"
+            },
+            {
+              "id": "1",
+              "text": "1631"
+            },
+            {
+              "id": "2",
+              "text": "1531"
+            },
+            {
+              "id": "3",
+              "text": "1831"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1631"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "kasner",
+          "parlance",
+          "cookie",
+          "table",
+          "particle"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Science Quiz: Light and Space",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, gravity, http. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the main purpose of pulleys?",
+          "options": [
+            {
+              "id": "0",
+              "text": "They are useless"
+            },
+            {
+              "id": "1",
+              "text": "They halve the needed force"
+            },
+            {
+              "id": "2",
+              "text": "They double the needed force"
+            },
+            {
+              "id": "3",
+              "text": "They decrease the force needed to lift something."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: They decrease the force needed to lift something."
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does WWW stand for?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wild Wonderful World"
+            },
+            {
+              "id": "1",
+              "text": "World Wide Web"
+            },
+            {
+              "id": "2",
+              "text": "Whole World Web"
+            },
+            {
+              "id": "3",
+              "text": "World War Web"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: World Wide Web"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Astronauts age faster.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Referred to as the father of integral calculus, he initiated the sciences of hydrostatics, static mechanics and pycnometry (the measurement of the volume or density of an object). He was killed by a Roman soldier who did not know who he was.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Isaac Newton"
+            },
+            {
+              "id": "1",
+              "text": "Pythagoras"
+            },
+            {
+              "id": "2",
+              "text": "Carl Friedrich Gauss"
+            },
+            {
+              "id": "3",
+              "text": "Archimedes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Archimedes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who came up with the laws of gravity?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pythagoras"
+            },
+            {
+              "id": "1",
+              "text": "Einstein"
+            },
+            {
+              "id": "2",
+              "text": "Newton"
+            },
+            {
+              "id": "3",
+              "text": "Archimedes"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Newton"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On May 5, 1961, this man became the first U.S. astronaut in space.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buzz Aldrin"
+            },
+            {
+              "id": "1",
+              "text": "Neil Armstrong"
+            },
+            {
+              "id": "2",
+              "text": "John Glenn"
+            },
+            {
+              "id": "3",
+              "text": "Alan Shepard"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alan Shepard"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "These particles form light, as you see it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Electrons"
+            },
+            {
+              "id": "1",
+              "text": "Quarks"
+            },
+            {
+              "id": "2",
+              "text": "Leptons"
+            },
+            {
+              "id": "3",
+              "text": "Photons"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Photons"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The National Aeronautics and Space Administration was established on July 29, 1958 under which U.S.  President?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dwight Eisenhower"
+            },
+            {
+              "id": "1",
+              "text": "Harry Truman"
+            },
+            {
+              "id": "2",
+              "text": "John Kennedy"
+            },
+            {
+              "id": "3",
+              "text": "Lyndon Johnson"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Dwight Eisenhower"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the speed of light in free space?",
+          "options": [
+            {
+              "id": "0",
+              "text": "155,342 miles per second (~250,000 km/s)"
+            },
+            {
+              "id": "1",
+              "text": "186,282 miles per second (~300,000 km/s)"
+            },
+            {
+              "id": "2",
+              "text": "124,274 miles per second (~200,000 km/s)"
+            },
+            {
+              "id": "3",
+              "text": "93,205 miles per second (~100,000 km/s)"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 186,282 miles per second (~300,000 km/s)"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2001, NASA sent this unmanned spacecraft to orbit Mars in search of signs of water and volcanic activity on the surface.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars Exploration Rover"
+            },
+            {
+              "id": "1",
+              "text": "Mars Reconnaissance Orbiter"
+            },
+            {
+              "id": "2",
+              "text": "Mars Pathfinder"
+            },
+            {
+              "id": "3",
+              "text": "Mars Odyssey"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mars Odyssey"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This device is used for dispersing light, reflecting it or refracting it.",
+          "options": [
+            {
+              "id": "0",
+              "text": "sphere"
+            },
+            {
+              "id": "1",
+              "text": "monocle"
+            },
+            {
+              "id": "2",
+              "text": "prism"
+            },
+            {
+              "id": "3",
+              "text": "lens"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: prism"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the web address http://www.microsoft.com, the com at the end means what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Commercial"
+            },
+            {
+              "id": "1",
+              "text": "Complicated"
+            },
+            {
+              "id": "2",
+              "text": "Communication"
+            },
+            {
+              "id": "3",
+              "text": "Compensated"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Commercial"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Internet Explorer, Opera and Mozilla are examples of what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Internet service providers"
+            },
+            {
+              "id": "1",
+              "text": "Hypertext transfer protocols"
+            },
+            {
+              "id": "2",
+              "text": "Web browsers"
+            },
+            {
+              "id": "3",
+              "text": "Search engines"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Web browsers"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pornography is illegal on the Internet.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He first developed the principle of relativity.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Michelson-Morley"
+            },
+            {
+              "id": "1",
+              "text": "Galileo"
+            },
+            {
+              "id": "2",
+              "text": "Einstein"
+            },
+            {
+              "id": "3",
+              "text": "H.A. Lorentz"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Galileo"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "gravity",
+          "http",
+          "space",
+          "pulleys",
+          "father"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Science Quiz: Planet and Solar System",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, space, gas. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the distinctive feature of the sixth planet of the Solar System (counted from the Sun)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its gigantic craters"
+            },
+            {
+              "id": "1",
+              "text": "Its active volcanoes"
+            },
+            {
+              "id": "2",
+              "text": "Its equatorial rings"
+            },
+            {
+              "id": "3",
+              "text": "Its silver coloring"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Its equatorial rings"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the largest planet in the Solar System?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars"
+            },
+            {
+              "id": "1",
+              "text": "Saturn"
+            },
+            {
+              "id": "2",
+              "text": "Venus"
+            },
+            {
+              "id": "3",
+              "text": "Jupiter"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jupiter"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The International Space Station is a joint project of five space agencies, including NASA. Which Space Agency is not part of the project?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Russian Federal Space Agency"
+            },
+            {
+              "id": "1",
+              "text": "Canadian Space Agency"
+            },
+            {
+              "id": "2",
+              "text": "China National Space Administration"
+            },
+            {
+              "id": "3",
+              "text": "Japan Aerospace Exploration Agency"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: China National Space Administration"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following Solar System planets are designated as gas planets?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Saturn"
+            },
+            {
+              "id": "1",
+              "text": "All of these"
+            },
+            {
+              "id": "2",
+              "text": "Neptune"
+            },
+            {
+              "id": "3",
+              "text": "Jupiter and Neptune"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: All of these"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Io and Europa are two of the larger satellites of which Solar System planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pluto"
+            },
+            {
+              "id": "1",
+              "text": "Venus"
+            },
+            {
+              "id": "2",
+              "text": "Saturn"
+            },
+            {
+              "id": "3",
+              "text": "Jupiter"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jupiter"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following planets is closest to the Sun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Venus"
+            },
+            {
+              "id": "1",
+              "text": "Mars"
+            },
+            {
+              "id": "2",
+              "text": "Mercury"
+            },
+            {
+              "id": "3",
+              "text": "Earth"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mercury"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet has been demoted from its planet status by scientists like Neil Tyson, Director of the Hayden Planetarium?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neptune"
+            },
+            {
+              "id": "1",
+              "text": "Pluto"
+            },
+            {
+              "id": "2",
+              "text": "Uranus"
+            },
+            {
+              "id": "3",
+              "text": "Mercury"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Pluto"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The mission statement of NASA is to understand and protect our home planet; to explore the Universe and search for life; and to inspire the next generation of explorers.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet of the Solar System is nicknamed the Blue Planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Earth"
+            },
+            {
+              "id": "1",
+              "text": "Neptune"
+            },
+            {
+              "id": "2",
+              "text": "Venus"
+            },
+            {
+              "id": "3",
+              "text": "Saturn"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Earth"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "On January 19, 2006 NASA launched the unmanned mission New Horizons to explore Pluto, on a one-way trip of how many years?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4"
+            },
+            {
+              "id": "1",
+              "text": "9"
+            },
+            {
+              "id": "2",
+              "text": "15"
+            },
+            {
+              "id": "3",
+              "text": "13"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 9"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet has been described as a sister planet to Earth?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mercury"
+            },
+            {
+              "id": "1",
+              "text": "Saturn"
+            },
+            {
+              "id": "2",
+              "text": "Venus"
+            },
+            {
+              "id": "3",
+              "text": "Mars"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Venus"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Vision for Space Exploration is the U. S. space program was announced on January 14, 2004 by President George W. Bush. According to this program, the moon will be explored by manned missions by what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2010"
+            },
+            {
+              "id": "1",
+              "text": "2011"
+            },
+            {
+              "id": "2",
+              "text": "2020"
+            },
+            {
+              "id": "3",
+              "text": "2025"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2020"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet was named after the ancient Romans\u2019 king of the gods?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars"
+            },
+            {
+              "id": "1",
+              "text": "Jupiter"
+            },
+            {
+              "id": "2",
+              "text": "Neptune"
+            },
+            {
+              "id": "3",
+              "text": "Saturn"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Jupiter"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet of the Solar System has been nicknamed The Red Planet?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mercury"
+            },
+            {
+              "id": "1",
+              "text": "Mars"
+            },
+            {
+              "id": "2",
+              "text": "Neptune"
+            },
+            {
+              "id": "3",
+              "text": "Venus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Mars"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet was named after the Roman god of war?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Uranus"
+            },
+            {
+              "id": "1",
+              "text": "Mercury"
+            },
+            {
+              "id": "2",
+              "text": "Mars"
+            },
+            {
+              "id": "3",
+              "text": "Saturn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Mars"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "space",
+          "gas",
+          "exploration",
+          "satellites",
+          "europa"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Science Quiz: Messaging and Instant Messaging Language",
+      "description": "Test your science knowledge with this comprehensive quiz! Features 15 questions covering Science, number, system. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does NP mean in instant messaging language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "noogie patrol"
+            },
+            {
+              "id": "1",
+              "text": "no parents"
+            },
+            {
+              "id": "2",
+              "text": "no problem"
+            },
+            {
+              "id": "3",
+              "text": "new puppy"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: no problem"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does BTDT mean in instant messaging language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "but I thought you didnt tell"
+            },
+            {
+              "id": "1",
+              "text": "boy thats dirty talk"
+            },
+            {
+              "id": "2",
+              "text": "been there, done that"
+            },
+            {
+              "id": "3",
+              "text": "better than doing time"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: been there, done that"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does HAND mean in instant messaging language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "hot always, never dull"
+            },
+            {
+              "id": "1",
+              "text": "handsome and nearly divine"
+            },
+            {
+              "id": "2",
+              "text": "have a nice day"
+            },
+            {
+              "id": "3",
+              "text": "had a neat dream"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: have a nice day"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does SYS mean when used in instant messaging ?",
+          "options": [
+            {
+              "id": "0",
+              "text": "still your spouse"
+            },
+            {
+              "id": "1",
+              "text": "see your sister"
+            },
+            {
+              "id": "2",
+              "text": "system is down"
+            },
+            {
+              "id": "3",
+              "text": "see you soon"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: see you soon"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does POS mean in instant messaging language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "please open soon"
+            },
+            {
+              "id": "1",
+              "text": "passing off as stupid"
+            },
+            {
+              "id": "2",
+              "text": "parent over shoulder"
+            },
+            {
+              "id": "3",
+              "text": "pressing on solo (going it alone)"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: parent over shoulder"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does TIA mean in instant messaging language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "thats it already"
+            },
+            {
+              "id": "1",
+              "text": "thanks in advance"
+            },
+            {
+              "id": "2",
+              "text": "tony is awesome"
+            },
+            {
+              "id": "3",
+              "text": "typist is away"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: thanks in advance"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does WFM mean when used in instant messaging?",
+          "options": [
+            {
+              "id": "0",
+              "text": "works for me"
+            },
+            {
+              "id": "1",
+              "text": "works for money"
+            },
+            {
+              "id": "2",
+              "text": "white female methodist"
+            },
+            {
+              "id": "3",
+              "text": "with fond memories"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: works for me"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Most of the land area of Tennessee is in the Eastern time zone.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does AFK mean in Internet slang?",
+          "options": [
+            {
+              "id": "0",
+              "text": "almost french kissed"
+            },
+            {
+              "id": "1",
+              "text": "as far as i know"
+            },
+            {
+              "id": "2",
+              "text": "all friends are kooks"
+            },
+            {
+              "id": "3",
+              "text": "away from computer keyboard"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: away from computer keyboard"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which time zone encompasses the least number of the continuous 48 United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pacific"
+            },
+            {
+              "id": "1",
+              "text": "Eastern"
+            },
+            {
+              "id": "2",
+              "text": "Central"
+            },
+            {
+              "id": "3",
+              "text": "Mountain"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pacific"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does KIT mean in instant messaging language?",
+          "options": [
+            {
+              "id": "0",
+              "text": "kiss it tenderly"
+            },
+            {
+              "id": "1",
+              "text": "kook in training"
+            },
+            {
+              "id": "2",
+              "text": "keep in touch"
+            },
+            {
+              "id": "3",
+              "text": "kitchen"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: keep in touch"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which is the largest of the so-called terrestrial planets of the Solar System?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars"
+            },
+            {
+              "id": "1",
+              "text": "Venus"
+            },
+            {
+              "id": "2",
+              "text": "Earth"
+            },
+            {
+              "id": "3",
+              "text": "Jupiter"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Earth"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What does ZZZ mean in Internet slang?",
+          "options": [
+            {
+              "id": "0",
+              "text": "zz top is great"
+            },
+            {
+              "id": "1",
+              "text": "tired or bored"
+            },
+            {
+              "id": "2",
+              "text": "zero, zilch, zip"
+            },
+            {
+              "id": "3",
+              "text": "theres a bee in my house"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: tired or bored"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following Solar System planets was not named after a Greek or Roman God?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mercury"
+            },
+            {
+              "id": "1",
+              "text": "Saturn"
+            },
+            {
+              "id": "2",
+              "text": "Uranus"
+            },
+            {
+              "id": "3",
+              "text": "Earth"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Earth"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which planet of the Solar System is also known as The Evening Star?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mars"
+            },
+            {
+              "id": "1",
+              "text": "Venus"
+            },
+            {
+              "id": "2",
+              "text": "Earth"
+            },
+            {
+              "id": "3",
+              "text": "Uranus"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Venus"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Science",
+          "number",
+          "system",
+          "land",
+          "evening",
+          "area"
+        ]
+      }
+    }
+  ]
+}

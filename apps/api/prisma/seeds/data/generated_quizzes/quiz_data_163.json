@@ -1,0 +1,2468 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Sports Quiz: Season and Stanley Cup",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, child, champion. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who were the Stanley Cup champions for the 1994-1995 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "id": "1",
+              "text": "Colorado Avalanche"
+            },
+            {
+              "id": "2",
+              "text": "New Jersey Devils"
+            },
+            {
+              "id": "3",
+              "text": "Quebec Nordiques"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: New Jersey Devils"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 2006-2007 NHL Stanley Cup Finals were won by this team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "id": "1",
+              "text": "Anaheim Ducks"
+            },
+            {
+              "id": "2",
+              "text": "Ottawa Senators"
+            },
+            {
+              "id": "3",
+              "text": "Phoenix Coyotes"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Anaheim Ducks"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the NHLs holy grail for the 2000-2001 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "New Jersey Devils"
+            },
+            {
+              "id": "1",
+              "text": "Carolina Hurricanes"
+            },
+            {
+              "id": "2",
+              "text": "Colorado Avalanche"
+            },
+            {
+              "id": "3",
+              "text": "Detroit Red Wings"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Colorado Avalanche"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team captured the NHL title and the coveted Stanley Cup for the 1997-1998 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "id": "1",
+              "text": "Colorado Avalanche"
+            },
+            {
+              "id": "2",
+              "text": "Buffalo Sabres"
+            },
+            {
+              "id": "3",
+              "text": "Washington Capitals"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Detroit Red Wings"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the Stanley Cup for the 2004-2005 NHL season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Colorado Avalanche"
+            },
+            {
+              "id": "2",
+              "text": "New Jersey Devils"
+            },
+            {
+              "id": "3",
+              "text": "Anaheim Ducks"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: None of these"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the NHL Stanley Cup winner for 1996-1997?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tampa Bay Lightning"
+            },
+            {
+              "id": "1",
+              "text": "Philadelphia Flyers"
+            },
+            {
+              "id": "2",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "id": "3",
+              "text": "New Jersey Devils"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Detroit Red Wings"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Stanley Cup went to this team following the 2001-2002 season.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "id": "1",
+              "text": "Carolina Hurricanes"
+            },
+            {
+              "id": "2",
+              "text": "Edmonton Oilers"
+            },
+            {
+              "id": "3",
+              "text": "New Jersey Devils"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Detroit Red Wings"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Stanley Cup champion following the 2003-2004 NHL season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Tampa Bay Lightning"
+            },
+            {
+              "id": "1",
+              "text": "Calgary Flames"
+            },
+            {
+              "id": "2",
+              "text": "Carolina Hurricanes"
+            },
+            {
+              "id": "3",
+              "text": "Detroit Red Wings"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Tampa Bay Lightning"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these horses is not a child of  thoroughbred race horse, Seabiscuit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sea Sovereign"
+            },
+            {
+              "id": "1",
+              "text": "First Biscuit"
+            },
+            {
+              "id": "2",
+              "text": "Sea Swallow"
+            },
+            {
+              "id": "3",
+              "text": "Sea Orbit"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Sea Orbit"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who got to take the Stanley Cup home to their families following the 2002-2003 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carolina Hurricanes"
+            },
+            {
+              "id": "1",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "id": "2",
+              "text": "New Jersey Devils"
+            },
+            {
+              "id": "3",
+              "text": "Colorado Avalanche"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: New Jersey Devils"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which team won the Stanley Cup following the 1999-2000 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dallas Stars"
+            },
+            {
+              "id": "1",
+              "text": "Mighty Ducks of Anaheim"
+            },
+            {
+              "id": "2",
+              "text": "New Jersey Devils"
+            },
+            {
+              "id": "3",
+              "text": "Colorado Avalanche"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: New Jersey Devils"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Stanley Cup champion in 1998-1999?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "id": "1",
+              "text": "Colorado Avalanche"
+            },
+            {
+              "id": "2",
+              "text": "New Jersey Devils"
+            },
+            {
+              "id": "3",
+              "text": "Dallas Stars"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dallas Stars"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who won the Stanley Cup at the end of the 1993-1994 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Montreal Canadiens"
+            },
+            {
+              "id": "1",
+              "text": "New Jersey Devils"
+            },
+            {
+              "id": "2",
+              "text": "New York Rangers"
+            },
+            {
+              "id": "3",
+              "text": "New York Islanders"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: New York Rangers"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the Stanley Cup winner for 2005-2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Colorado Avalanche"
+            },
+            {
+              "id": "1",
+              "text": "New Jersey Devils"
+            },
+            {
+              "id": "2",
+              "text": "Ottawa Senators"
+            },
+            {
+              "id": "3",
+              "text": "Carolina Hurricanes"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Carolina Hurricanes"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who sipped from the Stanley Cup following the 1995-1996 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ottawa Senators"
+            },
+            {
+              "id": "1",
+              "text": "Detroit Red Wings"
+            },
+            {
+              "id": "2",
+              "text": "Colorado Avalanche"
+            },
+            {
+              "id": "3",
+              "text": "New York Islanders"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Colorado Avalanche"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "child",
+          "champion",
+          "title",
+          "sports",
+          "season"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Sports Quiz: Ball and Player",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, athlete, coin. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You mark your golf ball on the green with a coin, but when you return the ball to its spot, you realize you stepped on the coin and its now stuck to your shoe. What should you do?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Take a 2-stroke penalty and replace your marker"
+            },
+            {
+              "id": "1",
+              "text": "Pretend that nothing happened any quickly toss the coin down so your partners dont suspect foul"
+            },
+            {
+              "id": "2",
+              "text": "Add 1 stroke to your score and replace it as near as possible to its original position"
+            },
+            {
+              "id": "3",
+              "text": "Replace the marker as close as possible to the original location without penalty"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Add 1 stroke to your score and replace it as near as possible to its original position"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Of all the great players\u2019 numbers retired by the Montreal Canadiens, one number has actually been retired more than once. Which number is it?",
+          "options": [
+            {
+              "id": "0",
+              "text": "12"
+            },
+            {
+              "id": "1",
+              "text": "1"
+            },
+            {
+              "id": "2",
+              "text": "10"
+            },
+            {
+              "id": "3",
+              "text": "9"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 12"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the trainer of thoroughbred race horse, Seabiscuit, that rarely spoke?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Richard Fitzsimmons"
+            },
+            {
+              "id": "1",
+              "text": "John Smith"
+            },
+            {
+              "id": "2",
+              "text": "James Fitzsimmons"
+            },
+            {
+              "id": "3",
+              "text": "Tom Smith"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tom Smith"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After marking their ball on the green, a golf player tosses it to their caddie to clean. Thanks to the caddies excellent hand-eye coordination, he dropped it and the ball rolled into a lake. How should the player proceed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Either retrieve the ball from the lake and play on or take a 1 stroke penalty and continue the hole with a new ball"
+            },
+            {
+              "id": "2",
+              "text": "Either retrieve the ball from the lake and play on or take a 2 stroke penalty and continue the hole with a new ball"
+            },
+            {
+              "id": "3",
+              "text": "Continue the hole with a new ball for no penalty"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Either retrieve the ball from the lake and play on or take a 2 stroke penalty and continue the hole with a new ball"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Barbaro went into the Kentucky Derby undefeated at 5-0.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A golf ball embeds into the side of the hole. How should the player who hit it proceed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Replay the shot for no penalty"
+            },
+            {
+              "id": "1",
+              "text": "Play the ball as it lies"
+            },
+            {
+              "id": "2",
+              "text": "Place the ball on the nearest edge of the hole and play from there"
+            },
+            {
+              "id": "3",
+              "text": "Consider the ball holed"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Place the ball on the nearest edge of the hole and play from there"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Montreal Canadiens Head Coach Guy Carbonneau was once a Habs player. What year was he traded and to which team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1995 to the Dallas Stars"
+            },
+            {
+              "id": "1",
+              "text": "1994 to the Chicago Black Hawks"
+            },
+            {
+              "id": "2",
+              "text": "1994 to the St-Louis Blues"
+            },
+            {
+              "id": "3",
+              "text": "1993 to the Detroit Red Wings"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1994 to the St-Louis Blues"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "You hit your tee shot deep into the woods, where it might be lost. You announce that youll play a provisional and immediately hit before your playing partner. Your buddy says you should be penalized for playing out of turn. What should you do according to golf rules?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Take no penalty but replay your provisional in order"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Take no penalty because you were not going out of order to give one player an advantage"
+            },
+            {
+              "id": "3",
+              "text": "Take a 1-stroke penalty for not waiting for all other playing partners to hit before taking a provisional"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Take no penalty because you were not going out of order to give one player an advantage"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After playing an approach shot into the green, you find that some prankster in the group ahead had jammed the flag some 40 feet from where the actual golf hole was. How do you proceed?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Play the ball as it lies"
+            },
+            {
+              "id": "1",
+              "text": "None of these"
+            },
+            {
+              "id": "2",
+              "text": "Move the ball to the same distance from the hole as it was with the fake hole"
+            },
+            {
+              "id": "3",
+              "text": "Replay the shot"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Play the ball as it lies"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "As you are making an attempt to strike the golf ball, the head of the club separates from the shaft on your backswing. You complete the swing but miss the ball. Did you make a stroke?",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A golf player addresses their ball and is half way through their backswing when a gust of wind rolled the ball back an inch. What is the ruling?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The player takes one penalty stroke and replaces the ball."
+            },
+            {
+              "id": "1",
+              "text": "The player should take no penalty but replay the shot."
+            },
+            {
+              "id": "2",
+              "text": "The player takes one penalty stroke and plays the ball as it lies."
+            },
+            {
+              "id": "3",
+              "text": "Since Mother Nature is to blame for the movement, there is no penalty and the player now plays the ball as it lies."
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The player takes one penalty stroke and plays the ball as it lies."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There is no greater honour for a professional athlete to have his number retired by the franchise for which he used to play. Prior to the 2007-2008 season, how many retired numbers were there in the Montreal Canadiens hockey team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "11"
+            },
+            {
+              "id": "1",
+              "text": "7"
+            },
+            {
+              "id": "2",
+              "text": "12"
+            },
+            {
+              "id": "3",
+              "text": "16"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 11"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Hockey Hall of Fame located in Toronto, Ontario, has inducted some of the greatest of hockey players over the years. Which member of the Montreal Canadiens was inducted into the Hockey Hall of Fame in 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The 44th"
+            },
+            {
+              "id": "1",
+              "text": "The 42nd"
+            },
+            {
+              "id": "2",
+              "text": "The 63rd"
+            },
+            {
+              "id": "3",
+              "text": "The 51st"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The 44th"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Golf player A tees off, he mutters a few f-bombs as he watches his ball fly far right into trees and says, Ill play another one. Then he re-tees another ball. His 2nd ball is straighter - in the fairway. Player B claims foul as he did not say he was playing a provisional ball, using those exact words. What should then be done?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Player A is disqualified for swearing."
+            },
+            {
+              "id": "1",
+              "text": "Player A is disqualified for illegally playing a shot."
+            },
+            {
+              "id": "2",
+              "text": "Player A and B both decide that it was meant as a provisional and thus Player A plays his 3rd shot from the fairway using his 2nd ball."
+            },
+            {
+              "id": "3",
+              "text": "Player B is disqualified for accusing his partner for cheating."
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Player A is disqualified for illegally playing a shot."
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what season did the Montreal Canadiens win their first Stanley Cup?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1917-1918"
+            },
+            {
+              "id": "1",
+              "text": "1915-1916"
+            },
+            {
+              "id": "2",
+              "text": "1916-1918"
+            },
+            {
+              "id": "3",
+              "text": "1919-1920"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 1915-1916"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "athlete",
+          "coin",
+          "players",
+          "honour",
+          "coach"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Sports Quiz: New York Rangers and Coach",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, athlete, playoffs. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was the first ever US Masters Golf tournament played?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bethpage"
+            },
+            {
+              "id": "1",
+              "text": "Augusta National"
+            },
+            {
+              "id": "2",
+              "text": "Pebble Beach"
+            },
+            {
+              "id": "3",
+              "text": "Outside the US"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Augusta National"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is a golfer said to have, if he is entitled to hit off first?",
+          "options": [
+            {
+              "id": "0",
+              "text": "the hit"
+            },
+            {
+              "id": "1",
+              "text": "the honour"
+            },
+            {
+              "id": "2",
+              "text": "the turn"
+            },
+            {
+              "id": "3",
+              "text": "the badge"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: the honour"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Glen Sather become President and GM of the New York Rangers?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2000"
+            },
+            {
+              "id": "1",
+              "text": "1995"
+            },
+            {
+              "id": "2",
+              "text": "2003"
+            },
+            {
+              "id": "3",
+              "text": "2005"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 2000"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Before the 2009 playoffs began, New York Rangers head coach Tom Renney and this assistant coach were fired.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Perry Pearn"
+            },
+            {
+              "id": "1",
+              "text": "Matt Berrie"
+            },
+            {
+              "id": "2",
+              "text": "Mike Pelino"
+            },
+            {
+              "id": "3",
+              "text": "Glen Sather"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Perry Pearn"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 1993 playoffs the New York Rangers beat the New Jersey Devils in 7 games in the Conference finals.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was the Montreal Canadiens hockey team founded?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1908"
+            },
+            {
+              "id": "1",
+              "text": "1917"
+            },
+            {
+              "id": "2",
+              "text": "1909"
+            },
+            {
+              "id": "3",
+              "text": "1902"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 1909"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This former ice hockey defenseman, born in Ontario, Canada, played 465 games as a New York Ranger and wore number 2.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Guy Lafleur"
+            },
+            {
+              "id": "1",
+              "text": "Clint Smith"
+            },
+            {
+              "id": "2",
+              "text": "Brad Park"
+            },
+            {
+              "id": "3",
+              "text": "Maurice Richard"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Brad Park"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Tiger Woods was the highest-paid professional athlete in 2008.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The 2009 US Open Golf Championship was played at Bethpage Black. What was its par?",
+          "options": [
+            {
+              "id": "0",
+              "text": "70"
+            },
+            {
+              "id": "1",
+              "text": "71"
+            },
+            {
+              "id": "2",
+              "text": "72"
+            },
+            {
+              "id": "3",
+              "text": "69"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 70"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What golf term refers to a score of a 3 on a par 5?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eagle"
+            },
+            {
+              "id": "1",
+              "text": "Bogey"
+            },
+            {
+              "id": "2",
+              "text": "Birdie"
+            },
+            {
+              "id": "3",
+              "text": "Par"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Eagle"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2009, Tom Renney, ex-head coach of the New York Rangers, became the new assistant coach of what team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Los Angeles Kings"
+            },
+            {
+              "id": "1",
+              "text": "Colorado Avalanche"
+            },
+            {
+              "id": "2",
+              "text": "Phoenix Coyotes"
+            },
+            {
+              "id": "3",
+              "text": "Edmonton Oilers"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Edmonton Oilers"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2009, New York Rangers defenseman Michal Rozs\u00edval switched to this number.",
+          "options": [
+            {
+              "id": "0",
+              "text": "76"
+            },
+            {
+              "id": "1",
+              "text": "19"
+            },
+            {
+              "id": "2",
+              "text": "33"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 33"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Denim clothing is acceptable on most golf courses around the world.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following New York Rangers retired after the 2008-09 season?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brendan Shanhan"
+            },
+            {
+              "id": "1",
+              "text": "Jaromir Jagr"
+            },
+            {
+              "id": "2",
+              "text": "Markus Naslund"
+            },
+            {
+              "id": "3",
+              "text": "Wade Redden"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Markus Naslund"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Open Championship was first played on 17 October 1860 at this golf course.",
+          "options": [
+            {
+              "id": "0",
+              "text": "St. Andrews"
+            },
+            {
+              "id": "1",
+              "text": "Royal Birkdale"
+            },
+            {
+              "id": "2",
+              "text": "Lahinch Golf Club"
+            },
+            {
+              "id": "3",
+              "text": "Prestwick"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Prestwick"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "athlete",
+          "playoffs",
+          "rangers",
+          "coach",
+          "golfer"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Sports Quiz: Year and Players",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, kind, stadium. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Until 2008, only three Spanish players made it to the finals of the US Open. Manuel Santana and Manuel Orantes lifted the trophy in 1965 and 1975, respectively. Who stayed runner-up in the 2003 final?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rafael Nadal"
+            },
+            {
+              "id": "1",
+              "text": "Tommy Robredo"
+            },
+            {
+              "id": "2",
+              "text": "Carlos Moya"
+            },
+            {
+              "id": "3",
+              "text": "Juan Carlos Ferrero"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Juan Carlos Ferrero"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times did Roger Federer defeat an American player in the final during his successive five championship wins (2004-2008)?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1"
+            },
+            {
+              "id": "1",
+              "text": "0"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "3"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What tennis player won the US Open in 1990, becoming the youngest ever US Open champion in mens singles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John McEnroe"
+            },
+            {
+              "id": "1",
+              "text": "Bill Tilden"
+            },
+            {
+              "id": "2",
+              "text": "Andre Agassi"
+            },
+            {
+              "id": "3",
+              "text": "Pete Sampras"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Pete Sampras"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It is generally agreed that riding on off-road paths is safer than riding on the street.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "When did Bob and Mike Bryan win the US Open doubles final for the first time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2008"
+            },
+            {
+              "id": "1",
+              "text": "2000"
+            },
+            {
+              "id": "2",
+              "text": "2005"
+            },
+            {
+              "id": "3",
+              "text": "1998"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2005"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Tiger Woods win the US Open Championship held at Torrey Pines?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2009"
+            },
+            {
+              "id": "1",
+              "text": "2007"
+            },
+            {
+              "id": "2",
+              "text": "2008"
+            },
+            {
+              "id": "3",
+              "text": "2006"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 2008"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The US Open Tennis Championships were first contested in 1881 as the US National Championships. What events did the players compete in?",
+          "options": [
+            {
+              "id": "0",
+              "text": "mens singles and mens doubles"
+            },
+            {
+              "id": "1",
+              "text": "mens singles and womens singles"
+            },
+            {
+              "id": "2",
+              "text": "mens singles"
+            },
+            {
+              "id": "3",
+              "text": "mens singles and womens doubles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: mens singles"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the 2002 mixed doubles US Open final, Bob Bryan, partnering with Lisa Raymond won the title, beating his brother Mike on the opposite side.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which country won the maximum number of US Open championships since the beginning of the Open Era in 1968 until 2008?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Australia"
+            },
+            {
+              "id": "1",
+              "text": "Spain"
+            },
+            {
+              "id": "2",
+              "text": "United States"
+            },
+            {
+              "id": "3",
+              "text": "Switzerland"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: United States"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The production of the worlds first commercially available bicycles began in what year?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1867"
+            },
+            {
+              "id": "1",
+              "text": "1973"
+            },
+            {
+              "id": "2",
+              "text": "1493"
+            },
+            {
+              "id": "3",
+              "text": "1843"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1867"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What kind of handlebar would you normally find on a road bike?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Drop handlebar"
+            },
+            {
+              "id": "1",
+              "text": "Straight handlebar"
+            },
+            {
+              "id": "2",
+              "text": "Crooked handlebar"
+            },
+            {
+              "id": "3",
+              "text": "Fallen handlebar"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Drop handlebar"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Arthur Ashe Stadium is named after Arthur Ashe, the African-American tennis player.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The US Open was originally played on grass and clay courts before moving to acrylic hard court.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is not one of the players who have won five US Open titles?",
+          "options": [
+            {
+              "id": "0",
+              "text": "John McEnroe"
+            },
+            {
+              "id": "1",
+              "text": "Pete Sampras"
+            },
+            {
+              "id": "2",
+              "text": "Roger Federer"
+            },
+            {
+              "id": "3",
+              "text": "Jimmy Connors"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: John McEnroe"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Specialized Bicycle Components produce the first mountain bike called the Stumpjumper?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1982"
+            },
+            {
+              "id": "1",
+              "text": "1973"
+            },
+            {
+              "id": "2",
+              "text": "1978"
+            },
+            {
+              "id": "3",
+              "text": "1984"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 1982"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "kind",
+          "stadium",
+          "bicycles",
+          "country",
+          "players"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Sports Quiz: Opening and Defense",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, opening, world. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This defense to the first move P-K4 involves the move P-QB3. It is considered solid, and was a favorite of world champion Anatoly Karpov.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nimzovitch Defense"
+            },
+            {
+              "id": "1",
+              "text": "Caro-Kann Defense"
+            },
+            {
+              "id": "2",
+              "text": "Sicilian Defense"
+            },
+            {
+              "id": "3",
+              "text": "French Defense"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Caro-Kann Defense"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Fischer Defense to the Kings Gambit involves which of the following moves by black?",
+          "options": [
+            {
+              "id": "0",
+              "text": "P-Q4, N-KB3, and in some cases QxP"
+            },
+            {
+              "id": "1",
+              "text": "B-QB4, N-KB3, N-QB3"
+            },
+            {
+              "id": "2",
+              "text": "N-KB3, Q-K2, P-Q3, N-Q2"
+            },
+            {
+              "id": "3",
+              "text": "P-Q3, P-KN4, P-KR3, B-KN2"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: P-Q3, P-KN4, P-KR3, B-KN2"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This defense to the first move P-K4 involves the move P-K3. It is a very difficult opening to play and was a favorite of Victor Korchnoi.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Two-Knights Defense"
+            },
+            {
+              "id": "1",
+              "text": "The Korchnoi Defense"
+            },
+            {
+              "id": "2",
+              "text": "The Falkbeer Counter-gambit"
+            },
+            {
+              "id": "3",
+              "text": "The French Defense"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The French Defense"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fat Tire Week takes place in what town in the state of Colorado?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aspen"
+            },
+            {
+              "id": "1",
+              "text": "Fort Collins"
+            },
+            {
+              "id": "2",
+              "text": "Crested Butte"
+            },
+            {
+              "id": "3",
+              "text": "Denver"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Crested Butte"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the mechanism at the bottom of pro-cyclists shoes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beat"
+            },
+            {
+              "id": "1",
+              "text": "Sleet"
+            },
+            {
+              "id": "2",
+              "text": "Cleats"
+            },
+            {
+              "id": "3",
+              "text": "Fleats"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Cleats"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This chess opening involves the move P-KB4 (f4) by white, and often the fianchetto of the queens bishop.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Birds Opening"
+            },
+            {
+              "id": "1",
+              "text": "Queens Gambit"
+            },
+            {
+              "id": "2",
+              "text": "Benko Gambit"
+            },
+            {
+              "id": "3",
+              "text": "Wing Gambit"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Birds Opening"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What world famous trail is located near Moab, Utah?",
+          "options": [
+            {
+              "id": "0",
+              "text": "White Rim Trail"
+            },
+            {
+              "id": "1",
+              "text": "Poison Spider Mesa"
+            },
+            {
+              "id": "2",
+              "text": "Slickrock Bike Trail"
+            },
+            {
+              "id": "3",
+              "text": "Klondike Bluffs"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Slickrock Bike Trail"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This chess opening was named after a mythical creature.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Dragon Variation of the Sicilian Defense"
+            },
+            {
+              "id": "1",
+              "text": "The Phoenix Variation of the Trompowsky Attack"
+            },
+            {
+              "id": "2",
+              "text": "The Unicorn Variation of the Kings Gambit"
+            },
+            {
+              "id": "3",
+              "text": "The Centaur Variation of the Queens Gambit"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Dragon Variation of the Sicilian Defense"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This chess opening involves up to 3 knight moves in succession before any other piece or pawn is moved.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nimzovitch"
+            },
+            {
+              "id": "1",
+              "text": "Sicilian"
+            },
+            {
+              "id": "2",
+              "text": "Pirc"
+            },
+            {
+              "id": "3",
+              "text": "Alekhine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Alekhine"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "There are open, semi-open and closed openings. Which of the following openings would be considered an open game?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Queens Indian Defense"
+            },
+            {
+              "id": "1",
+              "text": "The Two Knights Defense"
+            },
+            {
+              "id": "2",
+              "text": "The Kings Indian Defense"
+            },
+            {
+              "id": "3",
+              "text": "The Queens Gambit"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Two Knights Defense"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Looking to expand the alternatives for Bike to Work Day, Jeff Obst coined the phrase B-BOP (Bike, Bus, Or carPool) Day. In what year was this campaign initiated?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1973"
+            },
+            {
+              "id": "1",
+              "text": "1989"
+            },
+            {
+              "id": "2",
+              "text": "1996"
+            },
+            {
+              "id": "3",
+              "text": "1991"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1991"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first world champion, Steinitz lost many games against this opening which involves the moves 1 P-K4 P-K4 2 N-KB3 N-QB3 3 B-B4 B-B4 4 P-QN4.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Trompowsky Attack"
+            },
+            {
+              "id": "1",
+              "text": "Wing Gambit"
+            },
+            {
+              "id": "2",
+              "text": "Benko Gambit"
+            },
+            {
+              "id": "3",
+              "text": "Evans Gambit"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Evans Gambit"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The first move by white 1 N-KB3 could result in all of the following openings except which one?",
+          "options": [
+            {
+              "id": "0",
+              "text": "English Opening"
+            },
+            {
+              "id": "1",
+              "text": "Kings Gambit"
+            },
+            {
+              "id": "2",
+              "text": "Spanish Opening"
+            },
+            {
+              "id": "3",
+              "text": "Kings Indian Attack"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Kings Gambit"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This chess opening involves no pawn moves beyond the third rank.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The British Defense"
+            },
+            {
+              "id": "1",
+              "text": "The Hedgehog Defense"
+            },
+            {
+              "id": "2",
+              "text": "The Hamster Defense"
+            },
+            {
+              "id": "3",
+              "text": "The Squirrel Defense"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Hedgehog Defense"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following is a Hypermodern opening?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Benko Gambit"
+            },
+            {
+              "id": "1",
+              "text": "English Opening"
+            },
+            {
+              "id": "2",
+              "text": "Sicilian Defense"
+            },
+            {
+              "id": "3",
+              "text": "Queens Gambit"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: English Opening"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "opening",
+          "world",
+          "moab",
+          "following",
+          "game"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Sports Quiz: Spain and Sport",
+      "description": "Test your sports knowledge with this comprehensive quiz! Features 15 questions covering Sports, field, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what country did the disc dog sport, commonly known as frisbee dog, originate?",
+          "options": [
+            {
+              "id": "0",
+              "text": "China"
+            },
+            {
+              "id": "1",
+              "text": "Australia"
+            },
+            {
+              "id": "2",
+              "text": "Scotland"
+            },
+            {
+              "id": "3",
+              "text": "United States"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: United States"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what type of environment is the sport called parkour most often practiced?",
+          "options": [
+            {
+              "id": "0",
+              "text": "In urban areas"
+            },
+            {
+              "id": "1",
+              "text": "In an open bare field"
+            },
+            {
+              "id": "2",
+              "text": "In swimming pools"
+            },
+            {
+              "id": "3",
+              "text": "In a gym"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: In urban areas"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What rank did Spain achieve on the Medal table in the Summer Olympics in 1992?",
+          "options": [
+            {
+              "id": "0",
+              "text": "4th"
+            },
+            {
+              "id": "1",
+              "text": "10th"
+            },
+            {
+              "id": "2",
+              "text": "6th"
+            },
+            {
+              "id": "3",
+              "text": "8th"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 6th"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After graduating from Duke University, Matt Breslin became the goalie for this Major League Lacrosse team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Pride"
+            },
+            {
+              "id": "1",
+              "text": "The Lizards"
+            },
+            {
+              "id": "2",
+              "text": "The Outlaws"
+            },
+            {
+              "id": "3",
+              "text": "The Cannons"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Pride"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these lacrosse teams was founded in Chicago?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bayhawks"
+            },
+            {
+              "id": "1",
+              "text": "Pride"
+            },
+            {
+              "id": "2",
+              "text": "Barrage"
+            },
+            {
+              "id": "3",
+              "text": "Machine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Machine"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1982, Spain hosted the FIFA World Cup for the first time. How many cities in Spain hosted this world tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "14"
+            },
+            {
+              "id": "2",
+              "text": "12"
+            },
+            {
+              "id": "3",
+              "text": "8"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 14"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mens field lacrosse is played with how many players on each team?",
+          "options": [
+            {
+              "id": "0",
+              "text": "8"
+            },
+            {
+              "id": "1",
+              "text": "10"
+            },
+            {
+              "id": "2",
+              "text": "9"
+            },
+            {
+              "id": "3",
+              "text": "11"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: 10"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Andy Corno is known as the starting face off midfielder for this lacrosse team.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Machine"
+            },
+            {
+              "id": "1",
+              "text": "Bayhawks"
+            },
+            {
+              "id": "2",
+              "text": "Rattlers"
+            },
+            {
+              "id": "3",
+              "text": "Barrage"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Barrage"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many games did Spain lose in the UEFA Euro 2008 Tournament?",
+          "options": [
+            {
+              "id": "0",
+              "text": "0"
+            },
+            {
+              "id": "1",
+              "text": "3"
+            },
+            {
+              "id": "2",
+              "text": "2"
+            },
+            {
+              "id": "3",
+              "text": "1"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 0"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This player started practicing tennis at the age of 12, choosing the sport over football. He has been given the Prince of Asturias Award for Sports.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Carlos Moya"
+            },
+            {
+              "id": "1",
+              "text": "Juan Carlos Ferrero"
+            },
+            {
+              "id": "2",
+              "text": "Rafael Nadal"
+            },
+            {
+              "id": "3",
+              "text": "Tommy Robredo"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Rafael Nadal"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A variation of which of these sports is called Killer?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Aerobatics"
+            },
+            {
+              "id": "1",
+              "text": "Kickboxing"
+            },
+            {
+              "id": "2",
+              "text": "Pool"
+            },
+            {
+              "id": "3",
+              "text": "Windsurfing"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pool"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one of these lacrosse teams is paired with the correct city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boston - Outlaws"
+            },
+            {
+              "id": "1",
+              "text": "Washington - Lizards"
+            },
+            {
+              "id": "2",
+              "text": "Long Island  - Machine"
+            },
+            {
+              "id": "3",
+              "text": "Toronto - Nationals"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Toronto - Nationals"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2004, this company acquired Warrior Lacrosse, the manufacturer of lacrosse equipment.",
+          "options": [
+            {
+              "id": "0",
+              "text": "New Balance"
+            },
+            {
+              "id": "1",
+              "text": "Under Armour"
+            },
+            {
+              "id": "2",
+              "text": "Nike"
+            },
+            {
+              "id": "3",
+              "text": "STX"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: New Balance"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How many times a Spanish cyclist has won the Tour de France until 2009?",
+          "options": [
+            {
+              "id": "0",
+              "text": "12"
+            },
+            {
+              "id": "1",
+              "text": "10"
+            },
+            {
+              "id": "2",
+              "text": "14"
+            },
+            {
+              "id": "3",
+              "text": "16"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: 12"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In lacrosse, a slash is a 30-second penalty.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Sports",
+          "field",
+          "country",
+          "face",
+          "world",
+          "cyclist"
+        ]
+      }
+    }
+  ]
+}

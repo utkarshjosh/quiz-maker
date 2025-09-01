@@ -1,0 +1,2524 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: 80s and Liverpool",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, dating, show. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this beach-based TV show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beachwatch"
+            },
+            {
+              "id": "1",
+              "text": "Munsters"
+            },
+            {
+              "id": "2",
+              "text": "Baywatch"
+            },
+            {
+              "id": "3",
+              "text": "Spiderman"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Baywatch"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the 80s cop show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cagney  Lacey"
+            },
+            {
+              "id": "1",
+              "text": "Hill Street Blues"
+            },
+            {
+              "id": "2",
+              "text": "Nash Bridges"
+            },
+            {
+              "id": "3",
+              "text": "Magnum"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cagney  Lacey"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the British dating show hosted by a famous red headed singer from Liverpool.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Play Mate"
+            },
+            {
+              "id": "1",
+              "text": "My Date"
+            },
+            {
+              "id": "2",
+              "text": "Blind Date"
+            },
+            {
+              "id": "3",
+              "text": "Blind Mate"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Blind Date"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the American show featuring a crime fighting duo.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sapphire  Steel"
+            },
+            {
+              "id": "1",
+              "text": "The Saint"
+            },
+            {
+              "id": "2",
+              "text": "Hart to Hart"
+            },
+            {
+              "id": "3",
+              "text": "Moonlighting"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Moonlighting"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the long running Australian soap.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neighbours"
+            },
+            {
+              "id": "1",
+              "text": "Flying Doctor"
+            },
+            {
+              "id": "2",
+              "text": "Home  Away"
+            },
+            {
+              "id": "3",
+              "text": "Eldorado"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Neighbours"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this American comedy show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Diffrent Strokes"
+            },
+            {
+              "id": "1",
+              "text": "Cosby Show"
+            },
+            {
+              "id": "2",
+              "text": "Fresh Prince of Bel air"
+            },
+            {
+              "id": "3",
+              "text": "Cut Above"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Diffrent Strokes"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this 90s western-based drama.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Little House on the Prairie"
+            },
+            {
+              "id": "1",
+              "text": "Bonanza"
+            },
+            {
+              "id": "2",
+              "text": "Quincy"
+            },
+            {
+              "id": "3",
+              "text": "Dr. Quinn Medicine Woman"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Dr. Quinn Medicine Woman"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this very funny and popular show which starred a Hollywood movie star.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Taxi"
+            },
+            {
+              "id": "1",
+              "text": "Golden Girls"
+            },
+            {
+              "id": "2",
+              "text": "Police Squad"
+            },
+            {
+              "id": "3",
+              "text": "Cheers"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Police Squad"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this action adventure show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beastmaster"
+            },
+            {
+              "id": "1",
+              "text": "Benson"
+            },
+            {
+              "id": "2",
+              "text": "Hercules"
+            },
+            {
+              "id": "3",
+              "text": "He-Man"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hercules"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this very popular British childrens show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crackerjack"
+            },
+            {
+              "id": "1",
+              "text": "Take the Highroad"
+            },
+            {
+              "id": "2",
+              "text": "Jimll Fix It"
+            },
+            {
+              "id": "3",
+              "text": "Crossroads"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jimll Fix It"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this popular 80s show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Alf"
+            },
+            {
+              "id": "1",
+              "text": "Friends"
+            },
+            {
+              "id": "2",
+              "text": "Fame"
+            },
+            {
+              "id": "3",
+              "text": "Frasier"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Fame"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the 70s action show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "A-Team"
+            },
+            {
+              "id": "1",
+              "text": "Dukes of Hazard"
+            },
+            {
+              "id": "2",
+              "text": "Starsky  Hutch"
+            },
+            {
+              "id": "3",
+              "text": "Airwolf"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Starsky  Hutch"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this American drama show that ran from 1986 to 1994.",
+          "options": [
+            {
+              "id": "0",
+              "text": "E.R."
+            },
+            {
+              "id": "1",
+              "text": "ST Elsewhere"
+            },
+            {
+              "id": "2",
+              "text": "CSI"
+            },
+            {
+              "id": "3",
+              "text": "LA Law"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: LA Law"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the sci-fi show from the late 70s early 80s.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Logans Run"
+            },
+            {
+              "id": "1",
+              "text": "Flash Gordon"
+            },
+            {
+              "id": "2",
+              "text": "Buck Rogers"
+            },
+            {
+              "id": "3",
+              "text": "Battlestar Galactica"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Logans Run"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this British quiz/game show.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Crystal Maze"
+            },
+            {
+              "id": "1",
+              "text": "Blockbusters"
+            },
+            {
+              "id": "2",
+              "text": "Fort Boyard"
+            },
+            {
+              "id": "3",
+              "text": "Krypton Factor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Crystal Maze"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "dating",
+          "show",
+          "cop",
+          "music",
+          "soap"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Violin and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, making, people. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the missing word from The Beatles song Help: And now my life has changed in oh so many ways, my ... seems to vanish in the haze?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Courage"
+            },
+            {
+              "id": "1",
+              "text": "Strength"
+            },
+            {
+              "id": "2",
+              "text": "Hope"
+            },
+            {
+              "id": "3",
+              "text": "Independence"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Independence"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these statements about violin tuning is correct?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A violin is tuned by loosening or tightening the pegs at the top or near the bridge."
+            },
+            {
+              "id": "1",
+              "text": "The pegs at the top of the violin are those used in violin tuning."
+            },
+            {
+              "id": "2",
+              "text": "A violin does not need to be regularly tuned; it usually keeps its tune for weeks."
+            },
+            {
+              "id": "3",
+              "text": "Today violins can be electronically tuned."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A violin is tuned by loosening or tightening the pegs at the top or near the bridge."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Joe Venuti and St\u00e9phane Grappelli were both popular violinists famous for what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Playing jazz violin"
+            },
+            {
+              "id": "1",
+              "text": "Playing Beethoven\u2019s violin duets"
+            },
+            {
+              "id": "2",
+              "text": "Developing the detache technique"
+            },
+            {
+              "id": "3",
+              "text": "Playing with military bands"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Playing jazz violin"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The violin parts of Benjamin Brittens Simple Symphony\u201c (movement two), the ninth movement of Bachs Magnificant\u201d, and the third movement of Tachaikovskys 4th Symphony have what in common?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The violin part is all pizzicato."
+            },
+            {
+              "id": "1",
+              "text": "The first and second violin parts are the same."
+            },
+            {
+              "id": "2",
+              "text": "The second violins are not even on stage."
+            },
+            {
+              "id": "3",
+              "text": "The violins are silent."
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The violin part is all pizzicato."
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In a symphony orchestra there are usually how many violins?",
+          "options": [
+            {
+              "id": "0",
+              "text": "5 to 12"
+            },
+            {
+              "id": "1",
+              "text": "3 to 40"
+            },
+            {
+              "id": "2",
+              "text": "16 to 32"
+            },
+            {
+              "id": "3",
+              "text": "20 to 25"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 16 to 32"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the line from The Beatles song That Means A Lot: A friend says that your ... wont mean a lot, and you know that your ... is all youve got?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Soul"
+            },
+            {
+              "id": "1",
+              "text": "Hope"
+            },
+            {
+              "id": "2",
+              "text": "Love"
+            },
+            {
+              "id": "3",
+              "text": "Heart"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Love"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do you call a person whose profession is to make string instruments?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gambier"
+            },
+            {
+              "id": "1",
+              "text": "Luthier"
+            },
+            {
+              "id": "2",
+              "text": "Violinist"
+            },
+            {
+              "id": "3",
+              "text": "Purflinger"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Luthier"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "From what song by The Beatles are the following lyrics: Nothing you can know that isnt known. Nothing you can see that isnt shown. Nowhere you can be that isnt where youre meant to be. Its easy?",
+          "options": [
+            {
+              "id": "0",
+              "text": "You Know What To Do"
+            },
+            {
+              "id": "1",
+              "text": "Something"
+            },
+            {
+              "id": "2",
+              "text": "All You Need Is Love"
+            },
+            {
+              "id": "3",
+              "text": "Real Love"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: All You Need Is Love"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Complete the line the Beatles song Let It Be : And when the brokenhearted people living in the world agree, there will be , ... let it be.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sunshine"
+            },
+            {
+              "id": "1",
+              "text": "Salvation"
+            },
+            {
+              "id": "2",
+              "text": "Tomorrow"
+            },
+            {
+              "id": "3",
+              "text": "An answer"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: An answer"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which one is not a precursor of the modern violin?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lira da braccio"
+            },
+            {
+              "id": "1",
+              "text": "Rebec"
+            },
+            {
+              "id": "2",
+              "text": "Rebab"
+            },
+            {
+              "id": "3",
+              "text": "Celesta"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Celesta"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the standard tuning, the four open strings on a modern violin correspond to what notes?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A, D, E, G"
+            },
+            {
+              "id": "1",
+              "text": "B, C, D, G"
+            },
+            {
+              "id": "2",
+              "text": "A, B, C, E"
+            },
+            {
+              "id": "3",
+              "text": "G, D, A, E"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: G, D, A, E"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Fill in the blank in The Beatles song I Am The Walrus: I am he as you are he as you are me, and we are all together. See how they run like ... from a gun?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cowards"
+            },
+            {
+              "id": "1",
+              "text": "Hares"
+            },
+            {
+              "id": "2",
+              "text": "Pigs"
+            },
+            {
+              "id": "3",
+              "text": "Birds"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Pigs"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Pizzicato is the plucking of the strings of a violin with the fingers, not with the bow. What is the playing technique which requires using the bow?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Arco"
+            },
+            {
+              "id": "1",
+              "text": "Sul tasto"
+            },
+            {
+              "id": "2",
+              "text": "Sordino"
+            },
+            {
+              "id": "3",
+              "text": "Sul ponticello"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Arco"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following types of wood is not commonly used in violin crafting?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cherry"
+            },
+            {
+              "id": "1",
+              "text": "Maple"
+            },
+            {
+              "id": "2",
+              "text": "Ebony"
+            },
+            {
+              "id": "3",
+              "text": "Spruce"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cherry"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What material is usually used in the making of the hairs of modern violins bows?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Polypropelene"
+            },
+            {
+              "id": "1",
+              "text": "Horsehair"
+            },
+            {
+              "id": "2",
+              "text": "A mixture of synthetic materials and sheepgut"
+            },
+            {
+              "id": "3",
+              "text": "Sheepgut"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Horsehair"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "making",
+          "people",
+          "profession",
+          "parts",
+          "line"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Carrie Underwood and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, title, piggies. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Winner of American Idol, Carrie Underwood gained a recording contract with which record label?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Universal Music"
+            },
+            {
+              "id": "2",
+              "text": "Arista Records"
+            },
+            {
+              "id": "3",
+              "text": "Capitol Records"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Arista Records"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "American singer Carrie Underwood was born on March 10, 1983 in Checotah, Oklahoma.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Is it true that in 2005, singer Carrie Underwood was voted Worlds Sexiest Vegetarian?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who is Carrie Underwoods favorite singer according to her statement during American Idol auditions?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Martina McBride"
+            },
+            {
+              "id": "1",
+              "text": "Hilary Duff"
+            },
+            {
+              "id": "2",
+              "text": "Kelly Clarkson"
+            },
+            {
+              "id": "3",
+              "text": "Miranda Lambert"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Martina McBride"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the missing phrase from these lines of Beatles song Revolution 1: You say you got ... Well you know, wed all love to see the plan?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A good idea"
+            },
+            {
+              "id": "1",
+              "text": "A real solution"
+            },
+            {
+              "id": "2",
+              "text": "A useful plan"
+            },
+            {
+              "id": "3",
+              "text": "A new idea"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A real solution"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of Carrie Underwoods debut album, released in November, 2005?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heart"
+            },
+            {
+              "id": "1",
+              "text": "Broken Heart"
+            },
+            {
+              "id": "2",
+              "text": "Some Hearts"
+            },
+            {
+              "id": "3",
+              "text": "Hearts"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Some Hearts"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What are the piggies eating according to the Beatles song Piggies: You can see them out for dinner with their piggy wives, clutching forks and knives to eat their ...?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beloved"
+            },
+            {
+              "id": "1",
+              "text": "Lives"
+            },
+            {
+              "id": "2",
+              "text": "Bacon"
+            },
+            {
+              "id": "3",
+              "text": "Steak"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bacon"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the big fat bulldog in The Beatles song Leave My Kitten Alone?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mr. Pepper"
+            },
+            {
+              "id": "1",
+              "text": "Mr. Greed"
+            },
+            {
+              "id": "2",
+              "text": "Mr. Judas"
+            },
+            {
+              "id": "3",
+              "text": "Mr. Dog"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mr. Dog"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where is the hole according to this verse from the song Glass Onion by The Beatles: Fixing a hole in the ..., trying to make a dove-tail joint, yeah, looking through a glass onion?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Moon"
+            },
+            {
+              "id": "1",
+              "text": "Ocean"
+            },
+            {
+              "id": "2",
+              "text": "Sky"
+            },
+            {
+              "id": "3",
+              "text": "Volcano"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Ocean"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Michael Jackson is one of the few artist to be inducted into The Rock and Roll Hall of Fame more than once.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Singer Carrie Underwood majored in mass communication, at which university?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Harvard University"
+            },
+            {
+              "id": "1",
+              "text": "Penn State University"
+            },
+            {
+              "id": "2",
+              "text": "Northeastern State University"
+            },
+            {
+              "id": "3",
+              "text": "Boston University"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Northeastern State University"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Beatles song are these lyrics from: Your inside is out and your outside is in; your outside is in and your inside is out?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Everybodys Got Something to Hide Except Me and My Monkey"
+            },
+            {
+              "id": "1",
+              "text": "The End"
+            },
+            {
+              "id": "2",
+              "text": "Junk"
+            },
+            {
+              "id": "3",
+              "text": "We Can Work It Out"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Everybodys Got Something to Hide Except Me and My Monkey"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "How old was Michael Jackson when he started out in The Jackson Five?",
+          "options": [
+            {
+              "id": "0",
+              "text": "10"
+            },
+            {
+              "id": "1",
+              "text": "8"
+            },
+            {
+              "id": "2",
+              "text": "11"
+            },
+            {
+              "id": "3",
+              "text": "13"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: 11"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 2001, American singer Carrie Underwood graduated from which high school?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Allegan High School"
+            },
+            {
+              "id": "1",
+              "text": "Graham High School"
+            },
+            {
+              "id": "2",
+              "text": "Anson High School"
+            },
+            {
+              "id": "3",
+              "text": "Checotah High School"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Checotah High School"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where was Michael Jackson born?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Indiana"
+            },
+            {
+              "id": "1",
+              "text": "Georgia"
+            },
+            {
+              "id": "2",
+              "text": "California"
+            },
+            {
+              "id": "3",
+              "text": "New York"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Indiana"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "title",
+          "piggies",
+          "jackson",
+          "phrase",
+          "underwood"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Song and Group",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, condition, john. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Michael Jackson spoke publicly about his skin condition in an interview with this TV personality?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Oprah Winfrey"
+            },
+            {
+              "id": "1",
+              "text": "Dan Rather"
+            },
+            {
+              "id": "2",
+              "text": "He never spoke publicly about it."
+            },
+            {
+              "id": "3",
+              "text": "Barbara Walters"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Oprah Winfrey"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these songs was sung by Sonny  Cher?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Cowboys Work is Never Done"
+            },
+            {
+              "id": "1",
+              "text": "Angel in Your Arms"
+            },
+            {
+              "id": "2",
+              "text": "Are You Sincere"
+            },
+            {
+              "id": "3",
+              "text": "A Nice Boy Like Me"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: A Cowboys Work is Never Done"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these groups sang A Horse with No Name?",
+          "options": [
+            {
+              "id": "0",
+              "text": "AC/DC"
+            },
+            {
+              "id": "1",
+              "text": "America"
+            },
+            {
+              "id": "2",
+              "text": "ABBA"
+            },
+            {
+              "id": "3",
+              "text": "Ambrosia"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: America"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the song Amos Moses by Jerry Reed, how did Amos earn his living?",
+          "options": [
+            {
+              "id": "0",
+              "text": "hunting bears"
+            },
+            {
+              "id": "1",
+              "text": "fishing"
+            },
+            {
+              "id": "2",
+              "text": "hunting alligators"
+            },
+            {
+              "id": "3",
+              "text": "hunting deer"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: hunting alligators"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In the song A Boy Named Sue, sung by Johnny Cash, what did his daddy leave him and his ma, besides an empty bottle of booze?",
+          "options": [
+            {
+              "id": "0",
+              "text": "an old shoe"
+            },
+            {
+              "id": "1",
+              "text": "a broken down car"
+            },
+            {
+              "id": "2",
+              "text": "a old hound dog"
+            },
+            {
+              "id": "3",
+              "text": "an old guitar"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: an old guitar"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This was the closing act on the opening night of the Monterey Pop Festival. The group featured Alan Price, Chas Chandler, Hilton Valentine, and Johnny Steel. They sang the song Monterey. What is the name of the band?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Grateful Dead"
+            },
+            {
+              "id": "1",
+              "text": "The Animals"
+            },
+            {
+              "id": "2",
+              "text": "The Byrds"
+            },
+            {
+              "id": "3",
+              "text": "The Butterfield Blues Band"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Animals"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whose funeral did Michael Jackson attend in December 2006?",
+          "options": [
+            {
+              "id": "0",
+              "text": "None of these"
+            },
+            {
+              "id": "1",
+              "text": "Aaron Spellings"
+            },
+            {
+              "id": "2",
+              "text": "James Browns"
+            },
+            {
+              "id": "3",
+              "text": "Corretta Scott Kings"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: James Browns"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these groups performed An Old Fashioned Love Song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "U2"
+            },
+            {
+              "id": "1",
+              "text": "Queen"
+            },
+            {
+              "id": "2",
+              "text": "Kiss"
+            },
+            {
+              "id": "3",
+              "text": "Three Dog Night"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Three Dog Night"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these songs is featured on the Saturday Night Fever soundtrack?",
+          "options": [
+            {
+              "id": "0",
+              "text": "A Little Bit More"
+            },
+            {
+              "id": "1",
+              "text": "A Fifth of Beethoven"
+            },
+            {
+              "id": "2",
+              "text": "A Wonderful Dream"
+            },
+            {
+              "id": "3",
+              "text": "A Nice Boy Like Me"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: A Fifth of Beethoven"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded the single The Alley Cat?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rick Dees  His Cast of Idiots"
+            },
+            {
+              "id": "1",
+              "text": "Eruption"
+            },
+            {
+              "id": "2",
+              "text": "Bent Fabric"
+            },
+            {
+              "id": "3",
+              "text": "El Coco"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bent Fabric"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What year was the Monterey Pop Festival held?",
+          "options": [
+            {
+              "id": "0",
+              "text": "1968"
+            },
+            {
+              "id": "1",
+              "text": "1970"
+            },
+            {
+              "id": "2",
+              "text": "1975"
+            },
+            {
+              "id": "3",
+              "text": "1967"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 1967"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song A Wonderful Dream was recorded by a group whose name refers to a rank in the armed forces. Can you march right up and single out the group?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Colonels"
+            },
+            {
+              "id": "1",
+              "text": "The Generals"
+            },
+            {
+              "id": "2",
+              "text": "The Captains"
+            },
+            {
+              "id": "3",
+              "text": "The Majors"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Majors"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Another Saturday Night was sung by both Sam Cooke and which of these artists?",
+          "options": [
+            {
+              "id": "0",
+              "text": "David Bowie"
+            },
+            {
+              "id": "1",
+              "text": "Elton John"
+            },
+            {
+              "id": "2",
+              "text": "Dean Friedman"
+            },
+            {
+              "id": "3",
+              "text": "Cat Stevens"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Cat Stevens"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song At the Movies was brought to you by the same group that played the instrumental Popcorn. Name that group.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Dale and Thomas Popcorn"
+            },
+            {
+              "id": "1",
+              "text": "Carmel Popcorn"
+            },
+            {
+              "id": "2",
+              "text": "Hot Butter"
+            },
+            {
+              "id": "3",
+              "text": "Usher"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hot Butter"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "He was born John Henry Ramistella in New York City but was raised in New Orleans. Alan Freed convinced him to change his name. What name did he use as a performer at the Monterey Pop Festival?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Cropper"
+            },
+            {
+              "id": "1",
+              "text": "Al Kooper"
+            },
+            {
+              "id": "2",
+              "text": "Johnny Rivers"
+            },
+            {
+              "id": "3",
+              "text": "Eric Burdon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Johnny Rivers"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "condition",
+          "john",
+          "festival",
+          "opening",
+          "saturday"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Group and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, festival, title. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which singing group was the last group to perform at the Monterey Pop Festival?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Eagles"
+            },
+            {
+              "id": "1",
+              "text": "Crosby, Stills, Nash, and Young"
+            },
+            {
+              "id": "2",
+              "text": "The Mamas and Papas"
+            },
+            {
+              "id": "3",
+              "text": "America"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Mamas and Papas"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following 80s bands featured Nikki Sixx as the bass guitarist?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bon Jovi"
+            },
+            {
+              "id": "1",
+              "text": "Winger"
+            },
+            {
+              "id": "2",
+              "text": "Motley Crue"
+            },
+            {
+              "id": "3",
+              "text": "Poison"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Motley Crue"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What country music group performed the song Hillbilly Shoes in 1999?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Brooks and Dunn"
+            },
+            {
+              "id": "1",
+              "text": "Little Texas"
+            },
+            {
+              "id": "2",
+              "text": "Montgomery Gentry"
+            },
+            {
+              "id": "3",
+              "text": "Alabama"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Montgomery Gentry"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This group that performed at the Monterey Pop Festival included Danny Kolb, Steve Katz, Andy Kulberg and sometimes Al Kooper. What was the name of the band?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Eagles"
+            },
+            {
+              "id": "1",
+              "text": "America"
+            },
+            {
+              "id": "2",
+              "text": "The Blues Project"
+            },
+            {
+              "id": "3",
+              "text": "The Butterfield Blues Band"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Blues Project"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In what year did Jason Aldean release his first album Jason Aldean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "2006"
+            },
+            {
+              "id": "1",
+              "text": "2004"
+            },
+            {
+              "id": "2",
+              "text": "2007"
+            },
+            {
+              "id": "3",
+              "text": "2005"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 2005"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Booker T. and the M.G.s was one of the top instrumental groups of the 1960s and 1970s. Which of these is a big 1962 hit of theirs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Green ,Green Grass of Home"
+            },
+            {
+              "id": "1",
+              "text": "Green Onions"
+            },
+            {
+              "id": "2",
+              "text": "Day After Night"
+            },
+            {
+              "id": "3",
+              "text": "Daybreak at Monterrey"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Green Onions"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This group performed on the second day of the Monterey Pop Festival. The band included Roger McGuinn, David Crosby, Gene Clarke and various others. Which group was this American rock group famous for Mr. Tambourine Man?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Byrds"
+            },
+            {
+              "id": "1",
+              "text": "The Grateful Dead"
+            },
+            {
+              "id": "2",
+              "text": "The Eagles"
+            },
+            {
+              "id": "3",
+              "text": "The Blues Project"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Byrds"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Unbelievable was the only big hit for this 90s one hit wonder.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Rembrandts"
+            },
+            {
+              "id": "1",
+              "text": "EMF"
+            },
+            {
+              "id": "2",
+              "text": "The Pogues"
+            },
+            {
+              "id": "3",
+              "text": "The Cardigans"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: EMF"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of the following songs belongs to George Strait?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Amarillo By Morning"
+            },
+            {
+              "id": "1",
+              "text": "Good Ride Cowboy"
+            },
+            {
+              "id": "2",
+              "text": "Good Run of Bad Luck"
+            },
+            {
+              "id": "3",
+              "text": "Doin My Best"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Amarillo By Morning"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which group that performed on the last day of the Monterey Pop Festival was living on reds, vitamin C and cocaine\u201d according to their lyrics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Byrds"
+            },
+            {
+              "id": "1",
+              "text": "The Grateful Dead"
+            },
+            {
+              "id": "2",
+              "text": "The Eagles"
+            },
+            {
+              "id": "3",
+              "text": "The Mamas and Papas"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Grateful Dead"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Closing Time was a big song for this one hit wonder in 1998.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Semisonic"
+            },
+            {
+              "id": "1",
+              "text": "Tag Team"
+            },
+            {
+              "id": "2",
+              "text": "The Rembrandts"
+            },
+            {
+              "id": "3",
+              "text": "Shakespeares Sister"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Semisonic"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is the title of a song by singer Sinead O Connor who is considered a 90s one hit wonder in the United States?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Heroine"
+            },
+            {
+              "id": "1",
+              "text": "Troy"
+            },
+            {
+              "id": "2",
+              "text": "Nothing Compares 2 U"
+            },
+            {
+              "id": "3",
+              "text": "Mandika"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nothing Compares 2 U"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This group had a one hit wonder in 1992-93 with Rump Shaker.",
+          "options": [
+            {
+              "id": "0",
+              "text": "MoMo  Equan"
+            },
+            {
+              "id": "1",
+              "text": "Onyx"
+            },
+            {
+              "id": "2",
+              "text": "Wreckx-N-Effect"
+            },
+            {
+              "id": "3",
+              "text": "Jodeci"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Wreckx-N-Effect"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What group had a one hit wonder in 1995 with Roll to Me.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Del Amitri"
+            },
+            {
+              "id": "1",
+              "text": "Deep Blue Something"
+            },
+            {
+              "id": "2",
+              "text": "The Rembrandts"
+            },
+            {
+              "id": "3",
+              "text": "Semisonic"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Del Amitri"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This performer died soon after the Monterey Pop Festival. He wrote and/or sung many top hits. Who was this man who sat (Down at) The Dock of the Bay?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Cropper"
+            },
+            {
+              "id": "1",
+              "text": "Otis Redding"
+            },
+            {
+              "id": "2",
+              "text": "Jerry Garcia"
+            },
+            {
+              "id": "3",
+              "text": "Paul Butterfield"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Otis Redding"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "festival",
+          "title",
+          "sixx",
+          "jason",
+          "booker"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Album and Group",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, magazine, revolver. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Green Eyed Lady was a big hit song for this group in 1970.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pilot"
+            },
+            {
+              "id": "1",
+              "text": "Sugarloaf"
+            },
+            {
+              "id": "2",
+              "text": "Starbuck"
+            },
+            {
+              "id": "3",
+              "text": "Paper Lace"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Sugarloaf"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "That Lady, Pt. 1  2 was a huge hit song for this RB group in 1973.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The OJays"
+            },
+            {
+              "id": "1",
+              "text": "The Spinners"
+            },
+            {
+              "id": "2",
+              "text": "The Isley Brothers"
+            },
+            {
+              "id": "3",
+              "text": "The Four Tops"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Isley Brothers"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Lady Marmalade was a big hit song for this RB band in the year 1975.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Gladys Knight  the Pips"
+            },
+            {
+              "id": "1",
+              "text": "Rufus with Chaka Khan"
+            },
+            {
+              "id": "2",
+              "text": "The Impressions"
+            },
+            {
+              "id": "3",
+              "text": "Labelle"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Labelle"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which artist released Blonde on Blonde, the #9 album on Rolling Stone magazines list of 500 Greatest Albums of All Time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimi Hendrix"
+            },
+            {
+              "id": "1",
+              "text": "Bob Dylan"
+            },
+            {
+              "id": "2",
+              "text": "Stevie Wonder"
+            },
+            {
+              "id": "3",
+              "text": "David Bowie"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Dylan"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Three Times a Lady was the first ever #1 U.S. hit for this band in 1978.",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Isley Brothers"
+            },
+            {
+              "id": "1",
+              "text": "Kool and the Gang"
+            },
+            {
+              "id": "2",
+              "text": "Earth, Wind  Fire"
+            },
+            {
+              "id": "3",
+              "text": "The Commodores"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Commodores"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these bands released the album Toulouse Street in 1972?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Allman Brothers"
+            },
+            {
+              "id": "1",
+              "text": "The Doobie Brothers"
+            },
+            {
+              "id": "2",
+              "text": "Molly Hatchet"
+            },
+            {
+              "id": "3",
+              "text": "Lynyrd Skynyrd"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Doobie Brothers"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded Highway 61 Revisited, the #4 album on Rolling Stones 500 Greatest Albums of All Time list?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ray Charles"
+            },
+            {
+              "id": "1",
+              "text": "Marvin Gaye"
+            },
+            {
+              "id": "2",
+              "text": "Stevie Wonder"
+            },
+            {
+              "id": "3",
+              "text": "Bob Dylan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bob Dylan"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which female singer gave us the hit song called Dark Lady in the year 1974?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Cher"
+            },
+            {
+              "id": "1",
+              "text": "Janis Ian"
+            },
+            {
+              "id": "2",
+              "text": "Maria Muldaur"
+            },
+            {
+              "id": "3",
+              "text": "Phoebe Snow"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Cher"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded Exile on Main Street, the #7 album on Rolling Stones list of the 500 Greatest Albums of All Time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Who"
+            },
+            {
+              "id": "1",
+              "text": "The Doors"
+            },
+            {
+              "id": "2",
+              "text": "The Rolling Stones"
+            },
+            {
+              "id": "3",
+              "text": "Jefferson Airplane"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Rolling Stones"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Rolling Stone Magazine ranked Rubber Soul as the #5 album on the list of the 500 Greatest Albums of All Time. Who released this album?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Beatles"
+            },
+            {
+              "id": "1",
+              "text": "The Doors"
+            },
+            {
+              "id": "2",
+              "text": "Led Zeppelin"
+            },
+            {
+              "id": "3",
+              "text": "The Who"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Beatles"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What group released Revolver, the album ranked #3 by Rolling Stone magazine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Beatles"
+            },
+            {
+              "id": "1",
+              "text": "Pink Floyd"
+            },
+            {
+              "id": "2",
+              "text": "The Doors"
+            },
+            {
+              "id": "3",
+              "text": "The Who"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Beatles"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded Pet Sounds, the #2 album of all time according to Rolling Stone magazine?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Beach Boys"
+            },
+            {
+              "id": "1",
+              "text": "Rolling Stones"
+            },
+            {
+              "id": "2",
+              "text": "Pink Floyd"
+            },
+            {
+              "id": "3",
+              "text": "The Kinks"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Beach Boys"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who recorded London Calling, the #8 album on Rolling Stones 500 Greatest Albums of All Time list?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Clash"
+            },
+            {
+              "id": "1",
+              "text": "Pink Floyd"
+            },
+            {
+              "id": "2",
+              "text": "The Cure"
+            },
+            {
+              "id": "3",
+              "text": "R.E.M"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Clash"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which group recorded The White Album that is ranked #10 on Rolling Stones list of 500 Greatest Albums?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Doors"
+            },
+            {
+              "id": "1",
+              "text": "The Who"
+            },
+            {
+              "id": "2",
+              "text": "The Beatles"
+            },
+            {
+              "id": "3",
+              "text": "The Eagles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Beatles"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Whats Going On is the #6 album on Rolling Stone magazines list of the 500 Greatest Albums of all Time. What artist recorded this album?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Marvin Gaye"
+            },
+            {
+              "id": "1",
+              "text": "Bob Dylan"
+            },
+            {
+              "id": "2",
+              "text": "Ottis Redding"
+            },
+            {
+              "id": "3",
+              "text": "Ray Charles"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Marvin Gaye"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "magazine",
+          "revolver",
+          "soul",
+          "sounds",
+          "toulouse"
+        ]
+      }
+    }
+  ]
+}

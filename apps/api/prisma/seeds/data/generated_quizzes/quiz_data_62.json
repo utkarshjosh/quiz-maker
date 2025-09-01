@@ -1,0 +1,2524 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_0",
+      "title": "Entertainment Quiz: Song and Place",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, kims, weight. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Crosby, Stills and Nash were the authors of the song Woodstock?",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Disney character would NOT be whistling this song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bashful"
+            },
+            {
+              "id": "1",
+              "text": "Abu"
+            },
+            {
+              "id": "2",
+              "text": "Happy"
+            },
+            {
+              "id": "3",
+              "text": "Doc"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Abu"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Band wanted to take The Weight off when they pulled into this town Looking for a place to lay my head.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Boone"
+            },
+            {
+              "id": "1",
+              "text": "Bethel"
+            },
+            {
+              "id": "2",
+              "text": "Nazareth"
+            },
+            {
+              "id": "3",
+              "text": "New Orleans"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Nazareth"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "At this place beneath the blue suburban skies you can find the barber, a fireman that carries a portrait of the queen and a pretty nurse selling poppies from a tray?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Penny Lane"
+            },
+            {
+              "id": "1",
+              "text": "Strawberry Fields"
+            },
+            {
+              "id": "2",
+              "text": "South Street"
+            },
+            {
+              "id": "3",
+              "text": "Down on the Corner"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Penny Lane"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Woodstock 1969 was the first concert of its kind to feature multiple rock music groups.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Jerry Garcia and Bob Weir were the founding members of the Grateful Dead.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What singer sang these lyrics:",
+          "options": [
+            {
+              "id": "0",
+              "text": "ndlelight a little Hennessy"
+            },
+            {
+              "id": "1",
+              "text": "Lil Kim"
+            },
+            {
+              "id": "2",
+              "text": "Missy Elliot"
+            },
+            {
+              "id": "3",
+              "text": "Nicole"
+            },
+            {
+              "id": "4",
+              "text": "Smooth"
+            }
+          ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The correct answer is: Smooth"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "All Along the Watchtower was a song written by Jimi Hendrix.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Eagles warned about this place, You can check out anytime you want,... but you can never leave.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Suite 666"
+            },
+            {
+              "id": "1",
+              "text": "Maggies Farm"
+            },
+            {
+              "id": "2",
+              "text": "Hotel California"
+            },
+            {
+              "id": "3",
+              "text": "Spanish Moon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hotel California"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Janis Joplin was busted flat, faded as her jeans, when Bobby flagged a diesel down to get  from here to there.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Raleigh to Durham"
+            },
+            {
+              "id": "1",
+              "text": "New York to New Jersey"
+            },
+            {
+              "id": "2",
+              "text": "Baton Rouge to New Orleans"
+            },
+            {
+              "id": "3",
+              "text": "Portland to Settle"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Baton Rouge to New Orleans"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What  would you find at the end of Lonely Street where the bellmans always dressed in black?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Overlook Motel"
+            },
+            {
+              "id": "1",
+              "text": "Heartbreak Hotel"
+            },
+            {
+              "id": "2",
+              "text": "Hotel California"
+            },
+            {
+              "id": "3",
+              "text": "Do Drop Inn"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Heartbreak Hotel"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The Clovers wanted to pick up a bottle of Love Potion# 9. At what address could you find the gypsy with a gold capped tooth, selling little bottles of Love Potion # 9.",
+          "options": [
+            {
+              "id": "0",
+              "text": "next to mine"
+            },
+            {
+              "id": "1",
+              "text": "Hollywood and Vine"
+            },
+            {
+              "id": "2",
+              "text": "34th Street"
+            },
+            {
+              "id": "3",
+              "text": "34th and Vine"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: 34th and Vine"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The King of the Road took the third boxcar, midnight train. What was his destination?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Anywhere to get out of the rain"
+            },
+            {
+              "id": "1",
+              "text": "Disneyworld"
+            },
+            {
+              "id": "2",
+              "text": "Bangor, Maine"
+            },
+            {
+              "id": "3",
+              "text": "Fort Paine"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bangor, Maine"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "A Hookah smoking caterpillar has given you the call is a lyric by what San Francisco based group?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Quicksilver Messenger Service"
+            },
+            {
+              "id": "1",
+              "text": "Moby Grape"
+            },
+            {
+              "id": "2",
+              "text": "Jefferson Airplane"
+            },
+            {
+              "id": "3",
+              "text": "Grateful Dead"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Jefferson Airplane"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What was Lil Kims first rap song that came out in 1997?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Queen B!@#$"
+            },
+            {
+              "id": "1",
+              "text": "No Matter What people Say"
+            },
+            {
+              "id": "2",
+              "text": "No Time"
+            },
+            {
+              "id": "3",
+              "text": "How Many Licks"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: No Time"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "kims",
+          "weight",
+          "kind",
+          "stills",
+          "watchtower"
+        ]
+      }
+    },
+    {
+      "id": "quiz_1",
+      "title": "Entertainment Quiz: Song and Lyrics",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, breeze, disneys. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "She swam by me, she got a cramp. He ran by me, got my suit damp. I saved her life, she nearly drowned are lyrics from the song Summer Nights (1978). Name the female singer of the duet who sang the song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Olivia Newton-John"
+            },
+            {
+              "id": "1",
+              "text": "Marie Osmond"
+            },
+            {
+              "id": "2",
+              "text": "Maureen McCormick"
+            },
+            {
+              "id": "3",
+              "text": "Stockard Channing"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Olivia Newton-John"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "It was a hot summer night and the beach was burning. There was a fog crawling over the sand. When I listen to your heart I hear the whole world turning are lyrics from the song You Took the Words Right Out My Mouth (Hot Summer Night) (1977). Name the artist who performed the song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Toto"
+            },
+            {
+              "id": "1",
+              "text": "Thin Lizzy"
+            },
+            {
+              "id": "2",
+              "text": "Meatloaf"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Money"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Meatloaf"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who performed the song Summer of 69 (1985) that opens with the lyrics:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Don Henley"
+            },
+            {
+              "id": "1",
+              "text": "Rod Stewart"
+            },
+            {
+              "id": "2",
+              "text": "Bryan Adams"
+            },
+            {
+              "id": "3",
+              "text": "Eddie Money"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bryan Adams"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What band performed the song Summer in the City (1966) that contains the lyrics: But at night its a different world. Go out and find a girl. Come-on come-on and dance all night. Despite the heat itll be alright?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Buffalo Springfield"
+            },
+            {
+              "id": "1",
+              "text": "The Lovin Spoonful"
+            },
+            {
+              "id": "2",
+              "text": "Blood, Sweat and Tears"
+            },
+            {
+              "id": "3",
+              "text": "Three Dog Night"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Lovin Spoonful"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name the artist that sang The Boys of Summer (1984) which includes the following lyrics: Out on the road today I saw a Deadhead sticker on a Cadillac. A little voice inside my head said, Dont look back, you can never look back.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Steve Winwood"
+            },
+            {
+              "id": "1",
+              "text": "John Mellencamp"
+            },
+            {
+              "id": "2",
+              "text": "Glenn Frey"
+            },
+            {
+              "id": "3",
+              "text": "Don Henley"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Don Henley"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "For whether we are white of copper skinned",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pocahontas"
+            },
+            {
+              "id": "1",
+              "text": "Mulan"
+            },
+            {
+              "id": "2",
+              "text": "The Little Mermaid"
+            },
+            {
+              "id": "3",
+              "text": "Belle"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Pocahontas"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The following lyrics are taken from Oliver and Company:",
+          "options": [
+            {
+              "id": "0",
+              "text": "t when all the world says Yes"
+            },
+            {
+              "id": "1",
+              "text": "nt ask a mutt to strut like a show girl, darling"
+            },
+            {
+              "id": "2",
+              "text": "Bette Midler"
+            },
+            {
+              "id": "3",
+              "text": "Aretha Franklin"
+            },
+            {
+              "id": "4",
+              "text": "Carole King"
+            },
+            {
+              "id": "5",
+              "text": "Cher"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bette Midler"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What band performed the song Summer Night City (1978) which contains the following lyrics: When the night comes with the action, I just know its time to go. Cant resist the strange attraction, from that giant dynamo?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Peaches and Herb"
+            },
+            {
+              "id": "1",
+              "text": "Chic"
+            },
+            {
+              "id": "2",
+              "text": "The 5th Dimension"
+            },
+            {
+              "id": "3",
+              "text": "ABBA"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: ABBA"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Disneys first live action movie, Song of the South, was based on the stories of Uncle Remus by Joel Chandler Harris. What is the title of the song with the following lyrics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Hi-Diddle-Dee-Dee"
+            },
+            {
+              "id": "1",
+              "text": "Bluddle-Uddle_Un-Dum"
+            },
+            {
+              "id": "2",
+              "text": "Bibbidi-bobbidi-Boo"
+            },
+            {
+              "id": "3",
+              "text": "Zip-A-Dee-Doo-Dah"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Zip-A-Dee-Doo-Dah"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Summertime Blues (1968) from the album Vincebus Eruptum opens with the following lyrics: Well, Lord, I got to raise a fuss, Lord I got to raise a holler. Well, I been working all summer just to try and earn a dollar. Who performed the song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Blue Cheer"
+            },
+            {
+              "id": "1",
+              "text": "Hot Tuna"
+            },
+            {
+              "id": "2",
+              "text": "Canned Heat"
+            },
+            {
+              "id": "3",
+              "text": "Vanilla Fudge"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Blue Cheer"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Hot summer streets, And the pavements are burning, I sit around",
+          "options": [
+            {
+              "id": "0",
+              "text": "Expose"
+            },
+            {
+              "id": "1",
+              "text": "The Bangles"
+            },
+            {
+              "id": "2",
+              "text": "Bananarama"
+            },
+            {
+              "id": "3",
+              "text": "The Go-Gos"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Bananarama"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who performed the song Summer Breeze (1972) which contains these lyrics:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Seals  Crofts"
+            },
+            {
+              "id": "1",
+              "text": "England Dan  John Ford Coley"
+            },
+            {
+              "id": "2",
+              "text": "Loggins  Messina"
+            },
+            {
+              "id": "3",
+              "text": "Simon  Garfunkel"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Seals  Crofts"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Summertime (1991) contains the lyrics: Its time to cruise, so you go to the summertime hangout.  It looks like a car show. Everybody come lookin real fine, fresh from the barber shop or fly from the beauty salon. Every moment frontin and maxin, chillin in the car they spent all day waxin.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Bell Biv Devoe"
+            },
+            {
+              "id": "1",
+              "text": "Kid N Play"
+            },
+            {
+              "id": "2",
+              "text": "DJ Jazzy Jeff and the Fresh Prince"
+            },
+            {
+              "id": "3",
+              "text": "Big Daddy Kane"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: DJ Jazzy Jeff and the Fresh Prince"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The song Summers Cauldron (1986) from the album Sklylarking contains the following lyrics: Trees are dancing drunk with nectar, Grass is waving underwater, Please dont pull me out, this is how I would want to go. Name the band that recorded the song.",
+          "options": [
+            {
+              "id": "0",
+              "text": "XTC"
+            },
+            {
+              "id": "1",
+              "text": "English Beat"
+            },
+            {
+              "id": "2",
+              "text": "Squeeze"
+            },
+            {
+              "id": "3",
+              "text": "Split Enz"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: XTC"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "This heroine is perhaps the most feminist of Disneys female characters.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Belle"
+            },
+            {
+              "id": "1",
+              "text": "Ariel"
+            },
+            {
+              "id": "2",
+              "text": "Jasmine"
+            },
+            {
+              "id": "3",
+              "text": "Mulan"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Mulan"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "breeze",
+          "disneys",
+          "summer",
+          "blues",
+          "lyrics"
+        ]
+      }
+    },
+    {
+      "id": "quiz_2",
+      "title": "Entertainment Quiz: Title and Band",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, title, tune. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this ballad by the Swedish band Europe:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Rock the Night"
+            },
+            {
+              "id": "1",
+              "text": "The Final Countdown"
+            },
+            {
+              "id": "2",
+              "text": "Carrie"
+            },
+            {
+              "id": "3",
+              "text": "Cherokee"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Carrie"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Erick Purkhiser, lead singer of The Cramps, is known as what?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lee Ving"
+            },
+            {
+              "id": "1",
+              "text": "Eerie Vaughn"
+            },
+            {
+              "id": "2",
+              "text": "Lux Interior"
+            },
+            {
+              "id": "3",
+              "text": "Filthy Animal"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lux Interior"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this song by Twisted Sister:",
+          "options": [
+            {
+              "id": "0",
+              "text": "I Wanna Rock"
+            },
+            {
+              "id": "1",
+              "text": "Burn in Hell"
+            },
+            {
+              "id": "2",
+              "text": "Were not Gonna Take It"
+            },
+            {
+              "id": "3",
+              "text": "Stay Hungry"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: I Wanna Rock"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this Ratt hit:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Wanted Man"
+            },
+            {
+              "id": "1",
+              "text": "Back for More"
+            },
+            {
+              "id": "2",
+              "text": "Round and Round"
+            },
+            {
+              "id": "3",
+              "text": "Lack of Communication"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Round and Round"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this Bon Jovi classic:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Runaway"
+            },
+            {
+              "id": "1",
+              "text": "Always"
+            },
+            {
+              "id": "2",
+              "text": "Wanted Dead or Alive"
+            },
+            {
+              "id": "3",
+              "text": "You Give Love a Bad Name"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: You Give Love a Bad Name"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this Poison song:",
+          "options": [
+            {
+              "id": "0",
+              "text": "d I know you cannot wait"
+            },
+            {
+              "id": "1",
+              "text": "Every Rose has its Thorn"
+            },
+            {
+              "id": "2",
+              "text": "Unskinny Bop"
+            },
+            {
+              "id": "3",
+              "text": "Your Mama Dont Dance"
+            },
+            {
+              "id": "4",
+              "text": "Talk Dirty to Me"
+            }
+          ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The correct answer is: Talk Dirty to Me"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of this Skid Row hit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "ss screamin in my ear about who Im supposed to be"
+            },
+            {
+              "id": "1",
+              "text": "Youth Gone Wild"
+            },
+            {
+              "id": "2",
+              "text": "I Remember You"
+            },
+            {
+              "id": "3",
+              "text": "18 and Life"
+            },
+            {
+              "id": "4",
+              "text": "Rattlesnake Shake"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Youth Gone Wild"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What late 70s NYC punk band was Buster Poindexter a member of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Ramones"
+            },
+            {
+              "id": "1",
+              "text": "The Damned"
+            },
+            {
+              "id": "2",
+              "text": "Fear"
+            },
+            {
+              "id": "3",
+              "text": "The New York Dolls"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The New York Dolls"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What do the letters stand for, in the name of punk rock band, JFA?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jolly Fatmen of America"
+            },
+            {
+              "id": "1",
+              "text": "Jump For Allah"
+            },
+            {
+              "id": "2",
+              "text": "Johnny Fought America"
+            },
+            {
+              "id": "3",
+              "text": "Jodie Fosters Army"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Jodie Fosters Army"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these are bands that Glen Danzig has been a member of?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Danzig, Agnostic Front and the Misfits"
+            },
+            {
+              "id": "1",
+              "text": "Danzig, The Misfits and Samhain"
+            },
+            {
+              "id": "2",
+              "text": "Danzig, The Sex Pistols and Devo"
+            },
+            {
+              "id": "3",
+              "text": "Danzig, The Misfits and Black Flag"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Danzig, The Misfits and Samhain"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Name this a popular Whitesnake tune:",
+          "options": [
+            {
+              "id": "0",
+              "text": "taste your love so sweet"
+            },
+            {
+              "id": "1",
+              "text": "I just wanna make love to you"
+            },
+            {
+              "id": "2",
+              "text": "Give Me All Your Love"
+            },
+            {
+              "id": "3",
+              "text": "Still of the Night"
+            },
+            {
+              "id": "4",
+              "text": "Slow n Easy"
+            },
+            {
+              "id": "5",
+              "text": "Here I Go Again"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Still of the Night"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What Night Ranger hit includes the following lyrics?",
+          "options": [
+            {
+              "id": "0",
+              "text": "be, you know youre growing up so fast"
+            },
+            {
+              "id": "1",
+              "text": "d mommas worrying that you wont last to say, lets play"
+            },
+            {
+              "id": "2",
+              "text": "Sister Christian"
+            },
+            {
+              "id": "3",
+              "text": "Sentimental Street"
+            },
+            {
+              "id": "4",
+              "text": "You Can Still Rock in America"
+            },
+            {
+              "id": "5",
+              "text": "Dont Tell Me You Love Me"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Sister Christian"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 70s punk icon played drums with Siouxsie and The Banshees at their first show?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sid Vicious"
+            },
+            {
+              "id": "1",
+              "text": "Iggy Pop"
+            },
+            {
+              "id": "2",
+              "text": "Johnny Rotten"
+            },
+            {
+              "id": "3",
+              "text": "Filthy Animal"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Sid Vicious"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the title of this GNR hit?",
+          "options": [
+            {
+              "id": "0",
+              "text": "t if you could heal a broken heart"
+            },
+            {
+              "id": "1",
+              "text": "November Rain"
+            },
+            {
+              "id": "2",
+              "text": "Sweet Child o Mine"
+            },
+            {
+              "id": "3",
+              "text": "Paradise City"
+            },
+            {
+              "id": "4",
+              "text": "Patience"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: November Rain"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "After the break up of the Sex Pistols, what band did John Lydon (aka Johnny Rotten) go on to form?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Public Image Ltd."
+            },
+            {
+              "id": "1",
+              "text": "They Might Be Giants"
+            },
+            {
+              "id": "2",
+              "text": "General Public"
+            },
+            {
+              "id": "3",
+              "text": "None, he went solo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Public Image Ltd."
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "title",
+          "tune",
+          "punk",
+          "danzig",
+          "skid"
+        ]
+      }
+    },
+    {
+      "id": "quiz_3",
+      "title": "Entertainment Quiz: Song and Lyrics",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, jackson, billie. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "The lyrics may not be earth shattering but its hard not to turn up the radio and hit the road when the song with these lyrics blares on the radio:",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jan and Dean"
+            },
+            {
+              "id": "1",
+              "text": "The Beach Boys"
+            },
+            {
+              "id": "2",
+              "text": "The Go-Gos"
+            },
+            {
+              "id": "3",
+              "text": "The Beatles"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: The Beach Boys"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "According to the singer she likes a good beer buzz early in the morning. She is in a bar facing a giant car wash with Billy or Buds but Hey, this aint no disco.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Sunset and Vine"
+            },
+            {
+              "id": "1",
+              "text": "Beverly Hillz"
+            },
+            {
+              "id": "2",
+              "text": "Hollywood"
+            },
+            {
+              "id": "3",
+              "text": "L. A."
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: L. A."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who composed and sang the 1989 song Bad Love?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billy Idol"
+            },
+            {
+              "id": "1",
+              "text": "Eric Clapton"
+            },
+            {
+              "id": "2",
+              "text": "Heart"
+            },
+            {
+              "id": "3",
+              "text": "Micheal Jackson"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Eric Clapton"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Did Micheal Jackson sing the 1983 hit single Billie Jean?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Yes"
+            },
+            {
+              "id": "1",
+              "text": "No"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Yes"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Where would you be if you found",
+          "options": [
+            {
+              "id": "0",
+              "text": "Devil Went Down to Georgia"
+            },
+            {
+              "id": "1",
+              "text": "Crossroads"
+            },
+            {
+              "id": "2",
+              "text": "Seven Bridges Road"
+            },
+            {
+              "id": "3",
+              "text": "Heartbreak Hotel"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Seven Bridges Road"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who performed the 1984 hit song Whats Love Got to Do with It?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mariah Carey"
+            },
+            {
+              "id": "1",
+              "text": "Paula Abdul"
+            },
+            {
+              "id": "2",
+              "text": "Amy Grant"
+            },
+            {
+              "id": "3",
+              "text": "Tina Turner"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Tina Turner"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Mariah Carey sang the 1983 hit Africa.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "And the road goes on forever",
+          "options": [
+            {
+              "id": "0",
+              "text": "d Ive got one more silver dollar"
+            },
+            {
+              "id": "1",
+              "text": "t Im not going to let them catch me, no."
+            },
+            {
+              "id": "2",
+              "text": "Ramblin Man"
+            },
+            {
+              "id": "3",
+              "text": "Devil in a Blue Dress"
+            },
+            {
+              "id": "4",
+              "text": "Midnight Rider"
+            },
+            {
+              "id": "5",
+              "text": "Bad Bad Leroy Brown"
+            }
+          ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The correct answer is: Midnight Rider"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What 1994 movie featured former Black Flag frontman, Henry Rollins in the role of officer Dobbs?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Beverly Hills Cop XVIXXII"
+            },
+            {
+              "id": "1",
+              "text": "Speed"
+            },
+            {
+              "id": "2",
+              "text": "Point break"
+            },
+            {
+              "id": "3",
+              "text": "The Chase"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Chase"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What is the name of the punk dance with influences from mosh dancing, that when done correctly, resembles running and stumbling at the same time?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Skank"
+            },
+            {
+              "id": "1",
+              "text": "Slam"
+            },
+            {
+              "id": "2",
+              "text": "Breakcore"
+            },
+            {
+              "id": "3",
+              "text": "Pogo"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Skank"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who was the original performer of the power ballad Total Eclipse of the Heart?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Nicky French"
+            },
+            {
+              "id": "1",
+              "text": "Amy Grant"
+            },
+            {
+              "id": "2",
+              "text": "Tina Turner"
+            },
+            {
+              "id": "3",
+              "text": "Bonnie Tyler"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Bonnie Tyler"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Forever Young is the name of Rod Stewarts debut album released in 1984.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: False"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What New York City club, founded in 1973 by Hilly Kristal, was the place to see most punk bands that came through the city?",
+          "options": [
+            {
+              "id": "0",
+              "text": "CBGB"
+            },
+            {
+              "id": "1",
+              "text": "The Palladium"
+            },
+            {
+              "id": "2",
+              "text": "The Electric Banana"
+            },
+            {
+              "id": "3",
+              "text": "The Whiskey-A-Go-Go"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: CBGB"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "What member of hardcore punk band, Minor Threat went on to form Fugazi?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mike Watt"
+            },
+            {
+              "id": "1",
+              "text": "Brian Baker"
+            },
+            {
+              "id": "2",
+              "text": "Ian Mackaye"
+            },
+            {
+              "id": "3",
+              "text": "Greg Ginn"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Ian Mackaye"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which of these is not a 1980s song?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Billie Jean"
+            },
+            {
+              "id": "1",
+              "text": "Layla"
+            },
+            {
+              "id": "2",
+              "text": "Like a Virgin"
+            },
+            {
+              "id": "3",
+              "text": "Down Under"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Layla"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "jackson",
+          "billie",
+          "punk",
+          "beer",
+          "whats"
+        ]
+      }
+    },
+    {
+      "id": "quiz_4",
+      "title": "Entertainment Quiz: Genre and Punk Genre",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, blues, country. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Punk",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Ramones"
+            },
+            {
+              "id": "1",
+              "text": "The Sex Pistols"
+            },
+            {
+              "id": "2",
+              "text": "Black Flag"
+            },
+            {
+              "id": "3",
+              "text": "New York Dolls"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Ramones"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Country",
+          "options": [
+            {
+              "id": "0",
+              "text": "Willie Nelson"
+            },
+            {
+              "id": "1",
+              "text": "Merl Haggard"
+            },
+            {
+              "id": "2",
+              "text": "Hank Williams, Jr."
+            },
+            {
+              "id": "3",
+              "text": "Waylon Jennings"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Hank Williams, Jr."
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Bubblegum Pop",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Archies"
+            },
+            {
+              "id": "1",
+              "text": "The Monkees"
+            },
+            {
+              "id": "2",
+              "text": "The Banana Splits"
+            },
+            {
+              "id": "3",
+              "text": "1910 Fruitgum Company"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: The Archies"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Soft Rock",
+          "options": [
+            {
+              "id": "0",
+              "text": "Ringo Starr"
+            },
+            {
+              "id": "1",
+              "text": "George Harrison"
+            },
+            {
+              "id": "2",
+              "text": "Paul McCartney"
+            },
+            {
+              "id": "3",
+              "text": "John Lennon"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Paul McCartney"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre:British Rock",
+          "options": [
+            {
+              "id": "0",
+              "text": "Golden Earring"
+            },
+            {
+              "id": "1",
+              "text": "Scorpions"
+            },
+            {
+              "id": "2",
+              "text": "Night Ranger"
+            },
+            {
+              "id": "3",
+              "text": "Def Leppard"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Def Leppard"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Old School Rap",
+          "options": [
+            {
+              "id": "0",
+              "text": "Slick Rick"
+            },
+            {
+              "id": "1",
+              "text": "L.L. Cool J"
+            },
+            {
+              "id": "2",
+              "text": "Kool Moe Dee"
+            },
+            {
+              "id": "3",
+              "text": "Rob Base"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Kool Moe Dee"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Grunge",
+          "options": [
+            {
+              "id": "0",
+              "text": "Pearl Jam"
+            },
+            {
+              "id": "1",
+              "text": "Stone Temple Pilots"
+            },
+            {
+              "id": "2",
+              "text": "Alice in Chains"
+            },
+            {
+              "id": "3",
+              "text": "Nirvana"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Alice in Chains"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Boy Band",
+          "options": [
+            {
+              "id": "0",
+              "text": "*NSYNC"
+            },
+            {
+              "id": "1",
+              "text": "Backstreet Boys"
+            },
+            {
+              "id": "2",
+              "text": "New Kids on the Block"
+            },
+            {
+              "id": "3",
+              "text": "New Edition"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: New Kids on the Block"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Blues",
+          "options": [
+            {
+              "id": "0",
+              "text": "John Lee Hooker"
+            },
+            {
+              "id": "1",
+              "text": "Muddy Waters"
+            },
+            {
+              "id": "2",
+              "text": "B. B. King"
+            },
+            {
+              "id": "3",
+              "text": "Etta James"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: B. B. King"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Singer-Songwriter",
+          "options": [
+            {
+              "id": "0",
+              "text": "Neil Diamond"
+            },
+            {
+              "id": "1",
+              "text": "Paul Simon"
+            },
+            {
+              "id": "2",
+              "text": "Jim Croce"
+            },
+            {
+              "id": "3",
+              "text": "James Taylor"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Neil Diamond"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: East Coast Rap",
+          "options": [
+            {
+              "id": "0",
+              "text": "50 Cent"
+            },
+            {
+              "id": "1",
+              "text": "Busta Rhymes"
+            },
+            {
+              "id": "2",
+              "text": "Notorious B.I.G."
+            },
+            {
+              "id": "3",
+              "text": "Heavy D"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Notorious B.I.G."
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Soul",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Isley Brothers"
+            },
+            {
+              "id": "1",
+              "text": "The Temptations"
+            },
+            {
+              "id": "2",
+              "text": "The Miracles"
+            },
+            {
+              "id": "3",
+              "text": "The OJays"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The OJays"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: New Jack Swing",
+          "options": [
+            {
+              "id": "0",
+              "text": "Color Me Badd"
+            },
+            {
+              "id": "1",
+              "text": "Boyz II Men"
+            },
+            {
+              "id": "2",
+              "text": "Jodeci"
+            },
+            {
+              "id": "3",
+              "text": "Bell Biv DeVoe"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Boyz II Men"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Gangsta Rap",
+          "options": [
+            {
+              "id": "0",
+              "text": "Eazy-E"
+            },
+            {
+              "id": "1",
+              "text": "Dr. Dre"
+            },
+            {
+              "id": "2",
+              "text": "Snoop Dogg"
+            },
+            {
+              "id": "3",
+              "text": "Ice Cube"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Ice Cube"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Hard Rock",
+          "options": [
+            {
+              "id": "0",
+              "text": "a solo artist and a member of the Amboy Dukes and Damn Yankees, this artist from Detroit produced numerous memorable hits including: Cat Scratch Fever and Stranglehold."
+            },
+            {
+              "id": "1",
+              "text": "Stevie Ray Vaughn"
+            },
+            {
+              "id": "2",
+              "text": "Billy Squire"
+            },
+            {
+              "id": "3",
+              "text": "Peter Frampton"
+            },
+            {
+              "id": "4",
+              "text": "Ted Nugent"
+            }
+          ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The correct answer is: Ted Nugent"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "blues",
+          "country",
+          "soul",
+          "singer-songwriter",
+          "pop"
+        ]
+      }
+    },
+    {
+      "id": "quiz_5",
+      "title": "Entertainment Quiz: Genre and Song",
+      "description": "Test your entertainment knowledge with this comprehensive quiz! Features 15 questions covering Entertainment, ground, blues. Includes 5 easy, 5 medium, and 5 challenging questions. Can you achieve a passing score of 70%?",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Jangle Rock",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Replacements"
+            },
+            {
+              "id": "1",
+              "text": "Tom Petty and the Heartbreakers"
+            },
+            {
+              "id": "2",
+              "text": "Gin Blossoms"
+            },
+            {
+              "id": "3",
+              "text": "The Byrds"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: The Byrds"
+        },
+        {
+          "id": "q2",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which American Southern rock band, formed in Jacksonville, Florida, recorded the song Sweet Home Alabama?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Lynard Skynard"
+            },
+            {
+              "id": "1",
+              "text": "The Allman Brothers Band"
+            },
+            {
+              "id": "2",
+              "text": "Alabama"
+            },
+            {
+              "id": "3",
+              "text": "Travis Tritt"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Lynard Skynard"
+        },
+        {
+          "id": "q3",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Who performed Billie Jean, a hit single from the album Thriller?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Micheal Jackson"
+            },
+            {
+              "id": "1",
+              "text": "Alan Jackson"
+            },
+            {
+              "id": "2",
+              "text": "Bobby Brown"
+            },
+            {
+              "id": "3",
+              "text": "Paul Overstreet"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Micheal Jackson"
+        },
+        {
+          "id": "q4",
+          "type": "MULTIPLE_CHOICE",
+          "question": "In 1981, this singer duetted with Diana Ross on Endless Love, the theme song of the self-titled movie.",
+          "options": [
+            {
+              "id": "0",
+              "text": "Micheal Jackson"
+            },
+            {
+              "id": "1",
+              "text": "Bobby Brown"
+            },
+            {
+              "id": "2",
+              "text": "Lionel Richie"
+            },
+            {
+              "id": "3",
+              "text": "Bryan Adams"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: Lionel Richie"
+        },
+        {
+          "id": "q5",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Country music singer and songwriter Alan Jackson performed the song, Meat and Potato Man.",
+          "options": [
+            {
+              "id": "0",
+              "text": "False"
+            },
+            {
+              "id": "1",
+              "text": "True"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q6",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Glam Rock",
+          "options": [
+            {
+              "id": "0",
+              "text": "Mark Bolan"
+            },
+            {
+              "id": "1",
+              "text": "Mott the Hoopie"
+            },
+            {
+              "id": "2",
+              "text": "Elton John"
+            },
+            {
+              "id": "3",
+              "text": "David Bowie"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: David Bowie"
+        },
+        {
+          "id": "q7",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Country music singer and actress Pam Tillis recorded the song Daddys Hands in 1986.",
+          "options": [
+            {
+              "id": "0",
+              "text": "No"
+            },
+            {
+              "id": "1",
+              "text": "Yes"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: No"
+        },
+        {
+          "id": "q8",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Blues Rock",
+          "options": [
+            {
+              "id": "0",
+              "text": "Molly Hatchet"
+            },
+            {
+              "id": "1",
+              "text": "ZZ Top"
+            },
+            {
+              "id": "2",
+              "text": "Derek and the Dominos"
+            },
+            {
+              "id": "3",
+              "text": "The Fabulous Thunderbirds"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: ZZ Top"
+        },
+        {
+          "id": "q9",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Modern RB",
+          "options": [
+            {
+              "id": "0",
+              "text": "azy in Love, Baby Boy, D\u00e9j\u00e0 Vu and Beautiful Liar are among this Texas-born artists successful singles."
+            },
+            {
+              "id": "1",
+              "text": "Mariah Carey"
+            },
+            {
+              "id": "2",
+              "text": "Toni Braxton"
+            },
+            {
+              "id": "3",
+              "text": "Mary J. Blige"
+            },
+            {
+              "id": "4",
+              "text": "Beyonc\u00e9 Knowles"
+            }
+          ],
+          "correctAnswer": "4",
+          "points": 10,
+          "explanation": "The correct answer is: Beyonc\u00e9 Knowles"
+        },
+        {
+          "id": "q10",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Quiet Storm",
+          "options": [
+            {
+              "id": "0",
+              "text": "Luther Vandross"
+            },
+            {
+              "id": "1",
+              "text": "Isaac Hayes"
+            },
+            {
+              "id": "2",
+              "text": "Al Green"
+            },
+            {
+              "id": "3",
+              "text": "Barry White"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Barry White"
+        },
+        {
+          "id": "q11",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Country music band Alabama recorded the single Roll On.",
+          "options": [
+            {
+              "id": "0",
+              "text": "True"
+            },
+            {
+              "id": "1",
+              "text": "False"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: True"
+        },
+        {
+          "id": "q12",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Which Grammy Award-winning country music singer performed the song Concrete Angels?",
+          "options": [
+            {
+              "id": "0",
+              "text": "Martina Mcbride"
+            },
+            {
+              "id": "1",
+              "text": "Pam Tillis"
+            },
+            {
+              "id": "2",
+              "text": "Mariah Carey"
+            },
+            {
+              "id": "3",
+              "text": "Carrie Underwood"
+            }
+          ],
+          "correctAnswer": "0",
+          "points": 10,
+          "explanation": "The correct answer is: Martina Mcbride"
+        },
+        {
+          "id": "q13",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Burning the ground I break from the crowd, Im on the hunt Im after you",
+          "options": [
+            {
+              "id": "0",
+              "text": "Its the time of your life"
+            },
+            {
+              "id": "1",
+              "text": "Start on the line its discord and rhyme"
+            },
+            {
+              "id": "2",
+              "text": "I want it that way"
+            },
+            {
+              "id": "3",
+              "text": "Strut on a line, its discord and rhyme"
+            }
+          ],
+          "correctAnswer": "3",
+          "points": 10,
+          "explanation": "The correct answer is: Strut on a line, its discord and rhyme"
+        },
+        {
+          "id": "q14",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Psychedelic",
+          "options": [
+            {
+              "id": "0",
+              "text": "The Animals"
+            },
+            {
+              "id": "1",
+              "text": "The Byrds"
+            },
+            {
+              "id": "2",
+              "text": "The Monkees"
+            },
+            {
+              "id": "3",
+              "text": "The Beatles"
+            }
+          ],
+          "correctAnswer": "2",
+          "points": 10,
+          "explanation": "The correct answer is: The Monkees"
+        },
+        {
+          "id": "q15",
+          "type": "MULTIPLE_CHOICE",
+          "question": "Genre: Arena Rock",
+          "options": [
+            {
+              "id": "0",
+              "text": "Jimmy Buffet"
+            },
+            {
+              "id": "1",
+              "text": "Peter Frampton"
+            },
+            {
+              "id": "2",
+              "text": "Boston"
+            },
+            {
+              "id": "3",
+              "text": "REO Speedwagon"
+            }
+          ],
+          "correctAnswer": "1",
+          "points": 10,
+          "explanation": "The correct answer is: Peter Frampton"
+        }
+      ],
+      "settings": {
+        "randomizeQuestions": true,
+        "randomizeOptions": true,
+        "showExplanation": true,
+        "showCorrectAnswer": true,
+        "passingScore": 70,
+        "allowNavigation": true,
+        "showProgressBar": true,
+        "showTimeRemaining": true
+      },
+      "metadata": {
+        "totalPoints": 150,
+        "estimatedDuration": 30,
+        "difficultyDistribution": {
+          "easy": 5,
+          "medium": 5,
+          "hard": 5
+        },
+        "tags": [
+          "Entertainment",
+          "ground",
+          "blues",
+          "country",
+          "southern",
+          "genre"
+        ]
+      }
+    }
+  ]
+}
