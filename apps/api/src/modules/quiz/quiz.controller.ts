@@ -3,6 +3,7 @@ import { HttpStatusCode } from 'axios';
 import QuizService from './quiz.service';
 import { type CustomResponse } from '@/types/common.type';
 import { type AuthenticatedRequest } from '@/middlewares/oauth.middleware';
+import OAuthMiddleware from '@/middlewares/oauth.middleware';
 import Api from '@/lib/api';
 
 export default class QuizController extends Api {
@@ -14,7 +15,7 @@ export default class QuizController extends Api {
     next: NextFunction
   ) => {
     try {
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
       if (!userId) {
         return this.send(
           res,
@@ -43,7 +44,16 @@ export default class QuizController extends Api {
   ) => {
     try {
       const { quizId } = req.params;
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
+
+      if (!userId) {
+        return this.send(
+          res,
+          { message: 'User not authenticated' },
+          HttpStatusCode.Unauthorized,
+          'User not authenticated'
+        );
+      }
 
       const quiz = await this.quizService.getQuizById(quizId, userId);
       this.send(res, quiz, HttpStatusCode.Ok, 'Quiz retrieved successfully');
@@ -58,7 +68,7 @@ export default class QuizController extends Api {
     next: NextFunction
   ) => {
     try {
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
       if (!userId) {
         return this.send(
           res,
@@ -90,7 +100,7 @@ export default class QuizController extends Api {
   ) => {
     try {
       const { quizId } = req.params;
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
 
       if (!userId) {
         return this.send(
@@ -115,7 +125,7 @@ export default class QuizController extends Api {
   ) => {
     try {
       const { quizId } = req.params;
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
 
       if (!userId) {
         return this.send(
@@ -145,7 +155,7 @@ export default class QuizController extends Api {
   ) => {
     try {
       const { quizId } = req.params;
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
 
       if (!userId) {
         return this.send(

@@ -4,8 +4,8 @@ import (
 	"time"
 )
 
-// QuizRoom represents a quiz room
-type QuizRoom struct {
+// LegacyQuizRoom represents a quiz room (legacy Redis-based)
+type LegacyQuizRoom struct {
 	ID         string    `json:"id"`
 	QuizID     string    `json:"quiz_id"`
 	HostID     string    `json:"host_id"`
@@ -46,8 +46,8 @@ type QuizState struct {
 	QuestionTimeLimit int      `json:"question_time_limit"`
 }
 
-// Question represents a quiz question
-type Question struct {
+// LegacyQuestion represents a quiz question (legacy Redis-based)
+type LegacyQuestion struct {
 	ID             string            `json:"id"`
 	Text           string            `json:"text"`
 	Options        map[string]string `json:"options"`
@@ -58,16 +58,16 @@ type Question struct {
 	Difficulty     string            `json:"difficulty"`
 }
 
-// Quiz represents a complete quiz
-type Quiz struct {
-	ID            string     `json:"id"`
-	Title         string     `json:"title"`
-	Description   string     `json:"description"`
-	Questions     []Question `json:"questions"`
-	TimeLimit     int        `json:"time_limit"`
-	Difficulty    string     `json:"difficulty"`
-	CreatedAt     time.Time  `json:"created_at"`
-	Tags          []string   `json:"tags"`
+// LegacyQuiz represents a complete quiz (legacy Redis-based)
+type LegacyQuiz struct {
+	ID            string           `json:"id"`
+	Title         string           `json:"title"`
+	Description   string           `json:"description"`
+	Questions     []LegacyQuestion `json:"questions"`
+	TimeLimit     int              `json:"time_limit"`
+	Difficulty    string           `json:"difficulty"`
+	CreatedAt     time.Time        `json:"created_at"`
+	Tags          []string         `json:"tags"`
 }
 
 // WebSocketMessage represents messages sent over WebSocket

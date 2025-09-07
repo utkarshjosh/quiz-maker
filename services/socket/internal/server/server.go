@@ -2,12 +2,15 @@ package server
 
 import (
 	"context"
+	"encoding/json"
 	"net/http"
 	"time"
 
 	"quiz-realtime-service/internal/auth"
 	"quiz-realtime-service/internal/config"
+	"quiz-realtime-service/internal/database"
 	"quiz-realtime-service/internal/gateway"
+	"quiz-realtime-service/internal/repository"
 	"quiz-realtime-service/internal/store"
 
 	"github.com/go-chi/chi/v5"
@@ -22,12 +25,28 @@ type Server struct {
 	httpServer *http.Server
 	
 	// Services
-	authService *auth.AuthService
+	authService auth.AuthServiceInterface
 	redisStore  *store.RedisStore
+	database    *database.Database
+	roomRepo    *repository.RoomRepository
 	wsGateway   *gateway.WebSocketGateway
 }
 
 func New(cfg *config.Config, logger *zap.Logger) (*Server, error) {
+	// Initialize database
+	db, err := database.New(database.Config{
+		URL:             cfg.Database.URL,
+		MaxOpenConns:    cfg.Database.MaxOpenConns,
+		MaxIdleConns:    cfg.Database.MaxIdleConns,
+		ConnMaxLifetime: cfg.Database.ConnMaxLifetime,
+	}, logger)
+	if err != nil {
+		return nil, err
+	}
+
+	// Initialize room repository
+	roomRepo := repository.NewRoomRepository(db.GetConnection(), logger)
+
 	// Initialize Redis store
 	redisStore := store.NewRedisStore(
 		cfg.Redis.Address,
@@ -43,15 +62,18 @@ func New(cfg *config.Config, logger *zap.Logger) (*Server, error) {
 		return nil, err
 	}
 
-	// Initialize auth service
-	authService := auth.NewAuthService(
-		cfg.JWT.Secret,
-		cfg.JWT.RefreshSecret,
+	// Initialize Auth0 service
+	authService := auth.NewAuth0Service(
+		cfg.Auth0.Domain,
+		cfg.Auth0.ClientID,
+		cfg.Auth0.ClientSecret,
+		cfg.Auth0.Audience,
+		cfg.Auth0.JWTSecret,
 		logger,
 	)
 
 	// Initialize WebSocket gateway
-	wsGateway := gateway.NewWebSocketGateway(authService, logger)
+	wsGateway := gateway.NewWebSocketGateway(authService, roomRepo, logger)
 
 	// Create HTTP server
 	router := chi.NewRouter()
@@ -60,6 +82,8 @@ func New(cfg *config.Config, logger *zap.Logger) (*Server, error) {
 		logger:      logger,
 		authService: authService,
 		redisStore:  redisStore,
+		database:    db,
+		roomRepo:    roomRepo,
 		wsGateway:   wsGateway,
 	}
 
@@ -226,6 +250,11 @@ func (s *Server) Start() error {
 func (s *Server) Shutdown(ctx context.Context) error {
 	s.logger.Info("Shutting down HTTP server")
 	
+	// Close database connection
+	if err := s.database.Close(); err != nil {
+		s.logger.Error("Failed to close database connection", zap.Error(err))
+	}
+	
 	// Close Redis connection
 	if err := s.redisStore.Close(); err != nil {
 		s.logger.Error("Failed to close Redis connection", zap.Error(err))
@@ -237,5 +266,7 @@ func (s *Server) Shutdown(ctx context.Context) error {
 func parseJSON(r *http.Request, v interface{}) error {
 	// Simple JSON parsing helper
 	// In production, you'd use a proper JSON decoder with limits
-	return nil // Placeholder
+	decoder := json.NewDecoder(r.Body)
+	decoder.DisallowUnknownFields()
+	return decoder.Decode(v)
 }

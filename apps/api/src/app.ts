@@ -56,6 +56,7 @@ class App {
         secret: envConfig.jwt.secret,
         resave: false,
         saveUninitialized: false,
+        name: 'appSession', // This should match the cookie name used by express-openid-connect
         cookie: {
           httpOnly: true,
           secure: environment.isProd(),

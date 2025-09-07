@@ -1,0 +1,416 @@
+{
+  "debug_payloads": {
+    "description": "Comprehensive WebSocket debug payloads for Quiz Maker realtime service",
+    "quiz_id": "0043a49e-683c-453b-b4ef-5f288f74feeb",
+    "user_id": "1f87b22f-c9f4-4764-92ba-c257e90a585b",
+    "payloads": {
+      "ping": {
+        "description": "Basic ping message to test connection",
+        "payload": {
+          "v": 1,
+          "type": "ping",
+          "msg_id": "debug-ping-001",
+          "data": {
+            "timestamp": 1703123456789
+          }
+        }
+      },
+      "pong": {
+        "description": "Pong response to ping",
+        "payload": {
+          "v": 1,
+          "type": "pong",
+          "msg_id": "debug-pong-001",
+          "data": {
+            "timestamp": 1703123456789
+          }
+        }
+      },
+      "create_room": {
+        "description": "Create a new quiz room",
+        "payload": {
+          "v": 1,
+          "type": "create_room",
+          "msg_id": "debug-create-room-001",
+          "data": {
+            "quiz_id": "0043a49e-683c-453b-b4ef-5f288f74feeb",
+            "settings": {
+              "question_duration_ms": 30000,
+              "show_correctness": true,
+              "show_leaderboard": true,
+              "allow_reconnect": true,
+              "max_players": 50
+            }
+          }
+        }
+      },
+      "create_room_minimal": {
+        "description": "Create room with minimal settings",
+        "payload": {
+          "v": 1,
+          "type": "create_room",
+          "msg_id": "debug-create-room-minimal-001",
+          "data": {
+            "quiz_id": "0043a49e-683c-453b-b4ef-5f288f74feeb",
+            "settings": {}
+          }
+        }
+      },
+      "create_room_custom_settings": {
+        "description": "Create room with custom settings",
+        "payload": {
+          "v": 1,
+          "type": "create_room",
+          "msg_id": "debug-create-room-custom-001",
+          "data": {
+            "quiz_id": "0043a49e-683c-453b-b4ef-5f288f74feeb",
+            "settings": {
+              "question_duration_ms": 60000,
+              "show_correctness": false,
+              "show_leaderboard": true,
+              "allow_reconnect": false,
+              "max_players": 20
+            }
+          }
+        }
+      },
+      "join_room": {
+        "description": "Join an existing room by PIN",
+        "payload": {
+          "v": 1,
+          "type": "join",
+          "msg_id": "debug-join-room-001",
+          "data": {
+            "pin": "123456",
+            "display_name": "Debug User"
+          }
+        }
+      },
+      "join_room_long_name": {
+        "description": "Join room with long display name",
+        "payload": {
+          "v": 1,
+          "type": "join",
+          "msg_id": "debug-join-room-long-name-001",
+          "data": {
+            "pin": "123456",
+            "display_name": "Very Long Display Name That Tests Validation"
+          }
+        }
+      },
+      "join_room_short_name": {
+        "description": "Join room with short display name",
+        "payload": {
+          "v": 1,
+          "type": "join",
+          "msg_id": "debug-join-room-short-001",
+          "data": {
+            "pin": "123456",
+            "display_name": "A"
+          }
+        }
+      },
+      "start_quiz": {
+        "description": "Start the quiz (host only)",
+        "payload": {
+          "v": 1,
+          "type": "start",
+          "msg_id": "debug-start-quiz-001",
+          "data": {
+            "room_id": "room-123456"
+          }
+        }
+      },
+      "answer_question": {
+        "description": "Submit answer to a question",
+        "payload": {
+          "v": 1,
+          "type": "answer",
+          "msg_id": "debug-answer-001",
+          "data": {
+            "question_index": 0,
+            "answer": "A",
+            "answer_time_ms": 5000
+          }
+        }
+      },
+      "answer_question_fast": {
+        "description": "Submit answer quickly",
+        "payload": {
+          "v": 1,
+          "type": "answer",
+          "msg_id": "debug-answer-fast-001",
+          "data": {
+            "question_index": 1,
+            "answer": "B",
+            "answer_time_ms": 1000
+          }
+        }
+      },
+      "answer_question_slow": {
+        "description": "Submit answer slowly",
+        "payload": {
+          "v": 1,
+          "type": "answer",
+          "msg_id": "debug-answer-slow-001",
+          "data": {
+            "question_index": 2,
+            "answer": "C",
+            "answer_time_ms": 25000
+          }
+        }
+      },
+      "leave_room": {
+        "description": "Leave the current room",
+        "payload": {
+          "v": 1,
+          "type": "leave",
+          "msg_id": "debug-leave-room-001",
+          "data": {
+            "reason": "User requested to leave"
+          }
+        }
+      },
+      "kick_user": {
+        "description": "Kick a user from the room (host only)",
+        "payload": {
+          "v": 1,
+          "type": "kick",
+          "msg_id": "debug-kick-user-001",
+          "data": {
+            "user_id": "1f87b22f-c9f4-4764-92ba-c257e90a585b",
+            "reason": "Inappropriate behavior"
+          }
+        }
+      },
+      "invalid_message_format": {
+        "description": "Test invalid message format handling",
+        "payload": {
+          "v": 1,
+          "type": "invalid_type",
+          "msg_id": "debug-invalid-001",
+          "data": {
+            "invalid_field": "test"
+          }
+        }
+      },
+      "malformed_json": {
+        "description": "Test malformed JSON handling",
+        "payload": "{\"v\":1,\"type\":\"ping\",\"msg_id\":\"debug-malformed-001\",\"data\":{\"timestamp\":1703123456789"
+      },
+      "missing_required_fields": {
+        "description": "Test missing required fields",
+        "payload": {
+          "v": 1,
+          "type": "join",
+          "msg_id": "debug-missing-fields-001",
+          "data": {
+            "pin": "123456"
+          }
+        }
+      },
+      "wrong_data_types": {
+        "description": "Test wrong data types",
+        "payload": {
+          "v": 1,
+          "type": "create_room",
+          "msg_id": "debug-wrong-types-001",
+          "data": {
+            "quiz_id": 123,
+            "settings": "invalid_settings"
+          }
+        }
+      },
+      "empty_data": {
+        "description": "Test empty data field",
+        "payload": {
+          "v": 1,
+          "type": "ping",
+          "msg_id": "debug-empty-data-001",
+          "data": {}
+        }
+      },
+      "null_data": {
+        "description": "Test null data field",
+        "payload": {
+          "v": 1,
+          "type": "ping",
+          "msg_id": "debug-null-data-001",
+          "data": null
+        }
+      },
+      "very_large_message": {
+        "description": "Test very large message handling",
+        "payload": {
+          "v": 1,
+          "type": "create_room",
+          "msg_id": "debug-large-001",
+          "data": {
+            "quiz_id": "0043a49e-683c-453b-b4ef-5f288f74feeb",
+            "settings": {
+              "question_duration_ms": 30000,
+              "show_correctness": true,
+              "show_leaderboard": true,
+              "allow_reconnect": true,
+              "max_players": 50,
+              "extra_data": "This is a very long string that contains a lot of data to test how the system handles large messages. It should be able to process this without issues, but we want to make sure the logging and processing can handle it properly. This string is intentionally long to test the robustness of the WebSocket message handling system."
+            }
+          }
+        }
+      },
+      "unicode_characters": {
+        "description": "Test Unicode character handling",
+        "payload": {
+          "v": 1,
+          "type": "join",
+          "msg_id": "debug-unicode-001",
+          "data": {
+            "pin": "123456",
+            "display_name": "测试用户 🎯 Quiz Master 中文"
+          }
+        }
+      },
+      "special_characters": {
+        "description": "Test special character handling",
+        "payload": {
+          "v": 1,
+          "type": "join",
+          "msg_id": "debug-special-chars-001",
+          "data": {
+            "pin": "123456",
+            "display_name": "User@#$%^&*()_+-=[]{}|;':\",./<>?"
+          }
+        }
+      },
+      "edge_case_pin": {
+        "description": "Test edge case PIN values",
+        "payload": {
+          "v": 1,
+          "type": "join",
+          "msg_id": "debug-edge-pin-001",
+          "data": {
+            "pin": "000000",
+            "display_name": "Edge Case User"
+          }
+        }
+      },
+      "edge_case_pin_max": {
+        "description": "Test maximum PIN value",
+        "payload": {
+          "v": 1,
+          "type": "join",
+          "msg_id": "debug-edge-pin-max-001",
+          "data": {
+            "pin": "999999",
+            "display_name": "Max PIN User"
+          }
+        }
+      },
+      "concurrent_messages": {
+        "description": "Test concurrent message handling",
+        "payloads": [
+          {
+            "v": 1,
+            "type": "ping",
+            "msg_id": "debug-concurrent-001",
+            "data": {
+              "timestamp": 1703123456789
+            }
+          },
+          {
+            "v": 1,
+            "type": "ping",
+            "msg_id": "debug-concurrent-002",
+            "data": {
+              "timestamp": 1703123456790
+            }
+          },
+          {
+            "v": 1,
+            "type": "ping",
+            "msg_id": "debug-concurrent-003",
+            "data": {
+              "timestamp": 1703123456791
+            }
+          }
+        ]
+      }
+    },
+    "expected_responses": {
+      "ping": {
+        "type": "pong",
+        "data": {
+          "timestamp": "number"
+        }
+      },
+      "create_room": {
+        "type": "state",
+        "data": {
+          "phase": "lobby",
+          "room_id": "string",
+          "pin": "string",
+          "host_id": "string",
+          "question_index": 0,
+          "total_questions": "number",
+          "members": "array",
+          "settings": "object"
+        }
+      },
+      "join": {
+        "type": "state",
+        "data": {
+          "phase": "lobby",
+          "room_id": "string",
+          "pin": "string",
+          "host_id": "string",
+          "question_index": 0,
+          "total_questions": "number",
+          "members": "array",
+          "settings": "object"
+        }
+      },
+      "error": {
+        "type": "error",
+        "data": {
+          "code": "string",
+          "message": "string"
+        }
+      }
+    },
+    "error_codes": {
+      "UNAUTHORIZED": "Authentication failed",
+      "FORBIDDEN": "Access denied",
+      "NOT_FOUND": "Resource not found",
+      "RATE_LIMIT": "Too many requests",
+      "VALIDATION": "Invalid input data",
+      "STATE": "Invalid state for operation",
+      "ROOM_FULL": "Room has reached maximum capacity",
+      "UNKNOWN": "Unknown error occurred"
+    },
+    "testing_scenarios": {
+      "happy_path": [
+        "ping",
+        "create_room",
+        "join_room",
+        "start_quiz",
+        "answer_question",
+        "leave_room"
+      ],
+      "error_handling": [
+        "invalid_message_format",
+        "malformed_json",
+        "missing_required_fields",
+        "wrong_data_types"
+      ],
+      "edge_cases": [
+        "empty_data",
+        "null_data",
+        "very_large_message",
+        "unicode_characters",
+        "special_characters",
+        "edge_case_pin"
+      ],
+      "concurrent_testing": ["concurrent_messages"]
+    }
+  }
+}

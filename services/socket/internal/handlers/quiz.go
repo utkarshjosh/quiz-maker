@@ -42,7 +42,7 @@ func (h *QuizHandler) CreateRoom(c *gin.Context) {
 	}
 
 	// Create new room
-	room := &models.QuizRoom{
+	room := &models.LegacyQuizRoom{
 		ID:         uuid.New().String(),
 		QuizID:     req.QuizID,
 		HostID:     req.HostID,
@@ -253,7 +253,8 @@ func (h *QuizHandler) NextQuestion(c *gin.Context) {
 	// Check if there are more questions
 	if quizState.CurrentQuestion >= len(quiz.Questions)-1 {
 		// Quiz finished
-		return h.EndQuiz(c)
+		h.EndQuiz(c)
+		return
 	}
 
 	// Move to next question

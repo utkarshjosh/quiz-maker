@@ -1,14 +1,39 @@
-// Main entry point for shared TypeScript libraries
-// Export all public APIs from this file
+/**
+ * Quiz Application TypeScript Definitions
+ *
+ * This package contains all TypeScript type definitions shared between
+ * the frontend and backend components of the quiz application.
+ */
 
-// Types
-//export * from "./types";
+// Export all types
+export * from "./types";
+export * from "./websocket-types";
 
-// DTOs
-//export * from "./dto";
+// Re-export commonly used types for convenience
+export type {
+  Message,
+  JoinMessage,
+  AnswerMessage,
+  StateMessage,
+  QuestionMessage,
+  RevealMessage,
+  ErrorMessage,
+  Member,
+  User,
+  QuizData,
+  Question,
+  QuizSettings,
+  QuizStats,
+  LeaderEntry,
+  UserStat,
+} from "./websocket-types";
 
-// Utils
-//export * from "./utils";
-
-// Constants
-//export * from "./constants";
+export type {
+  ApiResponse,
+  PaginatedResponse,
+  Quiz,
+  QuizSummary,
+  RoomInfo,
+  UserSession,
+  AppConfig,
+} from "./types";

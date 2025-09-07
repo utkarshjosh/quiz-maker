@@ -1,44 +1,8 @@
 ---
-description: Project architecture guidelines and Cursor rules formatting standards for the quiz-maker project
-globs: **/*
+description: Guidelines for creating and maintaining Cursor rules to ensure consistency and effectiveness.
+globs: .cursor/rules/*.mdc
 alwaysApply: true
 ---
-
-# Project Architecture & Philosophy Rules
-
-## **Project Overview:**
-
-- **Project:** Node.js (Express + TypeScript + Prisma) with a Go sockets service
-- **Goal:** Modular, scalable, extensible; built to last decades
-- **Philosophy anchors:** dependability, extendability, team scalability, velocity
-
-## **Repository Structure:**
-
-```
-apps/
-  api/         -> Express + TS backend (feature slices)
-  web/         -> React frontend (Next.js/Vite/CRA etc.)
-services/
-  socket/      -> Go WebSocket service
-pkg/
-  ts/          -> shared TS libraries (DTOs, utils)
-  go/          -> shared Go libraries
-prisma/        -> schema, migrations, seed
-docs/          -> ADRs, philosophy, runbooks
-infra/         -> docker-compose, k8s, CI/CD, terraform, etc.
-```
-
-## **Core Architectural Principles:**
-
-- **Prefer small, stable interfaces** and coarse-grained modules over deep cross-dependencies
-- **New code must depend _inward_** (ports/adapters), never reach across features
-- **Any change that crosses a module boundary** requires an ADR in `docs/adr`
-- **Hide third-party APIs** behind our own thin adapters to insulate churn
-- **Favor boring, battle-tested solutions**; optimize for readability and migration safety
-
----
-
-# Cursor Rules Formatting Standards
 
 - **Required Rule Structure:**
 

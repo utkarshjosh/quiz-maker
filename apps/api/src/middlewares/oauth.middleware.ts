@@ -1,22 +1,16 @@
 import { auth, type ConfigParams } from 'express-openid-connect';
 import { type Request, type Response, type NextFunction } from 'express';
+import session from 'express-session';
 import environment from '@/lib/environment';
 import appConfig from '@/config/app.config';
 import UserService from '@/modules/users/users.service';
+import JWTService, { type MinimalUserData } from '@/lib/jwt.service';
+import CookieService from '@/lib/cookie.service';
 
 // Extend Express Request to include authenticated user
 export interface AuthenticatedRequest extends Request {
-  user?: {
-    id: string;
-    auth0Id: string;
-    email: string;
-    name?: string;
-    picture?: string;
-    emailVerified: boolean;
-    createdAt: Date;
-    updatedAt: Date;
-    lastLogin?: Date;
-  };
+  user?: MinimalUserData;
+  refreshedToken?: string; // Token that was refreshed during the request
 }
 
 /**
@@ -24,6 +18,27 @@ export interface AuthenticatedRequest extends Request {
  * Handles Auth0 integration with proper environment routing
  */
 export class OAuthMiddleware {
+  /**
+   * Create session middleware for OAuth
+   */
+  public static createSessionMiddleware() {
+    const envConfig = environment.getConfig();
+    const isProduction = environment.env === 'production';
+
+    return session({
+      secret: envConfig.jwt.secret,
+      resave: false,
+      saveUninitialized: false,
+      cookie: {
+        secure: isProduction,
+        httpOnly: true,
+        maxAge: 24 * 60 * 60 * 1000, // 24 hours
+        sameSite: 'lax' as const,
+      },
+      name: 'appSession', // This should match the cookie name used by express-openid-connect
+    });
+  }
+
   /**
    * Create OAuth middleware with environment-aware configuration
    */
@@ -49,7 +64,12 @@ export class OAuthMiddleware {
       authorizationParams: {
         response_type: 'code',
         audience: envConfig.auth0.audience,
-        scope: 'openid profile email',
+        scope: 'openid profile email offline_access',
+      },
+      // Ensure session is properly stored
+      session: {
+        rolling: true,
+        rollingDuration: 24 * 60 * 60 * 1000, // 24 hours
       },
       routes: {
         callback: `${baseRoute}/callback`,
@@ -59,13 +79,6 @@ export class OAuthMiddleware {
       },
       // Handle login state with proper redirect
       getLoginState: (req, options) => {
-        console.log('OAuth getLoginState called:', {
-          env,
-          baseRoute,
-          returnTo: options?.returnTo,
-          query: req.query,
-        });
-
         const frontendUrl = envConfig.frontend.url;
         const returnTo = (req.query.returnTo as string) || '/';
 
@@ -75,40 +88,44 @@ export class OAuthMiddleware {
       },
       // Handle successful callback
       afterCallback: async (req, res, session, state) => {
-        console.log('OAuth afterCallback called:', {
-          env,
-          isAuthenticated: req.oidc?.isAuthenticated?.(),
-          user: req.oidc?.user?.email,
-        });
+        // Check if we have tokens in the session
+        const accessToken = session?.access_token;
+        const idToken = session?.id_token;
 
-        // If authenticated, ensure user exists in database
-        if (req.oidc?.isAuthenticated?.() && req.oidc?.user) {
+        // If we have tokens, set JWT cookie
+        if (accessToken || idToken) {
           try {
-            const userService = new UserService();
-            const auth0User = req.oidc.user;
+            const tokenToUse = accessToken || idToken;
 
-            // Create or update user in database
-            const user = await userService.findOrCreateUser({
-              sub: auth0User.sub,
-              email: auth0User.email ?? '',
-              name: auth0User.name,
-              picture: auth0User.picture,
-              email_verified: auth0User.email_verified ?? false,
-            });
+            if (tokenToUse) {
+              // Set JWT cookie with the token
+              CookieService.setJWTCookie(res, tokenToUse);
 
-            if (user) {
-              console.log('User created/updated in database:', {
-                id: user.id,
-                email: user.email,
-                auth0Id: user.auth0Id,
-              });
+              // Keep the Auth0 session cookie for token refresh
+              // Don't clear it so we can refresh tokens later
+            }
+
+            // Try to create/update user in database if we have user info
+            if (req.oidc?.user) {
+              try {
+                const userService = new UserService();
+                const auth0User = req.oidc.user;
+
+                const user = await userService.findOrCreateUser({
+                  sub: auth0User.sub,
+                  email: auth0User.email ?? '',
+                  name: auth0User.name,
+                  picture: auth0User.picture,
+                  email_verified: auth0User.email_verified ?? false,
+                });
+
+                // User created/updated successfully
+              } catch (userError) {
+                // User creation failed, continue
+              }
             }
           } catch (error) {
-            console.error(
-              'Error creating/updating user in afterCallback:',
-              error
-            );
-            // Don't fail the callback, just log the error
+            // Error in afterCallback, continue
           }
         }
 
@@ -168,7 +185,7 @@ export class OAuthMiddleware {
   }
 
   /**
-   * Middleware to require authentication and populate user context
+   * Middleware to require authentication using JWT
    */
   public static requireAuth() {
     return async (
@@ -177,29 +194,62 @@ export class OAuthMiddleware {
       next: NextFunction
     ) => {
       try {
-        if (!req.oidc?.isAuthenticated?.()) {
+        console.log('🔍 JWT requireAuth middleware called:', {
+          url: req.url,
+          method: req.method,
+          cookies: req.cookies,
+          cookieNames: Object.keys(req.cookies || {}),
+        });
+
+        const token = CookieService.getJWTFromCookie(req);
+
+        console.log('🔑 JWT token from cookie:', {
+          hasToken: !!token,
+          tokenLength: token?.length || 0,
+          tokenPreview: token ? token.substring(0, 50) + '...' : 'none',
+        });
+
+        if (!token) {
+          console.log('❌ No JWT token found in cookies');
           return res.status(401).json({
             success: false,
             message: 'Authentication required',
-            error: 'User not authenticated',
+            error: 'No access token found',
           });
         }
 
-        // Populate user context for database joins
-        await OAuthMiddleware.populateUserContext(req, res, next);
+        // Verify JWT token
+        const jwtService = new JWTService();
+        const decodedToken = await jwtService.verifyToken(token);
+        const userData = jwtService.extractUserData(decodedToken);
+
+        // Attach minimal user data to request
+        req.user = userData;
+
+        console.log('✅ JWT authentication successful:', {
+          user: userData.email,
+          sub: userData.sub,
+          exp: new Date(userData.exp * 1000).toISOString(),
+        });
+
+        next();
       } catch (error) {
-        console.error('Auth middleware error:', error);
-        return res.status(500).json({
+        console.error('❌ JWT authentication error:', error);
+
+        // Clear invalid cookie
+        CookieService.clearJWTCookie(res);
+
+        return res.status(403).json({
           success: false,
-          message: 'Authentication error',
-          error: 'Internal server error',
+          message: 'Invalid token',
+          error: 'Token verification failed',
         });
       }
     };
   }
 
   /**
-   * Middleware to optionally add user if authenticated
+   * Middleware to optionally add user if authenticated via JWT
    */
   public static optionalAuth() {
     return async (
@@ -208,11 +258,26 @@ export class OAuthMiddleware {
       next: NextFunction
     ) => {
       try {
-        if (req.oidc?.isAuthenticated?.()) {
-          await OAuthMiddleware.populateUserContext(req, res, next);
-        } else {
-          next();
+        const token = CookieService.getJWTFromCookie(req);
+
+        if (token) {
+          try {
+            const jwtService = new JWTService();
+            const decodedToken = await jwtService.verifyToken(token);
+            req.user = jwtService.extractUserData(decodedToken);
+
+            console.log('Optional JWT authentication successful:', {
+              user: req.user.email,
+              sub: req.user.sub,
+            });
+          } catch (error) {
+            console.warn('Optional JWT authentication failed:', error);
+            // Clear invalid cookie but continue without user
+            CookieService.clearJWTCookie(res);
+          }
         }
+
+        next();
       } catch (error) {
         console.error('Optional auth middleware error:', error);
         next();
@@ -221,61 +286,41 @@ export class OAuthMiddleware {
   }
 
   /**
-   * Populate user context from database
+   * Clear JWT cookie on logout
    */
-  private static async populateUserContext(
-    req: AuthenticatedRequest,
-    res: Response,
-    next: NextFunction
-  ) {
+  public static logout() {
+    return (req: AuthenticatedRequest, res: Response, next: NextFunction) => {
+      try {
+        // Clear JWT cookie
+        CookieService.clearJWTCookie(res);
+
+        console.log('JWT cookie cleared on logout');
+        next();
+      } catch (error) {
+        console.error('Logout error:', error);
+        next();
+      }
+    };
+  }
+
+  /**
+   * Helper function to get user ID from JWT user data
+   * This will fetch the database user ID using the Auth0 sub
+   */
+  public static async getUserIdFromJWT(
+    req: AuthenticatedRequest
+  ): Promise<string | null> {
+    if (!req.user?.sub) {
+      return null;
+    }
+
     try {
-      const auth0User = req.oidc?.user;
-      if (!auth0User?.sub) {
-        return res.status(401).json({
-          success: false,
-          message: 'Invalid user data',
-          error: 'Missing user identifier',
-        });
-      }
-
-      // Get or create user in database
       const userService = new UserService();
-      const user = await userService.findOrCreateUser({
-        sub: auth0User.sub,
-        email: auth0User.email ?? '',
-        name: auth0User.name,
-        picture: auth0User.picture,
-        email_verified: auth0User.email_verified ?? false,
-      });
-
-      if (!user) {
-        return res.status(500).json({
-          success: false,
-          message: 'User creation failed',
-          error: 'Database error',
-        });
-      }
-
-      // Attach user to request for use in route handlers
-      req.user = {
-        id: user.id,
-        auth0Id: user.auth0Id ?? '',
-        email: user.email,
-        name: user.name ?? undefined,
-        picture: user.picture ?? undefined,
-        emailVerified: user.emailVerified,
-        createdAt: user.createdAt,
-        updatedAt: user.updatedAt,
-        lastLogin: user.lastLogin ?? undefined,
-      };
-      next();
+      const user = await userService.getUserByAuth0Id(req.user.sub);
+      return user?.id || null;
     } catch (error) {
-      console.error('User context population error:', error);
-      return res.status(500).json({
-        success: false,
-        message: 'User context error',
-        error: 'Internal server error',
-      });
+      console.error('Error fetching user ID from JWT:', error);
+      return null;
     }
   }
 }

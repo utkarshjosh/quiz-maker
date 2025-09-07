@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Test Client</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .connected { background-color: #d4edda; color: #155724; }
+        .disconnected { background-color: #f8d7da; color: #721c24; }
+        .error { background-color: #f8d7da; color: #721c24; }
+        .log {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 10px;
+            height: 300px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .connect { background-color: #007bff; color: white; }
+        .disconnect { background-color: #dc3545; color: white; }
+        .send { background-color: #28a745; color: white; }
+        input[type="text"] {
+            padding: 8px;
+            margin: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebSocket Test Client</h1>
+    
+    <div id="status" class="status disconnected">Disconnected</div>
+    
+    <div>
+        <input type="text" id="token" placeholder="JWT Token (optional for testing)">
+        <button class="connect" onclick="connect()">Connect</button>
+        <button class="disconnect" onclick="disconnect()" disabled>Disconnect</button>
+    </div>
+    
+    <div>
+        <h3>Send Message</h3>
+        <select id="messageType">
+            <option value="ping">Ping</option>
+            <option value="join">Join Room</option>
+            <option value="create_room">Create Room</option>
+        </select>
+        <input type="text" id="messageData" placeholder="Message data (JSON)">
+        <button class="send" onclick="sendMessage()" disabled>Send</button>
+    </div>
+    
+    <div>
+        <h3>Connection Log</h3>
+        <div id="log" class="log"></div>
+    </div>
+    
+    <script>
+        let ws = null;
+        let isConnected = false;
+        
+        function log(message) {
+            const logDiv = document.getElementById('log');
+            const timestamp = new Date().toLocaleTimeString();
+            logDiv.innerHTML += `[${timestamp}] ${message}\n`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+        
+        function updateStatus(status, className) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.textContent = status;
+            statusDiv.className = `status ${className}`;
+        }
+        
+        function updateButtons() {
+            document.querySelector('.connect').disabled = isConnected;
+            document.querySelector('.disconnect').disabled = !isConnected;
+            document.querySelector('.send').disabled = !isConnected;
+        }
+        
+        function connect() {
+            const token = document.getElementById('token').value;
+            const url = token ? `ws://localhost:5000/ws?token=${token}` : 'ws://localhost:8080/ws';
+            
+            log(`Attempting to connect to ${url}`);
+            
+            try {
+                ws = new WebSocket(url, ['quiz-protocol']);
+                
+                ws.onopen = function(event) {
+                    isConnected = true;
+                    updateStatus('Connected', 'connected');
+                    updateButtons();
+                    log('WebSocket connection established');
+                };
+                
+                ws.onmessage = function(event) {
+                    try {
+                        const message = JSON.parse(event.data);
+                        log(`Received: ${JSON.stringify(message, null, 2)}`);
+                    } catch (e) {
+                        log(`Received raw message: ${event.data}`);
+                    }
+                };
+                
+                ws.onclose = function(event) {
+                    isConnected = false;
+                    updateStatus('Disconnected', 'disconnected');
+                    updateButtons();
+                    log(`WebSocket connection closed: ${event.code} ${event.reason}`);
+                };
+                
+                ws.onerror = function(error) {
+                    log(`WebSocket error: ${error}`);
+                    updateStatus('Error', 'error');
+                };
+                
+            } catch (error) {
+                log(`Connection error: ${error.message}`);
+                updateStatus('Error', 'error');
+            }
+        }
+        
+        function disconnect() {
+            if (ws) {
+                ws.close();
+                ws = null;
+            }
+        }
+        
+        function sendMessage() {
+            if (!ws || !isConnected) {
+                log('Not connected');
+                return;
+            }
+            
+            const messageType = document.getElementById('messageType').value;
+            const messageData = document.getElementById('messageData').value;
+            
+            let data = {};
+            if (messageData) {
+                try {
+                    data = JSON.parse(messageData);
+                } catch (e) {
+                    log(`Invalid JSON in message data: ${e.message}`);
+                    return;
+                }
+            }
+            
+            const message = {
+                v: 1,
+                type: messageType,
+                msg_id: generateId(),
+                data: data
+            };
+            
+            log(`Sending: ${JSON.stringify(message, null, 2)}`);
+            ws.send(JSON.stringify(message));
+        }
+        
+        function generateId() {
+            return Math.random().toString(36).substr(2, 9);
+        }
+        
+        // Initialize
+        updateButtons();
+        log('WebSocket test client ready');
+    </script>
+</body>
+</html>

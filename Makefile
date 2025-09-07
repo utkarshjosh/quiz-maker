@@ -15,67 +15,69 @@ help:
 	@echo "make logs       - View logs from all services"
 	@echo "make test       - Run tests for all services"
 	@echo "make setup      - Initial setup (install + build)"
+	@echo ""
+	@echo "Development shortcuts:"
+	@echo "make dev:api    - Start API Gateway only"
+	@echo "make dev:web    - Start Web Frontend only"
+	@echo "make dev:quiz   - Start Quiz Generator only"
+	@echo "make dev:socket - Start WebSocket service only"
 
 # Install dependencies
 install:
-	@echo "Installing dependencies..."
-	cd api-gateway && npm install
-	cd quiz-generator && npm install
-	cd realtime-service && go mod download
+	@echo "Installing dependencies for all workspaces..."
+	npm install
 	@echo "Dependencies installed!"
 
 # Development mode (without Docker)
 dev:
 	@echo "Starting development environment..."
 	@echo "Make sure Redis and MongoDB are running locally"
-	@echo "Starting API Gateway..."
-	cd api-gateway && npm run dev &
-	@echo "Starting Quiz Generator..."
-	cd quiz-generator && npm run dev &
-	@echo "Starting Realtime Service..."
-	cd realtime-service && go run cmd/main.go &
+	@echo "Starting all services..."
+	npm run dev:api &
+	npm run dev:web &
+	npm run dev:quiz-gen &
+	@echo "Starting WebSocket service..."
+	cd services/socket && go run cmd/main.go &
 	@echo "All services started in development mode!"
 
 # Start with Docker Compose
 start:
 	@echo "Starting all services with Docker Compose..."
-	docker-compose -f docker/docker-compose.yml up -d
+	docker-compose -f infra/docker-compose.yml up -d
 	@echo "All services started!"
 	@echo "API Gateway: http://localhost:3000"
+	@echo "Web Frontend: http://localhost:5173"
 	@echo "Quiz Generator: http://localhost:3001"
-	@echo "Realtime Service: http://localhost:8080"
+	@echo "WebSocket Service: http://localhost:8080"
 
 # Stop all services
 stop:
 	@echo "Stopping all services..."
-	docker-compose -f docker/docker-compose.yml down
+	docker-compose -f infra/docker-compose.yml down
 	@echo "All services stopped!"
 
 # Build Docker images
 build:
 	@echo "Building Docker images..."
-	docker-compose -f docker/docker-compose.yml build
+	docker-compose -f infra/docker-compose.yml build
 	@echo "Docker images built!"
 
 # Clean up Docker resources
 clean:
 	@echo "Cleaning up Docker resources..."
-	docker-compose -f docker/docker-compose.yml down -v --remove-orphans
+	docker-compose -f infra/docker-compose.yml down -v --remove-orphans
 	docker system prune -f
 	@echo "Clean up completed!"
 
 # View logs
 logs:
 	@echo "Viewing logs from all services..."
-	docker-compose -f docker/docker-compose.yml logs -f
+	docker-compose -f infra/docker-compose.yml logs -f
 
 # Run tests
 test:
-	@echo "Running tests..."
-	cd api-gateway && npm test
-	cd quiz-generator && npm test
-	cd realtime-service && go test ./...
-	@echo "Tests completed!"
+	@echo "Running tests for all services..."
+	npm run test:all
 
 # Initial setup
 setup: install build
@@ -86,42 +88,126 @@ setup: install build
 health:
 	@echo "Checking health of all services..."
 	@curl -f http://localhost:3000/api/health || echo "API Gateway not responding"
+	@curl -f http://localhost:5173 || echo "Web Frontend not responding"
 	@curl -f http://localhost:3001/health || echo "Quiz Generator not responding"
-	@curl -f http://localhost:8080/health || echo "Realtime Service not responding"
+	@curl -f http://localhost:8080/health || echo "WebSocket Service not responding"
 
 # Development shortcuts
-api:
-	cd api-gateway && npm run dev
+dev:api:
+	@echo "Starting API Gateway..."
+	npm run dev:api
 
-generator:
-	cd quiz-generator && npm run dev
+dev:web:
+	@echo "Starting Web Frontend..."
+	npm run dev:web
 
-realtime:
-	cd realtime-service && go run cmd/main.go
+dev:quiz:
+	@echo "Starting Quiz Generator..."
+	npm run dev:quiz-gen
+
+dev:socket:
+	@echo "Starting WebSocket Service..."
+	cd services/socket && go run cmd/main.go
+
+# Build shortcuts
+build:api:
+	@echo "Building API Gateway..."
+	npm run build:api
+
+build:web:
+	@echo "Building Web Frontend..."
+	npm run build:web
+
+build:quiz:
+	@echo "Building Quiz Generator..."
+	npm run build:quiz-gen
+
+build:all:
+	@echo "Building all applications..."
+	npm run build:all
+
+# Test shortcuts
+test:api:
+	@echo "Testing API Gateway..."
+	npm run test:api
+
+test:web:
+	@echo "Testing Web Frontend..."
+	npm run test:web
+
+test:quiz:
+	@echo "Testing Quiz Generator..."
+	npm run test:quiz-gen
+
+test:all:
+	@echo "Testing all services..."
+	npm run test:all
+
+# Lint shortcuts
+lint:api:
+	@echo "Linting API Gateway..."
+	npm run lint:api
+
+lint:web:
+	@echo "Linting Web Frontend..."
+	npm run lint:web
+
+lint:quiz:
+	@echo "Linting Quiz Generator..."
+	npm run lint:quiz-gen
+
+lint:all:
+	@echo "Linting all services..."
+	npm run lint:all
 
 # Database operations
 db-seed:
 	@echo "Seeding database with sample data..."
-	# TODO: Add database seeding script
+	cd apps/api && npm run seed
 
 db-reset:
 	@echo "Resetting database..."
-	docker-compose -f docker/docker-compose.yml exec mongodb mongosh --eval "db.dropDatabase()"
-	docker-compose -f docker/docker-compose.yml exec redis redis-cli flushall
+	docker-compose -f infra/docker-compose.yml exec mongodb mongosh --eval "db.dropDatabase()"
+	docker-compose -f infra/docker-compose.yml exec redis redis-cli flushall
 
 # Utility commands
 ps:
-	docker-compose -f docker/docker-compose.yml ps
+	docker-compose -f infra/docker-compose.yml ps
 
 restart:
 	@echo "Restarting all services..."
-	docker-compose -f docker/docker-compose.yml restart
+	docker-compose -f infra/docker-compose.yml restart
 
 # Production commands
 prod-build:
 	@echo "Building for production..."
-	docker-compose -f docker/docker-compose.prod.yml build
+	docker build -f infra/Dockerfile.api-gateway -t quiz-maker/api:latest .
+	docker build -f infra/Dockerfile.quiz-generator -t quiz-maker/quiz-gen:latest .
+	docker build -f infra/Dockerfile.realtime-service -t quiz-maker/socket:latest .
 
 prod-start:
 	@echo "Starting production environment..."
-	docker-compose -f docker/docker-compose.prod.yml up -d 
+	@echo "Production deployment not yet configured"
+	@echo "Use 'make prod-build' to build production images first"
+
+# Shared package commands
+pkg:build:
+	@echo "Building shared packages..."
+	cd pkg/ts && npm run build
+
+pkg:dev:
+	@echo "Watching shared packages..."
+	cd pkg/ts && npm run dev
+
+# Clean workspace
+clean:workspace:
+	@echo "Cleaning workspace..."
+	rm -rf node_modules
+	rm -rf apps/*/node_modules
+	rm -rf services/*/node_modules
+	rm -rf pkg/*/node_modules
+	@echo "Workspace cleaned!"
+
+# Reset everything
+reset: clean clean:workspace install
+	@echo "Complete reset completed!" 

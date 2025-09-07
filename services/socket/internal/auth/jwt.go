@@ -1,158 +1,154 @@
 package auth
 
 import (
-	"context"
+	"crypto/hmac"
+	"crypto/sha256"
+	"encoding/base64"
+	"encoding/json"
 	"fmt"
-	"net/http"
 	"strings"
 	"time"
+
+	"quiz-realtime-service/internal/models"
 
 	"github.com/golang-jwt/jwt/v5"
 	"go.uber.org/zap"
 )
 
-type User struct {
-	ID       string `json:"id"`
-	Username string `json:"username"`
-	Email    string `json:"email"`
+// JWTService handles JWT token verification for internal tokens
+type JWTService struct {
+	secret string
+	logger *zap.Logger
 }
 
-type JWTPayload struct {
-	UserID    string `json:"userId"`
-	SessionID string `json:"sessionId"`
-	Type      string `json:"type"`
+// InternalJWTPayload represents the internal JWT payload structure
+type InternalJWTPayload struct {
+	Sub       string `json:"sub"`
+	Email     string `json:"email"`
+	Name      string `json:"name,omitempty"`
+	Picture   string `json:"picture,omitempty"`
+	Iat       int64  `json:"iat"`
+	Exp       int64  `json:"exp"`
+	Aud       string `json:"aud"`
+	Iss       string `json:"iss"`
 	jwt.RegisteredClaims
 }
 
-type AuthService struct {
-	jwtSecret        string
-	refreshSecret    string
-	logger           *zap.Logger
-}
-
-func NewAuthService(jwtSecret, refreshSecret string, logger *zap.Logger) *AuthService {
-	return &AuthService{
-		jwtSecret:     jwtSecret,
-		refreshSecret: refreshSecret,
-		logger:        logger,
+// NewJWTService creates a new JWT service for internal token verification
+func NewJWTService(secret string, logger *zap.Logger) *JWTService {
+	return &JWTService{
+		secret: secret,
+		logger: logger.With(zap.String("component", "jwt")),
 	}
 }
 
-// ExtractTokenFromHeader extracts JWT token from Authorization header
-func (a *AuthService) ExtractTokenFromHeader(authHeader string) (string, error) {
-	if authHeader == "" {
-		return "", fmt.Errorf("no authorization header")
-	}
-
-	parts := strings.Split(authHeader, " ")
-	if len(parts) != 2 || parts[0] != "Bearer" {
-		return "", fmt.Errorf("invalid authorization header format")
-	}
-
-	return parts[1], nil
-}
-
-// ExtractTokenFromQuery extracts JWT token from query parameter
-func (a *AuthService) ExtractTokenFromQuery(r *http.Request) (string, error) {
-	token := r.URL.Query().Get("token")
-	if token == "" {
-		return "", fmt.Errorf("no token in query parameters")
-	}
-	return token, nil
-}
-
-// VerifyToken verifies and parses JWT token
-func (a *AuthService) VerifyToken(tokenString string) (*JWTPayload, error) {
-	token, err := jwt.ParseWithClaims(tokenString, &JWTPayload{}, func(token *jwt.Token) (interface{}, error) {
+// VerifyToken verifies an internal JWT token
+func (j *JWTService) VerifyToken(tokenString string) (*InternalJWTPayload, error) {
+	// Parse the token
+	token, err := jwt.ParseWithClaims(tokenString, &InternalJWTPayload{}, func(token *jwt.Token) (interface{}, error) {
+		// Verify the signing method
 		if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
 			return nil, fmt.Errorf("unexpected signing method: %v", token.Header["alg"])
 		}
-		return []byte(a.jwtSecret), nil
+
+		// Return the secret key
+		return []byte(j.secret), nil
 	})
 
 	if err != nil {
+		j.logger.Debug("Token parsing failed", zap.Error(err))
 		return nil, fmt.Errorf("failed to parse token: %w", err)
 	}
 
 	if !token.Valid {
+		j.logger.Debug("Token is invalid")
 		return nil, fmt.Errorf("invalid token")
 	}
 
-	claims, ok := token.Claims.(*JWTPayload)
+	claims, ok := token.Claims.(*InternalJWTPayload)
 	if !ok {
+		j.logger.Debug("Invalid token claims")
 		return nil, fmt.Errorf("invalid token claims")
 	}
 
-	// Check if token type is access token
-	if claims.Type != "access" {
-		return nil, fmt.Errorf("invalid token type: %s", claims.Type)
+	// Check expiration
+	if claims.Exp < time.Now().Unix() {
+		j.logger.Debug("Token has expired", 
+			zap.Int64("exp", claims.Exp),
+			zap.Int64("now", time.Now().Unix()))
+		return nil, fmt.Errorf("token has expired")
 	}
 
-	// Check expiration
-	if claims.ExpiresAt != nil && claims.ExpiresAt.Time.Before(time.Now()) {
-		return nil, fmt.Errorf("token expired")
-	}
+	j.logger.Debug("Token verified successfully",
+		zap.String("sub", claims.Sub),
+		zap.String("email", claims.Email),
+		zap.Int64("exp", claims.Exp))
 
 	return claims, nil
 }
 
-// AuthenticateWebSocket authenticates WebSocket connection
-func (a *AuthService) AuthenticateWebSocket(r *http.Request) (*User, error) {
-	// Try to get token from Authorization header first
-	var tokenString string
-	var err error
+// CreateUserFromJWT creates a User model from JWT claims
+func (j *JWTService) CreateUserFromJWT(claims *InternalJWTPayload) *models.User {
+	return &models.User{
+		ID:       claims.Sub,
+		Username: claims.Sub, // Use sub as username for now
+		Email:    claims.Email,
+	}
+}
 
-	authHeader := r.Header.Get("Authorization")
-	if authHeader != "" {
-		tokenString, err = a.ExtractTokenFromHeader(authHeader)
-		if err != nil {
-			a.logger.Debug("Failed to extract token from header", zap.Error(err))
-		}
+// VerifyTokenSignature manually verifies JWT signature (fallback method)
+func (j *JWTService) VerifyTokenSignature(tokenString string) (*InternalJWTPayload, error) {
+	parts := strings.Split(tokenString, ".")
+	if len(parts) != 3 {
+		return nil, fmt.Errorf("invalid token format")
 	}
 
-	// If no token in header, try query parameter
-	if tokenString == "" {
-		tokenString, err = a.ExtractTokenFromQuery(r)
-		if err != nil {
-			return nil, fmt.Errorf("no valid token found: %w", err)
-		}
-	}
-
-	// Verify token
-	claims, err := a.VerifyToken(tokenString)
+	// Decode header
+	headerBytes, err := base64.RawURLEncoding.DecodeString(parts[0])
 	if err != nil {
-		return nil, fmt.Errorf("token verification failed: %w", err)
+		return nil, fmt.Errorf("failed to decode header: %w", err)
 	}
 
-	// For now, we'll create a user object from the claims
-	// In a full implementation, you might want to fetch user details from database
-	user := &User{
-		ID:       claims.UserID,
-		Username: "", // Would be fetched from DB in real implementation
-		Email:    "", // Would be fetched from DB in real implementation
+	var header map[string]interface{}
+	if err := json.Unmarshal(headerBytes, &header); err != nil {
+		return nil, fmt.Errorf("failed to parse header: %w", err)
 	}
 
-	return user, nil
-}
+	// Check algorithm
+	if alg, ok := header["alg"].(string); !ok || alg != "HS256" {
+		return nil, fmt.Errorf("unsupported algorithm: %v", header["alg"])
+	}
 
-// AuthMiddleware is HTTP middleware for REST endpoints
-func (a *AuthService) AuthMiddleware(next http.Handler) http.Handler {
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		user, err := a.AuthenticateWebSocket(r)
-		if err != nil {
-			a.logger.Warn("Authentication failed", zap.Error(err))
-			http.Error(w, "Unauthorized", http.StatusUnauthorized)
-			return
-		}
+	// Verify signature
+	message := parts[0] + "." + parts[1]
+	signature, err := base64.RawURLEncoding.DecodeString(parts[2])
+	if err != nil {
+		return nil, fmt.Errorf("failed to decode signature: %w", err)
+	}
 
-		// Add user to context
-		ctx := context.WithValue(r.Context(), "user", user)
-		next.ServeHTTP(w, r.WithContext(ctx))
-	})
-}
+	mac := hmac.New(sha256.New, []byte(j.secret))
+	mac.Write([]byte(message))
+	expectedSignature := mac.Sum(nil)
 
-// GetUserFromContext extracts user from request context
-func GetUserFromContext(ctx context.Context) (*User, bool) {
-	user, ok := ctx.Value("user").(*User)
-	return user, ok
+	if !hmac.Equal(signature, expectedSignature) {
+		return nil, fmt.Errorf("invalid signature")
+	}
+
+	// Decode payload
+	payloadBytes, err := base64.RawURLEncoding.DecodeString(parts[1])
+	if err != nil {
+		return nil, fmt.Errorf("failed to decode payload: %w", err)
+	}
+
+	var claims InternalJWTPayload
+	if err := json.Unmarshal(payloadBytes, &claims); err != nil {
+		return nil, fmt.Errorf("failed to parse payload: %w", err)
+	}
+
+	// Check expiration
+	if claims.Exp > 0 && claims.Exp < time.Now().Unix() {
+		return nil, fmt.Errorf("token has expired")
+	}
+
+	return &claims, nil
 }

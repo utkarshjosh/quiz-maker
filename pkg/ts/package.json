@@ -1,10 +1,14 @@
 {
   "name": "@quiz-maker/ts",
   "version": "1.0.0",
-  "description": "Shared TypeScript libraries for Quiz Maker",
+  "description": "Shared TypeScript libraries and type definitions for Quiz Maker",
   "private": true,
   "main": "index.ts",
   "types": "index.ts",
+  "files": [
+    "*.ts",
+    "*.d.ts"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -17,4 +21,3 @@
     "@types/node": "^20.0.0"
   }
 }
-

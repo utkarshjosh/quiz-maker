@@ -4,6 +4,7 @@ import UserService from './users.service';
 import { type CustomResponse } from '@/types/common.type';
 import Api from '@/lib/api';
 import { type AuthenticatedRequest } from '@/middlewares/oauth.middleware';
+import OAuthMiddleware from '@/middlewares/oauth.middleware';
 
 export default class UserController extends Api {
   private readonly userService = new UserService();
@@ -40,7 +41,7 @@ export default class UserController extends Api {
     next: NextFunction
   ) => {
     try {
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
       if (!userId) {
         return this.send(
           res,
@@ -64,7 +65,7 @@ export default class UserController extends Api {
     next: NextFunction
   ) => {
     try {
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
       if (!userId) {
         return this.send(
           res,
@@ -106,7 +107,7 @@ export default class UserController extends Api {
     next: NextFunction
   ) => {
     try {
-      const userId = req.user?.id;
+      const userId = await OAuthMiddleware.getUserIdFromJWT(req);
       if (!userId) {
         return this.send(
           res,

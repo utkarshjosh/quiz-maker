@@ -1,0 +1,102 @@
+# Go WebSocket Integration for Immersive Quiz Rooms
+
+## Project Overview
+Integrate the existing Go WebSocket service (`services/socket/`) with the React frontend to create a unified immersive quiz experience. The Go service will handle all quiz room logic, user management, and real-time communication, while the frontend provides a Unity-engine style immersive interface.
+
+## Current State Analysis
+- **Backend**: Go WebSocket service exists in `services/socket/` with basic WebSocket functionality
+- **Frontend**: React app with existing `/play` routes and immersive UI components in `apps/web/src/pages/immersive/`
+- **Architecture**: Monorepo structure with separate services for different concerns
+
+## Target Architecture
+- **Single Source of Truth**: Go WebSocket service manages all quiz room state and logic
+- **Frontend Integration**: React immersive UI connects directly to Go WebSocket service
+- **No Additional API**: All communication goes through WebSocket connection
+- **Real-time Updates**: Live updates for room state, user actions, and game progression
+
+## Core Requirements
+
+### 1. WebSocket Service Enhancement
+- **Room Management**: Create, join, leave, and destroy quiz rooms
+- **User Permissions**: Host gets full control, participants get limited actions
+- **Real-time State**: Synchronize room state across all connected clients
+- **Event System**: Handle quiz events (start, answer, score, end)
+
+### 2. Frontend Integration
+- **WebSocket Client**: Establish and maintain connection to Go service
+- **State Management**: Sync frontend state with WebSocket events
+- **Immersive UI**: Use existing immersive components for all quiz interactions
+- **Route Integration**: Replace existing `/play` components with immersive UI
+
+### 3. User Experience
+- **Host Controls**: Room creation, user management, quiz progression
+- **Participant Experience**: Join rooms, answer questions, view progress
+- **Real-time Feedback**: Live updates for scores, leaderboards, and game state
+
+## Technical Specifications
+
+### WebSocket Protocol
+- **Connection**: `ws://localhost:8080/ws` (configurable)
+- **Message Format**: JSON with event type and payload
+- **Event Types**: 
+  - `room:create`, `room:join`, `room:leave`
+  - `quiz:start`, `quiz:answer`, `quiz:end`
+  - `user:update`, `score:update`
+
+### Frontend Architecture
+- **WebSocket Context**: React context for managing connection and events
+- **State Synchronization**: Redux-like state management synced with WebSocket
+- **Component Integration**: Immersive components handle all UI interactions
+- **Error Handling**: Graceful fallbacks for connection issues
+
+### Data Flow
+1. User navigates to immersive route
+2. Frontend establishes WebSocket connection
+3. All interactions go through WebSocket
+4. Go service processes logic and broadcasts updates
+5. Frontend receives updates and updates UI state
+
+## Implementation Phases
+
+### Phase 1: WebSocket Foundation
+- Set up WebSocket connection management
+- Implement basic event handling
+- Create connection state management
+
+### Phase 2: Room Management
+- Implement room creation and joining
+- Handle user permissions and roles
+- Manage room state synchronization
+
+### Phase 3: Quiz Logic Integration
+- Connect quiz progression to WebSocket events
+- Implement real-time scoring and leaderboards
+- Handle quiz completion and results
+
+### Phase 4: UI Integration
+- Replace existing play routes with immersive UI
+- Integrate all quiz interactions with WebSocket
+- Implement real-time UI updates
+
+### Phase 5: Testing and Polish
+- End-to-end testing of complete flow
+- Performance optimization
+- Error handling and edge cases
+
+## Success Criteria
+- All quiz functionality works through WebSocket connection
+- Immersive UI provides seamless user experience
+- Real-time updates work reliably across multiple users
+- Host has full control over room management
+- No additional REST API endpoints needed
+
+## Dependencies
+- Existing Go WebSocket service must be running
+- Immersive UI components must be functional
+- WebSocket connection must be stable and reliable
+
+## Risks and Mitigation
+- **WebSocket Connection Loss**: Implement reconnection logic and offline handling
+- **State Synchronization**: Use optimistic updates with conflict resolution
+- **Performance**: Implement efficient event handling and state updates
+- **Browser Compatibility**: Ensure WebSocket support across target browsers

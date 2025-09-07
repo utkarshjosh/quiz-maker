@@ -1,16 +1,51 @@
 import { useState } from "react";
 import { useAuth } from "@/auth/AuthContext";
+import { useAuthRefresh } from "@/hooks/useAuthRefresh";
 import LoginModal from "./LoginModal";
 import UserProfile from "./UserProfile";
 
 const AuthTestPage = () => {
   const { isAuthenticated, user, isLoading, fetchUserProfile } = useAuth();
+  const {
+    isAuthenticated: refreshAuth,
+    user: refreshUser,
+    isLoading: refreshLoading,
+    error: refreshError,
+    checkAuth,
+    refreshToken,
+    logout: refreshLogout,
+    authenticatedRequest,
+  } = useAuthRefresh();
   const [showLoginModal, setShowLoginModal] = useState(false);
+  const [testResult, setTestResult] = useState<string>("");
 
   const handleTestProfile = async () => {
     console.log("Testing profile fetch...");
     const profile = await fetchUserProfile();
     console.log("Profile result:", profile);
+  };
+
+  const handleTestRefreshAuth = async () => {
+    try {
+      const response = await authenticatedRequest(
+        "http://localhost:3000/api/v1/development/auth/check"
+      );
+      const data = await response.json();
+      setTestResult(
+        `Status: ${response.status}, Data: ${JSON.stringify(data, null, 2)}`
+      );
+    } catch (err) {
+      setTestResult(`Error: ${err}`);
+    }
+  };
+
+  const handleRefreshToken = async () => {
+    try {
+      await refreshToken();
+      setTestResult("Refresh completed");
+    } catch (err) {
+      setTestResult(`Refresh error: ${err}`);
+    }
   };
 
   return (
@@ -45,7 +80,7 @@ const AuthTestPage = () => {
           {/* Authentication Status */}
           <div className="card bg-base-100 shadow-lg">
             <div className="card-body">
-              <h2 className="card-title">Authentication Status</h2>
+              <h2 className="card-title">Authentication Status (Old Auth)</h2>
 
               <div className="stats stats-vertical lg:stats-horizontal">
                 <div className="stat">
@@ -75,7 +110,68 @@ const AuthTestPage = () => {
                       : "❌ Missing"}
                   </div>
                 </div>
+
+                <div className="stat">
+                  <div className="stat-title">JWT Cookie</div>
+                  <div className="stat-value text-lg">
+                    {document.cookie.includes("access_token")
+                      ? "✅ Present"
+                      : "❌ Missing"}
+                  </div>
+                </div>
+
+                <div className="stat">
+                  <div className="stat-title">All Cookies</div>
+                  <div className="stat-value text-xs">
+                    <pre className="whitespace-pre-wrap break-all">
+                      {document.cookie || "No cookies"}
+                    </pre>
+                  </div>
+                </div>
               </div>
+            </div>
+          </div>
+
+          {/* Refresh Auth Service Status */}
+          <div className="card bg-base-100 shadow-lg">
+            <div className="card-body">
+              <h2 className="card-title">Refresh Auth Service Status</h2>
+
+              <div className="stats stats-vertical lg:stats-horizontal">
+                <div className="stat">
+                  <div className="stat-title">Status</div>
+                  <div
+                    className={`stat-value text-lg ${refreshAuth ? "text-success" : "text-error"}`}>
+                    {refreshLoading
+                      ? "Loading..."
+                      : refreshAuth
+                        ? "Authenticated"
+                        : "Not Authenticated"}
+                  </div>
+                </div>
+
+                <div className="stat">
+                  <div className="stat-title">User</div>
+                  <div className="stat-value text-lg">
+                    {refreshUser ? refreshUser.email : "None"}
+                  </div>
+                </div>
+
+                <div className="stat">
+                  <div className="stat-title">Access Token</div>
+                  <div className="stat-value text-lg">
+                    {document.cookie.includes("access_token")
+                      ? "✅ Present"
+                      : "❌ Missing"}
+                  </div>
+                </div>
+              </div>
+
+              {refreshError && (
+                <div className="alert alert-error mt-4">
+                  <strong>Error:</strong> {refreshError}
+                </div>
+              )}
             </div>
           </div>
 
@@ -164,6 +260,44 @@ const AuthTestPage = () => {
                   Log Cookies
                 </button>
               </div>
+            </div>
+          </div>
+
+          {/* Refresh Auth Service Actions */}
+          <div className="card bg-base-100 shadow-lg">
+            <div className="card-body">
+              <h2 className="card-title">Refresh Auth Service Actions</h2>
+
+              <div className="flex flex-wrap gap-4">
+                <button
+                  className="btn btn-primary"
+                  onClick={handleTestRefreshAuth}>
+                  Test Auth Request
+                </button>
+
+                <button
+                  className="btn btn-secondary"
+                  onClick={handleRefreshToken}>
+                  Refresh Token
+                </button>
+
+                <button className="btn btn-outline" onClick={checkAuth}>
+                  Check Auth
+                </button>
+
+                <button className="btn btn-error" onClick={refreshLogout}>
+                  Logout
+                </button>
+              </div>
+
+              {testResult && (
+                <div className="mt-4 p-4 bg-base-200 rounded-lg">
+                  <h3 className="font-bold mb-2">Test Result:</h3>
+                  <pre className="text-sm whitespace-pre-wrap">
+                    {testResult}
+                  </pre>
+                </div>
+              )}
             </div>
           </div>
 

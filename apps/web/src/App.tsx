@@ -18,110 +18,115 @@ import LeaderboardFinal from "./pages/play/LeaderboardFinal";
 import ImmersiveCanvas from "./pages/immersive";
 import ProtectedRoute from "./auth/ProtectedRoute";
 import AuthTestPage from "./components/AuthTestPage";
+import { WebSocketProvider } from "./contexts/WebSocketContext";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <Routes>
-          <Route element={<Layout />}>
-            {/* Public browsing */}
-            <Route path="/" element={<QuizPage />} />
-            <Route path=":category" element={<QuizPage />} />
-            <Route path=":category/:subcategory" element={<QuizPage />} />
+    <WebSocketProvider>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <Routes>
+            <Route element={<Layout />}>
+              {/* Public browsing */}
+              <Route path="/" element={<QuizPage />} />
+              <Route path=":category" element={<QuizPage />} />
+              <Route path=":category/:subcategory" element={<QuizPage />} />
 
-            {/* Protected: user profile and play flow */}
-            <Route
-              path="/user/profile"
-              element={
-                <ProtectedRoute>
-                  <Profile />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/play"
-              element={
-                <ProtectedRoute>
-                  <PlayLanding />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/play/join"
-              element={
-                <ProtectedRoute>
-                  <JoinWithPin />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/play/public"
-              element={
-                <ProtectedRoute>
-                  <PublicCategory />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/play/match/:category"
-              element={
-                <ProtectedRoute>
-                  <Matchmaking />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/play/room/:roomId"
-              element={
-                <ProtectedRoute>
-                  <WaitingRoom />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/play/host/:quizId"
-              element={
-                <ProtectedRoute>
-                  <HostStart />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/play/quiz/:sessionId"
-              element={
-                <ProtectedRoute>
-                  <QuizPlay />
-                </ProtectedRoute>
-              }
-            />
-            <Route
-              path="/play/leaderboard/:sessionId"
-              element={
-                <ProtectedRoute>
-                  <LeaderboardFinal />
-                </ProtectedRoute>
-              }
-            />
+              {/* Protected: user profile and play flow */}
+              <Route
+                path="/user/profile"
+                element={
+                  <ProtectedRoute>
+                    <Profile />
+                  </ProtectedRoute>
+                }
+              />
 
-            {/* Immersive demo (public or change to ProtectedRoute if needed) */}
-            <Route path="/immersive/*" element={<ImmersiveCanvas />} />
+              {/* Immersive Quiz Experience - Replaces existing play routes */}
+              <Route
+                path="/play"
+                element={
+                  <ProtectedRoute>
+                    <ImmersiveCanvas />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/play/join"
+                element={
+                  <ProtectedRoute>
+                    <ImmersiveCanvas />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/play/public"
+                element={
+                  <ProtectedRoute>
+                    <ImmersiveCanvas />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/play/match/:category"
+                element={
+                  <ProtectedRoute>
+                    <ImmersiveCanvas />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/play/room/:roomId"
+                element={
+                  <ProtectedRoute>
+                    <ImmersiveCanvas />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/play/host/:quizId"
+                element={
+                  <ProtectedRoute>
+                    <ImmersiveCanvas />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/play/quiz/:sessionId"
+                element={
+                  <ProtectedRoute>
+                    <ImmersiveCanvas />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/play/leaderboard/:sessionId"
+                element={
+                  <ProtectedRoute>
+                    <ImmersiveCanvas />
+                  </ProtectedRoute>
+                }
+              />
 
-            {/* Auth Test Page for development */}
-            <Route path="/auth-test" element={<AuthTestPage />} />
+              {/* Immersive demo (public or change to ProtectedRoute if needed) */}
+              <Route path="/immersive/*" element={<ImmersiveCanvas />} />
 
-            {/* 404 Page */}
-            <Route path="/404" element={<NotFound />} />
+              {/* Auth Test Page for development */}
+              <Route path="/auth-test" element={<AuthTestPage />} />
 
-            <Route path="*" element={<NotFound />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
+              {/* 404 Page */}
+              <Route path="/404" element={<NotFound />} />
+
+              <Route path="*" element={<NotFound />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </WebSocketProvider>
   </QueryClientProvider>
 );
 

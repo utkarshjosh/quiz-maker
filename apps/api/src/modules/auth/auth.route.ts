@@ -17,6 +17,15 @@ auth.get('/login-url', authController.getLoginUrl);
 // Get Auth0 logout URL
 auth.get('/logout-url', authController.getLogoutUrl);
 
+// Refresh JWT tokens (needs main oauth middleware to access session)
+auth.post('/refresh', authController.refresh);
+
+// Get token information (expiration, etc.)
+auth.get('/token-info', authController.getTokenInfo);
+
+// Logout user (clear all auth cookies)
+auth.post('/logout', authController.logout);
+
 // Get environment-aware auth URLs for frontend
 auth.get('/urls', authController.getAuthUrls);
 

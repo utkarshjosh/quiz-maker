@@ -377,11 +377,277 @@
         ],
         "status": "pending",
         "subtasks": []
+      },
+      {
+        "id": 26,
+        "title": "Setup WebSocket Connection Management",
+        "description": "Implement WebSocket connection management using the Gorilla WebSocket library in Go and integrate with React frontend",
+        "status": "done",
+        "dependencies": [],
+        "priority": "medium",
+        "details": "Use Gorilla WebSocket library (github.com/gorilla/websocket) to establish and manage WebSocket connections. Implement connection state management using a Redis store for persistence. The React frontend has been updated to use WebSocket Context (`WebSocketContext.tsx`) for managing WebSocket connections, with automatic connection management, reconnection logic, and connection state tracking. The WebSocket service (`websocket.ts`) has been implemented for quiz room protocol, with message types defined for room management, quiz events, user management, and scoring.",
+        "testStrategy": "Write unit tests for connection management using Go's built-in testing library and integrate with React frontend tests",
+        "subtasks": [
+          {
+            "id": 1,
+            "title": "Implement WebSocket Connection Management in Go",
+            "description": "Use Gorilla WebSocket library to establish and manage WebSocket connections",
+            "status": "done",
+            "dependencies": [],
+            "details": "",
+            "testStrategy": ""
+          },
+          {
+            "id": 2,
+            "title": "Implement Connection State Management using Redis",
+            "description": "Use Redis store for persistence of connection state",
+            "status": "done",
+            "dependencies": [],
+            "details": "",
+            "testStrategy": ""
+          },
+          {
+            "id": 3,
+            "title": "Update React Frontend to use WebSocket Context",
+            "description": "Use WebSocket Context (`WebSocketContext.tsx`) for managing WebSocket connections",
+            "status": "done",
+            "dependencies": [],
+            "details": "",
+            "testStrategy": ""
+          },
+          {
+            "id": 4,
+            "title": "Implement WebSocket Service for Quiz Room Protocol",
+            "description": "Define message types for room management, quiz events, user management, and scoring",
+            "status": "done",
+            "dependencies": [],
+            "details": "",
+            "testStrategy": ""
+          },
+          {
+            "id": 5,
+            "title": "Integrate Immersive UI with WebSocket Events",
+            "description": "Implement event handlers for WebSocket events in the immersive UI",
+            "status": "done",
+            "dependencies": [],
+            "details": "",
+            "testStrategy": ""
+          },
+          {
+            "id": 6,
+            "title": "Test WebSocket Connection with Go Service",
+            "description": "Test WebSocket connection with Go service",
+            "status": "done",
+            "dependencies": [],
+            "details": "",
+            "testStrategy": ""
+          },
+          {
+            "id": 7,
+            "title": "Implement Real-Time Player Updates and Room State Synchronization",
+            "description": "Implement real-time player updates and room state synchronization via WebSocket",
+            "status": "done",
+            "dependencies": [],
+            "details": "",
+            "testStrategy": ""
+          },
+          {
+            "id": 8,
+            "title": "Add Quiz Progression Logic via WebSocket Events",
+            "description": "Add quiz progression logic via WebSocket events",
+            "status": "done",
+            "dependencies": [],
+            "details": "",
+            "testStrategy": ""
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "title": "Implement Basic Event Handling",
+        "description": "Handle basic WebSocket events such as connection establishment and closure",
+        "details": "Use the Gorilla WebSocket library to handle basic events. Implement event handlers for connection establishment and closure.",
+        "testStrategy": "Write unit tests for event handling using Go's built-in testing library",
+        "priority": "medium",
+        "dependencies": [
+          26
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 28,
+        "title": "Create Connection State Management",
+        "description": "Manage connection state using a Redis store for persistence",
+        "details": "Use the Redis store to persist connection state. Implement connection state management using a Redis client library (github.com/go-redis/redis)",
+        "testStrategy": "Write unit tests for connection state management using Go's built-in testing library",
+        "priority": "medium",
+        "dependencies": [
+          26
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 29,
+        "title": "Implement Room Creation and Joining",
+        "description": "Handle room creation and joining using WebSocket events",
+        "details": "Implement event handlers for room creation and joining. Use the Gorilla WebSocket library to broadcast room updates to connected clients.",
+        "testStrategy": "Write unit tests for room creation and joining using Go's built-in testing library",
+        "priority": "medium",
+        "dependencies": [
+          27
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 30,
+        "title": "Handle User Permissions and Roles",
+        "description": "Implement user permission and role management using WebSocket events",
+        "details": "Implement event handlers for user permission and role updates. Use the Gorilla WebSocket library to broadcast permission and role updates to connected clients.",
+        "testStrategy": "Write unit tests for user permission and role management using Go's built-in testing library",
+        "priority": "medium",
+        "dependencies": [
+          29
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 31,
+        "title": "Manage Room State Synchronization",
+        "description": "Synchronize room state across connected clients using WebSocket events",
+        "details": "Implement event handlers for room state updates. Use the Gorilla WebSocket library to broadcast room state updates to connected clients.",
+        "testStrategy": "Write unit tests for room state synchronization using Go's built-in testing library",
+        "priority": "medium",
+        "dependencies": [
+          29
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 32,
+        "title": "Connect Quiz Progression to WebSocket Events",
+        "description": "Integrate quiz progression with WebSocket events",
+        "details": "Implement event handlers for quiz progression updates. Use the Gorilla WebSocket library to broadcast quiz progression updates to connected clients.",
+        "testStrategy": "Write unit tests for quiz progression integration using Go's built-in testing library",
+        "priority": "medium",
+        "dependencies": [
+          31
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 33,
+        "title": "Implement Real-Time Scoring and Leaderboards",
+        "description": "Handle real-time scoring and leaderboard updates using WebSocket events",
+        "details": "Implement event handlers for scoring and leaderboard updates. Use the Gorilla WebSocket library to broadcast scoring and leaderboard updates to connected clients.",
+        "testStrategy": "Write unit tests for real-time scoring and leaderboards using Go's built-in testing library",
+        "priority": "medium",
+        "dependencies": [
+          32
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 34,
+        "title": "Handle Quiz Completion and Results",
+        "description": "Implement quiz completion and results handling using WebSocket events",
+        "details": "Implement event handlers for quiz completion and results. Use the Gorilla WebSocket library to broadcast quiz completion and results to connected clients.",
+        "testStrategy": "Write unit tests for quiz completion and results handling using Go's built-in testing library",
+        "priority": "medium",
+        "dependencies": [
+          33
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 35,
+        "title": "Establish WebSocket Connection from React Frontend",
+        "description": "Establish a WebSocket connection from the React frontend to the Go WebSocket service",
+        "details": "Use the WebSocket API in React to establish a connection to the Go WebSocket service. Implement connection state management using React Context API.",
+        "testStrategy": "Write unit tests for WebSocket connection establishment using Jest and React Testing Library",
+        "priority": "medium",
+        "dependencies": [
+          26
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 36,
+        "title": "Integrate Immersive UI with WebSocket Events",
+        "description": "Integrate the immersive UI with WebSocket events for real-time updates",
+        "details": "Implement event handlers for WebSocket events in the immersive UI. Use React Context API to manage connection state and update the UI accordingly.",
+        "testStrategy": "Write unit tests for immersive UI integration using Jest and React Testing Library",
+        "priority": "medium",
+        "dependencies": [
+          35
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 37,
+        "title": "Replace Existing Play Routes with Immersive UI",
+        "description": "Replace existing play routes with the immersive UI",
+        "details": "Update the React router to use the immersive UI for play routes. Implement route protection using React Context API.",
+        "testStrategy": "Write unit tests for route integration using Jest and React Testing Library",
+        "priority": "medium",
+        "dependencies": [
+          36
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 38,
+        "title": "Implement Reconnection Logic and Offline Handling",
+        "description": "Implement reconnection logic and offline handling for WebSocket connections",
+        "details": "Implement reconnection logic using exponential backoff. Handle offline cases by storing events locally and sending them when the connection is reestablished.",
+        "testStrategy": "Write unit tests for reconnection logic and offline handling using Jest and React Testing Library",
+        "priority": "medium",
+        "dependencies": [
+          35
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 39,
+        "title": "End-to-End Testing of Complete Flow",
+        "description": "Perform end-to-end testing of the complete flow using Cypress",
+        "details": "Write end-to-end tests for the complete flow using Cypress. Test user interactions, WebSocket events, and UI updates.",
+        "testStrategy": "Write end-to-end tests using Cypress",
+        "priority": "high",
+        "dependencies": [
+          37
+        ],
+        "status": "pending",
+        "subtasks": []
+      },
+      {
+        "id": 40,
+        "title": "Performance Optimization and Error Handling",
+        "description": "Optimize performance and implement error handling for the complete flow",
+        "details": "Optimize performance by reducing unnecessary computations and using caching. Implement error handling using try-catch blocks and error boundaries.",
+        "testStrategy": "Write unit tests for performance optimization and error handling using Jest and React Testing Library",
+        "priority": "high",
+        "dependencies": [
+          39
+        ],
+        "status": "pending",
+        "subtasks": []
       }
     ],
     "metadata": {
       "created": "2025-09-01T16:56:08.687Z",
-      "updated": "2025-09-01T17:00:03.911Z",
+      "updated": "2025-09-01T18:24:28.052Z",
       "description": "Tasks for master context"
     }
   }

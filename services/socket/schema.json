@@ -1,0 +1,248 @@
+{
+  "Message": {
+    "v": 1,
+    "type": "ping",
+    "msg_id": "123e4567-e89b-12d3-a456-426614174000",
+    "room_id": "room-123",
+    "data": {}
+  },
+  "JoinMessage": {
+    "pin": "123456",
+    "display_name": "Test User"
+  },
+  "CreateRoomMessage": {
+    "quiz_id": "123e4567-e89b-12d3-a456-426614174000",
+    "settings": {
+      "question_duration_ms": 30000,
+      "show_correctness": true,
+      "show_leaderboard": true,
+      "allow_reconnect": true
+    }
+  },
+  "StartMessage": {},
+  "AnswerMessage": {
+    "question_index": 0,
+    "choice": "A"
+  },
+  "KickMessage": {
+    "user_id": "123e4567-e89b-12d3-a456-426614174000",
+    "reason": "Inappropriate behavior"
+  },
+  "LeaveMessage": {},
+  "PingMessage": {
+    "timestamp": 1234567890
+  },
+  "StateMessage": {
+    "phase": "lobby",
+    "room_id": "room-123",
+    "pin": "123456",
+    "host_id": "123e4567-e89b-12d3-a456-426614174000",
+    "question_index": 0,
+    "total_questions": 10,
+    "phase_deadline_ms": 1234567890,
+    "members": [
+      {
+        "id": "123e4567-e89b-12d3-a456-426614174000",
+        "display_name": "Test User",
+        "role": "host",
+        "score": 0,
+        "is_online": true,
+        "joined_at": 1234567890
+      }
+    ],
+    "settings": {
+      "question_duration_ms": 30000,
+      "show_correctness": true,
+      "show_leaderboard": true,
+      "allow_reconnect": true
+    }
+  },
+  "QuestionMessage": {
+    "index": 0,
+    "question": "What is the capital of France?",
+    "options": ["London", "Paris", "Berlin", "Madrid"],
+    "deadline_ms": 1234567890,
+    "duration_ms": 30000
+  },
+  "RevealMessage": {
+    "index": 0,
+    "correct_choice": "Paris",
+    "correct_index": 1,
+    "explanation": "Paris is the capital and largest city of France.",
+    "user_stats": [
+      {
+        "user_id": "123e4567-e89b-12d3-a456-426614174000",
+        "display_name": "Test User",
+        "answer": "Paris",
+        "is_correct": true,
+        "time_taken_ms": 5000,
+        "score_delta": 1000
+      }
+    ],
+    "leaderboard": [
+      {
+        "user_id": "123e4567-e89b-12d3-a456-426614174000",
+        "display_name": "Test User",
+        "score": 1000,
+        "rank": 1,
+        "correct_answers": 1,
+        "total_answered": 1
+      }
+    ]
+  },
+  "ScoreMessage": {
+    "user_id": "123e4567-e89b-12d3-a456-426614174000",
+    "score": 1000,
+    "score_delta": 1000,
+    "rank": 1
+  },
+  "EndMessage": {
+    "final_leaderboard": [
+      {
+        "user_id": "123e4567-e89b-12d3-a456-426614174000",
+        "display_name": "Test User",
+        "score": 1000,
+        "rank": 1,
+        "correct_answers": 1,
+        "total_answered": 1
+      }
+    ],
+    "quiz_stats": {
+      "total_questions": 10,
+      "total_participants": 1,
+      "average_score": 1000.0,
+      "completion_rate": 1.0,
+      "duration_ms": 300000
+    }
+  },
+  "ErrorMessage": {
+    "code": "VALIDATION",
+    "msg": "Invalid input",
+    "details": "PIN must be 6 digits"
+  },
+  "PongMessage": {
+    "timestamp": 1234567890
+  },
+  "JoinedMessage": {
+    "user": {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "display_name": "Test User",
+      "role": "player",
+      "score": 0,
+      "is_online": true,
+      "joined_at": 1234567890
+    }
+  },
+  "LeftMessage": {
+    "user_id": "123e4567-e89b-12d3-a456-426614174000",
+    "reason": "User left voluntarily"
+  },
+  "KickedMessage": {
+    "user_id": "123e4567-e89b-12d3-a456-426614174000",
+    "reason": "Inappropriate behavior"
+  },
+  "Member": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "display_name": "Test User",
+    "role": "host",
+    "score": 0,
+    "is_online": true,
+    "joined_at": 1234567890
+  },
+  "UserStat": {
+    "user_id": "123e4567-e89b-12d3-a456-426614174000",
+    "display_name": "Test User",
+    "answer": "Paris",
+    "is_correct": true,
+    "time_taken_ms": 5000,
+    "score_delta": 1000
+  },
+  "LeaderEntry": {
+    "user_id": "123e4567-e89b-12d3-a456-426614174000",
+    "display_name": "Test User",
+    "score": 1000,
+    "rank": 1,
+    "correct_answers": 1,
+    "total_answered": 1
+  },
+  "QuizSettings": {
+    "question_duration_ms": 30000,
+    "show_correctness": true,
+    "show_leaderboard": true,
+    "allow_reconnect": true
+  },
+  "QuizStats": {
+    "total_questions": 10,
+    "total_participants": 1,
+    "average_score": 1000.0,
+    "completion_rate": 1.0,
+    "duration_ms": 300000
+  },
+  "User": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "username": "testuser",
+    "email": "test@example.com"
+  },
+  "RoomState": {
+    "phase": "lobby",
+    "question_index": 0,
+    "phase_deadline_ms": 1234567890,
+    "start_time": "2023-01-01T00:00:00Z",
+    "user_scores": {
+      "123e4567-e89b-12d3-a456-426614174000": 1000
+    },
+    "user_stats": {
+      "123e4567-e89b-12d3-a456-426614174000": {
+        "correct_answers": 1,
+        "total_answered": 1,
+        "average_response_time_ms": 5000,
+        "current_streak": 1,
+        "max_streak": 1
+      }
+    }
+  },
+  "QuizData": {
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "title": "General Knowledge Quiz",
+    "questions": [
+      {
+        "index": 0,
+        "question": "What is the capital of France?",
+        "options": ["London", "Paris", "Berlin", "Madrid"],
+        "correct_answer": "Paris",
+        "correct_index": 1,
+        "explanation": "Paris is the capital and largest city of France."
+      }
+    ]
+  },
+  "Question": {
+    "index": 0,
+    "question": "What is the capital of France?",
+    "options": ["London", "Paris", "Berlin", "Madrid"],
+    "correct_answer": "Paris",
+    "correct_index": 1,
+    "explanation": "Paris is the capital and largest city of France."
+  },
+  "UserStats": {
+    "correct_answers": 1,
+    "total_answered": 1,
+    "average_response_time_ms": 5000,
+    "current_streak": 1,
+    "max_streak": 1
+  },
+  "LeaderboardEntry": {
+    "user_id": "123e4567-e89b-12d3-a456-426614174000",
+    "display_name": "Test User",
+    "score": 1000,
+    "rank": 1,
+    "correct_answers": 1,
+    "total_answered": 1
+  },
+  "QuizStatistics": {
+    "total_questions": 10,
+    "total_participants": 1,
+    "average_score": 1000.0,
+    "completion_rate": 1.0,
+    "duration_ms": 300000
+  }
+}

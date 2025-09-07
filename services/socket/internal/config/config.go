@@ -14,7 +14,7 @@ type Config struct {
 	Server      ServerConfig
 	Database    DatabaseConfig
 	Redis       RedisConfig
-	JWT         JWTConfig
+	Auth0       Auth0Config
 	Quiz        QuizConfig
 }
 
@@ -38,9 +38,14 @@ type RedisConfig struct {
 	DB       int
 }
 
-type JWTConfig struct {
-	Secret        string
-	RefreshSecret string
+
+
+type Auth0Config struct {
+	Domain       string
+	ClientID     string
+	ClientSecret string
+	Audience     string
+	JWTSecret    string
 }
 
 type QuizConfig struct {
@@ -57,7 +62,7 @@ func Load() (*Config, error) {
 	cfg := &Config{
 		Environment: getEnv("ENVIRONMENT", "development"),
 		Server: ServerConfig{
-			Address:      getEnv("SERVER_ADDRESS", ":8080"),
+			Address:      getEnv("SERVER_ADDRESS", ":5000"),
 			ReadTimeout:  getDuration("SERVER_READ_TIMEOUT", 15*time.Second),
 			WriteTimeout: getDuration("SERVER_WRITE_TIMEOUT", 15*time.Second),
 			IdleTimeout:  getDuration("SERVER_IDLE_TIMEOUT", 60*time.Second),
@@ -73,9 +78,13 @@ func Load() (*Config, error) {
 			Password: getEnv("REDIS_PASSWORD", ""),
 			DB:       getInt("REDIS_DB", 0),
 		},
-		JWT: JWTConfig{
-			Secret:        getEnv("JWT_SECRET", ""),
-			RefreshSecret: getEnv("JWT_REFRESH_SECRET", ""),
+
+		Auth0: Auth0Config{
+			Domain:       getEnv("AUTH0_DOMAIN", ""),
+			ClientID:     getEnv("AUTH0_CLIENT_ID", ""),
+			ClientSecret: getEnv("AUTH0_CLIENT_SECRET", ""),
+			Audience:     getEnv("AUTH0_AUDIENCE", ""),
+			JWTSecret:    getEnv("JWT_SECRET", ""),
 		},
 		Quiz: QuizConfig{
 			DefaultQuestionDuration: getDuration("QUIZ_QUESTION_DURATION", 30*time.Second),
@@ -96,11 +105,21 @@ func (c *Config) validate() error {
 	if c.Database.URL == "" {
 		return fmt.Errorf("DATABASE_URL is required")
 	}
-	if c.JWT.Secret == "" {
-		return fmt.Errorf("JWT_SECRET is required")
+
+	if c.Auth0.Domain == "" {
+		return fmt.Errorf("AUTH0_DOMAIN is required")
 	}
-	if c.JWT.RefreshSecret == "" {
-		return fmt.Errorf("JWT_REFRESH_SECRET is required")
+	if c.Auth0.ClientID == "" {
+		return fmt.Errorf("AUTH0_CLIENT_ID is required")
+	}
+	if c.Auth0.ClientSecret == "" {
+		return fmt.Errorf("AUTH0_CLIENT_SECRET is required")
+	}
+	if c.Auth0.Audience == "" {
+		return fmt.Errorf("AUTH0_AUDIENCE is required")
+	}
+	if c.Auth0.JWTSecret == "" {
+		return fmt.Errorf("JWT_SECRET is required")
 	}
 	return nil
 }

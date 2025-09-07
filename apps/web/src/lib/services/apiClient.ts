@@ -18,25 +18,15 @@ class ApiClient {
   }
 
   private setupInterceptors() {
-    // Response interceptor for error handling and automatic token refresh
+    // Response interceptor for error handling (no automatic refresh to prevent infinite loops)
     this.axiosInstance.interceptors.response.use(
       (response: AxiosResponse) => response,
       async (error) => {
         if (error.response) {
           switch (error.response.status) {
             case 401:
-              // Unauthorized - could be expired token
-              // Try to refresh the token automatically
-              try {
-                await this.refreshToken();
-                // Retry the original request
-                const originalRequest = error.config;
-                return this.axiosInstance.request(originalRequest);
-              } catch (refreshError) {
-                // Refresh failed, redirect to login
-                console.error("Token refresh failed:", refreshError);
-                window.location.href = "/";
-              }
+              // Unauthorized - let the calling code handle refresh
+              console.error("Unauthorized request - token may be expired");
               break;
             case 403:
               console.error("Forbidden request");
@@ -55,21 +45,6 @@ class ApiClient {
         return Promise.reject(error);
       }
     );
-  }
-
-  /**
-   * Automatically refresh the authentication token
-   */
-  private async refreshToken(): Promise<void> {
-    try {
-      await fetch("/api/v1/auth/refresh", {
-        method: "POST",
-        credentials: "include",
-      });
-    } catch (error) {
-      console.error("Failed to refresh token:", error);
-      throw error;
-    }
   }
 
   async get<T = unknown>(

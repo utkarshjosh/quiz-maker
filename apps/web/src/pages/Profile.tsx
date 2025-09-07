@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from "react";
 import { useAuth } from "@/auth/AuthContext";
+import { useAuthRefresh } from "@/hooks/useAuthRefresh";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -26,6 +27,13 @@ import { useToast } from "@/hooks/use-toast";
 
 const Profile = () => {
   const { user } = useAuth();
+  const {
+    isAuthenticated: refreshAuth,
+    user: refreshUser,
+    isLoading: refreshLoading,
+    error: refreshError,
+    authenticatedRequest,
+  } = useAuthRefresh();
   const { toast } = useToast();
   const [isLoading, setIsLoading] = useState(false);
   const [profileData, setProfileData] = useState<UserProfile | null>(null);
@@ -33,8 +41,18 @@ const Profile = () => {
   const loadProfile = useCallback(async () => {
     try {
       setIsLoading(true);
-      const profile = await userService.getCurrentUser();
-      setProfileData(profile);
+
+      // Use the new auth refresh service to make the API call
+      const response = await authenticatedRequest(
+        "http://localhost:3000/api/v1/development/users/me"
+      );
+      const data = await response.json();
+
+      if (response.ok && data.user) {
+        setProfileData(data.user);
+      } else {
+        throw new Error(data.message || "Failed to load profile");
+      }
     } catch (error) {
       console.error("Error loading profile:", error);
       toast({
@@ -45,7 +63,7 @@ const Profile = () => {
     } finally {
       setIsLoading(false);
     }
-  }, [toast]);
+  }, [toast, authenticatedRequest]);
 
   useEffect(() => {
     loadProfile();
@@ -77,7 +95,7 @@ const Profile = () => {
     );
   }
 
-  const displayUser = profileData || user;
+  const displayUser = profileData || refreshUser || user;
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -88,6 +106,31 @@ const Profile = () => {
           <p className="text-gray-600 mt-2">
             Manage your account and preferences
           </p>
+
+          {/* Debug Info */}
+          <div className="mt-4 p-4 bg-gray-100 rounded-lg text-sm">
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <strong>Old Auth:</strong> {user ? "✅" : "❌"}
+              </div>
+              <div>
+                <strong>Refresh Auth:</strong> {refreshAuth ? "✅" : "❌"}
+              </div>
+              <div>
+                <strong>Access Token:</strong>{" "}
+                {document.cookie.includes("access_token") ? "✅" : "❌"}
+              </div>
+              <div>
+                <strong>App Session:</strong>{" "}
+                {document.cookie.includes("appSession") ? "✅" : "❌"}
+              </div>
+            </div>
+            {refreshError && (
+              <div className="mt-2 text-red-600">
+                <strong>Error:</strong> {refreshError}
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Profile Card */}

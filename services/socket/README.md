@@ -5,7 +5,7 @@ A standalone Go WebSocket service that powers real-time quiz sessions with minim
 ## Features
 
 - **Real-time Quiz Sessions**: WebSocket-based quiz hosting with live scoring
-- **JWT Authentication**: Compatible with API gateway's JWT tokens
+- **JWT Authentication**: Verifies internal JWT tokens created by the API gateway
 - **State Machine**: Lobby → Question → Reveal → End flow
 - **Latency-weighted Scoring**: Faster answers get higher scores
 - **Redis Integration**: Caching, presence tracking, and pub/sub
@@ -33,7 +33,7 @@ realtime-service/
 │   └── main.go                 # Application entry point
 ├── internal/
 │   ├── auth/
-│   │   └── jwt.go             # JWT authentication
+│   │   └── auth0.go           # Auth0 authentication
 │   ├── config/
 │   │   └── config.go          # Configuration management
 │   ├── gateway/
@@ -69,28 +69,33 @@ realtime-service/
 ### Installation
 
 1. **Clone and navigate to the service directory**:
+
    ```bash
    cd realtime-service
    ```
 
 2. **Install dependencies**:
+
    ```bash
    go mod tidy
    ```
 
 3. **Set up environment variables**:
+
    ```bash
    cp .env.example .env
    # Edit .env with your configuration
    ```
 
 4. **Run database migrations**:
+
    ```bash
    # Apply the migration to your PostgreSQL database
    psql -d quiz_maker -f migrations/001_create_quiz_rooms.sql
    ```
 
 5. **Start Redis** (if not already running):
+
    ```bash
    redis-server
    ```
@@ -104,23 +109,25 @@ realtime-service/
 
 Key environment variables:
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `SERVER_ADDRESS` | Server bind address | `:8080` |
-| `DATABASE_URL` | PostgreSQL connection string | Required |
-| `REDIS_ADDRESS` | Redis server address | `localhost:6379` |
-| `JWT_SECRET` | JWT signing secret (must match API gateway) | Required |
-| `JWT_REFRESH_SECRET` | JWT refresh secret | Required |
-| `QUIZ_QUESTION_DURATION` | Default question duration | `30s` |
-| `QUIZ_MAX_ROOM_SIZE` | Maximum players per room | `50` |
+| Variable                 | Description                  | Default          |
+| ------------------------ | ---------------------------- | ---------------- |
+| `SERVER_ADDRESS`         | Server bind address          | `:8080`          |
+| `DATABASE_URL`           | PostgreSQL connection string | Required         |
+| `REDIS_ADDRESS`          | Redis server address         | `localhost:6379` |
+| `AUTH0_DOMAIN`           | Auth0 domain                 | Required         |
+| `AUTH0_CLIENT_ID`        | Auth0 client ID              | Required         |
+| `AUTH0_CLIENT_SECRET`    | Auth0 client secret          | Required         |
+| `AUTH0_AUDIENCE`         | Auth0 audience               | Required         |
+| `QUIZ_QUESTION_DURATION` | Default question duration    | `30s`            |
+| `QUIZ_MAX_ROOM_SIZE`     | Maximum players per room     | `50`             |
 
 ## WebSocket Protocol
 
 ### Connection
 
-Connect to: `ws://localhost:8080/ws?token=<jwt_token>`
+Connect to: `ws://localhost:5000/ws?token=<jwt_token>`
 
-Or use Authorization header: `Authorization: Bearer <jwt_token>`
+The JWT token must be a valid internal token created by the API gateway using the same JWT_SECRET.
 
 ### Message Format
 
@@ -130,7 +137,9 @@ Or use Authorization header: `Authorization: Bearer <jwt_token>`
   "type": "message_type",
   "msg_id": "uuid",
   "room_id": "uuid-optional",
-  "data": { /* type-specific data */ }
+  "data": {
+    /* type-specific data */
+  }
 }
 ```
 
@@ -159,6 +168,7 @@ Or use Authorization header: `Authorization: Bearer <jwt_token>`
 ### Example Flow
 
 1. **Host creates room**:
+
    ```json
    {
      "v": 1,
@@ -166,12 +176,13 @@ Or use Authorization header: `Authorization: Bearer <jwt_token>`
      "msg_id": "uuid",
      "data": {
        "quiz_id": "quiz-uuid",
-       "settings": {"question_duration_ms": 30000}
+       "settings": { "question_duration_ms": 30000 }
      }
    }
    ```
 
 2. **Player joins by PIN**:
+
    ```json
    {
      "v": 1,
@@ -185,6 +196,7 @@ Or use Authorization header: `Authorization: Bearer <jwt_token>`
    ```
 
 3. **Host starts quiz**:
+
    ```json
    {
      "v": 1,
@@ -275,7 +287,7 @@ docker build -f ../docker/Dockerfile.realtime-service -t quiz-realtime-service .
 The frontend can connect to this service for real-time quiz functionality:
 
 ```javascript
-const ws = new WebSocket(`ws://localhost:8080/ws?token=${jwtToken}`);
+const ws = new WebSocket(`ws://localhost:5000/ws?token=${jwtToken}`);
 
 ws.onmessage = (event) => {
   const message = JSON.parse(event.data);
@@ -283,15 +295,17 @@ ws.onmessage = (event) => {
 };
 
 // Join room
-ws.send(JSON.stringify({
-  v: 1,
-  type: 'join',
-  msg_id: generateUUID(),
-  data: {
-    pin: '123456',
-    display_name: 'Player1'
-  }
-}));
+ws.send(
+  JSON.stringify({
+    v: 1,
+    type: "join",
+    msg_id: generateUUID(),
+    data: {
+      pin: "123456",
+      display_name: "Player1",
+    },
+  })
+);
 ```
 
 ## Monitoring
@@ -304,13 +318,15 @@ The service provides basic monitoring through:
 - Request tracing with request IDs
 
 For production, integrate with:
+
 - Prometheus for metrics
 - Grafana for dashboards
 - ELK stack for log aggregation
 
 ## Security
 
-- JWT token validation matching API gateway
+- JWT token validation using shared JWT_SECRET with API gateway
+- Token expiration verification
 - Rate limiting per user/room
 - Input validation on all messages
 - CORS configuration

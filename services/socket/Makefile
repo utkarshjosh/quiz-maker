@@ -17,6 +17,8 @@ help:
 	@echo "  clean    - Clean build artifacts"
 	@echo "  docker   - Build Docker image"
 	@echo "  deps     - Install dependencies"
+	@echo "  test-db  - Test database connection and structure"
+	@echo "  list-quizzes - List available quizzes in database"
 
 # Build the binary
 build:
@@ -66,8 +68,10 @@ docker:
 check-env:
 	@echo "Checking environment variables..."
 	@test -n "$$DATABASE_URL" || (echo "DATABASE_URL is required" && exit 1)
-	@test -n "$$JWT_SECRET" || (echo "JWT_SECRET is required" && exit 1)
-	@test -n "$$JWT_REFRESH_SECRET" || (echo "JWT_REFRESH_SECRET is required" && exit 1)
+	@test -n "$$AUTH0_DOMAIN" || (echo "AUTH0_DOMAIN is required" && exit 1)
+	@test -n "$$AUTH0_CLIENT_ID" || (echo "AUTH0_CLIENT_ID is required" && exit 1)
+	@test -n "$$AUTH0_CLIENT_SECRET" || (echo "AUTH0_CLIENT_SECRET is required" && exit 1)
+	@test -n "$$AUTH0_AUDIENCE" || (echo "AUTH0_AUDIENCE is required" && exit 1)
 	@echo "Environment variables OK"
 
 # Run with environment check
@@ -85,3 +89,13 @@ lint:
 	else \
 		echo "golangci-lint not installed. Install with: go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest"; \
 	fi
+
+# Test database connection and structure
+test-db:
+	@echo "Testing database connection and structure..."
+	@go run scripts/test-db-connection.go
+
+# List available quizzes
+list-quizzes:
+	@echo "Listing available quizzes in database..."
+	@go run scripts/list-quizzes.go

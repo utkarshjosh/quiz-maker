@@ -38,7 +38,12 @@ func main() {
 
 	// Start server in goroutine
 	go func() {
-		logger.Info("Starting server", zap.String("addr", cfg.Server.Address))
+		logger.Info("Starting Quiz Realtime Service",
+			zap.String("environment", cfg.Environment),
+			zap.String("address", cfg.Server.Address),
+			zap.String("database_url", maskDatabaseURL(cfg.Database.URL)),
+			zap.String("redis_address", cfg.Redis.Address))
+		
 		if err := srv.Start(); err != nil && err != http.ErrServerClosed {
 			logger.Fatal("Server failed to start", zap.Error(err))
 		}
@@ -61,4 +66,12 @@ func main() {
 	}
 
 	logger.Info("Server exited")
+}
+
+// maskDatabaseURL masks sensitive parts of the database URL for logging
+func maskDatabaseURL(url string) string {
+	if len(url) < 10 {
+		return "***"
+	}
+	return url[:10] + "***"
 } 
