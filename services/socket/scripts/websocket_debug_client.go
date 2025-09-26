@@ -60,12 +60,23 @@ type StateMessage struct {
 
 func main() {
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: go run websocket_debug_client.go <server_url>")
+		fmt.Println("Usage: go run websocket_debug_client.go <server_url> [token]")
 		fmt.Println("Example: go run websocket_debug_client.go ws://localhost:5000/ws")
+		fmt.Println("Example: go run websocket_debug_client.go ws://localhost:5000/ws 'your-jwt-token'")
 		os.Exit(1)
 	}
 
 	serverURL := os.Args[1]
+	
+	// Add token to URL if provided
+	if len(os.Args) >= 3 {
+		token := os.Args[2]
+		if serverURL[len(serverURL)-1] == '/' {
+			serverURL = serverURL + "?token=" + token
+		} else {
+			serverURL = serverURL + "?token=" + token
+		}
+	}
 	
 	// Create context with timeout
 	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
@@ -113,8 +124,11 @@ func readMessages(conn *websocket.Conn) {
 		if err != nil {
 			if websocket.CloseStatus(err) == websocket.StatusNormalClosure {
 				fmt.Println("🔌 Connection closed normally")
+			} else if websocket.CloseStatus(err) == websocket.StatusGoingAway {
+				fmt.Println("🔌 Server is going away")
 			} else {
 				fmt.Printf("❌ Read error: %v\n", err)
+				fmt.Printf("   Close status: %v\n", websocket.CloseStatus(err))
 			}
 			return
 		}
@@ -125,6 +139,8 @@ func readMessages(conn *websocket.Conn) {
 		var msg Message
 		if err := json.Unmarshal(data, &msg); err == nil {
 			displayFormattedMessage(msg)
+		} else {
+			fmt.Printf("   📄 Raw message (not JSON): %s\n", string(data))
 		}
 	}
 }

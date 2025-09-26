@@ -7,10 +7,12 @@ import OAuthMiddleware, {
 } from '@/middlewares/oauth.middleware';
 import CookieService from '@/lib/cookie.service';
 import RefreshService from '@/lib/refresh.service';
+import JWTService from '@/lib/jwt.service';
 
 export default class AuthController extends Api {
   private readonly userService = new UserService();
   private readonly refreshService = new RefreshService();
+  private readonly jwtService = new JWTService();
 
   /**
    * Get user profile - requires authentication
@@ -290,6 +292,79 @@ export default class AuthController extends Api {
   };
 
   /**
+   * Generate JWT token for WebSocket authentication
+   */
+  public getWebSocketToken = [
+    OAuthMiddleware.requireAuth(),
+    async (
+      req: AuthenticatedRequest,
+      res: CustomResponse<any>,
+      next: NextFunction
+    ) => {
+      try {
+        console.log('🔌 WebSocket token endpoint called');
+
+        if (!req.user) {
+          return this.send(
+            res,
+            {
+              error: 'User not authenticated',
+            },
+            401,
+            'getWebSocketToken'
+          );
+        }
+
+        // Get the current JWT token from cookie to extract user data
+        const currentToken = CookieService.getJWTFromCookie(req);
+        if (!currentToken) {
+          return this.send(
+            res,
+            {
+              error: 'No authentication token found',
+            },
+            401,
+            'getWebSocketToken'
+          );
+        }
+
+        // Verify the current token to get user data
+        const decodedToken = await this.jwtService.verifyToken(currentToken);
+        const userData = this.jwtService.extractUserData(decodedToken);
+
+        // Generate a new JWT token specifically for WebSocket authentication
+        // This token will be used by the WebSocket service
+        const wsToken = this.jwtService.generateToken({
+          sub: userData.sub, // Auth0 ID
+          email: userData.email,
+          name: userData.name,
+          picture: userData.picture,
+        });
+
+        console.log('✅ WebSocket token generated successfully');
+
+        this.send(
+          res,
+          {
+            token: wsToken,
+            expiresIn: 3600, // 1 hour
+            user: {
+              sub: userData.sub,
+              email: userData.email,
+              name: userData.name,
+            },
+          },
+          200,
+          'getWebSocketToken'
+        );
+      } catch (e) {
+        console.error('❌ Error generating WebSocket token:', e);
+        next(e);
+      }
+    },
+  ];
+
+  /**
    * Logout user by clearing all auth cookies
    */
   public logout = async (
@@ -305,6 +380,17 @@ export default class AuthController extends Api {
 
       console.log('✅ User logged out successfully');
 
+      // If this is a GET request (from frontend redirect), redirect back to frontend
+      if (req.method === 'GET') {
+        const returnTo = (req.query.returnTo as string) || '/';
+        const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
+        const redirectUrl = `${frontendUrl}${returnTo}?auth=logout`;
+
+        console.log('🔄 Redirecting to frontend:', redirectUrl);
+        return res.redirect(redirectUrl);
+      }
+
+      // For POST requests, return JSON response
       this.send(
         res,
         {

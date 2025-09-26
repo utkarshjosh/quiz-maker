@@ -28,6 +28,7 @@ type QuizRoomMember struct {
 	UserID      string     `json:"user_id" db:"user_id"`
 	DisplayName string     `json:"display_name" db:"display_name"`
 	Role        string     `json:"role" db:"role"`
+	Picture     *string    `json:"picture,omitempty" db:"picture"`
 	JoinedAt    time.Time  `json:"joined_at" db:"joined_at"`
 	LeftAt      *time.Time `json:"left_at,omitempty" db:"left_at"`
 	KickedBy    *string    `json:"kicked_by,omitempty" db:"kicked_by"`
@@ -78,9 +79,10 @@ type Question struct {
 
 // User represents a user from the database
 type User struct {
-	ID       string `json:"id" db:"id"`
-	Username string `json:"username" db:"username"`
-	Email    string `json:"email" db:"email"`
+	ID       string  `json:"id" db:"id"`
+	Username string  `json:"username" db:"username"`
+	Email    string  `json:"email" db:"email"`
+	Picture  *string `json:"picture,omitempty" db:"picture"`
 }
 
 // JSONB is a custom type for PostgreSQL JSONB fields

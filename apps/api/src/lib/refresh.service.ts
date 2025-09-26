@@ -65,7 +65,7 @@ export class RefreshService {
           // The payload might contain nested session data
           if (payload.session) {
             session = payload.session;
-          } else if (payload.cookie) {
+          } else if (payload.cookie && typeof payload.cookie === 'string') {
             try {
               const cookieData = JSON.parse(payload.cookie);
               session = cookieData;
@@ -78,7 +78,7 @@ export class RefreshService {
                   /(access_token|id_token|refresh_token)["\s]*:["\s]*([^"}\s,]+)/g
                 );
                 if (tokenMatch) {
-                  const tokens = {};
+                  const tokens: any = {};
                   tokenMatch.forEach((match) => {
                     const [key, value] = match.split(/["\s]*:["\s]*/);
                     tokens[key] = value;

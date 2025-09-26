@@ -132,21 +132,33 @@ func (r *RoomRepository) UpdateRoomStatus(roomID, status string) error {
 
 // AddMember adds a member to a room
 func (r *RoomRepository) AddMember(roomID, userID, displayName, role string) error {
+	// First, get the user's picture data
+	var picture *string
+	userQuery := `SELECT picture FROM users WHERE id = $1`
+	err := r.db.QueryRow(userQuery, userID).Scan(&picture)
+	if err != nil {
+		r.logger.Warn("Failed to get user picture, continuing without picture", 
+			zap.String("user_id", userID), 
+			zap.Error(err))
+		// Continue without picture data
+	}
+
 	member := &models.QuizRoomMember{
 		ID:          generateUUID(),
 		RoomID:      roomID,
 		UserID:      userID,
 		DisplayName: displayName,
 		Role:        role,
+		Picture:     picture,
 		JoinedAt:    time.Now(),
 	}
 
 	query := `
-		INSERT INTO quiz_room_members (id, room_id, user_id, display_name, role, joined_at)
-		VALUES ($1, $2, $3, $4, $5, $6)
+		INSERT INTO quiz_room_members (id, room_id, user_id, display_name, role, picture, joined_at)
+		VALUES ($1, $2, $3, $4, $5, $6, $7)
 	`
 
-	_, err := r.db.Exec(query, member.ID, member.RoomID, member.UserID, member.DisplayName, member.Role, member.JoinedAt)
+	_, err = r.db.Exec(query, member.ID, member.RoomID, member.UserID, member.DisplayName, member.Role, member.Picture, member.JoinedAt)
 	if err != nil {
 		return fmt.Errorf("failed to add member: %w", err)
 	}
@@ -154,13 +166,17 @@ func (r *RoomRepository) AddMember(roomID, userID, displayName, role string) err
 	return nil
 }
 
-// GetRoomMembers retrieves all members of a room
+// GetRoomMembers retrieves all members of a room with user picture data
 func (r *RoomRepository) GetRoomMembers(roomID string) ([]models.QuizRoomMember, error) {
 	query := `
-		SELECT id, room_id, user_id, display_name, role, joined_at, left_at, kicked_by, kick_reason
-		FROM quiz_room_members
-		WHERE room_id = $1 AND left_at IS NULL
-		ORDER BY joined_at ASC
+		SELECT 
+			qrm.id, qrm.room_id, qrm.user_id, qrm.display_name, qrm.role, 
+			qrm.joined_at, qrm.left_at, qrm.kicked_by, qrm.kick_reason,
+			u.picture
+		FROM quiz_room_members qrm
+		LEFT JOIN users u ON qrm.user_id = u.id
+		WHERE qrm.room_id = $1 AND qrm.left_at IS NULL
+		ORDER BY qrm.joined_at ASC
 	`
 
 	rows, err := r.db.Query(query, roomID)
@@ -175,6 +191,7 @@ func (r *RoomRepository) GetRoomMembers(roomID string) ([]models.QuizRoomMember,
 		err := rows.Scan(
 			&member.ID, &member.RoomID, &member.UserID, &member.DisplayName,
 			&member.Role, &member.JoinedAt, &member.LeftAt, &member.KickedBy, &member.KickReason,
+			&member.Picture,
 		)
 		if err != nil {
 			return nil, fmt.Errorf("failed to scan member: %w", err)
@@ -229,7 +246,7 @@ func (r *RoomRepository) GetQuiz(quizID string) (*models.Quiz, error) {
 		FROM quizzes
 		WHERE id = $1 AND status = 'published'
 	`
-
+	r.logger.Info("Getting quiz", zap.String("quiz_id", quizID))
 	quiz := &models.Quiz{}
 	err := r.db.QueryRow(query, quizID).Scan(
 		&quiz.ID, &quiz.UserID, &quiz.Title, &quiz.Description, &quiz.Difficulty,

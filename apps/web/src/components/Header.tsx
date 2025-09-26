@@ -1,12 +1,15 @@
 import { Search, User, Brain, LogOut, Settings } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "@/auth/AuthContext";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { useState } from "react";
 
 const Header = () => {
   const { isAuthenticated, user, login, logout, isLoading } = useAuth();
+  const navigate = useNavigate();
+  const [pinInput, setPinInput] = useState("");
 
   const handleLogin = () => {
     login({
@@ -16,6 +19,24 @@ const Header = () => {
 
   const handleLogout = () => {
     logout();
+  };
+
+  const handlePinSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const pin = pinInput.trim().replace(/\s/g, ""); // Remove spaces
+
+    if (pin.length >= 4) {
+      // Navigate to join page with the PIN
+      navigate(`/play/join?pin=${encodeURIComponent(pin)}`);
+      setPinInput(""); // Clear input after navigation
+    }
+  };
+
+  const handlePinChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.replace(/\D/g, ""); // Only allow digits
+    // Format as XXX XXX for better readability
+    const formatted = value.replace(/(\d{3})(?=\d)/g, "$1 ");
+    setPinInput(formatted);
   };
 
   const getInitials = (name?: string, email?: string) => {
@@ -56,11 +77,15 @@ const Header = () => {
           <span className="text-sm font-medium whitespace-nowrap">
             Join Game? Enter PIN:
           </span>
-          <Input
-            placeholder="123 456"
-            className="bg-base-100 border-base-300 text-base-content placeholder:text-base-content/50 rounded-full px-4 font-mono text-center tracking-wider"
-            maxLength={7}
-          />
+          <form onSubmit={handlePinSubmit} className="flex-1">
+            <Input
+              value={pinInput}
+              onChange={handlePinChange}
+              placeholder="123 456"
+              className="bg-base-100 border-base-300 text-base-content placeholder:text-base-content/50 rounded-full px-4 font-mono text-center tracking-wider"
+              maxLength={7}
+            />
+          </form>
         </div>
 
         {/* Right side - Search and Profile */}

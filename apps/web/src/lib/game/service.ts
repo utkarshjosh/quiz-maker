@@ -1,94 +1,136 @@
-// Lightweight placeholder game service. Replace implementations with real API/websocket logic.
+// Game service that integrates with WebSocket for real-time functionality
+import type {
+  StateMessage,
+  QuestionMessage,
+  RevealMessage,
+  Member,
+  LeaderEntry,
+  QuizSettings,
+} from "@quiz-maker/ts";
+
 export type CategoryKey = string;
 
 export interface PlayerInfo {
   id: string;
   name: string;
+  role: "host" | "player";
+  score: number;
+  isOnline: boolean;
 }
 
 export interface RoomInfo {
   roomId: string;
+  pin: string;
+  hostId: string;
   players: PlayerInfo[];
-  hostId?: string;
-  status: "waiting" | "in_progress" | "finished";
+  status: "lobby" | "question" | "reveal" | "intermission" | "ended";
+  questionIndex: number;
+  totalQuestions: number;
+  settings: QuizSettings;
 }
 
-// Simulate network delay
-const delay = (ms: number) => new Promise((res) => setTimeout(res, ms));
-
+// WebSocket-based game service
 export const gameService = {
+  // These methods are now handled by WebSocket directly
+  // Keeping them for backward compatibility but they should not be used
   async createPrivateGameFromQuiz(quizId: string): Promise<{ roomId: string }> {
-    await delay(400);
-    // Generate a fake room id
-    return { roomId: `R-${quizId}-${Math.floor(Math.random() * 9000 + 1000)}` };
+    throw new Error("Use WebSocket createRoom instead");
   },
 
-  async joinWithPin(pin: string): Promise<{ roomId: string }>{
-    await delay(300);
-    if (!/^\d{6}$/.test(pin)) throw new Error("Invalid PIN (use 6 digits)");
-    return { roomId: `P-${pin}` };
+  async joinWithPin(pin: string): Promise<{ roomId: string }> {
+    throw new Error("Use WebSocket joinRoom instead");
   },
 
-  async requestMatchmaking(category: CategoryKey): Promise<{ ticketId: string }>{
-    await delay(500);
-    return { ticketId: `TICKET-${category}-${Date.now()}` };
-  },
-
-  async pollMatchmaking(ticketId: string): Promise<{ roomId?: string }>{
-    await delay(800);
-    // 50% chance to match quickly
-    if (Math.random() > 0.5) return { roomId: `MM-${ticketId.slice(-6)}` };
-    return {};
-  },
-
-  async fetchRoom(roomId: string): Promise<RoomInfo>{
-    await delay(200);
+  // Utility functions for WebSocket integration
+  parseStateMessage(stateData: StateMessage): RoomInfo {
     return {
-      roomId,
-      players: [
-        { id: "u1", name: "You" },
-        { id: "u2", name: "Alex" },
-      ],
-      status: "waiting",
+      roomId: stateData.room_id,
+      pin: stateData.pin,
+      hostId: stateData.host_id,
+      players: stateData.members.map((member) => ({
+        id: member.id,
+        name: member.display_name,
+        role: member.role,
+        score: member.score,
+        isOnline: member.is_online,
+      })),
+      status: stateData.phase as any,
+      questionIndex: stateData.question_index,
+      totalQuestions: stateData.total_questions,
+      settings: stateData.settings,
     };
   },
 
-  async startGame(roomId: string): Promise<{ sessionId: string }>{
-    await delay(300);
-    return { sessionId: `S-${roomId}-${Date.now()}` };
+  parseQuestionMessage(questionData: QuestionMessage) {
+    return {
+      questionId: `Q-${questionData.index}`,
+      question: questionData.question,
+      options: questionData.options,
+      index: questionData.index,
+      total: questionData.options.length,
+      deadline: questionData.deadline_ms,
+      duration: questionData.duration_ms,
+    };
   },
 
-  // Quiz flow stubs
+  parseRevealMessage(revealData: RevealMessage) {
+    return {
+      questionIndex: revealData.index,
+      correctChoice: revealData.correct_choice,
+      correctIndex: revealData.correct_index,
+      explanation: revealData.explanation,
+      userStats: revealData.user_stats,
+      leaderboard: revealData.leaderboard,
+    };
+  },
+
+  // Legacy methods for backward compatibility - these should be replaced with WebSocket handlers
+  async requestMatchmaking(
+    category: CategoryKey
+  ): Promise<{ ticketId: string }> {
+    // This would need to be implemented with WebSocket
+    throw new Error("Matchmaking not implemented yet");
+  },
+
+  async pollMatchmaking(ticketId: string): Promise<{ roomId?: string }> {
+    // This would need to be implemented with WebSocket
+    throw new Error("Matchmaking not implemented yet");
+  },
+
+  async fetchRoom(roomId: string): Promise<RoomInfo> {
+    // This should be replaced with WebSocket state management
+    throw new Error("Use WebSocket state instead");
+  },
+
+  async startGame(roomId: string): Promise<{ sessionId: string }> {
+    // This should be replaced with WebSocket start message
+    throw new Error("Use WebSocket startQuiz instead");
+  },
+
   async fetchNextQuestion(sessionId: string): Promise<{
     questionId: string;
     question: string;
     options: string[];
     index: number;
     total: number;
-  }>{
-    await delay(300);
-    const idx = Math.floor(Math.random() * 5);
-    return {
-      questionId: `Q-${idx}`,
-      question: `Sample question ${idx + 1}?`,
-      options: ["A", "B", "C", "D"],
-      index: idx + 1,
-      total: 10,
-    };
+  }> {
+    // This should be replaced with WebSocket question message handling
+    throw new Error("Use WebSocket question messages instead");
   },
 
-  async submitAnswer(sessionId: string, questionId: string, optionIndex: number): Promise<{ correct: boolean; scoreDelta: number }>{
-    await delay(250);
-    const correct = Math.random() > 0.5;
-    return { correct, scoreDelta: correct ? 100 : 0 };
+  async submitAnswer(
+    sessionId: string,
+    questionId: string,
+    optionIndex: number
+  ): Promise<{ correct: boolean; scoreDelta: number }> {
+    // This should be replaced with WebSocket answer submission
+    throw new Error("Use WebSocket submitAnswer instead");
   },
 
-  async fetchFinalLeaderboard(sessionId: string): Promise<Array<{ id: string; name: string; score: number }>>{
-    await delay(400);
-    return [
-      { id: "u2", name: "Alex", score: 950 },
-      { id: "u1", name: "You", score: 840 },
-      { id: "u3", name: "Sam", score: 720 },
-    ];
+  async fetchFinalLeaderboard(
+    sessionId: string
+  ): Promise<Array<{ id: string; name: string; score: number }>> {
+    // This should be replaced with WebSocket end message handling
+    throw new Error("Use WebSocket end messages instead");
   },
 };

@@ -53,6 +53,20 @@ export interface AuthUrlsResponse {
   };
 }
 
+export interface WebSocketTokenResponse {
+  success: boolean;
+  message: string;
+  data: {
+    token: string;
+    expiresIn: number;
+    user: {
+      sub: string;
+      email: string;
+      name: string;
+    };
+  };
+}
+
 export const authService = {
   /**
    * Get environment-aware auth URLs
@@ -94,6 +108,21 @@ export const authService = {
   },
 
   /**
+   * Get JWT token for WebSocket authentication
+   */
+  async getWebSocketToken(): Promise<WebSocketTokenResponse["data"]> {
+    try {
+      const response = await apiClient.get<WebSocketTokenResponse>(
+        "/auth/websocket-token"
+      );
+      return response.data.data;
+    } catch (error) {
+      console.error("WebSocket token fetch failed:", error);
+      throw error;
+    }
+  },
+
+  /**
    * Build login URL with returnTo parameter
    */
   buildLoginUrl(
@@ -119,7 +148,7 @@ export const authService = {
     const baseUrl = authUrls?.baseUrl || config.apiUrl;
     const logoutPath =
       authUrls?.routes?.logout ||
-      `/api/${config.apiVersion}/${config.env}/auth/logout`;
+      `/api/${config.apiVersion}/${config.env}/auth/logout-custom`;
     return `${baseUrl}${logoutPath}`;
   },
 };

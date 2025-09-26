@@ -178,7 +178,7 @@ model QuizRoomMember {
   leftAt     DateTime? @map("left_at")
   kickedBy   String?   @map("kicked_by") @db.Uuid
   kickReason String?   @map("kick_reason") @db.Text
-
+  picture    String?   @map("picture") @db.VarChar(2048)
   // Relations
   room QuizRoom @relation(name: "RoomMembers", fields: [roomId], references: [id], onDelete: Cascade)
   user User     @relation(name: "UserRoomMemberships", fields: [userId], references: [id], onDelete: Cascade)

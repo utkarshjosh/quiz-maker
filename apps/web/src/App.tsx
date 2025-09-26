@@ -18,115 +18,142 @@ import LeaderboardFinal from "./pages/play/LeaderboardFinal";
 import ImmersiveCanvas from "./pages/immersive";
 import ProtectedRoute from "./auth/ProtectedRoute";
 import AuthTestPage from "./components/AuthTestPage";
-import { WebSocketProvider } from "./contexts/WebSocketContext";
+import WebSocketTest from "./components/WebSocketTest";
+import { AuthenticatedWebSocketProvider } from "./contexts/AuthenticatedWebSocketProvider";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <WebSocketProvider>
-      <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <Routes>
-            <Route element={<Layout />}>
-              {/* Public browsing */}
-              <Route path="/" element={<QuizPage />} />
-              <Route path=":category" element={<QuizPage />} />
-              <Route path=":category/:subcategory" element={<QuizPage />} />
+    <TooltipProvider>
+      <Toaster />
+      <Sonner />
+      <BrowserRouter>
+        <Routes>
+          <Route element={<Layout />}>
+            {/* Public browsing */}
+            <Route path="/" element={<QuizPage />} />
+            <Route path=":category" element={<QuizPage />} />
+            <Route path=":category/:subcategory" element={<QuizPage />} />
 
-              {/* Protected: user profile and play flow */}
-              <Route
-                path="/user/profile"
-                element={
-                  <ProtectedRoute>
-                    <Profile />
-                  </ProtectedRoute>
-                }
-              />
+            {/* Protected: user profile */}
+            <Route
+              path="/user/profile"
+              element={
+                <ProtectedRoute>
+                  <Profile />
+                </ProtectedRoute>
+              }
+            />
 
-              {/* Immersive Quiz Experience - Replaces existing play routes */}
-              <Route
-                path="/play"
-                element={
-                  <ProtectedRoute>
+            {/* Immersive Quiz Experience with WebSocket - Only for /play routes */}
+            <Route
+              path="/play"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
                     <ImmersiveCanvas />
-                  </ProtectedRoute>
-                }
-              />
-              <Route
-                path="/play/join"
-                element={
-                  <ProtectedRoute>
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/play/join"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
                     <ImmersiveCanvas />
-                  </ProtectedRoute>
-                }
-              />
-              <Route
-                path="/play/public"
-                element={
-                  <ProtectedRoute>
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/play/public"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
                     <ImmersiveCanvas />
-                  </ProtectedRoute>
-                }
-              />
-              <Route
-                path="/play/match/:category"
-                element={
-                  <ProtectedRoute>
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/play/match/:category"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
                     <ImmersiveCanvas />
-                  </ProtectedRoute>
-                }
-              />
-              <Route
-                path="/play/room/:roomId"
-                element={
-                  <ProtectedRoute>
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/play/room/:roomId"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
                     <ImmersiveCanvas />
-                  </ProtectedRoute>
-                }
-              />
-              <Route
-                path="/play/host/:quizId"
-                element={
-                  <ProtectedRoute>
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/play/host/:quizId"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
                     <ImmersiveCanvas />
-                  </ProtectedRoute>
-                }
-              />
-              <Route
-                path="/play/quiz/:sessionId"
-                element={
-                  <ProtectedRoute>
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/play/quiz/:sessionId"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
                     <ImmersiveCanvas />
-                  </ProtectedRoute>
-                }
-              />
-              <Route
-                path="/play/leaderboard/:sessionId"
-                element={
-                  <ProtectedRoute>
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/play/leaderboard/:sessionId"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
                     <ImmersiveCanvas />
-                  </ProtectedRoute>
-                }
-              />
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
 
-              {/* Immersive demo (public or change to ProtectedRoute if needed) */}
-              <Route path="/immersive/*" element={<ImmersiveCanvas />} />
+            {/* Immersive demo (public or change to ProtectedRoute if needed) */}
+            <Route path="/immersive/*" element={<ImmersiveCanvas />} />
 
-              {/* Auth Test Page for development */}
-              <Route path="/auth-test" element={<AuthTestPage />} />
+            {/* Auth Test Page for development */}
+            <Route path="/auth-test" element={<AuthTestPage />} />
 
-              {/* 404 Page */}
-              <Route path="/404" element={<NotFound />} />
+            {/* WebSocket Test Page for development */}
+            <Route
+              path="/ws-test"
+              element={
+                <ProtectedRoute>
+                  <AuthenticatedWebSocketProvider>
+                    <WebSocketTest />
+                  </AuthenticatedWebSocketProvider>
+                </ProtectedRoute>
+              }
+            />
 
-              <Route path="*" element={<NotFound />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
-      </TooltipProvider>
-    </WebSocketProvider>
+            {/* 404 Page */}
+            <Route path="/404" element={<NotFound />} />
+
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </TooltipProvider>
   </QueryClientProvider>
 );
 

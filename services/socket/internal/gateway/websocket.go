@@ -18,6 +18,73 @@ import (
 	"nhooyr.io/websocket"
 )
 
+// Helper function to safely convert *string to string
+func getStringValue(s *string) string {
+	if s == nil {
+		return ""
+	}
+	return *s
+}
+
+// buildStateMessage creates a state message with current room members
+func (g *WebSocketGateway) buildStateMessage(room *models.QuizRoom, userID string) (*protocol.Message, error) {
+	// Get room members from database
+	members, err := g.roomRepo.GetRoomMembers(room.ID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get room members: %w", err)
+	}
+
+	// Convert database members to protocol members
+	protocolMembers := make([]protocol.Member, 0, len(members))
+	for _, member := range members {
+		protocolMembers = append(protocolMembers, protocol.Member{
+			ID:          member.UserID,
+			DisplayName: member.DisplayName,
+			Role:        member.Role,
+			Score:       0, // TODO: Get actual score from answers
+			IsOnline:    true, // TODO: Track online status
+			JoinedAt:    member.JoinedAt.UnixMilli(),
+			Picture:     getStringValue(member.Picture),
+		})
+	}
+
+	// Parse room settings
+	var settings models.RoomSettings
+	if room.Settings != nil {
+		if duration, ok := room.Settings["question_duration_ms"].(float64); ok {
+			settings.QuestionDurationMs = int(duration)
+		}
+		if showCorrectness, ok := room.Settings["show_correctness"].(bool); ok {
+			settings.ShowCorrectness = showCorrectness
+		}
+		if showLeaderboard, ok := room.Settings["show_leaderboard"].(bool); ok {
+			settings.ShowLeaderboard = showLeaderboard
+		}
+		if allowReconnect, ok := room.Settings["allow_reconnect"].(bool); ok {
+			settings.AllowReconnect = allowReconnect
+		}
+	}
+
+	// Create state message
+	stateMessage := protocol.StateMessage{
+		Phase:          protocol.StateLobby,
+		RoomID:         room.ID,
+		PIN:            room.PIN,
+		HostID:         room.HostID,
+		QuestionIndex:  0,
+		TotalQuestions: 0, // Will be set when quiz starts
+		Members:        protocolMembers,
+		Settings: protocol.QuizSettings{
+			QuestionDuration: settings.QuestionDurationMs,
+			ShowCorrectness:  settings.ShowCorrectness,
+			ShowLeaderboard:  settings.ShowLeaderboard,
+			AllowReconnect:   settings.AllowReconnect,
+		},
+	}
+
+	return protocol.NewMessage(protocol.TypeState, stateMessage)
+}
+
 type WebSocketGateway struct {
 	auth   auth.AuthServiceInterface
 	hub    *Hub
@@ -38,6 +105,7 @@ type WSConnection struct {
 	room   *SimpleRoom
 	logger *zap.Logger
 	roomRepo *repository.RoomRepository
+	gateway *WebSocketGateway
 	
 	sendChan chan *protocol.Message
 	closeChan chan struct{}
@@ -60,6 +128,7 @@ type SimpleMember struct {
 	ID          string
 	DisplayName string
 	Role        string
+	Picture     string
 	IsOnline    bool
 	JoinedAt    time.Time
 }
@@ -132,6 +201,7 @@ func (g *WebSocketGateway) HandleWebSocket(w http.ResponseWriter, r *http.Reques
 		user:      user,
 		logger:    g.logger.With(zap.String("user_id", user.ID)),
 		roomRepo:  g.roomRepo,
+		gateway:   g,
 		sendChan:  make(chan *protocol.Message, 100),
 		closeChan: make(chan struct{}),
 	}
@@ -140,18 +210,22 @@ func (g *WebSocketGateway) HandleWebSocket(w http.ResponseWriter, r *http.Reques
 		zap.String("user_id", user.ID),
 		zap.String("username", user.Username))
 
-	// Handle connection
-	wsConn.handle(r.Context())
+	// Handle connection with background context
+	wsConn.handle(context.Background())
 }
 
 func (c *WSConnection) handle(ctx context.Context) {
-	defer c.Close()
-
+	// Create a new context that won't be cancelled
+	connCtx := context.Background()
+	
 	// Start send goroutine
-	go c.sendLoop(ctx)
+	go c.sendLoop(connCtx)
 
 	// Start read loop
-	c.readLoop(ctx)
+	c.readLoop(connCtx)
+	
+	// Close connection when read loop ends
+	c.Close()
 }
 
 func (c *WSConnection) readLoop(ctx context.Context) {
@@ -159,53 +233,66 @@ func (c *WSConnection) readLoop(ctx context.Context) {
 	defer c.logger.Info("Read loop ended")
 
 	for {
+		// Set read deadline
+		readCtx, cancel := context.WithTimeout(ctx, 60*time.Second)
+		
+		// Use a channel to handle the read operation
+		type readResult struct {
+			data []byte
+			err  error
+		}
+		
+		resultChan := make(chan readResult, 1)
+		go func() {
+			_, data, err := c.conn.Read(readCtx)
+			resultChan <- readResult{data, err}
+		}()
+		
 		select {
 		case <-ctx.Done():
+			cancel()
 			c.logger.Info("Context cancelled, stopping read loop")
 			return
 		case <-c.closeChan:
+			cancel()
 			c.logger.Info("Close channel signalled, stopping read loop")
 			return
-		default:
-		}
-
-		// Set read deadline
-		ctx, cancel := context.WithTimeout(ctx, 60*time.Second)
-		_, data, err := c.conn.Read(ctx)
-		cancel()
-
-		if err != nil {
-			if websocket.CloseStatus(err) == websocket.StatusNormalClosure {
-				c.logger.Info("WebSocket closed normally")
-			} else {
-				c.logger.Error("WebSocket read error", 
-					zap.Error(err),
-					zap.String("close_status", websocket.CloseStatus(err).String()))
+		case result := <-resultChan:
+			cancel()
+			
+			if result.err != nil {
+				if websocket.CloseStatus(result.err) == websocket.StatusNormalClosure {
+					c.logger.Info("WebSocket closed normally")
+				} else {
+					c.logger.Error("WebSocket read error", 
+						zap.Error(result.err),
+						zap.String("close_status", websocket.CloseStatus(result.err).String()))
+				}
+				return
 			}
-			return
+
+			c.logger.Debug("Received raw message", 
+				zap.String("data", string(result.data)),
+				zap.Int("length", len(result.data)))
+
+			// Parse message
+			var msg protocol.Message
+			if err := json.Unmarshal(result.data, &msg); err != nil {
+				c.logger.Warn("Invalid message format", 
+					zap.Error(err),
+					zap.String("raw_data", string(result.data)))
+				c.sendError(protocol.ErrorCodeValidation, "Invalid message format")
+				continue
+			}
+
+			c.logger.Info("Received message", 
+				zap.String("type", msg.Type),
+				zap.String("msg_id", msg.MsgID),
+				zap.Int("version", msg.Version))
+
+			// Handle message
+			c.handleMessage(ctx, &msg)
 		}
-
-		c.logger.Debug("Received raw message", 
-			zap.String("data", string(data)),
-			zap.Int("length", len(data)))
-
-		// Parse message
-		var msg protocol.Message
-		if err := json.Unmarshal(data, &msg); err != nil {
-			c.logger.Warn("Invalid message format", 
-				zap.Error(err),
-				zap.String("raw_data", string(data)))
-			c.sendError(protocol.ErrorCodeValidation, "Invalid message format")
-			continue
-		}
-
-		c.logger.Info("Received message", 
-			zap.String("type", msg.Type),
-			zap.String("msg_id", msg.MsgID),
-			zap.Int("version", msg.Version))
-
-		// Handle message
-		c.handleMessage(ctx, &msg)
 	}
 }
 
@@ -318,25 +405,37 @@ func (c *WSConnection) handleJoin(ctx context.Context, msg *protocol.Message) {
 		zap.String("pin", room.PIN),
 		zap.String("host_id", room.HostID))
 
-	// TODO: Implement full room joining logic
-	// For now, just send a success response
-	response := protocol.StateMessage{
-		Phase:          protocol.StateLobby,
-		RoomID:         room.ID,
-		PIN:            room.PIN,
-		HostID:         room.HostID,
-		QuestionIndex:  0,
-		TotalQuestions: 0,
-		Members:        []protocol.Member{},
-		Settings: protocol.QuizSettings{
-			QuestionDuration: 30000,
-			ShowCorrectness:  true,
-			ShowLeaderboard:  true,
-			AllowReconnect:   true,
-		},
+	// Add user to room as a member
+	err = c.roomRepo.AddMember(room.ID, c.userID, joinMsg.DisplayName, "player")
+	if err != nil {
+		c.logger.Error("Failed to add member to room", 
+			zap.Error(err),
+			zap.String("room_id", room.ID),
+			zap.String("user_id", c.userID))
+		c.sendError(protocol.ErrorCodeUnknown, "Failed to join room")
+		return
 	}
 
-	responseMsg, _ := protocol.NewMessage(protocol.TypeState, response)
+	// Set the room in the connection
+	c.room = &SimpleRoom{
+		ID:       room.ID,
+		PIN:      room.PIN,
+		HostID:   room.HostID,
+		QuizID:   room.QuizID,
+		Settings: models.DefaultRoomSettings(), // TODO: Parse from room settings
+		Members:  make(map[string]*SimpleMember),
+	}
+
+	// Send success response using the new buildStateMessage function
+	responseMsg, err := c.gateway.buildStateMessage(room, c.userID)
+	if err != nil {
+		c.logger.Error("Failed to build state message", 
+			zap.Error(err),
+			zap.String("room_id", room.ID))
+		c.sendError(protocol.ErrorCodeUnknown, "Failed to build state message")
+		return
+	}
+	
 	c.sendMessage(ctx, responseMsg)
 
 	c.logger.Info("Join request processed successfully", 
@@ -422,33 +521,16 @@ func (c *WSConnection) handleCreateRoom(ctx context.Context, msg *protocol.Messa
 		JoinedAt:    time.Now(),
 	}
 
-	// Send success response
-	response := protocol.StateMessage{
-		Phase:          protocol.StateLobby,
-		RoomID:         dbRoom.ID,
-		PIN:            dbRoom.PIN,
-		HostID:         c.userID,
-		QuestionIndex:  0,
-		TotalQuestions: 0, // Will be set when quiz starts
-		Members:        []protocol.Member{
-			{
-				ID:          c.userID,
-				DisplayName: c.user.Username,
-				Role:        "host",
-				Score:       0,
-				IsOnline:    true,
-				JoinedAt:    time.Now().UnixMilli(),
-			},
-		},
-		Settings: protocol.QuizSettings{
-			QuestionDuration: settings.QuestionDurationMs,
-			ShowCorrectness:  settings.ShowCorrectness,
-			ShowLeaderboard:  settings.ShowLeaderboard,
-			AllowReconnect:   settings.AllowReconnect,
-		},
+	// Send success response using the new buildStateMessage function
+	responseMsg, err := c.gateway.buildStateMessage(dbRoom, c.userID)
+	if err != nil {
+		c.logger.Error("Failed to build state message", 
+			zap.Error(err),
+			zap.String("room_id", dbRoom.ID))
+		c.sendError(protocol.ErrorCodeUnknown, "Failed to build state message")
+		return
 	}
-
-	responseMsg, _ := protocol.NewMessage(protocol.TypeState, response)
+	
 	c.sendMessage(ctx, responseMsg)
 
 	c.logger.Info("Room created successfully", 

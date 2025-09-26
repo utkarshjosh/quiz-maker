@@ -14,7 +14,7 @@ interface AuthenticatedWebSocketProviderProps {
  */
 export const AuthenticatedWebSocketProvider: React.FC<
   AuthenticatedWebSocketProviderProps
-> = ({ children, url = "ws://localhost:8081/ws", requireAuth = true }) => {
+> = ({ children, url = "ws://localhost:5000/ws", requireAuth = true }) => {
   const { isAuthenticated, isLoading } = useAuth();
 
   // Don't render WebSocket provider if auth is required but not available

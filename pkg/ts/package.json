@@ -13,11 +13,14 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "lint": "eslint . --ext .ts",
-    "test": "jest"
+    "test": "jest",
+    "generate-types": "./scripts/generate-types.sh",
+    "generate-types:watch": "nodemon --watch ../../services/socket/schema.json --exec './scripts/generate-types.sh'"
   },
   "dependencies": {},
   "devDependencies": {
     "typescript": "^5.0.0",
-    "@types/node": "^20.0.0"
+    "@types/node": "^20.0.0",
+    "nodemon": "^3.0.0"
   }
 }

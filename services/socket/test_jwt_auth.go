@@ -1,8 +1,6 @@
 package main
 
 import (
-	"encoding/base64"
-	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
@@ -11,6 +9,7 @@ import (
 
 	"quiz-realtime-service/internal/auth"
 	"quiz-realtime-service/internal/config"
+	"quiz-realtime-service/internal/repository"
 	"quiz-realtime-service/internal/telemetry"
 
 	"github.com/golang-jwt/jwt/v5"
@@ -32,6 +31,9 @@ func main() {
 	// Create JWT service
 	jwtService := auth.NewJWTService(cfg.Auth0.JWTSecret, logger)
 
+	// Create user repository (for testing, we'll pass nil since we're not using database)
+	var userRepo *repository.UserRepository = nil
+	
 	// Create Auth0 service
 	authService := auth.NewAuth0Service(
 		cfg.Auth0.Domain,
@@ -39,6 +41,7 @@ func main() {
 		cfg.Auth0.ClientSecret,
 		cfg.Auth0.Audience,
 		cfg.Auth0.JWTSecret,
+		userRepo,
 		logger,
 	)
 

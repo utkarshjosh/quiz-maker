@@ -28,6 +28,7 @@ import {
   createPingMessage,
 } from "@quiz-maker/ts";
 import { useAuth } from "@/auth/AuthContext";
+import authService from "@/services/authService";
 
 export interface WebSocketState {
   isConnected: boolean;
@@ -126,34 +127,25 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
     setError(null);
 
     try {
-      // Get JWT token from Auth0 session
-      const getAuth0Token = async () => {
+      // Get JWT token from API
+      const getWebSocketToken = async () => {
         try {
-          // Debug: Log the user object to see what we're working with
-          console.log("User object for token generation:", user);
-          console.log("User ID:", user?.id);
-          console.log("User Auth0 ID:", user?.auth0Id);
-
-          // For now, create a simple token based on user info
-          // In a real implementation, you would get this from Auth0
-          const token = btoa(
-            JSON.stringify({
-              sub: user?.id, // This should be the database UUID, not Auth0 ID
-              email: user?.email,
-              name: user?.name,
-              iat: Math.floor(Date.now() / 1000),
-              exp: Math.floor(Date.now() / 1000) + 3600, // 1 hour
-            })
-          );
-          return token;
+          console.log("Fetching WebSocket JWT token from API...");
+          const tokenData = await authService.getWebSocketToken();
+          console.log("WebSocket token received:", {
+            hasToken: !!tokenData.token,
+            expiresIn: tokenData.expiresIn,
+            user: tokenData.user,
+          });
+          return tokenData.token;
         } catch (error) {
-          console.error("Failed to create token:", error);
+          console.error("Failed to get WebSocket token:", error);
           return null;
         }
       };
 
       // Connect with token as query parameter
-      getAuth0Token()
+      getWebSocketToken()
         .then((token) => {
           if (!token) {
             setError("Failed to get authentication token");

@@ -13,9 +13,9 @@ import { useWebSocketService } from "@/services/websocket";
 import SettingsModal from "@/components/immersive/SettingsModal";
 import { createAvatar } from "@dicebear/core";
 import { avataaars } from "@dicebear/collection";
-
-const generatePIN = () =>
-  Math.floor(100000 + Math.random() * 900000).toString();
+import { useWebSocket } from "@/contexts/WebSocketContext";
+import { MessageType } from "@quiz-maker/ts";
+import type { StateMessage } from "@quiz-maker/ts";
 
 const generateAvatar = async (seed: string): Promise<string> => {
   return createAvatar(avataaars, { seed }).toDataUri();
@@ -25,6 +25,7 @@ export default function LobbyScene() {
   const { gameState, setGameState } = useGameStore();
   const { playSound } = useSound();
   const { createRoom, joinRoom, isConnected } = useWebSocketService();
+  const { state: wsState } = useWebSocket();
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isHost, setIsHost] = useState(false);
   const [roomPin, setRoomPin] = useState<string>("");
@@ -37,6 +38,39 @@ export default function LobbyScene() {
   // Track initialization to prevent multiple calls
   const isInitializedRef = useRef(false);
   const lastParamsRef = useRef<string>("");
+  const lastProcessedMessageRef = useRef<string>("");
+
+  // Listen for WebSocket state messages to update roomPin and game state
+  useEffect(() => {
+    if (wsState.lastMessage && wsState.lastMessage.type === MessageType.STATE) {
+      const stateData = wsState.lastMessage.data as StateMessage;
+
+      // Prevent processing the same message multiple times
+      const messageId = wsState.lastMessage.msg_id;
+      if (lastProcessedMessageRef.current === messageId) {
+        return;
+      }
+
+      if (stateData.pin) {
+        lastProcessedMessageRef.current = messageId;
+        setRoomPin(stateData.pin);
+        console.log("Room PIN updated from WebSocket:", stateData.pin);
+
+        // Update game state with room ID and members
+        setGameState((state) => ({
+          ...state,
+          roomId: stateData.room_id,
+          players: stateData.members.map((member) => ({
+            id: member.id,
+            name: member.display_name,
+            avatar: member.picture || "", // Use picture from WebSocket response
+            score: member.score,
+          })),
+        }));
+      }
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [wsState.lastMessage]);
 
   // Initialize lobby state on mount
   useEffect(() => {
@@ -60,19 +94,14 @@ export default function LobbyScene() {
       if (isHostUser) {
         // Host: Create new room
         const quizId = params.quizId || "default-quiz";
-        const newRoomPin = generatePIN();
-        setRoomPin(newRoomPin);
 
-        // Create room via WebSocket
+        // Create room via WebSocket - PIN will be set from response
         if (isConnected) {
-          createRoom({
-            quiz_id: quizId,
-            settings: {
-              question_duration_ms: 30000, // 30 seconds
-              show_correctness: true,
-              show_leaderboard: true,
-              allow_reconnect: true,
-            },
+          createRoom(quizId, {
+            question_duration_ms: 30000, // 30 seconds
+            show_correctness: true,
+            show_leaderboard: true,
+            allow_reconnect: true,
           });
         }
 
@@ -87,7 +116,7 @@ export default function LobbyScene() {
         setGameState((state) => ({
           ...state,
           scene: "lobby",
-          roomId: newRoomPin,
+          roomId: null, // Will be updated when we get the response
           players: [hostPlayer],
           currentQuestionIndex: 0,
         }));
@@ -100,10 +129,7 @@ export default function LobbyScene() {
 
           // Join room via WebSocket
           if (isConnected) {
-            joinRoom({
-              pin: roomId,
-              display_name: "Participant",
-            });
+            joinRoom(roomId, "Participant");
           }
         }
 
@@ -134,6 +160,9 @@ export default function LobbyScene() {
     params.quizId,
     params.roomId,
     params.sessionId,
+    createRoom,
+    joinRoom,
+    setGameState,
   ]);
 
   const joinUrl = useMemo(() => {
@@ -143,10 +172,7 @@ export default function LobbyScene() {
   const handleJoinRoom = useCallback(() => {
     if (joinPin.trim()) {
       if (isConnected) {
-        joinRoom({
-          pin: joinPin,
-          display_name: "Participant",
-        });
+        joinRoom(joinPin, "Participant");
         setRoomPin(joinPin);
       }
     }

@@ -1,11 +1,17 @@
 import React, { useState, useEffect } from "react";
-import { useParams, useLocation } from "react-router-dom";
+import {
+  useParams,
+  useLocation,
+  useNavigate,
+  useSearchParams,
+} from "react-router-dom";
 import { useGameStore } from "@/hooks/immersive/useGameStore";
 import { useWebSocketService } from "@/services/websocket";
 import LobbyScene from "./LobbyScene.tsx";
 import QuizScene from "./QuizScene.tsx";
 import LeaderboardScene from "./LeaderboardScene.tsx";
 import FloatingShapes from "@/components/immersive/FloatingShapes";
+import JoinWithPin from "../play/JoinWithPin";
 
 const sceneComponents = {
   lobby: LobbyScene,
@@ -22,8 +28,16 @@ export default function ImmersiveCanvas() {
   // Get URL parameters to determine initial state
   const params = useParams();
   const location = useLocation();
+  const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
 
   useEffect(() => {
+    // Handle join route - show JoinWithPin component
+    if (location.pathname.includes("/join")) {
+      setCurrentScene("join");
+      return;
+    }
+
     // Determine initial scene based on URL
     let initialScene = "lobby";
 
@@ -86,6 +100,11 @@ export default function ImmersiveCanvas() {
         break;
     }
   };
+
+  // Handle join scene separately
+  if (currentScene === "join") {
+    return <JoinWithPin />;
+  }
 
   const CurrentSceneComponent = sceneComponents[currentScene];
 

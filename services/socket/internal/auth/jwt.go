@@ -17,7 +17,7 @@ import (
 
 // JWTService handles JWT token verification for internal tokens
 type JWTService struct {
-	secret string
+	Secret string
 	logger *zap.Logger
 }
 
@@ -37,7 +37,7 @@ type InternalJWTPayload struct {
 // NewJWTService creates a new JWT service for internal token verification
 func NewJWTService(secret string, logger *zap.Logger) *JWTService {
 	return &JWTService{
-		secret: secret,
+		Secret: secret,
 		logger: logger.With(zap.String("component", "jwt")),
 	}
 }
@@ -52,7 +52,7 @@ func (j *JWTService) VerifyToken(tokenString string) (*InternalJWTPayload, error
 		}
 
 		// Return the secret key
-		return []byte(j.secret), nil
+		return []byte(j.Secret), nil
 	})
 
 	if err != nil {
@@ -126,7 +126,7 @@ func (j *JWTService) VerifyTokenSignature(tokenString string) (*InternalJWTPaylo
 		return nil, fmt.Errorf("failed to decode signature: %w", err)
 	}
 
-	mac := hmac.New(sha256.New, []byte(j.secret))
+	mac := hmac.New(sha256.New, []byte(j.Secret))
 	mac.Write([]byte(message))
 	expectedSignature := mac.Sum(nil)
 

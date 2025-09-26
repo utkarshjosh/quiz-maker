@@ -5,7 +5,7 @@
 
 // WebSocket types are available from DOM lib
 
-// Message Types
+// Message Types - matching Go schema exactly
 export const MessageType = {
   // Client to Server
   JOIN: "join",
@@ -172,6 +172,7 @@ export interface Member {
   score: number;
   is_online: boolean;
   joined_at: number;
+  picture?: string;
 }
 
 export interface UserStat {
@@ -346,6 +347,18 @@ export function createLeaveMessage(): Message {
   };
 }
 
+export function createCreateRoomMessage(
+  quizId: string,
+  settings: QuizSettings
+): Message {
+  return {
+    v: 1,
+    type: MessageType.CREATE_ROOM,
+    msg_id: generateMessageId(),
+    data: { quiz_id: quizId, settings },
+  };
+}
+
 // Utility Functions
 function generateMessageId(): string {
   return Math.random().toString(36).substr(2, 9);
@@ -371,7 +384,7 @@ export interface WebSocketConfig {
  * 4. Go service verifies the Auth0 session and extracts user information
  *
  * Connection URL:
- * - ws://localhost:8081/ws (uses appSession cookie automatically)
+ * - ws://localhost:5000/ws (uses appSession cookie automatically)
  *
  * Error Responses:
  * - 401 Unauthorized: Invalid or missing Auth0 session

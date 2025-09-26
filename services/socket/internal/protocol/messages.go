@@ -156,6 +156,7 @@ type Member struct {
 	Score       int    `json:"score"`
 	IsOnline    bool   `json:"is_online"`
 	JoinedAt    int64  `json:"joined_at"`
+	Picture     string `json:"picture,omitempty"`
 }
 
 type UserStat struct {

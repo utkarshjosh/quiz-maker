@@ -106,7 +106,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       // First, get the auth URLs
       await getAuthUrls();
 
-      // Check if we just returned from Auth0 (auth=success in URL)
+      // Check if we just returned from Auth0 (auth=success in URL) or logout (auth=logout)
       const urlParams = new URLSearchParams(window.location.search);
       if (urlParams.get("auth") === "success") {
         // Remove auth parameter from URL
@@ -122,6 +122,15 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
         // Add a longer delay to ensure the session is properly set
         await new Promise((resolve) => setTimeout(resolve, 1000));
         await checkAuth();
+      } else if (urlParams.get("auth") === "logout") {
+        // Handle logout redirect
+        console.log("Logout detected, clearing user state...");
+        window.history.replaceState(
+          {},
+          document.title,
+          window.location.pathname
+        );
+        setUser(undefined);
       } else if (urlParams.get("auth") === "error") {
         // Handle auth error
         console.error("Authentication failed");

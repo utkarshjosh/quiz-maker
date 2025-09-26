@@ -47,6 +47,9 @@ func New(cfg *config.Config, logger *zap.Logger) (*Server, error) {
 	// Initialize room repository
 	roomRepo := repository.NewRoomRepository(db.GetConnection(), logger)
 
+	// Initialize user repository
+	userRepo := repository.NewUserRepository(db.GetConnection(), logger)
+
 	// Initialize Redis store
 	redisStore := store.NewRedisStore(
 		cfg.Redis.Address,
@@ -69,6 +72,7 @@ func New(cfg *config.Config, logger *zap.Logger) (*Server, error) {
 		cfg.Auth0.ClientSecret,
 		cfg.Auth0.Audience,
 		cfg.Auth0.JWTSecret,
+		userRepo,
 		logger,
 	)
 

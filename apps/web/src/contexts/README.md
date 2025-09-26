@@ -20,7 +20,7 @@ import { AuthenticatedWebSocketProvider } from "@/contexts/AuthenticatedWebSocke
 
 function App() {
   return (
-    <AuthenticatedWebSocketProvider url="ws://localhost:8081/ws">
+    <AuthenticatedWebSocketProvider url="ws://localhost:5000/ws">
       {/* Your app components */}
     </AuthenticatedWebSocketProvider>
   );
@@ -36,7 +36,7 @@ import { WebSocketProvider } from "@/contexts/WebSocketContext";
 
 function App() {
   return (
-    <WebSocketProvider url="ws://localhost:8081/ws">
+    <WebSocketProvider url="ws://localhost:5000/ws">
       {/* Your app components */}
     </WebSocketProvider>
   );
@@ -183,12 +183,12 @@ function MyComponent() {
 
 The WebSocketProvider accepts these props:
 
-- `url` - WebSocket URL (default: "ws://localhost:8081/ws")
+- `url` - WebSocket URL (default: "ws://localhost:5000/ws")
 - `children` - React children
 
 The AuthenticatedWebSocketProvider accepts these props:
 
-- `url` - WebSocket URL (default: "ws://localhost:8081/ws")
+- `url` - WebSocket URL (default: "ws://localhost:5000/ws")
 - `requireAuth` - Whether authentication is required (default: true)
 - `children` - React children
 

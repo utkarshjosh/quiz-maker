@@ -26,7 +26,14 @@ auth.get('/token-info', authController.getTokenInfo);
 // Logout user (clear all auth cookies)
 auth.post('/logout', authController.logout);
 
+// GET logout route for frontend redirects (clears cookies and redirects)
+// Using /logout-custom to avoid OAuth middleware conflict
+auth.get('/logout-custom', authController.logout);
+
 // Get environment-aware auth URLs for frontend
 auth.get('/urls', authController.getAuthUrls);
+
+// Get JWT token for WebSocket authentication
+auth.get('/websocket-token', authController.getWebSocketToken);
 
 export default auth;
