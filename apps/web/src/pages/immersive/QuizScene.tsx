@@ -1,115 +1,119 @@
+/**
+ * Quiz Scene - Refactored with clean architecture
+ * Unity-style: Scene component that uses centralized game state
+ */
+
 import React, { useState, useEffect } from "react";
-import { useGameStore } from "@/hooks/immersive/useGameStore";
-import { useSound } from "@/hooks/immersive/useSound";
+import { useCurrentQuestion, useGameStore } from "@/game/store/gameStore";
+import { useGameActions } from "@/game/hooks/useGameManager";
 import { useCountdown } from "@/hooks/useCountdown";
-import { useWebSocketService } from "@/services/websocket";
-import { MOCK_QUESTIONS } from "@/mocks/immersive-data";
 import Confetti from "react-confetti";
+import { getWebSocketService } from "@/game/services/WebSocketService";
 
 const COLORS = ["#3B82F6", "#10B981", "#F59E0B", "#EF4444"];
 
 export default function QuizScene() {
-  const { gameState, setGameState } = useGameStore();
-  const { playSound } = useSound();
-  const { submitAnswer, isConnected } = useWebSocketService();
-  const { currentQuestionIndex, players } = gameState;
-  const question = MOCK_QUESTIONS[currentQuestionIndex];
+  const { submitAnswer, playSound } = useGameActions();
 
+  // Game State
+  const {
+    question,
+    index: currentQuestionIndex,
+    total: totalQuestions,
+  } = useCurrentQuestion();
+  const players = useGameStore((state) => state.players);
+  const currentPlayerId = useGameStore((state) => state.currentPlayerId);
+
+  // Local UI State
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
   const [showConfetti, setShowConfetti] = useState(false);
   const [answerSubmitted, setAnswerSubmitted] = useState(false);
 
+  // WebSocket connection status
+  const wsService = getWebSocketService();
+  const [isConnected, setIsConnected] = useState(wsService.isConnected());
+
+  // Monitor WebSocket connection status
+  useEffect(() => {
+    const unsubscribe = wsService.onStatusChange((status) => {
+      setIsConnected(status === "connected");
+    });
+
+    return unsubscribe;
+  }, [wsService]);
+
+  // Countdown timer
   const { seconds, start, reset } = useCountdown({
-    seconds: 30, // Increased from 10 to 30 seconds
+    seconds: question?.timeLimit || 30,
     onEnd: () => handleTimeUp(),
   });
 
+  // Reset state when question changes
   useEffect(() => {
     if (question) {
+      console.log("QuizScene: New question", currentQuestionIndex + 1);
       start();
       setAnswerSubmitted(false);
       setSelectedAnswer(null);
+      setShowConfetti(false);
     }
   }, [currentQuestionIndex, question, start]);
 
   const handleTimeUp = () => {
-    if (!answerSubmitted) {
-      // Auto-submit if no answer was given
+    if (!answerSubmitted && question) {
+      console.log("QuizScene: Time up, auto-submitting");
       handleAnswerClick(question.options[0], true);
     }
   };
 
-  const handleNextQuestion = () => {
-    setSelectedAnswer(null);
-    setShowConfetti(false);
-    setAnswerSubmitted(false);
-
-    if (currentQuestionIndex < MOCK_QUESTIONS.length - 1) {
-      setGameState((state) => ({
-        ...state,
-        currentQuestionIndex: state.currentQuestionIndex + 1,
-      }));
-      reset();
-      start();
-    } else {
-      // Quiz finished - WebSocket will handle scene change
-      console.log("Quiz finished");
-    }
-  };
-
   const handleAnswerClick = (option: string, isAutoSubmit = false) => {
-    if (answerSubmitted) return; // Prevent changing answer
+    if (answerSubmitted || !question) return;
 
     if (!isAutoSubmit) {
-      playSound("click.mp3");
+      playSound("CLICK");
     }
 
     const isCorrect = option === question.answer;
     setSelectedAnswer(option);
     setAnswerSubmitted(true);
 
-    // Submit answer via WebSocket
+    console.log("QuizScene: Answer submitted", {
+      option,
+      isCorrect,
+      timeRemaining: seconds,
+    });
+
+    // Submit answer via game manager
     if (isConnected) {
-      const answerIndex = question.options.indexOf(option);
-      submitAnswer({
-        questionIndex: currentQuestionIndex,
-        answerIndex,
-        answerText: option,
-      });
+      submitAnswer(option);
     }
 
+    // Play sound and show effects
     if (isCorrect) {
       if (!isAutoSubmit) {
-        playSound("correct.mp3");
+        playSound("CORRECT");
       }
       setShowConfetti(true);
 
-      // Award points based on time remaining
-      setGameState((state) => {
-        const currentPlayer = state.players.find(
-          (p) => p.id === "current-user"
-        );
-        if (currentPlayer) {
-          currentPlayer.score += seconds * 10;
-        }
-        return { ...state };
-      });
+      // Award points based on time remaining (local optimistic update)
+      const currentPlayer = players.find((p) => p.id === currentPlayerId);
+      if (currentPlayer) {
+        const points = seconds * 10;
+        useGameStore.getState().updatePlayer(currentPlayer.id, {
+          score: currentPlayer.score + points,
+        });
+      }
     } else {
       if (!isAutoSubmit) {
-        playSound("incorrect.mp3");
+        playSound("INCORRECT");
       }
     }
-
-    // Wait for WebSocket confirmation before moving to next question
-    // For now, use a timeout as fallback
-    setTimeout(() => {
-      if (currentQuestionIndex < MOCK_QUESTIONS.length - 1) {
-        handleNextQuestion();
-      }
-    }, 2000);
   };
 
-  const progress = ((currentQuestionIndex + 1) / MOCK_QUESTIONS.length) * 100;
+  const progress =
+    totalQuestions > 0
+      ? ((currentQuestionIndex + 1) / totalQuestions) * 100
+      : 0;
 
   // Show loading if no question
   if (!question) {
@@ -146,7 +150,7 @@ export default function QuizScene() {
           />
         </div>
         <div className="text-lg font-semibold">
-          {currentQuestionIndex + 1} / {MOCK_QUESTIONS.length}
+          {currentQuestionIndex + 1} / {totalQuestions}
         </div>
       </div>
 

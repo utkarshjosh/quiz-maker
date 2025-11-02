@@ -129,7 +129,7 @@ export const authService = {
     authUrls: AuthUrlsResponse["data"] | null,
     returnTo?: string
   ): string {
-    const baseUrl = authUrls?.baseUrl || config.apiUrl;
+    const baseUrl = authUrls?.baseUrl || config.baseApiUrl;
     const loginPath =
       authUrls?.routes?.login ||
       `/api/${config.apiVersion}/${config.env}/auth/login`;
@@ -142,13 +142,16 @@ export const authService = {
   },
 
   /**
-   * Build logout URL
+   * Build Auth0 logout URL (will redirect to Auth0 logout and back to frontend)
    */
   buildLogoutUrl(authUrls: AuthUrlsResponse["data"] | null): string {
-    const baseUrl = authUrls?.baseUrl || config.apiUrl;
+    const baseUrl = authUrls?.baseUrl || config.baseApiUrl;
     const logoutPath =
       authUrls?.routes?.logout ||
-      `/api/${config.apiVersion}/${config.env}/auth/logout-custom`;
+      `/api/${config.apiVersion}/${config.env}/auth/logout`;
+
+    // This is the Auth0 logout route (GET) - it will log out from Auth0
+    // and redirect back to the frontend URL configured in postLogoutRedirect
     return `${baseUrl}${logoutPath}`;
   },
 };

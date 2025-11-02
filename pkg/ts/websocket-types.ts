@@ -164,6 +164,14 @@ export interface KickedMessage {
   reason: string;
 }
 
+// HostTransferMessage - sent when host role is transferred
+export interface HostTransferMessage {
+  old_host_id: string;
+  new_host_id: string;
+  new_host_name: string;
+  room_id: string;
+}
+
 // Supporting Types
 export interface Member {
   id: string;

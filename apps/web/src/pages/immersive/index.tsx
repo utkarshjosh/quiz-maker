@@ -1,15 +1,16 @@
+/**
+ * Immersive Canvas - Main game container
+ * Unity-style: Root game component that initializes the game system
+ */
+
 import React, { useState, useEffect } from "react";
-import {
-  useParams,
-  useLocation,
-  useNavigate,
-  useSearchParams,
-} from "react-router-dom";
-import { useGameStore } from "@/hooks/immersive/useGameStore";
-import { useWebSocketService } from "@/services/websocket";
-import LobbyScene from "./LobbyScene.tsx";
-import QuizScene from "./QuizScene.tsx";
-import LeaderboardScene from "./LeaderboardScene.tsx";
+import { useLocation } from "react-router-dom";
+import { useGameStore } from "@/game/store/gameStore";
+import { useGameManager } from "@/game/hooks/useGameManager";
+import { getWebSocketService } from "@/game/services/WebSocketService";
+import LobbyScene from "./LobbyScene";
+import QuizScene from "./QuizScene";
+import LeaderboardScene from "./LeaderboardScene";
 import FloatingShapes from "@/components/immersive/FloatingShapes";
 import JoinWithPin from "../play/JoinWithPin";
 
@@ -20,95 +21,47 @@ const sceneComponents = {
 };
 
 export default function ImmersiveCanvas() {
-  const { gameState, setGameState } = useGameStore();
-  const { isConnected, error, lastMessage } = useWebSocketService();
-  const [currentScene, setCurrentScene] = useState(gameState.scene);
+  // Initialize game system (WebSocket + Game Manager)
+  useGameManager();
+
+  // Game State
+  const currentScene = useGameStore((state) => state.currentScene);
+  const error = useGameStore((state) => state.error);
+
+  // Local UI State
   const [isExiting, setIsExiting] = useState(false);
+  const [displayScene, setDisplayScene] = useState(currentScene);
 
-  // Get URL parameters to determine initial state
-  const params = useParams();
+  // WebSocket connection status
+  const wsService = getWebSocketService();
+  const [isConnected, setIsConnected] = useState(wsService.isConnected());
+
+  // Location for route detection
   const location = useLocation();
-  const navigate = useNavigate();
-  const [searchParams] = useSearchParams();
 
+  // Monitor WebSocket connection status
   useEffect(() => {
-    // Handle join route - show JoinWithPin component
-    if (location.pathname.includes("/join")) {
-      setCurrentScene("join");
-      return;
-    }
+    const unsubscribe = wsService.onStatusChange((status) => {
+      setIsConnected(status === 'connected');
+    });
 
-    // Determine initial scene based on URL
-    let initialScene = "lobby";
+    return unsubscribe;
+  }, [wsService]);
 
-    if (location.pathname.includes("/quiz/")) {
-      initialScene = "quiz";
-    } else if (location.pathname.includes("/leaderboard/")) {
-      initialScene = "leaderboard";
-    } else if (location.pathname.includes("/host/")) {
-      initialScene = "lobby";
-    } else if (location.pathname.includes("/room/")) {
-      initialScene = "lobby";
-    }
-
-    // Update game state based on URL
-    setGameState((prev) => ({
-      ...prev,
-      scene: initialScene,
-      roomId: params.roomId || params.sessionId || null,
-    }));
-
-    setCurrentScene(initialScene);
-  }, [location.pathname, params, setGameState]);
-
+  // Handle scene transitions with animation
   useEffect(() => {
-    if (gameState.scene !== currentScene) {
+    if (currentScene !== displayScene) {
       setIsExiting(true);
       setTimeout(() => {
-        setCurrentScene(gameState.scene);
+        setDisplayScene(currentScene);
         setIsExiting(false);
       }, 500); // Match CSS animation duration
     }
-  }, [gameState.scene, currentScene]);
+  }, [currentScene, displayScene]);
 
-  // Handle WebSocket messages
-  useEffect(() => {
-    if (lastMessage) {
-      handleWebSocketMessage(lastMessage);
-    }
-  }, [lastMessage]);
+  const CurrentSceneComponent = sceneComponents[displayScene];
 
-  const handleWebSocketMessage = (message: any) => {
-    switch (message.type) {
-      case "room:update":
-        // Update room state
-        break;
-      case "quiz:start":
-        setGameState((prev) => ({ ...prev, scene: "quiz" }));
-        break;
-      case "quiz:end":
-        setGameState((prev) => ({ ...prev, scene: "leaderboard" }));
-        break;
-      case "user:join":
-      case "user:leave":
-        // Update player list
-        break;
-      case "score:update":
-        // Update scores
-        break;
-      default:
-        break;
-    }
-  };
-
-  // Handle join scene separately
-  if (currentScene === "join") {
-    return <JoinWithPin />;
-  }
-
-  const CurrentSceneComponent = sceneComponents[currentScene];
-
-  // Show connection status
+  // Show connection status while connecting
   if (!isConnected) {
     return (
       <div className="min-h-screen bg-gray-900 text-white font-sans flex items-center justify-center">
@@ -126,14 +79,30 @@ export default function ImmersiveCanvas() {
       <FloatingShapes />
 
       {/* Connection Status Indicator */}
-      <div className="absolute top-4 right-4 z-20">
+      <div className="absolute top-4 left-4 z-20 flex items-center gap-2">
         <div
-          className={`w-3 h-3 rounded-full ${isConnected ? "bg-green-500" : "bg-red-500"}`}></div>
+          className={`w-3 h-3 rounded-full ${
+            isConnected ? "bg-green-500" : "bg-red-500"
+          }`}
+        />
+        <span className="text-xs text-gray-400">
+          {isConnected ? "Connected" : "Disconnected"}
+        </span>
       </div>
 
+      {/* Error Display */}
+      {error && (
+        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20 bg-red-500/90 text-white px-4 py-2 rounded-lg shadow-lg">
+          {error}
+        </div>
+      )}
+
+      {/* Current Scene */}
       <div
-        key={currentScene} // Force re-render on scene change to trigger animation
-        className={`relative z-10 ${isExiting ? "animate-fade-out" : "animate-fade-in"}`}>
+        key={displayScene}
+        className={`relative z-10 ${
+          isExiting ? "animate-fade-out" : "animate-fade-in"
+        }`}>
         <CurrentSceneComponent />
       </div>
     </div>

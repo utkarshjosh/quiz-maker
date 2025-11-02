@@ -1,6 +1,5 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { useAuth } from "@/auth/AuthContext";
-import { useAuthRefresh } from "@/hooks/useAuthRefresh";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -22,52 +21,18 @@ import {
   Loader2,
   ExternalLink,
 } from "lucide-react";
-import { userService, type UserProfile } from "@/lib/services/userService";
+import { userService } from "@/lib/services/userService";
 import { useToast } from "@/hooks/use-toast";
 
 const Profile = () => {
-  const { user } = useAuth();
-  const {
-    isAuthenticated: refreshAuth,
-    user: refreshUser,
-    isLoading: refreshLoading,
-    error: refreshError,
-    authenticatedRequest,
-  } = useAuthRefresh();
+  const { user, isLoading: authLoading } = useAuth();
   const { toast } = useToast();
   const [isLoading, setIsLoading] = useState(false);
-  const [profileData, setProfileData] = useState<UserProfile | null>(null);
-
-  const loadProfile = useCallback(async () => {
-    try {
-      setIsLoading(true);
-
-      // Use the new auth refresh service to make the API call
-      const response = await authenticatedRequest(
-        "http://localhost:3000/api/v1/development/users/me"
-      );
-      const data = await response.json();
-
-      if (response.ok && data.user) {
-        setProfileData(data.user);
-      } else {
-        throw new Error(data.message || "Failed to load profile");
-      }
-    } catch (error) {
-      console.error("Error loading profile:", error);
-      toast({
-        title: "Error",
-        description: "Failed to load profile data",
-        variant: "destructive",
-      });
-    } finally {
-      setIsLoading(false);
-    }
-  }, [toast, authenticatedRequest]);
 
   useEffect(() => {
-    loadProfile();
-  }, [loadProfile]);
+    // Profile data comes from useAuth, no separate loading needed
+    setIsLoading(false);
+  }, [user]);
 
   const getInitials = (name?: string, email?: string) => {
     if (name) {
@@ -84,7 +49,7 @@ const Profile = () => {
     return "U";
   };
 
-  if (isLoading && !profileData) {
+  if (authLoading || isLoading) {
     return (
       <div className="flex items-center justify-center min-h-screen">
         <div className="flex items-center gap-2">
@@ -95,7 +60,7 @@ const Profile = () => {
     );
   }
 
-  const displayUser = profileData || refreshUser || user;
+  const displayUser = user;
 
   return (
     <div className="container mx-auto px-4 py-8 max-w-4xl">
@@ -106,31 +71,6 @@ const Profile = () => {
           <p className="text-gray-600 mt-2">
             Manage your account and preferences
           </p>
-
-          {/* Debug Info */}
-          <div className="mt-4 p-4 bg-gray-100 rounded-lg text-sm">
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <strong>Old Auth:</strong> {user ? "✅" : "❌"}
-              </div>
-              <div>
-                <strong>Refresh Auth:</strong> {refreshAuth ? "✅" : "❌"}
-              </div>
-              <div>
-                <strong>Access Token:</strong>{" "}
-                {document.cookie.includes("access_token") ? "✅" : "❌"}
-              </div>
-              <div>
-                <strong>App Session:</strong>{" "}
-                {document.cookie.includes("appSession") ? "✅" : "❌"}
-              </div>
-            </div>
-            {refreshError && (
-              <div className="mt-2 text-red-600">
-                <strong>Error:</strong> {refreshError}
-              </div>
-            )}
-          </div>
         </div>
 
         {/* Profile Card */}

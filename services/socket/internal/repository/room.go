@@ -26,7 +26,7 @@ func NewRoomRepository(db *sql.DB, logger *zap.Logger) *RoomRepository {
 }
 
 // CreateRoom creates a new quiz room in the database
-func (r *RoomRepository) CreateRoom(hostID, quizID string, settings models.RoomSettings) (*models.QuizRoom, error) {
+func (r *RoomRepository) CreateRoom(hostID, quizID, hostDisplayName string, settings models.RoomSettings) (*models.QuizRoom, error) {
 	// Generate unique PIN
 	pin, err := r.generateUniquePIN()
 	if err != nil {
@@ -54,8 +54,8 @@ func (r *RoomRepository) CreateRoom(hostID, quizID string, settings models.RoomS
 		return nil, fmt.Errorf("failed to create room: %w", err)
 	}
 
-	// Add host as a member
-	err = r.AddMember(room.ID, hostID, "Host User", "host")
+	// Add host as a member with their actual display name
+	err = r.AddMember(room.ID, hostID, hostDisplayName, "host")
 	if err != nil {
 		// If adding host fails, clean up the room
 		r.DeleteRoom(room.ID)
@@ -65,7 +65,8 @@ func (r *RoomRepository) CreateRoom(hostID, quizID string, settings models.RoomS
 	r.logger.Info("Room created successfully", 
 		zap.String("room_id", room.ID),
 		zap.String("pin", room.PIN),
-		zap.String("host_id", hostID))
+		zap.String("host_id", hostID),
+		zap.String("host_display_name", hostDisplayName))
 
 	return room, nil
 }
@@ -132,10 +133,34 @@ func (r *RoomRepository) UpdateRoomStatus(roomID, status string) error {
 
 // AddMember adds a member to a room
 func (r *RoomRepository) AddMember(roomID, userID, displayName, role string) error {
-	// First, get the user's picture data
+	// CRITICAL: Check if member already exists (cleanup from previous leave)
+	checkQuery := `SELECT id FROM quiz_room_members WHERE room_id = $1 AND user_id = $2`
+	var existingID string
+	err := r.db.QueryRow(checkQuery, roomID, userID).Scan(&existingID)
+	
+	if err == nil {
+		// Member exists from previous session - DELETE it first
+		r.logger.Info("Removing stale member record before re-adding",
+			zap.String("room_id", roomID),
+			zap.String("user_id", userID),
+			zap.String("existing_id", existingID))
+		
+		deleteQuery := `DELETE FROM quiz_room_members WHERE room_id = $1 AND user_id = $2`
+		_, delErr := r.db.Exec(deleteQuery, roomID, userID)
+		if delErr != nil {
+			return fmt.Errorf("failed to remove stale member: %w", delErr)
+		}
+	} else if err != sql.ErrNoRows {
+		// Real error (not just "no rows found")
+		r.logger.Error("Error checking existing member", zap.Error(err))
+		return fmt.Errorf("failed to check existing member: %w", err)
+	}
+	// If err == sql.ErrNoRows, member doesn't exist - continue with insert
+
+	// Get the user's picture data
 	var picture *string
 	userQuery := `SELECT picture FROM users WHERE id = $1`
-	err := r.db.QueryRow(userQuery, userID).Scan(&picture)
+	err = r.db.QueryRow(userQuery, userID).Scan(&picture)
 	if err != nil {
 		r.logger.Warn("Failed to get user picture, continuing without picture", 
 			zap.String("user_id", userID), 
@@ -162,6 +187,12 @@ func (r *RoomRepository) AddMember(roomID, userID, displayName, role string) err
 	if err != nil {
 		return fmt.Errorf("failed to add member: %w", err)
 	}
+
+	r.logger.Info("Member added to room successfully",
+		zap.String("room_id", roomID),
+		zap.String("user_id", userID),
+		zap.String("display_name", displayName),
+		zap.String("role", role))
 
 	return nil
 }
@@ -204,18 +235,96 @@ func (r *RoomRepository) GetRoomMembers(roomID string) ([]models.QuizRoomMember,
 
 // RemoveMember removes a member from a room
 func (r *RoomRepository) RemoveMember(roomID, userID, reason string) error {
+	// Option 1: Mark as left (keeps history)
+	// This is commented out because it causes duplicate key errors on rejoin
+	/*
 	query := `
 		UPDATE quiz_room_members 
 		SET left_at = $1, kick_reason = $2
 		WHERE room_id = $3 AND user_id = $4 AND left_at IS NULL
 	`
-
 	_, err := r.db.Exec(query, time.Now(), reason, roomID, userID)
+	*/
+
+	// Option 2: Actually DELETE the member (allows rejoining)
+	query := `
+		DELETE FROM quiz_room_members 
+		WHERE room_id = $1 AND user_id = $2
+	`
+
+	result, err := r.db.Exec(query, roomID, userID)
 	if err != nil {
 		return fmt.Errorf("failed to remove member: %w", err)
 	}
 
+	rowsAffected, _ := result.RowsAffected()
+	r.logger.Info("Member removed from room", 
+		zap.String("room_id", roomID),
+		zap.String("user_id", userID),
+		zap.String("reason", reason),
+		zap.Int64("rows_affected", rowsAffected))
+
 	return nil
+}
+
+// TransferHost transfers host role to the next member (FIFO)
+func (r *RoomRepository) TransferHost(roomID, oldHostID string) (newHostID string, err error) {
+	// Get all remaining members ordered by join time (FIFO)
+	members, err := r.GetRoomMembers(roomID)
+	if err != nil {
+		return "", fmt.Errorf("failed to get room members: %w", err)
+	}
+
+	// Find first non-host member (earliest joined)
+	var newHost *models.QuizRoomMember
+	for i := range members {
+		if members[i].UserID != oldHostID {
+			newHost = &members[i]
+			break
+		}
+	}
+
+	// No other members - room should close
+	if newHost == nil {
+		r.logger.Info("No remaining members to transfer host to, room will close",
+			zap.String("room_id", roomID),
+			zap.String("old_host_id", oldHostID))
+		return "", fmt.Errorf("no members available for host transfer")
+	}
+
+	r.logger.Info("Transferring host role",
+		zap.String("room_id", roomID),
+		zap.String("old_host_id", oldHostID),
+		zap.String("new_host_id", newHost.UserID),
+		zap.String("new_host_name", newHost.DisplayName))
+
+	// Update member's role to host
+	updateMemberQuery := `
+		UPDATE quiz_room_members 
+		SET role = 'host' 
+		WHERE room_id = $1 AND user_id = $2
+	`
+	_, err = r.db.Exec(updateMemberQuery, roomID, newHost.UserID)
+	if err != nil {
+		return "", fmt.Errorf("failed to update member role: %w", err)
+	}
+
+	// Update room's host_user_id
+	updateRoomQuery := `
+		UPDATE quiz_rooms 
+		SET host_user_id = $1 
+		WHERE id = $2
+	`
+	_, err = r.db.Exec(updateRoomQuery, newHost.UserID, roomID)
+	if err != nil {
+		return "", fmt.Errorf("failed to update room host: %w", err)
+	}
+
+	r.logger.Info("Host transferred successfully",
+		zap.String("room_id", roomID),
+		zap.String("new_host_id", newHost.UserID))
+
+	return newHost.UserID, nil
 }
 
 // DeleteRoom deletes a room and all its data

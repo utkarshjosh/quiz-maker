@@ -1,4 +1,5 @@
 import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { useCallback } from 'react';
 
 export type Player = {
   id: string;
@@ -43,9 +44,10 @@ export const useGameStore = () => {
     gcTime: Infinity,
   });
 
-  const setGameState = (updater: (oldState: GameState) => GameState) => {
+  // Memoize setGameState to prevent infinite re-renders
+  const setGameState = useCallback((updater: (oldState: GameState) => GameState) => {
     queryClient.setQueryData<GameState>(GAME_STATE_KEY, updater);
-  };
+  }, [queryClient]);
 
   return { gameState: gameState ?? defaultState, setGameState };
 };

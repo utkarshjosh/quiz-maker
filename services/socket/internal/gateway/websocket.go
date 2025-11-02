@@ -95,6 +95,11 @@ type WebSocketGateway struct {
 type Hub struct {
 	rooms      map[string]*room.Room
 	roomsMutex sync.RWMutex
+	
+	// Connection registry to track active WebSocket connections
+	connections      map[string]*WSConnection // userID -> connection
+	connectionsMutex sync.RWMutex
+	
 	logger     *zap.Logger
 }
 
@@ -148,8 +153,9 @@ func NewWebSocketGateway(authService auth.AuthServiceInterface, roomRepo *reposi
 	return &WebSocketGateway{
 		auth: authService,
 		hub: &Hub{
-			rooms:  make(map[string]*room.Room),
-			logger: logger.With(zap.String("component", "hub")),
+			rooms:       make(map[string]*room.Room),
+			connections: make(map[string]*WSConnection),
+			logger:      logger.With(zap.String("component", "hub")),
 		},
 		logger: logger.With(zap.String("component", "ws_gateway")),
 		roomRepo: roomRepo,
@@ -217,6 +223,10 @@ func (g *WebSocketGateway) HandleWebSocket(w http.ResponseWriter, r *http.Reques
 func (c *WSConnection) handle(ctx context.Context) {
 	// Create a new context that won't be cancelled
 	connCtx := context.Background()
+	
+	// Register connection with hub
+	c.gateway.hub.RegisterConnection(c)
+	c.logger.Info("Connection registered with hub")
 	
 	// Start send goroutine
 	go c.sendLoop(connCtx)
@@ -350,6 +360,9 @@ func (c *WSConnection) handleMessage(ctx context.Context, msg *protocol.Message)
 	case protocol.TypeCreateRoom:
 		c.logger.Info("Processing create room message")
 		c.handleCreateRoom(ctx, msg)
+	case protocol.TypeLeave:
+		c.logger.Info("Processing leave message")
+		c.handleLeave(ctx, msg)
 	case protocol.TypePong:
 		// Handle pong - just log for now
 		c.logger.Debug("Received pong message")
@@ -436,7 +449,14 @@ func (c *WSConnection) handleJoin(ctx context.Context, msg *protocol.Message) {
 		return
 	}
 	
+	// Send state to the joining user
 	c.sendMessage(ctx, responseMsg)
+
+	// CRITICAL: Broadcast updated state to ALL existing members in the room
+	c.logger.Info("Broadcasting state update to all room members after join")
+	if err := c.gateway.hub.BroadcastToRoomMembers(ctx, room.ID, responseMsg, c.roomRepo); err != nil {
+		c.logger.Error("Failed to broadcast state to room members", zap.Error(err))
+	}
 
 	c.logger.Info("Join request processed successfully", 
 		zap.String("room_id", room.ID),
@@ -483,8 +503,8 @@ func (c *WSConnection) handleCreateRoom(ctx context.Context, msg *protocol.Messa
 		zap.Bool("allow_reconnect", settings.AllowReconnect),
 		zap.Int("max_players", settings.MaxPlayers))
 
-	// Create room in database
-	dbRoom, err := c.roomRepo.CreateRoom(c.userID, createMsg.QuizID, settings)
+	// Create room in database with host's actual display name
+	dbRoom, err := c.roomRepo.CreateRoom(c.userID, createMsg.QuizID, c.user.Username, settings)
 	if err != nil {
 		c.logger.Error("Failed to create room", 
 			zap.Error(err),
@@ -537,6 +557,139 @@ func (c *WSConnection) handleCreateRoom(ctx context.Context, msg *protocol.Messa
 		zap.String("room_id", dbRoom.ID),
 		zap.String("pin", dbRoom.PIN),
 		zap.String("host_id", c.userID))
+}
+
+func (c *WSConnection) handleLeave(ctx context.Context, msg *protocol.Message) {
+	c.logger.Info("Processing leave request")
+
+	if c.room == nil {
+		c.logger.Warn("User not in a room")
+		c.sendError(protocol.ErrorCodeState, "Not in a room")
+		return
+	}
+
+	roomID := c.room.ID
+	isHost := c.userID == c.room.HostID
+	
+	c.logger.Info("User leaving room", 
+		zap.String("room_id", roomID),
+		zap.String("user_id", c.userID),
+		zap.Bool("is_host", isHost))
+
+	// Remove member from database
+	err := c.roomRepo.RemoveMember(roomID, c.userID, "user_left")
+	if err != nil {
+		c.logger.Error("Failed to remove member from room", 
+			zap.Error(err),
+			zap.String("room_id", roomID),
+			zap.String("user_id", c.userID))
+	}
+
+	// If host is leaving, transfer host role to next member
+	var newHostID string
+	if isHost {
+		c.logger.Info("Host is leaving, attempting to transfer host role",
+			zap.String("room_id", roomID),
+			zap.String("old_host_id", c.userID))
+
+		newHostID, err = c.roomRepo.TransferHost(roomID, c.userID)
+		if err != nil {
+			// No members left to transfer to - room will close
+			c.logger.Info("No remaining members for host transfer, closing room",
+				zap.String("room_id", roomID),
+				zap.Error(err))
+			
+			// Delete the room
+			if deleteErr := c.roomRepo.DeleteRoom(roomID); deleteErr != nil {
+				c.logger.Error("Failed to delete room after host left", zap.Error(deleteErr))
+			} else {
+				c.logger.Info("Room deleted after host left with no remaining members",
+					zap.String("room_id", roomID))
+			}
+		} else {
+			c.logger.Info("Host role transferred successfully",
+				zap.String("room_id", roomID),
+				zap.String("old_host_id", c.userID),
+				zap.String("new_host_id", newHostID))
+		}
+	}
+
+	// Broadcast to other members that this user left
+	leftData := protocol.LeftMessage{UserID: c.userID, Reason: "user_left"}
+	leftMsg, err := protocol.NewMessage(protocol.TypeLeft, leftData)
+	if err != nil {
+		c.logger.Error("Failed to create left message", zap.Error(err))
+		return
+	}
+
+	// Broadcast to all members in the room (except the leaving user)
+	if err := c.gateway.hub.BroadcastToRoomMembers(ctx, roomID, leftMsg, c.roomRepo); err != nil {
+		c.logger.Error("Failed to broadcast leave message", zap.Error(err))
+	}
+
+	// If host was transferred, send notifications to all remaining members
+	if newHostID != "" {
+		c.logger.Info("Broadcasting host transfer and updated state")
+		
+		// Get new host's display name for the message
+		members, err := c.roomRepo.GetRoomMembers(roomID)
+		var newHostName string
+		for _, member := range members {
+			if member.UserID == newHostID {
+				newHostName = member.DisplayName
+				break
+			}
+		}
+
+		// Send dedicated HOST_TRANSFER message
+		hostTransferData := protocol.HostTransferMessage{
+			OldHostID:   c.userID,
+			NewHostID:   newHostID,
+			NewHostName: newHostName,
+			RoomID:      roomID,
+		}
+		hostTransferMsg, err := protocol.NewMessage(protocol.TypeHostTransfer, hostTransferData)
+		if err != nil {
+			c.logger.Error("Failed to create host transfer message", zap.Error(err))
+		} else {
+			if err := c.gateway.hub.BroadcastToRoomMembers(ctx, roomID, hostTransferMsg, c.roomRepo); err != nil {
+				c.logger.Error("Failed to broadcast host transfer message", zap.Error(err))
+			} else {
+				c.logger.Info("Host transfer message broadcasted",
+					zap.String("new_host_id", newHostID),
+					zap.String("new_host_name", newHostName))
+			}
+		}
+		
+		// Also send updated STATE message with new host
+		room, err := c.roomRepo.GetRoomByID(roomID)
+		if err != nil {
+			c.logger.Error("Failed to get room for state update", zap.Error(err))
+		} else {
+			stateMsg, err := c.gateway.buildStateMessage(room, newHostID)
+			if err != nil {
+				c.logger.Error("Failed to build state message after host transfer", zap.Error(err))
+			} else {
+				if err := c.gateway.hub.BroadcastToRoomMembers(ctx, roomID, stateMsg, c.roomRepo); err != nil {
+					c.logger.Error("Failed to broadcast state after host transfer", zap.Error(err))
+				} else {
+					c.logger.Info("State message broadcasted after host transfer")
+				}
+			}
+		}
+	}
+
+	// Clear room from connection
+	c.room = nil
+
+	// Send confirmation to the leaving user
+	c.sendMessage(ctx, leftMsg)
+
+	c.logger.Info("User left room successfully", 
+		zap.String("room_id", roomID),
+		zap.String("user_id", c.userID),
+		zap.Bool("was_host", isHost),
+		zap.String("new_host_id", newHostID))
 }
 
 func (c *WSConnection) sendMessage(ctx context.Context, msg *protocol.Message) error {
@@ -618,6 +771,10 @@ func (c *WSConnection) Close() error {
 	c.closed = true
 	close(c.closeChan)
 	
+	// Unregister connection from hub
+	c.gateway.hub.UnregisterConnection(c.userID)
+	c.logger.Info("Connection unregistered from hub")
+	
 	// Remove from room if connected
 	if c.room != nil {
 		c.room.RemoveMember(c.userID, "disconnected")
@@ -669,6 +826,74 @@ func (h *Hub) GetRoomByPIN(pin string) (*room.Room, bool) {
 
 func (g *WebSocketGateway) GetHub() *Hub {
 	return g.hub
+}
+
+// Connection registry methods
+func (h *Hub) RegisterConnection(conn *WSConnection) {
+	h.connectionsMutex.Lock()
+	defer h.connectionsMutex.Unlock()
+	
+	h.connections[conn.userID] = conn
+	h.logger.Info("Connection registered", 
+		zap.String("user_id", conn.userID),
+		zap.Int("total_connections", len(h.connections)))
+}
+
+func (h *Hub) UnregisterConnection(userID string) {
+	h.connectionsMutex.Lock()
+	defer h.connectionsMutex.Unlock()
+	
+	delete(h.connections, userID)
+	h.logger.Info("Connection unregistered", 
+		zap.String("user_id", userID),
+		zap.Int("total_connections", len(h.connections)))
+}
+
+func (h *Hub) GetConnection(userID string) (*WSConnection, bool) {
+	h.connectionsMutex.RLock()
+	defer h.connectionsMutex.RUnlock()
+	
+	conn, exists := h.connections[userID]
+	return conn, exists
+}
+
+// BroadcastToRoomMembers sends a message to all members of a room
+func (h *Hub) BroadcastToRoomMembers(ctx context.Context, roomID string, msg *protocol.Message, roomRepo *repository.RoomRepository) error {
+	// Get all members from database
+	members, err := roomRepo.GetRoomMembers(roomID)
+	if err != nil {
+		h.logger.Error("Failed to get room members for broadcast", 
+			zap.Error(err),
+			zap.String("room_id", roomID))
+		return err
+	}
+	
+	h.connectionsMutex.RLock()
+	defer h.connectionsMutex.RUnlock()
+	
+	sentCount := 0
+	for _, member := range members {
+		if conn, exists := h.connections[member.UserID]; exists {
+			if err := conn.Send(msg); err != nil {
+				h.logger.Warn("Failed to send message to member", 
+					zap.String("user_id", member.UserID),
+					zap.Error(err))
+			} else {
+				sentCount++
+			}
+		} else {
+			h.logger.Debug("Member not connected", 
+				zap.String("user_id", member.UserID))
+		}
+	}
+	
+	h.logger.Info("Broadcasted message to room members", 
+		zap.String("room_id", roomID),
+		zap.String("msg_type", msg.Type),
+		zap.Int("total_members", len(members)),
+		zap.Int("sent_to", sentCount))
+	
+	return nil
 }
 
 // parseRoomSettings parses room settings from the request with defaults
