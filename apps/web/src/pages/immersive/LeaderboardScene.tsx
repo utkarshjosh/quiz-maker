@@ -1,208 +1,272 @@
-import React, { useEffect, useState } from "react";
-import { useGameStore } from "@/hooks/immersive/useGameStore";
-import { useSound } from "@/hooks/immersive/useSound";
-import { useWebSocketService } from "@/services/websocket";
+/**
+ * Leaderboard Scene - Final results after quiz completion
+ * Shows podium for top 3 and full rankings
+ */
+import React, { useEffect, useMemo, useState } from "react";
+import { useGameStore } from "@/game/store/gameStore";
+import { useGameActions } from "@/game/hooks/useGameManager";
 import { useNavigate } from "react-router-dom";
+import Confetti from "react-confetti";
+import { Trophy, Medal, Award, Home } from "lucide-react";
 
-const podiumStyles = [
-  { color: "gold", size: "w-32 h-32", order: "order-2" },
-  { color: "silver", size: "w-28 h-28", order: "order-1" },
-  { color: "#cd7f32", size: "w-24 h-24", order: "order-3" }, // Bronze
-];
+const formatPercentage = (value?: number) => {
+  if (typeof value !== "number" || Number.isNaN(value)) {
+    return "—";
+  }
+  return `${value.toFixed(1)}%`;
+};
+
+const formatDuration = (ms?: number) => {
+  if (typeof ms !== "number" || !Number.isFinite(ms) || ms <= 0) {
+    return "—";
+  }
+  const totalSeconds = Math.floor(ms / 1000);
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+
+  if (hours > 0) {
+    return `${hours}h ${minutes}m`;
+  }
+  if (minutes > 0) {
+    return `${minutes}m ${seconds}s`;
+  }
+  return `${seconds}s`;
+};
 
 export default function LeaderboardScene() {
-  const { gameState, setGameState } = useGameStore();
-  const { playSound } = useSound();
-  const { isConnected } = useWebSocketService();
+  const players = useGameStore((state) => state.players);
+  const finalLeaderboard = useGameStore((state) => state.finalLeaderboard);
+  const quizStats = useGameStore((state) => state.quizStats);
+  const currentPlayerId = useGameStore((state) => state.currentPlayerId);
+  const totalQuestionsFallback = useGameStore((state) => state.totalQuestions);
+  const { leaveRoom } = useGameActions();
   const navigate = useNavigate();
 
-  const [sortedPlayers, setSortedPlayers] = useState(
-    [...gameState.players].sort((a, b) => b.score - a.score)
-  );
   const [showConfetti, setShowConfetti] = useState(false);
 
-  // Update sorted players when game state changes
-  useEffect(() => {
-    setSortedPlayers([...gameState.players].sort((a, b) => b.score - a.score));
-  }, [gameState.players]);
-
-  // Show confetti for top 3 players
-  useEffect(() => {
-    if (sortedPlayers.length > 0) {
-      setShowConfetti(true);
-      const timer = setTimeout(() => setShowConfetti(false), 3000);
-      return () => clearTimeout(timer);
+  const leaderboardEntries = useMemo(() => {
+    if (finalLeaderboard.length > 0) {
+      return finalLeaderboard;
     }
-  }, [sortedPlayers]);
 
-  const podiumPlayers = sortedPlayers.slice(0, 3);
-  const otherPlayers = sortedPlayers.slice(3);
-
-  const handlePlayAgain = () => {
-    playSound("click.mp3");
-
-    // Reset game state
-    setGameState((state) => ({
-      ...state,
-      scene: "lobby",
-      players: [],
-      currentQuestionIndex: 0,
-      roomId: null,
+    const sortedPlayers = [...players].sort((a, b) => b.score - a.score);
+    return sortedPlayers.map((player, index) => ({
+      userId: player.id,
+      displayName: player.name,
+      score: player.score,
+      rank: index + 1,
+      correctAnswers: player.streak ?? 0,
+      totalAnswered: 0,
     }));
+  }, [finalLeaderboard, players]);
 
-    // Navigate back to lobby
-    navigate("/play");
-  };
+  useEffect(() => {
+    let timeout: number | undefined;
 
-  const handleNewGame = () => {
-    playSound("click.mp3");
+    if (currentPlayerId) {
+      const playerRank = leaderboardEntries.findIndex(
+        (entry) => entry.userId === currentPlayerId
+      );
 
-    // Reset game state
-    setGameState((state) => ({
-      ...state,
-      scene: "lobby",
-      players: [],
-      currentQuestionIndex: 0,
-      roomId: null,
-    }));
+      if (playerRank >= 0 && playerRank < 3) {
+        setShowConfetti(true);
+        timeout = window.setTimeout(() => setShowConfetti(false), 8000);
+      } else {
+        setShowConfetti(false);
+      }
+    } else {
+      setShowConfetti(false);
+    }
 
-    // Navigate to host page
-    navigate("/play/host/default-quiz");
-  };
+    return () => {
+      if (timeout !== undefined) {
+        window.clearTimeout(timeout);
+      }
+    };
+  }, [currentPlayerId, leaderboardEntries]);
 
   const handleExit = () => {
-    playSound("click.mp3");
-
-    // Reset game state
-    setGameState((state) => ({
-      ...state,
-      scene: "lobby",
-      players: [],
-      currentQuestionIndex: 0,
-      roomId: null,
-    }));
-
-    // Navigate to home
-    navigate("/");
+    leaveRoom();
+    navigate("/immersive");
   };
 
+  const topThree = leaderboardEntries.slice(0, 3);
+  const restOfPlayers = leaderboardEntries.slice(3);
+  const hasDetailedStats = finalLeaderboard.length > 0;
+
+  const totalQuestions =
+    quizStats?.totalQuestions ?? (totalQuestionsFallback > 0 ? totalQuestionsFallback : 0);
+  const totalParticipants = quizStats?.totalParticipants ?? leaderboardEntries.length;
+  const averageScoreValue =
+    quizStats?.averageScore ??
+    (leaderboardEntries.length
+      ? leaderboardEntries.reduce((sum, entry) => sum + entry.score, 0) /
+        leaderboardEntries.length
+      : 0);
+  const completionRate = quizStats?.completionRate;
+  const durationDisplay = formatDuration(quizStats?.durationMs);
+
+  const averageScoreDisplay = Number.isFinite(averageScoreValue)
+    ? Math.round(averageScoreValue)
+    : "—";
+  const totalQuestionsDisplay = totalQuestions > 0 ? totalQuestions : "—";
+  const totalParticipantsDisplay = totalParticipants > 0 ? totalParticipants : "—";
+
   return (
-    <div className="min-h-screen w-screen flex flex-col items-center justify-center p-8 text-center">
+    <div className="h-screen w-screen flex flex-col items-center p-8 gap-8 overflow-y-auto">
       {showConfetti && (
-        <div className="fixed inset-0 pointer-events-none">
-          {/* Simple confetti effect */}
-          {[...Array(50)].map((_, i) => (
-            <div
-              key={i}
-              className="absolute w-2 h-2 bg-yellow-400 animate-bounce"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 2}s`,
-                animationDuration: `${1 + Math.random() * 2}s`,
-              }}
-            />
-          ))}
-        </div>
+        <Confetti width={window.innerWidth} height={window.innerHeight} />
       )}
 
-      <h1 className="text-6xl font-bold text-white mb-8 animate-pulse">
-        Final Results
-      </h1>
-
-      {/* Winner Announcement */}
-      {podiumPlayers.length > 0 && (
-        <div className="mb-8">
-          <h2 className="text-3xl font-bold text-yellow-400 mb-2">
-            🏆 {podiumPlayers[0]?.name} Wins! 🏆
-          </h2>
-          <p className="text-xl text-gray-300">
-            Final Score: {podiumPlayers[0]?.score} points
-          </p>
-        </div>
-      )}
-
-      {/* Podium */}
-      <div className="flex items-end justify-center gap-4 mb-12">
-        {podiumPlayers.map((player, index) => (
-          <div
-            key={player.id}
-            className={`flex flex-col items-center ${podiumStyles[index].order}`}>
-            <p
-              className="text-2xl font-bold"
-              style={{ color: podiumStyles[index].color }}>
-              {index + 1}
-            </p>
-            <img
-              src={player.avatar}
-              alt={player.name}
-              className={`${podiumStyles[index].size} rounded-full border-4 mb-2 transition-transform hover:scale-110`}
-              style={{ borderColor: podiumStyles[index].color }}
-            />
-            <p className="font-semibold text-xl text-white">{player.name}</p>
-            <p className="text-lg" style={{ color: podiumStyles[index].color }}>
-              {player.score} pts
-            </p>
-          </div>
-        ))}
+      {/* Title */}
+      <div className="text-center">
+        <h1 className="text-5xl font-bold mb-2">Quiz Complete!</h1>
+        <p className="text-xl opacity-80">Final Results</p>
       </div>
 
-      {/* Other Players */}
-      {otherPlayers.length > 0 && (
-        <div className="w-full max-w-md bg-black/30 backdrop-blur-md rounded-2xl p-4 mb-8">
-          <h3 className="text-xl font-semibold text-gray-300 mb-4">
-            Other Participants
-          </h3>
-          {otherPlayers.map((player, index) => (
-            <div
-              key={player.id}
-              className="flex items-center justify-between p-2 border-b border-white/10 last:border-b-0">
-              <div className="flex items-center gap-4">
-                <span className="font-bold text-lg text-gray-400">
-                  {index + 4}
-                </span>
-                <img
-                  src={player.avatar}
-                  alt={player.name}
-                  className="w-12 h-12 rounded-full"
-                />
-                <p className="font-semibold text-white">{player.name}</p>
+      {/* Stats Summary */}
+      <div className="w-full max-w-4xl">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="bg-black/20 rounded-lg p-4 text-center">
+            <div className="text-xs uppercase tracking-wide opacity-60">Questions</div>
+            <div className="text-2xl font-semibold mt-1">{totalQuestionsDisplay}</div>
+          </div>
+          <div className="bg-black/20 rounded-lg p-4 text-center">
+            <div className="text-xs uppercase tracking-wide opacity-60">Players</div>
+            <div className="text-2xl font-semibold mt-1">{totalParticipantsDisplay}</div>
+          </div>
+          <div className="bg-black/20 rounded-lg p-4 text-center">
+            <div className="text-xs uppercase tracking-wide opacity-60">Average Score</div>
+            <div className="text-2xl font-semibold mt-1">{averageScoreDisplay}</div>
+          </div>
+          <div className="bg-black/20 rounded-lg p-4 text-center">
+            <div className="text-xs uppercase tracking-wide opacity-60">Completion Rate</div>
+            <div className="text-2xl font-semibold mt-1">{formatPercentage(completionRate)}</div>
+          </div>
+        </div>
+        <p className="text-center text-xs opacity-60 mt-3">
+          Session duration {durationDisplay}
+        </p>
+      </div>
+
+      {/* Podium Display - Top 3 */}
+      {topThree.length > 0 && (
+        <div className="w-full max-w-4xl">
+          <div className="flex items-end justify-center gap-4 h-80">
+            {/* 2nd Place */}
+            {topThree[1] && (
+              <div className="flex flex-col items-center gap-2 flex-1">
+                <div className="text-center mb-2">
+                  <Medal size={36} className="text-gray-300" />
+                  <div className="font-semibold text-lg mt-1">
+                    {topThree[1].displayName}
+                  </div>
+                  <div className="text-3xl font-bold text-gray-300">
+                    {topThree[1].score}
+                  </div>
+                  {hasDetailedStats && (
+                    <div className="text-xs opacity-70 mt-1">
+                      {topThree[1].correctAnswers} correct • {topThree[1].totalAnswered} answered
+                    </div>
+                  )}
+                </div>
+                <div className="h-48 bg-gradient-to-t from-gray-500 to-gray-300 w-full rounded-t-lg flex items-center justify-center text-4xl font-bold text-white">
+                  2
+                </div>
               </div>
-              <p className="font-bold text-lg text-white">{player.score} pts</p>
-            </div>
-          ))}
+            )}
+
+            {/* 1st Place */}
+            {topThree[0] && (
+              <div className="flex flex-col items-center gap-2 flex-1">
+                <div className="text-center mb-2">
+                  <Trophy size={40} className="text-yellow-300" />
+                  <div className="font-bold text-xl mt-1">
+                    {topThree[0].displayName}
+                  </div>
+                  <div className="text-4xl font-bold text-yellow-300">
+                    {topThree[0].score}
+                  </div>
+                  {hasDetailedStats && (
+                    <div className="text-xs opacity-70 mt-1">
+                      {topThree[0].correctAnswers} correct • {topThree[0].totalAnswered} answered
+                    </div>
+                  )}
+                </div>
+                <div className="h-64 bg-gradient-to-t from-yellow-600 to-yellow-400 w-full rounded-t-lg flex items-center justify-center text-5xl font-bold text-white shadow-2xl">
+                  1
+                </div>
+              </div>
+            )}
+
+            {/* 3rd Place */}
+            {topThree[2] && (
+              <div className="flex flex-col items-center gap-2 flex-1">
+                <div className="text-center mb-2">
+                  <Award size={32} className="text-orange-400" />
+                  <div className="font-semibold text-lg mt-1">
+                    {topThree[2].displayName}
+                  </div>
+                  <div className="text-2xl font-bold text-orange-400">
+                    {topThree[2].score}
+                  </div>
+                  {hasDetailedStats && (
+                    <div className="text-xs opacity-70 mt-1">
+                      {topThree[2].correctAnswers} correct • {topThree[2].totalAnswered} answered
+                    </div>
+                  )}
+                </div>
+                <div className="h-40 bg-gradient-to-t from-orange-700 to-orange-500 w-full rounded-t-lg flex items-center justify-center text-3xl font-bold text-white">
+                  3
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Rest of Players */}
+      {restOfPlayers.length > 0 && (
+        <div className="w-full max-w-2xl">
+          <h3 className="text-xl font-semibold mb-4 text-center">Other Players</h3>
+          <div className="bg-black/20 rounded-lg p-4 space-y-2">
+            {restOfPlayers.map((player) => (
+              <div
+                key={player.userId}
+                className={`flex items-center justify-between p-3 rounded ${
+                  player.userId === currentPlayerId
+                    ? "bg-blue-500/30 border border-blue-400"
+                    : "hover:bg-white/5"
+                }`}
+              >
+                <div className="flex items-center gap-3">
+                  <span className="text-xl font-bold w-8">#{player.rank}</span>
+                  <div>
+                    <div className="font-semibold">{player.displayName}</div>
+                    {hasDetailedStats && (
+                      <div className="text-xs opacity-70">
+                        {player.correctAnswers} correct • {player.totalAnswered} answered
+                      </div>
+                    )}
+                  </div>
+                </div>
+                <div className="text-xl font-bold">{player.score}</div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
 
       {/* Action Buttons */}
-      <div className="flex gap-4 mt-8">
-        <button onClick={handlePlayAgain} className="btn btn-primary btn-lg">
-          Play Again
+      <div className="flex gap-4">
+        <button
+          onClick={handleExit}
+          className="btn btn-lg gap-2 bg-blue-600 hover:bg-blue-700"
+        >
+          <Home size={20} />
+          Exit to Lobby
         </button>
-        <button onClick={handleNewGame} className="btn btn-secondary btn-lg">
-          New Game
-        </button>
-        <button onClick={handleExit} className="btn btn-ghost btn-lg">
-          Exit
-        </button>
-      </div>
-
-      {/* Connection Status */}
-      {!isConnected && (
-        <div className="absolute bottom-4 left-4 bg-red-500/80 text-white px-3 py-1 rounded-full text-sm">
-          Disconnected
-        </div>
-      )}
-
-      {/* Game Stats */}
-      <div className="absolute top-4 left-4 bg-black/30 backdrop-blur-md rounded-lg p-3 text-left">
-        <p className="text-sm text-gray-300">
-          Total Players: {gameState.players.length}
-        </p>
-        <p className="text-sm text-gray-300">
-          Questions: {gameState.currentQuestionIndex}
-        </p>
-        <p className="text-sm text-gray-300">Room: {gameState.roomId}</p>
       </div>
     </div>
   );

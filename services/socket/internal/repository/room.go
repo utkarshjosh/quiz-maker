@@ -6,6 +6,7 @@ import (
 	"fmt"
 	mathrand "math/rand"
 	"strconv"
+	"strings"
 	"time"
 
 	"quiz-realtime-service/internal/models"
@@ -26,7 +27,7 @@ func NewRoomRepository(db *sql.DB, logger *zap.Logger) *RoomRepository {
 }
 
 // CreateRoom creates a new quiz room in the database
-func (r *RoomRepository) CreateRoom(hostID, quizID string, settings models.RoomSettings) (*models.QuizRoom, error) {
+func (r *RoomRepository) CreateRoom(hostID, quizID, hostDisplayName string, settings models.RoomSettings) (*models.QuizRoom, error) {
 	// Generate unique PIN
 	pin, err := r.generateUniquePIN()
 	if err != nil {
@@ -35,12 +36,12 @@ func (r *RoomRepository) CreateRoom(hostID, quizID string, settings models.RoomS
 
 	// Create room
 	room := &models.QuizRoom{
-		ID:       generateUUID(),
-		PIN:      pin,
-		HostID:   hostID,
-		QuizID:   quizID,
-		Status:   "lobby",
-		Settings: settings.ToJSONB(),
+		ID:        generateUUID(),
+		PIN:       pin,
+		HostID:    hostID,
+		QuizID:    quizID,
+		Status:    "lobby",
+		Settings:  settings.ToJSONB(),
 		CreatedAt: time.Now(),
 	}
 
@@ -54,18 +55,19 @@ func (r *RoomRepository) CreateRoom(hostID, quizID string, settings models.RoomS
 		return nil, fmt.Errorf("failed to create room: %w", err)
 	}
 
-	// Add host as a member
-	err = r.AddMember(room.ID, hostID, "Host User", "host")
+	// Add host as a member with their actual display name
+	err = r.AddMember(room.ID, hostID, hostDisplayName, "host")
 	if err != nil {
 		// If adding host fails, clean up the room
 		r.DeleteRoom(room.ID)
 		return nil, fmt.Errorf("failed to add host as member: %w", err)
 	}
 
-	r.logger.Info("Room created successfully", 
+	r.logger.Info("Room created successfully",
 		zap.String("room_id", room.ID),
 		zap.String("pin", room.PIN),
-		zap.String("host_id", hostID))
+		zap.String("host_id", hostID),
+		zap.String("host_display_name", hostDisplayName))
 
 	return room, nil
 }
@@ -121,7 +123,7 @@ func (r *RoomRepository) GetRoomByPIN(pin string) (*models.QuizRoom, error) {
 // UpdateRoomStatus updates the status of a room
 func (r *RoomRepository) UpdateRoomStatus(roomID, status string) error {
 	query := `UPDATE quiz_rooms SET status = $1 WHERE id = $2`
-	
+
 	_, err := r.db.Exec(query, status, roomID)
 	if err != nil {
 		return fmt.Errorf("failed to update room status: %w", err)
@@ -132,13 +134,37 @@ func (r *RoomRepository) UpdateRoomStatus(roomID, status string) error {
 
 // AddMember adds a member to a room
 func (r *RoomRepository) AddMember(roomID, userID, displayName, role string) error {
-	// First, get the user's picture data
+	// CRITICAL: Check if member already exists (cleanup from previous leave)
+	checkQuery := `SELECT id FROM quiz_room_members WHERE room_id = $1 AND user_id = $2`
+	var existingID string
+	err := r.db.QueryRow(checkQuery, roomID, userID).Scan(&existingID)
+
+	if err == nil {
+		// Member exists from previous session - DELETE it first
+		r.logger.Info("Removing stale member record before re-adding",
+			zap.String("room_id", roomID),
+			zap.String("user_id", userID),
+			zap.String("existing_id", existingID))
+
+		deleteQuery := `DELETE FROM quiz_room_members WHERE room_id = $1 AND user_id = $2`
+		_, delErr := r.db.Exec(deleteQuery, roomID, userID)
+		if delErr != nil {
+			return fmt.Errorf("failed to remove stale member: %w", delErr)
+		}
+	} else if err != sql.ErrNoRows {
+		// Real error (not just "no rows found")
+		r.logger.Error("Error checking existing member", zap.Error(err))
+		return fmt.Errorf("failed to check existing member: %w", err)
+	}
+	// If err == sql.ErrNoRows, member doesn't exist - continue with insert
+
+	// Get the user's picture data
 	var picture *string
 	userQuery := `SELECT picture FROM users WHERE id = $1`
-	err := r.db.QueryRow(userQuery, userID).Scan(&picture)
+	err = r.db.QueryRow(userQuery, userID).Scan(&picture)
 	if err != nil {
-		r.logger.Warn("Failed to get user picture, continuing without picture", 
-			zap.String("user_id", userID), 
+		r.logger.Warn("Failed to get user picture, continuing without picture",
+			zap.String("user_id", userID),
 			zap.Error(err))
 		// Continue without picture data
 	}
@@ -162,6 +188,12 @@ func (r *RoomRepository) AddMember(roomID, userID, displayName, role string) err
 	if err != nil {
 		return fmt.Errorf("failed to add member: %w", err)
 	}
+
+	r.logger.Info("Member added to room successfully",
+		zap.String("room_id", roomID),
+		zap.String("user_id", userID),
+		zap.String("display_name", displayName),
+		zap.String("role", role))
 
 	return nil
 }
@@ -204,18 +236,96 @@ func (r *RoomRepository) GetRoomMembers(roomID string) ([]models.QuizRoomMember,
 
 // RemoveMember removes a member from a room
 func (r *RoomRepository) RemoveMember(roomID, userID, reason string) error {
+	// Option 1: Mark as left (keeps history)
+	// This is commented out because it causes duplicate key errors on rejoin
+	/*
+		query := `
+			UPDATE quiz_room_members
+			SET left_at = $1, kick_reason = $2
+			WHERE room_id = $3 AND user_id = $4 AND left_at IS NULL
+		`
+		_, err := r.db.Exec(query, time.Now(), reason, roomID, userID)
+	*/
+
+	// Option 2: Actually DELETE the member (allows rejoining)
 	query := `
-		UPDATE quiz_room_members 
-		SET left_at = $1, kick_reason = $2
-		WHERE room_id = $3 AND user_id = $4 AND left_at IS NULL
+		DELETE FROM quiz_room_members 
+		WHERE room_id = $1 AND user_id = $2
 	`
 
-	_, err := r.db.Exec(query, time.Now(), reason, roomID, userID)
+	result, err := r.db.Exec(query, roomID, userID)
 	if err != nil {
 		return fmt.Errorf("failed to remove member: %w", err)
 	}
 
+	rowsAffected, _ := result.RowsAffected()
+	r.logger.Info("Member removed from room",
+		zap.String("room_id", roomID),
+		zap.String("user_id", userID),
+		zap.String("reason", reason),
+		zap.Int64("rows_affected", rowsAffected))
+
 	return nil
+}
+
+// TransferHost transfers host role to the next member (FIFO)
+func (r *RoomRepository) TransferHost(roomID, oldHostID string) (newHostID string, err error) {
+	// Get all remaining members ordered by join time (FIFO)
+	members, err := r.GetRoomMembers(roomID)
+	if err != nil {
+		return "", fmt.Errorf("failed to get room members: %w", err)
+	}
+
+	// Find first non-host member (earliest joined)
+	var newHost *models.QuizRoomMember
+	for i := range members {
+		if members[i].UserID != oldHostID {
+			newHost = &members[i]
+			break
+		}
+	}
+
+	// No other members - room should close
+	if newHost == nil {
+		r.logger.Info("No remaining members to transfer host to, room will close",
+			zap.String("room_id", roomID),
+			zap.String("old_host_id", oldHostID))
+		return "", fmt.Errorf("no members available for host transfer")
+	}
+
+	r.logger.Info("Transferring host role",
+		zap.String("room_id", roomID),
+		zap.String("old_host_id", oldHostID),
+		zap.String("new_host_id", newHost.UserID),
+		zap.String("new_host_name", newHost.DisplayName))
+
+	// Update member's role to host
+	updateMemberQuery := `
+		UPDATE quiz_room_members 
+		SET role = 'host' 
+		WHERE room_id = $1 AND user_id = $2
+	`
+	_, err = r.db.Exec(updateMemberQuery, roomID, newHost.UserID)
+	if err != nil {
+		return "", fmt.Errorf("failed to update member role: %w", err)
+	}
+
+	// Update room's host_user_id
+	updateRoomQuery := `
+		UPDATE quiz_rooms 
+		SET host_user_id = $1 
+		WHERE id = $2
+	`
+	_, err = r.db.Exec(updateRoomQuery, newHost.UserID, roomID)
+	if err != nil {
+		return "", fmt.Errorf("failed to update room host: %w", err)
+	}
+
+	r.logger.Info("Host transferred successfully",
+		zap.String("room_id", roomID),
+		zap.String("new_host_id", newHost.UserID))
+
+	return newHost.UserID, nil
 }
 
 // DeleteRoom deletes a room and all its data
@@ -282,43 +392,114 @@ func (r *RoomRepository) GetQuizQuestions(quizID string) ([]models.Question, err
 					question := models.Question{
 						Index: i,
 					}
-					
+
 					if questionText, ok := questionMap["question"].(string); ok {
 						question.QuestionText = questionText
 					}
-					
+
 					// Parse options array with id/text structure
+					optionIDToIndex := make(map[string]int)
 					if options, ok := questionMap["options"].([]interface{}); ok {
-						for _, opt := range options {
+						for idx, opt := range options {
 							if optMap, ok := opt.(map[string]interface{}); ok {
-								if text, ok := optMap["text"].(string); ok {
-									question.Options = append(question.Options, text)
+								text, _ := optMap["text"].(string)
+								if text == "" {
+									if label, ok := optMap["label"].(string); ok {
+										text = label
+									}
+								}
+
+								if text == "" {
+									continue
+								}
+
+								question.Options = append(question.Options, text)
+								currentIndex := len(question.Options) - 1
+
+								if id, ok := optMap["id"].(string); ok && id != "" {
+									optionIDToIndex[id] = currentIndex
+								}
+								optionIDToIndex[strconv.Itoa(idx)] = currentIndex
+								optionIDToIndex[strconv.Itoa(currentIndex)] = currentIndex
+								optionIDToIndex[strconv.Itoa(idx+1)] = currentIndex
+								if value, ok := optMap["value"].(string); ok && value != "" {
+									optionIDToIndex[value] = currentIndex
 								}
 							}
 						}
 					}
-					
-					// Parse correctAnswer (string) and convert to correctIndex
-					if correctAnswer, ok := questionMap["correctAnswer"].(string); ok {
-						question.CorrectAnswer = correctAnswer
-						// Convert string to int for correctIndex
-						if correctIndex, err := strconv.Atoi(correctAnswer); err == nil {
-							question.CorrectIndex = correctIndex
+
+					question.CorrectIndex = -1
+
+					// Parse possible correct index values provided directly
+					if idxVal, ok := questionMap["correctIndex"].(float64); ok {
+						question.CorrectIndex = int(idxVal)
+					}
+					if idxVal, ok := questionMap["correct_index"].(float64); ok && question.CorrectIndex == -1 {
+						question.CorrectIndex = int(idxVal)
+					}
+
+					// Parse correctAnswer (string/number) and convert to option text when possible
+					if correctAnswerRaw, exists := questionMap["correctAnswer"]; exists {
+						switch value := correctAnswerRaw.(type) {
+						case string:
+							question.CorrectAnswer = strings.TrimSpace(value)
+						case float64:
+							question.CorrectAnswer = strconv.Itoa(int(value))
+						case int:
+							question.CorrectAnswer = strconv.Itoa(value)
+						case int32:
+							question.CorrectAnswer = strconv.Itoa(int(value))
+						case int64:
+							question.CorrectAnswer = strconv.Itoa(int(value))
+						default:
+							question.CorrectAnswer = fmt.Sprintf("%v", value)
 						}
 					}
-					
+
+					// Resolve correct index from the raw answer if we haven't already
+					if question.CorrectIndex < 0 && question.CorrectAnswer != "" {
+						if idx, err := strconv.Atoi(question.CorrectAnswer); err == nil {
+							question.CorrectIndex = idx
+						} else if mappedIdx, ok := optionIDToIndex[question.CorrectAnswer]; ok {
+							question.CorrectIndex = mappedIdx
+						}
+					}
+
+					// Normalise 1-based indices if detected
+					if question.CorrectIndex >= len(question.Options) && len(question.Options) > 0 {
+						if question.CorrectIndex-1 >= 0 && question.CorrectIndex-1 < len(question.Options) {
+							question.CorrectIndex--
+						} else {
+							question.CorrectIndex = -1
+						}
+					}
+
+					// Normalise string answer to actual option text when index is known
+					if question.CorrectIndex >= 0 && question.CorrectIndex < len(question.Options) {
+						question.CorrectAnswer = question.Options[question.CorrectIndex]
+					} else if question.CorrectAnswer != "" {
+						for idx, option := range question.Options {
+							if strings.EqualFold(strings.TrimSpace(option), question.CorrectAnswer) {
+								question.CorrectIndex = idx
+								question.CorrectAnswer = option
+								break
+							}
+						}
+					}
+
 					if explanation, ok := questionMap["explanation"].(string); ok {
 						question.Explanation = explanation
 					}
-					
+
 					if questionType, ok := questionMap["type"].(string); ok {
 						question.Type = questionType
 					}
-					
+
 					if points, ok := questionMap["points"].(float64); ok {
 						question.Points = int(points)
 					}
-					
+
 					questions = append(questions, question)
 				}
 			}
@@ -331,34 +512,34 @@ func (r *RoomRepository) GetQuizQuestions(quizID string) ([]models.Question, err
 // generateUniquePIN generates a unique 6-digit PIN
 func (r *RoomRepository) generateUniquePIN() (string, error) {
 	const maxAttempts = 10
-	
+
 	for i := 0; i < maxAttempts; i++ {
 		pin := generatePIN()
-		
+
 		// Check if PIN already exists
 		exists, err := r.pinExists(pin)
 		if err != nil {
 			return "", err
 		}
-		
+
 		if !exists {
 			return pin, nil
 		}
 	}
-	
+
 	return "", fmt.Errorf("failed to generate unique PIN after %d attempts", maxAttempts)
 }
 
 // pinExists checks if a PIN already exists in the database
 func (r *RoomRepository) pinExists(pin string) (bool, error) {
 	query := `SELECT COUNT(*) FROM quiz_rooms WHERE pin = $1 AND closed_at IS NULL`
-	
+
 	var count int
 	err := r.db.QueryRow(query, pin).Scan(&count)
 	if err != nil {
 		return false, err
 	}
-	
+
 	return count > 0, nil
 }
 
@@ -373,11 +554,11 @@ func generateUUID() string {
 	// Generate a proper UUID v4
 	b := make([]byte, 16)
 	rand.Read(b)
-	
+
 	// Set version (4) and variant bits
 	b[6] = (b[6] & 0x0f) | 0x40 // Version 4
 	b[8] = (b[8] & 0x3f) | 0x80 // Variant bits
-	
-	return fmt.Sprintf("%x-%x-%x-%x-%x", 
+
+	return fmt.Sprintf("%x-%x-%x-%x-%x",
 		b[0:4], b[4:6], b[6:8], b[8:10], b[10:16])
 }

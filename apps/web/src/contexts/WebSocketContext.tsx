@@ -37,6 +37,8 @@ export interface WebSocketState {
   lastMessage: Message | null;
   isAuthenticated: boolean;
   userId: string | null;
+  currentRoomId: string | null;
+  currentRoomPin: string | null;
 }
 
 interface WebSocketContextType {
@@ -73,6 +75,8 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
   const [isConnecting, setIsConnecting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [lastMessage, setLastMessage] = useState<Message | null>(null);
+  const [currentRoomId, setCurrentRoomId] = useState<string | null>(null);
+  const [currentRoomPin, setCurrentRoomPin] = useState<string | null>(null);
 
   // Refs for stable values that don't trigger re-renders
   const wsRef = useRef<WebSocket | null>(null);
@@ -92,8 +96,10 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
       lastMessage,
       isAuthenticated: isAuthenticated && !!user,
       userId: user?.id || null,
+      currentRoomId,
+      currentRoomPin,
     }),
-    [isConnected, isConnecting, error, lastMessage, isAuthenticated, user]
+    [isConnected, isConnecting, error, lastMessage, isAuthenticated, user, currentRoomId, currentRoomPin]
   );
 
   const connect = useCallback(() => {
@@ -169,9 +175,57 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
             );
           };
 
+          // Set up client-side ping interval to keep connection alive
+          const pingInterval = setInterval(() => {
+            if (ws.readyState === WebSocket.OPEN) {
+              const pingMessage: Message = {
+                v: 1,
+                type: "ping",
+                msg_id: Math.random().toString(36).substr(2, 9),
+                data: { timestamp: Date.now() },
+              };
+              ws.send(JSON.stringify(pingMessage));
+              console.log("Client ping sent");
+            }
+          }, 25000); // Send ping every 25 seconds (well within 60s timeout)
+
           ws.onmessage = (event) => {
             try {
               const message: Message = JSON.parse(event.data);
+              
+              // Auto-respond to server ping messages with pong
+              if (message.type === "ping") {
+                const pongMessage: Message = {
+                  v: 1,
+                  type: "pong",
+                  msg_id: Math.random().toString(36).substr(2, 9),
+                  data: { timestamp: Date.now() },
+                };
+                const pongData = JSON.stringify(pongMessage);
+                ws.send(pongData);
+                console.log("Auto-responded to server ping with pong");
+              }
+              
+              // Track room state from state messages
+              if (message.type === "state") {
+                const stateData = message.data as StateMessage;
+                if (stateData.room_id && stateData.pin) {
+                  setCurrentRoomId(stateData.room_id);
+                  setCurrentRoomPin(stateData.pin);
+                  console.log("Room state updated:", { roomId: stateData.room_id, pin: stateData.pin });
+                }
+              }
+              
+              // Clear room state on leave or error
+              if (message.type === "error" || message.type === "leave") {
+                const errorData = message.data as ErrorMessage;
+                if (errorData?.code === "not_found" || message.type === "leave") {
+                  setCurrentRoomId(null);
+                  setCurrentRoomPin(null);
+                  console.log("Room state cleared");
+                }
+              }
+              
               setLastMessage(message);
             } catch (error) {
               console.error("Failed to parse WebSocket message:", error);
@@ -179,6 +233,9 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
           };
 
           ws.onclose = (event) => {
+            // Clear ping interval
+            clearInterval(pingInterval);
+            
             setIsConnected(false);
             setIsConnecting(false);
 
@@ -266,6 +323,8 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
     setIsConnected(false);
     setIsConnecting(false);
     setError(null);
+    setCurrentRoomId(null);
+    setCurrentRoomPin(null);
   }, []);
 
   const sendMessage = useCallback(
@@ -287,10 +346,17 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
   // Convenience methods for common message types
   const joinRoom = useCallback(
     (pin: string, displayName: string) => {
+      // Prevent duplicate joins if already in this room
+      if (currentRoomPin === pin) {
+        console.log("Already in room with PIN:", pin, "- skipping duplicate join");
+        return;
+      }
+      
+      console.log("Joining room with PIN:", pin);
       const message = createJoinMessage(pin, displayName);
       sendMessage(message);
     },
-    [sendMessage]
+    [sendMessage, currentRoomPin]
   );
 
   const sendAnswer = useCallback(
@@ -309,6 +375,8 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
   const leaveRoom = useCallback(() => {
     const message = createLeaveMessage();
     sendMessage(message);
+    setCurrentRoomId(null);
+    setCurrentRoomPin(null);
   }, [sendMessage]);
 
   const ping = useCallback(() => {
@@ -323,6 +391,8 @@ export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
     lastConnectAttempt.current = 0;
     shouldConnect.current = true;
     setError(null);
+    setCurrentRoomId(null);
+    setCurrentRoomPin(null);
   }, [disconnect]);
 
   // Handle authentication state changes

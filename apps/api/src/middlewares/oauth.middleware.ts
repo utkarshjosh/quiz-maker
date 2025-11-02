@@ -88,48 +88,87 @@ export class OAuthMiddleware {
       },
       // Handle successful callback
       afterCallback: async (req, res, session, state) => {
-        // Check if we have tokens in the session
         const accessToken = session?.access_token;
         const idToken = session?.id_token;
 
-        // If we have tokens, set JWT cookie
-        if (accessToken || idToken) {
-          try {
-            const tokenToUse = accessToken || idToken;
+        console.log('🔐 afterCallback triggered:', {
+          hasAccessToken: !!accessToken,
+          hasIdToken: !!idToken,
+          sessionKeys: session ? Object.keys(session) : [],
+        });
 
-            if (tokenToUse) {
-              // Set JWT cookie with the token
-              CookieService.setJWTCookie(res, tokenToUse);
+        // CRITICAL: Use id_token for cookie as it contains user profile data
+        // Access tokens typically only have sub/aud/scope, not email/name/picture
+        if (idToken || accessToken) {
+          const tokenToUse = idToken || accessToken; // Prefer id_token
+          if (tokenToUse) {
+            console.log(
+              '🍪 Setting JWT cookie with:',
+              idToken ? 'id_token' : 'access_token'
+            );
+            CookieService.setJWTCookie(res, tokenToUse);
+          }
 
-              // Keep the Auth0 session cookie for token refresh
-              // Don't clear it so we can refresh tokens later
-            }
+          // CRITICAL FIX: Decode the id_token to get user claims
+          // The session object doesn't have a 'claims' property - we need to decode the JWT
+          if (idToken) {
+            try {
+              const jwt = require('jsonwebtoken');
+              // Decode without verification (just to extract claims)
+              const decoded = jwt.decode(idToken) as any;
 
-            // Try to create/update user in database if we have user info
-            if (req.oidc?.user) {
-              try {
-                const userService = new UserService();
-                const auth0User = req.oidc.user;
-
-                const user = await userService.findOrCreateUser({
-                  sub: auth0User.sub,
-                  email: auth0User.email ?? '',
-                  name: auth0User.name,
-                  picture: auth0User.picture,
-                  email_verified: auth0User.email_verified ?? false,
+              if (decoded && decoded.sub) {
+                console.log('📝 Decoded user claims from id_token:', {
+                  sub: decoded.sub,
+                  email: decoded.email,
+                  name: decoded.name,
+                  picture: decoded.picture,
+                  email_verified: decoded.email_verified,
                 });
 
-                // User created/updated successfully
-              } catch (userError) {
-                // User creation failed, continue
+                const userService = new UserService();
+
+                const dbUser = await userService.findOrCreateUser({
+                  sub: decoded.sub,
+                  email: decoded.email ?? '',
+                  name: decoded.name,
+                  picture: decoded.picture,
+                  email_verified: decoded.email_verified ?? false,
+                });
+
+                console.log('✅ User created/updated successfully:', {
+                  id: dbUser.id,
+                  email: dbUser.email,
+                  auth0Id: dbUser.auth0Id,
+                });
+              } else {
+                console.error(
+                  '❌ ERROR: Could not decode user claims from id_token'
+                );
+                console.error('Decoded token:', decoded);
               }
+            } catch (error) {
+              console.error(
+                '❌ ERROR: Failed to decode id_token or create user:',
+                error
+              );
+              console.error(
+                'Error details:',
+                error instanceof Error ? error.message : error
+              );
             }
-          } catch (error) {
-            // Error in afterCallback, continue
+          } else {
+            console.warn(
+              '⚠️ WARNING: No id_token available, cannot create user in database'
+            );
+            console.warn(
+              'Only access_token available - user profile data not included'
+            );
           }
+        } else {
+          console.error('❌ ERROR: No access_token or id_token in session');
         }
 
-        // Don't redirect here, let the route handler do it
         return session;
       },
     };
@@ -227,8 +266,11 @@ export class OAuthMiddleware {
         req.user = userData;
 
         console.log('✅ JWT authentication successful:', {
-          user: userData.email,
           sub: userData.sub,
+          email: userData.email,
+          name: userData.name,
+          hasEmail: !!userData.email,
+          hasName: !!userData.name,
           exp: new Date(userData.exp * 1000).toISOString(),
         });
 
@@ -280,24 +322,6 @@ export class OAuthMiddleware {
         next();
       } catch (error) {
         console.error('Optional auth middleware error:', error);
-        next();
-      }
-    };
-  }
-
-  /**
-   * Clear JWT cookie on logout
-   */
-  public static logout() {
-    return (req: AuthenticatedRequest, res: Response, next: NextFunction) => {
-      try {
-        // Clear JWT cookie
-        CookieService.clearJWTCookie(res);
-
-        console.log('JWT cookie cleared on logout');
-        next();
-      } catch (error) {
-        console.error('Logout error:', error);
         next();
       }
     };

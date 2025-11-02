@@ -1,195 +1,182 @@
-import React, {
-  useEffect,
-  useMemo,
-  useState,
-  useCallback,
-  useRef,
-} from "react";
-import { QRCode } from "react-qrcode-logo";
-import { useParams, useLocation } from "react-router-dom";
-import { useGameStore, Player } from "@/hooks/immersive/useGameStore";
-import { useSound } from "@/hooks/immersive/useSound";
-import { useWebSocketService } from "@/services/websocket";
-import SettingsModal from "@/components/immersive/SettingsModal";
-import { createAvatar } from "@dicebear/core";
-import { avataaars } from "@dicebear/collection";
-import { useWebSocket } from "@/contexts/WebSocketContext";
-import { MessageType } from "@quiz-maker/ts";
-import type { StateMessage } from "@quiz-maker/ts";
+/**
+ * Lobby Scene - Refactored with clean architecture
+ * Unity-style: Scene component that uses centralized game state
+ */
 
-const generateAvatar = async (seed: string): Promise<string> => {
-  return createAvatar(avataaars, { seed }).toDataUri();
-};
+import React, { useEffect, useState, useRef } from "react";
+import { QRCode } from "react-qrcode-logo";
+import { useParams, useLocation, useNavigate } from "react-router-dom";
+import {
+  useGameStore,
+  useRoomPin,
+  usePlayers,
+  useIsHost,
+} from "@/game/store/gameStore";
+import { useGameActions } from "@/game/hooks/useGameManager";
+import SettingsModal from "@/components/immersive/SettingsModal";
+import PlayerCard from "@/components/immersive/PlayerCard";
+import {
+  getWebSocketService,
+  destroyWebSocketService,
+} from "@/game/services/WebSocketService";
+import { destroyGameManager } from "@/game/managers/GameManager";
 
 export default function LobbyScene() {
-  const { gameState, setGameState } = useGameStore();
-  const { playSound } = useSound();
-  const { createRoom, joinRoom, isConnected } = useWebSocketService();
-  const { state: wsState } = useWebSocket();
-  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
-  const [isHost, setIsHost] = useState(false);
-  const [roomPin, setRoomPin] = useState<string>("");
-  const [joinPin, setJoinPin] = useState<string>("");
-
-  // Get URL parameters
   const params = useParams();
   const location = useLocation();
+  const navigate = useNavigate();
 
-  // Track initialization to prevent multiple calls
+  // Game State (from Zustand)
+  const players = usePlayers();
+  const roomPin = useRoomPin();
+  const isHost = useIsHost(); // This is now dynamic - updates on host transfer!
+  const status = useGameStore((state) => state.status);
+  const room = useGameStore((state) => state.room);
+  const currentPlayerId = useGameStore((state) => state.currentPlayerId);
+
+  // Debug: Log when isHost changes (helps verify host transfer)
+  useEffect(() => {
+    console.log(
+      "LobbyScene: isHost status changed:",
+      isHost,
+      "currentPlayerId:",
+      currentPlayerId
+    );
+  }, [isHost, currentPlayerId]);
+
+  // Game Actions (includes sound methods)
+  const { createRoom, joinRoom, startQuiz, leaveRoom, playSound } =
+    useGameActions();
+
+  // Local UI State
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [joinPin, setJoinPin] = useState<string>("");
+
+  // WebSocket connection status
+  const wsService = getWebSocketService();
+  const [isConnected, setIsConnected] = useState(wsService.isConnected());
+
+  // Monitor WebSocket connection status
+  useEffect(() => {
+    const unsubscribe = wsService.onStatusChange((status) => {
+      setIsConnected(status === "connected");
+    });
+
+    return unsubscribe;
+  }, [wsService]);
+
+  // Track initialization to prevent multiple room creation
   const isInitializedRef = useRef(false);
-  const lastParamsRef = useRef<string>("");
-  const lastProcessedMessageRef = useRef<string>("");
+  const lastQuizIdRef = useRef<string>("");
+  const hasCreatedRoom = useRef(false);
 
-  // Listen for WebSocket state messages to update roomPin and game state
+  // Initialize lobby on mount
   useEffect(() => {
-    if (wsState.lastMessage && wsState.lastMessage.type === MessageType.STATE) {
-      const stateData = wsState.lastMessage.data as StateMessage;
+    const isHostUser =
+      location.pathname.includes("/host/") ||
+      location.pathname.includes("/play/host/");
 
-      // Prevent processing the same message multiple times
-      const messageId = wsState.lastMessage.msg_id;
-      if (lastProcessedMessageRef.current === messageId) {
-        return;
-      }
+    const quizId = params.quizId || "default-quiz";
+    const initKey = `${isHostUser}-${quizId}`;
 
-      if (stateData.pin) {
-        lastProcessedMessageRef.current = messageId;
-        setRoomPin(stateData.pin);
-        console.log("Room PIN updated from WebSocket:", stateData.pin);
-
-        // Update game state with room ID and members
-        setGameState((state) => ({
-          ...state,
-          roomId: stateData.room_id,
-          players: stateData.members.map((member) => ({
-            id: member.id,
-            name: member.display_name,
-            avatar: member.picture || "", // Use picture from WebSocket response
-            score: member.score,
-          })),
-        }));
-      }
+    // Prevent duplicate initialization
+    if (isInitializedRef.current && lastQuizIdRef.current === initKey) {
+      console.log("LobbyScene: Already initialized - skipping");
+      return;
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [wsState.lastMessage]);
 
-  // Initialize lobby state on mount
-  useEffect(() => {
-    const currentParams = `${location.pathname}-${params.quizId}-${params.roomId}-${params.sessionId}`;
-
-    // Only initialize if params changed or not yet initialized
-    if (isInitializedRef.current && lastParamsRef.current === currentParams) {
+    // Extra guard: prevent multiple room creations
+    if (isHostUser && hasCreatedRoom.current) {
+      console.log("LobbyScene: Room already created - skipping");
       return;
     }
 
     isInitializedRef.current = true;
-    lastParamsRef.current = currentParams;
+    lastQuizIdRef.current = initKey;
 
-    const initializeLobby = async () => {
-      // Determine if user is host or participant based on URL
-      const isHostUser =
-        location.pathname.includes("/host/") ||
-        location.pathname.includes("/play/host/");
-      setIsHost(isHostUser);
-
-      if (isHostUser) {
-        // Host: Create new room
-        const quizId = params.quizId || "default-quiz";
-
-        // Create room via WebSocket - PIN will be set from response
-        if (isConnected) {
-          createRoom(quizId, {
-            question_duration_ms: 30000, // 30 seconds
-            show_correctness: true,
-            show_leaderboard: true,
-            allow_reconnect: true,
-          });
-        }
-
-        const hostAvatar = await generateAvatar("host");
-        const hostPlayer: Player = {
-          id: "host",
-          name: "You (Host)",
-          avatar: hostAvatar,
-          score: 0,
-        };
-
-        setGameState((state) => ({
-          ...state,
-          scene: "lobby",
-          roomId: null, // Will be updated when we get the response
-          players: [hostPlayer],
-          currentQuestionIndex: 0,
-        }));
-      } else {
-        // Participant: Join existing room
-        const roomId = params.roomId || params.sessionId;
-        if (roomId) {
-          setRoomPin(roomId);
-          setJoinPin(roomId);
-
-          // Join room via WebSocket
-          if (isConnected) {
-            joinRoom(roomId, "Participant");
-          }
-        }
-
-        const playerAvatar = await generateAvatar("participant");
-        const player: Player = {
-          id: "participant",
-          name: "You",
-          avatar: playerAvatar,
-          score: 0,
-        };
-
-        setGameState((state) => ({
-          ...state,
-          scene: "lobby",
-          roomId,
-          players: [player],
-          currentQuestionIndex: 0,
-        }));
+    if (isHostUser) {
+      // Host: Create new room (only once!)
+      // Wait for connection to be established
+      if (!isConnected) {
+        console.log("LobbyScene: Waiting for connection before creating room");
+        return;
       }
-    };
 
-    if (isConnected) {
-      initializeLobby();
+      console.log("LobbyScene: Host creating room for quiz:", quizId);
+      hasCreatedRoom.current = true;
+
+      // Small delay to ensure GameManager is fully initialized
+      setTimeout(() => {
+        createRoom(quizId);
+      }, 100);
+    } else {
+      // Participant: Check for PIN in URL
+      const searchParams = new URLSearchParams(window.location.search);
+      const pinFromUrl = searchParams.get("pin");
+
+      if (pinFromUrl) {
+        setJoinPin(pinFromUrl);
+        console.log("LobbyScene: Found PIN in URL:", pinFromUrl);
+      }
     }
-  }, [
-    isConnected,
-    location.pathname,
-    params.quizId,
-    params.roomId,
-    params.sessionId,
-    createRoom,
-    joinRoom,
-    setGameState,
-  ]);
+  }, [location.pathname, params.quizId, createRoom, isConnected]);
 
-  const joinUrl = useMemo(() => {
-    return `${window.location.origin}/play/join?roomId=${roomPin}`;
+  // Update URL when room PIN is available
+  useEffect(() => {
+    if (roomPin) {
+      const url = new URL(window.location.href);
+      if (url.searchParams.get("pin") !== roomPin) {
+        url.searchParams.set("pin", roomPin);
+        window.history.replaceState({}, "", url.toString());
+      }
+    }
   }, [roomPin]);
 
-  const handleJoinRoom = useCallback(() => {
-    if (joinPin.trim()) {
-      if (isConnected) {
-        joinRoom(joinPin, "Participant");
-        setRoomPin(joinPin);
-      }
-    }
-  }, [joinPin, isConnected, joinRoom]);
-
-  const startGame = () => {
-    if (!isHost) return; // Only host can start game
-
-    playSound("click.mp3");
-    // The WebSocket service will handle starting the quiz
-    // Scene change will be handled by WebSocket message
-  };
+  const joinUrl = roomPin
+    ? `${window.location.origin}/play/join?pin=${roomPin}`
+    : "";
 
   const handleJoinWithPin = () => {
-    if (joinPin.trim()) {
-      handleJoinRoom();
+    if (joinPin.trim() && isConnected) {
+      console.log("LobbyScene: Joining room with PIN:", joinPin);
+      playSound("CLICK");
+      joinRoom(joinPin, "Participant"); // TODO: Get actual player name
     }
+  };
+
+  const handleStartGame = () => {
+    if (!isHost || players.length < 2) return;
+
+    playSound("CLICK");
+    console.log("LobbyScene: Starting quiz");
+    startQuiz();
+  };
+
+  const handleLeaveRoom = () => {
+    playSound("CLICK");
+    console.log("LobbyScene: Leaving room and cleaning up");
+
+    // Send leave message to server
+    leaveRoom();
+
+    // Clean up game system completely
+    setTimeout(() => {
+      const wsService = getWebSocketService();
+
+      // Destroy game manager first
+      destroyGameManager();
+
+      // Then disconnect and destroy WebSocket
+      wsService.disconnect();
+      destroyWebSocketService();
+
+      console.log(
+        "LobbyScene: Game system and WebSocket completely cleaned up"
+      );
+
+      // Navigate back to home
+      navigate("/");
+    }, 500); // Wait for leave message to be sent
   };
 
   return (
@@ -199,16 +186,23 @@ export default function LobbyScene() {
         onClose={() => setIsSettingsOpen(false)}
       />
 
-      <div className="absolute top-4 right-4">
+      <div className="absolute top-4 right-4 flex gap-2">
+        {room && (
+          <button
+            onClick={handleLeaveRoom}
+            className="btn btn-ghost btn-sm text-red-400 hover:text-red-300">
+            Leave Room
+          </button>
+        )}
         <button
           onClick={() => setIsSettingsOpen(true)}
-          className="btn btn-ghost">
+          className="btn btn-ghost btn-sm">
           Settings
         </button>
       </div>
 
       {isHost ? (
-        // Host View
+        // ==================== Host View ====================
         <>
           <h1 className="text-2xl font-bold text-gray-400 tracking-widest uppercase">
             Hosting Game
@@ -217,42 +211,45 @@ export default function LobbyScene() {
           <div className="my-8 bg-black/30 backdrop-blur-md rounded-2xl p-8 flex items-center gap-8 shadow-lg border border-white/10">
             <div>
               <p className="text-lg font-semibold text-gray-300">Game PIN:</p>
-              <p className="text-7xl font-bold tracking-widest text-white animate-pulse">
-                {roomPin}
-              </p>
+              {roomPin ? (
+                <p className="text-7xl font-bold tracking-widest text-white animate-pulse">
+                  {roomPin}
+                </p>
+              ) : (
+                <div className="flex items-center gap-2">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-white"></div>
+                  <span className="text-lg">Creating room...</span>
+                </div>
+              )}
             </div>
-            <div className="bg-white p-2 rounded-lg">
-              <QRCode value={joinUrl} size={128} />
-            </div>
+            {roomPin && (
+              <div className="bg-white p-2 rounded-lg">
+                <QRCode value={joinUrl} size={128} />
+              </div>
+            )}
           </div>
 
           <div className="flex-grow flex flex-wrap items-center justify-center gap-4">
-            {gameState.players.map((player, index) => (
-              <div
+            {players.map((player, index) => (
+              <PlayerCard
                 key={player.id}
-                className="flex flex-col items-center animate-pop-in"
-                style={{ animationDelay: `${index * 100}ms` }}>
-                <img
-                  src={player.avatar}
-                  alt={player.name}
-                  className="w-20 h-20 rounded-full bg-purple-400/20 mb-2"
-                />
-                <p className="font-semibold text-white bg-black/20 px-3 py-1 rounded-full">
-                  {player.name}
-                </p>
-              </div>
+                player={player}
+                size="md"
+                showScore={false}
+                animationDelay={index * 100}
+              />
             ))}
           </div>
 
           <button
-            onClick={startGame}
+            onClick={handleStartGame}
             className="btn btn-primary btn-lg mt-8 animate-pulse"
-            disabled={gameState.players.length < 2}>
-            Start Game ({gameState.players.length} players)
+            disabled={players.length < 2 || status === "playing"}>
+            Start Game ({players.length} players)
           </button>
         </>
       ) : (
-        // Participant View
+        // ==================== Participant View ====================
         <>
           <h1 className="text-2xl font-bold text-gray-400 tracking-widest uppercase">
             Join Game
@@ -269,6 +266,11 @@ export default function LobbyScene() {
                   type="text"
                   value={joinPin}
                   onChange={(e) => setJoinPin(e.target.value)}
+                  onKeyPress={(e) => {
+                    if (e.key === "Enter") {
+                      handleJoinWithPin();
+                    }
+                  }}
                   placeholder="Enter PIN"
                   className="input input-bordered text-center text-2xl font-mono w-32"
                   maxLength={6}
@@ -300,20 +302,14 @@ export default function LobbyScene() {
           )}
 
           <div className="flex-grow flex flex-wrap items-center justify-center gap-4">
-            {gameState.players.map((player, index) => (
-              <div
+            {players.map((player, index) => (
+              <PlayerCard
                 key={player.id}
-                className="flex flex-col items-center animate-pop-in"
-                style={{ animationDelay: `${index * 100}ms` }}>
-                <img
-                  src={player.avatar}
-                  alt={player.name}
-                  className="w-20 h-20 rounded-full bg-purple-400/20 mb-2"
-                />
-                <p className="font-semibold text-white bg-black/20 px-3 py-1 rounded-full">
-                  {player.name}
-                </p>
-              </div>
+                player={player}
+                size="md"
+                showScore={false}
+                animationDelay={index * 100}
+              />
             ))}
           </div>
         </>
@@ -323,6 +319,13 @@ export default function LobbyScene() {
       {!isConnected && (
         <div className="absolute bottom-4 left-4 bg-red-500/80 text-white px-3 py-1 rounded-full text-sm">
           Disconnected
+        </div>
+      )}
+
+      {/* Status indicator */}
+      {status === "waiting" && players.length > 0 && (
+        <div className="absolute bottom-4 right-4 bg-green-500/80 text-white px-3 py-1 rounded-full text-sm">
+          {players.length} player{players.length !== 1 ? "s" : ""} ready
         </div>
       )}
     </div>

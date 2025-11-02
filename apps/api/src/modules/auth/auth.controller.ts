@@ -30,43 +30,61 @@ export default class AuthController extends Api {
           return this.send(res, null, 401, 'getProfile');
         }
 
+        console.log('👤 Profile request for user:', {
+          sub: req.user.sub,
+          hasEmail: !!req.user.email,
+        });
+
         // Fetch full user data from database
-        let fullUserData: any = null;
         try {
           const user = await this.userService.getUserByAuth0Id(req.user.sub);
-          if (user) {
-            fullUserData = {
-              id: user.id,
-              auth0Id: user.auth0Id,
-              email: user.email,
-              name: user.name,
-              picture: user.picture,
-              emailVerified: user.emailVerified,
-              createdAt: user.createdAt,
-              updatedAt: user.updatedAt,
-              lastLogin: user.lastLogin,
-            };
-          }
-        } catch (error) {
-          console.warn('Could not fetch full user data:', error);
-        }
 
-        this.send(
-          res,
-          {
-            user: fullUserData || {
-              sub: req.user.sub,
-              email: req.user.email,
-              name: req.user.name,
-              picture: req.user.picture,
-              emailVerified: req.user.email_verified,
-              iat: req.user.iat,
-              exp: req.user.exp,
-            },
-          },
-          200,
-          'getProfile'
-        );
+          if (!user) {
+            // User not in database - critical issue
+            console.error('❌ User not found in database:', req.user.sub);
+            console.error(
+              '❌ This means the user was not created during OAuth callback'
+            );
+
+            // Return error with helpful message
+            return this.send(
+              res,
+              {
+                error: 'User not found in database',
+                details:
+                  'Your account was not properly created. Please log out and log in again.',
+                sub: req.user.sub,
+                authenticated: true,
+                needsRelogin: true,
+              },
+              404,
+              'getProfile'
+            );
+          }
+
+          // Return full user data from database
+          const fullUserData = {
+            id: user.id,
+            auth0Id: user.auth0Id,
+            email: user.email,
+            name: user.name,
+            picture: user.picture,
+            emailVerified: user.emailVerified,
+            createdAt: user.createdAt,
+            updatedAt: user.updatedAt,
+            lastLogin: user.lastLogin,
+          };
+
+          console.log('✅ Profile fetched successfully:', {
+            id: user.id,
+            email: user.email,
+          });
+
+          this.send(res, { user: fullUserData }, 200, 'getProfile');
+        } catch (error) {
+          console.error('❌ Error fetching user from database:', error);
+          throw error;
+        }
       } catch (e) {
         next(e);
       }
@@ -87,44 +105,61 @@ export default class AuthController extends Api {
         return this.send(res, { authenticated: false }, 200, 'checkAuth');
       }
 
-      // Optionally fetch full user data from database if needed
-      let fullUserData: any = null;
+      console.log('🔍 Auth check for user:', {
+        sub: req.user.sub,
+        hasEmail: !!req.user.email,
+      });
+
+      // Fetch full user data from database
       try {
         const user = await this.userService.getUserByAuth0Id(req.user.sub);
-        if (user) {
-          fullUserData = {
-            id: user.id,
-            auth0Id: user.auth0Id,
-            email: user.email,
-            name: user.name,
-            picture: user.picture,
-            emailVerified: user.emailVerified,
-            createdAt: user.createdAt,
-            updatedAt: user.updatedAt,
-            lastLogin: user.lastLogin,
-          };
-        }
-      } catch (error) {
-        console.warn('Could not fetch full user data:', error);
-      }
 
-      this.send(
-        res,
-        {
-          authenticated: true,
-          user: fullUserData || {
-            sub: req.user.sub,
-            email: req.user.email,
-            name: req.user.name,
-            picture: req.user.picture,
-            emailVerified: req.user.email_verified,
-            iat: req.user.iat,
-            exp: req.user.exp,
+        if (!user) {
+          console.warn(
+            '⚠️ User authenticated but not in database:',
+            req.user.sub
+          );
+          // Still return authenticated=true, but without user data
+          return this.send(
+            res,
+            {
+              authenticated: true,
+              userInDatabase: false,
+              sub: req.user.sub,
+              warning:
+                'User not found in database. Please log out and log in again.',
+            },
+            200,
+            'checkAuth'
+          );
+        }
+
+        const fullUserData = {
+          id: user.id,
+          auth0Id: user.auth0Id,
+          email: user.email,
+          name: user.name,
+          picture: user.picture,
+          emailVerified: user.emailVerified,
+          createdAt: user.createdAt,
+          updatedAt: user.updatedAt,
+          lastLogin: user.lastLogin,
+        };
+
+        this.send(
+          res,
+          {
+            authenticated: true,
+            userInDatabase: true,
+            user: fullUserData,
           },
-        },
-        200,
-        'checkAuth'
-      );
+          200,
+          'checkAuth'
+        );
+      } catch (error) {
+        console.error('❌ Error checking user in database:', error);
+        throw error;
+      }
     } catch (e) {
       next(e);
     }
@@ -315,33 +350,37 @@ export default class AuthController extends Api {
           );
         }
 
-        // Get the current JWT token from cookie to extract user data
-        const currentToken = CookieService.getJWTFromCookie(req);
-        if (!currentToken) {
+        // Fetch full user data from database to ensure we have complete info
+        const dbUser = await this.userService.getUserByAuth0Id(req.user.sub);
+
+        if (!dbUser) {
+          console.error('❌ User not found in database:', req.user.sub);
           return this.send(
             res,
             {
-              error: 'No authentication token found',
+              error: 'User not found in database',
+              details: 'Please log out and log in again to create your account',
             },
-            401,
+            404,
             'getWebSocketToken'
           );
         }
 
-        // Verify the current token to get user data
-        const decodedToken = await this.jwtService.verifyToken(currentToken);
-        const userData = this.jwtService.extractUserData(decodedToken);
-
         // Generate a new JWT token specifically for WebSocket authentication
-        // This token will be used by the WebSocket service
+        // This token will be used by the Go WebSocket service
         const wsToken = this.jwtService.generateToken({
-          sub: userData.sub, // Auth0 ID
-          email: userData.email,
-          name: userData.name,
-          picture: userData.picture,
+          sub: dbUser.auth0Id,
+          email: dbUser.email,
+          name: dbUser.name || dbUser.email,
+          picture: dbUser.picture,
+          exp: Math.floor(Date.now() / 1000) + 3600, // 1 hour from now
         });
 
-        console.log('✅ WebSocket token generated successfully');
+        console.log('✅ WebSocket token generated successfully for user:', {
+          id: dbUser.id,
+          email: dbUser.email,
+          auth0Id: dbUser.auth0Id,
+        });
 
         this.send(
           res,
@@ -349,9 +388,9 @@ export default class AuthController extends Api {
             token: wsToken,
             expiresIn: 3600, // 1 hour
             user: {
-              sub: userData.sub,
-              email: userData.email,
-              name: userData.name,
+              sub: dbUser.auth0Id,
+              email: dbUser.email,
+              name: dbUser.name || dbUser.email,
             },
           },
           200,
@@ -365,7 +404,7 @@ export default class AuthController extends Api {
   ];
 
   /**
-   * Logout user by clearing all auth cookies
+   * Logout user - clear all auth cookies and redirect to Auth0 logout
    */
   public logout = async (
     req: Request,
@@ -373,24 +412,26 @@ export default class AuthController extends Api {
     next: NextFunction
   ) => {
     try {
-      console.log('🚪 Logout endpoint called');
+      console.log('🚪 Logout: Clearing cookies');
 
       // Clear all authentication cookies
       this.refreshService.clearAllAuthCookies(res);
 
-      console.log('✅ User logged out successfully');
-
-      // If this is a GET request (from frontend redirect), redirect back to frontend
-      if (req.method === 'GET') {
-        const returnTo = (req.query.returnTo as string) || '/';
-        const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:3000';
-        const redirectUrl = `${frontendUrl}${returnTo}?auth=logout`;
-
-        console.log('🔄 Redirecting to frontend:', redirectUrl);
-        return res.redirect(redirectUrl);
+      // For POST requests, return success
+      if (req.method === 'POST') {
+        return this.send(
+          res,
+          {
+            message: 'Logged out successfully',
+            authenticated: false,
+          },
+          200,
+          'logout'
+        );
       }
 
-      // For POST requests, return JSON response
+      // For GET requests, just return success
+      // Let the frontend handle Auth0 logout redirect
       this.send(
         res,
         {

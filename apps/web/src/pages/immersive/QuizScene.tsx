@@ -1,31 +1,56 @@
+/**
+ * Quiz Scene - Refactored with clean architecture
+ * Unity-style: Scene component that uses centralized game state
+ */
+
 import React, { useState, useEffect } from "react";
-import { useGameStore } from "@/hooks/immersive/useGameStore";
-import { useSound } from "@/hooks/immersive/useSound";
+import { useCurrentQuestion, useGameStore } from "@/game/store/gameStore";
+import { useGameActions } from "@/game/hooks/useGameManager";
 import { useCountdown } from "@/hooks/useCountdown";
-import { useWebSocketService } from "@/services/websocket";
-import { MOCK_QUESTIONS } from "@/mocks/immersive-data";
-import Confetti from "react-confetti";
+import { getWebSocketService } from "@/game/services/WebSocketService";
 
 const COLORS = ["#3B82F6", "#10B981", "#F59E0B", "#EF4444"];
 
 export default function QuizScene() {
-  const { gameState, setGameState } = useGameStore();
-  const { playSound } = useSound();
-  const { submitAnswer, isConnected } = useWebSocketService();
-  const { currentQuestionIndex, players } = gameState;
-  const question = MOCK_QUESTIONS[currentQuestionIndex];
+  const { submitAnswer, playSound } = useGameActions();
 
+  // Game State
+  const {
+    question,
+    index: currentQuestionIndex,
+    total: totalQuestions,
+  } = useCurrentQuestion();
+  const players = useGameStore((state) => state.players);
+  const currentPlayerId = useGameStore((state) => state.currentPlayerId);
+  const questionStartTime = useGameStore((state) => state.questionStartTime);
+
+  // Local UI State
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-  const [showConfetti, setShowConfetti] = useState(false);
   const [answerSubmitted, setAnswerSubmitted] = useState(false);
 
+  // WebSocket connection status
+  const wsService = getWebSocketService();
+  const [isConnected, setIsConnected] = useState(wsService.isConnected());
+
+  // Monitor WebSocket connection status
+  useEffect(() => {
+    const unsubscribe = wsService.onStatusChange((status) => {
+      setIsConnected(status === "connected");
+    });
+
+    return unsubscribe;
+  }, [wsService]);
+
+  // Countdown timer
   const { seconds, start, reset } = useCountdown({
-    seconds: 30, // Increased from 10 to 30 seconds
+    seconds: question?.timeLimit || 30,
     onEnd: () => handleTimeUp(),
   });
 
+  // Reset state when question changes
   useEffect(() => {
     if (question) {
+      console.log("QuizScene: New question", currentQuestionIndex + 1);
       start();
       setAnswerSubmitted(false);
       setSelectedAnswer(null);
@@ -33,83 +58,65 @@ export default function QuizScene() {
   }, [currentQuestionIndex, question, start]);
 
   const handleTimeUp = () => {
-    if (!answerSubmitted) {
-      // Auto-submit if no answer was given
+    if (!answerSubmitted && question) {
+      console.log("QuizScene: Time up, auto-submitting");
       handleAnswerClick(question.options[0], true);
     }
   };
 
-  const handleNextQuestion = () => {
-    setSelectedAnswer(null);
-    setShowConfetti(false);
-    setAnswerSubmitted(false);
-
-    if (currentQuestionIndex < MOCK_QUESTIONS.length - 1) {
-      setGameState((state) => ({
-        ...state,
-        currentQuestionIndex: state.currentQuestionIndex + 1,
-      }));
-      reset();
-      start();
-    } else {
-      // Quiz finished - WebSocket will handle scene change
-      console.log("Quiz finished");
-    }
-  };
-
   const handleAnswerClick = (option: string, isAutoSubmit = false) => {
-    if (answerSubmitted) return; // Prevent changing answer
+    if (answerSubmitted || !question) return;
 
     if (!isAutoSubmit) {
-      playSound("click.mp3");
+      playSound("CLICK");
     }
 
-    const isCorrect = option === question.answer;
     setSelectedAnswer(option);
     setAnswerSubmitted(true);
 
-    // Submit answer via WebSocket
+    console.log("QuizScene: Answer submitted", {
+      option,
+      timeRemaining: seconds,
+    });
+
+    // Submit answer via game manager
+    // Score will be calculated on server and received in reveal phase
     if (isConnected) {
-      const answerIndex = question.options.indexOf(option);
-      submitAnswer({
-        questionIndex: currentQuestionIndex,
-        answerIndex,
-        answerText: option,
-      });
+      submitAnswer(option);
     }
 
-    if (isCorrect) {
-      if (!isAutoSubmit) {
-        playSound("correct.mp3");
-      }
-      setShowConfetti(true);
-
-      // Award points based on time remaining
-      setGameState((state) => {
-        const currentPlayer = state.players.find(
-          (p) => p.id === "current-user"
-        );
-        if (currentPlayer) {
-          currentPlayer.score += seconds * 10;
-        }
-        return { ...state };
-      });
-    } else {
-      if (!isAutoSubmit) {
-        playSound("incorrect.mp3");
-      }
-    }
-
-    // Wait for WebSocket confirmation before moving to next question
-    // For now, use a timeout as fallback
-    setTimeout(() => {
-      if (currentQuestionIndex < MOCK_QUESTIONS.length - 1) {
-        handleNextQuestion();
-      }
-    }, 2000);
+    // No optimistic updates - wait for server reveal phase
   };
 
-  const progress = ((currentQuestionIndex + 1) / MOCK_QUESTIONS.length) * 100;
+  const questionId = question?.id ?? null;
+  const timeLimit = question?.timeLimit ?? 30;
+  const [animatedTimerProgress, setAnimatedTimerProgress] = useState(100);
+  const [transitionDuration, setTransitionDuration] = useState("0s");
+
+  useEffect(() => {
+    if (!questionId || timeLimit <= 0) {
+      setAnimatedTimerProgress(0);
+      setTransitionDuration("0s");
+      return;
+    }
+
+    setTransitionDuration(`${timeLimit}s`);
+    setAnimatedTimerProgress(100);
+
+    let frame1: number | null = null;
+    let frame2: number | null = null;
+
+    frame1 = requestAnimationFrame(() => {
+      frame2 = requestAnimationFrame(() => {
+        setAnimatedTimerProgress(0);
+      });
+    });
+
+    return () => {
+      if (frame1 !== null) cancelAnimationFrame(frame1);
+      if (frame2 !== null) cancelAnimationFrame(frame2);
+    };
+  }, [questionId, questionStartTime, timeLimit]);
 
   // Show loading if no question
   if (!question) {
@@ -125,10 +132,6 @@ export default function QuizScene() {
 
   return (
     <div className="h-screen w-screen flex flex-col items-center justify-between p-8">
-      {showConfetti && (
-        <Confetti width={window.innerWidth} height={window.innerHeight} />
-      )}
-
       {/* Top Bar: Timer and Progress */}
       <div className="w-full flex items-center gap-4">
         <div
@@ -141,12 +144,15 @@ export default function QuizScene() {
         </div>
         <div className="flex-grow bg-black/30 rounded-full h-6 overflow-hidden">
           <div
-            className="bg-green-500 h-full transition-all duration-1000"
-            style={{ width: `${progress}%` }}
+            className="bg-green-500 h-full"
+            style={{
+              width: `${animatedTimerProgress}%`,
+              transition: `width ${transitionDuration} linear`,
+            }}
           />
         </div>
         <div className="text-lg font-semibold">
-          {currentQuestionIndex + 1} / {MOCK_QUESTIONS.length}
+          {currentQuestionIndex + 1} / {totalQuestions}
         </div>
       </div>
 

@@ -29,6 +29,7 @@ const (
 	TypeJoined       = "joined"
 	TypeLeft         = "left"
 	TypeKicked       = "kicked"
+	TypeHostTransfer = "host_transfer"
 )
 
 // Room states
@@ -146,6 +147,14 @@ type LeftMessage struct {
 type KickedMessage struct {
 	UserID string `json:"user_id"`
 	Reason string `json:"reason"`
+}
+
+// HostTransferMessage - sent when host role is transferred
+type HostTransferMessage struct {
+	OldHostID   string `json:"old_host_id"`
+	NewHostID   string `json:"new_host_id"`
+	NewHostName string `json:"new_host_name"`
+	RoomID      string `json:"room_id"`
 }
 
 // Supporting types

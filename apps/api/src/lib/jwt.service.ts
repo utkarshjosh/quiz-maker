@@ -4,8 +4,8 @@ import environment from '@/lib/environment';
 
 export interface MinimalUserData {
   sub: string; // Auth0 user ID
-  email: string;
-  email_verified: boolean;
+  email?: string; // Optional - might not be in access_token
+  email_verified?: boolean; // Optional
   name?: string;
   picture?: string;
   iat: number; // issued at
@@ -61,42 +61,66 @@ export class JWTService {
    */
   public async verifyToken(token: string): Promise<DecodedToken> {
     return new Promise((resolve, reject) => {
-      // First try to verify as Auth0 token (RS256)
+      // Decode token header/payload to decide verification strategy
+      const decodedComplete = jwt.decode(token, { complete: true }) as any;
+      const header = decodedComplete?.header || {};
+      const payload = decodedComplete?.payload || {};
+
+      const issuer = `https://${this.envConfig.auth0.domain}/`;
+      const apiAudience = this.envConfig.auth0.audience; // API identifier
+      const clientId = this.envConfig.auth0.clientId; // Application client ID
+
+      // Detect token type and expected audience
+      const audienceClaim = payload?.aud;
+      const audienceArray = Array.isArray(audienceClaim)
+        ? audienceClaim
+        : audienceClaim
+          ? [audienceClaim]
+          : [];
+      const isIdToken = audienceArray.includes(clientId);
+      const expectedAudience = isIdToken ? clientId : apiAudience;
+
+      // HS256: our internally generated tokens (e.g., WebSocket token)
+      if (header?.alg === 'HS256') {
+        jwt.verify(
+          token,
+          this.envConfig.jwt.secret,
+          {
+            algorithms: ['HS256'],
+            audience: expectedAudience,
+            issuer,
+          },
+          (err, verified) => {
+            if (err) {
+              console.error('❌ HS256 verification failed:', err.message);
+              return reject(new Error('Token verification failed'));
+            }
+            return resolve(verified as DecodedToken);
+          }
+        );
+        return;
+      }
+
+      // RS256: Auth0 issued tokens (id_token or access_token)
       jwt.verify(
         token,
         this.getSigningKey.bind(this),
         {
           algorithms: ['RS256'],
-          audience: this.envConfig.auth0.audience,
-          issuer: `https://${this.envConfig.auth0.domain}/`,
+          audience: expectedAudience,
+          issuer,
         },
-        (err, decoded) => {
-          if (!err && decoded && typeof decoded === 'object') {
-            return resolve(decoded as DecodedToken);
+        (err, verified) => {
+          if (err) {
+            console.error('❌ RS256 verification failed:', {
+              error: err.message,
+              expectedAudience,
+              isIdToken,
+              audienceClaim,
+            });
+            return reject(new Error('Token verification failed'));
           }
-
-          // If Auth0 verification failed, try internal token verification (HS256)
-
-          jwt.verify(
-            token,
-            this.envConfig.jwt.secret,
-            {
-              algorithms: ['HS256'],
-              audience: this.envConfig.auth0.audience,
-              issuer: `https://${this.envConfig.auth0.domain}/`,
-            },
-            (internalErr, internalDecoded) => {
-              if (internalErr) {
-                return reject(new Error('Token verification failed'));
-              }
-
-              if (!internalDecoded || typeof internalDecoded !== 'object') {
-                return reject(new Error('Invalid token payload'));
-              }
-
-              resolve(internalDecoded as DecodedToken);
-            }
-          );
+          return resolve(verified as DecodedToken);
         }
       );
     });
@@ -104,17 +128,32 @@ export class JWTService {
 
   /**
    * Extract minimal user data from Auth0 token
+   * Note: Access tokens may not contain email/name/picture
+   * Only id_tokens are guaranteed to have user profile information
    */
   public extractUserData(decodedToken: DecodedToken): MinimalUserData {
-    return {
+    const userData = {
       sub: decodedToken.sub,
       email: decodedToken.email,
-      email_verified: decodedToken.email_verified ?? false,
+      email_verified: decodedToken.email_verified,
       name: decodedToken.name,
       picture: decodedToken.picture,
       iat: decodedToken.iat,
       exp: decodedToken.exp,
     };
+
+    // Log warning if email is missing (indicates access_token instead of id_token)
+    if (!userData.email) {
+      console.warn(
+        '⚠️ JWT token missing email - this is likely an access_token, not an id_token'
+      );
+      console.warn(
+        '⚠️ User profile data may be incomplete. Token claims:',
+        Object.keys(decodedToken)
+      );
+    }
+
+    return userData;
   }
 
   /**

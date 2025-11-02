@@ -159,14 +159,30 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
       login: (opts?: LoginOptions) => {
         const returnTo = opts?.returnTo || window.location.pathname;
         const loginUrl = authService.buildLoginUrl(authUrls, returnTo);
-        console.log("Auth URLs:0000000000000000000", authUrls);
         console.log("Redirecting to login:", loginUrl);
         window.location.href = loginUrl;
       },
-      logout: () => {
-        const logoutUrl = authService.buildLogoutUrl(authUrls);
+      logout: async () => {
+        console.log("🚪 Logging out...");
 
-        console.log("Redirecting to logout:", logoutUrl);
+        // Clear local user state immediately
+        setUser(undefined);
+
+        // Clear backend cookies first
+        try {
+          const { config } = await import("@/config/env");
+          await fetch(`${config.baseApiUrl}/auth/logout`, {
+            method: "POST",
+            credentials: "include",
+          });
+          console.log("✅ Backend cookies cleared");
+        } catch (error) {
+          console.error("Error clearing backend cookies:", error);
+        }
+
+        // Redirect to Auth0 logout (this will log out from Auth0 and redirect back)
+        const logoutUrl = authService.buildLogoutUrl(authUrls);
+        console.log("🔄 Redirecting to Auth0 logout:", logoutUrl);
         window.location.href = logoutUrl;
       },
       refreshAuth,

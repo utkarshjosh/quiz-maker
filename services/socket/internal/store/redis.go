@@ -116,12 +116,17 @@ func (r *RedisStore) IsUserInRoom(ctx context.Context, roomID, userID string) (b
 }
 
 // Answer storage
-func (r *RedisStore) SetUserAnswer(ctx context.Context, roomID string, questionIndex int, userID, answer string, answerTime int64) error {
+func (r *RedisStore) SetUserAnswer(ctx context.Context, roomID string, questionIndex int, userID, answer string, choiceIndex int, timeTakenMs int64, answeredAt int64) error {
 	key := fmt.Sprintf("room:%s:answers:%d", roomID, questionIndex)
 	answerData := map[string]interface{}{
-		"answer":      answer,
-		"answer_time": answerTime,
-		"timestamp":   time.Now().UnixMilli(),
+		"answer":        answer,
+		"time_taken_ms": timeTakenMs,
+		"answer_time":   answeredAt,
+		"answered_at":   answeredAt,
+		"timestamp":     time.Now().UnixMilli(),
+	}
+	if choiceIndex >= 0 {
+		answerData["choice_index"] = choiceIndex
 	}
 	data, err := json.Marshal(answerData)
 	if err != nil {
@@ -141,14 +146,22 @@ func (r *RedisStore) GetUserAnswer(ctx context.Context, roomID string, questionI
 	}
 
 	var answerData struct {
-		Answer     string `json:"answer"`
-		AnswerTime int64  `json:"answer_time"`
+		Answer      string `json:"answer"`
+		TimeTakenMs int64  `json:"time_taken_ms"`
+		AnswerTime  int64  `json:"answer_time"`
+		AnsweredAt  int64  `json:"answered_at"`
+		ChoiceIndex *int   `json:"choice_index,omitempty"`
 	}
 	if err := json.Unmarshal([]byte(data), &answerData); err != nil {
 		return "", 0, fmt.Errorf("failed to unmarshal answer: %w", err)
 	}
 
-	return answerData.Answer, answerData.AnswerTime, nil
+	timeTaken := answerData.TimeTakenMs
+	if timeTaken <= 0 {
+		timeTaken = answerData.AnswerTime
+	}
+
+	return answerData.Answer, timeTaken, nil
 }
 
 func (r *RedisStore) GetAllAnswers(ctx context.Context, roomID string, questionIndex int) (map[string]string, error) {
@@ -160,24 +173,24 @@ func (r *RedisStore) GetAllAnswers(ctx context.Context, roomID string, questionI
 func (r *RedisStore) CheckRateLimit(ctx context.Context, key string, limit int, window time.Duration) (bool, error) {
 	now := time.Now()
 	pipe := r.client.Pipeline()
-	
+
 	// Remove expired entries
 	pipe.ZRemRangeByScore(ctx, key, "0", fmt.Sprintf("%d", now.Add(-window).UnixMilli()))
-	
+
 	// Count current entries
 	countCmd := pipe.ZCard(ctx, key)
-	
+
 	// Add current request
 	pipe.ZAdd(ctx, key, redis.Z{Score: float64(now.UnixMilli()), Member: now.UnixNano()})
-	
+
 	// Set expiration
 	pipe.Expire(ctx, key, window)
-	
+
 	_, err := pipe.Exec(ctx)
 	if err != nil {
 		return false, fmt.Errorf("rate limit check failed: %w", err)
 	}
-	
+
 	count := countCmd.Val()
 	return count < int64(limit), nil
 }
@@ -204,10 +217,10 @@ func (r *RedisStore) CleanupRoom(ctx context.Context, roomID string) error {
 	if err != nil {
 		return fmt.Errorf("failed to get room keys: %w", err)
 	}
-	
+
 	if len(keys) > 0 {
 		return r.client.Del(ctx, keys...).Err()
 	}
-	
+
 	return nil
 }

@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import { config as configDotenv } from 'dotenv';
 import server from './server';
 import { printAppInfo } from './utils/print-app-info';

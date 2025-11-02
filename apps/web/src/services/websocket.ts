@@ -1,3 +1,4 @@
+import { useCallback } from "react";
 import { useWebSocket } from "@/contexts/WebSocketContext";
 import { MessageType } from "@quiz-maker/ts";
 import type {
@@ -34,7 +35,8 @@ export type {
 export const useWebSocketService = () => {
   const { state, sendMessage } = useWebSocket();
 
-  const createRoom = (quizId: string, settings: QuizSettings) => {
+  // Memoize all action functions to prevent infinite re-renders
+  const createRoom = useCallback((quizId: string, settings: QuizSettings) => {
     console.log("Creating room for quiz", quizId, settings);
     const message: Message = {
       v: 1,
@@ -43,9 +45,9 @@ export const useWebSocketService = () => {
       data: { quiz_id: quizId, settings },
     };
     sendMessage(message);
-  };
+  }, [sendMessage]);
 
-  const joinRoom = (pin: string, displayName: string) => {
+  const joinRoom = useCallback((pin: string, displayName: string) => {
     const message: Message = {
       v: 1,
       type: MessageType.JOIN,
@@ -53,9 +55,9 @@ export const useWebSocketService = () => {
       data: { pin, display_name: displayName },
     };
     sendMessage(message);
-  };
+  }, [sendMessage]);
 
-  const leaveRoom = () => {
+  const leaveRoom = useCallback(() => {
     const message: Message = {
       v: 1,
       type: MessageType.LEAVE,
@@ -63,9 +65,9 @@ export const useWebSocketService = () => {
       data: {},
     };
     sendMessage(message);
-  };
+  }, [sendMessage]);
 
-  const startQuiz = () => {
+  const startQuiz = useCallback(() => {
     const message: Message = {
       v: 1,
       type: MessageType.START,
@@ -73,9 +75,9 @@ export const useWebSocketService = () => {
       data: {},
     };
     sendMessage(message);
-  };
+  }, [sendMessage]);
 
-  const submitAnswer = (questionIndex: number, choice: string) => {
+  const submitAnswer = useCallback((questionIndex: number, choice: string) => {
     const message: Message = {
       v: 1,
       type: MessageType.ANSWER,
@@ -83,9 +85,9 @@ export const useWebSocketService = () => {
       data: { question_index: questionIndex, choice },
     };
     sendMessage(message);
-  };
+  }, [sendMessage]);
 
-  const endQuiz = () => {
+  const endQuiz = useCallback(() => {
     const message: Message = {
       v: 1,
       type: MessageType.END,
@@ -93,9 +95,9 @@ export const useWebSocketService = () => {
       data: {},
     };
     sendMessage(message);
-  };
+  }, [sendMessage]);
 
-  const sendPing = () => {
+  const sendPing = useCallback(() => {
     const message: Message = {
       v: 1,
       type: MessageType.PING,
@@ -103,7 +105,7 @@ export const useWebSocketService = () => {
       data: { timestamp: Date.now() },
     };
     sendMessage(message);
-  };
+  }, [sendMessage]);
 
   return {
     // Connection state

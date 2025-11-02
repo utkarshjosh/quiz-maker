@@ -8,6 +8,9 @@
     "src/**/*.ts",
     "tests/**/*.ts",
     "prisma/**/*.ts",
+    "scripts/**/*.ts",
+    "jest.config.ts",
+    "jest.config.*.ts"
   ],
   "exclude": [
     "node_modules"

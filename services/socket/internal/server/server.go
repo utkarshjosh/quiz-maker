@@ -4,8 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"net/http"
+	"os"
 	"time"
 
+	"quiz-realtime-service/internal/api"
 	"quiz-realtime-service/internal/auth"
 	"quiz-realtime-service/internal/config"
 	"quiz-realtime-service/internal/database"
@@ -20,10 +22,10 @@ import (
 )
 
 type Server struct {
-	config    *config.Config
-	logger    *zap.Logger
+	config     *config.Config
+	logger     *zap.Logger
 	httpServer *http.Server
-	
+
 	// Services
 	authService auth.AuthServiceInterface
 	redisStore  *store.RedisStore
@@ -76,8 +78,15 @@ func New(cfg *config.Config, logger *zap.Logger) (*Server, error) {
 		logger,
 	)
 
+	// Initialize API client for backend communication
+	apiBaseURL := os.Getenv("API_BASE_URL")
+	if apiBaseURL == "" {
+		apiBaseURL = "http://localhost:3000"
+	}
+	apiClient := api.NewClient(apiBaseURL, cfg.Auth0.JWTSecret, logger)
+
 	// Initialize WebSocket gateway
-	wsGateway := gateway.NewWebSocketGateway(authService, roomRepo, logger)
+	wsGateway := gateway.NewWebSocketGateway(authService, roomRepo, redisStore, apiClient, logger)
 
 	// Create HTTP server
 	router := chi.NewRouter()
@@ -218,7 +227,7 @@ func (s *Server) handleKickUser(w http.ResponseWriter, r *http.Request) {
 		UserID string `json:"user_id"`
 		Reason string `json:"reason"`
 	}
-	
+
 	if err := parseJSON(r, &req); err != nil {
 		http.Error(w, "Invalid request body", http.StatusBadRequest)
 		return
@@ -253,17 +262,17 @@ func (s *Server) Start() error {
 
 func (s *Server) Shutdown(ctx context.Context) error {
 	s.logger.Info("Shutting down HTTP server")
-	
+
 	// Close database connection
 	if err := s.database.Close(); err != nil {
 		s.logger.Error("Failed to close database connection", zap.Error(err))
 	}
-	
+
 	// Close Redis connection
 	if err := s.redisStore.Close(); err != nil {
 		s.logger.Error("Failed to close Redis connection", zap.Error(err))
 	}
-	
+
 	return s.httpServer.Shutdown(ctx)
 }
 
