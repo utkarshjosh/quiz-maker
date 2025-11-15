@@ -1,17 +1,20 @@
-import { tool } from '@langchain/core/tools';
-import { z } from 'zod';
-import { createClient } from 'redis';
+import { tool } from "@langchain/core/tools";
+import { z } from "zod";
+import { createClient } from "redis";
 
 const getQuizSchema = z.object({
-  quizId: z.string().describe('Unique identifier for the quiz to retrieve'),
-  threadId: z.string().describe('Thread ID to get quizzes associated with this thread').optional()
+  quizId: z.string().describe("Unique identifier for the quiz to retrieve"),
+  threadId: z
+    .string()
+    .describe("Thread ID to get quizzes associated with this thread")
+    .optional(),
 });
 
 interface Quiz {
   id: string;
   title: string;
   description?: string;
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: "easy" | "medium" | "hard";
   timeLimit: number;
   questions: any[];
   totalQuestions: number;
@@ -34,7 +37,7 @@ export const getQuizTool = tool(
   async ({ quizId, threadId }): Promise<GetQuizResult> => {
     try {
       const client = createClient({
-        url: process.env.REDIS_URL || 'redis://localhost:6379'
+        url: "redis://" + (process.env.REDIS_URL || "localhost:6379"),
       });
 
       await client.connect();
@@ -43,13 +46,13 @@ export const getQuizTool = tool(
         // Get specific quiz
         const quizKey = `quiz:${quizId}`;
         const quizData = await client.get(quizKey);
-        
+
         if (!quizData) {
           await client.disconnect();
           return {
             success: false,
             message: `Quiz with ID ${quizId} not found`,
-            quizId: quizId
+            quizId: quizId,
           };
         }
 
@@ -60,21 +63,20 @@ export const getQuizTool = tool(
           success: true,
           quiz: quiz,
           quizId: quizId,
-          message: `Retrieved quiz: ${quiz.title || 'Untitled Quiz'}`
+          message: `Retrieved quiz: ${quiz.title || "Untitled Quiz"}`,
         };
-
       } else if (threadId) {
         // Get all quizzes for a thread
         const threadQuizzesKey = `thread:${threadId}:quizzes`;
         const quizIds = await client.sMembers(threadQuizzesKey);
-        
+
         if (quizIds.length === 0) {
           await client.disconnect();
           return {
             success: true,
             quizzes: [],
             threadId: threadId,
-            message: `No quizzes found for thread ${threadId}`
+            message: `No quizzes found for thread ${threadId}`,
           };
         }
 
@@ -95,29 +97,27 @@ export const getQuizTool = tool(
           quizzes: quizzes,
           threadId: threadId,
           count: quizzes.length,
-          message: `Retrieved ${quizzes.length} quizzes for thread ${threadId}`
+          message: `Retrieved ${quizzes.length} quizzes for thread ${threadId}`,
         };
-
       } else {
         await client.disconnect();
         return {
           success: false,
-          message: 'Either quizId or threadId must be provided'
+          message: "Either quizId or threadId must be provided",
         };
       }
-
     } catch (error) {
-      console.error('Error in getQuiz tool:', error);
+      console.error("Error in getQuiz tool:", error);
       return {
         success: false,
-        error: error instanceof Error ? error.message : 'Unknown error',
-        message: 'Failed to retrieve quiz'
+        error: error instanceof Error ? error.message : "Unknown error",
+        message: "Failed to retrieve quiz",
       };
     }
   },
   {
-    name: 'get_quiz',
-    description: 'Retrieve a specific quiz by ID or all quizzes for a thread',
-    schema: getQuizSchema
+    name: "get_quiz",
+    description: "Retrieve a specific quiz by ID or all quizzes for a thread",
+    schema: getQuizSchema,
   }
-); 
+);

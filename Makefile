@@ -48,7 +48,7 @@ start:
 	@echo "API Gateway: http://localhost:3000"
 	@echo "Web Frontend: http://localhost:5173"
 	@echo "Quiz Generator: http://localhost:3001"
-	@echo "WebSocket Service: http://localhost:8080"
+	@echo "WebSocket Service: http://localhost:5000"
 
 # Stop all services
 stop:
@@ -90,7 +90,7 @@ health:
 	@curl -f http://localhost:3000/api/health || echo "API Gateway not responding"
 	@curl -f http://localhost:5173 || echo "Web Frontend not responding"
 	@curl -f http://localhost:3001/health || echo "Quiz Generator not responding"
-	@curl -f http://localhost:8080/health || echo "WebSocket Service not responding"
+	@curl -f http://localhost:5000/health || echo "WebSocket Service not responding"
 
 # Development shortcuts
 dev:api:
@@ -181,9 +181,9 @@ restart:
 # Production commands
 prod-build:
 	@echo "Building for production..."
-	docker build -f infra/Dockerfile.api-gateway -t quiz-maker/api:latest .
+	docker build -f infra/Dockerfile.api -t quiz-maker/api:latest .
 	docker build -f infra/Dockerfile.quiz-generator -t quiz-maker/quiz-gen:latest .
-	docker build -f infra/Dockerfile.realtime-service -t quiz-maker/socket:latest .
+	docker build -f infra/Dockerfile.socket -t quiz-maker/socket:latest .
 
 prod-start:
 	@echo "Starting production environment..."

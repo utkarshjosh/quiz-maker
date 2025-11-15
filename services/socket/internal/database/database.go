@@ -3,6 +3,7 @@ package database
 import (
 	"database/sql"
 	"fmt"
+	"strings"
 	"time"
 
 	_ "github.com/lib/pq"
@@ -22,7 +23,9 @@ type Config struct {
 }
 
 func New(cfg Config, logger *zap.Logger) (*Database, error) {
-	db, err := sql.Open("postgres", cfg.URL)
+	connString := ensureSSLMode(cfg.URL)
+
+	db, err := sql.Open("postgres", connString)
 	if err != nil {
 		return nil, fmt.Errorf("failed to open database: %w", err)
 	}
@@ -51,4 +54,21 @@ func (d *Database) Close() error {
 
 func (d *Database) GetConnection() *sql.DB {
 	return d.conn
+}
+
+func ensureSSLMode(url string) string {
+	if url == "" {
+		return url
+	}
+
+	if strings.Contains(strings.ToLower(url), "sslmode=") {
+		return url
+	}
+
+	separator := "?"
+	if strings.Contains(url, "?") {
+		separator = "&"
+	}
+
+	return url + separator + "sslmode=disable"
 }

@@ -29,6 +29,8 @@ import {
 } from "@quiz-maker/ts";
 import { useAuth } from "@/auth/AuthContext";
 import authService from "@/services/authService";
+const DEFAULT_WEBSOCKET_URL =
+  import.meta.env.VITE_SOCKET_URL ?? "ws://localhost:5000/ws";
 
 export interface WebSocketState {
   isConnected: boolean;
@@ -66,7 +68,7 @@ interface WebSocketProviderProps {
 
 export const WebSocketProvider: React.FC<WebSocketProviderProps> = ({
   children,
-  url = "ws://localhost:5000/ws",
+  url = DEFAULT_WEBSOCKET_URL,
 }) => {
   const { isAuthenticated, user } = useAuth();
 

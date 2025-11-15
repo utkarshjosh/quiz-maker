@@ -61,7 +61,7 @@ quiz-maker/
 | **Frontend**         | React + TypeScript             | Quiz UI, dashboards, real-time updates     |
 | **API Gateway**      | Node.js + Express + TypeScript | Authentication, routing, validation        |
 | **Quiz Generator**   | Node.js + TypeScript           | AI-powered quiz creation                   |
-| **Realtime Service** | Golang + WebSocket             | Live quiz hosting, real-time communication |
+| **Socket Service** | Golang + WebSocket             | Live quiz hosting, real-time communication |
 | **Cache**            | Redis                          | Session storage, real-time data, pub/sub   |
 | **Database**         | MongoDB + Prisma               | Persistent storage for quizzes and users   |
 | **Container**        | Docker                         | Service containerization and orchestration |
@@ -172,7 +172,7 @@ For detailed information about the project structure and organization, see [PROJ
   - `POST /generate` - Generate quiz from prompt
   - `GET /quiz/:id/status` - Get generation status
 
-- **Realtime Service (Port 8080)**
+- **Socket Service (Port 5000)**
   - `GET /health` - Health check
   - `POST /room` - Create quiz room
   - `GET /room/:id` - Get room details
@@ -261,7 +261,7 @@ Required environment variables for each service:
 
 - **API Gateway**: `MONGODB_URI`, `REDIS_URL`, `JWT_SECRET`
 - **Quiz Generator**: `OPENAI_API_KEY`, `MONGODB_URI`, `REDIS_URL`
-- **Realtime Service**: `REDIS_URL`, `PORT`
+- **Socket Service**: `REDIS_URL`, `PORT`
 
 ## 🤝 Contributing
 
@@ -284,9 +284,9 @@ For more information, check out the [Architectural Decision Records](docs/adr/) 
 
 quiz-maker/
 ├── frontend/ # Vue.js/React frontend
-├── api-gateway/ # Node.js API Gateway (Express)
+├── api/ # Node.js API (Express)
 ├── quiz-generator/ # Node.js AI Quiz Generation service
-├── realtime-service/ # Golang WebSocket service
+├── socket/ # Golang WebSocket service
 ├── shared/ # Shared types, utilities, configs
 │ ├── types/ # TypeScript interfaces/types
 │ ├── utils/ # Common utilities
@@ -297,9 +297,9 @@ quiz-maker/
 ├── docker/ # Docker configurations
 │ ├── docker-compose.yml
 │ ├── Dockerfile.frontend
-│ ├── Dockerfile.api-gateway
+│ ├── Dockerfile.api
 │ ├── Dockerfile.quiz-generator
-│ └── Dockerfile.realtime-service
+│ └── Dockerfile.socket
 ├── scripts/ # Deployment and utility scripts
 ├── docs/ # Additional documentation
 ├── .env.example # Environment variables template

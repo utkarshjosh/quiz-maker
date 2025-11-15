@@ -368,11 +368,28 @@ export default class AuthController extends Api {
 
         // Generate a new JWT token specifically for WebSocket authentication
         // This token will be used by the Go WebSocket service
+        if (!dbUser.auth0Id) {
+          console.error('❌ User missing auth0Id in database:', {
+            id: dbUser.id,
+            email: dbUser.email,
+          });
+          return this.send(
+            res,
+            {
+              error: 'User account incomplete',
+              details:
+                'Auth0 identifier missing. Please contact support or log out and log in again.',
+            },
+            422,
+            'getWebSocketToken'
+          );
+        }
+
         const wsToken = this.jwtService.generateToken({
           sub: dbUser.auth0Id,
           email: dbUser.email,
           name: dbUser.name || dbUser.email,
-          picture: dbUser.picture,
+          picture: dbUser.picture ?? undefined,
           exp: Math.floor(Date.now() / 1000) + 3600, // 1 hour from now
         });
 

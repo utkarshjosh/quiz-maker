@@ -62,7 +62,7 @@ deps:
 # Build Docker image
 docker:
 	@echo "Building Docker image..."
-	@docker build -f ../docker/Dockerfile.realtime-service -t quiz-realtime-service .
+	@docker build -f ../../infra/Dockerfile.socket -t quiz-socket .
 
 # Check if required environment variables are set
 check-env:

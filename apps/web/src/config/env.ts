@@ -1,33 +1,16 @@
-const ENV = import.meta.env.MODE || "development";
-
-interface Config {
-  apiUrl: string;
-  apiVersion: string;
-  env: string;
-}
-
-const configs: Record<string, Config> = {
-  development: {
-    apiUrl: "http://localhost:3000",
-    apiVersion: "v1",
-    env: "development",
-  },
-  production: {
-    // This should be updated with your actual production API URL
-    apiUrl: "https://api.yourapp.com",
-    apiVersion: "v1",
-    env: "",
-  },
-  // You can add more environments like staging if needed
-};
-
-if (!configs[ENV]) {
-  throw new Error(`No config found for environment: ${ENV}`);
-}
+const apiUrl = import.meta.env.VITE_API_BASE_URL ?? "http://localhost:3000";
+const apiVersion = import.meta.env.VITE_API_VERSION ?? "v1";
+const apiEnvironment =
+  import.meta.env.VITE_API_ENV ?? import.meta.env.MODE ?? "development";
+const socketUrl = import.meta.env.VITE_SOCKET_URL ?? "ws://localhost:5000/ws";
 
 export const config = {
-  ...configs[ENV],
+  apiUrl,
+  apiVersion,
+  env: apiEnvironment,
+  socketUrl,
   get baseApiUrl() {
-    return `${this.apiUrl}/api/${this.apiVersion}/${this.env}`;
+    const envSegment = this.env ? `/${this.env}` : "";
+    return `${this.apiUrl}/api/${this.apiVersion}${envSegment}`;
   },
 };

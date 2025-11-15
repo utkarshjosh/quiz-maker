@@ -28,7 +28,7 @@ A standalone Go WebSocket service that powers real-time quiz sessions with minim
 ## Project Structure
 
 ```
-realtime-service/
+services/socket/
 ├── cmd/
 │   └── main.go                 # Application entry point
 ├── internal/
@@ -71,7 +71,7 @@ realtime-service/
 1. **Clone and navigate to the service directory**:
 
    ```bash
-   cd realtime-service
+   cd services/socket
    ```
 
 2. **Install dependencies**:
@@ -279,7 +279,7 @@ go build -o bin/realtime-service cmd/main.go
 ### Docker
 
 ```bash
-docker build -f ../docker/Dockerfile.realtime-service -t quiz-realtime-service .
+   docker build -f ../../infra/Dockerfile.socket -t quiz-socket .
 ```
 
 ## Integration with Frontend

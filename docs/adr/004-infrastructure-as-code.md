@@ -66,9 +66,9 @@ Consolidate all infrastructure-related configurations into a dedicated `infra/` 
 ```
 infra/
 ├── docker/                    # Docker configurations
-│   ├── Dockerfile.api-gateway # API gateway image
+│   ├── Dockerfile.api # API image
 │   ├── Dockerfile.quiz-generator # Quiz generator image
-│   ├── Dockerfile.realtime-service # WebSocket service image
+│   ├── Dockerfile.socket # WebSocket service image
 │   └── docker-compose.yml     # Development environment
 ├── database/                  # Database configurations
 │   ├── migrations/            # Database migrations
@@ -84,17 +84,17 @@ infra/
 # docker-compose.yml
 version: "3.8"
 services:
-  api-gateway:
+  api:
     build:
       context: ../apps/api
-      dockerfile: ../infra/Dockerfile.api-gateway
+      dockerfile: ../infra/Dockerfile.api
     # ... configuration
 ```
 
 #### Production Images
 
 ```dockerfile
-# Dockerfile.api-gateway
+# Dockerfile.api
 FROM node:18-alpine
 WORKDIR /app
 COPY package*.json ./
@@ -142,9 +142,9 @@ docker-compose down
 
 ```bash
 # Build production images
-docker build -f infra/Dockerfile.api-gateway -t quiz-maker/api:latest .
+docker build -f infra/Dockerfile.api -t quiz-maker/api:latest .
 docker build -f infra/Dockerfile.quiz-generator -t quiz-maker/quiz-gen:latest .
-docker build -f infra/Dockerfile.realtime-service -t quiz-maker/socket:latest .
+docker build -f infra/Dockerfile.socket -t quiz-maker/socket:latest .
 ```
 
 ## Development Workflow

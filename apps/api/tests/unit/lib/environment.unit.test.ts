@@ -45,10 +45,10 @@ describe('[Unit] - environment', () => {
   });
 
   it('should read values from environment file', () => {
-    const { PORT, APP_BASE_URL } = process.env;
+    const { PORT, API_BASE_URL } = process.env;
     const environment = new Environment();
     environment.setEnvironment('production' as Environments);
     expect(environment.port).toEqual(PORT ? +PORT : appConfig.defaultPort);
-    expect(environment.appUrl).toEqual(APP_BASE_URL);
+    expect(environment.appUrl).toEqual(API_BASE_URL);
   });
 });

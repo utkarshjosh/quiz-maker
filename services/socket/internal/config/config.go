@@ -38,8 +38,6 @@ type RedisConfig struct {
 	DB       int
 }
 
-
-
 type Auth0Config struct {
 	Domain       string
 	ClientID     string
@@ -50,17 +48,26 @@ type Auth0Config struct {
 
 type QuizConfig struct {
 	DefaultQuestionDuration time.Duration
-	MaxRoomSize            int
-	RoomTTL                time.Duration
-	PinLength              int
+	MaxRoomSize             int
+	RoomTTL                 time.Duration
+	PinLength               int
 }
 
 func Load() (*Config, error) {
 	// Load .env file if it exists
 	_ = godotenv.Load()
 
+	environment := getEnv("ENVIRONMENT", "")
+	if environment == "" {
+		environment = getEnv("NODE_ENV", "development")
+	}
+	_ = os.Setenv("ENVIRONMENT", environment)
+	if os.Getenv("NODE_ENV") == "" {
+		_ = os.Setenv("NODE_ENV", environment)
+	}
+
 	cfg := &Config{
-		Environment: getEnv("ENVIRONMENT", "development"),
+		Environment: environment,
 		Server: ServerConfig{
 			Address:      getEnv("SERVER_ADDRESS", ":5000"),
 			ReadTimeout:  getDuration("SERVER_READ_TIMEOUT", 15*time.Second),
@@ -88,9 +95,9 @@ func Load() (*Config, error) {
 		},
 		Quiz: QuizConfig{
 			DefaultQuestionDuration: getDuration("QUIZ_QUESTION_DURATION", 30*time.Second),
-			MaxRoomSize:            getInt("QUIZ_MAX_ROOM_SIZE", 50),
-			RoomTTL:                getDuration("QUIZ_ROOM_TTL", 2*time.Hour),
-			PinLength:              getInt("QUIZ_PIN_LENGTH", 6),
+			MaxRoomSize:             getInt("QUIZ_MAX_ROOM_SIZE", 50),
+			RoomTTL:                 getDuration("QUIZ_ROOM_TTL", 2*time.Hour),
+			PinLength:               getInt("QUIZ_PIN_LENGTH", 6),
 		},
 	}
 

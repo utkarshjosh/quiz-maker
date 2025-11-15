@@ -46,7 +46,12 @@ class Environment implements IEnvironment {
 
   constructor() {
     this.port = parseInt(process.env.PORT ?? appConfig.defaultPort.toString());
-    this.setEnvironment(process.env.NODE_ENV ?? Environments.DEV);
+    const normalizedEnv = this.normalizeEnvironment(
+      process.env.ENVIRONMENT ?? process.env.NODE_ENV ?? Environments.DEV
+    );
+    process.env.ENVIRONMENT = normalizedEnv;
+    process.env.NODE_ENV = normalizedEnv;
+    this.setEnvironment(normalizedEnv);
   }
 
   get env() {
@@ -73,27 +78,39 @@ class Environment implements IEnvironment {
     this._appUrl = value;
   }
 
-  private resolveEnvPath(key: CommonEnvKeys): string {
-    // On priority bar, .env.[NODE_ENV] has higher priority than default env file (.env)
+  private resolveEnvPath(key: CommonEnvKeys): string | null {
+    // On priority bar, .env.<ENVIRONMENT> has higher priority than default env file (.env)
     // If both are not resolved, error is thrown.
     const rootDir: string = path.resolve(__dirname, '../../');
     const envPath = path.resolve(rootDir, EnvironmentFile[key]);
     const defaultEnvPath = path.resolve(rootDir, EnvironmentFile.DEFAULT);
-    if (!fs.existsSync(envPath) && !fs.existsSync(defaultEnvPath)) {
+    if (fs.existsSync(envPath)) {
+      return envPath;
+    }
+    if (fs.existsSync(defaultEnvPath)) {
+      return defaultEnvPath;
+    }
+
+    const missingRequiredEnvKeys = Object.keys(envValidationConfig).filter(
+      (envVarKey) => process.env[envVarKey] === undefined
+    );
+
+    if (missingRequiredEnvKeys.length > 0) {
       throw new Error(envFileNotFoundError(key));
     }
-    return fs.existsSync(envPath) ? envPath : defaultEnvPath;
+
+    return null;
   }
 
   private validateEnvValues() {
     const env = cleanEnv(process.env, envValidationConfig);
     this.port = env.PORT;
-    this.appUrl = env.APP_BASE_URL;
+    this.appUrl = 'http://localhost';
 
     // Build complete configuration
     this._config = {
       port: env.PORT,
-      appUrl: env.APP_BASE_URL,
+      appUrl: this.appUrl,
       apiBaseUrl: env.API_BASE_URL,
       env: this._env,
       databaseUrl: env.DATABASE_URL,
@@ -112,15 +129,31 @@ class Environment implements IEnvironment {
     };
   }
 
+  private normalizeEnvironment(value?: string): Environments {
+    if (!value) {
+      return Environments.DEV;
+    }
+    const normalized = value.toLowerCase();
+    const match = Object.values(Environments).find(
+      (environment) => environment === normalized
+    );
+    return (match as Environments) ?? Environments.DEV;
+  }
+
   public setEnvironment(env = Environments.DEV): void {
-    this.env = env;
+    const normalizedEnv = this.normalizeEnvironment(env);
+    this.env = normalizedEnv;
+    process.env.ENVIRONMENT = normalizedEnv;
+    process.env.NODE_ENV = normalizedEnv;
 
     const envKey = Object.keys(Environments).find(
       (key) => Environments[key] === this.env
     ) as keyof typeof Environments;
     const envPath = this.resolveEnvPath(envKey);
 
-    configDotenv({ path: envPath });
+    if (envPath) {
+      configDotenv({ path: envPath });
+    }
     this.validateEnvValues();
   }
 
