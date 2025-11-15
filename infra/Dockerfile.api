@@ -1,0 +1,59 @@
+FROM node:20-bookworm-slim AS builder
+
+# Use development environment to ensure dev dependencies (e.g., test typings) are available during build
+ENV NODE_ENV=${ENVIRONMENT}
+
+WORKDIR /app
+
+# Install build dependencies
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends python3 make g++ \
+  && rm -rf /var/lib/apt/lists/*
+
+# Copy dependency manifests
+COPY apps/api/package*.json ./
+
+# Install all dependencies (including dev) for build
+RUN npm install
+
+# Copy source files
+COPY apps/api/prisma ./prisma
+COPY apps/api/tsconfig*.json ./
+COPY apps/api/src ./src
+COPY apps/api/public ./public
+
+# Build application (includes Prisma generate)
+ENV NODE_ENV=production
+RUN npm run build
+
+# Prune dev dependencies to slim runtime node_modules
+RUN npm prune --omit=dev
+
+FROM node:20-bookworm-slim AS runtime
+# Install runtime utilities required for healthcheck
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends ca-certificates wget \
+  && rm -rf /var/lib/apt/lists/*
+
+ENV NODE_ENV=production
+
+WORKDIR /app
+# Copy production dependencies and build output
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/prisma ./prisma
+COPY --from=builder /app/dist ./dist
+
+# Create non-root application user
+RUN groupadd --system nodejs \
+  && useradd --system --gid nodejs --home /home/nodejs --create-home nodejs \
+  && chown -R nodejs:nodejs /app
+
+USER nodejs
+
+EXPOSE 3000
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=5 \
+  CMD wget --quiet --spider --tries=1 http://localhost:3000/api/v1/development/health || exit 1
+
+CMD ["node", "dist/index.js"]

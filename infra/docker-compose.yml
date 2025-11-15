@@ -1,110 +1,76 @@
-version: "3.8"
-
 services:
-  # Redis Cache
-  redis:
-    image: redis:7-alpine
-    container_name: quiz-redis
+  postgres:
+    image: postgres:15-alpine
+    container_name: quiz-postgres
+    env_file:
+      - ./docker.env
+      - ./docker.env.local
     ports:
-      - "6379:6379"
+      - "55432:5432"
     volumes:
-      - redis_data:/data
-    command: redis-server --appendonly yes
+      - postgres_data:/var/lib/postgresql/data # Use a Docker volume
+      - /home/ongraph/CODE/quiz-maker/infra/backup.sql:/docker-entrypoint-initdb.d/backup.sql:ro
     healthcheck:
-      test: ["CMD", "redis-cli", "ping"]
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
       interval: 10s
       timeout: 5s
-      retries: 3
+      retries: 5
 
-  # MongoDB Database
-  mongodb:
-    image: mongo:7
-    container_name: quiz-mongodb
-    ports:
-      - "27017:27017"
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: quiz_admin
-      MONGO_INITDB_ROOT_PASSWORD: quiz_password
-      MONGO_INITDB_DATABASE: quiz_ai_system
-    volumes:
-      - mongodb_data:/data/db
-    healthcheck:
-      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
-      interval: 10s
-      timeout: 5s
-      retries: 3
-
-  # API Gateway
-  api-gateway:
+  api:
     build:
-      context: ../apps/api
-      dockerfile: ../infra/Dockerfile.api-gateway
-    container_name: quiz-api-gateway
+      context: ..
+      dockerfile: infra/Dockerfile.api
+    container_name: api
+    env_file:
+      - ./docker.env
+      - ./api/.env
+      - ./docker.env.local
+      - ./api/.env.local
     ports:
       - "3000:3000"
-    environment:
-      - NODE_ENV=development
-      - PORT=3000
-      - REDIS_URL=redis://redis:6379
-      - MONGODB_URI=mongodb://quiz_admin:quiz_password@mongodb:27017/quiz_ai_system
-      - QUIZ_GENERATOR_URL=http://quiz-generator:3001
-      - REALTIME_SERVICE_URL=http://realtime-service:8080
-      - JWT_SECRET=your-jwt-secret-key-here
-      - FRONTEND_URL=http://localhost:5173
     depends_on:
-      - redis
-      - mongodb
-      - quiz-generator
-      - realtime-service
-    volumes:
-      - ../apps/api:/app
-      - /app/node_modules
-    command: npm run dev
+      - postgres
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
-  # Quiz Generator Service
-  quiz-generator:
+  socket:
     build:
-      context: ../services/quiz-generator
-      dockerfile: ../infra/Dockerfile.quiz-generator
-    container_name: quiz-generator
+      context: ..
+      dockerfile: infra/Dockerfile.socket
+    container_name: socket
+    env_file:
+      - ./docker.env
+      - ./socket/.env
+      - ./docker.env.local
+      - ./socket/.env.local
     ports:
-      - "3001:3001"
-    environment:
-      - NODE_ENV=development
-      - PORT=3001
-      - REDIS_URL=redis://redis:6379
-      - MONGODB_URI=mongodb://quiz_admin:quiz_password@mongodb:27017/quiz_ai_system
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - OPENAI_MODEL=gpt-3.5-turbo
+      - "5000:5000"
     depends_on:
-      - redis
-      - mongodb
-    volumes:
-      - ../services/quiz-generator:/app
-      - /app/node_modules
-    command: npm run dev
+      - postgres
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
-  # Realtime Service (Go)
-  realtime-service:
+  frontend:
     build:
-      context: ../services/socket
-      dockerfile: ../infra/Dockerfile.realtime-service
-    container_name: quiz-realtime-service
+      context: ..
+      dockerfile: infra/Dockerfile.frontend
+      args:
+        PUBLIC_API_URL: ${PUBLIC_API_URL:-http://localhost:3000}
+        PUBLIC_SOCKET_URL: ${PUBLIC_SOCKET_URL:-ws://localhost:5000/ws}
+        ENVIRONMENT: ${ENVIRONMENT:-development}
+    container_name: frontend
+    env_file:
+      - ./docker.env
+      - ./frontend/.env
+      - ./docker.env.local
+      - ./frontend/.env.local
     ports:
-      - "8080:8080"
-    environment:
-      - PORT=8080
-      - REDIS_URL=redis://redis:6379
-      - GIN_MODE=debug
+      - "8080:80"
     depends_on:
-      - redis
-    volumes:
-      - ../services/socket:/app
-    command: go run cmd/main.go
+      - api
 
 volumes:
-  redis_data:
-  mongodb_data:
+  postgres_data:
 
 networks:
   default:

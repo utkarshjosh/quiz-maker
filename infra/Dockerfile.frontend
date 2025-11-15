@@ -1,0 +1,77 @@
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Build-time configuration (populated via build arguments)
+ARG PUBLIC_API_URL
+ARG PUBLIC_SOCKET_URL
+ARG ENVIRONMENT=production
+ENV ENVIRONMENT=${ENVIRONMENT}
+ENV NODE_ENV=production
+
+# Install build dependencies
+RUN apk add --no-cache python3 make g++
+
+# Copy dependency manifests
+COPY apps/web/package.json apps/web/package-lock.json* ./apps/web/
+COPY pkg/ts ./pkg/ts
+COPY infra ./infra
+
+WORKDIR /app/apps/web
+
+# Install dependencies, ensuring dev dependencies like Vite are available for the build
+RUN npm install --include=dev
+
+# Copy remaining application sources
+COPY apps/web/ ./
+
+# Build static assets
+RUN set -eu \
+  && BUILD_ENVIRONMENT="${ENVIRONMENT:-}" \
+  && BUILD_PUBLIC_API_URL="${PUBLIC_API_URL:-}" \
+  && BUILD_PUBLIC_SOCKET_URL="${PUBLIC_SOCKET_URL:-}" \
+  && API_BASE_URL_FROM_FILE="" \
+  && SOCKET_URL_FROM_FILE="" \
+  && ENVIRONMENT_FROM_FILE="" \
+  && for file in /app/infra/docker.env /app/infra/docker.env.local; do \
+       if [ -f "$file" ]; then \
+         value=$(grep -E '^API_BASE_URL=' "$file" | tail -n 1 | cut -d '=' -f2- || true); \
+         [ -n "$value" ] && API_BASE_URL_FROM_FILE="$value"; \
+         value=$(grep -E '^SOCKET_URL=' "$file" | tail -n 1 | cut -d '=' -f2- || true); \
+         [ -n "$value" ] && SOCKET_URL_FROM_FILE="$value"; \
+         value=$(grep -E '^ENVIRONMENT=' "$file" | tail -n 1 | cut -d '=' -f2- || true); \
+         [ -n "$value" ] && ENVIRONMENT_FROM_FILE="$value"; \
+       fi; \
+     done \
+  && RESOLVED_ENVIRONMENT="$BUILD_ENVIRONMENT" \
+  && [ -n "$RESOLVED_ENVIRONMENT" ] || RESOLVED_ENVIRONMENT="$ENVIRONMENT_FROM_FILE" \
+  && [ -n "$RESOLVED_ENVIRONMENT" ] || RESOLVED_ENVIRONMENT="production" \
+  && RESOLVED_API_URL="$BUILD_PUBLIC_API_URL" \
+  && [ -n "$RESOLVED_API_URL" ] || RESOLVED_API_URL="$API_BASE_URL_FROM_FILE" \
+  && [ -n "$RESOLVED_API_URL" ] || RESOLVED_API_URL="https://quizapi.utkarshjoshi.com" \
+  && RESOLVED_SOCKET_URL="$BUILD_PUBLIC_SOCKET_URL" \
+  && [ -n "$RESOLVED_SOCKET_URL" ] || RESOLVED_SOCKET_URL="$SOCKET_URL_FROM_FILE" \
+  && [ -n "$RESOLVED_SOCKET_URL" ] || RESOLVED_SOCKET_URL="wss://quizsock.utkarshjoshi.com" \
+  && export ENVIRONMENT="$RESOLVED_ENVIRONMENT" \
+  && export VITE_API_BASE_URL="$RESOLVED_API_URL" \
+  && export VITE_SOCKET_URL="$RESOLVED_SOCKET_URL" \
+  && export VITE_API_ENV="$RESOLVED_ENVIRONMENT" \
+  && npm run build -- --mode "$RESOLVED_ENVIRONMENT"
+
+FROM nginx:1.27-alpine AS runtime
+
+ARG ENVIRONMENT=production
+ENV ENVIRONMENT=${ENVIRONMENT}
+
+WORKDIR /usr/share/nginx/html
+
+# Copy built assets
+COPY --from=builder /app/apps/web/dist ./dist
+
+# Use custom Nginx configuration for SPA routing
+COPY infra/nginx.conf /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+

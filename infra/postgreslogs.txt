@@ -1,0 +1,93 @@
+ongraph@ongraph-Vostro-3583:~/CODE/quiz-maker/infra(main)$ docker compose logs postgres
+quiz-postgres  | 
+quiz-postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+quiz-postgres  | 
+quiz-postgres  | 2025-11-11 17:44:46.112 UTC [1] LOG:  starting PostgreSQL 15.14 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+quiz-postgres  | 2025-11-11 17:44:46.112 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+quiz-postgres  | 2025-11-11 17:44:46.112 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+quiz-postgres  | 2025-11-11 17:44:46.117 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+quiz-postgres  | 2025-11-11 17:44:46.137 UTC [29] LOG:  database system was interrupted; last known up at 2025-11-11 17:02:45 UTC
+quiz-postgres  | 2025-11-11 17:44:46.612 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+quiz-postgres  | 2025-11-11 17:44:46.619 UTC [29] LOG:  redo starts at 0/196CCF0
+quiz-postgres  | 2025-11-11 17:44:46.619 UTC [29] LOG:  invalid record length at 0/196CD28: wanted 24, got 0
+quiz-postgres  | 2025-11-11 17:44:46.619 UTC [29] LOG:  redo done at 0/196CCF0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+quiz-postgres  | 2025-11-11 17:44:46.624 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
+quiz-postgres  | 2025-11-11 17:44:46.639 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.007 s, sync=0.002 s, total=0.017 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+quiz-postgres  | 2025-11-11 17:44:46.646 UTC [1] LOG:  database system is ready to accept connections
+quiz-postgres  | 
+quiz-postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+quiz-postgres  | 
+quiz-postgres  | 2025-11-11 18:21:35.246 UTC [1] LOG:  starting PostgreSQL 15.14 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+quiz-postgres  | 2025-11-11 18:21:35.246 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+quiz-postgres  | 2025-11-11 18:21:35.246 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+quiz-postgres  | 2025-11-11 18:21:35.251 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+quiz-postgres  | 2025-11-11 18:21:35.257 UTC [29] LOG:  database system was interrupted; last known up at 2025-11-11 17:44:46 UTC
+quiz-postgres  | 2025-11-11 18:21:35.503 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+quiz-postgres  | 2025-11-11 18:21:35.508 UTC [29] LOG:  redo starts at 0/196CDA0
+quiz-postgres  | 2025-11-11 18:21:35.508 UTC [29] LOG:  invalid record length at 0/196CDD8: wanted 24, got 0
+quiz-postgres  | 2025-11-11 18:21:35.508 UTC [29] LOG:  redo done at 0/196CDA0 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+quiz-postgres  | 2025-11-11 18:21:35.517 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
+quiz-postgres  | 2025-11-11 18:21:35.532 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.018 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+quiz-postgres  | 2025-11-11 18:21:35.537 UTC [1] LOG:  database system is ready to accept connections
+quiz-postgres  | 
+quiz-postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+quiz-postgres  | 
+quiz-postgres  | 2025-11-11 18:29:10.041 UTC [1] LOG:  starting PostgreSQL 15.14 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+quiz-postgres  | 2025-11-11 18:29:10.041 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+quiz-postgres  | 2025-11-11 18:29:10.041 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+quiz-postgres  | 2025-11-11 18:29:10.046 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+quiz-postgres  | 2025-11-11 18:29:10.055 UTC [29] LOG:  database system was interrupted; last known up at 2025-11-11 18:21:35 UTC
+quiz-postgres  | 2025-11-11 18:29:10.197 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+quiz-postgres  | 2025-11-11 18:29:10.202 UTC [29] LOG:  redo starts at 0/196CE50
+quiz-postgres  | 2025-11-11 18:29:10.202 UTC [29] LOG:  invalid record length at 0/196CE88: wanted 24, got 0
+quiz-postgres  | 2025-11-11 18:29:10.202 UTC [29] LOG:  redo done at 0/196CE50 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+quiz-postgres  | 2025-11-11 18:29:10.207 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
+quiz-postgres  | 2025-11-11 18:29:10.219 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.002 s, total=0.014 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+quiz-postgres  | 2025-11-11 18:29:10.223 UTC [1] LOG:  database system is ready to accept connections
+quiz-postgres  | 2025-11-12 04:56:18.061 UTC [26801] ERROR:  relation "public.tags" does not exist at character 73
+quiz-postgres  | 2025-11-12 04:56:18.061 UTC [26801] STATEMENT:  SELECT COUNT(*) AS "_count$_all" FROM (SELECT "public"."tags"."id" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 OFFSET $2) AS "sub"
+quiz-postgres  | 2025-11-12 04:56:18.061 UTC [26800] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 04:56:18.061 UTC [26800] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
+quiz-postgres  | 2025-11-12 04:56:19.283 UTC [26801] ERROR:  relation "public.tags" does not exist at character 73
+quiz-postgres  | 2025-11-12 04:56:19.283 UTC [26801] STATEMENT:  SELECT COUNT(*) AS "_count$_all" FROM (SELECT "public"."tags"."id" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 OFFSET $2) AS "sub"
+quiz-postgres  | 2025-11-12 04:56:19.289 UTC [26801] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 04:56:19.289 UTC [26801] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
+quiz-postgres  | 2025-11-12 04:56:21.032 UTC [26800] ERROR:  relation "public.tags" does not exist at character 73
+quiz-postgres  | 2025-11-12 04:56:21.032 UTC [26800] STATEMENT:  SELECT COUNT(*) AS "_count$_all" FROM (SELECT "public"."tags"."id" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 OFFSET $2) AS "sub"
+quiz-postgres  | 2025-11-12 04:56:21.033 UTC [26801] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 04:56:21.033 UTC [26801] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
+quiz-postgres  | 2025-11-12 04:56:22.295 UTC [26801] ERROR:  relation "public.tags" does not exist at character 73
+quiz-postgres  | 2025-11-12 04:56:22.295 UTC [26801] STATEMENT:  SELECT COUNT(*) AS "_count$_all" FROM (SELECT "public"."tags"."id" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 OFFSET $2) AS "sub"
+quiz-postgres  | 2025-11-12 04:56:22.300 UTC [26801] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 04:56:22.300 UTC [26801] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
+quiz-postgres  | 2025-11-12 04:56:24.305 UTC [26801] ERROR:  relation "public.tags" does not exist at character 73
+quiz-postgres  | 2025-11-12 04:56:24.305 UTC [26801] STATEMENT:  SELECT COUNT(*) AS "_count$_all" FROM (SELECT "public"."tags"."id" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 OFFSET $2) AS "sub"
+quiz-postgres  | 2025-11-12 04:56:24.310 UTC [26801] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 04:56:24.310 UTC [26801] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
+quiz-postgres  | 2025-11-12 04:56:28.317 UTC [26801] ERROR:  relation "public.tags" does not exist at character 73
+quiz-postgres  | 2025-11-12 04:56:28.317 UTC [26801] STATEMENT:  SELECT COUNT(*) AS "_count$_all" FROM (SELECT "public"."tags"."id" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 OFFSET $2) AS "sub"
+quiz-postgres  | 2025-11-12 04:56:28.321 UTC [26801] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 04:56:28.321 UTC [26801] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
+quiz-postgres  | 
+quiz-postgres  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+quiz-postgres  | 
+quiz-postgres  | 2025-11-12 04:57:35.699 UTC [1] LOG:  starting PostgreSQL 15.14 on x86_64-pc-linux-musl, compiled by gcc (Alpine 14.2.0) 14.2.0, 64-bit
+quiz-postgres  | 2025-11-12 04:57:35.699 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+quiz-postgres  | 2025-11-12 04:57:35.699 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+quiz-postgres  | 2025-11-12 04:57:35.704 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+quiz-postgres  | 2025-11-12 04:57:35.712 UTC [29] LOG:  database system was interrupted; last known up at 2025-11-11 18:29:10 UTC
+quiz-postgres  | 2025-11-12 04:57:35.902 UTC [29] LOG:  database system was not properly shut down; automatic recovery in progress
+quiz-postgres  | 2025-11-12 04:57:35.907 UTC [29] LOG:  redo starts at 0/196CF00
+quiz-postgres  | 2025-11-12 04:57:35.907 UTC [29] LOG:  invalid record length at 0/196CF38: wanted 24, got 0
+quiz-postgres  | 2025-11-12 04:57:35.907 UTC [29] LOG:  redo done at 0/196CF00 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+quiz-postgres  | 2025-11-12 04:57:35.922 UTC [27] LOG:  checkpoint starting: end-of-recovery immediate wait
+quiz-postgres  | 2025-11-12 04:57:35.941 UTC [27] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.005 s, sync=0.002 s, total=0.022 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+quiz-postgres  | 2025-11-12 04:57:35.948 UTC [1] LOG:  database system is ready to accept connections
+quiz-postgres  | 2025-11-12 04:58:41.915 UTC [34] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 04:58:41.915 UTC [34] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
+quiz-postgres  | 2025-11-12 05:09:08.849 UTC [521] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 05:09:08.849 UTC [521] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
+quiz-postgres  | 2025-11-12 05:09:08.861 UTC [522] ERROR:  relation "public.tags" does not exist at character 73
+quiz-postgres  | 2025-11-12 05:09:08.861 UTC [522] STATEMENT:  SELECT COUNT(*) AS "_count$_all" FROM (SELECT "public"."tags"."id" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 OFFSET $2) AS "sub"
+quiz-postgres  | 2025-11-12 05:09:13.773 UTC [522] ERROR:  relation "public.tags" does not exist at character 162
+quiz-postgres  | 2025-11-12 05:09:13.773 UTC [522] STATEMENT:  SELECT "public"."tags"."id", "public"."tags"."name", "public"."tags"."slug", "public"."tags"."icon", "public"."tags"."color", "public"."tags"."description" FROM "public"."tags" WHERE "public"."tags"."is_primary" = $1 ORDER BY "public"."tags"."name" ASC OFFSET $2
