@@ -1,0 +1,350 @@
+name: Build and Deploy to EC2
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+env:
+  AWS_REGION: ap-south-1
+  ECR_REGISTRY: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.ap-south-1.amazonaws.com
+
+# Required for OIDC authentication
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  build-and-push:
+    name: Build and Push Docker Images
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials via OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-session-name: GitHubActions-Build-${{ github.run_id }}
+
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and push API image
+        working-directory: ./infra
+        run: |
+          echo "Building API image..."
+          docker build -f Dockerfile.api \
+            -t ${{ env.ECR_REGISTRY }}/quiz-api:latest \
+            -t ${{ env.ECR_REGISTRY }}/quiz-api:${{ github.sha }} \
+            ..
+
+          echo "Pushing API image..."
+          docker push ${{ env.ECR_REGISTRY }}/quiz-api:latest
+          docker push ${{ env.ECR_REGISTRY }}/quiz-api:${{ github.sha }}
+          echo "✓ API image pushed successfully"
+
+      - name: Build and push Socket image
+        working-directory: ./infra
+        run: |
+          echo "Building Socket image..."
+          docker build -f Dockerfile.socket \
+            -t ${{ env.ECR_REGISTRY }}/quiz-socket:latest \
+            -t ${{ env.ECR_REGISTRY }}/quiz-socket:${{ github.sha }} \
+            ..
+
+          echo "Pushing Socket image..."
+          docker push ${{ env.ECR_REGISTRY }}/quiz-socket:latest
+          docker push ${{ env.ECR_REGISTRY }}/quiz-socket:${{ github.sha }}
+          echo "✓ Socket image pushed successfully"
+
+      - name: Build and push Frontend image
+        working-directory: ./infra
+        run: |
+          echo "Building Frontend image..."
+          docker build -f Dockerfile.frontend \
+            --build-arg PUBLIC_API_URL=${{ vars.PUBLIC_API_URL || 'http://localhost:3000' }} \
+            --build-arg PUBLIC_SOCKET_URL=${{ vars.PUBLIC_SOCKET_URL || 'ws://localhost:5000/ws' }} \
+            --build-arg ENVIRONMENT=production \
+            -t ${{ env.ECR_REGISTRY }}/quiz-frontend:latest \
+            -t ${{ env.ECR_REGISTRY }}/quiz-frontend:${{ github.sha }} \
+            ..
+
+          echo "Pushing Frontend image..."
+          docker push ${{ env.ECR_REGISTRY }}/quiz-frontend:latest
+          docker push ${{ env.ECR_REGISTRY }}/quiz-frontend:${{ github.sha }}
+          echo "✓ Frontend image pushed successfully"
+
+      - name: Clean up old ECR images
+        run: |
+          echo "Cleaning up old images to stay within free tier..."
+
+          for repo in quiz-api quiz-socket quiz-frontend; do
+            echo "Processing $repo..."
+            
+            # Get all image digests except latest 3 (keep some history)
+            IMAGE_DIGESTS=$(aws ecr describe-images \
+              --repository-name $repo \
+              --region ${{ secrets.AWS_REGION }} \
+              --query 'sort_by(imageDetails,& imagePushedAt)[:-3].[imageDigest]' \
+              --output text 2>/dev/null || echo "")
+            
+            if [ -n "$IMAGE_DIGESTS" ] && [ "$IMAGE_DIGESTS" != "None" ]; then
+              echo "Deleting old images from $repo..."
+              echo "$IMAGE_DIGESTS" | while read -r digest; do
+                if [ -n "$digest" ]; then
+                  aws ecr batch-delete-image \
+                    --repository-name $repo \
+                    --region ${{ secrets.AWS_REGION }} \
+                    --image-ids imageDigest=$digest 2>/dev/null || true
+                fi
+              done
+              echo "✓ Cleaned up $repo"
+            else
+              echo "No old images to clean in $repo"
+            fi
+          done
+
+          echo "✓ Cleanup complete"
+
+  deploy:
+    name: Deploy to EC2 via SSM
+    needs: build-and-push
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials via OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ secrets.AWS_REGION }}
+          role-session-name: GitHubActions-Deploy-${{ github.run_id }}
+
+      - name: Deploy to EC2 using SSM
+        id: deploy
+        run: |
+          echo "=== Starting Deployment via SSM ==="
+
+          # Create deployment script
+          DEPLOY_SCRIPT='#!/bin/bash
+          set -e
+
+          echo "=== Deployment Started ==="
+          echo "User: $(whoami)"
+          echo "Home: $HOME"
+
+          # Set environment variables
+          export AWS_REGION=${{ secrets.AWS_REGION }}
+          export ECR_REGISTRY=${{ env.ECR_REGISTRY }}
+
+          # Navigate to app directory
+          APP_DIR="$HOME/quiz-app"
+          echo "App directory: $APP_DIR"
+
+          if [ ! -d "$APP_DIR" ]; then
+            echo "Creating app directory..."
+            mkdir -p "$APP_DIR/infra"
+          fi
+
+          cd "$APP_DIR/infra"
+
+          # Use production compose file
+          export COMPOSE_FILE=docker-compose.prod.yml
+
+          # Login to ECR
+          echo "=== Logging into ECR ==="
+          aws ecr get-login-password --region $AWS_REGION | \
+            docker login --username AWS --password-stdin $ECR_REGISTRY
+
+          echo "=== Pulling Latest Images ==="
+          docker pull $ECR_REGISTRY/quiz-api:latest || { echo "Failed to pull API image"; exit 1; }
+          docker pull $ECR_REGISTRY/quiz-socket:latest || { echo "Failed to pull Socket image"; exit 1; }
+          docker pull $ECR_REGISTRY/quiz-frontend:latest || { echo "Failed to pull Frontend image"; exit 1; }
+
+          echo "=== Stopping Existing Containers ==="
+          docker-compose down 2>/dev/null || echo "No existing containers to stop"
+
+          echo "=== Starting New Containers ==="
+          docker-compose up -d
+
+          echo "=== Waiting for Services to Start ==="
+          sleep 15
+
+          echo "=== Container Status ==="
+          docker-compose ps
+
+          echo "=== Cleaning Up Old Images ==="
+          docker image prune -f
+
+          echo "=== Recent Container Logs ==="
+          docker-compose logs --tail=30
+
+          echo "=== Deployment Complete ==="
+          '
+
+          # Execute deployment via SSM
+          echo "Sending deployment command to instance ${{ secrets.EC2_INSTANCE_ID }}..."
+
+          COMMAND_ID=$(aws ssm send-command \
+            --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
+            --document-name "AWS-RunShellScript" \
+            --comment "GitHub Actions Deployment - Run ${{ github.run_id }}" \
+            --parameters commands="$DEPLOY_SCRIPT" \
+            --timeout-seconds 600 \
+            --region ${{ secrets.AWS_REGION }} \
+            --output text \
+            --query "Command.CommandId")
+
+          echo "Command ID: $COMMAND_ID"
+          echo "command_id=$COMMAND_ID" >> $GITHUB_OUTPUT
+
+          echo "Waiting for deployment to complete (max 10 minutes)..."
+
+          # Wait for command with timeout
+          COUNTER=0
+          MAX_ATTEMPTS=60
+
+          while [ $COUNTER -lt $MAX_ATTEMPTS ]; do
+            STATUS=$(aws ssm get-command-invocation \
+              --command-id "$COMMAND_ID" \
+              --instance-id "${{ secrets.EC2_INSTANCE_ID }}" \
+              --region ${{ secrets.AWS_REGION }} \
+              --query "Status" \
+              --output text 2>/dev/null || echo "Pending")
+            
+            echo "Status: $STATUS (attempt $((COUNTER+1))/$MAX_ATTEMPTS)"
+            
+            if [ "$STATUS" = "Success" ]; then
+              echo "✓ Deployment succeeded!"
+              break
+            elif [ "$STATUS" = "Failed" ] || [ "$STATUS" = "Cancelled" ] || [ "$STATUS" = "TimedOut" ]; then
+              echo "✗ Deployment failed with status: $STATUS"
+              break
+            fi
+            
+            sleep 10
+            COUNTER=$((COUNTER+1))
+          done
+
+          # Get command output
+          echo ""
+          echo "=== Deployment Output ==="
+          aws ssm get-command-invocation \
+            --command-id "$COMMAND_ID" \
+            --instance-id "${{ secrets.EC2_INSTANCE_ID }}" \
+            --region ${{ secrets.AWS_REGION }} \
+            --query "StandardOutputContent" \
+            --output text || echo "No output available"
+
+          # Get errors if any
+          ERROR_OUTPUT=$(aws ssm get-command-invocation \
+            --command-id "$COMMAND_ID" \
+            --instance-id "${{ secrets.EC2_INSTANCE_ID }}" \
+            --region ${{ secrets.AWS_REGION }} \
+            --query "StandardErrorContent" \
+            --output text 2>/dev/null || echo "")
+
+          if [ -n "$ERROR_OUTPUT" ] && [ "$ERROR_OUTPUT" != "None" ]; then
+            echo ""
+            echo "=== Errors ==="
+            echo "$ERROR_OUTPUT"
+          fi
+
+          # Final status check
+          FINAL_STATUS=$(aws ssm get-command-invocation \
+            --command-id "$COMMAND_ID" \
+            --instance-id "${{ secrets.EC2_INSTANCE_ID }}" \
+            --region ${{ secrets.AWS_REGION }} \
+            --query "Status" \
+            --output text)
+
+          if [ "$FINAL_STATUS" != "Success" ]; then
+            echo "✗ Deployment failed with status: $FINAL_STATUS"
+            exit 1
+          fi
+
+          echo "✓ Deployment completed successfully!"
+
+      - name: Verify Deployment Health
+        if: success()
+        run: |
+          echo "=== Running Health Checks ==="
+
+          # Check running containers
+          HEALTH_CHECK='
+          cd $HOME/quiz-app/infra 2>/dev/null || cd /home/ec2-user/quiz-app/infra || cd /home/ubuntu/quiz-app/infra
+
+          # Use production compose file
+          export COMPOSE_FILE=docker-compose.prod.yml
+
+          echo "=== Container Status ==="
+          docker-compose ps --format json | jq -r "select(.State == \"running\") | .Name" | wc -l
+
+          echo ""
+          echo "=== Container Details ==="
+          docker-compose ps
+          '
+
+          COMMAND_ID=$(aws ssm send-command \
+            --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
+            --document-name "AWS-RunShellScript" \
+            --comment "Health Check - Run ${{ github.run_id }}" \
+            --parameters commands="$HEALTH_CHECK" \
+            --timeout-seconds 60 \
+            --region ${{ secrets.AWS_REGION }} \
+            --output text \
+            --query "Command.CommandId")
+
+          echo "Health check command ID: $COMMAND_ID"
+          sleep 10
+
+          # Get output
+          OUTPUT=$(aws ssm get-command-invocation \
+            --command-id "$COMMAND_ID" \
+            --instance-id "${{ secrets.EC2_INSTANCE_ID }}" \
+            --region ${{ secrets.AWS_REGION }} \
+            --query "StandardOutputContent" \
+            --output text)
+
+          echo "$OUTPUT"
+
+          # Extract running container count (first line of output)
+          RUNNING=$(echo "$OUTPUT" | head -1)
+
+          echo ""
+          if [ "$RUNNING" -ge 3 ]; then
+            echo "✓ Health check passed: $RUNNING containers running"
+          else
+            echo "⚠ Warning: Expected 3 containers, found $RUNNING"
+            echo "Deployment completed but not all containers are running"
+            exit 1
+          fi
+
+      - name: Deployment Summary
+        if: always()
+        run: |
+          echo "## Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit**: ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch**: ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Triggered by**: ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Region**: ${{ secrets.AWS_REGION }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Instance**: ${{ secrets.EC2_INSTANCE_ID }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ "${{ job.status }}" = "success" ]; then
+            echo "✅ **Status**: Deployment successful!" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Status**: Deployment failed" >> $GITHUB_STEP_SUMMARY
+          fi

@@ -1,7 +1,11 @@
 FROM node:20-bookworm-slim AS builder
 
-# Use development environment to ensure dev dependencies (e.g., test typings) are available during build
-ENV NODE_ENV=${ENVIRONMENT}
+# Ensure dev dependencies are available during build and avoid installing optional/audit/fund
+ENV NODE_ENV=development \
+  NPM_CONFIG_PRODUCTION=false \
+  NPM_CONFIG_FUND=false \
+  NPM_CONFIG_AUDIT=false \
+  NPM_CONFIG_OPTIONAL=false
 
 WORKDIR /app
 
@@ -13,7 +17,7 @@ RUN apt-get update \
 # Copy dependency manifests
 COPY apps/api/package*.json ./
 
-# Install all dependencies (including dev) for build
+# Install all dependencies (including dev) for build using lockfile
 RUN npm install
 
 # Copy source files
@@ -26,14 +30,11 @@ COPY apps/api/public ./public
 ENV NODE_ENV=production
 RUN npm run build
 
-# Prune dev dependencies to slim runtime node_modules
-RUN npm prune --omit=dev
+# Prune dev and optional dependencies to slim runtime node_modules
+RUN npm prune --omit=dev --omit=optional \
+  && npm cache clean --force
 
 FROM node:20-bookworm-slim AS runtime
-# Install runtime utilities required for healthcheck
-RUN apt-get update \
-  && apt-get install -y --no-install-recommends ca-certificates wget \
-  && rm -rf /var/lib/apt/lists/*
 
 ENV NODE_ENV=production
 
@@ -41,7 +42,6 @@ WORKDIR /app
 # Copy production dependencies and build output
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/dist ./dist
 
 # Create non-root application user
@@ -54,6 +54,6 @@ USER nodejs
 EXPOSE 3000
 
 HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=5 \
-  CMD wget --quiet --spider --tries=1 http://localhost:3000/api/v1/development/health || exit 1
+  CMD node -e "require('http').get('http://localhost:3000/api/v1/development/health', r => process.exit(r.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))"
 
 CMD ["node", "dist/index.js"]

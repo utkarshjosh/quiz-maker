@@ -4,12 +4,12 @@ This directory contains the Docker-based infrastructure used to run the Quiz Mak
 
 ## Service Topology
 
-| Service | Image | Port | Domain | Notes |
-| --- | --- | --- | --- | --- |
-| `postgres` | `postgres:15-alpine` | 5432 | private | Primary relational store shared by API + realtime services |
-| `api` | built from `infra/Dockerfile.api` | 3000 | `https://quizapi.utkarshjoshi.com` | Express + Prisma backend, exposes REST API and Auth routes |
-| `socket` | built from `infra/Dockerfile.socket` | 5000 | `wss://quizsock.utkarshjoshi.com` | Go websocket service. Requires access to Postgres and an external Redis endpoint |
-| `frontend` | built from `infra/Dockerfile.frontend` → `nginx:alpine` | 80 | `https://quiz.utkarshjoshi.com` | Static Vite build served by Nginx with SPA routing |
+| Service    | Image                                                   | Port | Domain                              | Notes                                                                            |
+| ---------- | ------------------------------------------------------- | ---- | ----------------------------------- | -------------------------------------------------------------------------------- |
+| `postgres` | `postgres:15-alpine`                                    | 5432 | private                             | Primary relational store shared by API + realtime services                       |
+| `api`      | built from `infra/Dockerfile.api`                       | 3000 | `https://quiz-api.utkarshjoshi.com` | Express + Prisma backend, exposes REST API and Auth routes                       |
+| `socket`   | built from `infra/Dockerfile.socket`                    | 5000 | `wss://quiz-ws.utkarshjoshi.com`    | Go websocket service. Requires access to Postgres and an external Redis endpoint |
+| `frontend` | built from `infra/Dockerfile.frontend` → `nginx:alpine` | 80   | `https://quiz.utkarshjoshi.com`     | Static Vite build served by Nginx with SPA routing                               |
 
 All containers share the `quiz-network` bridge network so they can communicate using their service names (e.g. `postgres`, `api`).
 
@@ -57,8 +57,8 @@ The containers listen on different host ports (`80`, `3000`, `5000`). To expose 
 2. Terminate TLS with a lightweight reverse proxy (Nginx, Caddy, or Traefik) either on the host or as an additional container.
 3. Create three server blocks/virtual hosts that proxy requests to the corresponding container ports:
    - `quiz.utkarshjoshi.com` → `http://127.0.0.1:80`
-   - `quizapi.utkarshjoshi.com` → `http://127.0.0.1:3000`
-   - `quizsock.utkarshjoshi.com` (websocket) → `http://127.0.0.1:5000`
+   - `quiz-api.utkarshjoshi.com` → `http://127.0.0.1:3000`
+   - `quiz-ws.utkarshjoshi.com` (websocket) → `http://127.0.0.1:5000`
 4. Point the DNS `A` records for each domain to the EC2 instance.
 
 If you prefer AWS-native routing, place an Application Load Balancer in front of the instance and forward path-based listeners to the exposed ports.
@@ -72,6 +72,7 @@ If you prefer AWS-native routing, place an Application Load Balancer in front of
 
 2. **Build & Push (CI/CD)**  
    In your CI pipeline:
+
    ```bash
    docker compose --env-file infra/docker.env build
    docker tag api <aws-account>.dkr.ecr.<region>.amazonaws.com/quiz-api:latest
@@ -80,10 +81,12 @@ If you prefer AWS-native routing, place an Application Load Balancer in front of
    docker push <aws-account>.dkr.ecr.<region>.amazonaws.com/quiz-api:latest
    # repeat for realtime + frontend
    ```
+
    (Postgres uses the public image so no push is required.)
 
 3. **Create Deployment Artifact**  
    Package the following into a zip file for CodeDeploy:
+
    ```
    infra/
      docker-compose.yml
@@ -94,7 +97,9 @@ If you prefer AWS-native routing, place an Application Load Balancer in front of
        application_start.sh
    appspec.yml
    ```
+
    Example `appspec.yml`:
+
    ```yaml
    version: 0.0
    os: linux
@@ -109,6 +114,7 @@ If you prefer AWS-native routing, place an Application Load Balancer in front of
      ApplicationStart:
        - location: infra/scripts/application_start.sh
    ```
+
    Suggested hook script responsibilities:
    - `before_install.sh`: stop the running stack (`docker compose down`)
    - `after_install.sh`: pull latest images (`docker compose pull`)
@@ -129,4 +135,3 @@ If you prefer AWS-native routing, place an Application Load Balancer in front of
 - Prisma migrations are **not** executed automatically. Run `docker compose exec api npx prisma migrate deploy` during deployments as required.
 - For production traffic, enable HTTPS at the reverse proxy/load balancer layer and tighten security groups to expose only ports 80/443.
 - Keep the `infra/docker.env` file out of version control and manage secrets through AWS Systems Manager Parameter Store or Secrets Manager for production deployments.
-

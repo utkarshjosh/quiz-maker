@@ -8,17 +8,18 @@ services:
     ports:
       - "55432:5432"
     volumes:
-      - postgres_data:/var/lib/postgresql/data # Use a Docker volume
+      - postgres_data:/var/lib/postgresql/data
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
       interval: 10s
       timeout: 5s
       retries: 5
+    restart: unless-stopped
+    networks:
+      - quiz-network
 
   api:
-    build:
-      context: ..
-      dockerfile: infra/Dockerfile.api
+    image: ${AWS_ACCOUNT_ID}.dkr.ecr.ap-south-1.amazonaws.com/quiz-api:latest
     container_name: api
     env_file:
       - ./docker.env
@@ -28,14 +29,16 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    networks:
+      - quiz-network
 
   socket:
-    build:
-      context: ..
-      dockerfile: infra/Dockerfile.socket
+    image: ${AWS_ACCOUNT_ID}.dkr.ecr.ap-south-1.amazonaws.com/quiz-socket:latest
     container_name: socket
     env_file:
       - ./docker.env
@@ -45,18 +48,16 @@ services:
     ports:
       - "5001:5000"
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
     extra_hosts:
       - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    networks:
+      - quiz-network
 
   frontend:
-    build:
-      context: ..
-      dockerfile: infra/Dockerfile.frontend
-      args:
-        PUBLIC_API_URL: ${PUBLIC_API_URL:-http://localhost:3000}
-        PUBLIC_SOCKET_URL: ${PUBLIC_SOCKET_URL:-ws://localhost:5000/ws}
-        ENVIRONMENT: ${ENVIRONMENT:-development}
+    image: ${AWS_ACCOUNT_ID}.dkr.ecr.ap-south-1.amazonaws.com/quiz-frontend:latest
     container_name: frontend
     env_file:
       - ./docker.env
@@ -67,10 +68,14 @@ services:
       - "8080:80"
     depends_on:
       - api
+    restart: unless-stopped
+    networks:
+      - quiz-network
 
 volumes:
   postgres_data:
+    driver: local
 
 networks:
-  default:
-    name: quiz-network
+  quiz-network:
+    driver: bridge

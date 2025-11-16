@@ -48,10 +48,10 @@ RUN set -eu \
   && [ -n "$RESOLVED_ENVIRONMENT" ] || RESOLVED_ENVIRONMENT="production" \
   && RESOLVED_API_URL="$BUILD_PUBLIC_API_URL" \
   && [ -n "$RESOLVED_API_URL" ] || RESOLVED_API_URL="$API_BASE_URL_FROM_FILE" \
-  && [ -n "$RESOLVED_API_URL" ] || RESOLVED_API_URL="https://quizapi.utkarshjoshi.com" \
+  && [ -n "$RESOLVED_API_URL" ] || RESOLVED_API_URL="https://quiz-api.utkarshjoshi.com" \
   && RESOLVED_SOCKET_URL="$BUILD_PUBLIC_SOCKET_URL" \
   && [ -n "$RESOLVED_SOCKET_URL" ] || RESOLVED_SOCKET_URL="$SOCKET_URL_FROM_FILE" \
-  && [ -n "$RESOLVED_SOCKET_URL" ] || RESOLVED_SOCKET_URL="wss://quizsock.utkarshjoshi.com" \
+  && [ -n "$RESOLVED_SOCKET_URL" ] || RESOLVED_SOCKET_URL="wss://quiz-ws.utkarshjoshi.com" \
   && export ENVIRONMENT="$RESOLVED_ENVIRONMENT" \
   && export VITE_API_BASE_URL="$RESOLVED_API_URL" \
   && export VITE_SOCKET_URL="$RESOLVED_SOCKET_URL" \
