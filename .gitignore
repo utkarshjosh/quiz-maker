@@ -159,6 +159,8 @@ dist/
 # Docker
 .dockerignore
 docker-compose.override.yml
+infra/docker.env.local
+infra/docker.env
 
 # Temporary files
 tmp/
