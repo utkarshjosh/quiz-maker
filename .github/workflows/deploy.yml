@@ -143,7 +143,7 @@ jobs:
             --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
             --document-name "AWS-RunShellScript" \
             --comment "GitHub Actions Deployment - Run ${{ github.run_id }}" \
-            --parameters 'commands=["bash ~/quiz-app/infra/deploy.sh ${{ secrets.AWS_REGION }} ${{ env.ECR_REGISTRY }} ${{ secrets.AWS_ACCOUNT_ID }}"]' \
+            --parameters 'commands=["bash ~/quiz-maker/infra/deploy.sh ${{ secrets.AWS_REGION }} ${{ env.ECR_REGISTRY }} ${{ secrets.AWS_ACCOUNT_ID }}"]' \
             --timeout-seconds 600 \
             --region ${{ secrets.AWS_REGION }} \
             --output text \
