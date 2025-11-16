@@ -209,3 +209,7 @@ dev-debug.log
 # Task files
 # tasks.json
 # tasks/ 
+
+# Allow API public assets in repo (override generic public ignores)
+!apps/api/public/
+!apps/api/public/**
