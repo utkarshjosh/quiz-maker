@@ -136,63 +136,6 @@ jobs:
         run: |
           echo "=== Starting Deployment via SSM ==="
 
-          # Create deployment script
-          DEPLOY_SCRIPT='#!/bin/bash
-          set -e
-
-          echo "=== Deployment Started ==="
-          echo "User: $(whoami)"
-          echo "Home: $HOME"
-
-          # Set environment variables
-          export AWS_REGION=${{ secrets.AWS_REGION }}
-          export ECR_REGISTRY=${{ env.ECR_REGISTRY }}
-
-          # Navigate to app directory
-          APP_DIR="$HOME/quiz-app"
-          echo "App directory: $APP_DIR"
-
-          if [ ! -d "$APP_DIR" ]; then
-            echo "Creating app directory..."
-            mkdir -p "$APP_DIR/infra"
-          fi
-
-          cd "$APP_DIR/infra"
-
-          # Use production compose file
-          export COMPOSE_FILE=docker-compose.prod.yml
-
-          # Login to ECR
-          echo "=== Logging into ECR ==="
-          aws ecr get-login-password --region $AWS_REGION | \
-            docker login --username AWS --password-stdin $ECR_REGISTRY
-
-          echo "=== Pulling Latest Images ==="
-          docker pull $ECR_REGISTRY/quiz-api:latest || { echo "Failed to pull API image"; exit 1; }
-          docker pull $ECR_REGISTRY/quiz-socket:latest || { echo "Failed to pull Socket image"; exit 1; }
-          docker pull $ECR_REGISTRY/quiz-frontend:latest || { echo "Failed to pull Frontend image"; exit 1; }
-
-          echo "=== Stopping Existing Containers ==="
-          docker-compose down 2>/dev/null || echo "No existing containers to stop"
-
-          echo "=== Starting New Containers ==="
-          docker-compose up -d
-
-          echo "=== Waiting for Services to Start ==="
-          sleep 15
-
-          echo "=== Container Status ==="
-          docker-compose ps
-
-          echo "=== Cleaning Up Old Images ==="
-          docker image prune -f
-
-          echo "=== Recent Container Logs ==="
-          docker-compose logs --tail=30
-
-          echo "=== Deployment Complete ==="
-          '
-
           # Execute deployment via SSM
           echo "Sending deployment command to instance ${{ secrets.EC2_INSTANCE_ID }}..."
 
@@ -200,7 +143,7 @@ jobs:
             --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
             --document-name "AWS-RunShellScript" \
             --comment "GitHub Actions Deployment - Run ${{ github.run_id }}" \
-            --parameters commands="$DEPLOY_SCRIPT" \
+            --parameters '{"commands":["bash infra/deploy.sh"]}' \
             --timeout-seconds 600 \
             --region ${{ secrets.AWS_REGION }} \
             --output text \
