@@ -88,8 +88,8 @@ jobs:
         run: |
           echo "Building Frontend image..."
           docker build -f Dockerfile.frontend \
-            --build-arg PUBLIC_API_URL=${{ vars.PUBLIC_API_URL || 'http://localhost:3000' }} \
-            --build-arg PUBLIC_SOCKET_URL=${{ vars.PUBLIC_SOCKET_URL || 'ws://localhost:5000/ws' }} \
+            --build-arg PUBLIC_API_URL=${{ vars.PUBLIC_API_URL || secrets.PUBLIC_API_URL || 'https://quiz-api.utkarshjoshi.com' }} \
+            --build-arg PUBLIC_SOCKET_URL=${{ vars.PUBLIC_SOCKET_URL || secrets.PUBLIC_SOCKET_URL || 'wss://quiz-ws.utkarshjoshi.com/ws' }} \
             --build-arg ENVIRONMENT=production \
             -t ${{ env.ECR_REGISTRY }}/quiz-frontend:latest \
             -t ${{ env.ECR_REGISTRY }}/quiz-frontend:${{ github.sha }} \
