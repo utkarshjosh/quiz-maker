@@ -66,6 +66,23 @@ jobs:
           docker push ${{ env.ECR_REGISTRY }}/quiz-socket:${{ github.sha }}
           echo "✓ Socket image pushed successfully"
 
+      - name: Create Frontend .env file
+        run: |
+          echo "=== Creating Frontend .env file ==="
+          mkdir -p ./infra/frontend
+          cat > ./infra/frontend/.env <<EOF
+          # Frontend Environment Variables
+          # Note: VITE_* variables are baked into the build at build-time
+          # These are here for docker-compose compatibility
+
+          VITE_API_BASE_URL=${{ vars.PUBLIC_API_URL || secrets.PUBLIC_API_URL || 'https://quiz-api.utkarshjoshi.com' }}
+          VITE_SOCKET_URL=${{ vars.PUBLIC_SOCKET_URL || secrets.PUBLIC_SOCKET_URL || 'wss://quiz-ws.utkarshjoshi.com/ws' }}
+          VITE_API_ENV=production
+          VITE_API_VERSION=v1
+          EOF
+          echo "✓ Frontend .env file created"
+          cat ./infra/frontend/.env
+
       - name: Build and push Frontend image
         working-directory: ./infra
         run: |
@@ -90,11 +107,11 @@ jobs:
           for repo in quiz-api quiz-socket quiz-frontend; do
             echo "Processing $repo..."
             
-            # Get all image digests except latest 3 (keep some history)
+            # Get all image digests except latest 2 (keep current and most recent)
             IMAGE_DIGESTS=$(aws ecr describe-images \
               --repository-name $repo \
               --region ${{ secrets.AWS_REGION }} \
-              --query 'sort_by(imageDetails,& imagePushedAt)[:-3].[imageDigest]' \
+              --query 'sort_by(imageDetails,& imagePushedAt)[:-2].[imageDigest]' \
               --output text 2>/dev/null || echo "")
             
             if [ -n "$IMAGE_DIGESTS" ] && [ "$IMAGE_DIGESTS" != "None" ]; then
@@ -229,12 +246,13 @@ jobs:
             --document-name "AWS-RunShellScript" \
             --comment "Health Check - Run ${{ github.run_id }}" \
             --parameters 'commands=[
-              "cd ~/quiz-app/infra",
+              "COMPOSE_DIR=\"/home/ubuntu/quiz-maker/infra\"",
+              "COMPOSE_FILE=\"$COMPOSE_DIR/docker-compose.prod.yml\"",
               "echo === Container Status ===",
-              "docker-compose ps",
+              "docker-compose -f \"$COMPOSE_FILE\" --project-directory \"$COMPOSE_DIR\" ps",
               "echo",
               "echo === Running Containers Count ===",
-              "docker-compose ps | grep -c Up || echo 0"
+              "docker-compose -f \"$COMPOSE_FILE\" --project-directory \"$COMPOSE_DIR\" ps | grep -c Up || echo 0"
             ]' \
             --timeout-seconds 60 \
             --region ${{ secrets.AWS_REGION }} \
