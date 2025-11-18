@@ -20,7 +20,15 @@ COPY infra ./infra
 WORKDIR /app/apps/web
 
 # Install dependencies, ensuring dev dependencies like Vite are available for the build
-RUN npm install --include=dev
+# Use npm ci if lock file exists and is in sync, otherwise fall back to npm install
+# Clean npm cache in the same layer to prevent it from being saved in image layers
+RUN if [ -f package-lock.json ]; then \
+      npm ci --include=dev --no-audit || npm install --include=dev --no-audit; \
+    else \
+      npm install --include=dev --no-audit; \
+    fi \
+  && npm cache clean --force \
+  && rm -rf ~/.npm /root/.npm
 
 # Copy remaining application sources
 COPY apps/web/ ./
@@ -65,8 +73,8 @@ ENV ENVIRONMENT=${ENVIRONMENT}
 
 WORKDIR /usr/share/nginx/html
 
-# Copy built assets
-COPY --from=builder /app/apps/web/dist ./dist
+# Copy built assets to nginx root (not in subdirectory)
+COPY --from=builder /app/apps/web/dist .
 
 # Use custom Nginx configuration for SPA routing
 COPY infra/nginx.conf /etc/nginx/conf.d/default.conf

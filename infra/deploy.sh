@@ -1,77 +1,67 @@
 #!/bin/bash
-# Deployment script for EC2
-# Location: ~/quiz-app/deploy.sh
-# This script will be called by SSM with environment variables passed as arguments
-
 set -e
 
-# Parse arguments (passed from SSM)
 AWS_REGION="${1:-ap-south-1}"
 ECR_REGISTRY="${2}"
 AWS_ACCOUNT_ID="${3}"
 
-# Validate required parameters
 if [ -z "$ECR_REGISTRY" ] || [ -z "$AWS_ACCOUNT_ID" ]; then
   echo "Error: Missing required parameters"
-  echo "Usage: $0 <AWS_REGION> <ECR_REGISTRY> <AWS_ACCOUNT_ID>"
   exit 1
 fi
 
 echo "=== Deployment Started ==="
-echo "User: $(whoami)"
-echo "Home: $HOME"
+echo "Current user: $(whoami)"
+echo "Current UID: $(id -u)"
 echo "AWS Region: $AWS_REGION"
-echo "ECR Registry: $ECR_REGISTRY"
 
-# Set environment variables
 export AWS_REGION
 export ECR_REGISTRY
 export AWS_ACCOUNT_ID
 
-# Navigate to app directory
-APP_DIR="$HOME/quiz-app"
-echo "App directory: $APP_DIR"
-
-if [ ! -d "$APP_DIR" ]; then
-  echo "Creating app directory..."
-  mkdir -p "$APP_DIR/infra"
+# Force absolute path since HOME might be empty
+if [ -d "/home/ubuntu/quiz-maker/infra" ]; then
+  APP_DIR="/home/ubuntu/quiz-maker/infra"
+elif [ -d "/home/ec2-user/quiz-maker/infra" ]; then
+  APP_DIR="/home/ec2-user/quiz-maker/infra"
+else
+  echo "Error: Could not find quiz-maker/infra directory"
+  echo "Checked: /home/ubuntu/quiz-maker/infra, /home/ec2-user/quiz-maker/infra"
+  exit 1
 fi
 
-cd "$APP_DIR/infra"
+echo "App directory: $APP_DIR"
+cd "$APP_DIR"
 
-# Login to ECR
+echo "=== Current directory ==="
+pwd
+ls -la
+
 echo "=== Logging into ECR ==="
-aws ecr get-login-password --region "$AWS_REGION" | \
-  docker login --username AWS --password-stdin "$ECR_REGISTRY"
+aws ecr get-login-password --region "$AWS_REGION" | docker login --username AWS --password-stdin "$ECR_REGISTRY"
 
-# Pull latest images
 echo "=== Pulling Latest Images ==="
-docker pull "$ECR_REGISTRY/quiz-api:latest" || { echo "Failed to pull API image"; exit 1; }
-docker pull "$ECR_REGISTRY/quiz-socket:latest" || { echo "Failed to pull Socket image"; exit 1; }
-docker pull "$ECR_REGISTRY/quiz-frontend:latest" || { echo "Failed to pull Frontend image"; exit 1; }
+docker pull "$ECR_REGISTRY/quiz-api:latest" || { echo "Failed to pull quiz-api"; exit 1; }
+docker pull "$ECR_REGISTRY/quiz-socket:latest" || { echo "Failed to pull quiz-socket"; exit 1; }
+docker pull "$ECR_REGISTRY/quiz-frontend:latest" || { echo "Failed to pull quiz-frontend"; exit 1; }
 
-# Stop existing containers
 echo "=== Stopping Existing Containers ==="
-docker-compose down 2>/dev/null || echo "No existing containers to stop"
+docker-compose down 2>/dev/null || echo "No containers to stop"
 
-# Start new containers
 echo "=== Starting New Containers ==="
 docker-compose up -d
 
-# Wait for services
-echo "=== Waiting for Services to Start ==="
+echo "=== Waiting for Services ==="
 sleep 15
 
-# Show status
 echo "=== Container Status ==="
 docker-compose ps
 
-# Clean up old images
-echo "=== Cleaning Up Old Images ==="
+echo "=== Cleaning Up ==="
 docker image prune -f
 
-# Show recent logs
-echo "=== Recent Container Logs ==="
+echo "=== Recent Logs ==="
 docker-compose logs --tail=30
 
 echo "=== Deployment Complete ==="
+EOF

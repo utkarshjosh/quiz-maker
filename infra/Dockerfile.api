@@ -1,6 +1,5 @@
 FROM node:20-bookworm-slim AS builder
 
-# Ensure dev dependencies are available during build and avoid installing optional/audit/fund
 ENV NODE_ENV=development \
   NPM_CONFIG_PRODUCTION=false \
   NPM_CONFIG_FUND=false \
@@ -9,16 +8,22 @@ ENV NODE_ENV=development \
 
 WORKDIR /app
 
-# Install build dependencies
+# Install build dependencies including OpenSSL
 RUN apt-get update \
-  && apt-get install -y --no-install-recommends python3 make g++ \
+  && apt-get install -y --no-install-recommends python3 make g++ openssl \
   && rm -rf /var/lib/apt/lists/*
 
 # Copy dependency manifests
 COPY apps/api/package*.json ./
 
-# Install all dependencies (including dev) for build using lockfile
-RUN npm install
+# Install all dependencies
+RUN if [ -f package-lock.json ]; then \
+      npm ci --no-audit; \
+    else \
+      npm install --no-audit; \
+    fi \
+  && npm cache clean --force \
+  && rm -rf ~/.npm /root/.npm
 
 # Copy source files
 COPY apps/api/prisma ./prisma
@@ -26,28 +31,67 @@ COPY apps/api/tsconfig*.json ./
 COPY apps/api/src ./src
 COPY apps/api/public ./public
 
-# Build application (includes Prisma generate)
+# Generate Prisma client with all binary targets
+RUN npx prisma generate && \
+    echo "Verifying Prisma binaries:" && \
+    find node_modules/.prisma/client -name "*query-engine*" -type f 2>/dev/null
+
+# Build application
 ENV NODE_ENV=production
 RUN npm run build
 
-# Prune dev and optional dependencies to slim runtime node_modules
+# Prune dev dependencies but keep Prisma CLI for runtime generation
+# We need to keep prisma package available
 RUN npm prune --omit=dev --omit=optional \
-  && npm cache clean --force
+  && npm install --save-dev prisma@latest \
+  && rm -rf ~/.npm /root/.npm
 
+# ============================================
+# Runtime Stage
+# ============================================
 FROM node:20-bookworm-slim AS runtime
 
 ENV NODE_ENV=production
 
 WORKDIR /app
-# Copy production dependencies and build output
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
-COPY --from=builder /app/dist ./dist
 
-# Create non-root application user
+# Install OpenSSL runtime (critical for Prisma)
+RUN apt-get update \
+  && apt-get install -y --no-install-recommends openssl \
+  && rm -rf /var/lib/apt/lists/*
+
+# Create non-root user
 RUN groupadd --system nodejs \
-  && useradd --system --gid nodejs --home /home/nodejs --create-home nodejs \
-  && chown -R nodejs:nodejs /app
+  && useradd --system --gid nodejs --home /home/nodejs --create-home nodejs
+
+# Copy package files and Prisma schema first (needed for generation)
+COPY --from=builder --chown=nodejs:nodejs /app/package*.json ./
+COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
+
+# Copy entire node_modules from builder (includes Prisma CLI and @prisma/client)
+COPY --from=builder --chown=nodejs:nodejs /app/node_modules ./node_modules
+
+# Regenerate Prisma client at runtime with OpenSSL available
+# This ensures binaries match the runtime environment's OpenSSL version
+# Clear any existing generated client first to force fresh generation
+RUN rm -rf node_modules/.prisma node_modules/@prisma/.prisma 2>/dev/null || true && \
+    npx prisma generate && \
+    echo "=== Prisma binaries after regeneration ===" && \
+    find node_modules/.prisma/client -name "*query-engine*" -type f 2>/dev/null | head -5
+
+# Copy built application
+COPY --from=builder --chown=nodejs:nodejs /app/dist ./dist
+
+# Create logs directory with proper permissions for nodejs user
+RUN mkdir -p logs && \
+    chown -R nodejs:nodejs logs && \
+    chmod 755 logs
+
+# Verify Prisma setup
+RUN echo "=== Prisma Client Verification ===" && \
+    ls -lh node_modules/.prisma/client/*query-engine* 2>/dev/null || echo "WARNING: No Prisma binaries found!" && \
+    echo "=== @prisma/client package ===" && \
+    cat node_modules/@prisma/client/package.json | grep version || echo "Package not found"
 
 USER nodejs
 

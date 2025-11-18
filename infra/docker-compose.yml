@@ -15,40 +15,6 @@ services:
       timeout: 5s
       retries: 5
 
-  api:
-    build:
-      context: ..
-      dockerfile: infra/Dockerfile.api
-    container_name: api
-    env_file:
-      - ./docker.env
-      - ./api/.env
-      - ./docker.env.local
-      - ./api/.env.local
-    ports:
-      - "3000:3000"
-    depends_on:
-      - postgres
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
-
-  socket:
-    build:
-      context: ..
-      dockerfile: infra/Dockerfile.socket
-    container_name: socket
-    env_file:
-      - ./docker.env
-      - ./socket/.env
-      - ./docker.env.local
-      - ./socket/.env.local
-    ports:
-      - "5001:5000"
-    depends_on:
-      - postgres
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
-
   frontend:
     build:
       context: ..
@@ -67,6 +33,42 @@ services:
       - "8080:80"
     depends_on:
       - api
+
+  api:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile.api
+    container_name: api
+    env_file:
+      - ./docker.env
+      - ./api/.env
+      - ./docker.env.local
+      - ./api/.env.local
+    ports:
+      - "3000:3000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  socket:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile.socket
+    container_name: socket
+    env_file:
+      - ./docker.env
+      - ./socket/.env
+      - ./docker.env.local
+      - ./socket/.env.local
+    ports:
+      - "5001:5000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
 volumes:
   postgres_data:

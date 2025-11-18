@@ -18,6 +18,22 @@ services:
     networks:
       - quiz-network
 
+  frontend:
+    image: ${AWS_ACCOUNT_ID}.dkr.ecr.ap-south-1.amazonaws.com/quiz-frontend:latest
+    container_name: frontend
+    env_file:
+      - ./docker.env
+      - ./frontend/.env
+      - ./docker.env.local
+      - ./frontend/.env.local
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
+    restart: unless-stopped
+    networks:
+      - quiz-network
+
   api:
     image: ${AWS_ACCOUNT_ID}.dkr.ecr.ap-south-1.amazonaws.com/quiz-api:latest
     container_name: api
@@ -52,22 +68,6 @@ services:
         condition: service_healthy
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    restart: unless-stopped
-    networks:
-      - quiz-network
-
-  frontend:
-    image: ${AWS_ACCOUNT_ID}.dkr.ecr.ap-south-1.amazonaws.com/quiz-frontend:latest
-    container_name: frontend
-    env_file:
-      - ./docker.env
-      - ./frontend/.env
-      - ./docker.env.local
-      - ./frontend/.env.local
-    ports:
-      - "8080:80"
-    depends_on:
-      - api
     restart: unless-stopped
     networks:
       - quiz-network

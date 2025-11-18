@@ -143,7 +143,7 @@ jobs:
             --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
             --document-name "AWS-RunShellScript" \
             --comment "GitHub Actions Deployment - Run ${{ github.run_id }}" \
-            --parameters 'commands=["bash ~/quiz-maker/infra/deploy.sh ${{ secrets.AWS_REGION }} ${{ env.ECR_REGISTRY }} ${{ secrets.AWS_ACCOUNT_ID }}"]' \
+            --parameters 'commands=["/usr/local/bin/quiz-deploy.sh ${{ secrets.AWS_REGION }} ${{ env.ECR_REGISTRY }} ${{ secrets.AWS_ACCOUNT_ID }}"]' \
             --timeout-seconds 600 \
             --region ${{ secrets.AWS_REGION }} \
             --output text \
@@ -224,26 +224,18 @@ jobs:
         run: |
           echo "=== Running Health Checks ==="
 
-          # Check running containers
-          HEALTH_CHECK='
-          cd $HOME/quiz-app/infra 2>/dev/null || cd /home/ec2-user/quiz-app/infra || cd /home/ubuntu/quiz-app/infra
-
-          # Use production compose file
-          export COMPOSE_FILE=docker-compose.prod.yml
-
-          echo "=== Container Status ==="
-          docker-compose ps --format json | jq -r "select(.State == \"running\") | .Name" | wc -l
-
-          echo ""
-          echo "=== Container Details ==="
-          docker-compose ps
-          '
-
           COMMAND_ID=$(aws ssm send-command \
             --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
             --document-name "AWS-RunShellScript" \
             --comment "Health Check - Run ${{ github.run_id }}" \
-            --parameters commands="$HEALTH_CHECK" \
+            --parameters 'commands=[
+              "cd ~/quiz-app/infra",
+              "echo === Container Status ===",
+              "docker-compose ps",
+              "echo",
+              "echo === Running Containers Count ===",
+              "docker-compose ps | grep -c Up || echo 0"
+            ]' \
             --timeout-seconds 60 \
             --region ${{ secrets.AWS_REGION }} \
             --output text \

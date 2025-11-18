@@ -35,9 +35,29 @@ func New(cfg Config, logger *zap.Logger) (*Database, error) {
 	db.SetMaxIdleConns(cfg.MaxIdleConns)
 	db.SetConnMaxLifetime(cfg.ConnMaxLifetime)
 
-	// Test connection
-	if err := db.Ping(); err != nil {
-		return nil, fmt.Errorf("failed to ping database: %w", err)
+	// Test connection with retry logic for PostgreSQL startup
+	maxRetries := 30
+	retryDelay := 1 * time.Second
+	for i := 0; i < maxRetries; i++ {
+		if err := db.Ping(); err != nil {
+			// Check if it's a startup error
+			errStr := err.Error()
+			if strings.Contains(errStr, "the database system is starting up") ||
+				strings.Contains(errStr, "connection refused") {
+				if i < maxRetries-1 {
+					logger.Info("Database not ready yet, retrying...",
+						zap.Int("attempt", i+1),
+						zap.Int("max_retries", maxRetries),
+						zap.Duration("retry_delay", retryDelay))
+					time.Sleep(retryDelay)
+					continue
+				}
+			}
+			// For other errors or final retry, return the error
+			return nil, fmt.Errorf("failed to ping database: %w", err)
+		}
+		// Connection successful
+		break
 	}
 
 	logger.Info("Database connection established")
