@@ -41,9 +41,7 @@ services:
     container_name: api
     env_file:
       - ./docker.env
-      - ./api/.env
       - ./docker.env.local
-      - ./api/.env.local
     ports:
       - "3000:3000"
     depends_on:

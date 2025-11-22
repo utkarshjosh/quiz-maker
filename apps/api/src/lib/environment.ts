@@ -80,26 +80,40 @@ class Environment implements IEnvironment {
 
   private resolveEnvPath(key: CommonEnvKeys): string | null {
     // On priority bar, .env.<ENVIRONMENT> has higher priority than default env file (.env)
-    // If both are not resolved, error is thrown.
+    // In Docker containers, env vars are passed via process.env, so .env files may not exist
     const rootDir: string = path.resolve(__dirname, '../../');
     const envPath = path.resolve(rootDir, EnvironmentFile[key]);
     const defaultEnvPath = path.resolve(rootDir, EnvironmentFile.DEFAULT);
+
+    // Check if environment-specific .env file exists
     if (fs.existsSync(envPath)) {
       return envPath;
     }
+
+    // Check if default .env file exists
     if (fs.existsSync(defaultEnvPath)) {
       return defaultEnvPath;
     }
 
+    // No .env file found - check if all required env vars are already in process.env
+    // This is the case for Docker containers where env vars are passed via docker-compose
     const missingRequiredEnvKeys = Object.keys(envValidationConfig).filter(
       (envVarKey) => process.env[envVarKey] === undefined
     );
 
-    if (missingRequiredEnvKeys.length > 0) {
-      throw new Error(envFileNotFoundError(key));
+    // If all required vars are in process.env, we don't need a .env file (Docker scenario)
+    if (missingRequiredEnvKeys.length === 0) {
+      return null; // Return null to skip dotenv loading, use process.env directly
     }
 
-    return null;
+    // If we're here, no .env file exists AND required vars are missing
+    // This is an error condition (local development without proper setup)
+    // In Docker, ensure all required env vars are passed via docker-compose env_file or environment
+    const isDocker = process.env.DOCKER === 'true' || fs.existsSync('/.dockerenv');
+    const errorMsg = isDocker
+      ? `Missing required environment variables in Docker container: ${missingRequiredEnvKeys.join(', ')}. Ensure docker-compose env_file contains all required variables.`
+      : envFileNotFoundError(key);
+    throw new Error(errorMsg);
   }
 
   private validateEnvValues() {
