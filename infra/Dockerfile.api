@@ -68,16 +68,8 @@ RUN groupadd --system nodejs \
 COPY --from=builder --chown=nodejs:nodejs /app/package*.json ./
 COPY --from=builder --chown=nodejs:nodejs /app/prisma ./prisma
 
-# Copy entire node_modules from builder (includes Prisma CLI and @prisma/client)
+# Copy entire node_modules from builder (includes Prisma CLI, @prisma/client, and generated binaries)
 COPY --from=builder --chown=nodejs:nodejs /app/node_modules ./node_modules
-
-# Regenerate Prisma client at runtime with OpenSSL available
-# This ensures binaries match the runtime environment's OpenSSL version
-# Clear any existing generated client first to force fresh generation
-RUN rm -rf node_modules/.prisma node_modules/@prisma/.prisma 2>/dev/null || true && \
-    npx prisma generate && \
-    echo "=== Prisma binaries after regeneration ===" && \
-    find node_modules/.prisma/client -name "*query-engine*" -type f 2>/dev/null | head -5
 
 # Copy built application
 COPY --from=builder --chown=nodejs:nodejs /app/dist ./dist
@@ -87,11 +79,9 @@ RUN mkdir -p logs && \
     chown -R nodejs:nodejs logs && \
     chmod 755 logs
 
-# Verify Prisma setup
+# Verify Prisma setup (binaries should already be generated in builder stage)
 RUN echo "=== Prisma Client Verification ===" && \
-    ls -lh node_modules/.prisma/client/*query-engine* 2>/dev/null || echo "WARNING: No Prisma binaries found!" && \
-    echo "=== @prisma/client package ===" && \
-    cat node_modules/@prisma/client/package.json | grep version || echo "Package not found"
+    ls -lh node_modules/.prisma/client/*query-engine* 2>/dev/null || echo "WARNING: No Prisma binaries found!"
 
 USER nodejs
 

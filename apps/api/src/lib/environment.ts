@@ -109,7 +109,8 @@ class Environment implements IEnvironment {
     // If we're here, no .env file exists AND required vars are missing
     // This is an error condition (local development without proper setup)
     // In Docker, ensure all required env vars are passed via docker-compose env_file or environment
-    const isDocker = process.env.DOCKER === 'true' || fs.existsSync('/.dockerenv');
+    const isDocker =
+      process.env.DOCKER === 'true' || fs.existsSync('/.dockerenv');
     const errorMsg = isDocker
       ? `Missing required environment variables in Docker container: ${missingRequiredEnvKeys.join(', ')}. Ensure docker-compose env_file contains all required variables.`
       : envFileNotFoundError(key);
