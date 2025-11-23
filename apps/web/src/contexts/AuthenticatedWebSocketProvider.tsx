@@ -1,6 +1,7 @@
 import React from "react";
 import { WebSocketProvider } from "./WebSocketContext";
 import { useAuth } from "@/auth/AuthContext";
+import { config } from "@/config/env";
 
 interface AuthenticatedWebSocketProviderProps {
   children: React.ReactNode;
@@ -14,7 +15,7 @@ interface AuthenticatedWebSocketProviderProps {
  */
 export const AuthenticatedWebSocketProvider: React.FC<
   AuthenticatedWebSocketProviderProps
-> = ({ children, url = "ws://localhost:5000/ws", requireAuth = true }) => {
+> = ({ children, url = config.socketUrl, requireAuth = true }) => {
   const { isAuthenticated, isLoading } = useAuth();
 
   // Don't render WebSocket provider if auth is required but not available

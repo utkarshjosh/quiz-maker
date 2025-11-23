@@ -9,6 +9,7 @@ import { getWebSocketService } from "../services/WebSocketService";
 import { useGameStore } from "../store/gameStore";
 import { useAuth } from "@/auth/AuthContext";
 import authService from "@/services/authService";
+import { config } from "@/config/env";
 import {
   isGlobalInitialized,
   isGlobalInitializing,
@@ -56,7 +57,7 @@ export function useGameManager() {
 
     // Initialize WebSocket service (singleton)
     const wsService = getWebSocketService({
-      url: "ws://localhost:5000/ws",
+      url: config.socketUrl,
       protocols: ["quiz-protocol"],
     });
 

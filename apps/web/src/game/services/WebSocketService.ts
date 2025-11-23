@@ -7,6 +7,7 @@
 
 import type { Message, QuizSettings } from '@quiz-maker/ts';
 import { MessageType } from '@quiz-maker/ts';
+import { config } from '@/config/env';
 
 export type WebSocketStatus = 'disconnected' | 'connecting' | 'connected' | 'error';
 
@@ -391,16 +392,16 @@ let wsServiceInstance: WebSocketService | null = null;
 /**
  * Get or create the WebSocket service instance
  */
-export function getWebSocketService(config?: WebSocketConfig): WebSocketService {
+export function getWebSocketService(wsConfig?: WebSocketConfig): WebSocketService {
   if (!wsServiceInstance) {
-    if (!config) {
-      // Use default config if none provided
-      config = {
-        url: 'ws://localhost:5000/ws',
+    if (!wsConfig) {
+      // Use environment config if none provided
+      wsConfig = {
+        url: config.socketUrl,
         protocols: ['quiz-protocol'],
       };
     }
-    wsServiceInstance = new WebSocketService(config);
+    wsServiceInstance = new WebSocketService(wsConfig);
   }
   return wsServiceInstance;
 }
