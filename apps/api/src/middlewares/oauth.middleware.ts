@@ -183,9 +183,12 @@ export class OAuthMiddleware {
         } else {
           console.error('❌ ERROR: No access_token or id_token in session');
           // If no tokens, redirect to frontend with error
+          // Note: We still return the session to satisfy TypeScript,
+          // but the redirect response is already sent
           const frontendUrl = envConfig.frontend.url;
           console.log('🔄 Redirecting to frontend with error');
-          return res.redirect(`${frontendUrl}?auth=error`);
+          res.redirect(`${frontendUrl}?auth=error`);
+          return session; // Return session even after redirect (response already sent)
         }
 
         // Return session - express-openid-connect will automatically redirect
