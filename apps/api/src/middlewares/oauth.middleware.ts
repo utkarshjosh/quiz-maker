@@ -81,13 +81,15 @@ export class OAuthMiddleware {
       getLoginState: (req, options) => {
         const frontendUrl = envConfig.frontend.url;
         const returnTo = (req.query.returnTo as string) || '/';
-        
+
         // Ensure returnTo is a valid path (remove leading slash if present to avoid double slashes)
-        const cleanReturnTo = returnTo.startsWith('/') ? returnTo : `/${returnTo}`;
-        
+        const cleanReturnTo = returnTo.startsWith('/')
+          ? returnTo
+          : `/${returnTo}`;
+
         // Construct absolute URL - ensure it uses HTTPS in production
         const redirectUrl = `${frontendUrl}${cleanReturnTo}?auth=success`;
-        
+
         console.log('🔐 getLoginState - Setting returnTo:', {
           frontendUrl,
           returnTo,
@@ -124,54 +126,62 @@ export class OAuthMiddleware {
             CookieService.setJWTCookie(res, tokenToUse);
           }
 
-          // CRITICAL FIX: Decode the id_token to get user claims
-          // The session object doesn't have a 'claims' property - we need to decode the JWT
+          // CRITICAL FIX: Run database operations in background (don't block redirect)
+          // This prevents the OAuth callback from timing out and causing 502 errors
           if (idToken) {
-            try {
-              const jwt = require('jsonwebtoken');
-              // Decode without verification (just to extract claims)
-              const decoded = jwt.decode(idToken) as any;
+            // Use setImmediate to run database operations asynchronously
+            // This allows the redirect to happen immediately
+            setImmediate(async () => {
+              try {
+                // eslint-disable-next-line @typescript-eslint/no-var-requires
+                const jwt = require('jsonwebtoken');
+                // Decode without verification (just to extract claims)
+                const decoded = jwt.decode(idToken);
 
-              if (decoded && decoded.sub) {
-                console.log('📝 Decoded user claims from id_token:', {
-                  sub: decoded.sub,
-                  email: decoded.email,
-                  name: decoded.name,
-                  picture: decoded.picture,
-                  email_verified: decoded.email_verified,
-                });
+                if (decoded?.sub) {
+                  console.log('📝 Background: Processing user from id_token:', {
+                    sub: decoded.sub,
+                    email: decoded.email,
+                  });
 
-                const userService = new UserService();
+                  const userService = new UserService();
 
-                const dbUser = await userService.findOrCreateUser({
-                  sub: decoded.sub,
-                  email: decoded.email ?? '',
-                  name: decoded.name,
-                  picture: decoded.picture,
-                  email_verified: decoded.email_verified ?? false,
-                });
+                  const dbUser = await userService.findOrCreateUser({
+                    sub: decoded.sub,
+                    email: decoded.email ?? '',
+                    name: decoded.name,
+                    picture: decoded.picture,
+                    email_verified: decoded.email_verified ?? false,
+                  });
 
-                console.log('✅ User created/updated successfully:', {
-                  id: dbUser.id,
-                  email: dbUser.email,
-                  auth0Id: dbUser.auth0Id,
-                });
-              } else {
+                  console.log(
+                    '✅ Background: User created/updated successfully:',
+                    {
+                      id: dbUser.id,
+                      email: dbUser.email,
+                      auth0Id: dbUser.auth0Id,
+                    }
+                  );
+                } else {
+                  console.error(
+                    '❌ Background: Could not decode user claims from id_token'
+                  );
+                }
+              } catch (error) {
                 console.error(
-                  '❌ ERROR: Could not decode user claims from id_token'
+                  '❌ Background: Failed to create/update user:',
+                  error
                 );
-                console.error('Decoded token:', decoded);
+                console.error(
+                  'Error details:',
+                  error instanceof Error ? error.message : error
+                );
               }
-            } catch (error) {
-              console.error(
-                '❌ ERROR: Failed to decode id_token or create user:',
-                error
-              );
-              console.error(
-                'Error details:',
-                error instanceof Error ? error.message : error
-              );
-            }
+            });
+
+            console.log(
+              '⚡ Callback responding immediately (user creation in background)'
+            );
           } else {
             console.warn(
               '⚠️ WARNING: No id_token available, cannot create user in database'
@@ -191,7 +201,8 @@ export class OAuthMiddleware {
           return session; // Return session even after redirect (response already sent)
         }
 
-        // Return session - express-openid-connect will automatically redirect
+        // Return session IMMEDIATELY - don't wait for database operations
+        // express-openid-connect will automatically redirect
         // using the returnTo from state (set in getLoginState)
         // The trust proxy setting ensures redirects use HTTPS
         return session;
@@ -269,7 +280,7 @@ export class OAuthMiddleware {
 
         console.log('🔑 JWT token from cookie:', {
           hasToken: !!token,
-          tokenLength: token?.length || 0,
+          tokenLength: token?.length ?? 0,
           tokenPreview: token ? token.substring(0, 50) + '...' : 'none',
         });
 
@@ -366,7 +377,7 @@ export class OAuthMiddleware {
     try {
       const userService = new UserService();
       const user = await userService.getUserByAuth0Id(req.user.sub);
-      return user?.id || null;
+      return user?.id ?? null;
     } catch (error) {
       console.error('Error fetching user ID from JWT:', error);
       return null;

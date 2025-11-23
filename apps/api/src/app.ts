@@ -62,20 +62,11 @@ class App {
     this.express.use(cookieParser()); // Add cookie parsing for auth
 
     // Session middleware - required for express-openid-connect
-    this.express.use(
-      session({
-        secret: envConfig.jwt.secret,
-        resave: false,
-        saveUninitialized: false,
-        name: 'appSession', // This should match the cookie name used by express-openid-connect
-        cookie: {
-          httpOnly: true,
-          secure: environment.isProd(),
-          sameSite: 'lax',
-          maxAge: 24 * 60 * 60 * 1000, // 24 hours
-        },
-      })
-    );
+    // Uses Redis in production (if REDIS_URL is set), memory store in development
+    // Note: Using require for dynamic configuration (Redis is optional dependency)
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    const { createSessionConfig } = require('@/lib/session.config');
+    this.express.use(session(createSessionConfig()));
 
     // Use generic OAuth middleware
     // express-openid-connect automatically handles callback redirects
