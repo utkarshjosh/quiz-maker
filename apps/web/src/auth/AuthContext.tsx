@@ -7,6 +7,7 @@ import {
   useCallback,
 } from "react";
 import authService, { type AuthUrlsResponse } from "@/services/authService";
+import { config } from "@/config/env";
 
 export type AppUser = {
   id: string;
@@ -170,7 +171,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
         // Clear backend cookies first
         try {
-          const { config } = await import("@/config/env");
           await fetch(`${config.baseApiUrl}/auth/logout`, {
             method: "POST",
             credentials: "include",
