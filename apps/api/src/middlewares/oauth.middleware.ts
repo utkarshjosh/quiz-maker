@@ -81,9 +81,23 @@ export class OAuthMiddleware {
       getLoginState: (req, options) => {
         const frontendUrl = envConfig.frontend.url;
         const returnTo = (req.query.returnTo as string) || '/';
+        
+        // Ensure returnTo is a valid path (remove leading slash if present to avoid double slashes)
+        const cleanReturnTo = returnTo.startsWith('/') ? returnTo : `/${returnTo}`;
+        
+        // Construct absolute URL - ensure it uses HTTPS in production
+        const redirectUrl = `${frontendUrl}${cleanReturnTo}?auth=success`;
+        
+        console.log('🔐 getLoginState - Setting returnTo:', {
+          frontendUrl,
+          returnTo,
+          cleanReturnTo,
+          redirectUrl,
+          isProd: environment.isProd(),
+        });
 
         return {
-          returnTo: `${frontendUrl}${returnTo}?auth=success`,
+          returnTo: redirectUrl,
         };
       },
       // Handle successful callback
@@ -95,6 +109,7 @@ export class OAuthMiddleware {
           hasAccessToken: !!accessToken,
           hasIdToken: !!idToken,
           sessionKeys: session ? Object.keys(session) : [],
+          stateReturnTo: state?.returnTo,
         });
 
         // CRITICAL: Use id_token for cookie as it contains user profile data
@@ -167,8 +182,15 @@ export class OAuthMiddleware {
           }
         } else {
           console.error('❌ ERROR: No access_token or id_token in session');
+          // If no tokens, redirect to frontend with error
+          const frontendUrl = envConfig.frontend.url;
+          console.log('🔄 Redirecting to frontend with error');
+          return res.redirect(`${frontendUrl}?auth=error`);
         }
 
+        // Return session - express-openid-connect will automatically redirect
+        // using the returnTo from state (set in getLoginState)
+        // The trust proxy setting ensures redirects use HTTPS
         return session;
       },
     };

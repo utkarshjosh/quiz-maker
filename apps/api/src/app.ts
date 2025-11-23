@@ -78,11 +78,9 @@ class App {
     );
 
     // Use generic OAuth middleware
+    // express-openid-connect automatically handles callback redirects
+    // No need for additional callbackRedirect middleware
     this.express.use(OAuthMiddleware.create());
-
-    // Add environment-aware callback redirect handler
-    const authRoutes = OAuthMiddleware.getAuthRoutes();
-    this.express.use(authRoutes.callback, OAuthMiddleware.callbackRedirect());
   }
 
   private disableSettings(): void {
