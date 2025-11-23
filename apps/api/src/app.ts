@@ -30,6 +30,13 @@ class App {
   private setMiddlewares(): void {
     const envConfig = environment.getConfig();
 
+    // Trust proxy - CRITICAL for Cloudflare
+    // This ensures Express uses X-Forwarded-Proto, X-Forwarded-Host headers
+    // Without this, redirects will use HTTP instead of HTTPS behind Cloudflare
+    if (environment.isProd() || environment.isStage()) {
+      this.express.set('trust proxy', 1); // Trust first proxy (Cloudflare)
+    }
+
     // Build allowed origins list
     const allowedOrigins = [
       'http://localhost:5173', // Frontend development fallback
