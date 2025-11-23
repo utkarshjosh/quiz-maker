@@ -2,6 +2,12 @@
 
 A scalable, full-stack AI-powered quiz generation and real-time hosting platform built with modern technologies.
 
+## 🌐 Live Demo
+
+**Try it out:** [quiz.utkarshjoshi.com](https://quiz.utkarshjoshi.com)
+
+**Check out more projects:** [utkarshjoshi.com/projects/](https://utkarshjoshi.com/projects/)
+
 ## 🎯 Features
 
 - **🤖 AI-Powered Quiz Generation**: Create quizzes from simple prompts using OpenAI
@@ -61,7 +67,7 @@ quiz-maker/
 | **Frontend**         | React + TypeScript             | Quiz UI, dashboards, real-time updates     |
 | **API Gateway**      | Node.js + Express + TypeScript | Authentication, routing, validation        |
 | **Quiz Generator**   | Node.js + TypeScript           | AI-powered quiz creation                   |
-| **Socket Service** | Golang + WebSocket             | Live quiz hosting, real-time communication |
+| **Socket Service**   | Golang + WebSocket             | Live quiz hosting, real-time communication |
 | **Cache**            | Redis                          | Session storage, real-time data, pub/sub   |
 | **Database**         | MongoDB + Prisma               | Persistent storage for quizzes and users   |
 | **Container**        | Docker                         | Service containerization and orchestration |
