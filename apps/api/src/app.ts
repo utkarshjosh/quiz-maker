@@ -30,14 +30,18 @@ class App {
   private setMiddlewares(): void {
     const envConfig = environment.getConfig();
 
+    // Build allowed origins list
+    const allowedOrigins = [
+      'http://localhost:5173', // Frontend development fallback
+      'http://localhost:8081', // Frontend development (common Vite port)
+      envConfig.appUrl, // Backend URL
+      envConfig.frontend.url, // Environment-configured frontend URL
+      'https://quiz.utkarshjoshi.com', // Production frontend URL
+    ].filter(Boolean); // Remove any undefined/null values
+
     this.express.use(
       cors({
-        origin: [
-          'http://localhost:5173', // Frontend development fallback
-          'http://localhost:8081', // Frontend development (common Vite port)
-          envConfig.appUrl, // Backend URL
-          envConfig.frontend.url, // Environment-configured frontend URL
-        ],
+        origin: allowedOrigins,
         credentials: true, // Allow cookies
         optionsSuccessStatus: 200, // Support legacy browsers
       })
