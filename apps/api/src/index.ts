@@ -1,12 +1,11 @@
 import 'reflect-metadata';
-import { config as configDotenv } from 'dotenv';
 import server from './server';
 import { printAppInfo } from './utils/print-app-info';
 import appConfig from './config/app.config';
 import prismaClient from '@/lib/prisma';
 import environment from '@/lib/environment';
 
-configDotenv();
+// Environment variables are loaded by the Environment class during initialization
 
 server.listen(process.env.PORT, () => {
   const { port, env, appUrl: _appUrl } = environment;

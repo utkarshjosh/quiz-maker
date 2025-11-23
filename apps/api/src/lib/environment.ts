@@ -6,7 +6,6 @@ import { EnvironmentFile, Environments } from '@/enums/environment.enum';
 import envValidationConfig from '@/config/env-validation.config';
 import { envFileNotFoundError } from '@/utils/helper';
 import { type CommonEnvKeys } from '@/types/environment.type';
-import appConfig from '@/config/app.config';
 
 export interface IEnvironment {
   getCurrentEnvironment: () => string;
@@ -43,9 +42,14 @@ class Environment implements IEnvironment {
   private _env: Environments;
   private _appUrl: string;
   private _config: EnvironmentConfig | null = null;
+  private _defaultEnvRoot: string | null = null;
 
   constructor() {
-    this.port = parseInt(process.env.PORT ?? appConfig.defaultPort.toString());
+    // First, load the default .env file to ensure process.env is populated
+    // before we try to read ENVIRONMENT or NODE_ENV
+    this.loadDefaultEnvFile();
+
+    // Now read the environment from process.env (which may have been loaded from .env file)
     const normalizedEnv = this.normalizeEnvironment(
       process.env.ENVIRONMENT ?? process.env.NODE_ENV ?? Environments.DEV
     );
@@ -78,10 +82,84 @@ class Environment implements IEnvironment {
     this._appUrl = value;
   }
 
+  private loadDefaultEnvFile(): void {
+    // Load the default .env file first, before determining environment
+    // This ensures process.env is populated when we check ENVIRONMENT/NODE_ENV
+    const sourceRootDir = path.resolve(__dirname, '../../');
+    const possibleRoots = [
+      sourceRootDir, // Default: apps/api
+      process.cwd(), // Working directory (could be workspace root or apps/api)
+      path.resolve(process.cwd(), 'apps/api'), // Workspace root -> apps/api
+    ];
+
+    // Find and load the default .env file
+    for (const possibleRoot of possibleRoots) {
+      const defaultEnvPath = path.resolve(
+        possibleRoot,
+        EnvironmentFile.DEFAULT
+      );
+      if (fs.existsSync(defaultEnvPath)) {
+        const result = configDotenv({ path: defaultEnvPath });
+        if (result.error) {
+          console.warn(
+            `Warning: Failed to load default .env file from ${defaultEnvPath}:`,
+            result.error.message
+          );
+        }
+        // Store the root directory for later use
+        this._defaultEnvRoot = possibleRoot;
+        return; // Found and loaded, exit
+      }
+    }
+
+    // If no .env file found, check if we're in Docker (env vars passed via docker-compose)
+    const isDocker =
+      process.env.DOCKER === 'true' || fs.existsSync('/.dockerenv');
+    if (!isDocker) {
+      // In local dev without .env file, warn but don't error (will error later if required vars missing)
+      console.warn(
+        'Warning: No default .env file found. Environment variables must be set in process.env.'
+      );
+    }
+  }
+
   private resolveEnvPath(key: CommonEnvKeys): string | null {
     // On priority bar, .env.<ENVIRONMENT> has higher priority than default env file (.env)
     // In Docker containers, env vars are passed via process.env, so .env files may not exist
-    const rootDir: string = path.resolve(__dirname, '../../');
+
+    // Use the stored root directory from loadDefaultEnvFile if available
+    let rootDir: string;
+    if (this._defaultEnvRoot) {
+      rootDir = this._defaultEnvRoot;
+    } else {
+      // Fallback: resolve root directory - works both from source (src/) and compiled (dist/)
+      // __dirname in source: apps/api/src/lib
+      // __dirname in compiled: apps/api/dist/lib
+      // Going up two levels from either location gets us to apps/api
+      const sourceRootDir = path.resolve(__dirname, '../../');
+
+      // Also check from process.cwd() in case we're running from a different directory
+      // This handles cases where node dist/index.js is run from workspace root or other locations
+      const possibleRoots = [
+        sourceRootDir, // Default: apps/api
+        process.cwd(), // Working directory (could be workspace root or apps/api)
+        path.resolve(process.cwd(), 'apps/api'), // Workspace root -> apps/api
+      ];
+
+      // Find the first directory that contains a .env file
+      let foundRootDir: string | null = null;
+      for (const possibleRoot of possibleRoots) {
+        const testPath = path.resolve(possibleRoot, EnvironmentFile.DEFAULT);
+        if (fs.existsSync(testPath)) {
+          foundRootDir = possibleRoot;
+          break;
+        }
+      }
+
+      // Fallback to sourceRootDir if no .env found (will be checked later)
+      rootDir = foundRootDir ?? sourceRootDir;
+    }
+
     const envPath = path.resolve(rootDir, EnvironmentFile[key]);
     const defaultEnvPath = path.resolve(rootDir, EnvironmentFile.DEFAULT);
 
@@ -167,7 +245,28 @@ class Environment implements IEnvironment {
     const envPath = this.resolveEnvPath(envKey);
 
     if (envPath) {
-      configDotenv({ path: envPath });
+      // Only load if it's an environment-specific file (not the default .env which was already loaded)
+      const isDefaultEnvFile = envPath.endsWith(EnvironmentFile.DEFAULT);
+      if (!isDefaultEnvFile) {
+        // Load environment-specific file (e.g., .env.prod) - this will override defaults
+        const result = configDotenv({ path: envPath });
+        if (result.error) {
+          console.error(
+            `Failed to load .env file from ${envPath}:`,
+            result.error
+          );
+          throw result.error;
+        }
+        // Debug logging in development to verify env file is loaded
+        if (this.isDev()) {
+          console.log(
+            `✓ Loaded environment-specific .env file from: ${envPath}`
+          );
+        }
+      } else if (this.isDev()) {
+        // Default .env file was already loaded in constructor
+        console.log(`✓ Using default .env file from: ${envPath}`);
+      }
     }
     this.validateEnvValues();
   }
